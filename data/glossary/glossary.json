@@ -1,0 +1,1340 @@
+{
+  "version": 1,
+  "language_pair": "ko-vi",
+  "updated": "2026-07-16T10:58:10+00:00",
+  "entries": [
+    {
+      "id": "ed0f4da4b180",
+      "korean": "배우",
+      "vietnamese": "diễn viên",
+      "romanization": "bae-u",
+      "pos": "noun",
+      "meaning": "người biểu diễn trên màn ảnh",
+      "context": "ngành giải trí",
+      "example": "그 배우는 유명하다.",
+      "source_url": "https://example.com/test",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 2,
+      "tags": [
+        "entertainment"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "67276be18dcb",
+      "korean": "~에 따르면",
+      "vietnamese": "theo…",
+      "romanization": "e tta-reu-myeon",
+      "pos": "pattern",
+      "meaning": "dẫn nguồn",
+      "context": "báo chí",
+      "example": "보도에 따르면",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "news"
+      ],
+      "category": "grammar"
+    },
+    {
+      "id": "b6f78987585a",
+      "korean": "~을/를 통해",
+      "vietnamese": "thông qua…",
+      "romanization": "eul/reul tong-hae",
+      "pos": "pattern",
+      "meaning": "by means of",
+      "context": "báo chí",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "news"
+      ],
+      "category": "grammar"
+    },
+    {
+      "id": "0c9d651ffb30",
+      "korean": "가사",
+      "vietnamese": "lời bài hát",
+      "romanization": "ga-sa",
+      "pos": "noun",
+      "meaning": "lyrics",
+      "context": "âm nhạc",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "music"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "2139fe0d7505",
+      "korean": "가수",
+      "vietnamese": "ca sĩ",
+      "romanization": "ga-su",
+      "pos": "noun",
+      "meaning": "nghệ sĩ hát",
+      "context": "âm nhạc",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "music"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "0b99cfd64501",
+      "korean": "감독",
+      "vietnamese": "đạo diễn",
+      "romanization": "gam-dok",
+      "pos": "noun",
+      "meaning": "người chỉ đạo phim",
+      "context": "điện ảnh",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "film"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "ed5fa0128d02",
+      "korean": "강남",
+      "vietnamese": "Gangnam",
+      "romanization": "gang-nam",
+      "pos": "proper_noun",
+      "meaning": "khu Gangnam, Seoul",
+      "context": "địa danh",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "place"
+      ],
+      "category": "location"
+    },
+    {
+      "id": "c6f46929ea2a",
+      "korean": "개봉",
+      "vietnamese": "công chiếu / ra rạp",
+      "romanization": "gae-bong",
+      "pos": "noun",
+      "meaning": "phát hành phim",
+      "context": "điện ảnh",
+      "example": "영화가 개봉했다.",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "film"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "aff3380a27d0",
+      "korean": "결별",
+      "vietnamese": "chia tay",
+      "romanization": "gyeol-byeol",
+      "pos": "noun",
+      "meaning": "breakup",
+      "context": "showbiz",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "showbiz"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "57ac5270980c",
+      "korean": "결혼",
+      "vietnamese": "kết hôn",
+      "romanization": "gyeol-hon",
+      "pos": "noun",
+      "meaning": "marriage",
+      "context": "đời tư",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "life"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "0a04b875e320",
+      "korean": "공개",
+      "vietnamese": "công bố / công khai",
+      "romanization": "gong-gae",
+      "pos": "verb",
+      "meaning": "announce / release publicly",
+      "context": "truyền thông",
+      "example": "일정을 공개했다.",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "media"
+      ],
+      "category": "verb"
+    },
+    {
+      "id": "4b86b71e29ed",
+      "korean": "공식",
+      "vietnamese": "chính thức",
+      "romanization": "gong-sik",
+      "pos": "adjective",
+      "meaning": "official",
+      "context": "thông cáo",
+      "example": "공식 입장",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "media"
+      ],
+      "category": "adjective"
+    },
+    {
+      "id": "e9ff77965278",
+      "korean": "관계자",
+      "vietnamese": "người liên quan / nguồn tin",
+      "romanization": "gwan-gye-ja",
+      "pos": "noun",
+      "meaning": "insider / related official",
+      "context": "báo chí",
+      "example": "관계자에 따르면",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "media"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "25f5ee284b9a",
+      "korean": "관심을 받다",
+      "vietnamese": "nhận được sự quan tâm",
+      "romanization": "gwan-sim-eul bat-da",
+      "pos": "phrase",
+      "meaning": "receive attention",
+      "context": "truyền thông",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "media"
+      ],
+      "category": "phrase"
+    },
+    {
+      "id": "272087f55f27",
+      "korean": "그룹",
+      "vietnamese": "nhóm nhạc",
+      "romanization": "geu-rup",
+      "pos": "noun",
+      "meaning": "ban nhạc / nhóm idol",
+      "context": "K-pop",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "kpop"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "76bb3c3f25c6",
+      "korean": "남배우",
+      "vietnamese": "nam diễn viên",
+      "romanization": "nam-bae-u",
+      "pos": "noun",
+      "meaning": "diễn viên nam",
+      "context": "ngành giải trí",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "entertainment"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "4fef8364f4f0",
+      "korean": "넷플릭스",
+      "vietnamese": "Netflix",
+      "romanization": "net-peul-lik-seu",
+      "pos": "proper_noun",
+      "meaning": "nền tảng streaming",
+      "context": "streaming",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "streaming"
+      ],
+      "category": "organization"
+    },
+    {
+      "id": "8658190e48a2",
+      "korean": "논란",
+      "vietnamese": "tranh cãi / scandal",
+      "romanization": "non-lan",
+      "pos": "noun",
+      "meaning": "controversy",
+      "context": "truyền thông",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "media"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "559f2a9f86c9",
+      "korean": "데뷔",
+      "vietnamese": "ra mắt / debut",
+      "romanization": "de-byu",
+      "pos": "noun",
+      "meaning": "lần xuất hiện đầu",
+      "context": "sự nghiệp",
+      "example": "올해 데뷔했다.",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "career"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "2bb81ef5a286",
+      "korean": "드라마",
+      "vietnamese": "phim truyền hình / drama",
+      "romanization": "deu-ra-ma",
+      "pos": "noun",
+      "meaning": "K-drama",
+      "context": "truyền hình",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "kdrama"
+      ],
+      "category": "drama"
+    },
+    {
+      "id": "8429f2033a29",
+      "korean": "디스패치",
+      "vietnamese": "Dispatch",
+      "romanization": "di-seu-pae-chi",
+      "pos": "proper_noun",
+      "meaning": "tờ tin giải trí Hàn",
+      "context": "báo chí",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "media"
+      ],
+      "category": "organization"
+    },
+    {
+      "id": "eeeae8d67f6b",
+      "korean": "뮤직비디오",
+      "vietnamese": "MV / video ca nhạc",
+      "romanization": "myu-jik-bi-di-o",
+      "pos": "noun",
+      "meaning": "music video",
+      "context": "âm nhạc",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "music"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "799f6213e055",
+      "korean": "발표",
+      "vietnamese": "công bố / announcement",
+      "romanization": "bal-pyo",
+      "pos": "noun",
+      "meaning": "official announcement",
+      "context": "truyền thông",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "media"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "6ee9e61c231c",
+      "korean": "방송",
+      "vietnamese": "phát sóng / chương trình",
+      "romanization": "bang-song",
+      "pos": "noun",
+      "meaning": "broadcast",
+      "context": "truyền hình",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "tv"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "02fd2026958b",
+      "korean": "방탄소년단",
+      "vietnamese": "BTS",
+      "romanization": "bang-tan-so-nyeon-dan",
+      "pos": "proper_noun",
+      "meaning": "nhóm nhạc BTS",
+      "context": "K-pop",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "kpop",
+        "bts"
+      ],
+      "category": "celebrity"
+    },
+    {
+      "id": "287dd7baf311",
+      "korean": "보도",
+      "vietnamese": "đưa tin / báo cáo",
+      "romanization": "bo-do",
+      "pos": "noun",
+      "meaning": "news report",
+      "context": "báo chí",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "media"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "01add5f5349e",
+      "korean": "부산",
+      "vietnamese": "Busan",
+      "romanization": "bu-san",
+      "pos": "proper_noun",
+      "meaning": "thành phố cảng",
+      "context": "địa danh",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "place"
+      ],
+      "category": "location"
+    },
+    {
+      "id": "1ce09adebbdd",
+      "korean": "뷰티",
+      "vietnamese": "làm đẹp / beauty",
+      "romanization": "byu-ti",
+      "pos": "noun",
+      "meaning": "beauty industry",
+      "context": "K-beauty",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "beauty"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "4fa08cb8900e",
+      "korean": "블랙핑크",
+      "vietnamese": "BLACKPINK",
+      "romanization": "beul-laek-ping-keu",
+      "pos": "proper_noun",
+      "meaning": "nhóm nữ BLACKPINK",
+      "context": "K-pop",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "kpop"
+      ],
+      "category": "celebrity"
+    },
+    {
+      "id": "74fdbe283795",
+      "korean": "서울",
+      "vietnamese": "Seoul",
+      "romanization": "seo-ul",
+      "pos": "proper_noun",
+      "meaning": "thủ đô Hàn Quốc",
+      "context": "địa danh",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "place"
+      ],
+      "category": "location"
+    },
+    {
+      "id": "2608d47c84a3",
+      "korean": "소속사",
+      "vietnamese": "công ty quản lý / agency",
+      "romanization": "so-sok-sa",
+      "pos": "noun",
+      "meaning": "công ty giải trí của nghệ sĩ",
+      "context": "ngành",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "industry"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "cd044609afba",
+      "korean": "솔로",
+      "vietnamese": "solo",
+      "romanization": "sol-lo",
+      "pos": "noun",
+      "meaning": "hoạt động đơn ca",
+      "context": "âm nhạc",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "music"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "168908513161",
+      "korean": "수상",
+      "vietnamese": "nhận giải",
+      "romanization": "su-sang",
+      "pos": "noun",
+      "meaning": "đoạt giải thưởng",
+      "context": "giải thưởng",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "awards"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "41247d778ba0",
+      "korean": "시사회",
+      "vietnamese": "buổi công chiếu thử / premiere",
+      "romanization": "si-sa-hoe",
+      "pos": "noun",
+      "meaning": "chiếu ra mắt",
+      "context": "điện ảnh",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "film"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "e43b9b0d5de5",
+      "korean": "시상식",
+      "vietnamese": "lễ trao giải",
+      "romanization": "si-sang-sik",
+      "pos": "noun",
+      "meaning": "award ceremony",
+      "context": "giải thưởng",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "awards"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "1a3a55a0f68a",
+      "korean": "싱글",
+      "vietnamese": "single",
+      "romanization": "sing-geul",
+      "pos": "noun",
+      "meaning": "đĩa đơn",
+      "context": "âm nhạc",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "music"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "d85260b37d8f",
+      "korean": "아이돌",
+      "vietnamese": "idol",
+      "romanization": "a-i-dol",
+      "pos": "noun",
+      "meaning": "thần tượng K-pop",
+      "context": "K-pop",
+      "example": "아이돌 그룹이 데뷔했다.",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "kpop"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "0255638b68b1",
+      "korean": "아이유",
+      "vietnamese": "IU",
+      "romanization": "a-i-yu",
+      "pos": "proper_noun",
+      "meaning": "ca sĩ / diễn viên IU",
+      "context": "nghệ sĩ",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "artist"
+      ],
+      "category": "celebrity"
+    },
+    {
+      "id": "ce5ef7bfae57",
+      "korean": "안무",
+      "vietnamese": "biên đạo / vũ đạo",
+      "romanization": "an-mu",
+      "pos": "noun",
+      "meaning": "choreography",
+      "context": "biểu diễn",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "performance"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "ee4c0dec13a3",
+      "korean": "앨범",
+      "vietnamese": "album",
+      "romanization": "ael-beom",
+      "pos": "noun",
+      "meaning": "đĩa nhạc",
+      "context": "âm nhạc",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "music"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "eb031b14e923",
+      "korean": "에스엠",
+      "vietnamese": "SM Entertainment",
+      "romanization": "e-seu-em",
+      "pos": "proper_noun",
+      "meaning": "công ty SM",
+      "context": "công ty",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "company"
+      ],
+      "category": "organization"
+    },
+    {
+      "id": "af03a64e5279",
+      "korean": "여배우",
+      "vietnamese": "nữ diễn viên",
+      "romanization": "yeo-bae-u",
+      "pos": "noun",
+      "meaning": "diễn viên nữ",
+      "context": "ngành giải trí",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "entertainment"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "4d2540df0160",
+      "korean": "연습생",
+      "vietnamese": "thực tập sinh",
+      "romanization": "yeon-seup-saeng",
+      "pos": "noun",
+      "meaning": "trainee idol",
+      "context": "K-pop",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "kpop"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "4c27c4c90ee3",
+      "korean": "열애",
+      "vietnamese": "yêu đương / hẹn hò",
+      "romanization": "yeol-ae",
+      "pos": "noun",
+      "meaning": "dating news",
+      "context": "showbiz",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "showbiz"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "9b39914e2b5a",
+      "korean": "영화",
+      "vietnamese": "phim điện ảnh",
+      "romanization": "yeong-hwa",
+      "pos": "noun",
+      "meaning": "movie",
+      "context": "điện ảnh",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "film"
+      ],
+      "category": "movie"
+    },
+    {
+      "id": "bbb9f4f22800",
+      "korean": "예능",
+      "vietnamese": "chương trình giải trí / variety",
+      "romanization": "ye-neung",
+      "pos": "noun",
+      "meaning": "variety show",
+      "context": "truyền hình",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "tv"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "8e24b1132e23",
+      "korean": "와이쥐",
+      "vietnamese": "YG Entertainment",
+      "romanization": "wa-i-ji",
+      "pos": "proper_noun",
+      "meaning": "công ty YG",
+      "context": "công ty",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "company"
+      ],
+      "category": "organization"
+    },
+    {
+      "id": "5362a56b7642",
+      "korean": "음원",
+      "vietnamese": "nhạc số / digital track",
+      "romanization": "eum-won",
+      "pos": "noun",
+      "meaning": "digital music release",
+      "context": "âm nhạc",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "music"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "81833368534c",
+      "korean": "인터뷰",
+      "vietnamese": "phỏng vấn",
+      "romanization": "in-teo-byu",
+      "pos": "noun",
+      "meaning": "interview",
+      "context": "báo chí",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "media"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "bd3208440fb3",
+      "korean": "입장",
+      "vietnamese": "lập trường / tuyên bố",
+      "romanization": "ip-jang",
+      "pos": "noun",
+      "meaning": "official position statement",
+      "context": "truyền thông",
+      "example": "소속사 입장",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "media"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "91ce7e41aa14",
+      "korean": "제이와이드",
+      "vietnamese": "JYP Entertainment",
+      "romanization": "je-i-wa-i-deu",
+      "pos": "proper_noun",
+      "meaning": "công ty JYP",
+      "context": "công ty",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "company"
+      ],
+      "category": "organization"
+    },
+    {
+      "id": "f1e3f5161dc4",
+      "korean": "제작",
+      "vietnamese": "sản xuất",
+      "romanization": "je-jak",
+      "pos": "noun",
+      "meaning": "production",
+      "context": "truyền thông",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "media"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "38308f341b74",
+      "korean": "제주",
+      "vietnamese": "Jeju",
+      "romanization": "je-ju",
+      "pos": "proper_noun",
+      "meaning": "đảo Jeju",
+      "context": "địa danh",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "place"
+      ],
+      "category": "location"
+    },
+    {
+      "id": "f5a71ff61b12",
+      "korean": "주목받다",
+      "vietnamese": "được chú ý",
+      "romanization": "ju-mok-bat-da",
+      "pos": "verb",
+      "meaning": "draw attention",
+      "context": "truyền thông",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "media"
+      ],
+      "category": "verb"
+    },
+    {
+      "id": "388ea902b8d4",
+      "korean": "차트",
+      "vietnamese": "bảng xếp hạng",
+      "romanization": "cha-teu",
+      "pos": "noun",
+      "meaning": "music chart",
+      "context": "âm nhạc",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "music"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "e38250c656d1",
+      "korean": "출연",
+      "vietnamese": "tham gia / đóng vai",
+      "romanization": "chul-yeon",
+      "pos": "noun",
+      "meaning": "xuất hiện trên show/phim",
+      "context": "giải trí",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "entertainment"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "8116d8b6f736",
+      "korean": "캐스팅",
+      "vietnamese": "casting",
+      "romanization": "kae-seu-ting",
+      "pos": "noun",
+      "meaning": "tuyển vai",
+      "context": "phim/drama",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "film"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "3732e2f8f9e9",
+      "korean": "컴백",
+      "vietnamese": "comeback",
+      "romanization": "keom-baek",
+      "pos": "noun",
+      "meaning": "trở lại với sản phẩm mới",
+      "context": "K-pop",
+      "example": "컴백 일정이 공개됐다.",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "kpop"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "018c0a35a473",
+      "korean": "케이드라마",
+      "vietnamese": "K-drama",
+      "romanization": "ke-i-deu-ra-ma",
+      "pos": "noun",
+      "meaning": "phim truyền hình Hàn",
+      "context": "truyền hình",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "kdrama"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "dc267659a9ff",
+      "korean": "케이팝",
+      "vietnamese": "K-pop",
+      "romanization": "ke-i-pap",
+      "pos": "noun",
+      "meaning": "nhạc pop Hàn Quốc",
+      "context": "âm nhạc",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "kpop"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "4270dce15b48",
+      "korean": "콘서트",
+      "vietnamese": "buổi hòa nhạc / concert",
+      "romanization": "kon-seo-teu",
+      "pos": "noun",
+      "meaning": "biểu diễn trực tiếp",
+      "context": "sự kiện",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "event"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "955262dd02c4",
+      "korean": "타이틀곡",
+      "vietnamese": "bài chủ đề / title track",
+      "romanization": "ta-i-teul-gok",
+      "pos": "noun",
+      "meaning": "ca khúc chủ đạo của album",
+      "context": "âm nhạc",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "music"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "ebab7ac9cce9",
+      "korean": "투어",
+      "vietnamese": "tour / chuyến lưu diễn",
+      "romanization": "tu-eo",
+      "pos": "noun",
+      "meaning": "chuỗi concert nhiều thành phố",
+      "context": "sự kiện",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "event"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "72e6b0d92e72",
+      "korean": "패션",
+      "vietnamese": "thời trang",
+      "romanization": "pae-syeon",
+      "pos": "noun",
+      "meaning": "fashion",
+      "context": "thời trang",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "fashion"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "60cec53da715",
+      "korean": "팬",
+      "vietnamese": "fan",
+      "romanization": "paen",
+      "pos": "noun",
+      "meaning": "người hâm mộ",
+      "context": "fandom",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "fandom"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "f669d568eefd",
+      "korean": "팬미팅",
+      "vietnamese": "fan meeting",
+      "romanization": "paen-mi-ting",
+      "pos": "noun",
+      "meaning": "gặp gỡ fan",
+      "context": "sự kiện",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "event"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "36f5832d3275",
+      "korean": "하이브",
+      "vietnamese": "HYBE",
+      "romanization": "ha-i-beu",
+      "pos": "proper_noun",
+      "meaning": "công ty giải trí HYBE",
+      "context": "công ty",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "company"
+      ],
+      "category": "organization"
+    },
+    {
+      "id": "9d7b9d87a4f1",
+      "korean": "한류",
+      "vietnamese": "Hallyu / làn sóng Hàn",
+      "romanization": "hal-lyu",
+      "pos": "noun",
+      "meaning": "Korean Wave",
+      "context": "văn hóa",
+      "example": "한류가 확산되고 있다.",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "culture"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "9ded1bd95c23",
+      "korean": "한복",
+      "vietnamese": "hanbok",
+      "romanization": "han-bok",
+      "pos": "noun",
+      "meaning": "trang phục truyền thống Hàn",
+      "context": "văn hóa",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "culture"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "022dc4a3c17c",
+      "korean": "홍대",
+      "vietnamese": "Hongdae",
+      "romanization": "hong-dae",
+      "pos": "proper_noun",
+      "meaning": "khu Hongdae",
+      "context": "địa danh",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "place"
+      ],
+      "category": "location"
+    },
+    {
+      "id": "3986b32650b5",
+      "korean": "화보",
+      "vietnamese": "bộ ảnh / pictorial",
+      "romanization": "hwa-bo",
+      "pos": "noun",
+      "meaning": "magazine pictorial",
+      "context": "thời trang",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "fashion"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "572573b4e708",
+      "korean": "화제",
+      "vietnamese": "chủ đề nóng / viral",
+      "romanization": "hwa-je",
+      "pos": "noun",
+      "meaning": "đang được bàn tán",
+      "context": "truyền thông",
+      "example": "화제가 된 배우",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "media"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "6c0ee2786bc9",
+      "korean": "화제를 모으다",
+      "vietnamese": "gây chú ý / thu hút bàn tán",
+      "romanization": "hwa-je-reul mo-eu-da",
+      "pos": "idiom",
+      "meaning": "attract attention",
+      "context": "truyền thông",
+      "example": "화제를 모으고 있다",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "media"
+      ],
+      "category": "idiom"
+    },
+    {
+      "id": "c87053b1cf12",
+      "korean": "흥행",
+      "vietnamese": "doanh thu / thành công phòng vé",
+      "romanization": "heung-haeng",
+      "pos": "noun",
+      "meaning": "box office performance",
+      "context": "điện ảnh",
+      "example": "",
+      "source_url": "",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "film"
+      ],
+      "category": "noun"
+    }
+  ]
+}

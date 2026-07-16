@@ -50,9 +50,10 @@ koreawiki/
 ├── archetypes/          # Content templates
 ├── assets/
 │   ├── scss/           # Modular SCSS files
-│   └── js/             # Vanilla JS + Pagefind smart search
+│   └── js/             # Vanilla JS + Pagefind smart search + glossary
 ├── config/             # Hugo configuration
 ├── content/            # Markdown content by section
+├── data/glossary/      # Private Translation Memory (not deployed as files)
 ├── i18n/               # Translation strings (en, ko, vi)
 ├── layouts/            # Root-level templates (robots.txt, 404)
 ├── scripts/            # Python automation scripts
@@ -68,12 +69,33 @@ koreawiki/
 | `seo.py` | SEO metadata checks |
 | `publish.py` | Set draft=false |
 | `slug.py` | Normalize URL slugs |
-| `translate.py` | Export for translation |
+| `translate.py` | Export for translation (+ TM hints) |
+| `glossary.py` | Translation Memory & Glossary manager |
 | `optimize_images.py` | Validate image refs |
 | `check_links.py` | Internal link checking |
 | `generate_schema.py` | Schema.org validation |
 | `markdown_lint.py` | Markdown formatting |
 | `frontmatter_check.py` | Front matter correctness |
+
+## Translation Memory & Glossary
+
+KoreaWiki builds a private Korean → Vietnamese Translation Memory under
+`data/glossary/` every time articles are published (including the `mm` command).
+
+| Public | Private |
+|--------|---------|
+| Browseable page at `/glossary/` | Raw `glossary.json` / `.csv` / `.md` / `.sqlite` |
+| Footer link **Glossary** | Repository asset only — not downloadable from the site |
+
+```bash
+python3 scripts/glossary.py init      # seed TM
+python3 scripts/glossary.py consult   # before translating
+python3 scripts/glossary.py upsert -f entries.json
+python3 scripts/glossary.py quality
+python3 scripts/glossary.py sync
+```
+
+Backup / restore procedures: see [`data/glossary/README.md`](data/glossary/README.md).
 
 ## Deployment
 

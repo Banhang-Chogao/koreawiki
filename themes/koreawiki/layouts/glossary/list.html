@@ -1,0 +1,108 @@
+{{ define "main" }}
+{{/*
+  Public Glossary page.
+  Loads private TM via readFile (data/glossary/glossary.json) — not Site.Data,
+  so raw md/csv/sqlite co-located under data/glossary/ never enter the public build.
+*/}}
+{{ $store := dict "entries" (slice) }}
+{{ with try (readFile "data/glossary/glossary.json") }}
+  {{ with .Err }}
+    {{/* missing TM file — empty glossary */}}
+  {{ else }}
+    {{ with transform.Unmarshal .Value }}
+      {{ $store = . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $entries := $store.entries | default (slice) }}
+{{ $count := len $entries }}
+
+<section class="glossary-page" data-pagefind-ignore="all">
+  <header class="glossary-header">
+    <h1 class="glossary-title">{{ .Title }}</h1>
+    {{ with .Description }}
+    <p class="glossary-desc">{{ . }}</p>
+    {{ end }}
+    <p class="glossary-meta">
+      <span data-glossary-count>{{ $count }}</span> {{ T "glossary_entries" | default "entries" }}
+      · {{ T "glossary_ko_vi" | default "Korean → Vietnamese" }}
+    </p>
+  </header>
+
+  <div class="glossary-toolbar">
+    <div class="glossary-search-wrap">
+      <label class="visually-hidden" for="glossary-search">{{ T "glossary_search" | default "Search glossary" }}</label>
+      <input
+        type="search"
+        id="glossary-search"
+        class="glossary-search"
+        data-glossary-search
+        placeholder="{{ T "glossary_search_placeholder" | default "Search Hangul, Vietnamese, romanization…" }}"
+        autocomplete="off"
+        spellcheck="false"
+        enterkeyhint="search"
+      >
+      <button type="button" class="glossary-search-clear" data-glossary-clear hidden aria-label="{{ T "clear" | default "Clear" }}">×</button>
+    </div>
+
+    <div class="glossary-filters" role="group" aria-label="{{ T "glossary_category" | default "Category" }}">
+      <button type="button" class="glossary-chip is-active" data-glossary-category="all">{{ T "all" | default "All" }}</button>
+      {{ $cats := slice "noun" "proper_noun" "celebrity" "organization" "drama" "movie" "location" "idiom" "grammar" "phrase" "slang" "pattern" }}
+      {{ range $cats }}
+      <button type="button" class="glossary-chip" data-glossary-category="{{ . }}">{{ . }}</button>
+      {{ end }}
+    </div>
+
+    <div class="glossary-hangul" role="group" aria-label="{{ T "glossary_hangul_filter" | default "Hangul filter" }}">
+      <button type="button" class="glossary-chip is-active" data-glossary-hangul="all">{{ T "all" | default "All" }}</button>
+      {{ $jamos := slice "ㄱ" "ㄴ" "ㄷ" "ㄹ" "ㅁ" "ㅂ" "ㅅ" "ㅇ" "ㅈ" "ㅊ" "ㅋ" "ㅌ" "ㅍ" "ㅎ" }}
+      {{ range $jamos }}
+      <button type="button" class="glossary-chip glossary-chip--sm" data-glossary-hangul="{{ . }}">{{ . }}</button>
+      {{ end }}
+    </div>
+  </div>
+
+  <div class="glossary-status" data-glossary-status aria-live="polite"></div>
+
+  <div class="glossary-table-wrap">
+    <table class="glossary-table" data-glossary-table>
+      <thead>
+        <tr>
+          <th scope="col">{{ T "glossary_korean" | default "Korean" }}</th>
+          <th scope="col">{{ T "glossary_vietnamese" | default "Vietnamese" }}</th>
+          <th scope="col">{{ T "glossary_category" | default "Category" }}</th>
+          <th scope="col">{{ T "glossary_context" | default "Context" }}</th>
+          <th scope="col">{{ T "glossary_example" | default "Example" }}</th>
+        </tr>
+      </thead>
+      <tbody data-glossary-tbody>
+        {{/* Rows rendered by glossary.js from embedded data for pagination + search */}}
+      </tbody>
+    </table>
+    <p class="glossary-empty" data-glossary-empty hidden>{{ T "no_results" | default "No results found" }}</p>
+  </div>
+
+  <nav class="glossary-pagination" data-glossary-pagination aria-label="{{ T "glossary_pagination" | default "Glossary pagination" }}"></nav>
+
+  <p class="glossary-privacy">
+    {{ T "glossary_privacy" | default "The raw Translation Memory database is a private repository asset and is not available for download." }}
+  </p>
+</section>
+
+{{/* Display-safe fields only — embedded in page HTML, not a downloadable DB file */}}
+{{ $public := slice }}
+{{ range $entries }}
+  {{ $public = $public | append (dict
+    "korean" (.korean | default "")
+    "vietnamese" (.vietnamese | default "")
+    "romanization" (.romanization | default "")
+    "pos" (.pos | default "")
+    "meaning" (.meaning | default "")
+    "context" (.context | default "")
+    "example" (.example | default "")
+    "category" (.category | default "other")
+    "tags" (.tags | default (slice))
+  ) }}
+{{ end }}
+<script type="application/json" id="glossary-data">{{ $public | jsonify | safeJS }}</script>
+{{ end }}

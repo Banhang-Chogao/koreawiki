@@ -9,3 +9,13 @@ __pycache__/
 .idea/
 *.log
 .hugo_build.lock
+
+# Never commit accidental public dumps of the private TM
+# (canonical TM lives under data/glossary/ and is versioned intentionally)
+static/**/glossary.json
+static/**/glossary.csv
+static/**/glossary.sqlite
+static/**/glossary.md
+public/**/glossary.json
+public/**/glossary.csv
+public/**/glossary.sqlite

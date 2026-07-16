@@ -1,0 +1,75 @@
+id,korean,vietnamese,romanization,pos,meaning,context,example,source_url,first_seen,last_seen,frequency,tags,category
+ed0f4da4b180,배우,diễn viên,bae-u,noun,người biểu diễn trên màn ảnh,ngành giải trí,그 배우는 유명하다.,https://example.com/test,2026-07-16,2026-07-16,2,entertainment,noun
+67276be18dcb,~에 따르면,theo…,e tta-reu-myeon,pattern,dẫn nguồn,báo chí,보도에 따르면,,2026-07-16,2026-07-16,1,news,grammar
+b6f78987585a,~을/를 통해,thông qua…,eul/reul tong-hae,pattern,by means of,báo chí,,,2026-07-16,2026-07-16,1,news,grammar
+0c9d651ffb30,가사,lời bài hát,ga-sa,noun,lyrics,âm nhạc,,,2026-07-16,2026-07-16,1,music,noun
+2139fe0d7505,가수,ca sĩ,ga-su,noun,nghệ sĩ hát,âm nhạc,,,2026-07-16,2026-07-16,1,music,noun
+0b99cfd64501,감독,đạo diễn,gam-dok,noun,người chỉ đạo phim,điện ảnh,,,2026-07-16,2026-07-16,1,film,noun
+ed5fa0128d02,강남,Gangnam,gang-nam,proper_noun,"khu Gangnam, Seoul",địa danh,,,2026-07-16,2026-07-16,1,place,location
+c6f46929ea2a,개봉,công chiếu / ra rạp,gae-bong,noun,phát hành phim,điện ảnh,영화가 개봉했다.,,2026-07-16,2026-07-16,1,film,noun
+aff3380a27d0,결별,chia tay,gyeol-byeol,noun,breakup,showbiz,,,2026-07-16,2026-07-16,1,showbiz,noun
+57ac5270980c,결혼,kết hôn,gyeol-hon,noun,marriage,đời tư,,,2026-07-16,2026-07-16,1,life,noun
+0a04b875e320,공개,công bố / công khai,gong-gae,verb,announce / release publicly,truyền thông,일정을 공개했다.,,2026-07-16,2026-07-16,1,media,verb
+4b86b71e29ed,공식,chính thức,gong-sik,adjective,official,thông cáo,공식 입장,,2026-07-16,2026-07-16,1,media,adjective
+e9ff77965278,관계자,người liên quan / nguồn tin,gwan-gye-ja,noun,insider / related official,báo chí,관계자에 따르면,,2026-07-16,2026-07-16,1,media,noun
+25f5ee284b9a,관심을 받다,nhận được sự quan tâm,gwan-sim-eul bat-da,phrase,receive attention,truyền thông,,,2026-07-16,2026-07-16,1,media,phrase
+272087f55f27,그룹,nhóm nhạc,geu-rup,noun,ban nhạc / nhóm idol,K-pop,,,2026-07-16,2026-07-16,1,kpop,noun
+76bb3c3f25c6,남배우,nam diễn viên,nam-bae-u,noun,diễn viên nam,ngành giải trí,,,2026-07-16,2026-07-16,1,entertainment,noun
+4fef8364f4f0,넷플릭스,Netflix,net-peul-lik-seu,proper_noun,nền tảng streaming,streaming,,,2026-07-16,2026-07-16,1,streaming,organization
+8658190e48a2,논란,tranh cãi / scandal,non-lan,noun,controversy,truyền thông,,,2026-07-16,2026-07-16,1,media,noun
+559f2a9f86c9,데뷔,ra mắt / debut,de-byu,noun,lần xuất hiện đầu,sự nghiệp,올해 데뷔했다.,,2026-07-16,2026-07-16,1,career,noun
+2bb81ef5a286,드라마,phim truyền hình / drama,deu-ra-ma,noun,K-drama,truyền hình,,,2026-07-16,2026-07-16,1,kdrama,drama
+8429f2033a29,디스패치,Dispatch,di-seu-pae-chi,proper_noun,tờ tin giải trí Hàn,báo chí,,,2026-07-16,2026-07-16,1,media,organization
+eeeae8d67f6b,뮤직비디오,MV / video ca nhạc,myu-jik-bi-di-o,noun,music video,âm nhạc,,,2026-07-16,2026-07-16,1,music,noun
+799f6213e055,발표,công bố / announcement,bal-pyo,noun,official announcement,truyền thông,,,2026-07-16,2026-07-16,1,media,noun
+6ee9e61c231c,방송,phát sóng / chương trình,bang-song,noun,broadcast,truyền hình,,,2026-07-16,2026-07-16,1,tv,noun
+02fd2026958b,방탄소년단,BTS,bang-tan-so-nyeon-dan,proper_noun,nhóm nhạc BTS,K-pop,,,2026-07-16,2026-07-16,1,"kpop,bts",celebrity
+287dd7baf311,보도,đưa tin / báo cáo,bo-do,noun,news report,báo chí,,,2026-07-16,2026-07-16,1,media,noun
+01add5f5349e,부산,Busan,bu-san,proper_noun,thành phố cảng,địa danh,,,2026-07-16,2026-07-16,1,place,location
+1ce09adebbdd,뷰티,làm đẹp / beauty,byu-ti,noun,beauty industry,K-beauty,,,2026-07-16,2026-07-16,1,beauty,noun
+4fa08cb8900e,블랙핑크,BLACKPINK,beul-laek-ping-keu,proper_noun,nhóm nữ BLACKPINK,K-pop,,,2026-07-16,2026-07-16,1,kpop,celebrity
+74fdbe283795,서울,Seoul,seo-ul,proper_noun,thủ đô Hàn Quốc,địa danh,,,2026-07-16,2026-07-16,1,place,location
+2608d47c84a3,소속사,công ty quản lý / agency,so-sok-sa,noun,công ty giải trí của nghệ sĩ,ngành,,,2026-07-16,2026-07-16,1,industry,noun
+cd044609afba,솔로,solo,sol-lo,noun,hoạt động đơn ca,âm nhạc,,,2026-07-16,2026-07-16,1,music,noun
+168908513161,수상,nhận giải,su-sang,noun,đoạt giải thưởng,giải thưởng,,,2026-07-16,2026-07-16,1,awards,noun
+41247d778ba0,시사회,buổi công chiếu thử / premiere,si-sa-hoe,noun,chiếu ra mắt,điện ảnh,,,2026-07-16,2026-07-16,1,film,noun
+e43b9b0d5de5,시상식,lễ trao giải,si-sang-sik,noun,award ceremony,giải thưởng,,,2026-07-16,2026-07-16,1,awards,noun
+1a3a55a0f68a,싱글,single,sing-geul,noun,đĩa đơn,âm nhạc,,,2026-07-16,2026-07-16,1,music,noun
+d85260b37d8f,아이돌,idol,a-i-dol,noun,thần tượng K-pop,K-pop,아이돌 그룹이 데뷔했다.,,2026-07-16,2026-07-16,1,kpop,noun
+0255638b68b1,아이유,IU,a-i-yu,proper_noun,ca sĩ / diễn viên IU,nghệ sĩ,,,2026-07-16,2026-07-16,1,artist,celebrity
+ce5ef7bfae57,안무,biên đạo / vũ đạo,an-mu,noun,choreography,biểu diễn,,,2026-07-16,2026-07-16,1,performance,noun
+ee4c0dec13a3,앨범,album,ael-beom,noun,đĩa nhạc,âm nhạc,,,2026-07-16,2026-07-16,1,music,noun
+eb031b14e923,에스엠,SM Entertainment,e-seu-em,proper_noun,công ty SM,công ty,,,2026-07-16,2026-07-16,1,company,organization
+af03a64e5279,여배우,nữ diễn viên,yeo-bae-u,noun,diễn viên nữ,ngành giải trí,,,2026-07-16,2026-07-16,1,entertainment,noun
+4d2540df0160,연습생,thực tập sinh,yeon-seup-saeng,noun,trainee idol,K-pop,,,2026-07-16,2026-07-16,1,kpop,noun
+4c27c4c90ee3,열애,yêu đương / hẹn hò,yeol-ae,noun,dating news,showbiz,,,2026-07-16,2026-07-16,1,showbiz,noun
+9b39914e2b5a,영화,phim điện ảnh,yeong-hwa,noun,movie,điện ảnh,,,2026-07-16,2026-07-16,1,film,movie
+bbb9f4f22800,예능,chương trình giải trí / variety,ye-neung,noun,variety show,truyền hình,,,2026-07-16,2026-07-16,1,tv,noun
+8e24b1132e23,와이쥐,YG Entertainment,wa-i-ji,proper_noun,công ty YG,công ty,,,2026-07-16,2026-07-16,1,company,organization
+5362a56b7642,음원,nhạc số / digital track,eum-won,noun,digital music release,âm nhạc,,,2026-07-16,2026-07-16,1,music,noun
+81833368534c,인터뷰,phỏng vấn,in-teo-byu,noun,interview,báo chí,,,2026-07-16,2026-07-16,1,media,noun
+bd3208440fb3,입장,lập trường / tuyên bố,ip-jang,noun,official position statement,truyền thông,소속사 입장,,2026-07-16,2026-07-16,1,media,noun
+91ce7e41aa14,제이와이드,JYP Entertainment,je-i-wa-i-deu,proper_noun,công ty JYP,công ty,,,2026-07-16,2026-07-16,1,company,organization
+f1e3f5161dc4,제작,sản xuất,je-jak,noun,production,truyền thông,,,2026-07-16,2026-07-16,1,media,noun
+38308f341b74,제주,Jeju,je-ju,proper_noun,đảo Jeju,địa danh,,,2026-07-16,2026-07-16,1,place,location
+f5a71ff61b12,주목받다,được chú ý,ju-mok-bat-da,verb,draw attention,truyền thông,,,2026-07-16,2026-07-16,1,media,verb
+388ea902b8d4,차트,bảng xếp hạng,cha-teu,noun,music chart,âm nhạc,,,2026-07-16,2026-07-16,1,music,noun
+e38250c656d1,출연,tham gia / đóng vai,chul-yeon,noun,xuất hiện trên show/phim,giải trí,,,2026-07-16,2026-07-16,1,entertainment,noun
+8116d8b6f736,캐스팅,casting,kae-seu-ting,noun,tuyển vai,phim/drama,,,2026-07-16,2026-07-16,1,film,noun
+3732e2f8f9e9,컴백,comeback,keom-baek,noun,trở lại với sản phẩm mới,K-pop,컴백 일정이 공개됐다.,,2026-07-16,2026-07-16,1,kpop,noun
+018c0a35a473,케이드라마,K-drama,ke-i-deu-ra-ma,noun,phim truyền hình Hàn,truyền hình,,,2026-07-16,2026-07-16,1,kdrama,noun
+dc267659a9ff,케이팝,K-pop,ke-i-pap,noun,nhạc pop Hàn Quốc,âm nhạc,,,2026-07-16,2026-07-16,1,kpop,noun
+4270dce15b48,콘서트,buổi hòa nhạc / concert,kon-seo-teu,noun,biểu diễn trực tiếp,sự kiện,,,2026-07-16,2026-07-16,1,event,noun
+955262dd02c4,타이틀곡,bài chủ đề / title track,ta-i-teul-gok,noun,ca khúc chủ đạo của album,âm nhạc,,,2026-07-16,2026-07-16,1,music,noun
+ebab7ac9cce9,투어,tour / chuyến lưu diễn,tu-eo,noun,chuỗi concert nhiều thành phố,sự kiện,,,2026-07-16,2026-07-16,1,event,noun
+72e6b0d92e72,패션,thời trang,pae-syeon,noun,fashion,thời trang,,,2026-07-16,2026-07-16,1,fashion,noun
+60cec53da715,팬,fan,paen,noun,người hâm mộ,fandom,,,2026-07-16,2026-07-16,1,fandom,noun
+f669d568eefd,팬미팅,fan meeting,paen-mi-ting,noun,gặp gỡ fan,sự kiện,,,2026-07-16,2026-07-16,1,event,noun
+36f5832d3275,하이브,HYBE,ha-i-beu,proper_noun,công ty giải trí HYBE,công ty,,,2026-07-16,2026-07-16,1,company,organization
+9d7b9d87a4f1,한류,Hallyu / làn sóng Hàn,hal-lyu,noun,Korean Wave,văn hóa,한류가 확산되고 있다.,,2026-07-16,2026-07-16,1,culture,noun
+9ded1bd95c23,한복,hanbok,han-bok,noun,trang phục truyền thống Hàn,văn hóa,,,2026-07-16,2026-07-16,1,culture,noun
+022dc4a3c17c,홍대,Hongdae,hong-dae,proper_noun,khu Hongdae,địa danh,,,2026-07-16,2026-07-16,1,place,location
+3986b32650b5,화보,bộ ảnh / pictorial,hwa-bo,noun,magazine pictorial,thời trang,,,2026-07-16,2026-07-16,1,fashion,noun
+572573b4e708,화제,chủ đề nóng / viral,hwa-je,noun,đang được bàn tán,truyền thông,화제가 된 배우,,2026-07-16,2026-07-16,1,media,noun
+6c0ee2786bc9,화제를 모으다,gây chú ý / thu hút bàn tán,hwa-je-reul mo-eu-da,idiom,attract attention,truyền thông,화제를 모으고 있다,,2026-07-16,2026-07-16,1,media,idiom
+c87053b1cf12,흥행,doanh thu / thành công phòng vé,heung-haeng,noun,box office performance,điện ảnh,,,2026-07-16,2026-07-16,1,film,noun

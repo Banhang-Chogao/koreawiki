@@ -116,3 +116,29 @@ other = "Phim ảnh"
 other = "K-Drama"
 [culture]
 other = "Văn hóa"
+[glossary]
+other = "Bảng thuật ngữ"
+[glossary_entries]
+other = "mục"
+[glossary_ko_vi]
+other = "Hàn → Việt"
+[glossary_search]
+other = "Tìm trong bảng thuật ngữ"
+[glossary_search_placeholder]
+other = "Tìm Hangul, tiếng Việt, romanization…"
+[glossary_korean]
+other = "Tiếng Hàn"
+[glossary_vietnamese]
+other = "Tiếng Việt"
+[glossary_category]
+other = "Danh mục"
+[glossary_context]
+other = "Ngữ cảnh"
+[glossary_example]
+other = "Ví dụ"
+[glossary_hangul_filter]
+other = "Lọc Hangul"
+[glossary_pagination]
+other = "Phân trang thuật ngữ"
+[glossary_privacy]
+other = "Cơ sở dữ liệu Translation Memory gốc là tài sản riêng của kho mã và không thể tải xuống."

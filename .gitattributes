@@ -1,0 +1,5 @@
+# Translation Memory — keep text formats as text; SQLite as binary
+data/glossary/*.json text eol=lf
+data/glossary/*.md   text eol=lf
+data/glossary/*.csv  text eol=lf
+data/glossary/*.sqlite binary

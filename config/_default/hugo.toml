@@ -8,6 +8,12 @@ summaryLength = 20
 paginate = 12
 copyright = "Copyright © {currentYear} KoreaWiki. All rights reserved."
 
+
+# Private Translation Memory lives under data/glossary/ (json/md/csv/sqlite).
+# Hugo's auto data loader only accepts json/yaml/toml/csv and would break on
+# .md/.sqlite — point dataDir at an empty folder. Glossary layout uses readFile.
+dataDir = "data-hugo"
+
 [module]
   [[module.mounts]]
     source = "assets"

@@ -2,4 +2,8 @@
 <script src="{{ $mainJS.RelPermalink }}" integrity="{{ $mainJS.Data.Integrity }}" crossorigin="anonymous" defer></script>
 {{ $searchJS := resources.Get "js/search.js" | minify | fingerprint }}
 <script src="{{ $searchJS.RelPermalink }}" integrity="{{ $searchJS.Data.Integrity }}" crossorigin="anonymous" defer></script>
+{{ if or (eq .Section "glossary") (eq .Type "glossary") (in .RelPermalink "/glossary/") }}
+{{ $glossaryJS := resources.Get "js/glossary.js" | minify | fingerprint }}
+<script src="{{ $glossaryJS.RelPermalink }}" integrity="{{ $glossaryJS.Data.Integrity }}" crossorigin="anonymous" defer></script>
+{{ end }}
 {{/* Pagefind is loaded lazily by search.js from {{ "" | relURL }}pagefind/pagefind.js — never link pagefind-ui (heavy, unused). */}}

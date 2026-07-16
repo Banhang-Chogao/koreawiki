@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "language_pair": "ko-vi",
+  "updated": "2026-07-16T10:58:10+00:00",
+  "count": 74,
+  "categories": {
+    "adjective": 1,
+    "celebrity": 3,
+    "drama": 1,
+    "grammar": 2,
+    "idiom": 1,
+    "location": 5,
+    "movie": 1,
+    "noun": 51,
+    "organization": 6,
+    "phrase": 1,
+    "verb": 2
+  },
+  "files": {
+    "json": "glossary.json",
+    "markdown": "glossary.md",
+    "csv": "glossary.csv",
+    "sqlite": "glossary.sqlite"
+  },
+  "public": false,
+  "note": "Raw TM files are private repository assets; not deployed as downloadable files."
+}

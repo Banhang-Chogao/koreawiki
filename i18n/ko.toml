@@ -116,3 +116,29 @@ other = "영화"
 other = "K-드라마"
 [culture]
 other = "문화"
+[glossary]
+other = "용어집"
+[glossary_entries]
+other = "항목"
+[glossary_ko_vi]
+other = "한국어 → 베트남어"
+[glossary_search]
+other = "용어집 검색"
+[glossary_search_placeholder]
+other = "한글, 베트남어, 로마자 검색…"
+[glossary_korean]
+other = "한국어"
+[glossary_vietnamese]
+other = "베트남어"
+[glossary_category]
+other = "분류"
+[glossary_context]
+other = "맥락"
+[glossary_example]
+other = "예문"
+[glossary_hangul_filter]
+other = "한글 필터"
+[glossary_pagination]
+other = "용어집 페이지"
+[glossary_privacy]
+other = "원본 Translation Memory 데이터베이스는 저장소 비공개 자산이며 다운로드할 수 없습니다."

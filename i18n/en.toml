@@ -116,3 +116,29 @@ other = "Movies"
 other = "K-Drama"
 [culture]
 other = "Culture"
+[glossary]
+other = "Glossary"
+[glossary_entries]
+other = "entries"
+[glossary_ko_vi]
+other = "Korean → Vietnamese"
+[glossary_search]
+other = "Search glossary"
+[glossary_search_placeholder]
+other = "Search Hangul, Vietnamese, romanization…"
+[glossary_korean]
+other = "Korean"
+[glossary_vietnamese]
+other = "Vietnamese"
+[glossary_category]
+other = "Category"
+[glossary_context]
+other = "Context"
+[glossary_example]
+other = "Example"
+[glossary_hangul_filter]
+other = "Hangul filter"
+[glossary_pagination]
+other = "Glossary pagination"
+[glossary_privacy]
+other = "The raw Translation Memory database is a private repository asset and is not available for download."

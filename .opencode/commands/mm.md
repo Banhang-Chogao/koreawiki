@@ -1,5 +1,5 @@
 ---
-description: Publish a Korean news article to KoreaWiki with full workflow (fetch → translate → rewrite → Hugo build → QA → deploy).
+description: Publish a Korean news article to KoreaWiki with full workflow (fetch → translate → rewrite → TM extract → Hugo build → QA → deploy).
 agent: general
 ---
 
@@ -43,17 +43,38 @@ Ignore ads, comments, recommendations, scripts, navigation.
 - Use newspaper name provided by user as source
 - Use provided date/author if available
 
-## Step 3 — Translate into Vietnamese
+## Step 3 — Consult Translation Memory (required)
+
+**Before translating**, load preferred Korean → Vietnamese renderings:
+
+```bash
+python3 scripts/glossary.py consult
+```
+
+Optionally look up specific terms:
+
+```bash
+python3 scripts/glossary.py lookup <term>
+```
+
+**Rules:**
+- Prefer existing TM translations whenever appropriate
+- Maintain terminology consistency with prior articles
+- Do not invent alternate spellings for names/orgs already in the TM
+
+## Step 4 — Translate into Vietnamese
 
 Preserve facts, names, numbers, timeline, quotations where appropriate. Do not add fabricated information.
 
-## Step 4 — Rewrite in original Vietnamese journalistic style
+Apply TM terminology from Step 3.
+
+## Step 5 — Rewrite in original Vietnamese journalistic style
 
 Original wording, objective tone, professional news writing. Do not closely mirror source sentence structure. Add clear headings and subheadings.
 
 Include: title, description, slug, keywords, summary, categories, tags.
 
-## Step 5 — Handle image
+## Step 6 — Handle image
 
 If source provides a reusable featured image:
 - Retrieve URL
@@ -65,7 +86,7 @@ If source provides a reusable featured image:
 
 If no reusable image: use no image.
 
-## Step 6 — Generate Hugo front matter
+## Step 7 — Generate Hugo front matter
 
 ```toml
 +++
@@ -81,11 +102,47 @@ cover=""
 +++
 ```
 
-## Step 7 — Generate Markdown article
+## Step 8 — Generate Markdown article
 
 Beautiful typography, SEO friendly, internal links, related articles placeholder, proper heading hierarchy, valid Markdown, Hugo compatible.
 
-## Step 8 — Run QA
+## Step 9 — Extract glossary entries → Update Translation Memory
+
+From the source Korean text and the Vietnamese article, extract meaningful items:
+
+- Korean word / phrase / sentence pattern
+- Proper noun, organization, celebrity
+- Movie title, drama title, location
+- Slang, idiom, grammar pattern
+
+For each item collect:
+
+| Field | Required |
+|-------|----------|
+| korean | yes |
+| vietnamese | yes |
+| romanization | optional |
+| pos | optional |
+| meaning | optional |
+| context | preferred |
+| example | preferred |
+| source_url | yes (article URL or empty for raw text) |
+| category | preferred |
+| tags | optional |
+
+Write a JSON array to a temp file, then upsert (merges duplicates, bumps frequency, updates last_seen):
+
+```bash
+python3 scripts/glossary.py upsert --file /tmp/koreawiki-tm-extract.json
+python3 scripts/glossary.py quality
+python3 scripts/glossary.py sync
+```
+
+**Never create duplicate entries** — the CLI merges identical korean+vietnamese pairs.
+
+Do **not** place raw JSON/CSV/SQLite under `static/` or `public/`. TM stays in `data/glossary/`.
+
+## Step 10 — Run QA
 
 Execute every validation from scientist.md:
 
@@ -98,33 +155,59 @@ Execute every validation from scientist.md:
 - Schema validation
 - Broken links
 - Accessibility checks
+- Glossary quality (non-blocking unless critical): `python3 scripts/glossary.py quality`
 
 Auto-fix every issue until all checks pass.
 
-## Step 9 — Verify `hugo` build
+## Step 11 — Verify `hugo` build
 
 Build succeeds with no warnings, no errors.
 
-## Step 10 — Commit
+Confirm:
+
+- Glossary page builds at `/glossary/`
+- No `glossary.json` / `glossary.csv` / `glossary.sqlite` files appear under `public/` as downloadable assets
+
+```bash
+hugo --minify --gc
+# privacy check (must print nothing / exit 0 with no hits)
+! find public -iname '*glossary*.json' -o -iname '*glossary*.csv' -o -iname '*glossary*.sqlite' | grep -q .
+```
+
+## Step 12 — Commit
 
 ```
 feat(news): add Korean news article - [title]
 ```
 
-## Step 11 — Push
+Include updated `data/glossary/*` and `content/en/glossary/_index.md` when TM changed.
+
+## Step 13 — Push
 
 Only if every QA check passes. If any validation fails, STOP, display errors, do not push.
+
+## Pipeline summary
+
+```
+URL/text → fetch → consult TM → translate → rewrite → image
+  → Hugo article → extract TM → upsert glossary → sync public glossary page
+  → scientist.md QA → Hugo build → deploy
+```
+
+No manual glossary work required on the happy path.
 
 ## Rules
 
 - Never fabricate facts, dates, quotes, or image credits
 - Preserve factual accuracy
 - Produce original Vietnamese article, not a close translation
+- Prefer Translation Memory terminology for consistency
 - Luôn dẫn nguồn ở cuối bài: nếu là URL → ghi dạng `Nguồn: [Tên báo] — [URL]`; nếu là text thô → ghi `Nguồn: [Tên báo gốc]`
 - Follow every rule in scientist.md
 - Never push failing code
 - Never bypass QA
 - Never skip Hugo build
 - Never publish without successful validation
+- Never expose raw TM database files on the public site
 
-Return a success summary: title, category, slug, image status, QA result, build result, git commit hash, deployment status.
+Return a success summary: title, category, slug, image status, TM entries added/merged, QA result, build result, git commit hash, deployment status.

@@ -35,7 +35,8 @@ Mỗi mục nên ghi rõ:
 | `Enter` | Search overlay | Mở kết quả đang chọn (mặc định kết quả đầu) | `assets/js/search.js` `handleKeydown` → `window.location.href` | `implemented` | `assets/js/search.js` |
 | `↑` / `↓` | Search overlay | Di chuyển giữa kết quả | `selectedIndex` + class `selected` + `aria-activedescendant` | `implemented` | `assets/js/search.js` |
 | `Tab` | Search overlay | Autocomplete gợi ý / title | `autocompleteTab()` lấy suggestion đầu hoặc title kết quả đầu | `implemented` | `assets/js/search.js` |
-| `mm` | `opencode` command | Workflow xuất bản news tiếng Hàn | `.opencode/commands/mm.md` | `implemented` | `.opencode/commands/mm.md`, `scientist.md` |
+| `mm` | `opencode` command | Workflow xuất bản news tiếng Hàn + cập nhật Translation Memory | `.opencode/commands/mm.md` (consult TM → translate → extract → upsert → sync glossary → QA → build) | `implemented` | `.opencode/commands/mm.md`, `scripts/glossary.py`, `data/glossary/`, `scientist.md` |
+| `glossary` page | Site footer / `/glossary/` | Duyệt bảng thuật ngữ Hàn→Việt | Layout `glossary/list.html` + `assets/js/glossary.js` search (Hangul/VI/romaja, fuzzy, filter, pagination) | `implemented` | `content/en/glossary/`, `themes/koreawiki/layouts/glossary/`, `assets/js/glossary.js` |
 
 ## Recent `mm` Runs
 

@@ -209,6 +209,41 @@ git commit --allow-empty -m "redeploy article" && git push
 
 ---
 
+## Entry 013 — 2026-07-16: Translation Memory (TM) & Glossary system
+
+**Added:** Permanent Korean → Vietnamese Translation Memory and public Glossary page.
+
+**Storage (private repository asset):**
+- `data/glossary/glossary.json` — canonical TM
+- `data/glossary/glossary.md` / `.csv` / `.sqlite` — exports
+- `data/glossary/README.md` — backup/restore & CLI docs
+
+**Public:**
+- Route `/glossary/` via `content/en/glossary/_index.md`
+- Layout `themes/koreawiki/layouts/glossary/list.html`
+- Client search `assets/js/glossary.js` (Hangul / Vietnamese / romanization, fuzzy, filters, pagination)
+- Styles `assets/scss/_glossary.scss`
+- Footer link **Glossary**
+
+**CLI:** `scripts/glossary.py` — init, consult, lookup, add, upsert, edit, delete, merge, import/export, quality, sync, stats.
+
+**mm integration:** `.opencode/commands/mm.md` now requires:
+1. `glossary.py consult` before translate  
+2. Extract + `upsert` + `sync` after article write  
+3. Privacy check: no raw TM files under `public/`
+
+**Privacy rules:**
+- Raw TM stays under `data/glossary/` (json/md/csv/sqlite)
+- Hugo `dataDir = "data-hugo"` (empty) so auto-loader never scans TM files
+- Glossary layout uses `readFile` at build time; no raw DB under `public/`
+- Do not put JSON/CSV/SQLite under `static/`
+- `.gitignore` blocks accidental static/public TM dumps
+- `.gitattributes` marks SQLite as binary
+
+**Prevention:** Always run `python3 scripts/glossary.py sync` after TM changes; never put TM under `static/`; keep `dataDir = "data-hugo"`.
+
+---
+
 To re-apply all known fixes to fresh content:
 
 ### Fix missing `draft` field
