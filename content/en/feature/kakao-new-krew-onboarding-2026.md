@@ -48,8 +48,6 @@ Khi còn ngồi trên ghế đại học, bạn được dạy rằng Foreign Ke
 
 40 tân binh vừa trúng tuyển kỳ tuyển dụng tập trung của **Kakao** — được gọi là *New Krew* — đã hoàn thành chương trình technical onboarding kéo dài, bao gồm ba chủ đề lớn: Database, Security & IT, và AI. Bốn thành viên trong số họ — **zephy.r** (biên tập dữ liệu), **mint.pearl** (nền tảng DB), **theo.cha** (dữ liệu bản đồ-giao thông) và **rowan.ko** (phát triển KakaoTalk iOS) — đã cùng viết bài hồi tưởng về hành trình từ "sinh viên đi tìm đáp án đúng" thành "kỹ sư biết cân bằng giữa lý thuyết và thực tế vận hành."
 
-Bài viết trên blog **Kakao Tech** (tech.kakao.com) của họ đã thu hút sự chú ý đặc biệt trong cộng đồng kỹ thuật Hàn Quốc, không chỉ vì nội dung chuyên môn sâu mà còn vì cách họ kể lại sự thay đổi trong tư duy — điều mà nhiều lập trình viên trẻ ở bất kỳ quốc gia nào cũng có thể đồng cảm.
-
 ![Sơ đồ tư duy về thiết kế database: từ lý thuyết đến thực hành](/images/2026/07/kakao-new-krew-onboarding-2026-01.png)
 *Minh họa: Kakao Tech — quá trình chuyển đổi tư duy thiết kế database từ học thuật sang production*
 
@@ -186,10 +184,9 @@ Những người viết bài — zephy.r, mint.pearl, theo.cha và rowan.ko — 
 source: "Kakao Tech — Blog kỹ thuật chính thức của Kakao"
 source_url: "https://tech.kakao.com/posts/815"
 copyright: >
-  Bài của **KoreaWiki Newsroom**. Tham khảo bài đăng công khai trên
-  **Kakao Tech** (tech.kakao.com) của zephy.r, mint.pearl, theo.cha và rowan.ko.
-  Bài viết tổng hợp và giới thiệu đến độc giả Việt Nam dưới dạng bài feature
-  phân tích. Ảnh © Kakao Tech.
+  Tham khảo bài đăng trên **Kakao Tech** (tech.kakao.com) của
+  zephy.r, mint.pearl, theo.cha và rowan.ko.
+  Ảnh © Kakao Tech.
 external:
   - title: "원문: 학생에서 개발자로 — DB, 보안부터 AI까지 (Kakao Tech)"
     url: "https://tech.kakao.com/posts/815"
