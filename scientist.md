@@ -126,6 +126,18 @@
 
 ---
 
+## Entry 009 — 2026-07-16: Added `mm` command — Korean news publishing workflow
+
+**Added:** `.opencode/commands/mm.md` — a full workflow for publishing Korean news articles.
+
+**Workflow:** URL → fetch → extract → translate → rewrite → image handle → Hugo front matter → Markdown → QA → build → commit → push.
+
+**Trigger:** Type `mm` in opencode.
+
+**Rules:** Never fabricate facts/dates/quotes/credits. Never push failing code. Follow all scientist.md QA rules.
+
+---
+
 ## Fix Replay Scripts
 
 To re-apply all known fixes to fresh content:
