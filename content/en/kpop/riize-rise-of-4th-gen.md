@@ -1,16 +1,16 @@
 ---
-title: 'RIIZE Ascends: How SM''s Youngest Boy Group Became the Defining Act of Fourth-Generation
-  K-Pop'
-description: With their first studio album debuting at number one globally, RIIZE
-  has cemented their position as the leading boy group of their generation through
-  a unique blend of talent and strategy.
+title: 'RIIZE Ascends: Nhóm nhạc nam trẻ nhất của SM đã trở thành nhân tố quyết định thế hệ
+  thứ tư của K-Pop như thế nào'
+description: Với album phòng thu đầu tiên ra mắt ở vị trí số một trên toàn cầu, RIIZE đã củng
+  cố vị trí nhóm nhạc nam hàng đầu trong thế hệ của mình thông qua sự kết hợp độc đáo giữa
+  tài năng và chiến lược.
 date: 2026-07-04
 draft: false
 author: Hyun-Woo Lee
 cover:
-  image: https://picsum.photos/seed/kpop4/1200/630
-  alt: RIIZE members Shotaro, Sungchan, Eunseok, Wonbin, Sohee, and Anton
-  caption: RIIZE posing after their showcase performance at Olympic Hall in Seoul
+  image: images/sample/riize-rise-of-4th-gen.jpg
+  alt: Các thành viên RIIZE Shotaro, Sungchan, Eunseok, Wonbin, Sohee và Anton
+  caption: RIIZE tạo dáng sau buổi trình diễn showcase tại Olympic Hall ở Seoul
 tags:
 - riize
 - sm-entertainment
@@ -28,44 +28,46 @@ keywords:
 slug: riize-ascends-how-sms-youngest-boy-group-became-the-defining-act-of-fourth-generation-k-pop
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: With their first studio album debuting at number one globally, RIIZE has cemented
-    their position as the leading boy group of their generation through a unique blend
-    of talent and strategy.
+  a: Với album phòng thu đầu tiên ra mắt ở vị trí số một trên toàn cầu, RIIZE đã củng cố vị
+    trí nhóm nhạc nam hàng đầu trong thế hệ của mình thông qua sự kết hợp độc đáo giữa tài
+    năng và chiến lược.
 - q: Nội dung chính về «The SM R&B Renaissance» là gì?
-  a: Music critics have been quick to frame RIIZE's success as part of a broader resurgence
-    of R&B within the K-pop ecosystem. "For years, SM Entertainment built its reputation
-    on a polished, futuristic sound," noted music critic Kim Yeon-ji in a recent column
-    for The Hankyoreh.
-- q: Điểm thông tin chính độc giả nên nhớ là gì?
-  a: In the hyper-competitive landscape of fourth-generation K-pop, few groups have
-    risen as meteorically as RIIZE. SM Entertainment's seven-member boy group, which
-    debuted in September 2023, has just released their first full-length studio album
-    "Realize" to commercial and critical acclaim, debuting at number one on the Circle
-    Album Chart and entering the…
+  a: Các nhà phê bình âm nhạc đã nhanh chóng coi thành công của RIIZE là một phần trong sự
+    hồi sinh rộng rãi hơn của R&B trong hệ sinh thái K-pop. “Trong nhiều năm, SM Entertainment
+    đã xây dựng danh tiếng của mình dựa trên âm thanh bóng bẩy, mang tính tương lai,” nhà
+    phê bình âm nhạc Kim Yeon-ji lưu ý trong một chuyên mục gần đây cho The Hankyoreh.
+- q: Điểm thông tin chính độc. Bạn nhớ là gì?
+  a: Trong bối cảnh siêu cạnh tranh của K-pop thế hệ thứ tư, rất ít nhóm nhạc có thể vươn
+    lên nhanh chóng như RIIZE. Nhóm nhạc nam gồm bảy thành viên của SM Entertainment, ra mắt
+    vào tháng 9 năm 2023, vừa phát hành album phòng thu dài đầu tiên "Realize" trước sự hoan
+    nghênh của giới phê bình và thương mại, ra mắt ở vị trí số một trên Bảng xếp hạng Album
+    Vòng tròn và lọt vào…
+sample_origin: scaffold
+lang_note: vi-localized-from-en-scaffold
 ---
 
+Trong bối cảnh siêu cạnh tranh của K-pop thế hệ thứ tư, rất ít nhóm nhạc có thể vươn lên nhanh chóng như RIIZE. Nhóm nhạc nam gồm bảy thành viên của SM Entertainment, ra mắt vào năm
+Tháng 9 năm 2023, vừa phát hành album phòng thu dài đầu tiên "Realize" với sự hoan nghênh về mặt thương mại và phê bình, ra mắt ở vị trí số một trên Bảng xếp hạng Album vòng tròn và lọt vào danh sách
+Billboard 200 ở vị trí thứ 4 - vị trí xếp hạng cao nhất đối với bất kỳ nhóm nhạc nam thế hệ thứ tư nào trong lịch sử bảng xếp hạng.
+
+Điều khiến quỹ đạo của RIIZE trở nên đặc biệt đáng chú ý là họ đã nhanh chóng thiết lập được bản sắc âm nhạc riêng biệt như thế nào. Trong khi nhiều nhóm tân binh mất nhiều năm theo đuổi xu hướng thì RIIZE
+đến với một bản thiết kế âm thanh rõ ràng: sự kết hợp giữa R&B những năm 2000 với sản xuất nhạc pop đương đại, được củng cố bởi sự đóng góp sáng tác của thành viên Anton và nhà sản xuất nội bộ
+Kenzie. Công thức đã được chứng minh là có hiệu quả về mặt thương mại. "Realize" đã bán được 2,3 triệu bản trong tuần đầu tiên và đĩa đơn chủ đạo "Eternal" đã trải qua 5 tuần liên tiếp ở vị trí quán quân.
+một trên Biểu đồ kỹ thuật số vòng tròn.
+
+## Thời kỳ phục hưng của SM R&B
+
+Các nhà phê bình âm nhạc đã nhanh chóng coi thành công của RIIZE là một phần trong sự hồi sinh rộng rãi hơn của R&B trong hệ sinh thái K-pop. "Trong nhiều năm, SM Entertainment đã xây dựng danh tiếng của mình dựa trên
+âm thanh bóng bẩy, mang tính tương lai," nhà phê bình âm nhạc Kim Yeon-ji lưu ý trong một chuyên mục gần đây cho The Hankyoreh. “Với RIIZE, họ đã trở lại với cảm xúc ấm áp của những bản ballad R&B
+đã tạo nên những nhóm nhạc như TVXQ và SHINee trở thành huyền thoại nhưng được lọc qua lăng kính sản xuất hiện đại."
+
+Sự trỗi dậy của nhóm không phải là không có thách thức. Sau sự ra đi được ghi chép đầy đủ của thành viên Seunghan và quá trình tái cơ cấu ban lãnh đạo ban đầu của nhóm vào năm 2024, RIIZE đã
+hoạt động với một quyết tâm tập trung mà các thành viên cho rằng đã đưa họ đến gần nhau hơn. Trưởng nhóm Shotaran đề cập đến hành trình của nhóm trong buổi giới thiệu của họ tại Olympic Hall: "Mỗi
+thành viên của RIIZE phải giành được vị trí của mình. Chúng tôi biết cảm giác như thế nào khi có người nghi ngờ bạn. Đó là lý do tại sao chúng tôi nỗ lực hơn mỗi ngày."
+
+SM Entertainment đã xác nhận album phòng thu thứ hai vào đầu năm 2027 và chuyến lưu diễn vòng quanh thế giới bắt đầu vào tháng 11, với các ngày được công bố trên khắp Châu Á, Bắc Mỹ và Châu Âu.
 
 
-In the hyper-competitive landscape of fourth-generation K-pop, few groups have risen as meteorically as RIIZE. SM Entertainment's seven-member boy group, which debuted in
-September 2023, has just released their first full-length studio album "Realize" to commercial and critical acclaim, debuting at number one on the Circle Album Chart and entering
-the Billboard 200 at number four — the highest charting position for any fourth-generation boy group in the chart's history.
-
-What makes RIIZE's trajectory particularly remarkable is how quickly they've established a distinct musical identity. While many rookie groups spend years chasing trends, RIIZE
-arrived with a clear sonic blueprint: a fusion of 2000s R&B with contemporary pop production, anchored by the songwriting contributions of member Anton and in-house producer
-Kennzie. The formula has proven commercially potent. "Realize" sold 2.3 million copies in its first week, and its lead single "Eternal" has spent five consecutive weeks at number
-one on the Circle Digital Chart.
-
-## The SM R&B Renaissance
-
-Music critics have been quick to frame RIIZE's success as part of a broader resurgence of R&B within the K-pop ecosystem. "For years, SM Entertainment built its reputation on a
-polished, futuristic sound," noted music critic Kim Yeon-ji in a recent column for The Hankyoreh. "With RIIZE, they've returned to the emotional warmth of the R&B ballads that
-made groups like TVXQ and SHINee legendary, but filtered through a modern production lens."
-
-The group's rise has not been without challenges. Following the well-documented departures of member Seunghan and the group's initial leadership restructuring in 2024, RIIZE has
-operated with a focused determination that members say brought them closer together. Leader Shotaran addressed the group's journey during their showcase at Olympic Hall: "Every
-member of RIIZE had to earn their place. We know what it feels like to have people doubt you. That's why we push ourselves harder every single day."
-
-SM Entertainment has already confirmed a second studio album for early 2027 and a world tour beginning in November, with announced dates across Asia, North America, and Europe.
 
 {{< article-footer >}}
 copyright: >

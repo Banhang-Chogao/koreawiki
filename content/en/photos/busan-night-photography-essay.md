@@ -1,15 +1,16 @@
 ---
-title: 'Busan After Dark: A Photo Essay of Korea''s Coastal City When the Sun Goes
-  Down'
-description: Photographer Lee Sung-min captures the neon-lit soul of Busan after midnight,
-  from Jagalchi Market's last sellers to the quiet temples overlooking the sea.
+title: 'Busan After Dark: Một bài luận ảnh về thành phố ven biển của Hàn Quốc khi mặt trời
+  lặn'
+description: Nhiếp ảnh gia Lee Sung-min đã ghi lại được linh hồn của ánh đèn neon của Busan
+  sau nửa đêm, từ những người bán hàng cuối cùng ở chợ Jagalchi cho đến những ngôi đền yên
+  tĩnh nhìn ra biển.
 date: 2026-07-10
 draft: false
 author: KoreaWiki Photo Desk
 cover:
-  image: https://picsum.photos/seed/photo1/1200/630
-  alt: Busan's Gwangan Bridge illuminated at night
-  caption: Gwangan Bridge at midnight, reflected in the calm waters of Suyeong Bay
+  image: images/sample/busan-night-photography-essay.jpg
+  alt: Cầu Gwangan của Busan được chiếu sáng vào ban đêm
+  caption: Cầu Gwangan lúc nửa đêm, phản chiếu trên mặt nước tĩnh lặng của Vịnh Suyeong
 tags:
 - busan
 - photography
@@ -27,37 +28,40 @@ keywords:
 slug: busan-after-dark-a-photo-essay-of-koreas-coastal-city-when-the-sun-goes-down
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Photographer Lee Sung-min captures the neon-lit soul of Busan after midnight,
-    from Jagalchi Market's last sellers to the quiet temples overlooking the sea.
-- q: Nội dung chính về «Selected Images from the Series» là gì?
-  a: The first image captures Jagalchi Market at 2 a.m., when the last of the day's
-    catch is being sold at steep discounts. One elderly haenyeo (female diver) is
-    framed in the steam rising from her small booth, her face weathered by decades
-    of diving in the cold sea.
-- q: Điểm thông tin chính độc giả nên nhớ là gì?
-  a: Veteran photographer Lee Sung-min spent three weeks capturing Busan after dark,
-    from the last fish auctions at Jagalchi Market at 3 a.m. to the first monks' prayers
-    at Beomeosa Temple at 4 a.m.
+  a: Nhiếp ảnh gia Lee Sung-min đã ghi lại được linh hồn của ánh đèn neon của Busan sau nửa
+    đêm, từ những người bán hàng cuối cùng ở chợ Jagalchi cho đến những ngôi đền yên tĩnh
+    nhìn ra biển.
+- q: Nội dung chính về «Hình ảnh chọn lọc trong bộ truyện» là gì?
+  a: Hình ảnh đầu tiên chụp Chợ Jagalchi lúc 2 giờ sáng, khi sản phẩm đánh bắt cuối cùng trong
+    ngày đang được bán với giá giảm mạnh. Một haenyeo lớn tuổi (nữ thợ lặn) đứng giữa hơi
+    nước bốc lên từ gian hàng nhỏ của mình, khuôn mặt của bà bị phong hóa sau nhiều thập kỷ
+    lặn dưới biển lạnh.
+- q: Điểm thông tin chính độc. Bạn nhớ là gì?
+  a: Nhiếp ảnh gia kỳ cựu Lee Sung-min đã dành ba tuần để chụp ảnh Busan sau khi trời tối,
+    từ phiên đấu giá cá cuối cùng ở chợ Jagalchi lúc 3 giờ sáng cho đến buổi cầu nguyện đầu
+    tiên của các nhà sư tại chùa Beomeosa lúc 4 giờ sáng.
+sample_origin: scaffold
+lang_note: vi-localized-from-en-scaffold
 ---
 
+Nhiếp ảnh gia kỳ cựu Lee Sung-min đã dành ba tuần để chụp ảnh Busan sau khi trời tối, từ phiên đấu giá cá cuối cùng ở chợ Jagalchi lúc 3 giờ sáng cho đến buổi cầu nguyện đầu tiên của các nhà sư ở Beomeosa
+Ngôi chùa lúc 4 giờ sáng. Bộ sưu tập thành quả, "Busan Noir," là một bức thư tình gửi đến cuộc sống về đêm của thành phố.
+
+“Thành phố biến đổi sau nửa đêm,” Lee nói. "Busan du lịch biến mất và Busan thực sự xuất hiện - yên tĩnh hơn, chân thực hơn, đẹp đẽ hơn."
+
+Bài luận ảnh sẽ được trưng bày tại Bảo tàng Nghệ thuật Đương đại Busan từ ngày 1 tháng 8 đến ngày 15 tháng 10. Tuyển tập các hình ảnh có sẵn trên KoreaWiki.
+
+## Hình ảnh được chọn từ Series
+
+Hình ảnh đầu tiên chụp Chợ Jagalchi lúc 2 giờ sáng, khi sản phẩm đánh bắt cuối cùng trong ngày đang được bán với giá giảm mạnh. Một haenyeo lớn tuổi (nữ thợ lặn) bị đóng khung trong hơi nước
+đứng dậy từ gian hàng nhỏ của mình, khuôn mặt bị phong hóa sau hàng chục năm lặn dưới biển lạnh.
+
+Loạt phim này cũng ghi lại Làng văn hóa Gamcheon vào một giờ xanh trước bình minh, chỉ có một con mèo duy nhất xuất hiện trong khung hình. Cầu Gwangan phơi sáng lâu tạo ra những dải ruy băng
+ánh sáng đỏ và trắng. Và trong một hình ảnh đặc biệt cảm động, một cặp đôi trẻ nhảy theo nhạc từ điện thoại của họ trên bãi cát vắng của Bãi biển Gwangalli, cây cầu rực sáng phía sau họ.
+
+Tác phẩm của Lee nhắc nhở chúng ta rằng vẻ đẹp của Busan không cần đến ánh nắng. Tâm hồn của thành phố có lẽ hiện rõ nhất vào những giờ mà hầu hết du khách đang say ngủ.
 
 
-Veteran photographer Lee Sung-min spent three weeks capturing Busan after dark, from the last fish auctions at Jagalchi Market at 3 a.m. to the first monks' prayers at Beomeosa
-Temple at 4 a.m. The resulting collection, "Busan Noir," is a love letter to the city's nocturnal life.
-
-"The city transforms after midnight," Lee said. "The tourist Busan disappears, and the real Busan emerges — quieter, more honest, more beautiful."
-
-The photo essay will be exhibited at the Busan Museum of Contemporary Art from August 1 through October 15. A selection of images is available on KoreaWiki.
-
-## Selected Images from the Series
-
-The first image captures Jagalchi Market at 2 a.m., when the last of the day's catch is being sold at steep discounts. One elderly haenyeo (female diver) is framed in the steam
-rising from her small booth, her face weathered by decades of diving in the cold sea.
-
-The series also documents Gamcheon Culture Village in the blue hour before dawn, with only a single cat visible in the frame. A long exposure of Gwangan Bridge creates ribbons of
-red and white light. And in a particularly moving image, a young couple dances to music from their phone on the empty sand of Gwangalli Beach, the bridge glowing behind them.
-
-Lee's work reminds us that Busan's beauty does not require sunshine. The city's soul is perhaps most visible in the hours when most visitors are asleep.
 
 {{< article-footer >}}
 copyright: >

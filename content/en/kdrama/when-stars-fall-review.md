@@ -1,16 +1,16 @@
 ---
-title: '''When Stars Fall'' Review: Kim Tae-ri Delivers a Career-Defining Performance
-  in This Heart-Wrenching Sageuk'
-description: The 16-episode historical drama from Studio Dragon combines political
-  intrigue with a deeply personal love story, anchored by Kim Tae-ri's tour-de-force
-  portrayal.
+title: 'Đánh giá ''Khi vì sao rơi'': Kim Tae Ri mang đến màn trình diễn định nghĩa nghề nghiệp
+  trong phim cổ trang đau lòng này'
+description: Bộ phim lịch sử dài 16 tập của Studio Dragon kết hợp âm mưu chính trị với câu
+  chuyện tình yêu cá nhân sâu sắc, được gắn chặt bởi vai diễn du hành vũ trang của Kim Tae
+  Ri.
 date: 2026-07-14
 draft: false
 author: Ji-Yeon Park
 cover:
-  image: https://picsum.photos/seed/kdrama1/1200/630
-  alt: Kim Tae-ri in costume as Lady Hong in When Stars Fall
-  caption: Kim Tae-ri as Lady Hong in Studio Dragon's 'When Stars Fall'
+  image: images/sample/when-stars-fall-review.jpg
+  alt: Kim Tae-ri trong vai Hong Lady trong Khi Sao Rơi
+  caption: Kim Tae-ri vai Lady Hong trong 'Khi vì sao rơi' của Studio Dragon
 tags:
 - kim-tae-ri
 - sageuk
@@ -28,44 +28,46 @@ keywords:
 slug: when-stars-fall-review-kim-tae-ri-delivers-a-career-defining-performance-in-this-heart-wrenching-sageuk
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: The 16-episode historical drama from Studio Dragon combines political intrigue
-    with a deeply personal love story, anchored by Kim Tae-ri's tour-de-force portrayal.
-- q: Nội dung chính về «A Visual and Emotional Masterpiece» là gì?
-  a: The drama's production values are immediately apparent. Cinematographer Park
-    Jung-hoon, known for his work on "The Crowned Clown," shoots Seoul's Gyeongbokgung
-    Palace and the mountain observatory set with a painterly eye, using natural light
-    and candlelit interiors to create a visual texture that…
-- q: Điểm thông tin chính độc giả nên nhớ là gì?
-  a: Studio Dragon's latest sageuk, "When Stars Fall," premiered on tvN on July 5
-    to the highest ratings for any Friday-Saturday drama in 2026, and after four episodes,
-    it is clear why. This is historical drama at its most ambitious — a 16-episode
-    epic that intertwines the fall of the Joseon dynasty's astronomy bureau with a
-    forbidden romance between a royal…
+  a: Bộ phim lịch sử dài 16 tập của Studio Dragon kết hợp âm mưu chính trị với câu chuyện
+    tình yêu cá nhân sâu sắc, được gắn chặt bởi vai diễn du hành vũ trang của Kim Tae Ri.
+- q: Nội dung chính về «Một kiệt tác thị giác và cảm xúc» là gì?
+  a: Giá trị sản xuất của bộ phim được thể hiện ngay lập tức. Nhà quay phim Park Jung-hoon,
+    nổi tiếng với tác phẩm "The Crowned Clown", quay Cung điện Kyungbokgung ở Seoul và đài
+    quan sát trên núi bằng con mắt hội họa, sử dụng ánh sáng tự nhiên và nội thất dưới ánh
+    nến để tạo ra kết cấu hình ảnh…
+- q: Điểm thông tin chính độc. Bạn nhớ là gì?
+  a: Bộ phim cổ trang mới nhất của Studio Dragon, "Khi vì sao rơi", khởi chiếu trên tvN vào
+    ngày 5 tháng 7 với tỷ suất người xem cao nhất cho bất kỳ bộ phim truyền hình thứ sáu-thứ
+    bảy nào trong năm 2026, và sau bốn tập, đã rõ lý do. Đây là bộ phim lịch sử đầy tham vọng
+    nhất — một thiên anh hùng ca dài 16 tập đan xen sự sụp đổ của văn phòng thiên văn học
+    triều đại Joseon với mối tình lãng mạn bị cấm đoán giữa một hoàng gia…
+sample_origin: scaffold
+lang_note: vi-localized-from-en-scaffold
 ---
 
+Bộ phim cổ trang mới nhất của Studio Dragon, "Khi vì sao rơi", khởi chiếu trên tvN vào ngày 5 tháng 7 với tỷ suất người xem cao nhất cho bất kỳ bộ phim truyền hình thứ sáu-thứ bảy nào trong năm 2026, và sau bốn tập, rõ ràng là
+tại sao. Đây là bộ phim lịch sử đầy tham vọng nhất — một thiên anh hùng ca dài 16 tập đan xen sự sụp đổ của văn phòng thiên văn học triều đại Joseon với mối tình lãng mạn bị cấm đoán giữa một hoàng gia.
+nhà thiên văn học và một phụ nữ quý tộc cải trang thành người hầu.
+
+Kim Tae Ri, người đã không xuất hiện trong một bộ phim truyền hình nào kể từ “The Devil” năm 2023, mang đến một màn trình diễn có thể sẽ thống trị cuộc tranh luận về giải thưởng năm tới. Cô đóng vai Hồng phu nhân, một
+con gái của một học giả giả dạng một người hầu đã qua đời để thâm nhập vào Gwansanggam (đài thiên văn hoàng gia) sau khi cha cô bị xử tử vì tội phản quốc.
+Vai diễn này đòi hỏi mọi thứ, từ hài kịch thể xác trong những cảnh gần như được khám phá đến những cảm xúc tàn khốc trong những khoảnh khắc đau buồn lặng lẽ, và Kim sống trong mọi khung hình với
+cường độ của một diễn viên hoạt động ở đỉnh cao quyền lực của mình.
+
+## Một kiệt tác thị giác và cảm xúc
+
+Giá trị sản xuất của bộ phim được thể hiện ngay lập tức. Nhà quay phim Park Jung-hoon, nổi tiếng với tác phẩm "The Crowned Clown", quay Cung điện Kyungbokgung ở Seoul và
+đài quan sát trên núi với con mắt hội họa, sử dụng ánh sáng tự nhiên và nội thất dưới ánh nến để tạo ra kết cấu hình ảnh mang lại cảm giác vừa chính xác theo thời kỳ vừa đậm chất điện ảnh. Nổi bật
+phân cảnh trong tập thứ ba, trong đó Hồng phu nhân lần đầu tiên xếp hạng các ngôi sao, được thắp sáng hoàn toàn bằng ánh đèn lồng và là một trong những cảnh đẹp nhất trong bất kỳ bộ phim truyền hình nào năm nay.
+năm.
+
+Bạn diễn Ahn Hyo-seop, trong vai Lord Seo, nhà thiên văn học đầy hoài nghi nhưng tài giỏi, sánh ngang với Kim. Phản ứng hóa học của họ là điện, nhưng bộ phim đã khôn ngoan dành thời gian để xây dựng
+lãng mạn, cho phép âm mưu chính trị ở trung tâm câu chuyện phát triển một cách hữu cơ cùng với mối liên hệ của họ. Biên kịch Park Hae-young, trở lại phim cổ trang
+lần đầu tiên kể từ "The Red Handle", đã tạo ra một câu chuyện tôn trọng tính chính xác lịch sử trong khi không bao giờ đánh mất câu chuyện con người ở trung tâm của nó.
+
+Với kinh phí được báo cáo là 45 tỷ Yên, "Khi vì sao rơi" là một trong những bộ phim truyền hình Hàn Quốc đắt nhất từng được sản xuất. Dựa trên bốn tập đầu tiên, mọi chiến thắng đều được hiển thị trên màn hình.
 
 
-Studio Dragon's latest sageuk, "When Stars Fall," premiered on tvN on July 5 to the highest ratings for any Friday-Saturday drama in 2026, and after four episodes, it is clear
-why. This is historical drama at its most ambitious — a 16-episode epic that intertwines the fall of the Joseon dynasty's astronomy bureau with a forbidden romance between a royal
-astronomer and a noblewoman disguised as a servant.
-
-Kim Tae-ri, who has not appeared in a drama since 2023's "The Devil," delivers a performance that will likely dominate next year's awards conversation. She plays Lady Hong, a
-scholar's daughter who assumes the identity of a deceased servant to infiltrate the Gwansanggam (the royal observatory) after her father is executed on false charges of treason.
-The role demands everything from physical comedy in scenes of near-discovery to devastating emotional range in quiet moments of grief, and Kim inhabits every frame with the
-intensity of an actor operating at the peak of her powers.
-
-## A Visual and Emotional Masterpiece
-
-The drama's production values are immediately apparent. Cinematographer Park Jung-hoon, known for his work on "The Crowned Clown," shoots Seoul's Gyeongbokgung Palace and the
-mountain observatory set with a painterly eye, using natural light and candlelit interiors to create a visual texture that feels both period-accurate and cinematic. A standout
-sequence in the third episode, in which Lady Hong charts the stars for the first time, is lit entirely by lantern light and is among the most beautiful scenes in any drama this
-year.
-
-Co-star Ahn Hyo-seop, as the cynical yet brilliant astronomer Lord Seo, matches Kim beat for beat. Their chemistry is electric, but the drama wisely takes its time building the
-romance, allowing the political conspiracy at the heart of the story to develop organically alongside their connection. Screenwriter Park Hae-young, returning to sageuk for the
-first time since "The Red Sleeve," has crafted a narrative that respects historical accuracy while never losing sight of the human story at its center.
-
-With a reported budget of ₩45 billion, "When Stars Fall" is one of the most expensive Korean dramas ever produced. Based on the first four episodes, every won is visible on screen.
 
 {{< article-footer >}}
 copyright: >

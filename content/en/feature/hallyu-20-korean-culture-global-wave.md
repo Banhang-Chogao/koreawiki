@@ -1,14 +1,17 @@
 ---
-title: 'Hallyu 2.0: How Korean Culture Evolved from Niche Export to Global Dominance'
-description: A comprehensive look at the second wave of the Korean cultural export
-  boom, from K-food to K-literature, and what it means for the next decade.
+title: 'Hallyu 2.0: Văn hóa Hàn Quốc phát triển như thế nào từ xuất khẩu thị trường ngách
+  sang thống trị toàn cầu'
+description: Cái nhìn toàn diện về làn sóng bùng nổ xuất khẩu văn hóa Hàn Quốc thứ hai, từ
+  thực phẩm Hàn Quốc đến văn học Hàn Quốc và ý nghĩa của nó trong thập kỷ tới.
 date: 2026-07-13
 draft: false
 author: Sarah Chen
 cover:
-  image: https://picsum.photos/seed/feature1/1200/630
-  alt: Collage of Korean cultural exports — K-pop concert, Korean food, K-drama scene
-  caption: The global reach of Hallyu 2.0 spans music, food, fashion, and literature
+  image: images/sample/hallyu-20-korean-culture-global-wave.jpg
+  alt: Ảnh ghép về xuất khẩu văn hóa Hàn Quốc — Buổi hòa nhạc K-pop, món ăn Hàn Quốc, bối
+    cảnh K-drama
+  caption: Phạm vi tiếp cận toàn cầu của Hallyu 2.0 bao gồm âm nhạc, ẩm thực, thời trang và
+    văn học
 tags:
 - hallyu
 - korean-wave
@@ -26,47 +29,49 @@ keywords:
 slug: hallyu-20-how-korean-culture-evolved-from-niche-export-to-global-dominance
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: A comprehensive look at the second wave of the Korean cultural export boom, from
-    K-food to K-literature, and what it means for the next decade.
+  a: Cái nhìn toàn diện về làn sóng bùng nổ xuất khẩu văn hóa Hàn Quốc thứ hai, từ thực phẩm
+    Hàn Quốc đến văn học Hàn Quốc và ý nghĩa của nó trong thập kỷ tới.
 - q: Nội dung chính về «The Lifestyle Wave» là gì?
-  a: '"Ten years ago, if you told someone you were opening a Korean restaurant in
-    Paris or New York, you were taking a risk," said Kim Seong-ho, CEO of the Korean
-    Food Promotion Institute. "Today, Korean restaurants are among the highest-rated
-    cuisine categories on platforms like Michelin Guide and…'
-- q: Điểm thông tin chính độc giả nên nhớ là gì?
-  a: In 2012, Psy's "Gangnam Style" was a global phenomenon widely regarded as a novelty
-    — a colorful, irreverent flash in the pan that briefly turned the world's attention
-    to South Korea. Fourteen years later, the idea of Korean culture as a passing
-    fad seems preposterous.
+  a: 'Kim Seong-ho, Giám đốc điều hành của Viện Xúc tiến Thực phẩm Hàn Quốc, cho biết: “Mười
+    năm trước, nếu bạn nói với ai đó rằng bạn đang mở một nhà hàng Hàn Quốc ở Paris hoặc New
+    York, thì bạn đang gặp rủi ro. "Ngày nay, các nhà hàng Hàn Quốc nằm trong số những hạng
+    mục ẩm thực được đánh giá cao nhất trên các nền tảng như Michelin Guide và…'
+- q: Điểm thông tin chính độc. Bạn nhớ là gì?
+  a: Vào năm 2012, "Gangnam Style" của Psy là một hiện tượng toàn cầu được nhiều người coi
+    là một sự mới lạ - một tia sáng đầy màu sắc, bất kính đã nhanh chóng thu hút sự chú ý
+    của thế giới sang Hàn Quốc. Mười bốn năm sau, ý tưởng coi văn hóa Hàn Quốc như một thứ
+    mốt nhất thời có vẻ phi lý.
+sample_origin: scaffold
+lang_note: vi-localized-from-en-scaffold
 ---
 
+Vào năm 2012, "Gangnam Style" của Psy là một hiện tượng toàn cầu được nhiều người coi là một điều mới lạ - một tia sáng đầy màu sắc, bất kính trong một thời gian ngắn đã khiến cả thế giới chú ý đến miền Nam.
+Hàn Quốc. Mười bốn năm sau, ý tưởng coi văn hóa Hàn Quốc như một thứ mốt nhất thời có vẻ phi lý. Làn sóng Hàn Quốc, hay Hallyu, đã phát triển từ một sở thích nhỏ thành một trụ cột mang tính cấu trúc
+của nền kinh tế văn hóa và giải trí toàn cầu.
+
+Những con số kể một câu chuyện rõ ràng. Theo Bộ Văn hóa, Thể thao và Du lịch, vào năm 2025, xuất khẩu nội dung của Hàn Quốc đã tạo ra doanh thu 28,4 tỷ USD.
+vượt quá giá trị xuất khẩu của thiết bị gia dụng và đang tiến gần đến chất bán dẫn. Chỉ riêng K-pop đã chiếm 12,1 tỷ USD, trong khi ngành điện ảnh, phim truyền hình Hàn Quốc đóng góp 8,7 USD
+tỷ. Nhưng sự tăng trưởng ấn tượng nhất đến từ cái mà các nhà phân tích gọi là “Hallyu 2.0”: xuất khẩu phong cách sống, ẩm thực, sắc đẹp và văn học Hàn Quốc.
+
+## Làn sóng phong cách sống
+
+Kim Seong-ho, Giám đốc điều hành của Korea Food Promotion, cho biết: “Mười năm trước, nếu bạn nói với ai đó rằng bạn đang mở một nhà hàng Hàn Quốc ở Paris hoặc New York, thì bạn đang gặp rủi ro”.
+Viện. "Ngày nay, các nhà hàng Hàn Quốc nằm trong số các danh mục ẩm thực được đánh giá cao nhất trên các nền tảng như Michelin Guide và Google Maps. Gochujang có mặt ở các cửa hàng phổ thông của Mỹ
+siêu thị. Đây không phải là một xu hướng - nó là một sự biến đổi lâu dài về khẩu vị toàn cầu."
+
+Việc xuất khẩu văn học Hàn Quốc có lẽ đã chứng kiến ​​sự đột biến đáng ngạc nhiên nhất. Sau giải Nobel Văn học năm 2024 của Han Kang và giải Booker sau đó của bà, tác phẩm Hàn Quốc
+doanh số bán tiểu thuyết văn học qua bản dịch tăng 340% so với cùng kỳ năm trước. Các nhà xuất bản trên toàn thế giới đua nhau giành bản quyền dịch thuật cho các tác giả Hàn Quốc và các cơ quan văn học Hàn Quốc
+báo cáo rằng số tiến bộ dành cho các tiểu thuyết gia đầu tay đã tăng gấp 10 lần kể từ năm 2023.
+
+Jeong Myeong-seok, giáo sư nghiên cứu văn hóa tại Đại học Yonsei, lập luận rằng làn sóng thứ hai về cơ bản khác với làn sóng thứ nhất. "Halyu đầu tiên được thúc đẩy bởi một
+rất ít sản phẩm bom tấn – một bộ phim truyền hình ở đây, một nhóm nhạc K-pop ở đó,” ông nói. "Nó rất mong manh vì nó phụ thuộc vào từng lượt truy cập riêng lẻ. Hallyu 2.0 mang tính cấu trúc. Nó được gắn vào toàn cầu
+hành vi của người tiêu dùng, từ thói quen làm đẹp đến thói quen ăn kiêng cho đến cách mọi người trang trí nhà cửa."
+
+Những tác động đối với nền kinh tế Hàn Quốc là rất sâu sắc. Chính phủ đã đặt mục tiêu xuất khẩu nội dung văn hóa đạt 50 nghìn tỷ Yên vào năm 2032, mục tiêu mà các nhà phân tích cho là có thể đạt được nếu
+quỹ đạo tăng trưởng hiện tại được giữ vững. Đối với phần còn lại của thế giới, Hallyu 2.0 đại diện cho một điều gì đó hiếm hoi hơn: sự trao đổi văn hóa hai chiều đích thực trong thời đại văn hóa ngày càng phát triển.
+sự phân mảnh.
 
 
-In 2012, Psy's "Gangnam Style" was a global phenomenon widely regarded as a novelty — a colorful, irreverent flash in the pan that briefly turned the world's attention to South
-Korea. Fourteen years later, the idea of Korean culture as a passing fad seems preposterous. The Korean Wave, or Hallyu, has evolved from a niche interest into a structural pillar
-of the global entertainment and cultural economy.
-
-The numbers tell a clear story. In 2025, Korean content exports generated $28.4 billion in revenue, according to the Ministry of Culture, Sports and Tourism — a figure that
-exceeds the export value of home appliances and is closing in on semiconductors. K-pop alone accounted for $12.1 billion, while the Korean film and drama industry contributed $8.7
-billion. But the most striking growth came from what analysts are calling "Hallyu 2.0": the export of Korean lifestyle, food, beauty, and literature.
-
-## The Lifestyle Wave
-
-"Ten years ago, if you told someone you were opening a Korean restaurant in Paris or New York, you were taking a risk," said Kim Seong-ho, CEO of the Korean Food Promotion
-Institute. "Today, Korean restaurants are among the highest-rated cuisine categories on platforms like Michelin Guide and Google Maps. Gochujang is stocked in mainstream American
-supermarkets. This is not a trend — it is a permanent transformation of global taste."
-
-The export of Korean literature has seen perhaps the most surprising surge. Following Han Kang's Nobel Prize in Literature in 2024 and her subsequent Booker Prize win, Korean
-literary fiction sales in translation grew 340% year-over-year. Publishers worldwide have scrambled to acquire translation rights for Korean authors, and Korean literary agencies
-report that advances for debut novelists have increased tenfold since 2023.
-
-Jeong Myeong-seok, a professor of cultural studies at Yonsei University, argues that the second wave is fundamentally different from the first. "The first Hallyu was driven by a
-few blockbuster products — a drama here, a K-pop group there," he said. "It was fragile because it depended on individual hits. Hallyu 2.0 is structural. It is embedded in global
-consumer behavior, from beauty routines to dietary habits to how people decorate their homes."
-
-The implications for Korea's economy are profound. The government has set a target of ₩50 trillion in cultural content exports by 2032, a goal that analysts consider achievable if
-current growth trajectories hold. For the rest of the world, Hallyu 2.0 represents something rarer: a genuine two-way cultural exchange in an era of increasing cultural
-fragmentation.
 
 {{< article-footer >}}
 copyright: >

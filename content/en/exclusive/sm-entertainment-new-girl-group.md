@@ -1,16 +1,15 @@
 ---
-title: 'Exclusive: Inside SM Entertainment''s Next Girl Group — The Vision, The Members,
-  The Strategy'
-description: KoreaWiki gains unprecedented access to SM's training facility as the
-  company prepares to launch its first new girl group in six years.
+title: 'Độc quyền: Bên trong nhóm nhạc nữ tiếp theo của SM Entertainment — Tầm nhìn, Thành
+  viên, Chiến lược'
+description: KoreaWiki có được quyền truy cập chưa từng có vào cơ sở đào tạo của SM khi công
+  ty chuẩn bị ra mắt nhóm nhạc nữ mới đầu tiên sau sáu năm.
 date: 2026-07-14
 draft: false
 author: Ji-Yeon Park
 cover:
-  image: https://picsum.photos/seed/exclusive1/1200/630
-  alt: SM Entertainment's new state-of-the-art training facility
-  caption: Exclusive behind-the-scenes look at SM's newly built training center in
-    Seongnam
+  image: images/sample/sm-entertainment-new-girl-group.jpg
+  alt: Cơ sở đào tạo hiện đại mới của SM Entertainment
+  caption: Hình ảnh hậu trường độc quyền về trung tâm đào tạo mới xây của SM ở Seongnam
 tags:
 - sm-entertainment
 - girl-group
@@ -28,47 +27,49 @@ keywords:
 slug: exclusive-inside-sm-entertainments-next-girl-group-the-vision-the-members-the-strategy
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: KoreaWiki gains unprecedented access to SM's training facility as the company
-    prepares to launch its first new girl group in six years.
+  a: KoreaWiki có được quyền truy cập chưa từng có vào cơ sở đào tạo của SM khi công ty chuẩn
+    bị ra mắt nhóm nhạc nữ mới đầu tiên sau sáu năm.
 - q: Nội dung chính về «The Final Seven» là gì?
-  a: After two years of auditions that drew over 60,000 applicants, the lineup has
-    been finalized at seven members, ranging in age from 17 to 22. SM declined to
-    reveal their identities ahead of the official debut announcement, but KoreaWiki
-    has confirmed that the group includes two Chinese-Korean…
-- q: Điểm thông tin chính độc giả nên nhớ là gì?
-  a: SEOUL — Behind the unmarked glass doors of a nondescript building in Seongnam,
-    20 minutes south of Seoul, the next generation of K-pop is being assembled with
-    military precision. KoreaWiki was granted exclusive access to SM Entertainment's
-    newly completed "NEO Training Center," a ₩50 billion facility where the company's
-    next girl group — currently…
+  a: Sau hai năm thử giọng thu hút hơn 60.000 người đăng ký, đội hình đã được chốt gồm bảy
+    thành viên, trong độ tuổi từ 17 đến 22. SM từ chối tiết lộ danh tính của họ trước thông
+    báo ra mắt chính thức, nhưng KoreaWiki đã xác nhận rằng nhóm bao gồm hai người Trung Quốc-Hàn
+    Quốc…
+- q: Điểm thông tin chính độc. Bạn nhớ là gì?
+  a: SEOUL - Đằng sau những cánh cửa kính không có dấu vết của một tòa nhà bình thường ở Seongnam,
+    cách Seoul 20 phút về phía nam, thế hệ K-pop tiếp theo đang được tập hợp với độ chính
+    xác của quân đội. KoreaWiki đã được cấp quyền truy cập độc quyền vào "Trung tâm đào tạo
+    NEO" mới hoàn thành của SM Entertainment, một cơ sở trị giá 50 tỷ Yên, nơi nhóm nhạc nữ
+    tiếp theo của công ty — hiện…
+sample_origin: scaffold
+lang_note: vi-localized-from-en-scaffold
 ---
 
+SEOUL - Đằng sau những cánh cửa kính không có dấu vết của một tòa nhà bình thường ở Seongnam, cách Seoul 20 phút về phía nam, thế hệ K-pop tiếp theo đang được tập hợp với độ chính xác của quân đội.
+KoreaWiki đã được cấp quyền truy cập độc quyền vào "Trung tâm đào tạo NEO" mới hoàn thành của SM Entertainment, một cơ sở trị giá 50 tỷ Yên nơi nhóm nhạc nữ tiếp theo của công ty — hiện tại
+mật danh "Dự án Iris" - đã được đào tạo trong 18 tháng qua.
+
+Bản thân cơ sở này là một sự mặc khải. Trải rộng trên sáu tầng và 12.000 mét vuông, nó có 14 phòng luyện tập (tất cả đều có khả năng cách âm sánh ngang với phòng thu âm chuyên nghiệp).
+studio), một sân khấu biểu diễn quy mô lớn với âm thanh và ánh sáng đẳng cấp chuyên nghiệp, ký túc xá cho 30 học viên, một trung tâm thể hình có đội ngũ huấn luyện viên đạt trình độ Olympic và một
+phòng khám y tế nội trú. Tầng năm dành riêng cho việc sáng tạo nội dung, có ba phòng thu âm, phòng sản xuất video và một studio màn hình xanh nhỏ dành cho truyền thông xã hội
+nội dung.
+
+## Bảy trận cuối cùng
+
+Sau hai năm thử giọng thu hút hơn 60.000 người đăng ký, đội hình cuối cùng đã được xác định gồm 7 thành viên, trong độ tuổi từ 17 đến 22. SM từ chối tiết lộ danh tính của họ.
+Trước thông báo ra mắt chính thức, nhưng KoreaWiki đã xác nhận rằng nhóm bao gồm hai thành viên người Trung Quốc gốc Hàn, một thành viên người Nhật và một người Mỹ gốc Hàn đến từ Los Angeles.
+Angeles - một chiến lược có chủ ý để thu hút toàn cầu.
+
+Người đứng đầu bộ phận phát triển nghệ sĩ của SM cho biết: "Chúng tôi không cố gắng tái tạo lại thành công của aespa hay Girls' Generation".
+để thảo luận công khai về dự án. "Project Iris sẽ có bản sắc hoàn toàn khác biệt. Hãy coi đó như câu trả lời của SM cho tính âm nhạc của NewJeans kết hợp với màn trình diễn
+cường độ của Seventeen."
+
+Theo các nguồn tin, định hướng âm nhạc chủ yếu dựa vào nhạc cụ trực tiếp - một điều hiếm thấy ở K-pop. Nhóm có một ban nhạc chuyên dụng sẽ biểu diễn cùng họ và
+một số thành viên chơi nhạc cụ. Album đầu tay, dự kiến ra mắt vào tháng 3 năm 2027, được sản xuất bởi nhóm do Kenzie đứng đầu và có sự đóng góp của các nhạc sĩ nước ngoài, những người
+đã làm việc với Dua Lipa và Olivia Rodrigo.
+
+Người phát ngôn của SM Entertainment từ chối bình luận về chi tiết cụ thể nhưng xác nhận rằng nhóm nhạc nữ mới sẽ ra mắt vào quý 1 năm 2027.
 
 
-SEOUL — Behind the unmarked glass doors of a nondescript building in Seongnam, 20 minutes south of Seoul, the next generation of K-pop is being assembled with military precision.
-KoreaWiki was granted exclusive access to SM Entertainment's newly completed "NEO Training Center," a ₩50 billion facility where the company's next girl group — currently
-code-named "Project Iris" — has been training for the past 18 months.
-
-The facility itself is a revelation. Spread across six floors and 12,000 square meters, it features 14 practice rooms (all with soundproofing that rivals professional recording
-studios), a full-size performance stage with professional-grade lighting and sound, dormitories for 30 trainees, a fitness center staffed by Olympic-level trainers, and an
-in-house medical clinic. The fifth floor is dedicated to content creation, with three recording studios, a video production suite, and a small green-screen studio for social media
-content.
-
-## The Final Seven
-
-After two years of auditions that drew over 60,000 applicants, the lineup has been finalized at seven members, ranging in age from 17 to 22. SM declined to reveal their identities
-ahead of the official debut announcement, but KoreaWiki has confirmed that the group includes two Chinese-Korean members, one Japanese member, and a Korean-American from Los
-Angeles — a deliberate strategy for global appeal.
-
-"We are not trying to recreate the success of aespa or Girls' Generation," said SM's head of artist development, speaking on condition of anonymity because they are not authorized
-to discuss the project publicly. "Project Iris will have a completely distinct identity. Think of it as SM's answer to the musicality of NewJeans combined with the performance
-intensity of Seventeen."
-
-The musical direction, according to sources, leans heavily into live instrumentation — a rarity in K-pop. The group has a dedicated band that will perform alongside them, and
-several members play instruments. The debut album, scheduled for March 2027, is being produced by a team led by Kenzie and includes contributions from overseas songwriters who
-have worked with Dua Lipa and Olivia Rodrigo.
-
-An SM Entertainment spokesperson declined to comment on specific details but confirmed that a new girl group debut is planned for the first quarter of 2027.
 
 {{< article-footer >}}
 copyright: >

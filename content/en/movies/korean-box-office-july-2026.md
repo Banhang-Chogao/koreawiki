@@ -1,16 +1,15 @@
 ---
-title: 'Korean Box Office: Local Titles Dominate July as ''Harbinger'' Pre-Sales Break
-  Records'
-description: Domestic films claim six of the top ten spots at the Korean box office,
-  with Bong Joon-ho's latest driving unprecedented pre-sale numbers.
+title: 'Phòng vé Hàn Quốc: Các tựa phim địa phương thống trị tháng 7 khi phá kỷ lục doanh
+  thu bán trước của ''Harbinger'''
+description: Phim nội địa chiếm sáu trong số mười vị trí hàng đầu tại phòng vé Hàn Quốc, với
+  doanh thu bán trước mới nhất của Bong Joon-ho thúc đẩy số lượng bán trước chưa từng có.
 date: 2026-07-03
 draft: false
 author: Min-Jun Kim
 cover:
-  image: https://picsum.photos/seed/movies3/1200/630
-  alt: Movie theater marquee in Myeongdong showing Korean films
-  caption: CGV Myeongdong's box office displays dominated by Korean titles in July
-    2026
+  image: images/sample/korean-box-office-july-2026.jpg
+  alt: Rạp chiếu phim ở Myeongdong chiếu phim Hàn Quốc
+  caption: Doanh thu phòng vé CGV Myeongdong bị các phim Hàn thống trị vào tháng 7 năm 2026
 tags:
 - box-office
 - korean-film
@@ -28,43 +27,45 @@ keywords:
 slug: korean-box-office-local-titles-dominate-july-as-harbinger-pre-sales-break-records
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Domestic films claim six of the top ten spots at the Korean box office, with
-    Bong Joon-ho's latest driving unprecedented pre-sale numbers.
+  a: Phim nội địa chiếm sáu trong số mười vị trí hàng đầu tại phòng vé Hàn Quốc, với doanh
+    thu bán trước mới nhất của Bong Joon-ho thúc đẩy số lượng bán trước chưa từng có.
 - q: Nội dung chính về «Harbinger Mania Begins» là gì?
-  a: The most significant story, however, is the unprecedented pre-sale performance
-    of Bong Joon-ho's "Harbinger," which opens July 25. As of July 1, the film had
-    already sold 1.3 million pre-sale tickets — the highest figure in Korean box office
-    history for a film still two weeks from release.
-- q: Điểm thông tin chính độc giả nên nhớ là gì?
-  a: Korean cinema is enjoying a remarkable summer at the domestic box office, with
-    local titles claiming six of the top ten positions in July's first weekend. The
-    trend underscores what industry analysts describe as a sustained "Korean film
-    renaissance" that has seen domestic market share hover above 55% for the first
-    half of 2026, the highest figure since the…
+  a: Tuy nhiên, câu chuyện quan trọng nhất là thành tích bán trước chưa từng có của Harbinger
+    của Bong Joon Ho, khởi chiếu vào ngày 25 tháng 7. Tính đến ngày 1 tháng 7, bộ phim đã
+    bán được 1,3 triệu vé bán trước — con số cao nhất trong lịch sử phòng vé Hàn Quốc đối
+    với một bộ phim vẫn còn hai tuần nữa mới ra mắt.
+- q: Điểm thông tin chính độc. Bạn nhớ là gì?
+  a: Điện ảnh Hàn Quốc đang tận hưởng một mùa hè đáng chú ý tại phòng vé trong nước, với các
+    tựa phim địa phương chiếm sáu trong mười vị trí dẫn đầu trong tuần đầu tiên của tháng
+    Bảy. Xu hướng này nhấn mạnh điều mà các nhà phân tích trong ngành mô tả là "thời kỳ phục
+    hưng của phim Hàn Quốc" bền vững với thị phần trong nước dao động trên 55% trong nửa đầu
+    năm 2026, con số cao nhất kể từ…
+sample_origin: scaffold
+lang_note: vi-localized-from-en-scaffold
 ---
 
+Điện ảnh Hàn Quốc đang tận hưởng một mùa hè đáng chú ý tại phòng vé trong nước, với các tựa phim địa phương chiếm sáu trong mười vị trí dẫn đầu trong tuần đầu tiên của tháng Bảy. Xu hướng nhấn mạnh
+điều mà các nhà phân tích trong ngành mô tả là "thời kỳ phục hưng điện ảnh Hàn Quốc" bền vững với thị phần trong nước dao động trên 55% trong nửa đầu năm 2026, con số cao nhất kể từ đó.
+sự bùng nổ hậu "Ký sinh trùng" của năm 2020.
+
+Dẫn đầu là The Tunnel, bộ phim ly kỳ về thảm họa do Yoon Jong-bin (The Spy Gone North) đạo diễn đã thu về hơn 45 tỉ won sau ba tuần công chiếu. Bộ phim kể về một
+công trường xây dựng tàu điện ngầm bị sập ở phía nam Seoul, đã được khen ngợi vì hiệu quả thiết thực và diễn xuất hấp dẫn của Ha Jung-woo. Nó đã giữ vị trí số một trong
+ba ngày cuối tuần liên tiếp, một thành tích ngày càng hiếm trong thị trường rạp chiếu đang phát triển nhanh chóng.
+
+## Harbinger Mania bắt đầu
+
+Tuy nhiên, câu chuyện quan trọng nhất là thành tích bán trước chưa từng có của bộ phim Harbinger của Bong Joon-ho, khởi chiếu vào ngày 25 tháng 7. Tính đến ngày 1 tháng 7, bộ phim đã bán được 1,3 bản
+triệu vé bán trước — con số cao nhất trong lịch sử phòng vé Hàn Quốc cho một bộ phim vẫn còn hai tuần nữa mới ra mắt. CJ CGV báo cáo rằng hệ thống bán trước của họ đã gặp phải sự cố
+Ngừng hoạt động 15 phút vào ngày 30 tháng 6 khi mở bán vé trước do nhu cầu quá tải.
+
+“Chúng tôi chưa bao giờ thấy điều gì như thế này,” giám đốc phân phối của CJ ENM Park Sung-ho cho biết. “Số lượng đặt trước đang tăng hơn 40% so với ‘Ký sinh trùng’ tại cùng thời điểm phát hành
+chu kỳ. Sự mong đợi đơn giản là phi thường." Các dự đoán trong ngành cho thấy Harbinger có thể vượt 12 triệu lượt xem trong nước, một cột mốc chỉ có một số ít phim Hàn Quốc chiếu.
+phim đã đạt được.
+
+Các tựa phim địa phương khác hoạt động tốt bao gồm bộ phim hài lãng mạn Love in Gangnam, đã âm thầm tích lũy 18 tỷ won, và bộ phim hoạt hình Yeoubi: The Fox Star, bộ phim đã thu về 18 tỷ won.
+đã trở thành một bộ phim gây bất ngờ với khán giả gia đình, thu về 12 tỷ Yên so với kinh phí sản xuất khiêm tốn 3 tỷ Yên.
 
 
-Korean cinema is enjoying a remarkable summer at the domestic box office, with local titles claiming six of the top ten positions in July's first weekend. The trend underscores
-what industry analysts describe as a sustained "Korean film renaissance" that has seen domestic market share hover above 55% for the first half of 2026, the highest figure since
-the post-"Parasite" boom of 2020.
-
-Leading the charge is "The Tunnel," a disaster thriller directed by Yoon Jong-bin ("The Spy Gone North") that has grossed over ₩45 billion in its three-week run. The film, about a
-collapsed subway construction site in southern Seoul, has been praised for its practical effects and a gripping performance by Ha Jung-woo. It has held the number one position for
-three consecutive weekends, an increasingly rare feat in the fast-moving theatrical market.
-
-## Harbinger Mania Begins
-
-The most significant story, however, is the unprecedented pre-sale performance of Bong Joon-ho's "Harbinger," which opens July 25. As of July 1, the film had already sold 1.3
-million pre-sale tickets — the highest figure in Korean box office history for a film still two weeks from release. CJ CGV reported that its pre-sale system experienced a
-15-minute outage on June 30 when advance ticketing opened, overwhelmed by demand.
-
-"We have never seen anything like this," said CJ ENM distribution chief Park Sung-ho. "The pre-sale numbers are tracking 40% ahead of 'Parasite' at the same point in its release
-cycle. The anticipation is simply extraordinary." Industry projections suggest "Harbinger" could surpass 12 million admissions domestically, a milestone only a handful of Korean
-films have achieved.
-
-Other local titles performing well include the romantic comedy "Love in Gangnam," which has quietly accumulated ₩18 billion, and the animated feature "Yeoubi: The Fox Star," which
-has become a surprise hit with family audiences, grossing ₩12 billion against a modest ₩3 billion production budget.
 
 {{< article-footer >}}
 copyright: >

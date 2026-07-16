@@ -1,15 +1,17 @@
 ---
-title: 'Seoul Fashion Week Fall/Winter 2026: Tradition, Tech, and a New Global Ambition'
-description: The bi-annual event showcased a Korean fashion industry coming into its
-  own, with designers blending heritage craftsmanship with cutting-edge technology.
+title: 'Tuần lễ thời trang Seoul Thu Đông 2026: Truyền thống, Công nghệ và Tham vọng Toàn
+  cầu Mới'
+description: Sự kiện được tổ chức hai năm một lần này giới thiệu một ngành công nghiệp thời
+  trang Hàn Quốc đang trên đà phát triển, với các nhà thiết kế kết hợp giữa nghề thủ công
+  truyền thống với công nghệ tiên tiến.
 date: 2026-07-11
 draft: false
 author: Soo-Jin Choi
 cover:
-  image: https://picsum.photos/seed/fashion1/1200/630
-  alt: Runway at Seoul Fashion Week Fall/Winter 2026
-  caption: A model walks the runway at Seoul Fashion Week's main venue in Dongdaemun
-    Design Plaza
+  image: images/sample/seoul-fashion-week-july-2026.jpg
+  alt: Sàn diễn tại Tuần lễ thời trang Seoul Thu Đông 2026
+  caption: Một người mẫu bước trên sàn diễn tại địa điểm chính của Tuần lễ thời trang Seoul
+    ở Dongdaemun Design Plaza
 tags:
 - seoul-fashion-week
 - korean-fashion
@@ -27,42 +29,45 @@ keywords:
 slug: seoul-fashion-week-fallwinter-2026-tradition-tech-and-a-new-global-ambition
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: The bi-annual event showcased a Korean fashion industry coming into its own,
-    with designers blending heritage craftsmanship with cutting-edge technology.
-- q: Nội dung chính về «The Seoul Aesthetic Finds Global Buyers» là gì?
-  a: '"This is the strongest season I can remember," said fashion critic Hwang Min-hee.
-    "The designers have stopped trying to imitate Paris or Milan.'
-- q: Điểm thông tin chính độc giả nên nhớ là gì?
-  a: Seoul Fashion Week returned to the iconic Dongdaemun Design Plaza from July 3
-    to July 8, presenting the Fall/Winter 2026 collections from 64 Korean designers
-    and, for the first time, eight international guest designers from Tokyo, Shanghai,
-    and Milan. The event has undergone a quiet transformation in recent seasons, evolving
-    from a regional showcase into a…
+  a: Sự kiện được tổ chức hai năm một lần này giới thiệu một ngành công nghiệp thời trang
+    Hàn Quốc đang trên đà phát triển, với các nhà thiết kế kết hợp giữa nghề thủ công truyền
+    thống với công nghệ tiên tiến.
+- q: Nội dung chính về «Thẩm mỹ Seoul tìm được người mua toàn cầu» là gì?
+  a: 'Nhà phê bình thời trang Hwang Min-hee cho biết: “Đây là mùa mạnh mẽ nhất mà tôi có thể
+    nhớ được”. “Các nhà thiết kế đã ngừng cố gắng bắt chước Paris hay Milan.'
+- q: Điểm thông tin chính độc. Bạn nhớ là gì?
+  a: Tuần lễ thời trang Seoul quay trở lại Dongdaemun Design Plaza mang tính biểu tượng từ
+    ngày 3 tháng 7 đến ngày 8 tháng 7, giới thiệu các bộ sưu tập Thu/Đông 2026 từ 64 nhà thiết
+    kế Hàn Quốc và lần đầu tiên có tám nhà thiết kế khách mời quốc tế đến từ Tokyo, Thượng
+    Hải và Milan. Sự kiện này đã trải qua một sự chuyển đổi thầm lặng trong những mùa giải
+    gần đây, phát triển từ một buổi giới thiệu khu vực thành một…
+sample_origin: scaffold
+lang_note: vi-localized-from-en-scaffold
 ---
 
+Tuần lễ thời trang Seoul quay trở lại Dongdaemun Design Plaza mang tính biểu tượng từ ngày 3 tháng 7 đến ngày 8 tháng 7, giới thiệu các bộ sưu tập Thu/Đông 2026 của 64 nhà thiết kế Hàn Quốc và lần đầu tiên
+cùng lúc có tám nhà thiết kế khách quốc tế đến từ Tokyo, Thượng Hải và Milan. Sự kiện này đã trải qua một sự chuyển đổi thầm lặng trong những mùa giải gần đây, phát triển từ một chương trình giới thiệu khu vực thành
+một vật cố định hợp pháp trên lịch thời trang toàn cầu.
+
+Chủ đề nổi bật của mùa này là sự giao thoa giữa di sản Hàn Quốc và đổi mới công nghệ. Nhà thiết kế Park Seung-geun, trình diễn dưới nhãn hiệu PLO của mình, đã mở đầu tuần bằng
+bộ sưu tập tích hợp kỹ thuật bojagi (vải bọc) truyền thống của Hàn Quốc với các loại vải thông minh có khả năng thay đổi màu sắc theo nhiệt độ cơ thể. Buổi diễn được nhắc tới nhiều nhất
+trong tuần, tạo tin tức trên tạp chí Women's Wear Daily và Vogue Runway.
+
+## Thẩm mỹ Seoul tìm được người mua toàn cầu
+
+Nhà phê bình thời trang Hwang Min-hee cho biết: “Đây là mùa mạnh mẽ nhất mà tôi có thể nhớ được”. "Các nhà thiết kế đã ngừng cố gắng bắt chước Paris hay Milan. Họ đang tự tin thể hiện tác phẩm của mình
+điều đó chỉ có thể đến từ Seoul." Sự tự tin dường như đã được đền đáp về mặt thương mại: lượng người mua quốc tế đến tham quan đã tăng 35% so với năm ngoái, với các cửa hàng bách hóa từ Harrods
+tới Isetan gửi phái đoàn.
+
+Một số xu hướng đã xác định các bộ sưu tập. Những kiểu dáng quá khổ chiếm ưu thế, thường được làm bằng len và lụa Hàn Quốc sang trọng. Bảng màu nghiêng về tông màu ngọc đậm —
+máu bò, xanh rừng và xanh nửa đêm - thỉnh thoảng được nhấn mạnh bởi màu hồng điện. Các chi tiết lấy cảm hứng từ Hanbok xuất hiện trên nhiều bộ sưu tập, từ những bộ sưu tập được làm lại
+hình bóng jeogori (áo khoác) cho đến phụ kiện norigae (trang trí truyền thống) được tái hiện lại bằng chất liệu hiện đại.
+
+Có lẽ sự phát triển quan trọng nhất là sự ra mắt của "Quỹ thời trang Seoul", một sáng kiến trị giá 20 tỷ Yên được Chính quyền thành phố Seoul và sáu người Hàn Quốc hỗ trợ.
+các tập đoàn, được thiết kế để cung cấp hỗ trợ tài chính cho các nhà thiết kế mới nổi của Hàn Quốc muốn trình diễn tại các tuần lễ thời trang quốc tế. Thị trưởng Seoul Oh Se-hoon cho biết: “Tài năng là ở đây”.
+tại sự kiện ra mắt. "Điều còn thiếu là cơ sở hạ tầng để đưa thời trang Hàn Quốc ra thế giới. Điều đó hiện đang thay đổi."
 
 
-Seoul Fashion Week returned to the iconic Dongdaemun Design Plaza from July 3 to July 8, presenting the Fall/Winter 2026 collections from 64 Korean designers and, for the first
-time, eight international guest designers from Tokyo, Shanghai, and Milan. The event has undergone a quiet transformation in recent seasons, evolving from a regional showcase into
-a legitimate fixture on the global fashion calendar.
-
-This season's standout theme was the intersection of Korean heritage and technological innovation. Designer Park Seung-geun, showing under his label PLO, opened the week with a
-collection that integrated traditional Korean bojagi (wrapping cloth) techniques with smart fabrics that changed color in response to body heat. The show was the most-talked-about
-of the week, generating coverage in Women's Wear Daily and Vogue Runway.
-
-## The Seoul Aesthetic Finds Global Buyers
-
-"This is the strongest season I can remember," said fashion critic Hwang Min-hee. "The designers have stopped trying to imitate Paris or Milan. They are confidently showing work
-that could only come from Seoul." The confidence appears to be rewarded commercially: international buyer attendance was up 35% from last year, with department stores from Harrods
-to Isetan sending delegations.
-
-Several trends defined the collections. Oversized silhouettes dominated, often rendered in luxurious Korean wool and silk. The color palette leaned into deep jewel tones —
-oxblood, forest green, and midnight blue — punctuated by the occasional shock of electric pink. Hanbok-inspired details appeared across multiple collections, from reimagined
-jeogori (jacket) silhouettes to norigae (traditional ornament) accessories reimagined in modern materials.
-
-Perhaps the most significant development was the launch of the "Seoul Fashion Fund," a ₩20 billion initiative backed by the Seoul Metropolitan Government and six Korean
-corporations, designed to provide financial support for emerging Korean designers looking to show at international fashion weeks. "The talent is here," said Seoul Mayor Oh Se-hoon
-at the launch event. "What has been missing is the infrastructure to take Korean fashion to the world. That is changing now."
 
 {{< article-footer >}}
 copyright: >

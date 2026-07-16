@@ -1,15 +1,15 @@
 ---
-title: 'Seoul After Dark: A Photo Essay on the City That Never Sleeps'
-description: From neon-lit Gangnam to the quiet alleys of Bukchon, KoreaWiki's photographers
-  capture the contrasting moods of Seoul's nighttime landscape.
+title: 'Seoul After Dark: Một bài luận ảnh về thành phố không bao giờ ngủ'
+description: Từ Gangnam được thắp đèn neon cho đến những con hẻm yên tĩnh ở Bukchon, các nhiếp
+  ảnh gia của KoreaWiki đã ghi lại những tâm trạng tương phản của cảnh quan về đêm của Seoul.
 date: 2026-07-05
 draft: false
 author: KoreaWiki Photography Team
 cover:
-  image: https://picsum.photos/seed/photo2/1200/630
-  alt: Night view of Seoul skyline from Namsan Tower
-  caption: Seoul's sprawling cityscape illuminated under the night sky, viewed from
-    Namsan Seoul Tower
+  image: images/sample/seoul-night-photography-guide.jpg
+  alt: Cảnh đêm của đường chân trời Seoul từ Tháp Namsan
+  caption: Cảnh quan thành phố rộng lớn của Seoul được chiếu sáng dưới bầu trời đêm, nhìn
+    từ Tháp Namsan Seoul
 tags:
 - seoul
 - night-photography
@@ -27,43 +27,45 @@ keywords:
 slug: seoul-after-dark-a-photo-essay-on-the-city-that-never-sleeps
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: From neon-lit Gangnam to the quiet alleys of Bukchon, KoreaWiki's photographers
-    capture the contrasting moods of Seoul's nighttime landscape.
+  a: Từ Gangnam được thắp đèn neon cho đến những con hẻm yên tĩnh ở Bukchon, các nhiếp ảnh
+    gia của KoreaWiki đã ghi lại những tâm trạng tương phản của cảnh quan về đêm của Seoul.
 - q: 'Nội dung chính về «Gangnam: The Electric District» là gì?'
-  a: The Gangnam nightscape is defined by light — specifically, the massive digital
-    billboards that line Gangnam-daero, some of the largest in Asia. Our photographers
-    spent a night capturing the interplay between these commercial light sources and
-    the human activity beneath them.
-- q: Điểm thông tin chính độc giả nên nhớ là gì?
-  a: Seoul at night is a city of contrasts. In Gangnam, the neon glow of K-pop billboards
-    and luxury storefronts reflects off the glass towers of corporate headquarters,
-    creating a vision of hyper-modern prosperity.
+  a: Cảnh đêm Gangnam được xác định bằng ánh sáng - cụ thể là các biển quảng cáo kỹ thuật
+    số khổng lồ dọc theo Gangnam-daero, một trong những biển lớn nhất ở châu Á. Các nhiếp
+    ảnh gia của chúng tôi đã dành một đêm để ghi lại sự tương tác giữa các nguồn sáng thương
+    mại này và hoạt động của con người bên dưới chúng.
+- q: Điểm thông tin chính độc. Bạn nhớ là gì?
+  a: Seoul về đêm là một thành phố của sự tương phản. Ở Gangnam, ánh đèn neon của các biển
+    quảng cáo K-pop và mặt tiền cửa hàng sang trọng phản chiếu lên các tòa tháp kính của trụ
+    sở công ty, tạo nên một viễn cảnh về sự thịnh vượng siêu hiện đại.
+sample_origin: scaffold
+lang_note: vi-localized-from-en-scaffold
 ---
 
+Seoul về đêm là một thành phố của sự tương phản. Ở Gangnam, ánh đèn neon của các biển quảng cáo K-pop và mặt tiền cửa hàng sang trọng phản chiếu lên các tòa tháp kính của trụ sở công ty, tạo nên một không gian
+tầm nhìn về sự thịnh vượng siêu hiện đại. Ở Bukchon, những con hẻm chật hẹp chỉ được chiếu sáng bởi ánh sáng ấm áp của các nhà nghỉ hanok và thỉnh thoảng có ánh đèn đường, mang lại cảm giác về một không gian cổ kính.
+Seoul tồn tại trước phép màu kinh tế.
+
+## Gangnam: Khu Điện lực
+
+Cảnh đêm Gangnam được xác định bằng ánh sáng - cụ thể là các biển quảng cáo kỹ thuật số khổng lồ dọc theo Gangnam-daero, một trong những biển lớn nhất ở châu Á. Các nhiếp ảnh gia của chúng tôi đã dành một đêm
+ghi lại sự tương tác giữa các nguồn sáng thương mại này và hoạt động của con người bên dưới chúng. Những hình ảnh ấn tượng nhất là những hình ảnh ghi lại khoảnh khắc tĩnh lặng bên trong
+sự hỗn loạn về mặt hình ảnh: một tài xế giao hàng đang nghỉ ngơi trên chiếc xe tay ga của mình, được đóng khung bởi một đoạn video cao chót vót về một thần tượng K-pop; một cặp đôi đang chia sẻ khoảnh khắc yên tĩnh dưới ánh sáng của màn hình LED dài 50 mét.
+
+## Hongdae: Tuổi trẻ và Bóng tối
+
+Hongdae vào ban đêm là một sinh vật hoàn toàn khác. Đường phố rộn ràng với những buổi biểu diễn hát rong, âm nhạc câu lạc bộ tràn ra từ những cánh cửa mở và đám đông thanh niên đang tìm đường trong mê cung
+của những con hẻm. Những bức ảnh của chúng tôi tập trung vào các nghệ sĩ biểu diễn — các vũ công đường phố, các ban nhạc indie, các nghệ sĩ guitar solo, những người tạo nên nền tảng cho năng lượng sáng tạo của Hongdae. Trong bóng tối
+giữa ánh đèn đường, những khoảnh khắc chân thực hiện lên: một vũ công lấy lại hơi thở, một nghệ sĩ guitar đang điều chỉnh chốt điều chỉnh, một cặp đôi chia sẻ nụ hôn đầu tiên trong ánh sáng rực rỡ của một chiếc đàn.
+cửa hàng tiện lợi.
+
+## Bukchon: Thành phố yên tĩnh
+
+Bài tiểu luận chụp ảnh ban đêm kết thúc ở Bukchon, nơi sự thiếu vắng ánh sáng thương mại tạo nên một vẻ đẹp khác. Ở đây, những bức ảnh được xác định bởi những gì không phải là
+được chiếu sáng - bóng tối của mái nhà hanok tương phản với bầu trời sáng hơn một chút, ngọn đèn duy nhất trên cửa sổ truyền thống, bóng dài của người đi bộ cuối cùng
+về nhà qua những con hẻm lát đá cuội. Đó là một lời nhắc nhở rằng ngay cả ở một trong những thành phố năng động nhất thế giới, những vùng tĩnh lặng sâu sắc vẫn tồn tại.
 
 
-Seoul at night is a city of contrasts. In Gangnam, the neon glow of K-pop billboards and luxury storefronts reflects off the glass towers of corporate headquarters, creating a
-vision of hyper-modern prosperity. In Bukchon, the narrow alleyways are lit only by the warm glow of hanok guesthouses and the occasional street lamp, preserving a sense of a
-Seoul that existed before the economic miracle.
-
-## Gangnam: The Electric District
-
-The Gangnam nightscape is defined by light — specifically, the massive digital billboards that line Gangnam-daero, some of the largest in Asia. Our photographers spent a night
-capturing the interplay between these commercial light sources and the human activity beneath them. The most striking images are those that capture a moment of stillness within
-the visual chaos: a delivery driver resting on his scooter, framed by a towering video of a K-pop idol; a couple sharing a quiet moment under the glow of a 50-meter LED screen.
-
-## Hongdae: Youth and Shadow
-
-Hongdae at night is a different creature entirely. The streets pulse with busking performances, club music spilling from open doors, and crowds of young people navigating the maze
-of alleyways. Our photographs focus on the performers — the street dancers, the indie bands, the solo guitarists who form the backbone of Hongdae's creative energy. In the shadows
-between street lights, the candid moments emerge: a dancer catching their breath, a guitarist adjusting a tuning peg, a couple sharing their first kiss in the glow of a
-convenience store.
-
-## Bukchon: The Quiet City
-
-The night photography essay concludes in Bukchon, where the absence of commercial lighting creates a different kind of beauty. Here, the photographs are defined by what is not
-illuminated — the dark silhouettes of hanok roofs against the slightly lighter sky, the single lamp in a traditional window, the long shadows cast by the last pedestrian walking
-home through the cobblestone alleys. It is a reminder that even in one of the world's most dynamic cities, pockets of profound stillness still exist.
 
 {{< article-footer >}}
 copyright: >

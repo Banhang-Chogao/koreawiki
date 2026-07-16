@@ -1,16 +1,16 @@
 ---
-title: 'Park Chan-wol: The Indie Director Who Refuses to Make the Same Film Twice'
-description: The maverick filmmaker behind 'Busan at Dawn' and 'The Inbetween' talks
-  about his creative process, rejection of the studio system, and his upcoming VR
-  experiment.
+title: 'Park Chan-wol: Đạo diễn độc lập từ chối làm cùng một bộ phim hai lần'
+description: Nhà làm phim lập dị đằng sau 'Busan at Dawn' và 'The Inbetween' nói về quá trình
+  sáng tạo của anh ấy, việc từ chối hệ thống trường quay và thử nghiệm VR sắp tới của anh
+  ấy.
 date: 2026-07-06
 draft: false
 author: Hyun-Woo Lee
 cover:
-  image: https://picsum.photos/seed/artist3/1200/630
-  alt: Park Chan-wol on set
-  caption: Director Park Chan-wol on location in Busan during the production of his
-    latest project
+  image: images/sample/park-chan-wol-interview.jpg
+  alt: Park Chan-wol trên phim trường
+  caption: Đạo diễn Park Chan-wol tại địa điểm ở Busan trong quá trình sản xuất dự án mới
+    nhất của ông
 tags:
 - park-chan-wol
 - independent-film
@@ -28,43 +28,45 @@ keywords:
 slug: park-chan-wol-the-indie-director-who-refuses-to-make-the-same-film-twice
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: The maverick filmmaker behind 'Busan at Dawn' and 'The Inbetween' talks about
-    his creative process, rejection of the studio system, and his upcoming VR experiment.
+  a: Nhà làm phim lập dị đằng sau 'Busan at Dawn' và 'The Inbetween' nói về quá trình sáng
+    tạo của anh ấy, việc từ chối hệ thống trường quay và thử nghiệm VR sắp tới của anh ấy.
 - q: Nội dung chính về «The VR Frontier» là gì?
-  a: Park's next project represents his most radical departure yet. "Vanishing Point"
-    is a 45-minute virtual reality experience that places the viewer inside the memory
-    of a dementia patient.
-- q: Điểm thông tin chính độc giả nên nhớ là gì?
-  a: Park Chan-wol does not make films for people who want comfort. The 41-year-old
-    director, whose five feature films have polarized critics and delighted festival
-    programmers, is sitting across from me at a quiet coffee shop in Seoul's Hongdae
-    district, nursing an americano and explaining why he has turned down every studio
-    offer that has come his way.
+  a: Dự án tiếp theo của Park thể hiện sự ra đi triệt để nhất của anh ấy. "Vanishing Point"
+    là trải nghiệm thực tế ảo dài 45 phút đưa người xem vào trong ký ức của một bệnh nhân
+    sa sút trí tuệ.
+- q: Điểm thông tin chính độc. Bạn nhớ là gì?
+  a: Park Chan-wol không làm phim dành cho những người muốn được an ủi. Vị đạo diễn 41 tuổi,
+    với năm phim điện ảnh đã khiến các nhà phê bình phân cực và các nhà tổ chức liên hoan
+    phim hài lòng, đang ngồi đối diện tôi tại một quán cà phê yên tĩnh ở quận Hongdae của
+    Seoul, chăm sóc một người Mỹ và giải thích lý do tại sao ông từ chối mọi lời đề nghị của
+    hãng phim đến với mình.
+sample_origin: scaffold
+lang_note: vi-localized-from-en-scaffold
 ---
 
+Park Chan-wol không làm phim dành cho những người muốn được an ủi. Đạo diễn 41 tuổi, người có năm phim truyện đã khiến các nhà phê bình phân cực và làm các nhà tổ chức liên hoan phim thích thú, là
+ngồi đối diện tôi tại một quán cà phê yên tĩnh ở quận Hongdae của Seoul, chăm sóc một người Mỹ và giải thích lý do tại sao anh ấy từ chối mọi lời đề nghị của studio đến với mình.
+
+“Tôi đã được đề nghị rất nhiều tiền để làm một bộ phim như ‘Ký sinh trùng’,” anh nói, với nụ cười gượng gạo cho thấy anh đã nghe câu hỏi này nhiều lần trước đây. “Nhưng quan điểm của
+làm phim không phải là để tái tạo thành công của người khác. Vấn đề là nói điều gì đó bạn chưa từng nói trước đây, theo cách mà bạn chưa từng nói.”
+
+Bộ phim mới nhất của Park, The Inbetween, ra mắt lần đầu tại Liên hoan phim quốc tế Berlin vào tháng 2, nơi phim đoạt giải Gấu bạc cho Đạo diễn xuất sắc nhất. Phim gần như im lặng
+thiền về nỗi đau buồn, lấy bối cảnh hoàn toàn ở ga tàu điện ngầm Seoul từ nửa đêm đến 5 giờ sáng. Phim kể về ba nhân vật - một cựu chiến binh vô gia cư, một thiếu niên đang mang thai và một ca đêm
+sạch hơn - có đường dẫn giao nhau mà không bao giờ thực sự hội tụ. Theo sự thừa nhận của Park, đây là "bộ phim nói về sự bất khả thi trong việc kết nối ở một thành phố siêu kết nối."
+
+## Biên giới VR
+
+Dự án tiếp theo của Park thể hiện sự ra đi triệt để nhất của anh ấy. "Vanishing Point" là trải nghiệm thực tế ảo kéo dài 45 phút đưa người xem vào trong ký ức của chứng mất trí nhớ
+kiên nhẫn. Dự án do Đại học Nghệ thuật Quốc gia Hàn Quốc và Phòng thí nghiệm Truyền thông MIT đồng sản xuất, sử dụng công nghệ theo dõi mắt và âm thanh hai tai để tạo ra thứ mà Park gọi là
+"sự đắm chìm đồng cảm."
+
+“Tôi chán cái khung rồi,” Park giải thích, dùng tay ra hiệu để tạo ra một hình chữ nhật. "Điện ảnh đã bị mắc kẹt bên trong hình chữ nhật này suốt 130 năm. VR mang đến khả năng
+một rạp chiếu phim không có tường. Tôi không biết liệu nó có hiệu quả không. Nhưng tôi phải cố gắng."
+
+Nguồn tài trợ cho dự án đến từ sự kết hợp giữa các khoản tài trợ của hội đồng nghệ thuật và quyên góp tư nhân, tổng cộng là 2,8 tỷ Yên — khiêm tốn so với tiêu chuẩn phim thương mại nhưng có ý nghĩa quan trọng đối với một bộ phim.
+công việc VR thử nghiệm. Trải nghiệm này sẽ ra mắt tại Liên hoan phim Venice vào tháng 9.
 
 
-Park Chan-wol does not make films for people who want comfort. The 41-year-old director, whose five feature films have polarized critics and delighted festival programmers, is
-sitting across from me at a quiet coffee shop in Seoul's Hongdae district, nursing an americano and explaining why he has turned down every studio offer that has come his way.
-
-"I've been offered plenty of money to make something like 'Parasite,'" he says, with a wry smile that suggests he has heard this question many times before. "But the point of
-making films is not to reproduce someone else's success. The point is to say something you haven't said before, in a way you haven't said it."
-
-Park's latest film, "The Inbetween," premiered at the Berlin International Film Festival in February, where it won the Silver Bear for Best Director. The film is a nearly silent
-meditation on grief, set entirely in a Seoul subway station between midnight and 5 a.m. It follows three characters — a homeless veteran, a pregnant teenager, and a night-shift
-cleaner — whose paths intersect without ever truly converging. It is, by Park's admission, "a film about the impossibility of connection in a hyper-connected city."
-
-## The VR Frontier
-
-Park's next project represents his most radical departure yet. "Vanishing Point" is a 45-minute virtual reality experience that places the viewer inside the memory of a dementia
-patient. The project, co-produced by the Korean National University of Arts and the MIT Media Lab, uses eye-tracking technology and binaural audio to create what Park calls
-"empathetic immersion."
-
-"I am tired of the frame," Park explains, gesturing with his hands to mime a rectangle. "Cinema has been trapped inside this rectangle for 130 years. VR offers the possibility of
-a cinema without walls. I don't know if it will work. But I have to try."
-
-Funding for the project came from a combination of arts council grants and private donations, totaling ₩2.8 billion — modest by commercial film standards but significant for an
-experimental VR work. The experience will premiere at the Venice Film Festival in September.
 
 {{< article-footer >}}
 copyright: >

@@ -1,15 +1,14 @@
 ---
-title: 'Beyond the Music Video: The Art and Science of K-Pop Video Production'
-description: A look inside the multi-million-dollar video production industry that
-  has made K-pop music videos the most visually ambitious in the world.
+title: 'Ngoài video âm nhạc: Nghệ thuật và khoa học sản xuất video K-Pop'
+description: Tìm hiểu bên trong ngành công nghiệp sản xuất video trị giá hàng triệu đô la
+  đã khiến các video âm nhạc K-pop trở thành tham vọng về mặt hình ảnh nhất trên thế giới.
 date: 2026-07-12
 draft: false
 author: Hyun-Woo Lee
 cover:
-  image: https://picsum.photos/seed/video1/1200/630
-  alt: Behind the scenes of a K-pop music video production
-  caption: A production meeting on the set of LE SSERAFIM's latest music video shoot
-    at a studio in Paju
+  image: images/sample/kpop-video-production-bts.jpg
+  alt: Hậu trường sản xuất video âm nhạc K-pop
+  caption: Cuộc họp sản xuất tại trường quay MV mới nhất của LE SSERAFIM tại studio ở Paju
 tags:
 - music-video
 - production
@@ -27,44 +26,46 @@ keywords:
 slug: beyond-the-music-video-the-art-and-science-of-k-pop-video-production
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: A look inside the multi-million-dollar video production industry that has made
-    K-pop music videos the most visually ambitious in the world.
-- q: Nội dung chính về «The New Breed of Directors» là gì?
-  a: Leading this transformation is a new generation of Korean directors who are as
-    famous as the artists they film. Rigend Film, the studio behind videos for BTS,
-    BLACKPINK, and aespa, has become a global brand in its own right, with directors
-    earning followings on social media that rival mid-tier…
-- q: Điểm thông tin chính độc giả nên nhớ là gì?
-  a: When LE SSERAFIM released the music video for their June single "Firefly," it
-    was viewed 78 million times in its first week. The video, a four-minute cinematic
-    piece involving a post-apocalyptic Seoul, elaborate choreography in a water-filled
-    set, and CGI creatures rendered by the same studio that worked on "The Host,"
-    cost ₩2.3 billion to produce.
+  a: Tìm hiểu bên trong ngành công nghiệp sản xuất video trị giá hàng triệu đô la đã khiến
+    các video âm nhạc K-pop trở thành tham vọng về mặt hình ảnh nhất trên thế giới.
+- q: Nội dung chính về «Thế hệ giám đốc mới» là gì?
+  a: Dẫn đầu sự chuyển đổi này là thế hệ đạo diễn Hàn Quốc mới nổi tiếng như những nghệ sĩ
+    họ đóng phim. Rigend Film, studio đứng đằng sau các video cho BTS, BlackPink và aespa,
+    đã trở thành một thương hiệu toàn cầu theo đúng nghĩa của mình, với các đạo diễn kiếm
+    được lượt theo dõi trên mạng xã hội sánh ngang với các hãng tầm trung…
+- q: Điểm thông tin chính độc. Bạn nhớ là gì?
+  a: Khi LE SSERAFIM phát hành video âm nhạc cho đĩa đơn tháng 6 "Firefly", nó đã được xem
+    78 triệu lần trong tuần đầu tiên. Video, một tác phẩm điện ảnh dài bốn phút liên quan
+    đến Seoul hậu tận thế, vũ đạo công phu trong bối cảnh đầy nước và các sinh vật CGI được
+    thực hiện bởi cùng một studio từng làm việc cho "The Host", tiêu tốn 2,3 tỷ Yên để sản
+    xuất.
+sample_origin: scaffold
+lang_note: vi-localized-from-en-scaffold
 ---
 
+Khi LE SSERAFIM phát hành video âm nhạc cho đĩa đơn tháng 6 "Firefly", nó đã được xem 78 triệu lần trong tuần đầu tiên. Đoạn video này là một đoạn phim dài bốn phút liên quan đến một
+Seoul hậu tận thế, vũ đạo phức tạp trong bối cảnh đầy nước và các sinh vật CGI được thực hiện bởi cùng một studio từng làm phim "The Host", tiêu tốn 2,3 tỷ Yên để sản xuất. Đó là
+trong số những video âm nhạc đắt giá nhất trong lịch sử K-pop - nhưng nó không có nghĩa là ngoại lệ.
+
+Ngành công nghiệp video âm nhạc Hàn Quốc đã trải qua một sự chuyển đổi đáng chú ý trong thập kỷ qua. Thứ từng là một công cụ quảng cáo có ngân sách tương đối thấp đã trở thành một tác phẩm nghệ thuật độc lập
+hình thức, với giá trị sản xuất cạnh tranh - và đôi khi vượt quá - giá trị của các bộ phim bom tấn Hollywood. Một cuộc khảo sát của Cơ quan Nội dung Sáng tạo Hàn Quốc cho thấy sản lượng trung bình
+ngân sách cho video ca nhạc chính của một nhóm nhạc K-pop đã tăng từ 150 triệu yên vào năm 2019 lên 650 triệu yên vào năm 2025.
+
+## Thế hệ giám đốc mới
+
+Dẫn đầu sự chuyển đổi này là thế hệ đạo diễn Hàn Quốc mới nổi tiếng như những nghệ sĩ họ đóng phim. Rigend Film, studio đứng đằng sau các video của BTS, BlackPink và
+aespa, đã trở thành một thương hiệu toàn cầu theo đúng nghĩa của mình, với các đạo diễn kiếm được lượng người theo dõi trên mạng xã hội sánh ngang với các thần tượng tầm trung. "Video âm nhạc không còn là một phần hỗ trợ của
+nội dung,” đạo diễn Rigend Film Kim Seong-ho cho biết. "Đối với nhiều người hâm mộ, video là tác phẩm nghệ thuật chính. Bài hát là nhạc nền của video."
+
+Ngành này đã phát triển cơ sở hạ tầng chuyên biệt để hỗ trợ tham vọng này. Khu phức hợp nội dung Paju, một trung tâm sản xuất rộng 200 mẫu Anh ở phía bắc Seoul, có 12 buổi biểu diễn âm nhạc chuyên dụng.
+âm trường video, bao gồm một âm trường có bể chứa nước cố định và một âm trường khác có lốc xoáy 360 độ. Khu phức hợp hoạt động gần hết công suất quanh năm.
+
+Kênh YouTube "MV Behind" mới ra mắt đã tận dụng sự quan tâm của người hâm mộ đối với quá trình sản xuất và thu hút 4,5 triệu người đăng ký trong năm đầu tiên. Mỗi tập phim theo sau
+một video âm nhạc duy nhất từ ý tưởng đến bản cắt cuối cùng, làm sáng tỏ quá trình thực hiện.
+
+Khi phát trực tuyến trở thành phương thức tiêu thụ âm nhạc chiếm ưu thế, video âm nhạc trở nên quan trọng hơn bao giờ hết. Và các đạo diễn Hàn Quốc đang đặt ra tiêu chuẩn toàn cầu.
 
 
-When LE SSERAFIM released the music video for their June single "Firefly," it was viewed 78 million times in its first week. The video, a four-minute cinematic piece involving a
-post-apocalyptic Seoul, elaborate choreography in a water-filled set, and CGI creatures rendered by the same studio that worked on "The Host," cost ₩2.3 billion to produce. It is
-among the most expensive music videos in K-pop history — but it is by no means an outlier.
-
-The Korean music video industry has undergone a remarkable transformation over the past decade. What was once a relatively low-budget promotional tool has become a standalone art
-form, with production values that rival — and sometimes exceed — those of Hollywood blockbusters. A survey by the Korea Creative Content Agency found that the average production
-budget for a K-pop group's lead single music video has increased from ₩150 million in 2019 to ₩650 million in 2025.
-
-## The New Breed of Directors
-
-Leading this transformation is a new generation of Korean directors who are as famous as the artists they film. Rigend Film, the studio behind videos for BTS, BLACKPINK, and
-aespa, has become a global brand in its own right, with directors earning followings on social media that rival mid-tier idols. "The music video is no longer a supporting piece of
-content," said Rigend Film director Kim Seong-ho. "For many fans, the video is the primary artwork. The song is the soundtrack to the video."
-
-The industry has developed specialized infrastructure to support this ambition. The Paju Content Complex, a 200-acre production hub north of Seoul, contains 12 dedicated music
-video soundstages, including one with a permanent water tank and another with a 360-degree cyclorama. The complex operates at near-full capacity year-round.
-
-The newly launched YouTube channel "MV Behind" has capitalized on fan interest in production processes, attracting 4.5 million subscribers in its first year. Each episode follows
-a single music video from concept to final cut, demystifying the craft.
-
-As streaming becomes the dominant mode of music consumption, the music video has become more important than ever. And Korean directors are setting the global standard.
 
 {{< article-footer >}}
 copyright: >

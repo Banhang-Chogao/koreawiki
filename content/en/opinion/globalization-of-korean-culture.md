@@ -1,16 +1,16 @@
 ---
-title: When Everything Is Korean, Is Anything Still Korean?
-description: As Korean culture achieves unprecedented global penetration, we must
-  reckon with the risks of its own success and the tension between universality and
-  identity.
+title: Khi mọi thứ đều là tiếng Hàn, liệu có thứ gì vẫn là tiếng Hàn không?
+description: Khi văn hóa Hàn Quốc đạt được sự thâm nhập toàn cầu chưa từng có, chúng ta phải
+  tính đến những rủi ro đối với sự thành công của chính nó và sự căng thẳng giữa tính phổ
+  quát và bản sắc.
 date: 2026-07-07
 draft: false
 author: Ji-Yeon Park
 cover:
-  image: https://picsum.photos/seed/opinion2/1200/630
-  alt: A montage of global Korean culture — from K-pop to kimchi to K-dramas
-  caption: The global spread of Korean culture raises complex questions about identity
-    and authenticity
+  image: images/sample/globalization-of-korean-culture.jpg
+  alt: Một bản dựng phim về văn hóa Hàn Quốc toàn cầu - từ K-pop, kim chi đến K-drama
+  caption: Sự lan rộng toàn cầu của văn hóa Hàn Quốc đặt ra những câu hỏi phức tạp về bản
+    sắc và tính xác thực
 tags:
 - hallyu
 - globalization
@@ -28,47 +28,50 @@ keywords:
 slug: when-everything-is-korean-is-anything-still-korean
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: As Korean culture achieves unprecedented global penetration, we must reckon with
-    the risks of its own success and the tension between universality and identity.
-- q: Nội dung chính về «The Authenticity Question» là gì?
-  a: When Netflix commissions a Korean drama, is it a Korean drama or a global product
-    made in Korea? When HYBE signs a multinational girl group with members from Vietnam,
-    Brazil, and Sweden, is the result K-pop or a Korean-produced version of global
-    pop?
-- q: Điểm thông tin chính độc giả nên nhớ là gì?
-  a: 'There is a Korean proverb: "A tree with deep roots does not fear the wind."
-    As Korean popular culture enjoys a period of global influence unprecedented in
-    the nation''s history, the question is no longer whether the tree is strong enough
-    to withstand external forces — it is whether the roots remain connected to the
-    soil that nourished them. The success of…'
+  a: Khi văn hóa Hàn Quốc đạt được sự thâm nhập toàn cầu chưa từng có, chúng ta phải tính
+    đến những rủi ro đối với sự thành công của chính nó và sự căng thẳng giữa tính phổ quát
+    và bản sắc.
+- q: Nội dung chính về «Câu hỏi về tính xác thực» là gì?
+  a: Khi Netflix đặt mua một bộ phim truyền hình Hàn Quốc, đó là phim truyền hình Hàn Quốc
+    hay sản phẩm toàn cầu được sản xuất tại Hàn Quốc? Khi HYBE ký hợp đồng với một nhóm nhạc
+    nữ đa quốc gia với các thành viên đến từ Việt Nam, Brazil và Thụy Điển, kết quả là K-pop
+    hay phiên bản nhạc pop toàn cầu do Hàn Quốc sản xuất?
+- q: Điểm thông tin chính độc. Bạn nhớ là gì?
+  a: 'Người Hàn Quốc có câu tục ngữ: “Cây rễ sâu không sợ gió”. Khi văn hóa đại chúng Hàn
+    Quốc đang trải qua thời kỳ ảnh hưởng toàn cầu chưa từng có trong lịch sử quốc gia, câu
+    hỏi không còn là liệu cái cây có đủ khỏe để chống chọi với các tác động bên ngoài hay
+    không - mà là liệu rễ có còn kết nối với đất đã nuôi dưỡng chúng hay không. Sự thành công
+    của…'
+sample_origin: scaffold
+lang_note: vi-localized-from-en-scaffold
 ---
 
+Người Hàn Quốc có câu tục ngữ: “Cây rễ sâu không sợ gió”. Khi văn hóa đại chúng Hàn Quốc trải qua một thời kỳ ảnh hưởng toàn cầu chưa từng có trong lịch sử quốc gia,
+Câu hỏi không còn là liệu cái cây có đủ khỏe để chịu được ngoại lực hay không - mà là liệu rễ có còn kết nối với lớp đất đã nuôi dưỡng chúng hay không.
+
+Thành công của Hallyu thật phi thường xét trên mọi phương diện. Các công ty giải trí Hàn Quốc hiện nằm trong số những công ty có giá trị nhất thế giới. Tiêu đề diễn viên và nhạc sĩ Hàn Quốc
+các chuyến tham quan toàn cầu và nền tảng phát trực tuyến. Các sản phẩm thực phẩm, thời trang và làm đẹp của Hàn Quốc là những mặt hàng chủ lực của văn hóa tiêu dùng quốc tế. Đây là lý do để ăn mừng - và để lo lắng.
+
+## Câu hỏi về tính xác thực
+
+Khi Netflix đặt mua một bộ phim truyền hình Hàn Quốc, đó là phim truyền hình Hàn Quốc hay sản phẩm toàn cầu được sản xuất tại Hàn Quốc? Khi HYBE ký hợp đồng với một nhóm nhạc nữ đa quốc gia với các thành viên đến từ Việt Nam, Brazil và
+Thụy Điển, kết quả là K-pop hay một phiên bản nhạc pop toàn cầu do Hàn Quốc sản xuất? Khi món ăn Hàn Quốc được điều chỉnh phù hợp với khẩu vị quốc tế – ít cay hơn, ngọt hơn, loại bỏ chất lên men
+cường độ - nó có còn là ẩm thực Hàn Quốc không?
+
+Đây không chỉ là những câu hỏi ngữ nghĩa. Họ hiểu được điều cốt lõi khiến văn hóa Hàn Quốc có giá trị trên thị trường toàn cầu: sự khác biệt của nó. Rủi ro là ở chỗ
+quá trình toàn cầu hóa văn hóa Hàn Quốc, chúng ta có thể vô tình tước đi những phẩm chất khiến nó trở nên hấp dẫn ngay từ đầu.
+
+Lập luận phản bác - và nó là một lập luận mạnh mẽ - là văn hóa luôn phát triển thông qua tiếp xúc và trao đổi. Bản thân văn hóa Hàn Quốc là sản phẩm của sự tương tác qua nhiều thế kỷ
+với Trung Quốc, Nhật Bản, phương Tây và thế giới rộng lớn hơn. Hanbok kết hợp các yếu tố của thời trang Mông Cổ. Kim chi ban đầu là hàng nhập khẩu từ Trung Quốc. K-pop không thể tưởng tượng được nếu không có
+R&B và hip-hop Mỹ.
+
+Có lẽ câu hỏi không phải là liệu văn hóa Hàn Quốc có thể tồn tại được trong quá trình toàn cầu hóa hay không mà là liệu chúng ta có thể duy trì các điều kiện cho sự đổi mới văn hóa trong nước hay không. Rủi ro thực sự không phải ở chỗ đó
+Văn hóa Hàn Quốc trở nên ít Hàn Quốc hơn, nhưng logic kinh tế của giải trí toàn cầu sẽ tiêu hao năng lượng từ hệ sinh thái văn hóa nội địa của Hàn Quốc - âm nhạc độc lập
+địa điểm, nhà xuất bản nhỏ, liên hoan phim khu vực - ủng hộ sản phẩm được tối ưu hóa cho xuất khẩu.
+
+Rễ cây rất sâu. Nhưng ngay cả rễ sâu cũng cần được chăm sóc.
 
 
-There is a Korean proverb: "A tree with deep roots does not fear the wind." As Korean popular culture enjoys a period of global influence unprecedented in the nation's history,
-the question is no longer whether the tree is strong enough to withstand external forces — it is whether the roots remain connected to the soil that nourished them.
-
-The success of Hallyu has been extraordinary by any measure. Korean entertainment companies are now among the most valuable in the world. Korean actors and musicians headline
-global tours and streaming platforms. Korean food, fashion, and beauty products are staples of international consumer culture. This is cause for celebration — and for concern.
-
-## The Authenticity Question
-
-When Netflix commissions a Korean drama, is it a Korean drama or a global product made in Korea? When HYBE signs a multinational girl group with members from Vietnam, Brazil, and
-Sweden, is the result K-pop or a Korean-produced version of global pop? When Korean food is adapted for international palates — less spicy, sweeter, stripped of its fermented
-intensity — does it remain Korean cuisine?
-
-These are not merely semantic questions. They get at the heart of what makes Korean culture valuable in the global marketplace: its distinctiveness. The risk is that in the
-process of globalizing Korean culture, we may inadvertently strip it of the very qualities that made it compelling in the first place.
-
-The counterargument — and it is a powerful one — is that culture has always evolved through contact and exchange. Korean culture itself is a product of centuries of interaction
-with China, Japan, the West, and the broader world. The hanbok incorporates elements of Mongol fashion. Kimchi was originally a Chinese import. K-pop is unthinkable without
-American R&B and hip-hop.
-
-Perhaps the question is not whether Korean culture can survive globalization, but whether we can maintain the conditions for cultural innovation at home. The real risk is not that
-Korean culture becomes less Korean, but that the economic logic of global entertainment will drain the energy from Korea's domestic cultural ecosystem — the independent music
-venues, the small publishing houses, the regional film festivals — in favor of an export-optimized product.
-
-The tree's roots are deep. But even deep roots need tending.
 
 {{< article-footer >}}
 copyright: >

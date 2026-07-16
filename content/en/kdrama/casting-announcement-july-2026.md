@@ -1,16 +1,15 @@
 ---
-title: Park Seo-joon and Jun Ji-hyun Confirmed for 'The Seoul Agency' — Netflix's
-  Most Expensive Drama Series Ever
-description: The star-studded spy thriller, with a reported budget of ₩100 billion,
-  begins production in August for a 2027 release.
+title: Park Seo-joon và Jun Ji-hyun xác nhận tham gia 'The Seoul Agency' — Phim truyền hình
+  dài tập đắt giá nhất từ ​​trước đến nay của Netflix
+description: Bộ phim gián điệp ly kỳ quy tụ nhiều ngôi sao, với kinh phí được báo cáo là 100
+  tỷ won, bắt đầu sản xuất vào tháng 8 và phát hành vào năm 2027.
 date: 2026-07-12
 draft: false
 author: Soo-Jin Choi
 cover:
-  image: https://picsum.photos/seed/kdrama2/1200/630
-  alt: Park Seo-joon and Jun Ji-hyun at a press conference
-  caption: Park Seo-joon and Jun Ji-hyun at the casting confirmation event in Gangnam,
-    Seoul
+  image: images/sample/casting-announcement-july-2026.jpg
+  alt: Park Seo Joon và Jun Ji Hyun tại buổi họp báo
+  caption: Park Seo-joon và Jun Ji-hyun tại sự kiện xác nhận casting ở Gangnam, Seoul
 tags:
 - park-seo-joon
 - jun-ji-hyun
@@ -28,42 +27,44 @@ keywords:
 slug: park-seo-joon-and-jun-ji-hyun-confirmed-for-the-seoul-agency-netflixs-most-expensive-drama-series-ever
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: The star-studded spy thriller, with a reported budget of ₩100 billion, begins
-    production in August for a 2027 release.
+  a: Bộ phim gián điệp ly kỳ quy tụ nhiều ngôi sao, với kinh phí được báo cáo là 100 tỷ won,
+    bắt đầu sản xuất vào tháng 8 và phát hành vào năm 2027.
 - q: Nội dung chính về «A Global Ambition» là gì?
-  a: '"The Seoul Agency" represents Netflix''s most aggressive bet yet on a Korean
-    series crossing over to global mainstream audiences in the way "Squid Game" did.
-    The series will be filmed primarily in English, with Korean dialogue used in specific
-    narrative contexts, and the production has hired stunt…'
-- q: Điểm thông tin chính độc giả nên nhớ là gì?
-  a: 'Netflix confirmed on Monday that Park Seo-joon and Jun Ji-hyun have been cast
-    as the leads in "The Seoul Agency," a big-budget spy thriller that streaming executives
-    are already calling "the Korean answer to Mission: Impossible." The series, created
-    by "Kingdom" writer Kim Eun-hee, begins principal photography in August and carries
-    a reported production…'
+  a: '"The Seoul Agency" đại diện cho sự đặt cược quyết liệt nhất của Netflix vào việc loạt
+    phim Hàn Quốc tiếp cận khán giả phổ thông toàn cầu giống như cách "Squid Game" đã làm.
+    Bộ phim sẽ được quay chủ yếu bằng tiếng Anh, với lời thoại bằng tiếng Hàn được sử dụng
+    trong các bối cảnh tường thuật cụ thể và nhà sản xuất đã thuê diễn viên đóng thế…'
+- q: Điểm thông tin chính độc. Bạn nhớ là gì?
+  a: 'Netflix xác nhận hôm thứ Hai rằng Park Seo Joon và Jun Ji Hyun đã được chọn vào vai
+    chính trong The Seoul Agency, bộ phim gián điệp kinh dị kinh phí lớn mà các nhà điều hành
+    phát trực tuyến đã gọi là “câu trả lời của Hàn Quốc cho Mission: Impossible”. Bộ phim
+    do biên kịch Kim Eun-hee của "Kingdom" sáng tác, bắt đầu quay phim chính vào tháng 8 và
+    tiến hành sản xuất theo báo cáo…'
+sample_origin: scaffold
+lang_note: vi-localized-from-en-scaffold
 ---
 
+Netflix xác nhận hôm thứ Hai rằng Park Seo-joon và Jun Ji-hyun đã được chọn vào vai chính trong "The Seoul Agency", một bộ phim kinh dị gián điệp kinh phí lớn mà các nhà điều hành phát trực tuyến đã sẵn sàng.
+gọi là "câu trả lời của người Hàn Quốc cho Mission: Impossible." Bộ phim do biên kịch "Kingdom" Kim Eun-hee sáng tác, bắt đầu quay phim chính vào tháng 8 và tiến hành sản xuất theo báo cáo.
+kinh phí 100 tỷ Yên, trở thành phim truyền hình dài tập đắt nhất trong lịch sử truyền hình Hàn Quốc.
+
+Bộ phim dài 10 tập kể về một cơ quan tình báo bí mật hoạt động dưới vỏ bọc là một công ty tư vấn du lịch sang trọng ở quận Gangnam của Seoul. Park Seo Joon vào vai Kang Daniel
+Đặc vụ NIS bị thất sủng được tuyển dụng cho một nhiệm vụ cuối cùng, trong khi Jun Ji-hyun vào vai Yoon Seo-yeon, một người quản lý bảo tàng có quá khứ đen tối, người không ngờ lại trở thành đồng minh của anh ta. Dàn diễn viên cũng
+bao gồm Lee Byung-hun trong vai giám đốc bí ẩn của cơ quan và Kim Go-eun trong vai một người đào thoát Bắc Triều Tiên trở thành đặc vụ.
+
+## Tham vọng toàn cầu
+
+"The Seoul Agency" đại diện cho sự đặt cược quyết liệt nhất của Netflix vào việc loạt phim Hàn Quốc tiếp cận khán giả phổ thông toàn cầu giống như cách "Squid Game" đã làm. Bộ phim sẽ được
+được quay chủ yếu bằng tiếng Anh, với lời thoại bằng tiếng Hàn được sử dụng trong các bối cảnh tường thuật cụ thể và nhà sản xuất đã thuê các điều phối viên đóng thế từng làm việc cho loạt phim "John Wick"
+và loạt phim "Bourne".
+
+Tại một sự kiện báo chí ở Gangnam, Kim Eun-hee mô tả dự án là "một bức thư tình gửi Seoul." "Tôi muốn giới thiệu thành phố theo cách mà khán giả quốc tế chưa từng thấy — không phải
+phiên bản dành cho khách du lịch, nhưng Seoul mà tôi biết, với những con hẻm bí mật, những căn lều pojangmacha vào đêm khuya và những mối nguy hiểm tồn tại bên dưới bề mặt của một xã hội siêu hiện đại.
+đô thị," cô nói.
+
+Quá trình sản xuất sẽ được quay tại các địa điểm trên khắp Seoul, Busan và Đảo Jeju, cũng như ở Tokyo và Bangkok. Bộ phim dự kiến ​​phát hành vào cuối năm 2027 trên Netflix.
 
 
-Netflix confirmed on Monday that Park Seo-joon and Jun Ji-hyun have been cast as the leads in "The Seoul Agency," a big-budget spy thriller that streaming executives are already
-calling "the Korean answer to Mission: Impossible." The series, created by "Kingdom" writer Kim Eun-hee, begins principal photography in August and carries a reported production
-budget of ₩100 billion, making it the most expensive drama series in Korean television history.
-
-The 10-episode series follows a covert intelligence agency operating under the guise of a luxury travel consultancy in Seoul's Gangnam district. Park Seo-joon plays Kang Daniel, a
-disgraced NIS agent recruited for one last mission, while Jun Ji-hyun portrays Yoon Seo-yeon, a museum curator with a shadowy past who becomes his unlikely ally. The cast also
-includes Lee Byung-hun as the enigmatic director of the agency and Kim Go-eun as a North Korean defector turned operative.
-
-## A Global Ambition
-
-"The Seoul Agency" represents Netflix's most aggressive bet yet on a Korean series crossing over to global mainstream audiences in the way "Squid Game" did. The series will be
-filmed primarily in English, with Korean dialogue used in specific narrative contexts, and the production has hired stunt coordinators who have worked on the "John Wick" franchise
-and the "Bourne" series.
-
-At a press event in Gangnam, Kim Eun-hee described the project as "a love letter to Seoul." "I wanted to show the city in a way that international audiences have never seen — not
-the tourist version, but the Seoul I know, with its secret alleys, its late-night pojangmacha tents, and the kind of danger that exists beneath the surface of a hyper-modern
-metropolis," she said.
-
-Production will shoot on location across Seoul, Busan, and Jeju Island, as well as in Tokyo and Bangkok. The series is slated for a late 2027 release on Netflix.
 
 {{< article-footer >}}
 copyright: >

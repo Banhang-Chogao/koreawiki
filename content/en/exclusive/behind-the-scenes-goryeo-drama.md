@@ -1,15 +1,15 @@
 ---
-title: 'Exclusive: On Set With ''Goryeo Dreams'' — Inside KBS''s Most Ambitious Period
-  Drama'
-description: KoreaWiki spends two days on the set of KBS's upcoming sageuk epic, witnessing
-  the extraordinary effort behind bringing 14th-century Goryeo to life.
+title: 'Độc quyền: Trên trường quay ''Goryeo Dreams'' — Bên trong bộ phim cổ trang đầy tham
+  vọng nhất của KBS'
+description: KoreaWiki dành hai ngày để quay bộ phim sử thi cổ trang sắp ra mắt của KBS, chứng
+  kiến ​​nỗ lực phi thường đằng sau việc đưa Goryeo thế kỷ 14 vào cuộc sống.
 date: 2026-07-04
 draft: false
 author: Soo-Jin Choi
 cover:
-  image: https://picsum.photos/seed/exclusive3/1200/630
-  alt: Goryeo Dreams set at KBS production facility
-  caption: The sprawling Goryeo dynasty set at KBS's Suwon production complex
+  image: images/sample/behind-the-scenes-goryeo-drama.jpg
+  alt: Goryeo Dreams lấy bối cảnh tại cơ sở sản xuất của KBS
+  caption: Triều đại Goryeo rộng lớn lấy bối cảnh tại khu liên hợp sản xuất Suwon của KBS
 tags:
 - goryeo-dreams
 - kbs
@@ -27,45 +27,46 @@ keywords:
 slug: exclusive-on-set-with-goryeo-dreams-inside-kbss-most-ambitious-period-drama
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: KoreaWiki spends two days on the set of KBS's upcoming sageuk epic, witnessing
-    the extraordinary effort behind bringing 14th-century Goryeo to life.
-- q: Nội dung chính về «Historical Accuracy Meets Dramatic Necessity» là gì?
-  a: Historical consultant Dr. Bae Jae-sung, a professor of Korean history at Korea
-    University, is on set every day, often mediating between the production's desire
-    for dramatic impact and his own commitment to accuracy.
-- q: Điểm thông tin chính độc giả nên nhớ là gì?
-  a: MUNGYEONG, North Gyeongsang Province — The first thing you notice on the set
-    of "Goryeo Dreams" is the smell. Freshly cut pine, wood smoke, and the earthy
-    scent of hanji — traditional Korean paper — permeate the sprawling outdoor set
-    that KBS has built on 40 acres of land near Mungyeong Saejae, a historic mountain
-    pass that once connected the Gyeongsang…
+  a: KoreaWiki dành hai ngày để quay bộ phim sử thi cổ trang sắp ra mắt của KBS, chứng kiến
+    ​​nỗ lực phi thường đằng sau việc đưa Goryeo thế kỷ 14 vào cuộc sống.
+- q: Nội dung chính về «Sự chính xác về lịch sử đáp ứng sự cần thiết kịch tính» là gì?
+  a: Cố vấn lịch sử, Tiến sĩ Bae Jae-sung, giáo sư lịch sử Hàn Quốc tại Đại học Hàn Quốc,
+    có mặt hàng ngày, thường cân nhắc giữa mong muốn tạo ra tác động kịch tính của nhà sản
+    xuất và cam kết của chính ông về tính chính xác.
+- q: Điểm thông tin chính độc. Bạn nhớ là gì?
+  a: MUNGYEONG, tỉnh Bắc Kyungsang — Điều đầu tiên bạn chú ý trên trường quay "Những giấc
+    mơ Goryeo" là mùi. Cây thông mới cắt, khói gỗ và mùi đất của hanji - loại giấy truyền
+    thống của Hàn Quốc - tràn ngập khung cảnh ngoài trời rộng lớn mà KBS đã xây dựng trên
+    khu đất rộng 40 mẫu Anh gần Mungyeong Saejae, một con đèo lịch sử từng nối liền tỉnh...
+sample_origin: scaffold
+lang_note: vi-localized-from-en-scaffold
 ---
 
+MUNGYEONG, tỉnh Bắc Kyungsang — Điều đầu tiên bạn chú ý trên trường quay "Những giấc mơ Goryeo" là mùi. Cây thông mới cắt, khói củi và mùi đất của hanji —
+Giấy truyền thống của Hàn Quốc — tràn ngập không gian ngoài trời rộng lớn mà KBS đã xây dựng trên khu đất rộng 40 mẫu Anh gần Mungyeong Saejae, một con đèo lịch sử từng nối liền
+Các tỉnh Gyeongsang và Chungcheong.
+
+KoreaWiki đã được cấp quyền truy cập độc quyền vào quá trình sản xuất trong hai ngày vào cuối tháng 6, khi quá trình quay phim đạt đến điểm giữa. Quy mô của công việc này thật đáng kinh ngạc. KBS có
+đã xây dựng toàn bộ ngôi làng Goryeo từ thế kỷ 14, hoàn chỉnh với một khu chợ đang hoạt động, một ngôi chùa Phật giáo và bản sao của khu phức hợp Cung điện Manwoldae. Bộ một mình
+cần 18 tháng lập kế hoạch và đội ngũ xây dựng gồm 230 người.
+
+## Độ chính xác về mặt lịch sử đáp ứng nhu cầu kịch tính
+
+Tiến sĩ cố vấn lịch sử, Tiến sĩ Bae Jae-sung, giáo sư lịch sử Hàn Quốc tại Đại học Hàn Quốc, có mặt trên phim trường hàng ngày, thường làm trung gian giữa mong muốn tạo ra tác động kịch tính của bộ phim.
+và cam kết của chính ông về tính chính xác. “Họ muốn công chúa sử dụng một loại bát gốm cụ thể trong một cảnh quay,” anh nói và chỉ vào màn hình của đạo diễn. "Tôi đã phải giải thích
+Chiếc bát đó không tồn tại ở Hàn Quốc cho đến triều đại Joseon. Đây là những cuộc trò chuyện chúng tôi có hàng ngày."
+
+Sự chú ý đến từng chi tiết còn mở rộng đến trang phục, nơi một nhóm gồm 45 nghệ nhân đã sản xuất hơn 2.000 sản phẩm may mặc riêng lẻ. Nhà thiết kế trang phục Lee Ji-yeon, người đã đoạt giải Baeksang cho tác phẩm của mình
+trong "The RedTae áo", chúng tôi đã cho chúng tôi thấy quy trình nhuộm vải bằng tay tỉ mỉ bằng bột màu tự nhiên. Cô giải thích: “Màu sắc ở Goryeo khác với Joseon. "Họ là
+sinh động hơn, chịu ảnh hưởng nhiều hơn từ con đường tơ lụa. Chúng tôi đang tái tạo những màu sắc chưa từng thấy trong 600 năm qua.”
+
+Nam diễn viên chính Rowoon, người đóng vai học giả Goryeo, nói chuyện giữa các cảnh quay trong khi nghệ sĩ trang điểm chỉnh lại sangtu (mũ tóc được mặc bởi những người đàn ông quý tộc). "Đây là điều tuyệt vời nhất về thể chất
+vai trò đòi hỏi khắt khe mà tôi từng đảm nhận", anh nói. “Tôi đã học thư pháp cổ điển Trung Quốc, cưỡi ngựa và geomungo (đàn tam thập lục) truyền thống trong năm tháng qua.
+không có đường tắt cho kiểu chuẩn bị này."
+
+Goryeo Dreams dự kiến khởi chiếu trên KBS2 vào tháng 3 năm 2027.
 
 
-MUNGYEONG, North Gyeongsang Province — The first thing you notice on the set of "Goryeo Dreams" is the smell. Freshly cut pine, wood smoke, and the earthy scent of hanji —
-traditional Korean paper — permeate the sprawling outdoor set that KBS has built on 40 acres of land near Mungyeong Saejae, a historic mountain pass that once connected the
-Gyeongsang and Chungcheong provinces.
-
-KoreaWiki was granted exclusive access to the production over two days in late June, as filming reached its midpoint. The scale of the undertaking is staggering. KBS has
-constructed an entire 14th-century Goryeo village, complete with a functioning marketplace, a Buddhist temple, and a replica of the Manwoldae Palace complex. The set alone
-required 18 months of planning and a construction crew of 230 people.
-
-## Historical Accuracy Meets Dramatic Necessity
-
-Historical consultant Dr. Bae Jae-sung, a professor of Korean history at Korea University, is on set every day, often mediating between the production's desire for dramatic impact
-and his own commitment to accuracy. "They wanted the princess to use a particular type of ceramic bowl in a scene," he said, gesturing to a director's monitor. "I had to explain
-that bowl didn't exist in Korea until the Joseon dynasty. These are the conversations we have every day."
-
-The attention to detail extends to costume, where a team of 45 artisans has produced over 2,000 individual garments. Costume designer Lee Ji-yeon, who won a Baeksang for her work
-on "The Red Sleeve," showed us the painstaking process of hand-dyeing fabric using natural pigments. "The colors in Goryeo are different from Joseon," she explained. "They are
-more vivid, more influenced by the Silk Road trade. We are recreating colors that haven't been seen in 600 years."
-
-Lead actor Rowoon, who plays the Goryeo scholar, spoke between takes while a makeup artist adjusted his sangtu (the topknot worn by aristocratic men). "This is the most physically
-demanding role I've ever taken," he said. "I've been learning classical Chinese calligraphy, horseback riding, and traditional geomungo (zither) for the past five months. There is
-no shortcut for this kind of preparation."
-
-"Goryeo Dreams" is scheduled to premiere on KBS2 in March 2027.
 
 {{< article-footer >}}
 copyright: >

@@ -1,16 +1,16 @@
 ---
-title: 'Temple Food Gets a Makeover: The Global Rise of Korean Buddhist Cuisine'
-description: Once confined to mountain monasteries, Korean temple cuisine — Seungsik
-  — is finding new audiences in fine dining restaurants and home kitchens around the
-  world.
+title: 'Ẩm thực chùa có sự thay đổi: Sự trỗi dậy toàn cầu của ẩm thực Phật giáo Hàn Quốc'
+description: Từng chỉ giới hạn ở các tu viện trên núi, ẩm thực chùa chiền Hàn Quốc — Seungsik
+  — đang tìm kiếm đối tượng mới tại các nhà hàng cao cấp và bếp ăn gia đình trên khắp thế
+  giới.
 date: 2026-07-09
 draft: false
 author: Ji-Yeon Park
 cover:
-  image: https://picsum.photos/seed/food1/1200/630
-  alt: An artfully plated temple cuisine dish at a Seoul restaurant
-  caption: A modern interpretation of seungsik at the Michelin-starred restaurant
-    'Balwoo' in Jongno-gu
+  image: images/sample/modern-temple-cuisine.jpg
+  alt: Món ăn đền chùa được bày biện đầy nghệ thuật tại một nhà hàng ở Seoul
+  caption: Một cách thể hiện hiện đại về seungsik tại nhà hàng được gắn sao Michelin 'Balwoo'
+    ở Jongno-gu
 tags:
 - temple-food
 - korean-cuisine
@@ -28,45 +28,45 @@ keywords:
 slug: temple-food-gets-a-makeover-the-global-rise-of-korean-buddhist-cuisine
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Once confined to mountain monasteries, Korean temple cuisine — Seungsik — is
-    finding new audiences in fine dining restaurants and home kitchens around the
-    world.
-- q: Nội dung chính về «The Philosophy of Temple Food» là gì?
-  a: Unlike Western vegetarianism or even other Asian Buddhist culinary traditions,
-    Korean temple food (seungsik) operates within a rigorous culinary philosophy that
-    extends beyond the absence of meat. The principles — balancing the five elemental
-    flavors (sweet, sour, salty, bitter, pungent), using…
-- q: Điểm thông tin chính độc giả nên nhớ là gì?
-  a: At the Michelin-starred restaurant Balwoo in Jongno-gu, Seoul, dinner is a meditative
-    experience. The 12-course tasting menu contains no meat, no fish, no garlic, no
-    onions — the five pungent ingredients (ohshinchae) banned in Buddhist monastic
-    cooking.
+  a: Từng chỉ giới hạn ở các tu viện trên núi, ẩm thực chùa chiền Hàn Quốc — Seungsik — đang
+    tìm kiếm đối tượng mới tại các nhà hàng cao cấp và bếp ăn gia đình trên khắp thế giới.
+- q: Nội dung chính về «Triết lý ẩm thực chùa» là gì?
+  a: Không giống như phong cách ăn chay của phương Tây hay thậm chí là các truyền thống ẩm
+    thực Phật giáo châu Á khác, ẩm thực chùa Hàn Quốc (seungsik) vận hành theo một triết lý
+    ẩm thực nghiêm ngặt vượt ra ngoài việc không có thịt. Nguyên tắc – cân bằng ngũ hành (ngọt,
+    chua, mặn, đắng, hăng), sử dụng…
+- q: Điểm thông tin chính độc. Bạn nhớ là gì?
+  a: Tại nhà hàng Balwoo được gắn sao Michelin ở Jongno-gu, Seoul, bữa tối là một trải nghiệm
+    thiền định. Thực đơn nếm thử 12 món không có thịt, không cá, không tỏi, không hành - năm
+    thành phần cay (ohshinchae) bị cấm trong cách nấu ăn của tu viện Phật giáo.
+sample_origin: scaffold
+lang_note: vi-localized-from-en-scaffold
 ---
 
+Tại nhà hàng Balwoo được gắn sao Michelin ở Jongno-gu, Seoul, bữa tối là một trải nghiệm thiền định. Thực đơn nếm thử 12 món không có thịt, không cá, không tỏi, không hành -
+năm thành phần cay (ohshinchae) bị cấm trong nấu ăn của tu viện Phật giáo. Những gì nó chứa đựng là sự tiết lộ về những gì ẩm thực Hàn Quốc có thể đạt được trong những giới hạn: tinh tế
+cháo củ sen, namul rau núi có hương vị nền rừng, beondegi (bột đậu nành lên men) đã ủ được bảy năm và món tráng miệng là món yakbap thơm quế
+điều đó định nghĩa lại bánh gạo có thể là gì.
+
+Balwoo là biểu tượng rõ ràng nhất của một phong trào ẩm thực đã được xây dựng trong một thập kỷ: sự nâng tầm ẩm thực của các ngôi chùa Phật giáo Hàn Quốc từ món ăn tu viện đến món ăn cao cấp.
+ẩm thực. Nhà hàng hoạt động dưới sự bảo trợ của Tông phái Tào Khê của Phật giáo Hàn Quốc, đã giành được sao Michelin vào năm 2024 và đã trở thành điểm đến của nhiều du khách.
+du khách ẩm thực quốc tế đang tìm kiếm hương vị đích thực của di sản ẩm thực Hàn Quốc.
+
+##Triết lý ẩm thực chùa
+
+Không giống như phong cách ăn chay của phương Tây hay thậm chí là các truyền thống ẩm thực Phật giáo châu Á khác, ẩm thực chùa Hàn Quốc (seungsik) vận hành trong một triết lý ẩm thực nghiêm ngặt vượt ra ngoài giới hạn của ẩm thực.
+thiếu thịt. Các nguyên tắc - cân bằng ngũ hành (ngọt, chua, mặn, đắng, hăng), sử dụng nguyên liệu theo mùa và địa phương, và chuẩn bị thức ăn một cách có tâm.
+ý định - ngày càng gây được tiếng vang với những thực khách hiện đại đang tìm kiếm thứ gì đó ngoài dinh dưỡng đơn thuần.
+
+“Có lý do mà thức ăn ở chùa đang có thời điểm phát triển”, Hòa thượng nói. Jeonjin, một nhà sư-đầu bếp tại chùa Guinsa ở Đan Dương, người đã trở thành một người nổi tiếng không ngờ nhờ khả năng nấu ăn của mình
+xuất hiện trên truyền hình Hàn Quốc. "Thế giới hiện đại ồn ào, con người kiệt sức. Thức ăn trong chùa yêu cầu bạn sống chậm lại, nếm thử từng thành phần, hiện diện. Đó là một điều căn bản.
+hành động vào năm 2026."
+
+Xu hướng có chân thương mại. Seoul hiện tự hào có ít nhất 8 nhà hàng cao cấp chuyên về ẩm thực chùa chiền và con số này ngày càng tăng lên. Ở nước ngoài, Phật giáo Hàn Quốc
+các nhà hàng đã mở ở New York, London và Tokyo, trong đó nhà hàng "Baru" ở Khu phố Hàn Quốc của Manhattan đã giành được Bib Gourmand từ Michelin vào năm 2025. Tổ chức Du lịch Hàn Quốc đã bổ sung thêm
+trải nghiệm ẩm thực chùa vào các hành trình du lịch chính thức, mang đến cho du khách cơ hội dùng bữa tại các tu viện trên núi như một phần của chương trình lưu trú tại chùa.
 
 
-At the Michelin-starred restaurant Balwoo in Jongno-gu, Seoul, dinner is a meditative experience. The 12-course tasting menu contains no meat, no fish, no garlic, no onions — the
-five pungent ingredients (ohshinchae) banned in Buddhist monastic cooking. What it does contain is a revelation of what Korean cuisine can achieve within constraints: delicate
-lotus root porridge, mountain vegetable namul that tastes of the forest floor, beondegi (fermented soybean paste) aged for seven years, and a dessert of cinnamon-scented yakbap
-that redefines what rice cake can be.
-
-Balwoo is the most visible exponent of a culinary movement that has been building for a decade: the elevation of Korean Buddhist temple cuisine from monastic sustenance to haute
-gastronomy. The restaurant, which operates under the auspices of the Jogye Order of Korean Buddhism, earned its Michelin star in 2024 and has become a destination for
-international food travelers seeking an authentic taste of Korean culinary heritage.
-
-## The Philosophy of Temple Food
-
-Unlike Western vegetarianism or even other Asian Buddhist culinary traditions, Korean temple food (seungsik) operates within a rigorous culinary philosophy that extends beyond the
-absence of meat. The principles — balancing the five elemental flavors (sweet, sour, salty, bitter, pungent), using seasonal and local ingredients, and preparing food with mindful
-intention — are increasingly resonant with contemporary diners seeking something beyond mere nutrition.
-
-"There is a reason that temple food is having its moment," said Ven. Jeonjin, a monk-chef at the Guinsa Temple in Danyang who has become an unlikely celebrity through his cooking
-appearances on Korean television. "The modern world is noisy. People are exhausted. Temple food asks you to slow down, to taste each ingredient, to be present. That is a radical
-act in 2026."
-
-The trend has commercial legs. Seoul now boasts at least eight fine-dining restaurants specializing in temple cuisine, and the number is growing. Abroad, Korean Buddhist
-restaurants have opened in New York, London, and Tokyo, with "Baru" in Manhattan's Koreatown earning a Bib Gourmand from Michelin in 2025. The Korea Tourism Organization has added
-temple food experiences to its official travel itineraries, offering visitors the chance to dine at mountain monasteries as part of templestay programs.
 
 {{< article-footer >}}
 copyright: >

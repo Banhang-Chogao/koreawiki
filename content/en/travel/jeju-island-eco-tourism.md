@@ -1,16 +1,16 @@
 ---
-title: 'Jeju''s Eco-Tourism Revolution: How Korea''s Island Paradise Is Balancing
-  Development and Conservation'
-description: As tourist numbers surge past 20 million annually, Jeju Island grapples
-  with the challenge of preserving its unique natural heritage while accommodating
-  visitors.
+title: 'Cuộc cách mạng du lịch sinh thái ở Jeju: Đảo thiên đường của Hàn Quốc đang cân bằng
+  giữa phát triển và bảo tồn như thế nào'
+description: Khi số lượng khách du lịch tăng lên hơn 20 triệu người mỗi năm, đảo Jeju phải
+  vật lộn với thách thức bảo tồn di sản thiên nhiên độc đáo đồng thời tiếp đón du khách.
 date: 2026-07-03
 draft: false
 author: Sarah Chen
 cover:
-  image: https://picsum.photos/seed/travel2/1200/630
-  alt: Hallasan Mountain viewed from Jeju's Olle Trail
-  caption: The majestic Hallasan Mountain towers over Jeju's iconic Olle coastal trail
+  image: images/sample/jeju-island-eco-tourism.jpg
+  alt: Núi Hallasan nhìn từ Đường mòn Olle của Jeju
+  caption: Núi Hallasan hùng vĩ sừng sững trên con đường ven biển Olle mang tính biểu tượng
+    của Jeju
 tags:
 - jeju
 - eco-tourism
@@ -29,47 +29,48 @@ keywords:
 slug: jejus-eco-tourism-revolution-how-koreas-island-paradise-is-balancing-development-and-conservation
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: As tourist numbers surge past 20 million annually, Jeju Island grapples with
-    the challenge of preserving its unique natural heritage while accommodating visitors.
-- q: Nội dung chính về «A Model for Sustainable Tourism» là gì?
-  a: In response, the Jeju Special Self-Governing Province has implemented what officials
-    describe as the most ambitious sustainable tourism framework in Asia. The "Jeju
-    Promise" initiative, launched in 2024, includes a daily visitor cap (currently
-    set at 80,000), an eco-levy of ₩10,000 per visitor,…
-- q: Điểm thông tin chính độc giả nên nhớ là gì?
-  a: 'Jeju Island, the volcanic paradise off Korea''s southern coast, has a problem
-    that many destinations would envy: too many visitors. The island welcomed 21.3
-    million tourists in 2025, a record that strains infrastructure, threatens delicate
-    ecosystems, and has sparked a contentious debate about the future of tourism on
-    the island.'
+  a: Khi số lượng khách du lịch tăng lên hơn 20 triệu người mỗi năm, đảo Jeju phải vật lộn
+    với thách thức bảo tồn di sản thiên nhiên độc đáo đồng thời tiếp đón du khách.
+- q: Nội dung chính về «Mô hình du lịch bền vững» là gì?
+  a: Để đáp lại, Tỉnh tự quản đặc biệt Jeju đã thực hiện những gì các quan chức mô tả là khuôn
+    khổ du lịch bền vững đầy tham vọng nhất ở châu Á. Sáng kiến ​​"Lời hứa của Jeju", được
+    triển khai vào năm 2024, bao gồm giới hạn số lượng khách truy cập hàng ngày (hiện được
+    đặt ở mức 80.000), phí sinh thái là ₩10.000 mỗi khách,,…
+- q: Điểm thông tin chính độc. Bạn nhớ là gì?
+  a: 'Đảo Jeju, thiên đường núi lửa ngoài khơi bờ biển phía nam Hàn Quốc, có một vấn đề khiến
+    nhiều điểm đến phải ghen tị: có quá nhiều du khách. Hòn đảo đã đón 21,3 triệu khách du
+    lịch vào năm 2025, một kỷ lục gây căng thẳng cho cơ sở hạ tầng, đe dọa các hệ sinh thái
+    mỏng manh và gây ra một cuộc tranh luận gay gắt về tương lai của ngành du lịch trên đảo.'
+sample_origin: scaffold
+lang_note: vi-localized-from-en-scaffold
 ---
 
+Đảo Jeju, thiên đường núi lửa ngoài khơi bờ biển phía nam Hàn Quốc, có một vấn đề khiến nhiều điểm đến phải ghen tị: có quá nhiều du khách. Hòn đảo đón 21,3 triệu khách du lịch
+2025, một kỷ lục gây căng thẳng cho cơ sở hạ tầng, đe dọa các hệ sinh thái mỏng manh và gây ra một cuộc tranh luận gay gắt về tương lai của ngành du lịch trên đảo.
+
+Những thách thức có thể nhìn thấy trên diện tích 1.848 km2 của Jeju. Seongsan Ilchulbong (Đỉnh bình minh) mang tính biểu tượng hiện yêu cầu vé vào cửa theo thời gian để quản lý đám đông. Đường mòn Olle
+mạng lưới, một con đường đi bộ ven biển dài 425 km, có những đoạn bị xói mòn do giao thông đi bộ đã mở rộng đường mòn lên gấp ba lần chiều rộng ban đầu. Và nguồn nước ngầm của hòn đảo —
+nguồn nước uống duy nhất của nó - phải đối mặt với áp lực ô nhiễm ngày càng tăng từ sự phát triển không được kiểm soát.
+
+## Mô hình du lịch bền vững
+
+Để đáp lại, Tỉnh tự quản đặc biệt Jeju đã thực hiện những gì các quan chức mô tả là khuôn khổ du lịch bền vững đầy tham vọng nhất ở châu Á. “Lời hứa Jeju”
+sáng kiến, được triển khai vào năm 2024, bao gồm giới hạn số lượng khách truy cập hàng ngày (hiện được đặt ở mức 80.000), thuế sinh thái ₩10.000 mỗi khách và các giới hạn nghiêm ngặt đối với việc xây dựng khách sạn mới bên ngoài
+vùng phát triển được chỉ định.
+
+Thống đốc Jeju Oh Young-hun cho biết: “Chúng tôi không cố gắng ngăn cản du lịch”. "Chúng tôi đang cố gắng bảo tồn những gì mà khách du lịch đến xem. Jeju không phải là một công viên giải trí. Nó là một công viên."
+hòn đảo sống động với hệ sinh thái núi lửa độc đáo, bản sắc văn hóa riêng biệt và cộng đồng 700.000 người. Công việc của chúng tôi là đảm bảo rằng du lịch tăng cường thay vì phá hủy
+điều gì làm cho Jeju trở nên đặc biệt."
+
+Thuế sinh thái đã tài trợ cho các dự án bảo tồn quan trọng, bao gồm việc khôi phục Rừng Gotjawal - một hệ sinh thái đá nham thạch độc đáo không tìm thấy ở nơi nào khác trên Trái đất - và
+thành lập một khu bảo tồn biển xung quanh đảo Udo. Dữ liệu ban đầu cho thấy các biện pháp này đang có hiệu quả: điểm hài lòng của du khách đã thực sự tăng lên kể từ khi giới hạn được áp dụng.
+được thực hiện và các chỉ số môi trường của hòn đảo đang ổn định.
+
+Đối với du khách, chìa khóa để trải nghiệm Jeju có trách nhiệm rất đơn giản: đi vào mùa cao điểm (tháng 4-tháng 5 hoặc tháng 10-tháng 11), ở tại chỗ ở do địa phương sở hữu, sử dụng dịch vụ công cộng.
+vận chuyển và khám phá bên ngoài các địa điểm nổi tiếng. Nội địa của hòn đảo, với Oreum (nón núi lửa), vườn cam quýt và làng haenyeo (nữ thợ lặn), mang đến cho Jeju một vẻ đẹp tự nhiên.
+trải nghiệm mà du lịch đại chúng hiếm khi chạm tới.
 
 
-Jeju Island, the volcanic paradise off Korea's southern coast, has a problem that many destinations would envy: too many visitors. The island welcomed 21.3 million tourists in
-2025, a record that strains infrastructure, threatens delicate ecosystems, and has sparked a contentious debate about the future of tourism on the island.
-
-The challenges are visible across Jeju's 1,848 square kilometers. The iconic Seongsan Ilchulbong (Sunrise Peak) now requires timed entry tickets to manage crowds. The Olle Trail
-network, a 425-kilometer coastal hiking path, has sections where erosion from foot traffic has widened the trail to three times its original width. And the island's groundwater —
-its only source of drinking water — faces increasing contamination pressure from unchecked development.
-
-## A Model for Sustainable Tourism
-
-In response, the Jeju Special Self-Governing Province has implemented what officials describe as the most ambitious sustainable tourism framework in Asia. The "Jeju Promise"
-initiative, launched in 2024, includes a daily visitor cap (currently set at 80,000), an eco-levy of ₩10,000 per visitor, and strict limits on new hotel construction outside
-designated development zones.
-
-"We are not trying to discourage tourism," said Jeju Governor Oh Young-hun. "We are trying to save the very thing that tourists come to see. Jeju is not a theme park. It is a
-living island with a unique volcanic ecosystem, a distinct cultural identity, and a community of 700,000 people. Our job is to ensure that tourism enhances rather than destroys
-what makes Jeju special."
-
-The eco-levy has funded significant conservation projects, including the restoration of the Gotjawal Forest — a unique lava-rock ecosystem found nowhere else on Earth — and the
-creation of a marine protected area around Udo Island. Early data suggests the measures are working: visitor satisfaction scores have actually increased since the cap was
-implemented, and the island's environmental indicators are stabilizing.
-
-For travelers, the key to experiencing Jeju responsibly is simple: go during the shoulder season (April-May or October-November), stay in locally owned accommodation, use public
-transportation, and explore beyond the famous sites. The island's interior, with its Oreum (volcanic cones), citrus orchards, and haenyeo (female diver) villages, offers a Jeju
-experience that mass tourism rarely touches.
 
 {{< article-footer >}}
 copyright: >

@@ -1,16 +1,15 @@
 ---
-title: '''Running Man'' Celebrates 600 Episodes: The Variety Show That Refuses to
-  Age'
-description: Korea's longest-running variety show reaches a historic milestone with
-  a special episode that honors its legacy while pointing toward the future.
+title: '''Running Man'' kỷ niệm 600 tập: Chương trình tạp kỹ không chấp nhận tuổi tác'
+description: Chương trình tạp kỹ dài nhất Hàn Quốc đạt được cột mốc lịch sử với tập đặc biệt
+  nhằm tôn vinh di sản của chương trình đồng thời hướng tới tương lai.
 date: 2026-07-13
 draft: false
 author: Hyun-Woo Lee
 cover:
-  image: https://picsum.photos/seed/tv1/1200/630
-  alt: Running Man cast celebrating the 600th episode
-  caption: The Running Man cast cutting a cake shaped like the show's iconic name
-    tags
+  image: images/sample/running-man-600th-episode.jpg
+  alt: Dàn diễn viên Running Man kỷ niệm tập thứ 600
+  caption: Dàn diễn viên Running Man cắt chiếc bánh có hình giống thẻ tên đặc trưng của chương
+    trình
 tags:
 - running-man
 - variety-show
@@ -28,40 +27,43 @@ keywords:
 slug: running-man-celebrates-600-episodes-the-variety-show-that-refuses-to-age
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Korea's longest-running variety show reaches a historic milestone with a special
-    episode that honors its legacy while pointing toward the future.
-- q: Nội dung chính về «The Enduring Appeal» là gì?
-  a: '"The secret to Running Man is that it refuses to take itself seriously while
-    taking its audience very seriously," said media professor Kim Young-hoon at Seoul
-    National University. "Other variety shows chase trends.'
-- q: Điểm thông tin chính độc giả nên nhớ là gì?
-  a: 'On July 12, "Running Man" achieved something no other Korean variety show has
-    managed: 600 episodes. The SBS flagship program, which first aired on July 11,
-    2010, has survived cast changes, format evolutions, the rise of streaming, a global
-    pandemic, and the notoriously fickle nature of Korean television audiences.'
+  a: Chương trình tạp kỹ dài nhất Hàn Quốc đạt được cột mốc lịch sử với tập đặc biệt nhằm
+    tôn vinh di sản của chương trình đồng thời hướng tới tương lai.
+- q: Nội dung chính về «Lời hấp dẫn bền bỉ» là gì?
+  a: 'Giáo sư truyền thông Kim Young-hoon tại Đại học Quốc gia Seoul cho biết: “Bí mật của
+    Running Man là nó từ chối coi trọng bản thân trong khi rất coi trọng khán giả”. “Các chương
+    trình tạp kỹ khác đều theo đuổi xu hướng.'
+- q: Điểm thông tin chính độc. Bạn nhớ là gì?
+  a: 'Vào ngày 12 tháng 7, "Running Man" đã đạt được điều mà chưa chương trình tạp kỹ Hàn
+    Quốc nào làm được: 600 tập. Chương trình hàng đầu của SBS, được phát sóng lần đầu tiên
+    vào ngày 11 tháng 7 năm 2010, đã vượt qua những thay đổi về dàn diễn viên, sự phát triển
+    về định dạng, sự gia tăng của dịch vụ phát trực tuyến, đại dịch toàn cầu và tính chất
+    hay thay đổi của khán giả truyền hình Hàn Quốc.'
+sample_origin: scaffold
+lang_note: vi-localized-from-en-scaffold
 ---
 
+Vào ngày 12 tháng 7, "Running Man" đã đạt được điều mà chưa chương trình tạp kỹ Hàn Quốc nào làm được: 600 tập. Chương trình chủ lực của đài SBS phát sóng lần đầu ngày 11/7/2010 đã sống sót
+thay đổi dàn diễn viên, phát triển định dạng, sự gia tăng của dịch vụ phát trực tuyến, đại dịch toàn cầu và tính chất hay thay đổi của khán giả truyền hình Hàn Quốc. Tuổi thọ của nó là minh chứng cho
+sức mạnh của một tiền đề đơn giản, xuất sắc được thực hiện bằng trái tim nhất quán và sự hài hước.
+
+Tập thứ 600, được phát sóng vào Chủ nhật, là một bài học tuyệt vời về cách làm nên thành công của chương trình. Thay vì một chương trình đặc biệt xa hoa, quá trình sản xuất đã chọn quay trở lại những nguyên tắc cơ bản: dàn diễn viên
+tám thành viên – Yoo Jae-suk, Kim Jong-kook, Haha, Song Ji-hyo, Lee Kwang-soo, Jeon So-min, Yang Se-chan và thành viên mới Kang Hoon – đã thi đấu trong cuộc đua kéo dài bốn giờ trên khắp Seoul
+những địa điểm mang tính bước ngoặt, đỉnh điểm là việc loại bỏ bảng tên tại trường quay ban đầu của "Running Man" ở trụ sở Deungchon-dong của SBS.
+
+## Lời kêu gọi bền bỉ
+
+Giáo sư truyền thông Kim Young-hoon tại Đại học Quốc gia Seoul cho biết: “Bí mật của Running Man là nó từ chối coi trọng bản thân trong khi rất coi trọng khán giả”.
+"Các chương trình tạp kỹ khác đều theo đuổi xu hướng. Running Man đã trở thành một trong số đó."
+
+Tập phim có những khoảnh khắc đầy cảm xúc, trong đó có lời tri ân dành cho các cựu diễn viên Gary và Lee Seung-gi, cũng như sự xuất hiện bất ngờ của tác giả "Running Man" Jo Hyo-jin, người
+đạo diễn 200 tập đầu tiên của chương trình. Xếp hạng đạt 12,4% — mức cao nhất của chương trình kể từ năm 2022 và là điều hiếm thấy trong bối cảnh truyền hình hiện đại bị phân mảnh.
+
+Yoo Jae-suk, "MC quốc dân", người dẫn chương trình suốt 600 tập, đã suy ngẫm về cột mốc quan trọng trong phân đoạn kết thúc. “Khi chúng tôi bắt đầu, chúng tôi không biết liệu mình có
+60 tập cuối chứ đừng nói đến 600," anh nói. "Điều khiến chúng tôi tiếp tục nỗ lực là niềm tin rằng tiếng cười không hề tầm thường. Trong một thế giới phức tạp, việc khiến mọi người cười suốt một giờ vào Chủ nhật —
+đó là một đặc ân. Cảm ơn bạn vì 600 tập. Chúng tôi sẽ cố gắng kiếm thêm 600 nữa."
 
 
-On July 12, "Running Man" achieved something no other Korean variety show has managed: 600 episodes. The SBS flagship program, which first aired on July 11, 2010, has survived
-cast changes, format evolutions, the rise of streaming, a global pandemic, and the notoriously fickle nature of Korean television audiences. Its longevity is a testament to the
-power of a simple, brilliant premise executed with consistent heart and humor.
-
-The 600th episode, which aired Sunday, was a masterclass in what makes the show work. Rather than a lavish special, the production opted for a return to fundamentals: the cast of
-eight members — Yoo Jae-suk, Kim Jong-kook, Haha, Song Ji-hyo, Lee Kwang-soo, Jeon So-min, Yang Se-chan, and new member Kang Hoon — competed in a four-hour race across Seoul's
-landmark locations, culminating in a name-tag elimination at the original "Running Man" studio in SBS's Deungchon-dong headquarters.
-
-## The Enduring Appeal
-
-"The secret to Running Man is that it refuses to take itself seriously while taking its audience very seriously," said media professor Kim Young-hoon at Seoul National University.
-"Other variety shows chase trends. Running Man has become one."
-
-The episode featured emotional moments, including a tribute to former cast members Gary and Lee Seung-gi, and a surprise appearance by "Running Man" creator Jo Hyo-jin, who
-directed the show's first 200 episodes. Ratings hit 12.4% — the show's highest since 2022, and a rarity in the fragmented modern television landscape.
-
-Yoo Jae-suk, the "National MC" who has anchored the show for all 600 episodes, reflected on the milestone during the closing segment. "When we started, we didn't know if we would
-last 60 episodes, let alone 600," he said. "What keeps us going is the belief that laughter is not trivial. In a complicated world, making people laugh for an hour on a Sunday —
-that's a privilege. Thank you for 600 episodes. We'll try to earn 600 more."
 
 {{< article-footer >}}
 copyright: >

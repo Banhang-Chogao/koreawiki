@@ -1,14 +1,16 @@
 ---
-title: 'The Voice Behind the Screen: How Korean Voice Actors Became Global Stars'
-description: The booming demand for Korean-language dubbing and narration has elevated
-  voice actors from invisible craftspeople to celebrated artists in their own right.
+title: 'Giọng Nói Phía Sau Màn Ảnh: Các diễn viên lồng tiếng Hàn Quốc trở thành ngôi sao toàn
+  cầu như thế nào'
+description: Nhu cầu bùng nổ về lồng tiếng và tường thuật bằng tiếng Hàn đã nâng tầm các diễn
+  viên lồng tiếng từ những nghệ nhân vô hình trở thành những nghệ sĩ nổi tiếng theo đúng nghĩa
+  của họ.
 date: 2026-07-02
 draft: false
 author: Hyun-Woo Lee
 cover:
-  image: https://picsum.photos/seed/feature3/1200/630
-  alt: Voice actor in a recording studio in Seoul
-  caption: Voice actor Kim Yeon-ah at work in a recording studio in Gangnam
+  image: images/sample/korean-voice-actors-rise.jpg
+  alt: Diễn viên lồng tiếng trong phòng thu ở Seoul
+  caption: Diễn viên lồng tiếng Kim Yeon-ah tại phòng thu ở Gangnam
 tags:
 - voice-acting
 - dubbing
@@ -26,43 +28,46 @@ keywords:
 slug: the-voice-behind-the-screen-how-korean-voice-actors-became-global-stars
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: The booming demand for Korean-language dubbing and narration has elevated voice
-    actors from invisible craftspeople to celebrated artists in their own right.
-- q: Nội dung chính về «The New Economics of Voice» là gì?
-  a: The bottleneck has led to significant changes in how the industry operates. Major
-    streaming platforms have begun poaching voice actors from terrestrial broadcasters,
-    offering salaries that were unthinkable a decade ago.
-- q: Điểm thông tin chính độc giả nên nhớ là gì?
-  a: 'When global audiences watch Korean content on Netflix, they are often experiencing
-    it through two distinct audio tracks: the original Korean and an English dub.
-    But the Korean-language version itself may feature a voice actor whose face is
-    entirely unknown to the millions who hear their voice.'
+  a: Nhu cầu bùng nổ về lồng tiếng và tường thuật bằng tiếng Hàn đã nâng tầm các diễn viên
+    lồng tiếng từ những nghệ nhân vô hình trở thành những nghệ sĩ nổi tiếng theo đúng nghĩa
+    của họ.
+- q: Nội dung chính về «Kinh tế học mới của giọng nói» là gì?
+  a: Nút thắt cổ chai đã dẫn đến những thay đổi đáng kể trong cách thức hoạt động của ngành.
+    Các nền tảng phát trực tuyến lớn đã bắt đầu chiêu mộ diễn viên lồng tiếng từ các đài truyền
+    hình mặt đất, đưa ra mức lương không thể tưởng tượng được cách đây một thập kỷ.
+- q: Điểm thông tin chính độc. Bạn nhớ là gì?
+  a: 'Khi khán giả toàn cầu xem nội dung tiếng Hàn trên Netflix, họ thường trải nghiệm nội
+    dung đó qua hai bản âm thanh riêng biệt: bản gốc tiếng Hàn và bản lồng tiếng Anh. Nhưng
+    bản thân phiên bản tiếng Hàn có thể có một diễn viên lồng tiếng mà hàng triệu người nghe
+    giọng nói của họ hoàn toàn không biết đến khuôn mặt của họ.'
+sample_origin: scaffold
+lang_note: vi-localized-from-en-scaffold
 ---
 
+Khi khán giả toàn cầu xem nội dung tiếng Hàn trên Netflix, họ thường trải nghiệm nội dung đó qua hai bản âm thanh riêng biệt: bản gốc tiếng Hàn và bản lồng tiếng Anh. Nhưng
+Bản thân phiên bản tiếng Hàn có thể có một diễn viên lồng tiếng mà hàng triệu người nghe giọng nói của họ hoàn toàn không biết đến khuôn mặt của họ. Điều đó đang thay đổi. Các diễn viên lồng tiếng đằng sau phim Hàn Quốc
+hầu hết các nhân vật và lời kể mang tính biểu tượng đang bước ra khỏi bóng tối và trở thành tâm điểm chú ý.
+
+Sự thay đổi này được thúc đẩy bởi sự tăng trưởng bùng nổ của ngành công nghiệp nội dung Hàn Quốc. Với Netflix, Disney+, Apple TV+ và các nền tảng địa phương như Tving và Wavve đang cạnh tranh
+thuê bao, nhu cầu lồng tiếng Hàn Quốc chất lượng cao chưa bao giờ cao hơn thế. Diễn viên lồng tiếng kỳ cựu Kim cho biết: “Trong năm 2019, tôi có thể đã thực hiện bốn hoặc năm dự án lớn trong một năm”.
+Yeon-ah, người có hơn 200 bản lồng tiếng phim và truyền hình. “Bây giờ tôi từ chối công việc. Không có đủ diễn viên lồng tiếng có kinh nghiệm để đáp ứng nhu cầu”.
+
+## Tính kinh tế mới của giọng nói
+
+Nút thắt cổ chai đã dẫn đến những thay đổi đáng kể trong cách thức hoạt động của ngành. Các nền tảng phát trực tuyến lớn đã bắt đầu chiêu mộ diễn viên lồng tiếng từ các đài truyền hình mặt đất, cung cấp
+mức lương không thể tưởng tượng được một thập kỷ trước. Hiệp hội Diễn viên lồng tiếng Hàn Quốc báo cáo rằng thu nhập trung bình hàng năm của các diễn viên lồng tiếng toàn thời gian đã tăng hơn gấp đôi kể từ năm 2022,
+từ khoảng 40 triệu yên đến 85 triệu yên.
+
+Lần đầu tiên, các diễn viên lồng tiếng cũng đạt được danh tiếng độc lập. Yoon Seung-hoon, người đã lồng tiếng cho các nhân vật trong "Squid Game" (lồng tiếng Hàn Quốc) và nhiều bộ phim hoạt hình,
+có 1,2 triệu người theo dõi trên Instagram và gần đây xuất hiện với tư cách khách mời trên "Knowing Bros." “Thật kỳ quái,” Yoon nói. "Tôi đã làm việc này được 15 năm và đột nhiên mọi người
+nhận ra giọng nói của tôi trong thang máy. Họ muốn chụp ảnh tự sướng. Họ yêu cầu tôi nói câu họ yêu thích nhất."
+
+Ngành công nghiệp vẫn phải đối mặt với những thách thức, bao gồm mối đe dọa về lồng tiếng do AI tạo ra và thiếu cơ chế đào tạo chính thức cho các tài năng mới. Nhưng hiện tại, các diễn viên lồng tiếng Hàn Quốc
+đang tận hưởng khoảnh khắc được công nhận đã được hình thành trong nhiều thập kỷ.
+
+"Lồng tiếng là diễn xuất," Kim Yeon-ah nói chắc chắn. "Chúng tôi không chỉ đọc chữ. Chúng tôi đang làm sống động các nhân vật. Thật vui khi cuối cùng thế giới cũng đã chú ý đến."
 
 
-When global audiences watch Korean content on Netflix, they are often experiencing it through two distinct audio tracks: the original Korean and an English dub. But the
-Korean-language version itself may feature a voice actor whose face is entirely unknown to the millions who hear their voice. That is changing. The voice actors behind Korea's
-most iconic characters and narrations are stepping out of the shadows and into the spotlight.
-
-The shift has been driven by the explosive growth of the Korean content industry. With Netflix, Disney+, Apple TV+, and local platforms like Tving and Wavve competing for
-subscribers, the demand for high-quality Korean dubbing has never been higher. "In 2019, I might have done four or five major projects in a year," said veteran voice actor Kim
-Yeon-ah, whose credits include over 200 film and television dubs. "Now I am turning down work. There are not enough experienced voice actors to meet demand."
-
-## The New Economics of Voice
-
-The bottleneck has led to significant changes in how the industry operates. Major streaming platforms have begun poaching voice actors from terrestrial broadcasters, offering
-salaries that were unthinkable a decade ago. The Korea Voice Actors Association reports that average annual income for full-time voice actors has more than doubled since 2022,
-from about ₩40 million to ₩85 million.
-
-For the first time, voice actors are also achieving independent celebrity. Yoon Seung-hoon, who has voiced characters in "Squid Game" (Korean dub) and numerous animated features,
-has 1.2 million followers on Instagram and recently appeared as a guest on "Knowing Bros." "It's surreal," Yoon said. "I've been doing this for 15 years, and suddenly people
-recognize my voice in elevators. They want selfies. They ask me to say their favorite line."
-
-The industry still faces challenges, including the threat of AI-generated voice acting and the lack of a formal training pipeline for new talent. But for now, Korean voice actors
-are enjoying a moment of recognition that has been decades in the making.
-
-"Voice acting is acting," Kim Yeon-ah said firmly. "We are not just reading words. We are bringing characters to life. It's nice that the world is finally noticing."
 
 {{< article-footer >}}
 copyright: >

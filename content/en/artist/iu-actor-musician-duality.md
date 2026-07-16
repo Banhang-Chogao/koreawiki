@@ -1,15 +1,15 @@
 ---
-title: 'IU at 33: Korea''s Premier Solo Artist on Acting, Aging, and Artistic Freedom'
-description: Lee Ji-eun reflects on her two-decade career as she prepares for dual
-  releases — a new album and a starring role in a Netflix thriller.
+title: 'IU ở tuổi 33: Nghệ sĩ solo hàng đầu Hàn Quốc về diễn xuất, tuổi tác và tự do nghệ
+  thuật'
+description: Lee Ji-eun suy ngẫm về sự nghiệp kéo dài hai thập kỷ của mình khi chuẩn bị cho
+  hai lần phát hành — một album mới và một vai chính trong một bộ phim ly kỳ của Netflix.
 date: 2026-07-09
 draft: false
 author: Soo-Jin Choi
 cover:
-  image: https://picsum.photos/seed/artist2/1200/630
-  alt: IU in a studio portrait for her upcoming album promotion
-  caption: IU photographed at her management agency EDAM Entertainment's studio in
-    Seongsu-dong
+  image: images/sample/iu-actor-musician-duality.jpg
+  alt: IU trong bức chân dung studio cho đợt quảng bá album sắp tới của cô ấy
+  caption: IU chụp ảnh tại studio của công ty quản lý EDAM Entertainment ở Seongsu-dong
 tags:
 - iu
 - profile
@@ -28,43 +28,45 @@ keywords:
 slug: iu-at-33-koreas-premier-solo-artist-on-acting-aging-and-artistic-freedom
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Lee Ji-eun reflects on her two-decade career as she prepares for dual releases
-    — a new album and a starring role in a Netflix thriller.
+  a: Lee Ji-eun suy ngẫm về sự nghiệp kéo dài hai thập kỷ của mình khi chuẩn bị cho hai lần
+    phát hành — một album mới và một vai chính trong một bộ phim ly kỳ của Netflix.
 - q: Nội dung chính về «A New Acting Chapter» là gì?
-  a: October will bring IU back to screens in a dramatic new register. She stars in
-    "The Silent Hour," a Netflix psychological thriller from director Na Hong-jin
-    ("The Wailing," "The Chase").
-- q: Điểm thông tin chính độc giả nên nhớ là gì?
-  a: Lee Ji-eun — IU to the world — has been a star for so long that it is easy to
-    forget she is only 33. She debuted at 15, wrote her first hit at 17, and by 21
-    was already being called "the nation's little sister." But two decades into a
-    career that spans music, television, and film, IU is showing no signs of resting
-    on her laurels.
+  a: Tháng 10 sẽ đưa IU trở lại màn ảnh trong một diện mạo mới đầy kịch tính. Cô đóng vai
+    chính trong The Silent Hour, một bộ phim tâm lý ly kỳ của Netflix của đạo diễn Na Hong-jin
+    ("The Wailing", "The Chase").
+- q: Điểm thông tin chính độc. Bạn nhớ là gì?
+  a: Lee Ji-eun - IU đối với thế giới - đã trở thành một ngôi sao lâu đến mức người ta dễ
+    quên rằng cô chỉ mới 33. Cô ra mắt năm 15 tuổi, viết bản hit đầu tiên năm 17 và đến năm
+    21 tuổi đã được mệnh danh là "em gái quốc dân". Nhưng hai thập kỷ trong sự nghiệp trải
+    dài từ âm nhạc, truyền hình và điện ảnh, IU vẫn chưa có dấu hiệu nghỉ ngơi trên vòng nguyệt
+    quế của mình.
+sample_origin: scaffold
+lang_note: vi-localized-from-en-scaffold
 ---
 
+Lee Ji-eun - IU của thế giới - đã trở thành một ngôi sao lâu đến mức người ta dễ quên rằng cô chỉ mới 33. Cô ra mắt năm 15 tuổi, viết bản hit đầu tiên năm 17 và đến năm 21 tuổi thì đã thành danh.
+được mệnh danh là “em gái quốc dân”. Nhưng hai thập kỷ trong sự nghiệp trải dài từ âm nhạc, truyền hình và điện ảnh, IU vẫn chưa có dấu hiệu nghỉ ngơi trên vòng nguyệt quế của mình. Trên thực tế, cô ấy có thể
+bước vào giai đoạn đầy tham vọng sáng tạo nhất của cô ấy.
+
+Vào ngày 15 tháng 9, IU sẽ phát hành album phòng thu thứ bảy, "Palette Returns", phần tiếp theo của album mang tính bước ngoặt năm 2017 "Palette". Tiêu đề có chủ ý: IU miêu tả cái mới
+dự án là "sự tái hợp với con người tôi khi lập kỷ lục đó, nhưng với tất cả kinh nghiệm sống mà tôi đã có được kể từ đó." Những mô tả ban đầu từ EDAM Entertainment gợi ý một cách sâu sắc
+album cá nhân khám phá các chủ đề về hôn nhân (IU kết hôn với nhạc sĩ Lee Jong-suk vào năm 2024), cái chết (cô mất ông nội vào năm ngoái) và nỗi cô đơn đặc biệt khi phải sống lâu dài.
+danh tiếng.
+
+## Một chương diễn xuất mới
+
+Tháng 10 sẽ đưa IU trở lại màn ảnh trong một diện mạo mới đầy kịch tính. Cô đóng vai chính trong The Silent Hour, một bộ phim tâm lý ly kỳ của Netflix của đạo diễn Na Hong-jin ("The Wailing", "The
+Đuổi theo"). IU vào vai một nhà ngôn ngữ học pháp y bị điếc bị vướng vào một cuộc điều tra giết người hàng loạt. Vai diễn này yêu cầu cô phải học Ngôn ngữ ký hiệu tiếng Hàn và dành hàng tuần để theo dõi một
+cố vấn khiếm thính của Hiệp hội Điếc Hàn Quốc.
+
+“Tôi muốn hóa thân hoàn toàn vào nhân vật,” IU nói trong cuộc trò chuyện tại quán cà phê gần công ty quản lý của cô ở Seongsu-dong. “Là IU, tôi luôn thể hiện bản thân mình. Diễn xuất là một
+nhẹ nhõm - đó là sự cho phép trở thành một người khác hoàn toàn." Lời ban đầu từ những người trong cuộc của Netflix là màn trình diễn của cô ấy có tính "thay đổi" và có khả năng tạo ra tiếng vang về giải thưởng.
+
+Sự nghiệp kép của IU với tư cách là một nhạc sĩ đứng đầu bảng xếp hạng và một nữ diễn viên được giới phê bình đánh giá cao không có gì sánh bằng trong làng giải trí Hàn Quốc. Cô đã nhiều lần giành được mọi giải thưởng âm nhạc lớn và có
+các giải thưởng diễn xuất bao gồm Baeksang và Blue Dragon Film Awards. Ở tuổi 33, với công việc tốt nhất được cho là vẫn còn ở phía trước, cô ấy đang viết một cuốn sách mà không ai khác có thể làm được.
+theo dõi.
 
 
-Lee Ji-eun — IU to the world — has been a star for so long that it is easy to forget she is only 33. She debuted at 15, wrote her first hit at 17, and by 21 was already being
-called "the nation's little sister." But two decades into a career that spans music, television, and film, IU is showing no signs of resting on her laurels. In fact, she may be
-entering her most creatively ambitious phase yet.
-
-On September 15, IU will release her seventh studio album, "Palette Returns," a follow-up to her landmark 2017 album "Palette." The title is deliberate: IU described the new
-project as "a reunion with the self I was when I made that record, but with all the life experience I've gained since." Early descriptions from EDAM Entertainment suggest a deeply
-personal album exploring themes of marriage (IU married musician Lee Jong-suk in 2024), mortality (she lost her grandfather last year), and the peculiar loneliness of long-term
-fame.
-
-## A New Acting Chapter
-
-October will bring IU back to screens in a dramatic new register. She stars in "The Silent Hour," a Netflix psychological thriller from director Na Hong-jin ("The Wailing," "The
-Chase"). IU plays a deaf forensic linguist who becomes entangled in a serial murder investigation. The role required her to learn Korean Sign Language and spend weeks shadowing a
-deaf consultant from the Korean Deaf Association.
-
-"I wanted to disappear into a character completely," IU said during a conversation at a café near her agency in Seongsu-dong. "As IU, I'm always performing myself. Acting is a
-relief — it's permission to be someone else entirely." Early word from Netflix insiders is that her performance is "transformative" and likely to generate awards buzz.
-
-IU's dual career as a chart-topping musician and critically acclaimed actress has no parallel in Korean entertainment. She has won every major music award multiple times and has
-acting accolades including Baeksang and Blue Dragon Film Awards. At 33, with her best work arguably still ahead of her, she is writing a playbook that no one else has been able to
-follow.
 
 {{< article-footer >}}
 copyright: >

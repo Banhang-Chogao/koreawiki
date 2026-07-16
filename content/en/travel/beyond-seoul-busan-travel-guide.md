@@ -1,16 +1,16 @@
 ---
-title: 'Beyond Seoul: Why Busan Is Korea''s Most Underrated Travel Destination'
-description: From the raw beauty of Haedong Yonggungsa to the electric energy of Busan
-  International Film Festival, Korea's second city offers an experience that rivals
-  the capital.
+title: 'Ngoài Seoul: Tại sao Busan là điểm đến du lịch bị đánh giá thấp nhất ở Hàn Quốc'
+description: Từ vẻ đẹp nguyên sơ của Haedong Yonggungsa đến năng lượng điện của Liên hoan
+  phim quốc tế Busan, thành phố thứ hai của Hàn Quốc mang đến trải nghiệm sánh ngang với thủ
+  đô.
 date: 2026-07-10
 draft: false
 author: Min-Jun Kim
 cover:
-  image: https://picsum.photos/seed/travel1/1200/630
-  alt: Sunset view of Busan's coastline from Gamcheon Culture Village
-  caption: The iconic colorful houses of Gamcheon Culture Village as the sun sets
-    over the South Sea
+  image: images/sample/beyond-seoul-busan-travel-guide.jpg
+  alt: Cảnh hoàng hôn trên bờ biển Busan từ Làng văn hóa Gamcheon
+  caption: Những ngôi nhà đầy màu sắc mang tính biểu tượng của Làng văn hóa Gamcheon khi mặt
+    trời lặn trên Biển Nam
 tags:
 - busan
 - travel
@@ -28,44 +28,47 @@ keywords:
 slug: beyond-seoul-why-busan-is-koreas-most-underrated-travel-destination
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: From the raw beauty of Haedong Yonggungsa to the electric energy of Busan International
-    Film Festival, Korea's second city offers an experience that rivals the capital.
-- q: Nội dung chính về «The Quintessential Busan Experience» là gì?
-  a: Any visit should begin at Gamcheon Culture Village, the hillside maze of brightly
-    painted houses that has become Busan's most photographed location. But unlike
-    many Instagram-famous destinations, Gamcheon rewards those who venture beyond
-    the main photo spots.
-- q: Điểm thông tin chính độc giả nên nhớ là gì?
-  a: 'For decades, the standard itinerary for international visitors to Korea has
-    followed a predictable formula: fly into Incheon, spend three days in Seoul, take
-    a day trip to the DMZ, and fly out. Busan, Korea''s second-largest city and its
-    premier coastal metropolis, has been treated as a worthy but optional add-on.'
+  a: Từ vẻ đẹp nguyên sơ của Haedong Yonggungsa đến năng lượng điện của Liên hoan phim quốc
+    tế Busan, thành phố thứ hai của Hàn Quốc mang đến trải nghiệm sánh ngang với thủ đô.
+- q: Nội dung chính về «Trải nghiệm tinh túy của Busan» là gì?
+  a: Bất kỳ chuyến thăm nào cũng nên bắt đầu tại Làng văn hóa Gamcheon, mê cung sườn đồi với
+    những ngôi nhà sơn màu rực rỡ đã trở thành địa điểm được chụp ảnh nhiều nhất ở Busan.
+    Nhưng không giống như nhiều điểm đến nổi tiếng trên Instagram, Gamcheon trao thưởng cho
+    những ai mạo hiểm vượt ra ngoài các địa điểm chụp ảnh chính.
+- q: Điểm thông tin chính độc. Bạn nhớ là gì?
+  a: 'Trong nhiều thập kỷ, hành trình tiêu chuẩn dành cho du khách quốc tế đến Hàn Quốc đã
+    tuân theo một công thức có thể dự đoán được: bay đến Seoul, dành ba ngày ở Seoul, thực
+    hiện chuyến đi trong ngày đến DMZ và bay ra ngoài. Busan, thành phố lớn thứ hai của Hàn
+    Quốc và là đô thị ven biển hàng đầu của Hàn Quốc, được coi là một tiện ích bổ sung xứng
+    đáng nhưng không bắt buộc.'
+sample_origin: scaffold
+lang_note: vi-localized-from-en-scaffold
 ---
 
+Trong nhiều thập kỷ, hành trình tiêu chuẩn dành cho du khách quốc tế đến Hàn Quốc đã tuân theo một công thức có thể dự đoán được: bay đến Seoul, dành ba ngày ở Seoul, thực hiện một chuyến đi trong ngày đến Seoul.
+DMZ và bay ra ngoài. Busan, thành phố lớn thứ hai của Hàn Quốc và là đô thị ven biển hàng đầu của Hàn Quốc, được coi là một tiện ích bổ sung xứng đáng nhưng không bắt buộc. Điều đó đang bắt đầu thay đổi, và đối với
+lý do tốt.
+
+Busan mang đến một điều mà Seoul, với tất cả sự sống động của nó, đơn giản là không thể: một khung cảnh thiên nhiên tuyệt đẹp nơi những ngọn núi gặp biển ở quy mô sánh ngang với Cape Town hay
+Rio de Janeiro. Địa hình của thành phố – một loạt các thung lũng được hình thành bởi những dòng sông chảy vào bến cảng hình lưỡi liềm – tạo nên những khu dân cư có cá tính riêng biệt, mỗi khu vực đều có những đặc điểm riêng biệt.
+mang đến hương vị khác biệt của cuộc sống ven biển Hàn Quốc.
+
+##Trải nghiệm tinh túy của Busan
+
+Bất kỳ chuyến thăm nào cũng nên bắt đầu tại Làng văn hóa Gamcheon, mê cung sườn đồi với những ngôi nhà sơn màu rực rỡ đã trở thành địa điểm được chụp ảnh nhiều nhất ở Busan. Nhưng không giống nhiều người
+Những điểm đến nổi tiếng trên Instagram, Gamcheon trao thưởng cho những người mạo hiểm vượt ra ngoài các địa điểm chụp ảnh chính. Ngôi làng là một cộng đồng sống động và những phòng trưng bày nhỏ, những quán trà độc lập,
+và các studio nghệ sĩ thường trú nằm trong các con hẻm mang đến cái nhìn chân thực về nền tảng sáng tạo của Busan.
+
+Thức ăn là lý do tuyệt vời khác để ghé thăm. Vị trí của Busan là cảng cá hàng đầu của Hàn Quốc có nghĩa là các chợ hải sản ở đây - đặc biệt là chợ Jagalchi, chợ lớn nhất cả nước -
+mang đến chiều sâu và sự đa dạng mà Seoul không thể sánh bằng. Đặc sản địa phương là dwaeji-gukbap (cơm súp thịt lợn), một món ăn thịnh soạn có nguồn gốc từ quá trình tái thiết thành phố sau chiến tranh
+thời đại và vẫn là nguồn gốc của niềm tự hào mãnh liệt của địa phương. Đầu bếp Jung Ho-yeon, chủ nhà hàng ở quận Nampo-dong, cho biết: “Hương vị của Busan chính là hương vị của biển”.
+phục vụ banchan hải sản trong ba thế hệ.
+
+Đối với những người đến thăm đúng thời điểm, tháng 10 mang đến Liên hoan phim quốc tế Busan (BIFF), liên hoan phim có ảnh hưởng nhất châu Á và là nơi hội tụ điện ảnh,
+người nổi tiếng và văn hóa đường phố. Nhưng ngay cả trong những tháng yên tĩnh hơn, sự kết hợp giữa vẻ đẹp tự nhiên, chiều sâu ẩm thực và năng lượng sáng tạo của Busan khiến nơi đây trở thành một điểm đến xứng đáng.
+chuyến đi tận tâm - không chỉ là một chú thích trên hành trình ở Seoul.
 
 
-For decades, the standard itinerary for international visitors to Korea has followed a predictable formula: fly into Incheon, spend three days in Seoul, take a day trip to the
-DMZ, and fly out. Busan, Korea's second-largest city and its premier coastal metropolis, has been treated as a worthy but optional add-on. That is beginning to change, and for
-good reason.
-
-Busan offers something that Seoul, for all its vibrancy, simply cannot: a dramatically beautiful natural setting where mountains meet the sea on a scale that rivals Cape Town or
-Rio de Janeiro. The city's topography — a series of valleys carved by rivers flowing into a crescent-shaped harbor — creates neighborhoods with distinct personalities, each
-offering a different flavor of Korean coastal life.
-
-## The Quintessential Busan Experience
-
-Any visit should begin at Gamcheon Culture Village, the hillside maze of brightly painted houses that has become Busan's most photographed location. But unlike many
-Instagram-famous destinations, Gamcheon rewards those who venture beyond the main photo spots. The village is a living community, and the small galleries, independent tea houses,
-and resident artist studios tucked into its alleys offer a genuine glimpse of Busan's creative underbelly.
-
-Food is the other great reason to visit. Busan's position as Korea's premier fishing port means its seafood markets — particularly Jagalchi Market, the largest in the country —
-offer a depth and variety that Seoul cannot match. The local specialty is dwaeji-gukbap (pork soup with rice), a hearty dish that originated in the city's post-war reconstruction
-era and remains a source of fierce local pride. "The flavor of Busan is the flavor of the sea," said chef Jung Ho-yeon, whose restaurant in the Nampo-dong district has been
-serving seafood banchan for three generations.
-
-For those timing their visit right, October brings the Busan International Film Festival (BIFF), Asia's most influential film festival and an electric convergence of cinema,
-celebrity, and street culture. But even in the quieter months, Busan's combination of natural beauty, culinary depth, and creative energy makes it a destination worthy of a
-dedicated trip — not just a footnote on a Seoul itinerary.
 
 {{< article-footer >}}
 copyright: >

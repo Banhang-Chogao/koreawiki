@@ -209,6 +209,21 @@ git commit --allow-empty -m "redeploy article" && git push
 
 ---
 
+## Entry 025 — 2026-07-16: Localize EN scaffold posts → Vietnamese
+
+**Fact:** ~40 posts from initial blog scaffold were **demo English** content with
+**picsum.photos** placeholder covers — not real Korean-source news (unlike `mm`).
+
+**Action:** Keep them (images are worth it) as first-class posts:
+- Download covers → `static/images/sample/`
+- Translate title/desc/body/faq → Vietnamese
+- Mark `sample_origin: scaffold`
+
+**Script:** `python3 scripts/localize_sample_posts.py --apply`
+(Requires `deep-translator` or `XAI_API_KEY` / `OPENAI_API_KEY`.)
+
+---
+
 ## Entry 024 — 2026-07-16: mm must fetch cover from original source
 
 **Change:** `mm` Step 6 is mandatory effort: extract `og:image` / body images from the

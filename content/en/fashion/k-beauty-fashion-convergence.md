@@ -1,16 +1,16 @@
 ---
-title: 'When K-Beauty Met Fashion: How Korean Cosmetics Brands Are Redefining Luxury
-  Retail'
-description: From Amorepacific's flagship in Gangnam to collaborations with global
-  fashion houses, Korean beauty is experiencing a luxury renaissance.
+title: 'Khi K-Beauty gặp gỡ thời trang: Các thương hiệu mỹ phẩm Hàn Quốc đang định nghĩa lại
+  hoạt động bán lẻ xa xỉ như thế nào'
+description: Từ trụ sở hàng đầu của Amorepacific ở Gangnam cho đến hợp tác với các hãng thời
+  trang toàn cầu, vẻ đẹp Hàn Quốc đang trải qua thời kỳ phục hưng xa hoa.
 date: 2026-07-06
 draft: false
 author: Sarah Chen
 cover:
-  image: https://picsum.photos/seed/fashion2/1200/630
-  alt: Amorepacific's flagship store in Gangnam
-  caption: The Amorepacific flagship store in Gangnam, which blends beauty and fashion
-    retail
+  image: images/sample/k-beauty-fashion-convergence.jpg
+  alt: Cửa hàng hàng đầu của Amorepacific ở Gangnam
+  caption: Cửa hàng hàng đầu của Amorepacific ở Gangnam, nơi kết hợp bán lẻ thời trang và
+    sắc đẹp
 tags:
 - k-beauty
 - luxury
@@ -28,43 +28,46 @@ keywords:
 slug: when-k-beauty-met-fashion-how-korean-cosmetics-brands-are-redefining-luxury-retail
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: From Amorepacific's flagship in Gangnam to collaborations with global fashion
-    houses, Korean beauty is experiencing a luxury renaissance.
+  a: Từ trụ sở hàng đầu của Amorepacific ở Gangnam cho đến hợp tác với các hãng thời trang
+    toàn cầu, vẻ đẹp Hàn Quốc đang trải qua thời kỳ phục hưng xa hoa.
 - q: Nội dung chính về «Beyond the 10-Step Routine» là gì?
-  a: '"In the past, K-beauty was associated with mass-market products and elaborate
-    skincare routines," said fashion and beauty analyst Park Eun-ji. "But the new
-    generation of Korean beauty consumers are looking for sophistication, not complexity.'
-- q: Điểm thông tin chính độc giả nên nhớ là gì?
-  a: In the luxury section of Shinsegae Gangnam, the flagship department store in
-    one of Seoul's most affluent districts, a new retail concept has been drawing
-    crowds since its April opening. The space, a collaboration between Amorepacific's
-    premium beauty line Sulwhasoo and French fashion house Maison Margiela, is neither
-    a beauty counter nor a fashion…
+  a: 'Nhà phân tích thời trang và sắc đẹp Park Eun-ji cho biết: “Trước đây, K-beauty gắn liền
+    với các sản phẩm dành cho thị trường đại chúng và các quy trình chăm sóc da phức tạp”.
+    "Nhưng thế hệ người tiêu dùng làm đẹp mới của Hàn Quốc đang tìm kiếm sự tinh tế chứ không
+    phải sự phức tạp.'
+- q: Điểm thông tin chính độc. Bạn nhớ là gì?
+  a: Trong khu vực sang trọng của Shinsegae Gangnam, cửa hàng bách hóa hàng đầu ở một trong
+    những quận giàu có nhất của Seoul, một mô hình bán lẻ mới đã thu hút rất đông người kể
+    từ khi khai trương vào tháng 4. Không gian này là sự hợp tác giữa dòng sản phẩm làm đẹp
+    cao cấp Sulwhasoo của Amorepacific và hãng thời trang Pháp Maison Margiela, không phải
+    là quầy làm đẹp hay thời trang…
+sample_origin: scaffold
+lang_note: vi-localized-from-en-scaffold
 ---
 
+Trong khu sang trọng của Shinsegae Gangnam, cửa hàng bách hóa hàng đầu ở một trong những quận giàu có nhất của Seoul, một mô hình bán lẻ mới đã thu hút đám đông kể từ tháng 4.
+khai mạc. Không gian này là sự hợp tác giữa dòng sản phẩm làm đẹp cao cấp Sulwhasoo của Amorepacific và hãng thời trang Pháp Maison Margiela, không phải là quầy làm đẹp hay thời trang
+cửa hàng - đó là cả hai. Khách hàng có thể được cố vấn sắc đẹp AI của Sulwhasoo phân tích làn da của mình, sau đó duyệt qua bộ sưu tập quần áo may sẵn của Maison Margiela trong khi chờ đợi.
+huyết thanh pha trộn tùy chỉnh của họ.
+
+Sự hội tụ giữa vẻ đẹp và thời trang Hàn Quốc đại diện cho một trong những xu hướng quan trọng nhất trong ngành bán lẻ cao cấp và các thương hiệu Hàn Quốc đang dẫn đầu xu hướng này. Tập đoàn Amorepacific,
+báo cáo doanh thu 4,8 nghìn tỷ Yên vào năm 2025, đã tích cực tái định vị danh mục đầu tư của mình sang phân khúc cao cấp, mở các cửa hàng cao cấp hàng đầu ở Seoul, Tokyo,
+Thượng Hải và Paris. Chiến lược đang phát huy hiệu quả: Doanh thu toàn cầu của Sulwhasoo tăng 28% so với cùng kỳ năm ngoái trong quý đầu tiên của năm 2026.
+
+## Ngoài quy trình 10 bước
+
+Nhà phân tích thời trang và sắc đẹp Park Eun-ji cho biết: “Trước đây, K-beauty gắn liền với các sản phẩm dành cho thị trường đại chúng và các quy trình chăm sóc da phức tạp”. “Nhưng thế hệ mới của Hàn Quốc
+Người tiêu dùng làm đẹp đang tìm kiếm sự tinh tế chứ không phải sự phức tạp. Họ muốn những sản phẩm có hiệu quả và đẹp mắt theo cách riêng của họ."
+
+Điều này đã thúc đẩy làn sóng hợp tác giữa các thương hiệu làm đẹp Hàn Quốc và các hãng thời trang toàn cầu. Innisfree hợp tác với Prada cho ra mắt bộ sưu tập son phiên bản giới hạn. Laneige
+cộng tác với Jacquemus trên một viên nang mùa hè. Tuy nhiên, mối quan hệ hợp tác đầy tham vọng nhất cho đến nay là dòng thời trang chính thức được đồn đại từ COSRX, mà các nguồn tin xác nhận là đang trong quá trình hợp tác.
+phát triển với một hãng thời trang lớn của Ý.
+
+Tác động kinh tế là đáng kể. Theo Hiệp hội Thương mại Quốc tế Hàn Quốc, xuất khẩu mỹ phẩm đạt 12,3 tỷ USD vào năm 2025, khiến sắc đẹp trở thành thị trường lớn thứ ba
+hạng mục xuất khẩu văn hóa đằng sau giải trí và thực phẩm. Với sự hội tụ về thời trang và sắc đẹp ngày càng tăng, con số đó dự kiến sẽ tăng lên khi các thương hiệu Hàn Quốc chiếm được nhiều thị trường hơn.
+thị trường xa xỉ toàn cầu.
 
 
-In the luxury section of Shinsegae Gangnam, the flagship department store in one of Seoul's most affluent districts, a new retail concept has been drawing crowds since its April
-opening. The space, a collaboration between Amorepacific's premium beauty line Sulwhasoo and French fashion house Maison Margiela, is neither a beauty counter nor a fashion
-boutique — it is both. Customers can have their skin analyzed by Sulwhasoo's AI beauty advisor, then browse a curated selection of Maison Margiela ready-to-wear while waiting for
-their custom-blended serum.
-
-The convergence of Korean beauty and fashion represents one of the most significant trends in luxury retail, and Korean brands are leading the charge. Amorepacific Group, which
-reported ₩4.8 trillion in revenue in 2025, has been aggressively repositioning its portfolio toward the luxury segment, opening high-concept flagship stores in Seoul, Tokyo,
-Shanghai, and Paris. The strategy is working: Sulwhasoo's global revenue grew 28% year-over-year in the first quarter of 2026.
-
-## Beyond the 10-Step Routine
-
-"In the past, K-beauty was associated with mass-market products and elaborate skincare routines," said fashion and beauty analyst Park Eun-ji. "But the new generation of Korean
-beauty consumers are looking for sophistication, not complexity. They want products that are effective and beautiful objects in their own right."
-
-This has driven a wave of collaborations between Korean beauty brands and global fashion houses. Innisfree partnered with Prada on a limited-edition lip collection. Laneige
-collaborated with Jacquemus on a summer capsule. The most ambitious partnership to date, however, is the rumored full-fledged fashion line from COSRX, which sources confirm is in
-development with a major Italian fashion house.
-
-The economic impact is substantial. According to the Korea International Trade Association, cosmetics exports reached $12.3 billion in 2025, making beauty the third-largest
-cultural export category behind entertainment and food. With the fashion-beauty convergence accelerating, that figure is expected to grow as Korean brands capture more of the
-global luxury market.
 
 {{< article-footer >}}
 copyright: >

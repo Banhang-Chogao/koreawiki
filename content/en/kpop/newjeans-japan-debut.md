@@ -1,17 +1,17 @@
 ---
-title: 'NewJeans Conquers Japan: Debut Album ''Tokyo 404'' Breaks Records and Charts
-  Across Asia'
-description: The ADOR quintet's first full-length Japanese album tops the Oricon chart
-  and sells 1.5 million copies in its first week, redefining what a K-pop act can
-  achieve in Japan.
+title: 'NewJeans chinh phục Nhật Bản: Album đầu tay ''Tokyo 404'' phá kỷ lục và bảng xếp hạng
+  khắp châu Á'
+description: Album tiếng Nhật dài đầu tiên của nhóm ngũ tấu ADOR đứng đầu bảng xếp hạng Oricon
+  và bán được 1,5 triệu bản trong tuần đầu tiên, xác định lại những gì một nghệ sĩ K-pop có
+  thể đạt được ở Nhật Bản.
 date: 2026-07-07
 draft: false
 author: Min-Jun Kim
 cover:
-  image: https://picsum.photos/seed/kpop3/1200/630
-  alt: NewJeans members in Tokyo for their Japan debut promotions
-  caption: NewJeans at a press conference in Shibuya, Tokyo, celebrating their record-breaking
-    Japanese debut
+  image: images/sample/newjeans-japan-debut.jpg
+  alt: Các thành viên NewJeans đến Tokyo để quảng bá cho lần ra mắt tại Nhật Bản
+  caption: NewJeans tại cuộc họp báo ở Shibuya, Tokyo, kỷ niệm lần ra mắt kỷ lục tại Nhật
+    Bản
 tags:
 - newjeans
 - japan
@@ -29,43 +29,45 @@ keywords:
 slug: newjeans-conquers-japan-debut-album-tokyo-404-breaks-records-and-charts-across-asia
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: The ADOR quintet's first full-length Japanese album tops the Oricon chart and
-    sells 1.5 million copies in its first week, redefining what a K-pop act can achieve
-    in Japan.
-- q: Nội dung chính về «A Sound Tailored for Two Markets» là gì?
-  a: '"Tokyo 404" strikes a delicate balance between maintaining NewJeans'' signature
-    Y2K-inspired sound and incorporating elements that resonate with Japanese audiences.
-    The title track features a collaboration with renowned Japanese producer Yasutaka
-    Nakata (known for Perfume and Kyary Pamyu Pamyu),…'
-- q: Điểm thông tin chính độc giả nên nhớ là gì?
-  a: 'NewJeans has done what no K-pop girl group has done before: debut at number
-    one on the Oricon Weekly Album Chart with 1.5 million copies sold in the first
-    seven days. Their first full-length Japanese album, "Tokyo 404," released June
-    30 through ADOR and Warner Music Japan, has surpassed all industry projections
-    and established the quintet as a dominant…'
+  a: Album tiếng Nhật dài đầu tiên của nhóm ngũ tấu ADOR đứng đầu bảng xếp hạng Oricon và
+    bán được 1,5 triệu bản trong tuần đầu tiên, xác định lại những gì một nghệ sĩ K-pop có
+    thể đạt được ở Nhật Bản.
+- q: Nội dung chính về «Âm thanh phù hợp cho hai thị trường» là gì?
+  a: '"Tokyo 404" tạo ra sự cân bằng tinh tế giữa việc duy trì âm thanh lấy cảm hứng từ Y2K
+    đặc trưng của NewJeans và kết hợp các yếu tố gây được tiếng vang với khán giả Nhật Bản.
+    Ca khúc chủ đề có sự hợp tác với nhà sản xuất nổi tiếng Nhật Bản Yasutaka Nakata (được
+    biết đến với Perfume và Kyary Pamyu Pamyu),…'
+- q: Điểm thông tin chính độc. Bạn nhớ là gì?
+  a: 'NewJeans đã làm được điều mà chưa một nhóm nhạc nữ K-pop nào làm được trước đây: ra
+    mắt ở vị trí số một trên Bảng xếp hạng Album hàng tuần của Oricon với 1,5 triệu bản được
+    bán ra trong bảy ngày đầu tiên. Album tiếng Nhật đầy đủ đầu tiên của họ, "Tokyo 404",
+    phát hành ngày 30 tháng 6 thông qua ADOR và Warner Music Japan, đã vượt qua mọi dự đoán
+    trong ngành và đưa nhóm ngũ tấu trở thành nhóm thống trị…'
+sample_origin: scaffold
+lang_note: vi-localized-from-en-scaffold
 ---
 
+NewJeans đã làm được điều mà chưa một nhóm nhạc nữ K-pop nào làm được trước đây: ra mắt ở vị trí số một trên Bảng xếp hạng Album hàng tuần của Oricon với 1,5 triệu bản được bán ra trong bảy ngày đầu tiên. đầu tiên của họ
+Album tiếng Nhật đầy đủ, "Tokyo 404", phát hành ngày 30 tháng 6 thông qua ADOR và Warner Music Japan, đã vượt qua mọi dự đoán trong ngành và đưa nhóm ngũ tấu trở thành nhóm thống trị
+mạnh mẽ tại thị trường âm nhạc lớn thứ hai thế giới.
+
+Thành công của album đặc biệt có ý nghĩa quan trọng trước những thách thức lịch sử mà các nghệ sĩ K-pop phải đối mặt ở Nhật Bản. Trong khi các nhóm như TWICE và Girls' Generation đạt được thành công đáng kể
+khán giả trong nước, con số của NewJeans đại diện cho một đẳng cấp hoàn toàn mới. Album đã bán được 680.000 bản vật lý chỉ trong 24 giờ đầu tiên và đĩa đơn chủ đạo, "Shibuya
+Crossing," đã phá kỷ lục bài hát K-pop được phát trực tuyến nhiều nhất trên Spotify Nhật Bản trong một tuần, với 14 triệu lượt phát.
+
+## Âm thanh phù hợp cho hai thị trường
+
+"Tokyo 404" tạo ra sự cân bằng tinh tế giữa việc duy trì âm thanh lấy cảm hứng từ Y2K đặc trưng của NewJeans và kết hợp các yếu tố gây được tiếng vang với khán giả Nhật Bản. Ca khúc chủ đề
+có sự hợp tác với nhà sản xuất nổi tiếng Nhật Bản Yasutaka Nakata (được biết đến với Perfume và Kyary Pamyu Pamyu), trong khi "Todai" bên B lấy mẫu giai điệu kayōkyoku cổ điển
+từ những năm 1970. Các thành viên đã thu âm tất cả giọng hát bằng tiếng Nhật, với Minji và Hanni - cả hai đều thông thạo ngôn ngữ này - huấn luyện các thành viên trong nhóm của họ trong suốt các buổi học.
+
+Giám đốc điều hành Min Hee-jin nói với báo chí Nhật Bản tại buổi giới thiệu ở Shibuya rằng album này được "thực hiện trong ba năm" và thể hiện "sự thể hiện sự tôn trọng sâu sắc đối với văn hóa đại chúng Nhật Bản,
+không phải là một nỗ lực để Hàn Quốc hóa nó." Chiến lược này dường như đã tạo được tiếng vang ngoài lĩnh vực âm nhạc: Các thành viên của NewJeans đã đạt được 5 hợp đồng chứng thực lớn ở Nhật Bản, bao gồm
+các chiến dịch quảng cáo cho Nước giải khát Shiseido, Uniqlo và Asahi.
+
+Nhóm sẽ dành tháng 8 và tháng 9 cho chuyến lưu diễn cháy vé tại Nhật Bản, biểu diễn tại 8 thành phố bao gồm Tokyo Dome trong hai đêm vào tháng 9.
 
 
-NewJeans has done what no K-pop girl group has done before: debut at number one on the Oricon Weekly Album Chart with 1.5 million copies sold in the first seven days. Their first
-full-length Japanese album, "Tokyo 404," released June 30 through ADOR and Warner Music Japan, has surpassed all industry projections and established the quintet as a dominant
-force in the world's second-largest music market.
-
-The album's success is particularly significant given the historical challenges K-pop artists have faced in Japan. While groups like TWICE and Girls' Generation found substantial
-audiences in the country, NewJeans' numbers represent an entirely new tier. The album sold 680,000 physical copies in its first 24 hours alone, and its lead single, "Shibuya
-Crossing," broke the record for most-streamed K-pop song on Spotify Japan in a single week, with 14 million streams.
-
-## A Sound Tailored for Two Markets
-
-"Tokyo 404" strikes a delicate balance between maintaining NewJeans' signature Y2K-inspired sound and incorporating elements that resonate with Japanese audiences. The title track
-features a collaboration with renowned Japanese producer Yasutaka Nakata (known for Perfume and Kyary Pamyu Pamyu), while the B-side "Todai" samples a classic kayōkyoku melody
-from the 1970s. The members recorded all vocals in Japanese, with Minji and Hanni — both fluent in the language — coaching their bandmates through the sessions.
-
-CEO Min Hee-jin told Japanese press at a showcase in Shibuya that the album was "three years in the making" and represents "an expression of deep respect for Japanese pop culture,
-not an attempt to Koreanize it." The strategy appears to have resonated beyond music: NewJeans members have already secured five major endorsement deals in Japan, including
-campaigns for Shiseido, Uniqlo, and Asahi Soft Drinks.
-
-The group will spend August and September on a sold-out Japanese arena tour, performing in eight cities including Tokyo Dome for two nights in September.
 
 {{< article-footer >}}
 copyright: >

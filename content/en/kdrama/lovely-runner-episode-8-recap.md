@@ -1,15 +1,15 @@
 ---
-title: '''Lovely Runner'' Episode 8: Time-Slip Thriller Takes a Devastating Turn as
-  the Past Begins to Rewrite Itself'
-description: tvN's hit drama delivers its most shocking episode yet as Sun-jae's actions
-  in the past threaten to unravel the timeline entirely.
+title: '''Lovely Runner'' Tập 8: Phim kinh dị vượt thời gian có bước ngoặt tàn khốc khi quá
+  khứ bắt đầu tự viết lại'
+description: Bộ phim truyền hình ăn khách của tvN mang đến tình tiết gây sốc nhất khi những
+  hành động của Sun-jae trong quá khứ có nguy cơ làm sáng tỏ hoàn toàn dòng thời gian.
 date: 2026-07-09
 draft: false
 author: Hyun-Woo Lee
 cover:
-  image: https://picsum.photos/seed/kdrama3/1200/630
-  alt: Kim Hye-yoon as Im Sol in Lovely Runner
-  caption: Kim Hye-yoon in a pivotal scene from Episode 8 of 'Lovely Runner'
+  image: images/sample/lovely-runner-episode-8-recap.jpg
+  alt: Kim Hye-yoon vai Im Sol trong Lovely Runner
+  caption: Kim Hye-yoon trong một cảnh quan trọng trong tập 8 của 'Lovely Runner'
 tags:
 - lovely-runner
 - recap
@@ -27,46 +27,49 @@ keywords:
 slug: lovely-runner-episode-8-time-slip-thriller-takes-a-devastating-turn-as-the-past-begins-to-rewrite-itself
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: tvN's hit drama delivers its most shocking episode yet as Sun-jae's actions in
-    the past threaten to unravel the timeline entirely.
+  a: Bộ phim truyền hình ăn khách của tvN mang đến tình tiết gây sốc nhất khi những hành động
+    của Sun-jae trong quá khứ có nguy cơ làm sáng tỏ hoàn toàn dòng thời gian.
 - q: Nội dung chính về «The Butterfly Effect Unleashed» là gì?
-  a: The episode's centerpiece is a 15-minute sequence in which Im Sol realizes that
-    her successful prevention of Sun-jae's 2012 accident has had cascading consequences
-    she never anticipated. Sun-jae, who should have been inspired to pursue music
-    by his near-death experience, never picks up a guitar in…
-- q: Điểm thông tin chính độc giả nên nhớ là gì?
-  a: 'WARNING: This recap contains spoilers for "Lovely Runner" Episode 8. "Lovely
-    Runner" has been one of 2026''s most reliable ratings performers, but Episode
-    8, which aired Wednesday on tvN, was the moment the drama announced that it is
-    playing for keeps.'
+  a: Trọng tâm của tập phim là một đoạn phim dài 15 phút, trong đó Im Sol nhận ra rằng việc
+    ngăn chặn thành công vụ tai nạn của Sun-jae năm 2012 đã gây ra những hậu quả nặng nề mà
+    cô không bao giờ lường trước được. Sun-jae, người đáng lẽ phải được truyền cảm hứng theo
+    đuổi âm nhạc từ trải nghiệm cận kề cái chết của mình, lại không bao giờ cầm đàn guitar
+    trong…
+- q: Điểm thông tin chính độc. Bạn nhớ là gì?
+  a: 'CẢNH BÁO: Bản tóm tắt này có chứa phần tiết lộ nội dung của "Lovely Runner" Tập 8. "Lovely
+    Runner" là một trong những bộ phim có rating đáng tin cậy nhất năm 2026, nhưng Tập 8,
+    phát sóng vào thứ Tư trên tvN, lại là thời điểm bộ phim thông báo rằng bộ phim sẽ tiếp
+    tục chiếu.'
+sample_origin: scaffold
+lang_note: vi-localized-from-en-scaffold
 ---
 
+CẢNH BÁO: Bản tóm tắt này có chứa phần tiết lộ nội dung của Tập 8 "Lovely Runner".
+
+"Lovely Runner" là một trong những bộ phim có rating đáng tin cậy nhất năm 2026, nhưng Tập 8, phát sóng thứ Tư trên tvN, lại là thời điểm bộ phim thông báo sẽ chiếu.
+giữ. Bộ phim kinh dị xuyên thời gian, theo chân Im Sol (Kim Hye-yoon) khi cô du hành từ năm 2026 đến năm 2012 để ngăn chặn cái chết của người bạn thời thơ ấu Ryu Sun-jae (Byeon Woo-seok),
+đã mang đến tập phim phức tạp về mặt cảm xúc và có lối kể chuyện phức tạp nhất cho đến nay.
+
+Tập phim mở đầu bằng một cảnh ban đầu có vẻ giống như hồi tưởng về thời thơ ấu của Sun-jae nhưng dần dần được tiết lộ là một điều gì đó xa lạ: những ký ức tích cực.
+thay đổi theo thời gian thực. Đạo diễn Yoon Jong Ho sử dụng những tín hiệu thị giác tinh tế — thay đổi màu tường, những bức ảnh biến mất, các nhân vật có tên mờ và đổi dạng — để báo hiệu rằng
+dòng thời gian đang rạn nứt dưới sự can thiệp của Im Sol. Nó làm mất phương hướng theo cách tốt nhất có thể, đặt khán giả vào không gian đầu óc mất ổn định giống như bộ phim.
+nhân vật.
+
+## Hiệu ứng cánh bướm được tung ra
+
+Trọng tâm của tập phim là một đoạn phim dài 15 phút, trong đó Im Sol nhận ra rằng việc ngăn chặn thành công vụ tai nạn của Sun-jae năm 2012 đã gây ra những hậu quả nặng nề mà cô chưa bao giờ gặp phải.
+dự kiến. Sun-jae, người đáng lẽ phải được truyền cảm hứng để theo đuổi âm nhạc từ trải nghiệm cận kề cái chết của mình, lại không bao giờ chọn một cây đàn guitar trong dòng thời gian đã bị thay đổi. Quán karaoke nơi họ
+chia sẻ nụ hôn đầu tiên của họ không bao giờ mở ra. Bài hát lẽ ra là đĩa đơn đầu tay của anh - chính bài hát đã kết nối họ xuyên thời gian - bắt đầu mờ dần trong trí nhớ của cô như một
+mơ khi thức dậy.
+
+Diễn xuất của Kim Hye-yoon trong cảnh này thật phi thường. Vẻ kinh hoàng hiện rõ trên khuôn mặt cô khi cô điên cuồng lướt qua chiếc điện thoại thông minh không còn chứa thông tin
+những bức ảnh cô chụp trong dòng thời gian ban đầu chính là kiểu diễn xuất mà các giải thưởng được xây dựng dựa trên đó. Trong khi đó, Byeon Woo-seok đóng vai Sun-jae ngày càng bối rối trước một điểm yếu
+điều đó khiến cho cảnh quay cuối cùng của tập phim - một giọt nước mắt lăn dài trên khuôn mặt anh ấy khi anh ấy nhìn chằm chằm vào một người lạ mà cảm thấy quen thuộc đến không thể tin được - rơi xuống với tác động tàn khốc.
+
+Tập phim kết thúc với một tình tiết bất ngờ đang thịnh hành trên khắp các nền tảng mạng xã hội Hàn Quốc: Im Sol thức dậy vào năm 2026 và phát hiện ra rằng Sun-jae không những không biết cô ấy mà còn là
+đính hôn với người khác. Tập 9 sẽ phát sóng vào thứ Tư tuần sau trên kênh tvN.
 
 
-WARNING: This recap contains spoilers for "Lovely Runner" Episode 8.
-
-"Lovely Runner" has been one of 2026's most reliable ratings performers, but Episode 8, which aired Wednesday on tvN, was the moment the drama announced that it is playing for
-keeps. The time-slip thriller, which follows Im Sol (Kim Hye-yoon) as she travels between 2026 and 2012 to prevent the death of her childhood friend Ryu Sun-jae (Byeon Woo-seok),
-delivered its most emotionally devastating and narratively complex episode to date.
-
-The episode opens with a scene that initially seems like a flashback to Sun-jae's childhood but is gradually revealed to be something far stranger: memories that are actively
-changing in real time. Director Yoon Jong-ho uses subtle visual cues — shifting wall colors, disappearing photographs, characters whose names blur and reform — to signal that the
-timeline is cracking under the strain of Im Sol's interventions. It is disorienting in the best possible way, putting the audience in the same destabilized headspace as the
-characters.
-
-## The Butterfly Effect Unleashed
-
-The episode's centerpiece is a 15-minute sequence in which Im Sol realizes that her successful prevention of Sun-jae's 2012 accident has had cascading consequences she never
-anticipated. Sun-jae, who should have been inspired to pursue music by his near-death experience, never picks up a guitar in the altered timeline. The karaoke bar where they
-shared their first kiss never opens. The song that was supposed to be his debut single — the very song that connected them across time — begins to fade from her memory like a
-dream upon waking.
-
-Kim Hye-yoon's performance in this sequence is extraordinary. The dawning horror on her face as she frantically scrolls through a smartphone that no longer contains the
-photographs she took in the original timeline is the kind of acting that awards are built on. Byeon Woo-seok, meanwhile, plays Sun-jae's growing confusion with a vulnerability
-that makes the episode's final shot — a single tear rolling down his face as he stares at a stranger who feels impossibly familiar — land with devastating impact.
-
-The episode ends on a cliffhanger that has been trending across Korean social media platforms: Im Sol wakes up in 2026 to find that Sun-jae not only doesn't know her — he is
-engaged to someone else. Episode 9 airs next Wednesday on tvN.
 
 {{< article-footer >}}
 copyright: >

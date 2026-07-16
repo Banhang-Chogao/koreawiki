@@ -1,16 +1,16 @@
 ---
-title: '''Harbinger'' Review: Bong Joon-ho Returns with a Dystopian Masterpiece That
-  Rivals ''Parasite'''
-description: The Oscar-winning director's latest film is a searing sci-fi thriller
-  about climate justice and class warfare that cements his place as a generational
-  filmmaker.
+title: 'Đánh giá ''Harbinger'': Bong Joon-ho trở lại với một kiệt tác đen tối sánh ngang với
+  ''Parasite'''
+description: Bộ phim mới nhất của đạo diễn từng đoạt giải Oscar là một bộ phim kinh dị khoa
+  học viễn tưởng gây nhức nhối về công lý khí hậu và đấu tranh giai cấp, giúp củng cố vị trí
+  của ông với tư cách là nhà làm phim thế hệ.
 date: 2026-07-15
 draft: false
 author: Sarah Chen
 cover:
-  image: https://picsum.photos/seed/movies1/1200/630
-  alt: A scene from Bong Joon-ho's Harbinger showing a flooded Seoul skyline
-  caption: The flooded Gwanghwamun Square in a visually stunning scene from 'Harbinger'
+  image: images/sample/harbinger-review.jpg
+  alt: Một cảnh trong Harbinger của Bong Joon-ho cho thấy đường chân trời Seoul ngập nước
+  caption: Quảng trường Gwanghwamun ngập nước trong một khung cảnh ấn tượng từ 'Harbinger'
 tags:
 - bong-joon-ho
 - harbinger
@@ -28,42 +28,46 @@ keywords:
 slug: harbinger-review-bong-joon-ho-returns-with-a-dystopian-masterpiece-that-rivals-parasite
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: The Oscar-winning director's latest film is a searing sci-fi thriller about climate
-    justice and class warfare that cements his place as a generational filmmaker.
-- q: Nội dung chính về «Bong's Most Visually Ambitious Film» là gì?
-  a: From a purely technical standpoint, "Harbinger" represents a quantum leap for
-    Korean cinema. The film's centerpiece sequence — a 25-minute set piece in which
-    Ha-neul navigates the submerged remnants of a coastal market — was shot over six
-    weeks in a purpose-built underwater tank and required Park…
-- q: Điểm thông tin chính độc giả nên nhớ là gì?
-  a: Bong Joon-ho has done it again. "Harbinger," the Palme d'Or and Oscar-winning
-    director's first film since the historic "Parasite," premiered at the Cannes Film
-    Festival in May to a 12-minute standing ovation, and after seeing the finished
-    film at a press screening in Seoul, it is easy to understand why.
+  a: Bộ phim mới nhất của đạo diễn từng đoạt giải Oscar là một bộ phim kinh dị khoa học viễn
+    tưởng gây nhức nhối về công lý khí hậu và đấu tranh giai cấp, giúp củng cố vị trí của
+    ông với tư cách là nhà làm phim thế hệ.
+- q: Nội dung chính về «Bộ phim có hình ảnh tham vọng nhất của Bong» là gì?
+  a: Từ quan điểm thuần túy kỹ thuật, Harbinger đại diện cho một bước nhảy vọt về lượng tử
+    của điện ảnh Hàn Quốc. Cảnh trung tâm của bộ phim — một cảnh dài 25 phút trong đó Ha Neul
+    điều hướng những tàn tích ngập nước của một khu chợ ven biển — được quay trong sáu tuần
+    trong một bể chứa dưới nước được chế tạo có mục đích và yêu cầu Park…
+- q: Điểm thông tin chính độc. Bạn nhớ là gì?
+  a: Bong Joon-ho đã làm được điều đó một lần nữa. Harbinger, bộ phim đầu tiên của đạo diễn
+    đoạt giải Cành cọ vàng và đoạt giải Oscar kể từ bộ phim lịch sử “Ký sinh trùng”, được
+    công chiếu lần đầu tại Liên hoan phim Cannes vào tháng 5 với sự hoan nghênh nhiệt liệt
+    kéo dài 12 phút, và sau khi xem bộ phim hoàn chỉnh tại buổi chiếu báo chí ở Seoul, thật
+    dễ hiểu tại sao.
+sample_origin: scaffold
+lang_note: vi-localized-from-en-scaffold
 ---
 
+Bong Joon-ho đã làm được điều đó một lần nữa. “Harbinger,” bộ phim đầu tiên của đạo diễn đoạt Cành cọ vàng và đoạt giải Oscar kể từ bộ phim lịch sử “Parasite”, được công chiếu lần đầu tại Liên hoan phim Cannes vào tháng 5 tới.
+sau 12 phút hoan nghênh nhiệt liệt, và sau khi xem bộ phim hoàn chỉnh tại buổi chiếu báo chí ở Seoul, thật dễ hiểu tại sao. Đây là một nhà làm phim hoạt động hoàn toàn thành thạo
+trong tay nghề của mình, mang đến một bộ phim kinh dị khoa học viễn tưởng đen tối vừa tàn khốc về mặt cảm xúc vừa khiêu khích trí tuệ.
+
+Lấy bối cảnh tại một thành phố ven biển vô danh của Hàn Quốc có nét giống Busan không thể nhầm lẫn, “Harbinger” diễn ra trong một tương lai gần, nơi mực nước biển dâng cao đã nhấn chìm toàn bộ
+các huyện. Phim theo chân Ha-neul (Park So-dam, tái hợp với Bong sau "Parasite"), một nhà sinh vật học biển phát hiện ra rằng dự án đê chắn sóng đầy tham vọng của chính phủ đang bị phá hủy.
+che giấu một sự thật nham hiểm hơn nhiều về nguồn gốc của lũ lụt. Song Kang-ho đóng vai một nhà báo tóc hoa râm đang điều tra cùng một âm mưu, trong đó các nhà phê bình chỉ trích
+gọi đây là một trong những màn trình diễn xuất sắc nhất trong sự nghiệp huyền thoại của ông.
+
+##Phim có hình ảnh tham vọng nhất của Bong
+
+Từ quan điểm thuần túy kỹ thuật, Harbinger đại diện cho một bước nhảy vọt về lượng tử của điện ảnh Hàn Quốc. Phân cảnh trung tâm của bộ phim — một cảnh dài 25 phút trong đó Ha-neul điều hướng
+tàn tích ngập nước của một khu chợ ven biển — được quay trong sáu tuần trong một bể chứa dưới nước được chế tạo có mục đích và yêu cầu Park So-dam phải huấn luyện trong nhiều tháng với các nhà vô địch lặn tự do. các
+kết quả thật ngoạn mục: nước hiếm khi được thể hiện với vẻ đẹp xúc giác và đáng sợ như vậy trên màn ảnh.
+
+Tuy nhiên, điều nâng tầm "Harbinger" vượt xa cảnh tượng là cốt lõi cảm xúc của nó. Bong luôn là một nhà làm phim theo chủ nghĩa nhân văn, và tại đây anh hướng ống kính của mình vào những cộng đồng bị di dời bởi
+các lực lượng nằm ngoài tầm kiểm soát của họ — một chủ đề gây tiếng vang vượt xa biên giới Hàn Quốc. Một tình tiết phụ liên quan đến một Halmeoni lớn tuổi không chịu rời khỏi ngôi nhà ngập nước của mình được hiển thị bằng
+sự dịu dàng đến mức có nguy cơ cướp mất toàn bộ bộ phim.
+
+Harbinger sẽ ra rạp ở Hàn Quốc vào ngày 25/7 và sẽ được ra rạp toàn cầu thông qua CJ ENM và Neon vào tháng 8. Nó không thể bỏ qua.
 
 
-Bong Joon-ho has done it again. "Harbinger," the Palme d'Or and Oscar-winning director's first film since the historic "Parasite," premiered at the Cannes Film Festival in May to
-a 12-minute standing ovation, and after seeing the finished film at a press screening in Seoul, it is easy to understand why. This is a filmmaker operating with complete mastery
-of his craft, delivering a dystopian sci-fi thriller that is as emotionally devastating as it is intellectually provocative.
-
-Set in an unnamed Korean coastal city that bears unmistakable resemblance to Busan, "Harbinger" takes place in a near future where rising sea levels have submerged entire
-districts. The film follows Ha-neul (Park So-dam, reteaming with Bong after "Parasite"), a marine biologist who discovers that the government's ambitious seawall project is
-concealing a far more sinister truth about the source of the flooding. Song Kang-ho co-stars as a grizzled journalist investigating the same conspiracy, in what critics are
-calling one of the finest performances of his legendary career.
-
-## Bong's Most Visually Ambitious Film
-
-From a purely technical standpoint, "Harbinger" represents a quantum leap for Korean cinema. The film's centerpiece sequence — a 25-minute set piece in which Ha-neul navigates the
-submerged remnants of a coastal market — was shot over six weeks in a purpose-built underwater tank and required Park So-dam to train for months with free-diving champions. The
-result is breathtaking: water has rarely been rendered with such tactile, terrifying beauty on screen.
-
-What elevates "Harbinger" beyond spectacle, however, is its emotional core. Bong has always been a humanist filmmaker, and here he trains his lens on communities displaced by
-forces beyond their control — a theme that resonates far beyond Korea's borders. A subplot involving an elderly halmeoni who refuses to leave her flooded home is rendered with
-such tenderness that it threatens to steal the entire film.
-
-"Harbinger" opens in Korean theaters on July 25 and will receive a global theatrical release through CJ ENM and Neon in August. It is not to be missed.
 
 {{< article-footer >}}
 copyright: >

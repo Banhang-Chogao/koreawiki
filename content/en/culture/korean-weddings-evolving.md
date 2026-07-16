@@ -1,15 +1,16 @@
 ---
-title: 'The New Korean Wedding: How Millennials and Gen Z Are Rewriting Centuries
-  of Tradition'
-description: From wedding halls to boutique venues, from matchmaking to self-choice,
-  the Korean wedding industry is undergoing its most dramatic transformation in generations.
+title: 'Đám cưới kiểu Hàn Quốc mới: Thế hệ Millennials và Gen Z đang viết lại truyền thống
+  hàng thế kỷ như thế nào'
+description: Từ sảnh cưới đến địa điểm nhỏ, từ mai mối đến tự lựa chọn, ngành cưới Hàn Quốc
+  đang trải qua quá trình chuyển đổi mạnh mẽ nhất trong nhiều thế hệ.
 date: 2026-07-04
 draft: false
 author: Sarah Chen
 cover:
-  image: https://picsum.photos/seed/culture2/1200/630
-  alt: A modern Korean wedding ceremony at a boutique venue in Seongsu-dong
-  caption: A couple exchanges vows at a converted factory wedding venue in Seongsu-dong
+  image: images/sample/korean-weddings-evolving.jpg
+  alt: Lễ cưới kiểu Hàn Quốc hiện đại tại một địa điểm boutique ở Seongsu-dong
+  caption: Một cặp đôi trao nhau lời thề tại một địa điểm tổ chức đám cưới được cải tạo ở
+    nhà máy ở Seongsu-dong
 tags:
 - weddings
 - korean-culture
@@ -27,46 +28,49 @@ keywords:
 slug: the-new-korean-wedding-how-millennials-and-gen-z-are-rewriting-centuries-of-tradition
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: From wedding halls to boutique venues, from matchmaking to self-choice, the Korean
-    wedding industry is undergoing its most dramatic transformation in generations.
+  a: Từ sảnh cưới đến địa điểm nhỏ, từ mai mối đến tự lựa chọn, ngành cưới Hàn Quốc đang trải
+    qua quá trình chuyển đổi mạnh mẽ nhất trong nhiều thế hệ.
 - q: Nội dung chính về «The Rise of the Small Wedding» là gì?
-  a: '"I don''t need 300 people I barely know watching me feed dates to my husband,"
-    said 29-year-old graphic designer Park So-young, who married her partner of five
-    years in a ceremony attended by 38 guests at a converted warehouse in Seongsu-dong.
-    "We wanted a wedding that felt like us — not a…'
-- q: Điểm thông tin chính độc giả nên nhớ là gì?
-  a: The Korean wedding industrial complex — a sprawling ecosystem of wedding halls,
-    matchmaking agencies, and formalized rituals — has long been one of the most rigid
-    industries in the country. But changing social values, economic pressures, and
-    the influence of global culture are reshaping how young Koreans approach marriage,
-    creating new opportunities and…
+  a: 'Nhà thiết kế đồ họa Park So-young, 29 tuổi, người đã kết hôn với người bạn đời 5 năm
+    của mình trong một buổi lễ có sự tham dự của 38 khách tại một nhà kho đã được chuyển đổi
+    ở Seongsu-dong, cho biết: “Tôi không cần 300 người mà tôi hầu như không biết đang theo
+    dõi tôi hẹn hò với chồng tôi”. "Chúng tôi muốn một đám cưới giống như chúng tôi — không
+    phải…'
+- q: Điểm thông tin chính độc. Bạn nhớ là gì?
+  a: Khu phức hợp công nghiệp đám cưới Hàn Quốc - một hệ sinh thái rộng lớn gồm các sảnh cưới,
+    cơ quan mai mối và các nghi lễ chính thức - từ lâu đã là một trong những ngành công nghiệp
+    cứng nhắc nhất ở nước này. Nhưng việc thay đổi các giá trị xã hội, áp lực kinh tế và ảnh
+    hưởng của văn hóa toàn cầu đang định hình lại cách giới trẻ Hàn Quốc tiếp cận hôn nhân,
+    tạo ra những cơ hội và…
+sample_origin: scaffold
+lang_note: vi-localized-from-en-scaffold
 ---
 
+Khu phức hợp công nghiệp đám cưới Hàn Quốc - một hệ sinh thái rộng lớn bao gồm các sảnh cưới, cơ quan mai mối và các nghi lễ chính thức - từ lâu đã là một trong những ngành công nghiệp cứng nhắc nhất ở Hàn Quốc.
+đất nước. Nhưng việc thay đổi các giá trị xã hội, áp lực kinh tế và ảnh hưởng của văn hóa toàn cầu đang định hình lại cách giới trẻ Hàn Quốc tiếp cận hôn nhân, tạo ra những cơ hội và cơ hội mới.
+căng thẳng ở một trong những thể chế gắn liền với truyền thống nhất của xã hội.
+
+Những con số thật rõ ràng. Tỷ lệ kết hôn của Hàn Quốc đã giảm 40% kể từ năm 2015 và độ tuổi kết hôn trung bình lần đầu đã tăng lên 33 đối với nam và 31 đối với nữ. Những người kết hôn
+đang ngày càng từ chối các gói cưới phức tạp trị giá hàng triệu won đã thống trị ngành công nghiệp này trong nhiều thập kỷ. Vào năm 2025, chi phí đám cưới trung bình là ₩50 triệu, giảm so với
+80 triệu yên vào năm 2019, phản ánh sự thay đổi rộng rãi hơn theo hướng thân mật và cá nhân hóa.
+
+## Sự trỗi dậy của đám cưới nhỏ
+
+Nhà thiết kế đồ họa Park So-young, 29 tuổi, người đã kết hôn với người bạn đời 5 năm trong một buổi lễ, cho biết: “Tôi không cần 300 người mà tôi hầu như không biết đang theo dõi tôi cho chồng tôi ăn hẹn hò”.
+có sự tham dự của 38 khách tại một nhà kho đã được chuyển đổi ở Seongsu-dong. "Chúng tôi muốn một đám cưới giống như chúng tôi - không phải một buổi biểu diễn dành cho bạn bè của bố mẹ chúng tôi."
+
+Tình cảm này đang thúc đẩy sự bùng nổ của “đám cưới nhỏ” (so-rang gyeol-hon), một thể loại hầu như không tồn tại cách đây một thập kỷ. Địa điểm nhỏ - nhiều địa điểm trong không gian công nghiệp đã được chuyển đổi -
+đã sinh sôi nảy nở và các sảnh cưới truyền thống đang phải vật lộn để thích nghi. Ứng dụng tổ chức đám cưới "WEDIBOOK" báo cáo rằng 62% người dùng năm 2025 đã chọn địa điểm có ít chỗ ngồi hơn
+hơn 100 khách.
+
+Những thay đổi còn vượt ra ngoài chính buổi lễ. Truyền thống mai mối thông qua kết nối gia đình phần lớn đã được thay thế bằng các ứng dụng hẹn hò và sống thử trước hôn nhân -
+từng là điều cấm kỵ của xã hội - hiện được đa số các cặp đôi thực hiện. Một cuộc khảo sát năm 2025 của Korea Research cho thấy 71% người Hàn Quốc ở độ tuổi 20 và 30 coi hôn nhân là "chuyện riêng tư".
+sự lựa chọn hơn là một nghĩa vụ xã hội."
+
+Tuy nhiên, truyền thống vẫn có sức hút. Hầu hết các cặp đôi vẫn kết hợp pyebaek (lễ cúi đầu trang trọng) và mặc hanbok trong ít nhất một phần lễ kỷ niệm của họ. Sự khác biệt là
+rằng bây giờ họ làm điều đó theo cách riêng của họ.
 
 
-The Korean wedding industrial complex — a sprawling ecosystem of wedding halls, matchmaking agencies, and formalized rituals — has long been one of the most rigid industries in
-the country. But changing social values, economic pressures, and the influence of global culture are reshaping how young Koreans approach marriage, creating new opportunities and
-tensions in one of society's most tradition-bound institutions.
-
-The numbers are stark. The Korean marriage rate has declined by 40% since 2015, and the average age of first marriage has risen to 33 for men and 31 for women. Those who do marry
-are increasingly rejecting the elaborate, multi-million won wedding packages that dominated the industry for decades. In 2025, the average wedding cost was ₩50 million, down from
-₩80 million in 2019, reflecting a broader shift toward intimacy and personalization.
-
-## The Rise of the Small Wedding
-
-"I don't need 300 people I barely know watching me feed dates to my husband," said 29-year-old graphic designer Park So-young, who married her partner of five years in a ceremony
-attended by 38 guests at a converted warehouse in Seongsu-dong. "We wanted a wedding that felt like us — not a performance for our parents' friends."
-
-This sentiment is driving the boom in "small weddings" (so-rang gyeol-hon), a category that barely existed a decade ago. Boutique venues — many in converted industrial spaces —
-have proliferated, and traditional wedding halls are struggling to adapt. The wedding planning app "WEDIBOOK" reports that 62% of its 2025 users opted for venues seating fewer
-than 100 guests.
-
-The changes extend beyond the ceremony itself. The tradition of matchmaking through family connections has been largely replaced by dating apps, and pre-marital cohabitation —
-once a social taboo — is now practiced by a majority of couples. A 2025 survey by Korea Research found that 71% of Koreans in their 20s and 30s consider marriage a "personal
-choice rather than a social obligation."
-
-Yet tradition still exerts a pull. Most couples still incorporate the pyebaek (formal bowing ceremony) and wear hanbok for at least part of their celebration. The difference is
-that now they do it on their own terms.
 
 {{< article-footer >}}
 copyright: >
