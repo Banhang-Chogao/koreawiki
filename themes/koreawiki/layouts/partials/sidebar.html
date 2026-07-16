@@ -1,0 +1,29 @@
+{{ $all := where .Site.RegularPages "Type" "not in" (slice "page") }}
+
+{{/* Latest */}}
+{{ if $all }}
+<div class="sidebar-section">
+  <h3 class="sidebar-title">{{ T "latest" | default "Latest" }}</h3>
+  <ul class="sidebar-list">
+    {{ range first 5 $all.ByDate.Reverse }}
+    <li class="sidebar-item">
+      <a href="{{ .RelPermalink }}" class="sidebar-link">{{ .Title }}</a>
+      <span class="sidebar-meta">{{ .Date.Format "Jan 2, 2006" }}</span>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}
+
+{{/* Tags */}}
+{{ $tags := .Site.Taxonomies.tags }}
+{{ if $tags }}
+<div class="sidebar-section">
+  <h3 class="sidebar-title">{{ T "tags" | default "Tags" }}</h3>
+  <div class="sidebar-tags">
+    {{ range $name, $taxonomy := first 10 $tags.ByCount }}
+    <a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}/" class="sidebar-tag">{{ $name }}</a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

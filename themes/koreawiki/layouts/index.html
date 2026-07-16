@@ -1,10 +1,109 @@
 {{ define "main" }}
-  {{ partial "home/hero" . }}
-  {{ partial "home/search-box" . }}
-  {{ partial "home/featured-guides" . }}
-  {{ partial "home/learning-paths" . }}
-  {{ partial "home/latest-articles" . }}
-  {{ partial "home/categories" . }}
-  {{ partial "home/popular-topics" . }}
-  {{ partial "home/newsletter" . }}
+{{ $all := where .Site.RegularPages "Type" "not in" (slice "page") }}
+{{ $hero := first 1 $all }}
+{{ $top := first 2 (after 1 $all) }}
+{{ $grid := first 6 (after 3 $all) }}
+{{ $latest := $all }}
+
+{{/* Featured Story */}}
+{{ range $hero }}
+<section class="featured-story">
+  <div class="featured-grid">
+    <article class="featured-main">
+      <a href="{{ .RelPermalink }}" class="featured-main-link">
+        {{ if .Params.cover.image }}
+        <img src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" class="featured-main-img" width="800" height="450" loading="eager" fetchpriority="high" />
+        {{ end }}
+        <div class="featured-main-overlay">
+          {{ with .Params.categories }}{{ range first 1 . }}<span class="featured-main-cat">{{ . }}</span>{{ end }}{{ end }}
+          <h1 class="featured-main-title">{{ .Title }}</h1>
+          {{ if .Description }}<p class="featured-main-summary">{{ .Description }}</p>{{ end }}
+        </div>
+      </a>
+    </article>
+    <div class="featured-side">
+      {{ range $top }}
+      <article class="featured-side-card">
+        {{ if .Params.cover.image }}
+        <div class="featured-side-img-wrap">
+          <a href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
+            <img src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" class="featured-side-img" width="120" height="68" loading="lazy" />
+          </a>
+        </div>
+        {{ end }}
+        <div class="featured-side-body">
+          {{ with .Params.categories }}{{ range first 1 . }}<span class="featured-side-cat">{{ . }}</span>{{ end }}{{ end }}
+          <h2 class="featured-side-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          <time class="featured-side-time" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{/* Top Stories Grid */}}
+<section class="section">
+  <div class="wrapper">
+    <div class="section-title-wrap">
+      <h2 class="section-title">{{ T "top_stories" | default "Top Stories" }}</h2>
+      <a href="{{ "/blog/" | relLangURL }}" class="section-link">{{ T "view_all" | default "View All" }}</a>
+    </div>
+    <div class="grid-3">
+      {{ range $grid }}
+      <article class="card">
+        <div class="card-img-wrap">
+          <a href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
+            {{ if .Params.cover.image }}
+            <img src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" class="card-img" width="400" height="225" loading="lazy" />
+            {{ end }}
+          </a>
+        </div>
+        <div class="card-body">
+          {{ with .Params.categories }}{{ range first 1 . }}<span class="card-cat">{{ . }}</span>{{ end }}{{ end }}
+          <h3 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          {{ if .Description }}<p class="card-summary">{{ .Description }}</p>{{ end }}
+          <div class="card-meta">
+            <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+            <span class="card-meta-sep">·</span>
+            <span>{{ .ReadingTime }} {{ T "min_read" | default "min read" }}</span>
+          </div>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{/* Latest News Timeline */}}
+<section class="section">
+  <div class="wrapper">
+    <div class="section-divider">
+      <h2 class="section-title">{{ T "latest" | default "Latest" }}</h2>
+    </div>
+    <div class="grid-2">
+      {{ range first 6 $latest }}
+      <article class="card card-row">
+        <div class="card-img-wrap">
+          <a href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
+            {{ if .Params.cover.image }}
+            <img src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" class="card-img" width="200" height="113" loading="lazy" />
+            {{ end }}
+          </a>
+        </div>
+        <div class="card-body">
+          {{ with .Params.categories }}{{ range first 1 . }}<span class="card-cat">{{ . }}</span>{{ end }}{{ end }}
+          <h3 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <div class="card-meta">
+            <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+            <span class="card-meta-sep">·</span>
+            <span>{{ .ReadingTime }} {{ T "min_read" | default "min read" }}</span>
+          </div>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
 {{ end }}

@@ -3,12 +3,9 @@
 @import 'layout';
 @import 'components/header';
 @import 'components/hero';
-@import 'components/search-box';
-@import 'components/guide-card';
-@import 'components/path-card';
-@import 'components/article-card';
-@import 'components/topic-card';
+@import 'components/card';
 @import 'components/article';
+@import 'components/sidebar';
 @import 'components/toc';
 @import 'components/breadcrumb';
 @import 'components/share';
@@ -16,7 +13,6 @@
 @import 'components/prevnext';
 @import 'components/comments';
 @import 'components/footer';
-@import 'components/newsletter';
 @import 'components/search-modal';
 @import 'components/buttons';
 @import 'components/notice';

@@ -1,5 +1,0 @@
-.topic-card{display:flex;align-items:center;padding:var(--space-4);background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);text-decoration:none;transition:border-color var(--transition-fast),transform var(--transition-fast),box-shadow var(--transition-fast)}
-.topic-card:hover{border-color:var(--color-primary);transform:translateY(-2px);box-shadow:var(--shadow-sm);text-decoration:none}
-.topic-card-content{flex:1}
-.topic-card-title{font-size:var(--font-size-sm);font-weight:600;color:var(--color-text);margin:0 0 var(--space-1)}
-.topic-card-count{font-size:var(--font-size-xs);color:var(--color-text-tertiary);margin:0}

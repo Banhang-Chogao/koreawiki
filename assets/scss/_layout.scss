@@ -1,15 +1,15 @@
-.section{padding:var(--space-16) 0}
-.section-container{max-width:var(--content-max-width);margin:0 auto;padding:0 var(--content-padding)}
-.section-header{text-align:center;margin-bottom:var(--space-12)}
-.section-title{font-size:var(--font-size-3xl);font-weight:700;margin-bottom:var(--space-3)}
-.section-description{font-size:var(--font-size-lg);color:var(--color-text-secondary);max-width:600px;margin:0 auto}
-.section-action{text-align:center;margin-top:var(--space-10)}
-.article-grid,.guide-cards,.paths-grid{display:grid;gap:var(--space-6)}
-.article-grid{grid-template-columns:repeat(auto-fill,minmax(340px,1fr))}
-.guide-cards{grid-template-columns:repeat(auto-fill,minmax(320px,1fr))}
-.paths-grid{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
-.topic-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:var(--space-3)}
-.topics-row{display:flex;flex-wrap:wrap;gap:var(--space-2);justify-content:center}
-.article-list{display:flex;flex-direction:column;gap:var(--space-6)}
-@media(max-width:768px){.section{padding:var(--space-10) 0}.article-grid{grid-template-columns:1fr}.paths-grid,.guide-cards{grid-template-columns:1fr}.topic-grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:480px){.topic-grid{grid-template-columns:1fr}}
+.wrapper{max-width:var(--max-w);margin:0 auto;padding:0 var(--space-6)}
+
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-6)}
+.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:var(--space-6)}
+
+.section{padding:var(--space-12) 0}
+.section-header{margin-bottom:var(--space-8)}
+.section-title{font-size:var(--fs-2xl);font-weight:700;letter-spacing:-.02em}
+.section-title-wrap{display:flex;align-items:center;justify-content:space-between;margin-bottom:var(--space-6)}
+.section-link{font-size:var(--fs-sm);font-weight:600;color:var(--color-accent);text-transform:uppercase;letter-spacing:.05em;&:hover{color:var(--color-accent-hover)}}
+
+.section-divider{display:flex;align-items:center;gap:var(--space-4);margin-bottom:var(--space-8);&::after{content:'';flex:1;height:1px;background:var(--color-border)}}
+
+@media(max-width:1024px){.grid-3{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:768px){.grid-3,.grid-2{grid-template-columns:1fr}.section{padding:var(--space-8) 0}}
