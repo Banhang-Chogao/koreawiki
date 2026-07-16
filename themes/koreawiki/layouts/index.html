@@ -1,19 +1,46 @@
 {{ define "main" }}
 {{/*
-  Classic newsroom homepage: one global chronological feed (newest first).
-  Sort key = page .Date (front matter `date`), then lastmod as tie-break.
-  mm must set `date` to KoreaWiki publish time (usually today), NOT only the
-  original newspaper date — otherwise new posts with old source dates sink
-  to later pagination pages and look "missing" from the homepage.
-  Optional front matter `source_date` is for attribution only (not used here).
-  No per-category blocks, no latest-per-section queries, no duplicate cards.
+  Latest News = chronological by when the post went live on GitHub.
+
+  Sort key (newest first):
+    1. .GitInfo.AuthorDate  — last commit that touched the content file (proxy for live-on-main)
+    2. else .Lastmod
+    3. else .Date
+
+  Front matter `date` may still be the KoreaWiki publish calendar day / source story day;
+  `source_date` is attribution only and is never used for ordering.
+
+  enableGitInfo = true + CI fetch-depth: 0 required for GitInfo in production builds.
 */}}
-{{ $pages := where .Site.RegularPages "Type" "ne" "page" }}
-{{ $pages = $pages.ByDate.Reverse }}
-{{ $paginator := .Paginate $pages }}
+{{ $raw := where .Site.RegularPages "Type" "ne" "page" }}
+
+{{ $decorated := slice }}
+{{ range $raw }}
+  {{ $unix := .Date.Unix }}
+  {{ with .Lastmod }}
+    {{ if gt .Unix $unix }}{{ $unix = .Unix }}{{ end }}
+  {{ end }}
+  {{ with .GitInfo }}
+    {{/* Prefer commit time (= when change landed); fall back to author date */}}
+    {{ with .CommitDate }}{{ $unix = .Unix }}{{ end }}
+    {{ if not .CommitDate }}
+      {{ with .AuthorDate }}{{ $unix = .Unix }}{{ end }}
+    {{ end }}
+  {{ end }}
+  {{ $decorated = $decorated | append (dict "P" . "U" $unix) }}
+{{ end }}
+
+{{ $decorated = sort $decorated "U" "desc" }}
+
+{{ $sorted := slice }}
+{{ range $decorated }}
+  {{ $sorted = $sorted | append .P }}
+{{ end }}
+
+{{ $paginator := .Paginate $sorted }}
 {{ $pagePosts := $paginator.Pages }}
 
-{{/* Hero uses the first 4 of page 1 only (1 featured + 3 side). Not repeated below. */}}
+{{/* Hero: first 4 of page 1 only (not repeated in the grid below). */}}
 {{ $heroCount := 0 }}
 {{ if and (eq $paginator.PageNumber 1) (gt (len $pagePosts) 0) }}
   {{ $heroCount = cond (ge (len $pagePosts) 4) 4 (len $pagePosts) }}
@@ -38,6 +65,12 @@
       </h2>
       <div class="grid-2">
         {{ range $feed }}
+        {{/* Display date = live/git time when available so UI matches sort order */}}
+        {{ $showDate := .Date }}
+        {{ with .GitInfo }}
+          {{ with .CommitDate }}{{ $showDate = . }}{{ end }}
+          {{ if not .CommitDate }}{{ with .AuthorDate }}{{ $showDate = . }}{{ end }}{{ end }}
+        {{ end }}
         <article class="card">
           <a href="{{ .RelPermalink }}" class="card-link">
             {{ if .Params.cover.image }}
@@ -50,7 +83,7 @@
               <p class="card-desc">{{ .Description }}</p>
               {{ end }}
               <div class="card-meta">
-                <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+                <time datetime="{{ $showDate.Format "2006-01-02T15:04:05Z07:00" }}">{{ $showDate.Format "Jan 2, 2006" }}</time>
                 {{ if $.Site.Params.readingTime }}
                 <span>{{ .ReadingTime }} {{ T "min_read" | default "min read" }}</span>
                 {{ end }}

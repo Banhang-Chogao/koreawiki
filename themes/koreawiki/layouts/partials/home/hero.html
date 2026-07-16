@@ -1,8 +1,13 @@
-{{/* Featured story + up to 3 chronological side items. Caller must pass newest-first Pages. */}}
+{{/* Featured story + up to 3 side items. Caller passes pages already sorted by live/git time. */}}
 {{ $pages := .Pages }}
 {{ if $pages }}
 {{ $heroPost := index $pages 0 }}
 {{ $sidePosts := first 3 (after 1 $pages) }}
+{{ $heroDate := $heroPost.Date }}
+{{ with $heroPost.GitInfo }}
+  {{ with .CommitDate }}{{ $heroDate = . }}{{ end }}
+  {{ if not .CommitDate }}{{ with .AuthorDate }}{{ $heroDate = . }}{{ end }}{{ end }}
+{{ end }}
 <section class="hero">
   <div class="hero-featured" style="max-width:var(--max-w);margin:0 auto;padding:0 var(--space-4)">
     <article class="hero-main">
@@ -17,7 +22,7 @@
           <p class="hero-main-desc">{{ $heroPost.Description }}</p>
           {{ end }}
           <div class="hero-main-meta">
-            <time datetime="{{ $heroPost.Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ $heroPost.Date.Format "January 2, 2006" }}</time>
+            <time datetime="{{ $heroDate.Format "2006-01-02T15:04:05Z07:00" }}">{{ $heroDate.Format "January 2, 2006" }}</time>
             {{ if $.Site.Params.readingTime }}
             <span>{{ $heroPost.ReadingTime }} {{ T "min_read" | default "min read" }}</span>
             {{ end }}
@@ -28,6 +33,11 @@
     {{ if $sidePosts }}
     <aside class="hero-side">
       {{ range $sidePosts }}
+      {{ $d := .Date }}
+      {{ with .GitInfo }}
+        {{ with .CommitDate }}{{ $d = . }}{{ end }}
+        {{ if not .CommitDate }}{{ with .AuthorDate }}{{ $d = . }}{{ end }}{{ end }}
+      {{ end }}
       <a href="{{ .RelPermalink }}" class="hero-side-item">
         {{ if .Params.cover.image }}
         <img class="hero-side-img" src="{{ .Params.cover.image | relURL }}" alt="{{ .Params.cover.alt | default .Title }}" loading="lazy" decoding="async">
@@ -35,7 +45,7 @@
         <div class="hero-side-body">
           <span class="hero-side-cat">{{ .CurrentSection.Title }}</span>
           <h2 class="hero-side-title">{{ .Title }}</h2>
-          <span class="hero-side-meta"><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "Jan 2, 2006" }}</time></span>
+          <span class="hero-side-meta"><time datetime="{{ $d.Format "2006-01-02T15:04:05Z07:00" }}">{{ $d.Format "Jan 2, 2006" }}</time></span>
         </div>
       </a>
       {{ end }}

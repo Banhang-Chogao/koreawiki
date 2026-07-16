@@ -209,6 +209,18 @@ git commit --allow-empty -m "redeploy article" && git push
 
 ---
 
+## Entry 022 — 2026-07-16: Latest News ordered by GitHub live time
+
+**Change:** Homepage feed sorts by `.GitInfo.CommitDate` (fallback AuthorDate → lastmod → date).
+
+**Intent:** "Latest News" = thứ tự bài **lên live GitHub**, không phải ngày báo gốc.
+
+**Requires:** `enableGitInfo = true` + CI `fetch-depth: 0` (already set).
+
+**Display:** Card/hero time uses the same live/git timestamp so UI matches order.
+
+---
+
 ## Entry 021 — 2026-07-16: Homepage missing new post (date = source date too old)
 
 **Error:** Bài mm mới (Dispatch Kim Myung-soo) không thấy trên trang chủ dù đã deploy.

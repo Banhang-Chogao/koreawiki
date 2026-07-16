@@ -108,8 +108,9 @@ faq: []   # required
 ---
 ```
 
-**Homepage sort:** `layouts/index.html` uses `.Site.RegularPages.ByDate.Reverse` then paginates.
-Only the newest `date` values appear on page 1 (hero + grid). Source date goes in body (`Nguồn:`) and optional `source_date`, not as the sole `date` if it is older than current site posts.
+**Homepage / Latest News sort:** `layouts/index.html` orders by **Git commit time** of the content file
+(when it went live on GitHub / last touched on `main`), not by newspaper `date` alone.
+`source_date` is attribution only. Still set `date`/`lastmod` to publish day for SEO and fallbacks.
 
 ## Step 8 — Generate Markdown article
 
