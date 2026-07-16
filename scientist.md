@@ -94,6 +94,22 @@
 
 ---
 
+## Entry 007 — 2026-07-16: Markdown lint failures (trailing whitespace + long lines)
+
+**Error:** `scripts/markdown_lint.py` reported 201 issues across all 40 articles.
+
+**Root Cause:** Two rule violations: (1) trailing whitespace (2+ spaces before newline) in many paragraphs, (2) lines exceeding 200 characters.
+
+**Fix:** Automated fix script removed trailing whitespace and broke long lines (>180 chars) at word boundaries.
+
+**Files affected:** All 40 article files
+
+**Detection:** QA pipeline step `python scripts/markdown_lint.py`
+
+**Prevention:** Add markdown-lint pre-commit hook; set editor to trim trailing whitespace on save.
+
+---
+
 ## Fix Replay Scripts
 
 To re-apply all known fixes to fresh content:
@@ -109,6 +125,30 @@ for f in glob.glob('content/en/**/*.md', recursive=True):
         c = re.sub(r'^(date:.*)\n', r'\1\ndraft: false\n', c, flags=re.MULTILINE)
         with open(f, 'w') as fh: fh.write(c)
 "
+```
+
+### Fix trailing whitespace + long lines
+```bash
+python3 << 'PYEOF'
+import re
+from pathlib import Path
+for fp in sorted(Path("content/en").rglob("*.md")):
+    if fp.name == "_index.md": continue
+    text = fp.read_text("utf-8")
+    text = re.sub(r'  +(\n)', r'\1', text)
+    lines = text.split("\n")
+    for i, line in enumerate(lines):
+        if len(line) > 200 and not line.startswith("|"):
+            broken = []
+            while len(line) > 180:
+                break_at = line.rfind(" ", 0, 180)
+                if break_at == -1: break_at = 180
+                broken.append(line[:break_at])
+                line = line[break_at:].strip()
+            if line: broken.append(line)
+            lines[i] = "\n".join(broken)
+    fp.write_text("\n".join(lines), "utf-8")
+PYEOF
 ```
 
 ### Fix missing `keywords` field

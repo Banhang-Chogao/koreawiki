@@ -26,14 +26,23 @@ keywords:
 - seoul
 - food-guide
 ---
-Myeongdong has the reputation. Gwangjang Market has the history. But ask anyone who actually lives in Seoul where to find the best street food, and they will likely point you to Sinchon, the university district that is home to Yonsei, Ewha Womans University, and Sogang University. With three major campuses within walking distance of each other, Sinchon has developed a street food culture that is peerless in its creativity, affordability, and sheer density.
+Myeongdong has the reputation. Gwangjang Market has the history. But ask anyone who actually lives in Seoul where to find the best street food, and they will likely point you to
+Sinchon, the university district that is home to Yonsei, Ewha Womans University, and Sogang University. With three major campuses within walking distance of each other, Sinchon
+has developed a street food culture that is peerless in its creativity, affordability, and sheer density.
 
-The main drag, Sinchon-ro, is a carnival of eating options from late morning until early morning. The area's defining characteristic is its relentless innovation. "In Myeongdong, you get the same tteokbokki and odeng that tourists have been eating for 20 years," said food blogger Kim Do-yeon, who runs the popular Instagram account "Seoul Bites." "In Sinchon, if a stall serves the same thing two months in a row, it won't survive. Students want novelty, and they want it for ₩5,000 or less."
+The main drag, Sinchon-ro, is a carnival of eating options from late morning until early morning. The area's defining characteristic is its relentless innovation. "In Myeongdong,
+you get the same tteokbokki and odeng that tourists have been eating for 20 years," said food blogger Kim Do-yeon, who runs the popular Instagram account "Seoul Bites." "In
+Sinchon, if a stall serves the same thing two months in a row, it won't survive. Students want novelty, and they want it for ₩5,000 or less."
 
 ## Signature Sinchon Creations
 
-This pressure to innovate has produced dishes that have since spread across Korea. Sinchon is the birthplace of "army stew" (budae jjigae) street food versions, cheese-tteokbokki, and the phenomenon of "twisted donuts" (kkwabaegi) stuffed with sweet potato cream. The current trend is "fusion buns" — jjinppang (steamed buns) filled with non-traditional ingredients like kimchi carbonara, bulgogi pesto, and mango sticky rice.
+This pressure to innovate has produced dishes that have since spread across Korea. Sinchon is the birthplace of "army stew" (budae jjigae) street food versions, cheese-tteokbokki,
+and the phenomenon of "twisted donuts" (kkwabaegi) stuffed with sweet potato cream. The current trend is "fusion buns" — jjinppang (steamed buns) filled with non-traditional
+ingredients like kimchi carbonara, bulgogi pesto, and mango sticky rice.
 
-The most famous institution is "Sinchon Alley Tteokbokki," a stall that has operated at the same corner for 27 years. Owner Kim Ok-ja, now 68, has watched three generations of Yonsei students eat at her cart. "The students change every four years," she said with a laugh. "But they are always hungry, always broke, and always looking for something delicious. That never changes."
+The most famous institution is "Sinchon Alley Tteokbokki," a stall that has operated at the same corner for 27 years. Owner Kim Ok-ja, now 68, has watched three generations of
+Yonsei students eat at her cart. "The students change every four years," she said with a laugh. "But they are always hungry, always broke, and always looking for something
+delicious. That never changes."
 
-For the visitor, the strategy is simple: come hungry, bring cash (many stalls still do not accept cards), and follow the queues. The longest line is generally in front of the stall selling something you have never seen before. That is the one to join.
+For the visitor, the strategy is simple: come hungry, bring cash (many stalls still do not accept cards), and follow the queues. The longest line is generally in front of the
+stall selling something you have never seen before. That is the one to join.
