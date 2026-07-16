@@ -1,0 +1,41 @@
+{
+  "ok": false,
+  "steps": {
+    "qa": {
+      "ok": false,
+      "output": "2 files with issues:\n\n  en/travel/jeju-island-eco-tourism.md:\n    - Title missing or >120 chars\n  en/kdrama/casting-announcement-july-2026.md:\n    - Title missing or >120 chars\n\nTip: python3 scripts/apply_article_footer.py --apply"
+    },
+    "seo": {
+      "ok": false,
+      "output": "SEO issues in 2 files:\n\n  en/travel/jeju-island-eco-tourism.md:\n    - Title >120 (122)\n  en/kdrama/casting-announcement-july-2026.md:\n    - Title >120 (136)"
+    },
+    "frontmatter": {
+      "ok": true,
+      "output": "Front matter check passed."
+    },
+    "markdown_lint": {
+      "ok": true,
+      "output": "Markdown lint passed."
+    },
+    "links": {
+      "ok": true,
+      "output": "All internal links valid."
+    },
+    "slugs": {
+      "ok": true,
+      "output": "All slugs valid."
+    },
+    "images": {
+      "ok": true,
+      "output": "Image check passed."
+    },
+    "hugo": {
+      "ok": true,
+      "output": "Start building sites … \nhugo v0.126.0-32c967551be308fbd14e5f0dfba0ff50a60e7f5e+extended linux/amd64 BuildDate=2024-05-14T13:24:11Z VendorInfo=gohugoio\n\n\n                   | EN  | KO | VI  \n-------------------+-----+----+-----\n  Pages            | 566 |  8 |  8  \n  Paginator pages  |  23 |  0 |  0  \n  Non-page files   |   0 |  0 |  0  \n  Static files     |  77 | 77 | 77  \n  Processed images |   0 |  0 |  0  \n  Aliases          | 253 |  3 |  3  \n  Cleaned          |   0 |  0 |  0  \n\nTotal in 570 ms"
+    },
+    "schema": {
+      "ok": true,
+      "output": "Schema validation passed."
+    }
+  }
+}

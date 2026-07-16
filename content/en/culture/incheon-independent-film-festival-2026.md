@@ -9,8 +9,8 @@ draft: false
 author: Song Jeong-hoon (OhmyNews)
 cover:
   image: images/2026/07/incheon-independent-film-festival-2026.jpg
-  alt: "Sa Jun-seo, Phó phòng Truyền thông Liên hoan phim độc lập Incheon lần thứ 13"
-  caption: "Sa Jun-seo — Ảnh: Song Jeong-hoon / OhmyNews"
+  alt: Sa Jun-seo, Phó phòng Truyền thông Liên hoan phim độc lập Incheon lần thứ 13
+  caption: 'Sa Jun-seo — Ảnh: Song Jeong-hoon / OhmyNews'
 tags:
 - incheon
 - independent-film
@@ -46,6 +46,11 @@ faq:
     trò chuyện với phóng viên tại Bupyeong, Incheon vào ngày 15 tháng 7. Ngay trước
     khi bắt đầu câu chuyện về liên hoan…'
 ---
+
+
+
+
+
 
 
 
@@ -132,6 +137,6 @@ copyright: >
 internal:
   - title: "Anne's Library — Nhà xuất bản Hàn Quốc hạ thấp rào cản tiếp cận văn học cổ điển và nghệ thuật"
     url: "en/culture/annes-library-publishing-house-profile/"
-  - title: "The Hanbok Renaissance: How Korea's Traditional Dress Found a New Generation of Wearers"
+  - title: "Thời kỳ Phục hưng Hanbok: Trang phục truyền thống của Hàn Quốc đã tìm thấy thế hệ người mặc mới như thế nào"
     url: "en/culture/hanbok-modern-revival/"
 {{< /article-footer >}}

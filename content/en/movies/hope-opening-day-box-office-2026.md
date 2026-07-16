@@ -45,6 +45,11 @@ faq:
 
 
 
+
+
+
+
+
 Bộ phim kinh dị "Hope" (호프) của đạo diễn Na Hong-jin chính thức ra mắt khán giả
 vào ngày 15 tháng 7 và ngay lập tức gây tiếng vang lớn. Theo số liệu từ Hệ thống
 thống kê vé điện ảnh tích hợp của Ủy ban Điện ảnh Hàn Quốc, tác phẩm đã thu hút
@@ -91,8 +96,8 @@ external:
   - title: "Dispatch"
     url: "https://www.dispatch.co.kr/2345296"
 internal:
-  - title: "'Harbinger' Review: Bong Joon-ho Returns with a Dystopian Masterpiece That Rivals 'Parasite'"
+  - title: "Đánh giá 'Harbinger': Bong Joon-ho trở lại với một kiệt tác đen tối sánh ngang với 'Parasite'"
     url: "en/movies/harbinger-review/"
-  - title: "Jeonju International Film Festival 2026: Independent Korean Cinema Takes Center Stage"
-    url: "en/movies/jeonju-film-festival-2026/"
+  - title: "Phim 'Hope' của Na Hong-jin vượt 500.000 vé đặt trước, tỷ lệ 65,7%"
+    url: "en/movies/hope-movie-presale-500k-2026/"
 {{< /article-footer >}}
