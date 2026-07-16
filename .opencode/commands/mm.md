@@ -35,6 +35,7 @@ Fetch the webpage. Extract:
 - category
 - tags
 - canonical URL
+- **featured / lead image URL(s)** (required attempt — see Step 6)
 
 Ignore ads, comments, recommendations, scripts, navigation.
 
@@ -42,6 +43,7 @@ Ignore ads, comments, recommendations, scripts, navigation.
 - Use the pasted text as article body
 - Use newspaper name provided by user as source
 - Use provided date/author if available
+- **Ask user for an image URL** if they have one; still try to locate the original article URL to fetch a cover (Step 6)
 
 ## Step 3 — Consult Translation Memory (required)
 
@@ -74,17 +76,72 @@ Original wording, objective tone, professional news writing. Do not closely mirr
 
 Include: title, description, slug, keywords, summary, categories, tags.
 
-## Step 6 — Handle image
+## Step 6 — Cover image from original source (**MANDATORY effort**)
 
-If source provides a reusable featured image:
-- Retrieve URL
-- Download or reference per site terms
-- Generate optimized WebP if appropriate
-- Store under `static/images/yyyy/mm/`
-- Include attribution: `Photo: [source]` or `Photo by [photographer]`
-- Never fabricate attribution
+**Policy:** Every `mm` post **must try hard** to ship with a real cover image taken from
+the **original Korean article** (or a known original-page URL). Empty `cover` is a last
+resort only after documented failed attempts — not the default.
 
-If no reusable image: use no image.
+### 6a — Locate candidates (try all that apply)
+
+| Priority | Source | How |
+|----------|--------|-----|
+| 1 | User pasted a **URL** | Extract from that page |
+| 2 | User pasted **raw text** only | Search original by title + author/publisher (Hankyoreh, Dispatch, Dailian, Korea Times, …) → open matching page |
+| 3 | Syndicated / Daum / Naver copy | Follow to publisher canonical if present |
+| 4 | User provides a direct image URL | Use as `--image` |
+
+**Extraction targets (in order):**
+
+1. `og:image` / `og:image:secure_url`
+2. `twitter:image` / `twitter:image:src`
+3. First large in-article `<img>` (skip logos, icons, avatars, 1×1 pixels, share buttons)
+4. `link rel="image_src"` / thumbnail meta
+
+### 6b — Download into the repo (required when a candidate exists)
+
+Prefer the helper (handles UA, scoring, magic-byte check):
+
+```bash
+# From original article page (preferred)
+python3 scripts/fetch_cover.py --page "https://SOURCE_ARTICLE_URL" --slug "your-article-slug"
+
+# Or direct image URL
+python3 scripts/fetch_cover.py --image "https://CDN/.../photo.jpg" --slug "your-article-slug"
+
+# Inspect only
+python3 scripts/fetch_cover.py --page "https://..." --slug "your-article-slug" --dry-run
+```
+
+Rules:
+
+- Save under `static/images/YYYY/MM/` (script default uses current UTC year/month)
+- Filename: `<slug>-cover.jpg` (or `.png` / `.webp`)
+- Front matter path is **relative to `static/`**, e.g. `images/2026/07/my-slug-cover.jpg`
+- Retry up to several candidates if the first download fails (hotlink block, 403, tiny file)
+- If helper fails, fall back to `curl -L -A "Mozilla/5.0 ..." -o static/images/...`
+- **Never** leave only a remote `https://...` URL in `cover.image` — always host under `static/`
+- **Never fabricate** photo credits; attribute publisher / photographer only when known
+
+### 6c — Wire front matter
+
+```yaml
+cover:
+  image: images/YYYY/MM/<slug>-cover.jpg
+  alt: "Mô tả ngắn, có tên người/sự kiện nếu biết"
+  caption: "Nguồn ảnh: [Tên báo / phóng viên] — không bịa"
+```
+
+### 6d — When you may ship without cover
+
+Only if **all** of the following are true:
+
+1. No usable `og:image` / body image on the source (or source is text-only paywall)
+2. Search for the original article found no matching page with photos
+3. User did not provide an image URL
+4. You report in the success summary: `image: none (reason: …)`
+
+Do **not** skip Step 6 because “optional” or “can add later.”
 
 ## Step 7 — Generate Hugo front matter
 
@@ -102,8 +159,9 @@ categories: []
 tags: []
 draft: false
 cover:
-  image: ""
-  alt: ""
+  image: images/2026/07/example-slug-cover.jpg   # required when Step 6 succeeded
+  alt: "Mô tả ảnh cover"
+  caption: "Ảnh: [nguồn gốc] — không bịa"
 faq: []   # required
 ---
 ```
@@ -227,12 +285,13 @@ Only if every QA check passes. If any validation fails, STOP, display errors, do
 ## Pipeline summary
 
 ```
-URL/text → fetch → consult TM → translate → rewrite → image
-  → Hugo article → extract TM → upsert glossary → sync public glossary page
+URL/text → fetch (+ image candidates) → consult TM → translate → rewrite
+  → fetch_cover.py (mandatory effort) → Hugo article with cover
+  → extract TM → upsert glossary → sync public glossary page
   → scientist.md QA → Hugo build → deploy
 ```
 
-No manual glossary work required on the happy path.
+No manual glossary work required on the happy path. Cover image is part of the happy path.
 
 ## Rules
 
@@ -241,6 +300,7 @@ No manual glossary work required on the happy path.
 - Produce original Vietnamese article, not a close translation
 - Prefer Translation Memory terminology for consistency
 - Luôn dẫn nguồn ở cuối bài: nếu là URL → ghi dạng `Nguồn: [Tên báo] — [URL]`; nếu là text thô → ghi `Nguồn: [Tên báo gốc]`
+- **Cover image:** **must attempt** fetch from original source (Step 6 + `scripts/fetch_cover.py`). Host under `static/images/…`. Remote-only covers are not allowed.
 - **Never ship without** front-matter `faq:` (≥2) **and** `{{< article-footer >}}` (CI rejects). If unsure, run `python3 scripts/apply_article_footer.py --apply` then `python3 scripts/qa.py`
 - Follow every rule in scientist.md and AGENTS.md
 - Never push failing code
@@ -249,4 +309,4 @@ No manual glossary work required on the happy path.
 - Never publish without successful validation
 - Never expose raw TM database files on the public site
 
-Return a success summary: title, category, slug, image status, TM entries added/merged, QA result, build result, git commit hash, deployment status.
+Return a success summary: title, category, slug, **image status** (`path` + source URL, or `none` + reason), TM entries added/merged, QA result, build result, git commit hash, deployment status.

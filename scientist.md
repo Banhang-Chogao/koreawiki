@@ -209,6 +209,21 @@ git commit --allow-empty -m "redeploy article" && git push
 
 ---
 
+## Entry 024 — 2026-07-16: mm must fetch cover from original source
+
+**Change:** `mm` Step 6 is mandatory effort: extract `og:image` / body images from the
+original Korean article, download into `static/images/YYYY/MM/`, set `cover.image`.
+
+**Helper:** `python3 scripts/fetch_cover.py --page URL --slug …` (or `--image URL`).
+
+**QA:** `scripts/optimize_images.py` also checks front-matter `cover.image` exists under
+`static/` and rejects remote-only covers.
+
+**Why:** Posts without thumbnails look broken on hero / Latest News; recent mm runs often
+skipped images even when the source had a lead photo.
+
+---
+
 ## Entry 023 — 2026-07-16: Latest News = first GitHub live (not last-touch)
 
 **Error:** Sort by `.GitInfo.CommitDate` (last touch) was scrambled by batch commits
