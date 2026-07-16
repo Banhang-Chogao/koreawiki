@@ -43,6 +43,7 @@ d930f8906c5a,동일인,người kiểm soát / controller,dong-il-in,noun,Chủ 
 8429f2033a29,디스패치,Dispatch,di-seu-pae-chi,proper_noun,tờ tin giải trí Hàn,báo chí,,,2026-07-16,2026-07-16,1,media,organization
 d6467c932ffc,라인업,lineup / danh sách nghệ sĩ,ra-in-eop,noun,danh sách biểu diễn sự kiện,sự kiện,라인업에 합류했다,https://www.dispatch.co.kr/2345227,2026-07-16,2026-07-16,1,concert,other
 2418847455c3,만기 출소,xuất ngục đúng hạn / hết hạn chấp hành,man-gi chul-so,phrase,ra tù khi đã chấp hành đủ mức án,tư pháp,만기 출소일은 2026년 11월 24일,https://www.dispatch.co.kr/2344260,2026-07-16,2026-07-16,1,prison,other
+0d2ec8805c26,말복,Malbok / phục cuối,mal-bok,,,last dog day,,https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667,2026-07-16,2026-07-16,1,,other
 79d0d6ca9bf2,멀티모달,multimodal / đa phương thức,meol-ti-mo-dal,adjective,"xử lý nhiều loại dữ liệu (text, audio, image)",AI,멀티모달 언어모델,https://www.kakaocorp.com/page/detail/12083,2026-07-16,2026-07-16,1,ai,other
 4e3e188e7981,멀티턴,multi-turn (hội thoại nhiều lượt),meol-ti-teon,noun,đối thoại nhiều vòng liên tiếp với AI,AI,멀티턴 대화,https://www.kakaocorp.com/page/detail/12083,2026-07-16,2026-07-16,1,ai,other
 eeeae8d67f6b,뮤직비디오,MV / video ca nhạc,myu-jik-bi-di-o,noun,music video,âm nhạc,,,2026-07-16,2026-07-16,1,music,noun
@@ -58,11 +59,14 @@ b2522f6cb474,벽돌,gạch (xây),byeok-dol,,,brick,,https://www.archdaily.com/9
 287dd7baf311,보도,đưa tin / báo cáo,bo-do,noun,news report,báo chí,,,2026-07-16,2026-07-16,1,media,noun
 ba19536ecbc2,보도자료,thông cáo báo chí / press release,bo-do-ja-ryo,noun,tài liệu truyền thông chính thức,báo chí / PR,보도자료 2026.07.15,https://www.kakaocorp.com/page/detail/12082,2026-07-16,2026-07-16,1,pr,other
 3a06825328ee,보호관찰,giám sát bảo hộ / quản chế,bo-ho-gwan-chal,noun,probation — giám sát sau khi tha trước thời hạn,tư pháp,가석방 기간 동안 보호관찰,https://www.dispatch.co.kr/2344260,2026-07-16,2026-07-16,1,"parole,probation",other
+c105d9d197fa,복날,Boknal / ngày phục (ba ngày nóng hè),bok-nal,,,seasonal custom,,https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667,2026-07-16,2026-07-16,1,,other
 01add5f5349e,부산,Busan,bu-san,proper_noun,thành phố cảng,địa danh,,,2026-07-16,2026-07-16,1,place,location
 1ce09adebbdd,뷰티,làm đẹp / beauty,byu-ti,noun,beauty industry,K-beauty,,,2026-07-16,2026-07-16,1,beauty,noun
 65696c354d76,브이로그,vlog,beu-i-ro-geu,noun,video blog,nội dung số,브이로그 형식,https://www.kakaocorp.com/page/detail/12083,2026-07-16,2026-07-16,1,content,other
 4fa08cb8900e,블랙핑크,BLACKPINK,beul-laek-ping-keu,proper_noun,nhóm nữ BLACKPINK,K-pop,,,2026-07-16,2026-07-16,1,kpop,celebrity
 6b119bf7bac6,사전 예매,đặt vé trước / pre-sale,sa-jeon ye-mae,noun,mua vé trước ngày công chiếu,phòng vé,사전 예매 관객 수 50만 명,https://www.dispatch.co.kr/2345236,2026-07-16,2026-07-16,1,box-office,other
+880a1fbced85,삼계탕,samgyetang / canh gà nhân sâm,sam-gye-tang,,,boknal food,,https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667,2026-07-16,2026-07-16,1,,other
+fea63cf24840,삼복,Sam-bok / ba ngày phục,sam-bok,,,chobok jungbok malbok,,https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667,2026-07-16,2026-07-16,1,,other
 5f263a078766,서머배시,Summer Bash,seo-meo-bae-si,proper_noun,concert mùa hè Z100,sự kiện / Mỹ,Z100 서머배시,https://www.dispatch.co.kr/2345227,2026-07-16,2026-07-16,1,concert,other
 74fdbe283795,서울,Seoul,seo-ul,proper_noun,thủ đô Hàn Quốc,địa danh,,,2026-07-16,2026-07-16,1,place,location
 26ba22c156ed,서울고등법원,Tòa thượng thẩm Seoul,seo-ul-go-deung-beob-won,proper_noun,Tòa án cấp cao tại Seoul (Seoul High Court),tư pháp,서울고등법원 가처분,https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller,2026-07-16,2026-07-16,1,"court,legal",organization
@@ -116,9 +120,11 @@ f1e3f5161dc4,제작,sản xuất,je-jak,noun,production,truyền thông,,,2026-0
 1a658d6fb0ba,조나단,Jonathan,jo-na-dan,proper_noun,người dẫn chương trình / broadcaster tại Hàn,truyền hình,방송인 조나단,https://www.kakaocorp.com/page/detail/12083,2026-07-16,2026-07-16,1,broadcaster,celebrity
 4cad7da6e8bc,조인성,Jo In-sung,jo-in-seong,proper_noun,nam diễn viên Hàn Quốc,điện ảnh,조인성은 마을 청년인 성기 역할,https://www.dispatch.co.kr/2345236,2026-07-16,2026-07-16,1,actor,celebrity
 f5a71ff61b12,주목받다,được chú ý,ju-mok-bat-da,verb,draw attention,truyền thông,,,2026-07-16,2026-07-16,1,media,verb
+a142f50a656d,중복,Jungbok / phục giữa,jung-bok,,,middle dog day,,https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667,2026-07-16,2026-07-16,1,,other
 d58c6d796aae,징역,án tù / hình phạt tù,jing-yeok,noun,imprisonment sentence,tư pháp,징역 2년 6개월,https://www.dispatch.co.kr/2344260,2026-07-16,2026-07-16,1,sentence,other
 388ea902b8d4,차트,bảng xếp hạng,cha-teu,noun,music chart,âm nhạc,,,2026-07-16,2026-07-16,1,music,noun
 5d2c24fe7d92,챗봇,chatbot,chaet-bot,noun,bot trò chuyện tự động,AI / messaging,챗봇(beta),https://www.kakaocorp.com/page/detail/12082,2026-07-16,2026-07-16,1,ai,other
+3f71750e5612,초복,Chobok / phục đầu,cho-bok,,,first dog day,,https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667,2026-07-16,2026-07-16,1,,other
 a8d3b986f191,출소,xuất ngục / ra tù,chul-so,noun,rời cơ sở giam giữ sau khi chấp hành án,tư pháp,6월 30일 출소 예정,https://www.dispatch.co.kr/2344260,2026-07-16,2026-07-16,1,prison,other
 e38250c656d1,출연,tham gia / đóng vai,chul-yeon,noun,xuất hiện trên show/phim,giải trí,,,2026-07-16,2026-07-16,1,entertainment,noun
 f52b8741b9ad,카나나 오리지널,Kanana-original,ka-na-na o-ri-ji-neol,proper_noun,series video giới thiệu Kanana-o trên YouTube Kakao,marketing / AI,영상 시리즈 Kanana-original,https://www.kakaocorp.com/page/detail/12083,2026-07-16,2026-07-16,1,"campaign,youtube",other

@@ -22,11 +22,28 @@ FOOTER_RE = re.compile(
 )
 
 def extract(content):
-    parts = content.split(SEP)
-    if len(parts) >= 3:
-        try: return yaml.safe_load(parts[1]), parts[2]
-        except yaml.YAMLError: pass
-    return None, ""
+    """Parse YAML front matter only (first --- … --- block).
+
+    Do NOT split the whole file on '---' — Markdown tables use |---|---| and
+    would truncate body (footer false-negative).
+    """
+    if not content.startswith(SEP):
+        return None, ""
+    rest = content[len(SEP) :]
+    if rest.startswith("\n"):
+        rest = rest[1:]
+    # Closing fence must be on its own line
+    m = re.search(r"(?m)^---\s*$", rest)
+    if not m:
+        return None, ""
+    fm = rest[: m.start()]
+    body = rest[m.end() :]
+    if body.startswith("\n"):
+        body = body[1:]
+    try:
+        return yaml.safe_load(fm), body
+    except yaml.YAMLError:
+        return None, ""
 
 def check_faq(meta):
     errors = []

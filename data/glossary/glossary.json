@@ -1,7 +1,7 @@
 {
   "version": 1,
   "language_pair": "ko-vi",
-  "updated": "2026-07-16T12:53:13+00:00",
+  "updated": "2026-07-16T13:01:59+00:00",
   "entries": [
     {
       "id": "ed0f4da4b180",
@@ -803,6 +803,22 @@
       "category": "other"
     },
     {
+      "id": "0d2ec8805c26",
+      "korean": "말복",
+      "vietnamese": "Malbok / phục cuối",
+      "romanization": "mal-bok",
+      "pos": "",
+      "meaning": "",
+      "context": "last dog day",
+      "example": "",
+      "source_url": "https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [],
+      "category": "other"
+    },
+    {
       "id": "79d0d6ca9bf2",
       "korean": "멀티모달",
       "vietnamese": "multimodal / đa phương thức",
@@ -1074,6 +1090,22 @@
       "category": "other"
     },
     {
+      "id": "c105d9d197fa",
+      "korean": "복날",
+      "vietnamese": "Boknal / ngày phục (ba ngày nóng hè)",
+      "romanization": "bok-nal",
+      "pos": "",
+      "meaning": "",
+      "context": "seasonal custom",
+      "example": "",
+      "source_url": "https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [],
+      "category": "other"
+    },
+    {
       "id": "01add5f5349e",
       "korean": "부산",
       "vietnamese": "Busan",
@@ -1161,6 +1193,38 @@
       "tags": [
         "box-office"
       ],
+      "category": "other"
+    },
+    {
+      "id": "880a1fbced85",
+      "korean": "삼계탕",
+      "vietnamese": "samgyetang / canh gà nhân sâm",
+      "romanization": "sam-gye-tang",
+      "pos": "",
+      "meaning": "",
+      "context": "boknal food",
+      "example": "",
+      "source_url": "https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [],
+      "category": "other"
+    },
+    {
+      "id": "fea63cf24840",
+      "korean": "삼복",
+      "vietnamese": "Sam-bok / ba ngày phục",
+      "romanization": "sam-bok",
+      "pos": "",
+      "meaning": "",
+      "context": "chobok jungbok malbok",
+      "example": "",
+      "source_url": "https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [],
       "category": "other"
     },
     {
@@ -2118,6 +2182,22 @@
       "category": "verb"
     },
     {
+      "id": "a142f50a656d",
+      "korean": "중복",
+      "vietnamese": "Jungbok / phục giữa",
+      "romanization": "jung-bok",
+      "pos": "",
+      "meaning": "",
+      "context": "middle dog day",
+      "example": "",
+      "source_url": "https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [],
+      "category": "other"
+    },
+    {
       "id": "d58c6d796aae",
       "korean": "징역",
       "vietnamese": "án tù / hình phạt tù",
@@ -2169,6 +2249,22 @@
       "tags": [
         "ai"
       ],
+      "category": "other"
+    },
+    {
+      "id": "3f71750e5612",
+      "korean": "초복",
+      "vietnamese": "Chobok / phục đầu",
+      "romanization": "cho-bok",
+      "pos": "",
+      "meaning": "",
+      "context": "first dog day",
+      "example": "",
+      "source_url": "https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [],
       "category": "other"
     },
     {

@@ -1,7 +1,7 @@
 # KoreaWiki Translation Memory (Korean → Vietnamese)
 
-> Private linguistic asset. Updated: 2026-07-16T12:53:13+00:00
-> Entries: 154
+> Private linguistic asset. Updated: 2026-07-16T13:01:59+00:00
+> Entries: 160
 
 | Korean | Vietnamese | Context | Category | Source | Updated |
 |--------|------------|---------|----------|--------|---------|
@@ -49,6 +49,7 @@
 | 디스패치 | Dispatch | báo chí | organization |  | 2026-07-16 |
 | 라인업 | lineup / danh sách nghệ sĩ | sự kiện | other | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 만기 출소 | xuất ngục đúng hạn / hết hạn chấp hành | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
+| 말복 | Malbok / phục cuối | last dog day | other | https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667 | 2026-07-16 |
 | 멀티모달 | multimodal / đa phương thức | AI | other | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
 | 멀티턴 | multi-turn (hội thoại nhiều lượt) | AI | other | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
 | 뮤직비디오 | MV / video ca nhạc | âm nhạc | noun |  | 2026-07-16 |
@@ -64,11 +65,14 @@
 | 보도 | đưa tin / báo cáo | báo chí | noun |  | 2026-07-16 |
 | 보도자료 | thông cáo báo chí / press release | báo chí / PR | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
 | 보호관찰 | giám sát bảo hộ / quản chế | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
+| 복날 | Boknal / ngày phục (ba ngày nóng hè) | seasonal custom | other | https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667 | 2026-07-16 |
 | 부산 | Busan | địa danh | location |  | 2026-07-16 |
 | 뷰티 | làm đẹp / beauty | K-beauty | noun |  | 2026-07-16 |
 | 브이로그 | vlog | nội dung số | other | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
 | 블랙핑크 | BLACKPINK | K-pop | celebrity |  | 2026-07-16 |
 | 사전 예매 | đặt vé trước / pre-sale | phòng vé | other | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
+| 삼계탕 | samgyetang / canh gà nhân sâm | boknal food | other | https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667 | 2026-07-16 |
+| 삼복 | Sam-bok / ba ngày phục | chobok jungbok malbok | other | https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667 | 2026-07-16 |
 | 서머배시 | Summer Bash | sự kiện / Mỹ | other | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 서울 | Seoul | địa danh | location |  | 2026-07-16 |
 | 서울고등법원 | Tòa thượng thẩm Seoul | tư pháp | organization | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
@@ -122,9 +126,11 @@
 | 조나단 | Jonathan | truyền hình | celebrity | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
 | 조인성 | Jo In-sung | điện ảnh | celebrity | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 주목받다 | được chú ý | truyền thông | verb |  | 2026-07-16 |
+| 중복 | Jungbok / phục giữa | middle dog day | other | https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667 | 2026-07-16 |
 | 징역 | án tù / hình phạt tù | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 차트 | bảng xếp hạng | âm nhạc | noun |  | 2026-07-16 |
 | 챗봇 | chatbot | AI / messaging | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
+| 초복 | Chobok / phục đầu | first dog day | other | https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667 | 2026-07-16 |
 | 출소 | xuất ngục / ra tù | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 출연 | tham gia / đóng vai | giải trí | noun |  | 2026-07-16 |
 | 카나나 오리지널 | Kanana-original | marketing / AI | other | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
