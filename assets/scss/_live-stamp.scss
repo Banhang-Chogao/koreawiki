@@ -1,4 +1,4 @@
-/* Live stamp: first GitHub live time (local TZ) + commit id */
+/* Live stamp: first GitHub live time (local TZ) + commit id — bold sky blue */
 .live-stamp {
   display: inline-flex;
   flex-wrap: wrap;
@@ -6,32 +6,31 @@
   gap: 0;
   font-family: var(--font-mono);
   font-size: var(--fs-xs);
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.01em;
   color: var(--color-live-stamp);
   line-height: 1.4;
-  opacity: 0.92; /* slightly muted / nhạt xíu */
 }
 
 .live-stamp-time {
   color: inherit;
   font: inherit;
+  font-weight: 600;
 }
 
 .live-stamp-sep {
   color: var(--color-live-stamp-muted);
-  opacity: 0.85;
   margin: 0 0.15em;
+  font-weight: 600;
 }
 
 .live-stamp-commit {
   font: inherit;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--color-live-stamp);
   background: transparent;
   padding: 0;
   border: none;
-  opacity: 0.9;
 }
 
 /* Inside article meta / hero / cards — keep compact */

@@ -44,9 +44,9 @@
   --color-nav-text-active: #0369a1;  /* sky-700 */
   --color-nav-underline: #0284c7;    /* sky-600 */
 
-  /* Live stamp (first-live + commit) — deep sky blue, slightly muted */
-  --color-live-stamp: #3a8fc4;
-  --color-live-stamp-muted: #5aa3d0;
+  /* Live stamp (first-live + commit) — deep sky blue, bold & readable */
+  --color-live-stamp: #0369a1;         /* sky-700 — đậm, nổi */
+  --color-live-stamp-muted: #0284c7;   /* sky-600 separator */
 
   /*
     IBM Plex Sans (self-hosted under static/fonts/ibm-plex-sans/).
