@@ -1,7 +1,7 @@
 {
   "version": 1,
   "language_pair": "ko-vi",
-  "updated": "2026-07-16T11:57:48+00:00",
+  "updated": "2026-07-16T12:30:00+00:00",
   "entries": [
     {
       "id": "ed0f4da4b180",
@@ -90,6 +90,24 @@
       "frequency": 1,
       "tags": [
         "music"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "c0dc48ba6539",
+      "korean": "가처분",
+      "vietnamese": "lệnh tạm thời / injunction",
+      "romanization": "ga-cheo-bun",
+      "pos": "noun",
+      "meaning": "Biện pháp khẩn cấp tạm thời của tòa (preliminary injunction)",
+      "context": "tố tụng dân sự",
+      "example": "가처분 신청",
+      "source_url": "https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "legal"
       ],
       "category": "noun"
     },
@@ -220,6 +238,25 @@
       "category": "verb"
     },
     {
+      "id": "f723e8c2091d",
+      "korean": "공시",
+      "vietnamese": "công bố thông tin / disclosure",
+      "romanization": "gong-si",
+      "pos": "noun",
+      "meaning": "Nghĩa vụ công bố hồ sơ, giao dịch theo quy định",
+      "context": "tài chính / quản trị",
+      "example": "공시 의무",
+      "source_url": "https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "business",
+        "regulation"
+      ],
+      "category": "noun"
+    },
+    {
       "id": "4b86b71e29ed",
       "korean": "공식",
       "vietnamese": "chính thức",
@@ -236,6 +273,25 @@
         "media"
       ],
       "category": "adjective"
+    },
+    {
+      "id": "50d99cbf0bc2",
+      "korean": "공정거래위원회",
+      "vietnamese": "Ủy ban Thương mại Công bằng (FTC)",
+      "romanization": "gong-jeong-geo-rae-wi-won-hoe",
+      "pos": "proper_noun",
+      "meaning": "Cơ quan cạnh tranh / chống độc quyền Hàn Quốc (Fair Trade Commission)",
+      "context": "pháp lý / chính sách",
+      "example": "공정거래위원회 결정",
+      "source_url": "https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "ftc",
+        "regulation"
+      ],
+      "category": "organization"
     },
     {
       "id": "e9ff77965278",
@@ -292,6 +348,25 @@
       "category": "noun"
     },
     {
+      "id": "8e5413b64ad0",
+      "korean": "기업집단",
+      "vietnamese": "tập đoàn doanh nghiệp",
+      "romanization": "gi-eop-jip-dan",
+      "pos": "noun",
+      "meaning": "Nhóm công ty liên kết thuộc diện quản lý / công bố (business group)",
+      "context": "luật cạnh tranh",
+      "example": "공시대상 기업집단",
+      "source_url": "https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "business",
+        "regulation"
+      ],
+      "category": "noun"
+    },
+    {
       "id": "8c6d017a1977",
       "korean": "김명수",
       "vietnamese": "Kim Myung-soo",
@@ -308,6 +383,43 @@
         "actor"
       ],
       "category": "celebrity"
+    },
+    {
+      "id": "a03521c4026d",
+      "korean": "김범석",
+      "vietnamese": "Kim Bom-suk / Bom Kim",
+      "romanization": "gim-beom-seok",
+      "pos": "proper_noun",
+      "meaning": "Nhà sáng lập Coupang, thường gọi Bom Kim",
+      "context": "doanh nhân",
+      "example": "쿠팡 창업자 김범석",
+      "source_url": "https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "coupang",
+        "business"
+      ],
+      "category": "celebrity"
+    },
+    {
+      "id": "2f1c37ac976a",
+      "korean": "김유석",
+      "vietnamese": "Kim Yoo-seok",
+      "romanization": "gim-yu-seok",
+      "pos": "proper_noun",
+      "meaning": "Em trai của Kim Bom-suk; được FTC nêu có ảnh hưởng quản trị các công ty liên kết",
+      "context": "doanh nghiệp / Coupang",
+      "example": "동생 김유석",
+      "source_url": "https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "coupang"
+      ],
+      "category": "proper_noun"
     },
     {
       "id": "76bb3c3f25c6",
@@ -378,6 +490,25 @@
       "frequency": 1,
       "tags": [
         "career"
+      ],
+      "category": "noun"
+    },
+    {
+      "id": "d930f8906c5a",
+      "korean": "동일인",
+      "vietnamese": "người kiểm soát / controller",
+      "romanization": "dong-il-in",
+      "pos": "noun",
+      "meaning": "Chủ thể được pháp luật chỉ định là người kiểm soát tập đoàn (legal controller)",
+      "context": "luật cạnh tranh / công bố tập đoàn",
+      "example": "동일인으로 지정",
+      "source_url": "https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "legal",
+        "business"
       ],
       "category": "noun"
     },
@@ -579,6 +710,25 @@
         "place"
       ],
       "category": "location"
+    },
+    {
+      "id": "26ba22c156ed",
+      "korean": "서울고등법원",
+      "vietnamese": "Tòa thượng thẩm Seoul",
+      "romanization": "seo-ul-go-deung-beob-won",
+      "pos": "proper_noun",
+      "meaning": "Tòa án cấp cao tại Seoul (Seoul High Court)",
+      "context": "tư pháp",
+      "example": "서울고등법원 가처분",
+      "source_url": "https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "court",
+        "legal"
+      ],
+      "category": "organization"
     },
     {
       "id": "2608d47c84a3",
@@ -1175,6 +1325,25 @@
       "category": "noun"
     },
     {
+      "id": "43352905fc79",
+      "korean": "쿠팡",
+      "vietnamese": "Coupang",
+      "romanization": "ku-pang",
+      "pos": "proper_noun",
+      "meaning": "Tập đoàn thương mại điện tử Hàn Quốc (Coupang)",
+      "context": "doanh nghiệp / thương mại điện tử",
+      "example": "쿠팡 창업자 김범석",
+      "source_url": "https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "business",
+        "coupang"
+      ],
+      "category": "organization"
+    },
+    {
       "id": "955262dd02c4",
       "korean": "타이틀곡",
       "vietnamese": "bài chủ đề / title track",
@@ -1407,6 +1576,24 @@
         "media"
       ],
       "category": "idiom"
+    },
+    {
+      "id": "1b0b6ac6b407",
+      "korean": "효력정지",
+      "vietnamese": "đình chỉ hiệu lực / suspension of effect",
+      "romanization": "hyo-ryeok-jeong-ji",
+      "pos": "noun",
+      "meaning": "Tạm dừng hiệu lực quyết định hành chính cho đến phán quyết chính",
+      "context": "tố tụng hành chính",
+      "example": "처분 효력정지",
+      "source_url": "https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "legal"
+      ],
+      "category": "noun"
     },
     {
       "id": "c87053b1cf12",

@@ -1,7 +1,7 @@
 # KoreaWiki Translation Memory (Korean → Vietnamese)
 
-> Private linguistic asset. Updated: 2026-07-16T11:57:48+00:00
-> Entries: 79
+> Private linguistic asset. Updated: 2026-07-16T12:30:00+00:00
+> Entries: 89
 
 | Korean | Vietnamese | Context | Category | Source | Updated |
 |--------|------------|---------|----------|--------|---------|
@@ -10,6 +10,7 @@
 | ~을/를 통해 | thông qua… | báo chí | grammar |  | 2026-07-16 |
 | 가사 | lời bài hát | âm nhạc | noun |  | 2026-07-16 |
 | 가수 | ca sĩ | âm nhạc | noun |  | 2026-07-16 |
+| 가처분 | lệnh tạm thời / injunction | tố tụng dân sự | noun | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 감독 | đạo diễn | điện ảnh | noun |  | 2026-07-16 |
 | 강남 | Gangnam | địa danh | location |  | 2026-07-16 |
 | 개봉 | công chiếu / ra rạp | điện ảnh | noun |  | 2026-07-16 |
@@ -17,15 +18,21 @@
 | 결혼 | kết hôn | đời tư | noun |  | 2026-07-16 |
 | 공감세포 | Gonggam Sepo | tên drama | drama | https://www.dispatch.co.kr/2344420 | 2026-07-16 |
 | 공개 | công bố / công khai | truyền thông | verb |  | 2026-07-16 |
+| 공시 | công bố thông tin / disclosure | tài chính / quản trị | noun | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 공식 | chính thức | thông cáo | adjective |  | 2026-07-16 |
+| 공정거래위원회 | Ủy ban Thương mại Công bằng (FTC) | pháp lý / chính sách | organization | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 관계자 | người liên quan / nguồn tin | báo chí | noun |  | 2026-07-16 |
 | 관심을 받다 | nhận được sự quan tâm | truyền thông | phrase |  | 2026-07-16 |
 | 그룹 | nhóm nhạc | K-pop | noun |  | 2026-07-16 |
+| 기업집단 | tập đoàn doanh nghiệp | luật cạnh tranh | noun | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 김명수 | Kim Myung-soo | diễn viên | celebrity | https://www.dispatch.co.kr/2344420 | 2026-07-16 |
+| 김범석 | Kim Bom-suk / Bom Kim | doanh nhân | celebrity | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
+| 김유석 | Kim Yoo-seok | doanh nghiệp / Coupang | proper_noun | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 남배우 | nam diễn viên | ngành giải trí | noun |  | 2026-07-16 |
 | 넷플릭스 | Netflix | streaming | organization |  | 2026-07-16 |
 | 논란 | tranh cãi / scandal | truyền thông | noun |  | 2026-07-16 |
 | 데뷔 | ra mắt / debut | sự nghiệp | noun |  | 2026-07-16 |
+| 동일인 | người kiểm soát / controller | luật cạnh tranh / công bố tập đoàn | noun | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 드라마 | phim truyền hình / drama | truyền hình | drama |  | 2026-07-16 |
 | 디스패치 | Dispatch | báo chí | organization |  | 2026-07-16 |
 | 뮤직비디오 | MV / video ca nhạc | âm nhạc | noun |  | 2026-07-16 |
@@ -37,6 +44,7 @@
 | 뷰티 | làm đẹp / beauty | K-beauty | noun |  | 2026-07-16 |
 | 블랙핑크 | BLACKPINK | K-pop | celebrity |  | 2026-07-16 |
 | 서울 | Seoul | địa danh | location |  | 2026-07-16 |
+| 서울고등법원 | Tòa thượng thẩm Seoul | tư pháp | organization | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 소속사 | công ty quản lý / agency | ngành | noun |  | 2026-07-16 |
 | 솔로 | solo | âm nhạc | noun |  | 2026-07-16 |
 | 수상 | nhận giải | giải thưởng | noun |  | 2026-07-16 |
@@ -70,6 +78,7 @@
 | 케이드라마 | K-drama | truyền hình | noun |  | 2026-07-16 |
 | 케이팝 | K-pop | âm nhạc | noun |  | 2026-07-16 |
 | 콘서트 | buổi hòa nhạc / concert | sự kiện | noun |  | 2026-07-16 |
+| 쿠팡 | Coupang | doanh nghiệp / thương mại điện tử | organization | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 타이틀곡 | bài chủ đề / title track | âm nhạc | noun |  | 2026-07-16 |
 | 투어 | tour / chuyến lưu diễn | sự kiện | noun |  | 2026-07-16 |
 | 패션 | thời trang | thời trang | noun |  | 2026-07-16 |
@@ -83,4 +92,5 @@
 | 화보 | bộ ảnh / pictorial | thời trang | noun |  | 2026-07-16 |
 | 화제 | chủ đề nóng / viral | truyền thông | noun |  | 2026-07-16 |
 | 화제를 모으다 | gây chú ý / thu hút bàn tán | truyền thông | idiom |  | 2026-07-16 |
+| 효력정지 | đình chỉ hiệu lực / suspension of effect | tố tụng hành chính | noun | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 흥행 | doanh thu / thành công phòng vé | điện ảnh | noun |  | 2026-07-16 |
