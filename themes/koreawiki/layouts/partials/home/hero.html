@@ -9,7 +9,7 @@
         <img class="hero-main-img" src="{{ $heroPost.Params.cover.image | relURL }}" alt="{{ $heroPost.Params.cover.alt | default $heroPost.Title }}" loading="eager" decoding="async">
         {{ end }}
         <div class="hero-main-body">
-          <span class="hero-main-cat">{{ $heroPost.Section | humanize | title }}</span>
+          <span class="hero-main-cat">{{ $heroPost.CurrentSection.Title }}</span>
           <h1 class="hero-main-title">{{ $heroPost.Title }}</h1>
           {{ if $heroPost.Description }}
           <p class="hero-main-desc">{{ $heroPost.Description }}</p>
@@ -30,7 +30,7 @@
         <img class="hero-side-img" src="{{ .Params.cover.image | relURL }}" alt="{{ .Params.cover.alt | default .Title }}" loading="lazy" decoding="async">
         {{ end }}
         <div class="hero-side-body">
-          <span class="hero-side-cat">{{ .Section | humanize | title }}</span>
+          <span class="hero-side-cat">{{ .CurrentSection.Title }}</span>
           <h2 class="hero-side-title">{{ .Title }}</h2>
           <span class="hero-side-meta"><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "Jan 2, 2006" }}</time></span>
         </div>

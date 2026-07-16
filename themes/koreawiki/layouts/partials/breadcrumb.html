@@ -7,11 +7,12 @@
       </a>
       <meta itemprop="position" content="{{ $position }}" />
     </li>
-    {{ if .Section }}
+    {{ $section := .CurrentSection }}
+    {{ if and $section (not $section.IsHome) }}
     {{ $position = add $position 1 }}
     <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a href="{{ .Section | relLangURL }}/" itemprop="item">
-        <span itemprop="name">{{ .Section | humanize | title }}</span>
+      <a href="{{ $section.RelPermalink }}" itemprop="item">
+        <span itemprop="name">{{ $section.Title }}</span>
       </a>
       <meta itemprop="position" content="{{ $position }}" />
     </li>

@@ -10,7 +10,7 @@
         <img class="card-img" src="{{ $p.Params.cover.image | relURL }}" alt="{{ $p.Params.cover.alt | default $p.Title }}" loading="lazy" decoding="async">
         {{ end }}
         <div class="card-body">
-          <span class="card-cat">{{ $p.Section | humanize | title }}</span>
+          <span class="card-cat">{{ $p.CurrentSection.Title }}</span>
           <h2 class="card-title">{{ $p.Title }}</h2>
           {{ if $p.Description }}
           <p class="card-desc">{{ $p.Description }}</p>

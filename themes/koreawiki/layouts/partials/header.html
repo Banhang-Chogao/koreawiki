@@ -30,7 +30,7 @@
       {{ range $navItems }}
         {{ $section := . }}
         {{ with $currentPage.Site.GetPage (printf "/%s" $section) }}
-        <a href="{{ .RelPermalink }}" class="header-nav-link{{ if eq $currentPage.Section $section }} active{{ end }}">{{ $section | humanize | upper }}</a>
+        <a href="{{ .RelPermalink }}" class="header-nav-link{{ if eq $currentPage.Type $section }} active{{ end }}">{{ $section | humanize | upper }}</a>
         {{ end }}
       {{ end }}
       <div class="nav-more" tabindex="0" role="button" aria-haspopup="true" aria-label="More sections">

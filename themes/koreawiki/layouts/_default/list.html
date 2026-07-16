@@ -14,7 +14,7 @@
         <img class="card-img" src="{{ .Params.cover.image | relURL }}" alt="{{ .Params.cover.alt | default .Title }}" loading="lazy" decoding="async">
         {{ end }}
         <div class="card-body">
-          <span class="card-cat">{{ .Section | humanize | title }}</span>
+          <span class="card-cat">{{ .CurrentSection.Title }}</span>
           <h2 class="card-title">{{ .Title }}</h2>
           <p class="card-desc">{{ .Description | default .Summary }}</p>
           <div class="card-meta">
