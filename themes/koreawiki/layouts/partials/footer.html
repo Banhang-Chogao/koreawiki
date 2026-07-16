@@ -20,10 +20,9 @@
       <div>
         <h4 class="footer-heading">{{ T "more" | default "More" }}</h4>
         <ul class="footer-list">
-          <li><a href="{{ "/photos/" | relLangURL }}">{{ T "photos" | default "Photos" }}</a></li>
-          <li><a href="{{ "/videos/" | relLangURL }}">{{ T "videos" | default "Videos" }}</a></li>
-          <li><a href="{{ "/opinion/" | relLangURL }}">{{ T "opinion" | default "Opinion" }}</a></li>
-          <li><a href="{{ "/glossary/" | relLangURL }}">{{ T "glossary" | default "Glossary" }}</a></li>
+          {{ range $name := slice "photos" "videos" "opinion" "glossary" }}
+          <li><a href="{{ printf "en/%s/" $name | relURL }}">{{ T $name | default (humanize $name) }}</a></li>
+          {{ end }}
         </ul>
       </div>
       <div>

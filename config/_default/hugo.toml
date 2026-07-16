@@ -69,6 +69,11 @@ dataDir = "data-hugo"
   toc = true
   accentColor = "#2563eb"
 
+# Default language English is served at site root (…/koreawiki/glossary/),
+# not …/koreawiki/en/glossary/. Other languages keep /ko/ and /vi/ prefixes.
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
 [languages]
   [languages.en]
     languageCode = "en"
@@ -115,37 +120,41 @@ dataDir = "data-hugo"
   url = "/artist/"
   weight = 7
 [[menu.main]]
+  name = "Glossary"
+  url = "/glossary/"
+  weight = 8
+[[menu.main]]
   name = "K-Drama"
   url = "/kdrama/"
-  weight = 8
+  weight = 9
 [[menu.main]]
   name = "K-Pop"
   url = "/kpop/"
-  weight = 9
+  weight = 10
 [[menu.main]]
   name = "Movies"
   url = "/movies/"
-  weight = 10
+  weight = 11
 [[menu.main]]
   name = "TV"
   url = "/tv/"
-  weight = 11
+  weight = 12
 [[menu.main]]
   name = "Culture"
   url = "/culture/"
-  weight = 12
+  weight = 13
 [[menu.main]]
   name = "Travel"
   url = "/travel/"
-  weight = 13
+  weight = 14
 [[menu.main]]
   name = "Food"
   url = "/food/"
-  weight = 14
+  weight = 15
 [[menu.main]]
   name = "Opinion"
   url = "/opinion/"
-  weight = 15
+  weight = 16
 
 [security]
   [security.funcs]

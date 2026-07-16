@@ -331,6 +331,8 @@ keywords:
   - hangeul
   - k-pop terminology
 type: "glossary"
+aliases:
+  - /glossary/
 ---
 
 KoreaWiki's public glossary of Korean → Vietnamese terms accumulated while

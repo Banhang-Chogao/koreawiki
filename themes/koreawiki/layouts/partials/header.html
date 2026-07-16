@@ -25,22 +25,20 @@
   <nav class="header-nav" role="navigation" aria-label="Main navigation">
     <div class="header-nav-inner">
       {{ $currentPage := . }}
-      {{ $navItems := slice "exclusive" "feature" "news" "photos" "videos" "fashion" "artist" }}
+      {{/* Content lives under content/en/ → public URLs are /koreawiki/en/<section>/ */}}
+      {{ $navItems := slice "exclusive" "feature" "news" "photos" "videos" "fashion" "artist" "glossary" }}
       {{ $moreItems := slice "kdrama" "kpop" "movies" "tv" "culture" "travel" "food" "opinion" }}
       {{ range $navItems }}
         {{ $section := . }}
-        {{ with $currentPage.Site.GetPage (printf "/%s" $section) }}
-        <a href="{{ .RelPermalink }}" class="header-nav-link{{ if eq $currentPage.Type $section }} active{{ end }}">{{ $section | humanize | upper }}</a>
-        {{ end }}
+        {{ $href := printf "en/%s/" $section | relURL }}
+        <a href="{{ $href }}" class="header-nav-link{{ if or (eq $currentPage.Type $section) (eq $currentPage.Section $section) }} active{{ end }}">{{ if eq $section "glossary" }}{{ T "glossary" | default "Glossary" | upper }}{{ else }}{{ $section | humanize | upper }}{{ end }}</a>
       {{ end }}
       <div class="nav-more" tabindex="0" role="button" aria-haspopup="true" aria-label="More sections">
         MORE <span class="nav-more-arrow">▾</span>
         <div class="nav-more-dropdown">
           {{ range $moreItems }}
             {{ $section := . }}
-            {{ with $currentPage.Site.GetPage (printf "/%s" $section) }}
-            <a href="{{ .RelPermalink }}">{{ $section | humanize | title }}</a>
-            {{ end }}
+            <a href="{{ printf "en/%s/" $section | relURL }}">{{ $section | humanize | title }}</a>
           {{ end }}
         </div>
       </div>
@@ -56,7 +54,8 @@
   </div>
   <ul class="mobile-nav-list">
     {{ range .Site.Menus.main }}
-    <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+    {{ $path := trim .URL "/" }}
+    <li><a href="{{ printf "en/%s/" $path | relURL }}">{{ .Name }}</a></li>
     {{ end }}
   </ul>
 </div>
