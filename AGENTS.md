@@ -7,12 +7,37 @@ Instructions for automated agents (Grok, CI self-heal, mm publisher, etc.).
 Keep KoreaWiki **building, validating, and deploying green**. Prefer small,
 deterministic fixes over large rewrites. Never fabricate news content.
 
+## Mandatory article features (every post, every authoring path)
+
+**No article may ship without these — whether written via `mm`, manual edit,
+AI agent, import, or any other workflow.** CI (`scripts/qa.py`) will fail.
+
+| Feature | Where | Purpose |
+|---------|--------|---------|
+| `faq:` list in front matter (≥2 items `{q,a}`) | YAML top of file | Renders **“Bài này trả lời”** under the title; anchors `#faq-1`… |
+| `{{< article-footer >}}` … `{{< /article-footer >}}` | End of body | Copyright/source, internal links, external links, FAQ accordion |
+
+### Authoring checklist (required)
+
+1. Write body (facts only; no fabrication).  
+2. Set `faq:` in front matter (2–4 Q&A grounded in the article).  
+3. Close body with `article-footer` (source, links, copyright).  
+4. Or batch-fill missing pieces:
+
+```bash
+python3 scripts/apply_article_footer.py --apply
+python3 scripts/qa.py
+```
+
+Docs: `docs/article-footer.md` · archetype: `archetypes/default.md`
+
 ## Always consult
 
 1. **`scientist.md`** — historical bugs + proven fixes (primary recovery brain)
 2. **This file (`AGENTS.md`)** — operating rules
 3. **`docs/self-healing.md`** — CI self-heal architecture
-4. **`.github/workflows/build.yml`** — what “green” means in CI
+4. **`docs/article-footer.md`** — required end-of-article blocks
+5. **`.github/workflows/build.yml`** — what “green” means in CI
 
 ## When CI / deploy fails
 
@@ -42,7 +67,7 @@ python3 scripts/self_healing.py validate
 ### Validation suite (all must pass)
 
 ```bash
-python3 scripts/qa.py
+python3 scripts/qa.py   # includes faq + article-footer enforcement
 python3 scripts/seo.py
 python3 scripts/frontmatter_check.py
 python3 scripts/markdown_lint.py

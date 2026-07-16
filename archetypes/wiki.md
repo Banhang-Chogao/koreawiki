@@ -5,7 +5,7 @@ keywords: []
 date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: true
-author: "KoreaWiki Team"
+author: "KoreaWiki Newsroom"
 tags: []
 categories: []
 slug: ""
@@ -16,21 +16,26 @@ cover:
 showToc: true
 tocOpen: false
 readingTime: true
-weight: null
+faq:
+  - q: "Bài viết này nói về chủ đề gì?"
+    a: "Tóm tắt 1–2 câu dựa trên nội dung bài (không bịa fact)."
+  - q: "Điểm thông tin chính độc giả nên nhớ là gì?"
+    a: "1–2 câu then chốt từ body."
 ---
 
 ## Overview
 
-{{< /brief description >}}
+…
 
 ## Content
 
-{{< /main body >}}
+…
 
-## See Also
-
-{{< /related links >}}
-
-## References
-
-{{< /sources >}}
+{{< article-footer >}}
+source: ""
+source_url: ""
+copyright: >
+  Ghi nguồn / bản quyền. Không bịa.
+external: []
+internal: []
+{{< /article-footer >}}

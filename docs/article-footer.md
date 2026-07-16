@@ -1,5 +1,9 @@
 # Article Footer Macro
 
+> **BẮT BUỘC** cho mọi bài viết, mọi cách soạn (`mm`, thủ công, AI, import…).
+> `scripts/qa.py` fail nếu thiếu `faq:` hoặc `article-footer`.
+> Auto-fill: `python3 scripts/apply_article_footer.py --apply`
+
 Shortcode `article-footer` thêm khối cuối bài (kiểu SEOMONEY):
 
 1. **Liên kết ngoài** (nếu có)  

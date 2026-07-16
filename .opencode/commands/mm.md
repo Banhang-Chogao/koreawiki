@@ -230,7 +230,8 @@ No manual glossary work required on the happy path.
 - Produce original Vietnamese article, not a close translation
 - Prefer Translation Memory terminology for consistency
 - Luôn dẫn nguồn ở cuối bài: nếu là URL → ghi dạng `Nguồn: [Tên báo] — [URL]`; nếu là text thô → ghi `Nguồn: [Tên báo gốc]`
-- Follow every rule in scientist.md
+- **Never ship without** front-matter `faq:` (≥2) **and** `{{< article-footer >}}` (CI rejects). If unsure, run `python3 scripts/apply_article_footer.py --apply` then `python3 scripts/qa.py`
+- Follow every rule in scientist.md and AGENTS.md
 - Never push failing code
 - Never bypass QA
 - Never skip Hugo build

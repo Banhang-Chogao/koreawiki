@@ -318,6 +318,21 @@ def fix_glossary_sync() -> list[str]:
     return []
 
 
+def fix_article_features() -> list[str]:
+    """Ensure every post has faq: + article-footer (mandatory product features)."""
+    script = ROOT / "scripts" / "apply_article_footer.py"
+    if not script.exists():
+        return []
+    proc = run([sys.executable, str(script), "--apply"])
+    if proc.returncode != 0:
+        return []
+    # mark as changed if script reported updates
+    out = (proc.stdout or "") + (proc.stderr or "")
+    if "updated" in out:
+        return ["content/** (faq + article-footer via apply_article_footer.py)"]
+    return []
+
+
 def apply_fixes(categories: list[str], log: str) -> dict[str, list[str]]:
     """Apply safe deterministic fixes. Never fabricates article content."""
     applied: dict[str, list[str]] = {}
@@ -331,6 +346,17 @@ def apply_fixes(categories: list[str], log: str) -> dict[str, list[str]]:
         ch = fix_missing_draft()
         if ch:
             applied["missing_draft"] = ch
+
+    if (
+        always_content
+        or "article-footer" in log
+        or "faq:" in log
+        or "Bài này trả lời" in log
+        or "apply_article_footer" in log
+    ):
+        ch = fix_article_features()
+        if ch:
+            applied["article_features"] = ch
 
     if always_content or "keywords" in log.lower() or "seo" in categories:
         ch = fix_missing_keywords()
@@ -366,6 +392,7 @@ def apply_fixes(categories: list[str], log: str) -> dict[str, list[str]]:
             ("missing_draft", fix_missing_draft),
             ("missing_keywords", fix_missing_keywords),
             ("missing_author", fix_missing_author),
+            ("article_features", fix_article_features),
             ("markdown_format", fix_markdown_formatting),
             ("slugs", fix_slugs),
             ("hugo_try", fix_hugo_try_function),

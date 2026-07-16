@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
-"""KoreaWiki QA — validates front matter, markdown, and file structure."""
+"""KoreaWiki QA — validates front matter, markdown, and required article features.
+
+Every article (any authoring path: mm, manual, AI, import) MUST include:
+  - front matter `faq:` (list of {q,a}) → powers "Bài này trả lời" + FAQ anchors
+  - shortcode `{{< article-footer >}}` … → source, links, copyright, FAQ UI
+
+Auto-fix: python3 scripts/apply_article_footer.py --apply
+"""
 
 import sys, yaml, re
 from pathlib import Path
@@ -9,6 +16,10 @@ CONTENT = Path("content")
 SEP = "---"
 DATE_TYPES = (datetime, type(datetime.now().date()))
 REQUIRED = {"title": str, "description": str, "date": DATE_TYPES, "draft": bool}
+FOOTER_RE = re.compile(
+    r"\{\{<\s*article-footer\s*>\}\}[\s\S]*?\{\{<\s*/article-footer\s*>\}\}",
+    re.I,
+)
 
 def extract(content):
     parts = content.split(SEP)
@@ -17,7 +28,39 @@ def extract(content):
         except yaml.YAMLError: pass
     return None, ""
 
-def check(meta):
+def check_faq(meta):
+    errors = []
+    faq = meta.get("faq")
+    if faq is None:
+        errors.append(
+            "Missing front matter 'faq:' (required for 'Bài này trả lời' + FAQ anchors). "
+            "Run: python3 scripts/apply_article_footer.py --apply"
+        )
+        return errors
+    if not isinstance(faq, list) or len(faq) < 2:
+        errors.append("'faq:' must be a list with at least 2 items ({q, a})")
+        return errors
+    for i, item in enumerate(faq):
+        if not isinstance(item, dict):
+            errors.append(f"faq[{i}] must be a mapping with q/a")
+            continue
+        q = item.get("q") or item.get("question") or ""
+        a = item.get("a") or item.get("answer") or ""
+        if not str(q).strip():
+            errors.append(f"faq[{i}] missing question (q)")
+        if not str(a).strip():
+            errors.append(f"faq[{i}] missing answer (a)")
+    return errors
+
+def check_article_footer(body):
+    if not FOOTER_RE.search(body or ""):
+        return [
+            "Missing {{< article-footer >}} … {{< /article-footer >}} shortcode. "
+            "Run: python3 scripts/apply_article_footer.py --apply"
+        ]
+    return []
+
+def check(meta, body=""):
     errors = []
     for f, t in REQUIRED.items():
         if f not in meta: errors.append(f"Missing: '{f}'")
@@ -31,6 +74,8 @@ def check(meta):
     elif len(desc) > 320: errors.append("Description >320 chars")
     if not meta.get("tags"): errors.append("Missing tags")
     if not meta.get("categories"): errors.append("Missing categories")
+    errors.extend(check_faq(meta))
+    errors.extend(check_article_footer(body))
     return errors
 
 def main():
@@ -38,9 +83,9 @@ def main():
     issues = []
     for fp in files:
         if fp.name == "_index.md": continue
-        meta, _ = extract(fp.read_text("utf-8"))
+        meta, body = extract(fp.read_text("utf-8"))
         if meta:
-            errs = check(meta)
+            errs = check(meta, body)
             if errs: issues.append((fp.relative_to(CONTENT), errs))
         else:
             issues.append((fp.relative_to(CONTENT), ["No valid front matter"]))
@@ -48,6 +93,9 @@ def main():
         print(f"{len(issues)} files with issues:\n")
         for rel, errs in issues:
             print(f"  {rel}:"); [print(f"    - {e}") for e in errs]
+        print(
+            "\nTip: python3 scripts/apply_article_footer.py --apply"
+        )
         sys.exit(1)
     print("QA passed.")
     sys.exit(0)

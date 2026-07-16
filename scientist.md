@@ -209,6 +209,19 @@ git commit --allow-empty -m "redeploy article" && git push
 
 ---
 
+## Entry 020 — 2026-07-16: Enforce article-footer + faq on every post
+
+**Rule:** Mọi bài (mm / tay / AI / import) **bắt buộc** có:
+1. front matter `faq:` (≥2 `{q,a}`) → "Bài này trả lời"
+2. shortcode `article-footer` → nguồn, links, copyright, FAQ UI
+
+**Enforcement:** `scripts/qa.py` fails CI if missing. Auto-fix:
+`python3 scripts/apply_article_footer.py --apply` (+ self-healing calls it).
+
+**Docs:** `AGENTS.md` mandatory section, `archetypes/*`, `docs/article-footer.md`, `mm.md` rules.
+
+---
+
 ## Entry 019 — 2026-07-16: "Bài này trả lời" jump links to FAQ
 
 **Added:** Under article title, `answers-toc` lists FAQ questions from front matter `faq:`.

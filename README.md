@@ -72,6 +72,7 @@ koreawiki/
 | `translate.py` | Export for translation (+ TM hints) |
 | `glossary.py` | Translation Memory & Glossary manager |
 | `self_healing.py` | CI failure recovery (scientist playbook) |
+| `apply_article_footer.py` | Batch FAQ + article-footer for all posts |
 | `optimize_images.py` | Validate image refs |
 | `check_links.py` | Internal link checking |
 | `generate_schema.py` | Schema.org validation |
