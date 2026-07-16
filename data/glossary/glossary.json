@@ -1,7 +1,7 @@
 {
   "version": 1,
   "language_pair": "ko-vi",
-  "updated": "2026-07-16T12:30:00+00:00",
+  "updated": "2026-07-16T12:34:18+00:00",
   "entries": [
     {
       "id": "ed0f4da4b180",
@@ -74,6 +74,25 @@
         "music"
       ],
       "category": "noun"
+    },
+    {
+      "id": "4f208f2df0c8",
+      "korean": "가석방",
+      "vietnamese": "tha trước thời hạn / phóng thích có điều kiện",
+      "romanization": "ga-seok-bang",
+      "pos": "noun",
+      "meaning": "parole — cho ra trước khi hết hạn tù đầy đủ",
+      "context": "tư pháp / cải tạo",
+      "example": "가석방 허가 결정",
+      "source_url": "https://www.dispatch.co.kr/2344260",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "parole",
+        "prison"
+      ],
+      "category": "other"
     },
     {
       "id": "2139fe0d7505",
@@ -422,6 +441,25 @@
       "category": "proper_noun"
     },
     {
+      "id": "68186f50f40a",
+      "korean": "김호중",
+      "vietnamese": "Kim Ho-joong",
+      "romanization": "gim-ho-jung",
+      "pos": "proper_noun",
+      "meaning": "ca sĩ Hàn Quốc",
+      "context": "giải trí / pháp lý",
+      "example": "김호중, 가석방 허가 결정",
+      "source_url": "https://www.dispatch.co.kr/2344260",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "singer",
+        "legal"
+      ],
+      "category": "celebrity"
+    },
+    {
       "id": "76bb3c3f25c6",
       "korean": "남배우",
       "vietnamese": "nam diễn viên",
@@ -549,6 +587,24 @@
       "category": "organization"
     },
     {
+      "id": "2418847455c3",
+      "korean": "만기 출소",
+      "vietnamese": "xuất ngục đúng hạn / hết hạn chấp hành",
+      "romanization": "man-gi chul-so",
+      "pos": "phrase",
+      "meaning": "ra tù khi đã chấp hành đủ mức án",
+      "context": "tư pháp",
+      "example": "만기 출소일은 2026년 11월 24일",
+      "source_url": "https://www.dispatch.co.kr/2344260",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "prison"
+      ],
+      "category": "other"
+    },
+    {
       "id": "eeeae8d67f6b",
       "korean": "뮤직비디오",
       "vietnamese": "MV / video ca nhạc",
@@ -622,6 +678,24 @@
       "category": "celebrity"
     },
     {
+      "id": "d6ef9fb0273c",
+      "korean": "법무부",
+      "vietnamese": "Bộ Tư pháp",
+      "romanization": "beom-mu-bu",
+      "pos": "proper_noun",
+      "meaning": "Ministry of Justice (Hàn Quốc)",
+      "context": "chính phủ",
+      "example": "법무부 가석방 심사",
+      "source_url": "https://www.dispatch.co.kr/2344260",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "government"
+      ],
+      "category": "organization"
+    },
+    {
       "id": "287dd7baf311",
       "korean": "보도",
       "vietnamese": "đưa tin / báo cáo",
@@ -638,6 +712,25 @@
         "media"
       ],
       "category": "noun"
+    },
+    {
+      "id": "3a06825328ee",
+      "korean": "보호관찰",
+      "vietnamese": "giám sát bảo hộ / quản chế",
+      "romanization": "bo-ho-gwan-chal",
+      "pos": "noun",
+      "meaning": "probation — giám sát sau khi tha trước thời hạn",
+      "context": "tư pháp",
+      "example": "가석방 기간 동안 보호관찰",
+      "source_url": "https://www.dispatch.co.kr/2344260",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "parole",
+        "probation"
+      ],
+      "category": "other"
     },
     {
       "id": "01add5f5349e",
@@ -731,6 +824,42 @@
       "category": "organization"
     },
     {
+      "id": "cac39550896f",
+      "korean": "서울구치소",
+      "vietnamese": "trại giam Seoul",
+      "romanization": "seo-ul-gu-chi-so",
+      "pos": "proper_noun",
+      "meaning": "cơ sở giam giữ tạm thời / trại giam tại Seoul",
+      "context": "tư pháp",
+      "example": "서울구치소에서 수감 생활",
+      "source_url": "https://www.dispatch.co.kr/2344260",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "prison"
+      ],
+      "category": "location"
+    },
+    {
+      "id": "6968312c93db",
+      "korean": "소망교도소",
+      "vietnamese": "nhà tù Somang",
+      "romanization": "so-mang-gyo-do-so",
+      "pos": "proper_noun",
+      "meaning": "cơ sở cải tạo tại Yeoju, Gyeonggi",
+      "context": "tư pháp / địa điểm",
+      "example": "여주 소망교도소로 이감",
+      "source_url": "https://www.dispatch.co.kr/2344260",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "prison"
+      ],
+      "category": "location"
+    },
+    {
       "id": "2608d47c84a3",
       "korean": "소속사",
       "vietnamese": "công ty quản lý / agency",
@@ -765,6 +894,24 @@
         "music"
       ],
       "category": "noun"
+    },
+    {
+      "id": "0e7c68b71ec2",
+      "korean": "수감",
+      "vietnamese": "bị giam / chấp hành án tù",
+      "romanization": "su-gam",
+      "pos": "noun",
+      "meaning": "incarceration",
+      "context": "tư pháp",
+      "example": "수감 생활",
+      "source_url": "https://www.dispatch.co.kr/2344260",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "prison"
+      ],
+      "category": "other"
     },
     {
       "id": "168908513161",
@@ -911,6 +1058,24 @@
       "category": "noun"
     },
     {
+      "id": "ed2002e9de9d",
+      "korean": "압구정동",
+      "vietnamese": "Apgujeong-dong",
+      "romanization": "ap-gu-jeong-dong",
+      "pos": "proper_noun",
+      "meaning": "phường Apgujeong, quận Gangnam, Seoul",
+      "context": "địa danh",
+      "example": "강남구 압구정동",
+      "source_url": "https://www.dispatch.co.kr/2344260",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "seoul"
+      ],
+      "category": "location"
+    },
+    {
       "id": "ee4c0dec13a3",
       "korean": "앨범",
       "vietnamese": "album",
@@ -963,6 +1128,24 @@
         "entertainment"
       ],
       "category": "noun"
+    },
+    {
+      "id": "0423477d4177",
+      "korean": "여주",
+      "vietnamese": "Yeoju",
+      "romanization": "yeo-ju",
+      "pos": "proper_noun",
+      "meaning": "thành phố tại Gyeonggi-do",
+      "context": "địa danh",
+      "example": "경기도 여주 소망교도소",
+      "source_url": "https://www.dispatch.co.kr/2344260",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "gyeonggi"
+      ],
+      "category": "location"
     },
     {
       "id": "539e2b4a5739",
@@ -1091,6 +1274,42 @@
       "category": "noun"
     },
     {
+      "id": "16b3db0792f2",
+      "korean": "음주운전",
+      "vietnamese": "lái xe khi say rượu",
+      "romanization": "eum-ju-un-jeon",
+      "pos": "noun",
+      "meaning": "drunk driving",
+      "context": "pháp lý / giao thông",
+      "example": "음주 상태로 마주오던 택시를 들이받고",
+      "source_url": "https://www.dispatch.co.kr/2344260",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "crime"
+      ],
+      "category": "other"
+    },
+    {
+      "id": "099c252f909c",
+      "korean": "이감",
+      "vietnamese": "chuyển trại / chuyển giam",
+      "romanization": "i-gam",
+      "pos": "noun",
+      "meaning": "chuyển người bị giam từ cơ sở này sang cơ sở khác",
+      "context": "tư pháp / cải tạo",
+      "example": "소망교도소로 이감",
+      "source_url": "https://www.dispatch.co.kr/2344260",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "prison"
+      ],
+      "category": "other"
+    },
+    {
       "id": "81833368534c",
       "korean": "인터뷰",
       "vietnamese": "phỏng vấn",
@@ -1199,6 +1418,24 @@
       "category": "verb"
     },
     {
+      "id": "d58c6d796aae",
+      "korean": "징역",
+      "vietnamese": "án tù / hình phạt tù",
+      "romanization": "jing-yeok",
+      "pos": "noun",
+      "meaning": "imprisonment sentence",
+      "context": "tư pháp",
+      "example": "징역 2년 6개월",
+      "source_url": "https://www.dispatch.co.kr/2344260",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "sentence"
+      ],
+      "category": "other"
+    },
+    {
       "id": "388ea902b8d4",
       "korean": "차트",
       "vietnamese": "bảng xếp hạng",
@@ -1215,6 +1452,24 @@
         "music"
       ],
       "category": "noun"
+    },
+    {
+      "id": "a8d3b986f191",
+      "korean": "출소",
+      "vietnamese": "xuất ngục / ra tù",
+      "romanization": "chul-so",
+      "pos": "noun",
+      "meaning": "rời cơ sở giam giữ sau khi chấp hành án",
+      "context": "tư pháp",
+      "example": "6월 30일 출소 예정",
+      "source_url": "https://www.dispatch.co.kr/2344260",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "prison"
+      ],
+      "category": "other"
     },
     {
       "id": "e38250c656d1",
