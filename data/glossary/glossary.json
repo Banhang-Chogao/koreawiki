@@ -1,7 +1,7 @@
 {
   "version": 1,
   "language_pair": "ko-vi",
-  "updated": "2026-07-16T12:40:28+00:00",
+  "updated": "2026-07-16T12:42:05+00:00",
   "entries": [
     {
       "id": "ed0f4da4b180",
@@ -350,6 +350,24 @@
       "category": "organization"
     },
     {
+      "id": "36f918e3d867",
+      "korean": "곽범",
+      "vietnamese": "Kwak Beom",
+      "romanization": "gwak-beom",
+      "pos": "proper_noun",
+      "meaning": "diễn viên hài Hàn Quốc",
+      "context": "giải trí",
+      "example": "개그맨 곽범",
+      "source_url": "https://www.kakaocorp.com/page/detail/12083",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "comedian"
+      ],
+      "category": "celebrity"
+    },
+    {
       "id": "e9ff77965278",
       "korean": "관계자",
       "vietnamese": "người liên quan / nguồn tin",
@@ -549,6 +567,24 @@
         "entertainment"
       ],
       "category": "noun"
+    },
+    {
+      "id": "01895a25cd31",
+      "korean": "넉살",
+      "vietnamese": "Nucksal",
+      "romanization": "neok-sal",
+      "pos": "proper_noun",
+      "meaning": "rapper Hàn Quốc",
+      "context": "giải trí",
+      "example": "래퍼 넉살",
+      "source_url": "https://www.kakaocorp.com/page/detail/12083",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "rapper"
+      ],
+      "category": "celebrity"
     },
     {
       "id": "4fef8364f4f0",
@@ -751,6 +787,42 @@
       "category": "other"
     },
     {
+      "id": "79d0d6ca9bf2",
+      "korean": "멀티모달",
+      "vietnamese": "multimodal / đa phương thức",
+      "romanization": "meol-ti-mo-dal",
+      "pos": "adjective",
+      "meaning": "xử lý nhiều loại dữ liệu (text, audio, image)",
+      "context": "AI",
+      "example": "멀티모달 언어모델",
+      "source_url": "https://www.kakaocorp.com/page/detail/12083",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "ai"
+      ],
+      "category": "other"
+    },
+    {
+      "id": "4e3e188e7981",
+      "korean": "멀티턴",
+      "vietnamese": "multi-turn (hội thoại nhiều lượt)",
+      "romanization": "meol-ti-teon",
+      "pos": "noun",
+      "meaning": "đối thoại nhiều vòng liên tiếp với AI",
+      "context": "AI",
+      "example": "멀티턴 대화",
+      "source_url": "https://www.kakaocorp.com/page/detail/12083",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "ai"
+      ],
+      "category": "other"
+    },
+    {
       "id": "eeeae8d67f6b",
       "korean": "뮤직비디오",
       "vietnamese": "MV / video ca nhạc",
@@ -785,6 +857,24 @@
         "album"
       ],
       "category": "other"
+    },
+    {
+      "id": "98152c9c745c",
+      "korean": "민음사",
+      "vietnamese": "Minumsa",
+      "romanization": "min-eum-sa",
+      "pos": "proper_noun",
+      "meaning": "nhà xuất bản Hàn Quốc",
+      "context": "xuất bản",
+      "example": "민음사의 김민경 편집자",
+      "source_url": "https://www.kakaocorp.com/page/detail/12083",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "publisher"
+      ],
+      "category": "organization"
     },
     {
       "id": "799f6213e055",
@@ -986,6 +1076,24 @@
         "beauty"
       ],
       "category": "noun"
+    },
+    {
+      "id": "65696c354d76",
+      "korean": "브이로그",
+      "vietnamese": "vlog",
+      "romanization": "beu-i-ro-geu",
+      "pos": "noun",
+      "meaning": "video blog",
+      "context": "nội dung số",
+      "example": "브이로그 형식",
+      "source_url": "https://www.kakaocorp.com/page/detail/12083",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "content"
+      ],
+      "category": "other"
     },
     {
       "id": "4fa08cb8900e",
@@ -1638,6 +1746,24 @@
       "category": "other"
     },
     {
+      "id": "dc6f5639e6f8",
+      "korean": "옴니",
+      "vietnamese": "omni / omni-modal",
+      "romanization": "om-ni",
+      "pos": "adjective",
+      "meaning": "mô hình AI đa phương thức (text, giọng, ảnh…)",
+      "context": "AI",
+      "example": "옴니 모달 AI 모델",
+      "source_url": "https://www.kakaocorp.com/page/detail/12083",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "ai"
+      ],
+      "category": "other"
+    },
+    {
       "id": "8e24b1132e23",
       "korean": "와이쥐",
       "vietnamese": "YG Entertainment",
@@ -1672,6 +1798,24 @@
         "festival"
       ],
       "category": "other"
+    },
+    {
+      "id": "f856bb41b1bb",
+      "korean": "유병재",
+      "vietnamese": "Yoo Byung-jae",
+      "romanization": "yu-byeong-jae",
+      "pos": "proper_noun",
+      "meaning": "diễn viên hài / người dẫn chương trình",
+      "context": "giải trí",
+      "example": "개그맨 유병재",
+      "source_url": "https://www.kakaocorp.com/page/detail/12083",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "comedian"
+      ],
+      "category": "celebrity"
     },
     {
       "id": "5362a56b7642",
@@ -1872,6 +2016,24 @@
       "category": "location"
     },
     {
+      "id": "1a658d6fb0ba",
+      "korean": "조나단",
+      "vietnamese": "Jonathan",
+      "romanization": "jo-na-dan",
+      "pos": "proper_noun",
+      "meaning": "người dẫn chương trình / broadcaster tại Hàn",
+      "context": "truyền hình",
+      "example": "방송인 조나단",
+      "source_url": "https://www.kakaocorp.com/page/detail/12083",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "broadcaster"
+      ],
+      "category": "celebrity"
+    },
+    {
       "id": "4cad7da6e8bc",
       "korean": "조인성",
       "vietnamese": "Jo In-sung",
@@ -1996,6 +2158,44 @@
         "entertainment"
       ],
       "category": "noun"
+    },
+    {
+      "id": "f52b8741b9ad",
+      "korean": "카나나 오리지널",
+      "vietnamese": "Kanana-original",
+      "romanization": "ka-na-na o-ri-ji-neol",
+      "pos": "proper_noun",
+      "meaning": "series video giới thiệu Kanana-o trên YouTube Kakao",
+      "context": "marketing / AI",
+      "example": "영상 시리즈 Kanana-original",
+      "source_url": "https://www.kakaocorp.com/page/detail/12083",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "campaign",
+        "youtube"
+      ],
+      "category": "other"
+    },
+    {
+      "id": "63a938b3d6f7",
+      "korean": "카나나-오",
+      "vietnamese": "Kanana-o",
+      "romanization": "ka-na-na-o",
+      "pos": "proper_noun",
+      "meaning": "mô hình AI omni-modal tự phát triển của Kakao",
+      "context": "AI / công nghệ",
+      "example": "옴니 모달 AI 모델 Kanana-o",
+      "source_url": "https://www.kakaocorp.com/page/detail/12083",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "ai",
+        "kakao"
+      ],
+      "category": "other"
     },
     {
       "id": "5bcf865e3453",

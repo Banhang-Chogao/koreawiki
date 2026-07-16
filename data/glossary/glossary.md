@@ -1,7 +1,7 @@
 # KoreaWiki Translation Memory (Korean → Vietnamese)
 
-> Private linguistic asset. Updated: 2026-07-16T12:40:28+00:00
-> Entries: 140
+> Private linguistic asset. Updated: 2026-07-16T12:42:05+00:00
+> Entries: 151
 
 | Korean | Vietnamese | Context | Category | Source | Updated |
 |--------|------------|---------|----------|--------|---------|
@@ -24,6 +24,7 @@
 | 공시 | công bố thông tin / disclosure | tài chính / quản trị | noun | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 공식 | chính thức | thông cáo | adjective |  | 2026-07-16 |
 | 공정거래위원회 | Ủy ban Thương mại Công bằng (FTC) | pháp lý / chính sách | organization | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
+| 곽범 | Kwak Beom | giải trí | celebrity | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
 | 관계자 | người liên quan / nguồn tin | báo chí | noun |  | 2026-07-16 |
 | 관심을 받다 | nhận được sự quan tâm | truyền thông | phrase |  | 2026-07-16 |
 | 굿모닝 아메리카 | Good Morning America | truyền hình Mỹ | organization | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
@@ -35,6 +36,7 @@
 | 김호중 | Kim Ho-joong | giải trí / pháp lý | celebrity | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 나홍진 | Na Hong-jin | điện ảnh | celebrity | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 남배우 | nam diễn viên | ngành giải trí | noun |  | 2026-07-16 |
+| 넉살 | Nucksal | giải trí | celebrity | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
 | 넷플릭스 | Netflix | streaming | organization |  | 2026-07-16 |
 | 노 레이블스: 파트 02 | No Labels: Part 02 | âm nhạc | other | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 논란 | tranh cãi / scandal | truyền thông | noun |  | 2026-07-16 |
@@ -46,8 +48,11 @@
 | 디스패치 | Dispatch | báo chí | organization |  | 2026-07-16 |
 | 라인업 | lineup / danh sách nghệ sĩ | sự kiện | other | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 만기 출소 | xuất ngục đúng hạn / hết hạn chấp hành | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
+| 멀티모달 | multimodal / đa phương thức | AI | other | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
+| 멀티턴 | multi-turn (hội thoại nhiều lượt) | AI | other | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
 | 뮤직비디오 | MV / video ca nhạc | âm nhạc | noun |  | 2026-07-16 |
 | 미니 | mini album | âm nhạc | other | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
+| 민음사 | Minumsa | xuất bản | organization | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
 | 발표 | công bố / announcement | truyền thông | noun |  | 2026-07-16 |
 | 방송 | phát sóng / chương trình | truyền hình | noun |  | 2026-07-16 |
 | 방탄소년단 | BTS | K-pop | celebrity |  | 2026-07-16 |
@@ -59,6 +64,7 @@
 | 보호관찰 | giám sát bảo hộ / quản chế | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 부산 | Busan | địa danh | location |  | 2026-07-16 |
 | 뷰티 | làm đẹp / beauty | K-beauty | noun |  | 2026-07-16 |
+| 브이로그 | vlog | nội dung số | other | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
 | 블랙핑크 | BLACKPINK | K-pop | celebrity |  | 2026-07-16 |
 | 사전 예매 | đặt vé trước / pre-sale | phòng vé | other | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 서머배시 | Summer Bash | sự kiện / Mỹ | other | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
@@ -95,8 +101,10 @@
 | 예능 | chương trình giải trí / variety | truyền hình | noun |  | 2026-07-16 |
 | 예매율 | tỷ lệ đặt vé | phòng vé | other | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 오픈채팅 | open chat / phòng chat mở | KakaoTalk | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
+| 옴니 | omni / omni-modal | AI | other | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
 | 와이쥐 | YG Entertainment | công ty | organization |  | 2026-07-16 |
 | 월드 프리미어 | world premiere / ra mắt thế giới | điện ảnh / LHP | other | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
+| 유병재 | Yoo Byung-jae | giải trí | celebrity | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
 | 음원 | nhạc số / digital track | âm nhạc | noun |  | 2026-07-16 |
 | 음주운전 | lái xe khi say rượu | pháp lý / giao thông | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 이감 | chuyển trại / chuyển giam | tư pháp / cải tạo | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
@@ -108,6 +116,7 @@
 | 제이와이드 | JYP Entertainment | công ty | organization |  | 2026-07-16 |
 | 제작 | sản xuất | truyền thông | noun |  | 2026-07-16 |
 | 제주 | Jeju | địa danh | location |  | 2026-07-16 |
+| 조나단 | Jonathan | truyền hình | celebrity | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
 | 조인성 | Jo In-sung | điện ảnh | celebrity | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 주목받다 | được chú ý | truyền thông | verb |  | 2026-07-16 |
 | 징역 | án tù / hình phạt tù | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
@@ -115,6 +124,8 @@
 | 챗봇 | chatbot | AI / messaging | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
 | 출소 | xuất ngục / ra tù | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 출연 | tham gia / đóng vai | giải trí | noun |  | 2026-07-16 |
+| 카나나 오리지널 | Kanana-original | marketing / AI | other | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
+| 카나나-오 | Kanana-o | AI / công nghệ | other | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
 | 카카오 | Kakao | công nghệ / doanh nghiệp | organization | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
 | 카카오톡 | KakaoTalk | công nghệ | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
 | 카카오톡 채널 | KakaoTalk Channel | KakaoTalk | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
