@@ -5,18 +5,24 @@ agent: general
 
 # mm — Publish Korean News Article
 
-## Step 1 — Get URL
+## Step 1 — Get Input
 
 Prompt the user:
 
 ```
-Paste a Korean news article URL:
+Paste a Korean news article URL hoặc dán nội dung text thô:
 ```
 
-Accept exactly one URL.
+Accept **one** of the following:
+
+| Input type | How to handle |
+|---|---|
+| **URL** | Fetch webpage, extract title/body/author/date/image |
+| **Raw text** | Use the pasted text as article body. Ask user for: original newspaper name (tên báo gốc), publication date, author (nếu có) |
 
 ## Step 2 — Fetch & Extract
 
+**If input is a URL:**
 Fetch the webpage. Extract:
 
 - title
@@ -31,6 +37,11 @@ Fetch the webpage. Extract:
 - canonical URL
 
 Ignore ads, comments, recommendations, scripts, navigation.
+
+**If input is raw text:**
+- Use the pasted text as article body
+- Use newspaper name provided by user as source
+- Use provided date/author if available
 
 ## Step 3 — Translate into Vietnamese
 
@@ -109,7 +120,7 @@ Only if every QA check passes. If any validation fails, STOP, display errors, do
 - Never fabricate facts, dates, quotes, or image credits
 - Preserve factual accuracy
 - Produce original Vietnamese article, not a close translation
-- Cite original article URL in Sources section
+- Luôn dẫn nguồn ở cuối bài: nếu là URL → ghi dạng `Nguồn: [Tên báo] — [URL]`; nếu là text thô → ghi `Nguồn: [Tên báo gốc]`
 - Follow every rule in scientist.md
 - Never push failing code
 - Never bypass QA
