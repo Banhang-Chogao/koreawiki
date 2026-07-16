@@ -163,6 +163,23 @@
 
 ---
 
+## Entry 011 — 2026-07-16: Article content merged but not deployed (workflow cancelled by newer push)
+
+**Error:** Bài viết mới được thêm trong commit `49ac4d5` (file `.md` + ảnh) nhưng không xuất hiện trên GitHub Pages.
+
+**Root Cause:** Commit `49ac4d5` trigger workflow run `29476989154`, nhưng bị **cancel** vì commit mới hơn (`ee90910`) được push lên cùng lúc. Commit `ee90910` chỉ update `shortcuts.md` chứ không include nội dung bài viết, nên deploy thành công nhưng thiếu nội dung.
+
+**Fix:** Push một empty commit để trigger lại workflow:
+```bash
+git commit --allow-empty -m "redeploy article" && git push
+```
+
+**Detection:** Kiểm tra GitHub Actions — thấy commit chứa nội dung article có status `cancelled` với annotation "Canceling since a higher priority waiting request for pages exists".
+
+**Prevention:** Khi push nhiều commit liên tiếp, đợi workflow hiện tại chạy xong trước khi push commit mới. Nếu workflow bị cancel, push empty commit để trigger lại.
+
+---
+
 To re-apply all known fixes to fresh content:
 
 ### Fix missing `draft` field
