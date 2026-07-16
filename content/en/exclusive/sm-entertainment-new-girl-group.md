@@ -43,6 +43,7 @@ faq:
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
 SEOUL - Đằng sau những cánh cửa kính không có dấu vết của một tòa nhà bình thường ở Seongnam, cách Seoul 20 phút về phía nam, thế hệ K-pop tiếp theo đang được tập hợp với độ chính xác của quân đội.
 KoreaWiki đã được cấp quyền truy cập độc quyền vào "Trung tâm đào tạo NEO" mới hoàn thành của SM Entertainment, một cơ sở trị giá 50 tỷ Yên nơi nhóm nhạc nữ tiếp theo của công ty — hiện tại
 mật danh "Dự án Iris" - đã được đào tạo trong 18 tháng qua.
@@ -68,16 +69,14 @@ một số thành viên chơi nhạc cụ. Album đầu tay, dự kiến ra mắ
 
 Người phát ngôn của SM Entertainment từ chối bình luận về chi tiết cụ thể nhưng xác nhận rằng nhóm nhạc nữ mới sẽ ra mắt vào quý 1 năm 2027.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Ji-Yeon Park** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "Exclusive: On Set With 'Goryeo Dreams' — Inside KBS's Most Ambitious Period Drama"
+  - title: "Độc quyền: Trên trường quay 'Goryeo Dreams' — Bên trong bộ phim cổ trang đầy tham vọng nhất của KBS"
     url: "en/exclusive/behind-the-scenes-goryeo-drama/"
-  - title: "Exclusive: BTS Members Weigh In on Group Future — 'We Will Come Back When the Story Requires It'"
+  - title: "Độc quyền: Các thành viên BTS cân nhắc về tương lai của nhóm - 'Chúng tôi sẽ quay lại khi câu chuyện yêu cầu'"
     url: "en/exclusive/bts-members-individual-futures/"
 {{< /article-footer >}}

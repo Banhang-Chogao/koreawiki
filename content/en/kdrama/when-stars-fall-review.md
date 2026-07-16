@@ -46,6 +46,7 @@ faq:
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
 Bộ phim cổ trang mới nhất của Studio Dragon, "Khi vì sao rơi", khởi chiếu trên tvN vào ngày 5 tháng 7 với tỷ suất người xem cao nhất cho bất kỳ bộ phim truyền hình thứ sáu-thứ bảy nào trong năm 2026,
 và sau bốn tập, rõ ràng là
 tại sao. Đây là bộ phim lịch sử đầy tham vọng nhất — một thiên anh hùng ca dài 16 tập đan xen sự sụp đổ của văn phòng thiên văn học triều đại Joseon với mối tình lãng mạn bị cấm đoán giữa một hoàng
@@ -73,16 +74,14 @@ lần đầu tiên kể từ "The Red Handle", đã tạo ra một câu chuyện
 Với kinh phí được báo cáo là 45 tỷ Yên, "Khi vì sao rơi" là một trong những bộ phim truyền hình Hàn Quốc đắt nhất từng được sản xuất. Dựa trên bốn tập đầu tiên, mọi chiến thắng đều được hiển thị trên
 màn hình.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Ji-Yeon Park** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "Park Seo-joon and Jun Ji-hyun Confirmed for 'The Seoul Agency' — Netflix's Most Expensive Drama Series Ever"
+  - title: "Park Seo-joon & Jun Ji-hyun vào 'The Seoul Agency' — drama Netflix kỷ lục"
     url: "en/kdrama/casting-announcement-july-2026/"
-  - title: "KBS Announces 2027 Sageuk Lineup Including 'The Last Admiral' and 'Goryeo Dreams'"
+  - title: "KBS công bố đội hình Sageuk năm 2027 bao gồm 'Đô đốc cuối cùng' và 'Giấc mơ Goryeo'"
     url: "en/kdrama/kbs-sageuk-slot-2027/"
 {{< /article-footer >}}

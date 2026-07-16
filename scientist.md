@@ -523,6 +523,26 @@ skipped images even when the source had a lead photo.
 
 ---
 
+## Entry AUTO — 2026-07-16: Self-healing recovery
+
+**Trigger:** CI/CD failure (workflow run `29503489374`)
+
+**Root causes:**
+- build	Run QA	2026-07-16T13:44:48.4441142Z Found 36 markdown issues:
+- build	Run QA	2026-07-16T13:44:48.4508437Z ##[error]Process completed with exit code 1.
+
+**Categories:** hugo, markdown, python_qa, seo, frontmatter, images, workflow, dependency
+
+**Auto-fixes applied:** article_features, markdown_format, slugs
+
+**Validation:** GREEN
+
+**Report:** `reports/self-healing/20260716T134509Z-29503489374`
+
+**Prevention:** Self-healing workflow re-runs on next failure (max 5 rounds).
+
+---
+
 To re-apply all known fixes to fresh content:
 
 ### Fix missing `draft` field

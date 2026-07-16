@@ -44,6 +44,7 @@ faq:
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
 KBS đã công bố dòng phim cổ trang năm 2027 vào thứ Ba, xác nhận ba tác phẩm cổ trang lớn mà đài truyền hình đại chúng hy vọng sẽ lấy lại di sản là quê hương của
 Kể chuyện lịch sử Hàn Quốc. Danh sách phim bao gồm The Last Admiral, bộ phim truyền hình dài 24 tập về chiến dịch cuối cùng của Đô đốc Yi Sun-sin; "Giấc mơ Goryeo", một câu chuyện tình lãng mạn lấy
 bối cảnh thời kỳ
@@ -69,15 +70,13 @@ kỹ xảo điện ảnh hiện đại.
 
 Cả ba bộ phim đều dự kiến ​​phát sóng vào năm 2027, trong đó The Last Admiral dự kiến ​​sẽ ra mắt vào tháng 3.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Soo-Jin Choi** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "Park Seo-joon and Jun Ji-hyun Confirmed for 'The Seoul Agency' — Netflix's Most Expensive Drama Series Ever"
+  - title: "Park Seo-joon & Jun Ji-hyun vào 'The Seoul Agency' — drama Netflix kỷ lục"
     url: "en/kdrama/casting-announcement-july-2026/"
   - title: "'Kim Bu-jang' — Khi hương vị quen thuộc trở thành cơn nghiện mạnh mẽ"
     url: "en/kdrama/kim-bujang-drama-review-2026/"

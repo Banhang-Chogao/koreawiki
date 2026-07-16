@@ -1,66 +1,75 @@
 ---
-title: "Thái Lan mở rộng đường bay với Việt Nam và UAE: Vietnam Airlines, flydubai và AFIS"
-description: >
-  Bangkok Post (16/7/2026): Airports of Thailand hợp tác Vietnam Airlines (HCMC–Phuket)
-  và flydubai (Dubai–Bangkok); song song chuẩn bị hệ AFIS tại sân bay vùng, pilot Phrae
-  và Phetchabun trước 2028.
+title: 'Thái Lan mở rộng đường bay với Việt Nam và UAE: Vietnam Airlines, flydubai
+  và AFIS'
+description: 'Bangkok Post (16/7/2026): Airports of Thailand hợp tác Vietnam Airlines
+  (HCMC–Phuket) và flydubai (Dubai–Bangkok); song song chuẩn bị hệ AFIS tại sân bay
+  vùng, pilot Phrae và Phetchabun trước 2028.
+
+  '
 date: 2026-07-16
 lastmod: 2026-07-16
 source_date: 2026-07-16
 draft: false
-author: "KoreaWiki Newsroom"
+author: KoreaWiki Newsroom
 cover:
   image: images/2026/07/thailand-air-links-vietnam-uae-cover.jpg
-  alt: "Hành khách xếp hàng check-in tại sân bay Suvarnabhumi, Thái Lan"
-  caption: "Suvarnabhumi — Ảnh file Bangkok Post"
+  alt: Hành khách xếp hàng check-in tại sân bay Suvarnabhumi, Thái Lan
+  caption: Suvarnabhumi — Ảnh file Bangkok Post
 tags:
-  - thailand
-  - bangkok
-  - aviation
-  - vietnam
-  - uae
-  - tourism
-  - travel
+- thailand
+- bangkok
+- aviation
+- vietnam
+- uae
+- tourism
+- travel
 categories:
-  - News
+- News
 keywords:
-  - airports of thailand
-  - vietnam airlines
-  - flydubai
-  - phuket
-  - afis
-  - aerothai
-  - suvarnabhumi
+- airports of thailand
+- vietnam airlines
+- flydubai
+- phuket
+- afis
+- aerothai
+- suvarnabhumi
 slug: thai-lan-mo-rong-duong-bay-voi-viet-nam-va-uae-vietnam-airlines-flydubai-va-afis
 faq:
-  - q: "Bài Bangkok Post nói về chuyện gì?"
-    a: >
-      **Airports of Thailand (AoT)** mở rộng liên kết hàng không quốc tế qua đối
-      tác **Vietnam Airlines** và **flydubai**, đồng thời Thái Lan chuẩn bị hệ
-      quản lý không lưu **AFIS** tại sân bay vùng.
-  - q: "Đường bay Việt Nam–Thái mới là gì?"
-    a: >
-      Vietnam Airlines khai thác **Ho Chi Minh City–Phuket** từ **2/7**, **4
-      chuyến/tuần**, khoảng **39.500 ghế/năm**. Nửa đầu năm Việt Nam gửi hơn
-      **300.000** khách tới Thái Lan (theo bài).
-  - q: "flydubai tăng tần suất ra sao?"
-    a: >
-      **Daily Dubai–Bangkok** từ **1/7**; kế hoạch **2 chuyến/ngày từ 15/9**,
-      nâng tổng chuyến **Dubai–Thái Lan** lên tới **28 chuyến/tuần**.
-  - q: "AFIS là gì và pilot ở đâu?"
-    a: >
-      **Aerodrome Flight Information Service** — dịch vụ thông tin bay sân bay,
-      hướng tới sân bay **lưu lượng thấp**. Pilot tại **Phrae** và **Phetchabun**
-      trước **2028** (theo phát ngôn chính phủ trên Bangkok Post).
-  - q: "Ai phát ngôn về AFIS?"
-    a: >
-      **Lalida Persvivatana**, phó phát ngôn viên chính phủ; Bộ Giao thông yêu cầu
-      **Aerothai** triển khai AFIS.
-  - q: "Nguồn bài KoreaWiki?"
-    a: >
-      Tổng hợp tiếng Việt từ **Bangkok Post** (16/7/2026, 17:16). Ảnh file
-      Suvarnabhumi theo credit Bangkok Post. Không thay thế bản gốc.
+- q: Bài Bangkok Post nói về chuyện gì?
+  a: '**Airports of Thailand (AoT)** mở rộng liên kết hàng không quốc tế qua đối tác
+    **Vietnam Airlines** và **flydubai**, đồng thời Thái Lan chuẩn bị hệ quản lý không
+    lưu **AFIS** tại sân bay vùng.
+
+    '
+- q: Đường bay Việt Nam–Thái mới là gì?
+  a: 'Vietnam Airlines khai thác **Ho Chi Minh City–Phuket** từ **2/7**, **4 chuyến/tuần**,
+    khoảng **39.500 ghế/năm**. Nửa đầu năm Việt Nam gửi hơn **300.000** khách tới
+    Thái Lan (theo bài).
+
+    '
+- q: flydubai tăng tần suất ra sao?
+  a: '**Daily Dubai–Bangkok** từ **1/7**; kế hoạch **2 chuyến/ngày từ 15/9**, nâng
+    tổng chuyến **Dubai–Thái Lan** lên tới **28 chuyến/tuần**.
+
+    '
+- q: AFIS là gì và pilot ở đâu?
+  a: '**Aerodrome Flight Information Service** — dịch vụ thông tin bay sân bay, hướng
+    tới sân bay **lưu lượng thấp**. Pilot tại **Phrae** và **Phetchabun** trước **2028**
+    (theo phát ngôn chính phủ trên Bangkok Post).
+
+    '
+- q: Ai phát ngôn về AFIS?
+  a: '**Lalida Persvivatana**, phó phát ngôn viên chính phủ; Bộ Giao thông yêu cầu
+    **Aerothai** triển khai AFIS.
+
+    '
+- q: Nguồn bài KoreaWiki?
+  a: 'Tổng hợp tiếng Việt từ **Bangkok Post** (16/7/2026, 17:16). Ảnh file Suvarnabhumi
+    theo credit Bangkok Post. Không thay thế bản gốc.
+
+    '
 ---
+
 
 **Bangkok Post** đăng tin **16 tháng 7 năm 2026** (17:16) với tiêu đề *Thailand
 expands air links with Vietnam and UAE*. Nội dung gồm hai nhánh liên quan ngành
@@ -357,13 +366,17 @@ Nguồn: Bangkok Post — https://www.bangkokpost.com/thailand/general/3286885/t
 source: "Bangkok Post"
 source_url: "https://www.bangkokpost.com/thailand/general/3286885/thailand-expands-air-links-with-vietnam-and-uae"
 copyright: >
-  Một phần nội dung tham khảo từ
-  [Bangkok Post](https://www.bangkokpost.com/thailand/general/3286885/thailand-expands-air-links-with-vietnam-and-uae)
-  (16/7/2026). Ảnh file Suvarnabhumi theo credit Bangkok Post. Bài KoreaWiki chỉ
-  tổng hợp và biên tập tiếng Việt phục vụ độc giả — không thay thế bản gốc hay
-  thông cáo chính thức của hãng/cơ quan liên quan.
+  Một phần thông tin trong bài được tham khảo từ [Bangkok
+  Post](https://www.bangkokpost.com/thailand/general/3286885/thailand-expands-air-links-with-vietnam-and-uae).
+  Mọi thương hiệu, hình ảnh và tài liệu gốc thuộc quyền sở hữu của chủ sở hữu tương ứng.
+  Bài viết trên KoreaWiki chỉ tổng hợp, biên tập và phân tích phục vụ độc giả — không thay
+  thế thông cáo hay tài liệu chính thức.
 external:
-  - title: "Bangkok Post — Thailand expands air links with Vietnam and UAE"
+  - title: "Bangkok Post"
     url: "https://www.bangkokpost.com/thailand/general/3286885/thailand-expands-air-links-with-vietnam-and-uae"
-internal: []
+internal:
+  - title: "Ngân hàng Trung ương Hàn Quốc tăng lãi suất cơ sở 0,25 điểm phần trăm — thắt chặt sau 3 năm 6 tháng"
+    url: "en/news/bok-raises-base-rate-0-25-july-2026/"
+  - title: "Tòa Hàn Quốc đình chỉ lệnh FTC xác định Bom Kim là người kiểm soát Coupang"
+    url: "en/news/court-suspends-ftc-coupang-bom-kim-controller-2026/"
 {{< /article-footer >}}

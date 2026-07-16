@@ -46,6 +46,7 @@ faq:
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
 Khi LE SSERAFIM phát hành video âm nhạc cho đĩa đơn tháng 6 "Firefly", nó đã được xem 78 triệu lần trong tuần đầu tiên. Đoạn video này là một đoạn phim dài bốn phút liên quan đến một
 Seoul hậu tận thế, vũ đạo phức tạp trong bối cảnh đầy nước và các sinh vật CGI được thực hiện bởi cùng một studio từng làm phim "The Host", tiêu tốn 2,3 tỷ Yên để sản xuất. Đó là
 trong số những video âm nhạc đắt giá nhất trong lịch sử K-pop - nhưng nó không có nghĩa là ngoại lệ.
@@ -71,16 +72,14 @@ một video âm nhạc duy nhất từ ý tưởng đến bản cắt cuối cù
 
 Khi phát trực tuyến trở thành phương thức tiêu thụ âm nhạc chiếm ưu thế, video âm nhạc trở nên quan trọng hơn bao giờ hết. Và các đạo diễn Hàn Quốc đang đặt ra tiêu chuẩn toàn cầu.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Hyun-Woo Lee** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "Inside Korea's Creator Economy Boom"
+  - title: "Bên trong sự bùng nổ nền kinh tế sáng tạo của Hàn Quốc"
     url: "en/videos/korean-creator-economy-boom/"
-  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+  - title: "Kỷ nguyên solo của SUGA: Min Yoon-gi đã định nghĩa lại ý nghĩa của việc trở thành một nghệ sĩ K-Pop như thế nào"
     url: "en/artist/bts-suga-solo-artist-profile/"
 {{< /article-footer >}}

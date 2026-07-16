@@ -45,6 +45,7 @@ faq:
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
 Tại nhà hàng Balwoo được gắn sao Michelin ở Jongno-gu, Seoul, bữa tối là một trải nghiệm thiền định. Thực đơn nếm thử 12 món không có thịt, không cá, không tỏi, không hành -
 năm thành phần cay (ohshinchae) bị cấm trong nấu ăn của tu viện Phật giáo. Những gì nó chứa đựng là sự tiết lộ về những gì ẩm thực Hàn Quốc có thể đạt được trong những giới hạn: tinh tế
 cháo củ sen, namul rau núi có hương vị nền rừng, beondegi (bột đậu nành lên men) đã ủ được bảy năm và món tráng miệng là món yakbap thơm quế
@@ -70,16 +71,14 @@ Xu hướng có chân thương mại. Seoul hiện tự hào có ít nhất 8 nh
 các nhà hàng đã mở ở New York, London và Tokyo, trong đó nhà hàng "Baru" ở Khu phố Hàn Quốc của Manhattan đã giành được Bib Gourmand từ Michelin vào năm 2025. Tổ chức Du lịch Hàn Quốc đã bổ sung thêm
 trải nghiệm ẩm thực chùa vào các hành trình du lịch chính thức, mang đến cho du khách cơ hội dùng bữa tại các tu viện trên núi như một phần của chương trình lưu trú tại chùa.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Ji-Yeon Park** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "Sinchon's Street Food Revolution: Why Seoul's University District Is the Best Place to Eat in Korea"
+  - title: "Cuộc cách mạng ẩm thực đường phố ở Sinchon: Tại sao khu đại học của Seoul là nơi ăn uống tốt nhất ở Hàn Quốc"
     url: "en/food/sinchon-korean-street-food-guide/"
-  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+  - title: "Kỷ nguyên solo của SUGA: Min Yoon-gi đã định nghĩa lại ý nghĩa của việc trở thành một nghệ sĩ K-Pop như thế nào"
     url: "en/artist/bts-suga-solo-artist-profile/"
 {{< /article-footer >}}

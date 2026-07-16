@@ -43,6 +43,7 @@ faq:
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
 Vào ngày 12 tháng 7, "Running Man" đã đạt được điều mà chưa chương trình tạp kỹ Hàn Quốc nào làm được: 600 tập. Chương trình chủ lực của đài SBS phát sóng lần đầu ngày 11/7/2010 đã sống sót
 thay đổi dàn diễn viên, phát triển định dạng, sự gia tăng của dịch vụ phát trực tuyến, đại dịch toàn cầu và tính chất hay thay đổi của khán giả truyền hình Hàn Quốc. Tuổi thọ của nó là minh chứng cho
 sức mạnh của một tiền đề đơn giản, xuất sắc được thực hiện bằng trái tim nhất quán và sự hài hước.
@@ -65,16 +66,14 @@ Yoo Jae-suk, "MC quốc dân", người dẫn chương trình suốt 600 tập, 
 vào Chủ nhật —
 đó là một đặc ân. Cảm ơn bạn vì 600 tập. Chúng tôi sẽ cố gắng kiếm thêm 600 nữa."
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Hyun-Woo Lee** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "'Street Woman Fighter' Season 3: Mnet Bets Big on Global Expansion with International Dance Crews"
+  - title: "'Street Woman Fighter' Mùa 3: Mnet đặt cược lớn vào việc mở rộng toàn cầu với các nhóm nhảy quốc tế"
     url: "en/tv/mnet-street-woman-fighter-season-3/"
-  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+  - title: "Kỷ nguyên solo của SUGA: Min Yoon-gi đã định nghĩa lại ý nghĩa của việc trở thành một nghệ sĩ K-Pop như thế nào"
     url: "en/artist/bts-suga-solo-artist-profile/"
 {{< /article-footer >}}

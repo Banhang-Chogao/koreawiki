@@ -46,6 +46,7 @@ faq:
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
 Điện ảnh Hàn Quốc đang tận hưởng một mùa hè đáng chú ý tại phòng vé trong nước, với các tựa phim địa phương chiếm sáu trong mười vị trí dẫn đầu trong tuần đầu tiên của tháng Bảy. Xu hướng nhấn mạnh
 điều mà các nhà phân tích trong ngành mô tả là "thời kỳ phục hưng điện ảnh Hàn Quốc" bền vững với thị phần trong nước dao động trên 55% trong nửa đầu năm 2026, con số cao nhất kể từ đó.
 sự bùng nổ hậu "Ký sinh trùng" của năm 2020.
@@ -67,16 +68,14 @@ phim đã đạt được.
 Các tựa phim địa phương khác hoạt động tốt bao gồm bộ phim hài lãng mạn Love in Gangnam, đã âm thầm tích lũy 18 tỷ won, và bộ phim hoạt hình Yeoubi: The Fox Star, bộ phim đã thu về 18 tỷ won.
 đã trở thành một bộ phim gây bất ngờ với khán giả gia đình, thu về 12 tỷ Yên so với kinh phí sản xuất khiêm tốn 3 tỷ Yên.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Min-Jun Kim** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "'Harbinger' Review: Bong Joon-ho Returns with a Dystopian Masterpiece That Rivals 'Parasite'"
+  - title: "Đánh giá 'Harbinger': Bong Joon-ho trở lại với một kiệt tác đen tối sánh ngang với 'Parasite'"
     url: "en/movies/harbinger-review/"
-  - title: "Phim 'Hope' của đạo diễn Na Hong-jin đạt doanh thu mở màn cao nhất năm 2026"
-    url: "en/movies/hope-opening-day-box-office-2026/"
+  - title: "Phim 'Hope' của Na Hong-jin vượt 500.000 vé đặt trước, tỷ lệ 65,7%"
+    url: "en/movies/hope-movie-presale-500k-2026/"
 {{< /article-footer >}}

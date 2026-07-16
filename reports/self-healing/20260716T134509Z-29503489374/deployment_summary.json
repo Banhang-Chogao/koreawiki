@@ -1,0 +1,6 @@
+{
+  "timestamp": "2026-07-16T13:45:12+00:00",
+  "status": "recovered",
+  "deploy_forced": false,
+  "note": "Deploy only after validations are green via normal Build & Deploy workflow."
+}

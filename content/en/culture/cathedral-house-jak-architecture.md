@@ -1,7 +1,8 @@
 ---
-title: 'Cathedral House / JAK Architecture: nhà nghỉ cuối tuần nhìn dãy Cathedral Ranges'
-description: Ngôi nhà 245 m² tại Thornton, Victoria — retreat gia đình ít bảo trì, gắn cảnh
-  quan nông thôn. Ảnh Tasha Tylee; đăng ArchDaily 15/7/2026.
+title: 'Cathedral House / JAK Architecture: nhà nghỉ cuối tuần nhìn dãy Cathedral
+  Ranges'
+description: Ngôi nhà 245 m² tại Thornton, Victoria — retreat gia đình ít bảo trì,
+  gắn cảnh quan nông thôn. Ảnh Tasha Tylee; đăng ArchDaily 15/7/2026.
 date: 2026-07-16
 lastmod: 2026-07-16
 source_date: 2026-07-15
@@ -31,17 +32,19 @@ keywords:
 slug: cathedral-house-jak-architecture-nha-nghi-cuoi-tuan-nhin-day-cathedral-ranges
 faq:
 - q: Cathedral House nằm ở đâu?
-  a: Thornton, bang Victoria, Australia — sườn đồi nông thôn nhìn ra dãy Cathedral Ranges.
+  a: Thornton, bang Victoria, Australia — sườn đồi nông thôn nhìn ra dãy Cathedral
+    Ranges.
 - q: Ai thiết kế và quy mô thế nào?
-  a: 'JAK Architecture; khoảng 245 m²; hoàn thành năm 2026 theo hồ sơ ArchDaily. Ảnh: Tasha
-    Tylee.'
+  a: 'JAK Architecture; khoảng 245 m²; hoàn thành năm 2026 theo hồ sơ ArchDaily. Ảnh:
+    Tasha Tylee.'
 - q: Công trình phục vụ mục đích gì?
-  a: Nhà nghỉ cuối tuần cho gia đình — sống dễ bảo trì, gắn cảnh quan; chỗ tiếp khách, thư
-    giãn và có mặt với xung quanh.
+  a: Nhà nghỉ cuối tuần cho gia đình — sống dễ bảo trì, gắn cảnh quan; chỗ tiếp khách,
+    thư giãn và có mặt với xung quanh.
 - q: Ai xây và styling nội thất?
-  a: 'Nhà thầu Hedger Construction; interior styling Sylvie Goetz. Vật liệu/nhãn theo hồ sơ:
-    Eco Outdoor, Eco Timber, Fibonacci Stone, Laminex…'
+  a: 'Nhà thầu Hedger Construction; interior styling Sylvie Goetz. Vật liệu/nhãn theo
+    hồ sơ: Eco Outdoor, Eco Timber, Fibonacci Stone, Laminex…'
 ---
+
 
 **Cathedral House** là công trình nhà ở mới của **JAK Architecture** tại **Thornton** (Victoria,
 Australia), tọa lạc trên sườn đồi nông thôn nhìn ra dãy **Cathedral Ranges**. Theo mô tả do
@@ -125,15 +128,19 @@ không suy diễn số liệu ngoài bảng specs công khai. Ảnh © **Tasha T
 source: "ArchDaily — Cathedral House / JAK Architecture"
 source_url: "https://www.archdaily.com/1092490/cathedral-house-jak-architecture"
 copyright: >
-  Tóm lược / Việt hóa bởi **KoreaWiki Culture Desk** dựa trên hồ sơ dự án JAK Architecture
-  đăng trên ArchDaily. Ảnh: **Tasha Tylee**. Bản quyền hình ảnh và nội dung gốc thuộc chủ
-  sở hữu tương ứng; dùng với mục đích thông tin.
+  Một phần thông tin trong bài được tham khảo từ [ArchDaily — Cathedral House / JAK
+  Architecture](https://www.archdaily.com/1092490/cathedral-house-jak-architecture). Mọi
+  thương hiệu, hình ảnh và tài liệu gốc thuộc quyền sở hữu của chủ sở hữu tương ứng. Bài
+  viết trên KoreaWiki chỉ tổng hợp, biên tập và phân tích phục vụ độc giả — không thay thế
+  thông cáo hay tài liệu chính thức.
 external:
-  - title: "Cathedral House / JAK Architecture — ArchDaily"
+  - title: "archdaily.com"
     url: "https://www.archdaily.com/1092490/cathedral-house-jak-architecture"
-  - title: "JAK Architecture (office)"
+  - title: "archdaily.com"
     url: "https://www.archdaily.com/office/jak-architecture"
 internal:
-  - title: "Tu viện Our Lady of Victoria — Localworks, Uganda"
-    url: "en/culture/tu-vien-our-lady-of-victoria-kien-truc-gach-do-cua-localworks-o-uganda/"
+  - title: "Anne's Library — Nhà xuất bản Hàn Quốc hạ thấp rào cản tiếp cận văn học cổ điển và nghệ thuật"
+    url: "en/culture/annes-library-publishing-house-profile/"
+  - title: "Barcelona architecture city guide: 30 điểm từ Gaudí đến siêu khối đô thị"
+    url: "en/culture/barcelona-architecture-city-guide/"
 {{< /article-footer >}}

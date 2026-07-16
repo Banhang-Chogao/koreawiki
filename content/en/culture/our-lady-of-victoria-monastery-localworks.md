@@ -1,6 +1,8 @@
 ---
-title: "Tu viện Our Lady of Victoria: kiến trúc gạch đỏ của Localworks ở Uganda"
-description: "Văn phòng Localworks mở rộng tu viện Cistercian Trappist tại Kijonjo bằng bốn khối gạch đất sét quanh ba sân trong — nhà thờ, noviciate, nhà khách và cổng."
+title: 'Tu viện Our Lady of Victoria: kiến trúc gạch đỏ của Localworks ở Uganda'
+description: Văn phòng Localworks mở rộng tu viện Cistercian Trappist tại Kijonjo
+  bằng bốn khối gạch đất sét quanh ba sân trong — nhà thờ, noviciate, nhà khách và
+  cổng.
 date: 2026-07-16
 lastmod: 2026-07-16
 source_date: 2026-04-30
@@ -8,8 +10,8 @@ draft: false
 author: KoreaWiki Culture Desk
 cover:
   image: images/2026/07/our-lady-of-victoria-monastery-localworks-cover.jpg
-  alt: "Mặt ngoài tu viện Our Lady of Victoria, Kijonjo, Uganda — Localworks"
-  caption: "Our Lady of Victoria Monastery — Ảnh: Will Boase / ArchDaily"
+  alt: Mặt ngoài tu viện Our Lady of Victoria, Kijonjo, Uganda — Localworks
+  caption: 'Our Lady of Victoria Monastery — Ảnh: Will Boase / ArchDaily'
 tags:
 - architecture
 - monastery
@@ -30,14 +32,19 @@ keywords:
 slug: tu-vien-our-lady-of-victoria-kien-truc-gach-do-cua-localworks-o-uganda
 faq:
 - q: Our Lady of Victoria Monastery nằm ở đâu?
-  a: Tu viện tọa lạc tại Kijonjo, Uganda. Cộng đồng tu sĩ Cistercian Trappist chuyển từ Kenya sang Uganda năm 2008 sau bất ổn hậu bầu cử.
+  a: Tu viện tọa lạc tại Kijonjo, Uganda. Cộng đồng tu sĩ Cistercian Trappist chuyển
+    từ Kenya sang Uganda năm 2008 sau bất ổn hậu bầu cử.
 - q: Localworks thiết kế những khối nào?
-  a: Bốn khối mới — Nhà thờ (Church), Noviciate, Nhà khách (Guesthouse) và Cổng (Gatehouse) — bố cục quanh ba sân trong, hoàn thiện bằng gạch đất sét chi tiết.
+  a: Bốn khối mới — Nhà thờ (Church), Noviciate, Nhà khách (Guesthouse) và Cổng (Gatehouse)
+    — bố cục quanh ba sân trong, hoàn thiện bằng gạch đất sét chi tiết.
 - q: Quy mô và năm hoàn thành là gì?
-  a: Theo hồ sơ ArchDaily, công trình khoảng 2.000 m², hoàn thành năm 2021. Ảnh dự án do Will Boase thực hiện.
+  a: Theo hồ sơ ArchDaily, công trình khoảng 2.000 m², hoàn thành năm 2021. Ảnh dự
+    án do Will Boase thực hiện.
 - q: Vì sao cần mở rộng tu viện?
-  a: Đề xuất kiến trúc đáp ứng yêu cầu nhân đôi quy mô tu viện hiện hữu để chứa cộng đồng tu sĩ đang phát triển.
+  a: Đề xuất kiến trúc đáp ứng yêu cầu nhân đôi quy mô tu viện hiện hữu để chứa cộng
+    đồng tu sĩ đang phát triển.
 ---
+
 
 Tu viện **Our Lady of Victoria** vốn được thành lập tại Kenya năm 1952. Cộng đồng tu sĩ dòng
 **Cistercian Trappist** chuyển sang Uganda năm 2008 sau bất ổn hậu bầu cử ở Kenya, và định cư tại
@@ -132,17 +139,20 @@ Will Boase / ArchDaily, dùng với mục đích thông tin.
 source: "ArchDaily — Our Lady of Victoria Monastery / Localworks"
 source_url: "https://www.archdaily.com/975033/our-lady-of-victoria-monastery-localworks"
 copyright: >
-  Tóm lược / Việt hóa bởi **KoreaWiki Culture Desk** dựa trên hồ sơ dự án Localworks
-  đăng trên ArchDaily. Ảnh: **Will Boase**. Bản quyền hình ảnh và nội dung gốc thuộc
-  chủ sở hữu tương ứng; dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Một phần thông tin trong bài được tham khảo từ [ArchDaily — Our Lady of Victoria
+  Monastery /
+  Localworks](https://www.archdaily.com/975033/our-lady-of-victoria-monastery-localworks).
+  Mọi thương hiệu, hình ảnh và tài liệu gốc thuộc quyền sở hữu của chủ sở hữu tương ứng.
+  Bài viết trên KoreaWiki chỉ tổng hợp, biên tập và phân tích phục vụ độc giả — không thay
+  thế thông cáo hay tài liệu chính thức.
 external:
-  - title: "Our Lady of Victoria Monastery / Localworks — ArchDaily"
+  - title: "archdaily.com"
     url: "https://www.archdaily.com/975033/our-lady-of-victoria-monastery-localworks"
-  - title: "Localworks (office profile)"
+  - title: "archdaily.com"
     url: "https://www.archdaily.com/office/localworks"
 internal:
-  - title: "Liên hoan phim độc lập Incheon lần thứ 13"
-    url: "en/culture/lien-hoan-phim-doc-lap-incheon-lan-thu-13-giu-gin-goc-re-k-content-tu-vung-dia-phuong/"
-  - title: "Anne's Library — Nhà xuất bản Hàn Quốc hạ thấp rào cản tiếp cận văn học cổ điển"
-    url: "en/culture/annes-library-nha-xuat-ban-han-quoc-ha-thap-rao-can-tiep-can-van-hoc-co-dien-va-nghe-thuat/"
+  - title: "Anne's Library — Nhà xuất bản Hàn Quốc hạ thấp rào cản tiếp cận văn học cổ điển và nghệ thuật"
+    url: "en/culture/annes-library-publishing-house-profile/"
+  - title: "Barcelona architecture city guide: 30 điểm từ Gaudí đến siêu khối đô thị"
+    url: "en/culture/barcelona-architecture-city-guide/"
 {{< /article-footer >}}

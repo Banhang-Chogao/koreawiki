@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-07-16T13:45:12+00:00",
+  "run_id": "29503489374",
+  "round": 1,
+  "max_rounds": 5,
+  "categories": [
+    "hugo",
+    "markdown",
+    "python_qa",
+    "seo",
+    "frontmatter",
+    "images",
+    "workflow",
+    "dependency"
+  ],
+  "root_causes": [
+    "build\tRun QA\t2026-07-16T13:44:48.4441142Z Found 36 markdown issues:",
+    "build\tRun QA\t2026-07-16T13:44:48.4508437Z ##[error]Process completed with exit code 1."
+  ],
+  "status": "recovered"
+}

@@ -47,6 +47,7 @@ faq:
 
 
 
+
 Sau 25 năm hoạt động trong làng giải trí Hàn Quốc, nam tài tử Gong Yoo lần đầu
 tiên tổ chức tour fan meeting xuyên châu Á, hứa hẹn mang đến những khoảnh khắc
 giao lưu khó quên cho người hâm mộ trên khắp khu vực.
@@ -111,7 +112,7 @@ copyright: >
   hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+  - title: "Kỷ nguyên solo của SUGA: Min Yoon-gi đã định nghĩa lại ý nghĩa của việc trở thành một nghệ sĩ K-Pop như thế nào"
     url: "en/artist/bts-suga-solo-artist-profile/"
   - title: "Choi Siwon (Super Junior) được tòa Mỹ cho phép truy xuất danh tính 10 anti-fan"
     url: "en/artist/choi-siwon-us-court-identity-disclosure-2026/"

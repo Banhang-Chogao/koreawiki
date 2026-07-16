@@ -44,6 +44,7 @@ faq:
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
 Trong khu sang trọng của Shinsegae Gangnam, cửa hàng bách hóa hàng đầu ở một trong những quận giàu có nhất của Seoul, một mô hình bán lẻ mới đã thu hút đám đông kể từ tháng 4.
 khai mạc. Không gian này là sự hợp tác giữa dòng sản phẩm làm đẹp cao cấp Sulwhasoo của Amorepacific và hãng thời trang Pháp Maison Margiela, không phải là quầy làm đẹp hay thời trang
 cửa hàng - đó là cả hai. Khách hàng có thể được cố vấn sắc đẹp AI của Sulwhasoo phân tích làn da của mình, sau đó duyệt qua bộ sưu tập quần áo may sẵn của Maison Margiela trong khi chờ đợi.
@@ -70,16 +71,14 @@ hạng mục xuất khẩu văn hóa đằng sau giải trí và thực phẩm. 
 hơn.
 thị trường xa xỉ toàn cầu.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "Seoul Fashion Week Fall/Winter 2026: Tradition, Tech, and a New Global Ambition"
+  - title: "Tuần lễ thời trang Seoul Thu Đông 2026: Truyền thống, Công nghệ và Tham vọng Toàn cầu Mới"
     url: "en/fashion/seoul-fashion-week-july-2026/"
-  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+  - title: "Kỷ nguyên solo của SUGA: Min Yoon-gi đã định nghĩa lại ý nghĩa của việc trở thành một nghệ sĩ K-Pop như thế nào"
     url: "en/artist/bts-suga-solo-artist-profile/"
 {{< /article-footer >}}

@@ -45,6 +45,7 @@ faq:
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
 Khi khán giả toàn cầu xem nội dung tiếng Hàn trên Netflix, họ thường trải nghiệm nội dung đó qua hai bản âm thanh riêng biệt: bản gốc tiếng Hàn và bản lồng tiếng Anh. Nhưng
 Bản thân phiên bản tiếng Hàn có thể có một diễn viên lồng tiếng mà hàng triệu người nghe giọng nói của họ hoàn toàn không biết đến khuôn mặt của họ. Điều đó đang thay đổi. Các diễn viên lồng tiếng
 đằng sau phim Hàn Quốc
@@ -72,16 +73,14 @@ Hàn Quốc
 
 "Lồng tiếng là diễn xuất," Kim Yeon-ah nói chắc chắn. "Chúng tôi không chỉ đọc chữ. Chúng tôi đang làm sống động các nhân vật. Thật vui khi cuối cùng thế giới cũng đã chú ý đến."
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Hyun-Woo Lee** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "Hallyu 2.0: How Korean Culture Evolved from Niche Export to Global Dominance"
+  - title: "Hallyu 2.0: Văn hóa Hàn Quốc phát triển như thế nào từ xuất khẩu thị trường ngách sang thống trị toàn cầu"
     url: "en/feature/hallyu-20-korean-culture-global-wave/"
-  - title: "Seongsu-dong: How Seoul's Industrial Wasteland Became the Coolest Neighborhood in Asia"
-    url: "en/feature/seongsu-dong-transformation/"
+  - title: "Từ sinh viên đến kỹ sư Kakao: Hành trình học DB, bảo mật và AI qua chương trình onboarding cho tân binh"
+    url: "en/feature/kakao-new-krew-onboarding-2026/"
 {{< /article-footer >}}
