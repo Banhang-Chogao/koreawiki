@@ -1,7 +1,7 @@
 {
   "version": 1,
   "language_pair": "ko-vi",
-  "updated": "2026-07-16T13:27:01+00:00",
+  "updated": "2026-07-16T13:42:11+00:00",
   "entries": [
     {
       "id": "67ad9b0e792b",
@@ -71,6 +71,25 @@
       "tags": [
         "feature",
         "ai"
+      ],
+      "category": "other"
+    },
+    {
+      "id": "b5062ab5f397",
+      "korean": "New Krew",
+      "vietnamese": "New Krew (tân binh Kakao)",
+      "romanization": "",
+      "pos": "proper_noun",
+      "meaning": "tên gọi chính thức cho tân binh Kakao",
+      "context": "Chương trình tuyển dụng tập trung của Kakao",
+      "example": "",
+      "source_url": "https://tech.kakao.com/posts/815",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "kakao",
+        "culture"
       ],
       "category": "other"
     },
@@ -568,6 +587,25 @@
       "category": "organization"
     },
     {
+      "id": "1ed9893f6d0a",
+      "korean": "기술 온보딩",
+      "vietnamese": "technical onboarding / đào tạo kỹ thuật đầu vào",
+      "romanization": "",
+      "pos": "noun",
+      "meaning": "chương trình đào tạo kỹ thuật cho nhân viên mới",
+      "context": "Kakao new hire technical training",
+      "example": "",
+      "source_url": "https://tech.kakao.com/posts/815",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "kakao",
+        "engineering"
+      ],
+      "category": "other"
+    },
+    {
       "id": "8e5413b64ad0",
       "korean": "기업집단",
       "vietnamese": "tập đoàn doanh nghiệp",
@@ -806,6 +844,25 @@
       "category": "noun"
     },
     {
+      "id": "30dba2c0eba1",
+      "korean": "뉴크루",
+      "vietnamese": "New Krew (tân binh Kakao)",
+      "romanization": "",
+      "pos": "proper_noun",
+      "meaning": "tên gọi chính thức cho tân binh Kakao",
+      "context": "Chương trình tuyển dụng tập trung của Kakao",
+      "example": "",
+      "source_url": "https://tech.kakao.com/posts/815",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "kakao",
+        "culture"
+      ],
+      "category": "other"
+    },
+    {
       "id": "1a23459e2d05",
       "korean": "단골가게",
       "vietnamese": "Cửa hàng quen / Dangolgage",
@@ -1038,6 +1095,25 @@
       "category": "other"
     },
     {
+      "id": "5982eea90dba",
+      "korean": "멀티 에이전트",
+      "vietnamese": "multi-agent (đa tác tử)",
+      "romanization": "",
+      "pos": "noun",
+      "meaning": "kiến trúc nhiều AI agent phối hợp",
+      "context": "AI system design",
+      "example": "",
+      "source_url": "https://tech.kakao.com/posts/815",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "AI",
+        "architecture"
+      ],
+      "category": "other"
+    },
+    {
       "id": "4e3e188e7981",
       "korean": "멀티턴",
       "vietnamese": "multi-turn (hội thoại nhiều lượt)",
@@ -1177,6 +1253,25 @@
       "tags": [
         "economy",
         "tech"
+      ],
+      "category": "other"
+    },
+    {
+      "id": "62034ba0fbcd",
+      "korean": "반정규화",
+      "vietnamese": "denormalization / phản chuẩn hóa",
+      "romanization": "",
+      "pos": "noun",
+      "meaning": "cố tình lưu trùng lặp dữ liệu để tối ưu đọc",
+      "context": "database design cho traffic lớn",
+      "example": "",
+      "source_url": "https://tech.kakao.com/posts/815",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "database",
+        "performance"
       ],
       "category": "other"
     },
@@ -1754,6 +1849,25 @@
       "category": "noun"
     },
     {
+      "id": "0ff73ba90b87",
+      "korean": "소프트 딜리트",
+      "vietnamese": "soft delete (xóa mềm)",
+      "romanization": "",
+      "pos": "noun",
+      "meaning": "kỹ thuật đánh dấu xóa thay vì xóa vật lý",
+      "context": "database design tại Kakao",
+      "example": "",
+      "source_url": "https://tech.kakao.com/posts/815",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "database",
+        "design"
+      ],
+      "category": "other"
+    },
+    {
       "id": "cd044609afba",
       "korean": "솔로",
       "vietnamese": "solo",
@@ -1914,6 +2028,25 @@
       "category": "other"
     },
     {
+      "id": "89c7309c6bd5",
+      "korean": "신입",
+      "vietnamese": "tân binh / nhân viên mới",
+      "romanization": "",
+      "pos": "noun",
+      "meaning": "người mới gia nhập công ty",
+      "context": "Kakao new hire recruitment",
+      "example": "",
+      "source_url": "https://tech.kakao.com/posts/815",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "recruitment",
+        "kakao"
+      ],
+      "category": "other"
+    },
+    {
       "id": "55b306f4ce6a",
       "korean": "신현송",
       "vietnamese": "Shin Hyun-song",
@@ -1931,6 +2064,25 @@
         "bok"
       ],
       "category": "celebrity"
+    },
+    {
+      "id": "91eb8ae8587a",
+      "korean": "실행 계획",
+      "vietnamese": "execution plan",
+      "romanization": "",
+      "pos": "noun",
+      "meaning": "kế hoạch thực thi truy vấn SQL",
+      "context": "tối ưu SQL database",
+      "example": "",
+      "source_url": "https://tech.kakao.com/posts/815",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "SQL",
+        "optimization"
+      ],
+      "category": "other"
     },
     {
       "id": "68a09e615ed6",
@@ -2362,6 +2514,25 @@
       "frequency": 1,
       "tags": [
         "feature"
+      ],
+      "category": "other"
+    },
+    {
+      "id": "8f8e204581e0",
+      "korean": "온보딩",
+      "vietnamese": "onboarding / đào tạo hội nhập",
+      "romanization": "",
+      "pos": "noun",
+      "meaning": "chương trình đào tạo dành cho nhân viên mới",
+      "context": "Kakao technical onboarding cho tân binh",
+      "example": "",
+      "source_url": "https://tech.kakao.com/posts/815",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "kakao",
+        "onboarding"
       ],
       "category": "other"
     },
@@ -3569,6 +3740,25 @@
       "last_seen": "2026-07-16",
       "frequency": 1,
       "tags": [],
+      "category": "other"
+    },
+    {
+      "id": "6445bddea15a",
+      "korean": "프롬프트 체이닝",
+      "vietnamese": "prompt chaining / xâu chuỗi prompt",
+      "romanization": "",
+      "pos": "noun",
+      "meaning": "kỹ thuật chia nhỏ yêu cầu LLM thành nhiều bước",
+      "context": "AI agent design tại Kakao",
+      "example": "",
+      "source_url": "https://tech.kakao.com/posts/815",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "LLM",
+        "prompt-engineering"
+      ],
       "category": "other"
     },
     {

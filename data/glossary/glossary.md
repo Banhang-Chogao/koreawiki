@@ -1,7 +1,7 @@
 # KoreaWiki Translation Memory (Korean → Vietnamese)
 
-> Private linguistic asset. Updated: 2026-07-16T13:27:01+00:00
-> Entries: 213
+> Private linguistic asset. Updated: 2026-07-16T13:42:11+00:00
+> Entries: 223
 
 | Korean | Vietnamese | Context | Category | Source | Updated |
 |--------|------------|---------|----------|--------|---------|
@@ -9,6 +9,7 @@
 | 멀티모달 | multimodal / đa phương thức | AI | other | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
 | 배우 | diễn viên | ngành giải trí | noun | https://example.com/test | 2026-07-16 |
 | AI로 만들기 | Tạo bằng AI | KakaoTalk / AI | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
+| New Krew | New Krew (tân binh Kakao) | Chương trình tuyển dụng tập trung của Kakao | other | https://tech.kakao.com/posts/815 | 2026-07-16 |
 | ~에 따르면 | theo… | báo chí | grammar |  | 2026-07-16 |
 | ~을/를 통해 | thông qua… | báo chí | grammar |  | 2026-07-16 |
 | 가사 | lời bài hát | âm nhạc | noun |  | 2026-07-16 |
@@ -36,6 +37,7 @@
 | 그룹 | nhóm nhạc | K-pop | noun |  | 2026-07-16 |
 | 금리 인상 | tăng lãi suất / rate hike | BOK / Fed | other | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
 | 금융통화위원회 | Ủy ban Chính sách Tiền tệ (MPC) | họp lãi suất BOK | organization | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
+| 기술 온보딩 | technical onboarding / đào tạo kỹ thuật đầu vào | Kakao new hire technical training | other | https://tech.kakao.com/posts/815 | 2026-07-16 |
 | 기업집단 | tập đoàn doanh nghiệp | luật cạnh tranh | noun | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 기준금리 | lãi suất cơ sở / base rate | chính sách tiền tệ | other | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
 | 긴축 | thắt chặt (tiền tệ) / tightening | lãi suất / lạm phát | other | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
@@ -49,6 +51,7 @@
 | 넷플릭스 | Netflix | streaming | organization |  | 2026-07-16 |
 | 노 레이블스: 파트 02 | No Labels: Part 02 | âm nhạc | other | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 논란 | tranh cãi / scandal | truyền thông | noun |  | 2026-07-16 |
+| 뉴크루 | New Krew (tân binh Kakao) | Chương trình tuyển dụng tập trung của Kakao | other | https://tech.kakao.com/posts/815 | 2026-07-16 |
 | 단골가게 | Cửa hàng quen / Dangolgage | Kakao shop support | other | https://www.kakaocorp.com/page/detail/12080 | 2026-07-16 |
 | 대표이사 | CEO / đại diện pháp lý công ty | doanh nghiệp | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
 | 대화 요약 | tóm tắt hội thoại | KakaoTalk / AI | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
@@ -62,6 +65,7 @@
 | 라인업 | lineup / danh sách nghệ sĩ | sự kiện | other | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 만기 출소 | xuất ngục đúng hạn / hết hạn chấp hành | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 말복 | Malbok / phục cuối | last dog day | other | https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667 | 2026-07-16 |
+| 멀티 에이전트 | multi-agent (đa tác tử) | AI system design | other | https://tech.kakao.com/posts/815 | 2026-07-16 |
 | 멀티턴 | multi-turn (hội thoại nhiều lượt) | AI | other | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
 | 메모리 | Memory / bộ nhớ (bán dẫn) | Samsung DS | other | https://n.news.naver.com/mnews/article/021/0002805238 | 2026-07-16 |
 | 메이커스 | Makers (Kakao) | Kakao Makers | other | https://www.kakaocorp.com/page/detail/12080 | 2026-07-16 |
@@ -70,6 +74,7 @@
 | 미니 | mini album | âm nhạc | other | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 민음사 | Minumsa | xuất bản | organization | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
 | 반도체 | bán dẫn / semiconductor | tăng trưởng kinh tế | other | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
+| 반정규화 | denormalization / phản chuẩn hóa | database design cho traffic lớn | other | https://tech.kakao.com/posts/815 | 2026-07-16 |
 | 발표 | công bố / announcement | truyền thông | noun |  | 2026-07-16 |
 | 방송 | phát sóng / chương trình | truyền hình | noun |  | 2026-07-16 |
 | 방탄소년단 | BTS | K-pop | celebrity |  | 2026-07-16 |
@@ -102,6 +107,7 @@
 | 소망교도소 | nhà tù Somang | tư pháp / địa điểm | location | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 소상공인 | tiểu thương / SME nhỏ | small merchants | other | https://www.kakaocorp.com/page/detail/12080 | 2026-07-16 |
 | 소속사 | công ty quản lý / agency | ngành | noun |  | 2026-07-16 |
+| 소프트 딜리트 | soft delete (xóa mềm) | database design tại Kakao | other | https://tech.kakao.com/posts/815 | 2026-07-16 |
 | 솔로 | solo | âm nhạc | noun |  | 2026-07-16 |
 | 수감 | bị giam / chấp hành án tù | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 수도권 | khu vực thủ đô / Seoul capital area | giá nhà | location | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
@@ -111,7 +117,9 @@
 | 시사회 | buổi công chiếu thử / premiere | điện ảnh | noun |  | 2026-07-16 |
 | 시상식 | lễ trao giải | giải thưởng | noun |  | 2026-07-16 |
 | 시스템LSI | System LSI | Samsung DS | other | https://n.news.naver.com/mnews/article/021/0002805238 | 2026-07-16 |
+| 신입 | tân binh / nhân viên mới | Kakao new hire recruitment | other | https://tech.kakao.com/posts/815 | 2026-07-16 |
 | 신현송 | Shin Hyun-song | BOK governor | celebrity | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
+| 실행 계획 | execution plan | tối ưu SQL database | other | https://tech.kakao.com/posts/815 | 2026-07-16 |
 | 싱가포르 | Singapore | địa danh | location | https://www.dispatch.co.kr/2344420 | 2026-07-16 |
 | 싱글 | single | âm nhạc | noun |  | 2026-07-16 |
 | 아이돌 | idol | K-pop | noun |  | 2026-07-16 |
@@ -136,6 +144,7 @@
 | 예능 | chương trình giải trí / variety | truyền hình | noun |  | 2026-07-16 |
 | 예매율 | tỷ lệ đặt vé | phòng vé | other | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 오픈채팅 | open chat / phòng chat mở | KakaoTalk | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
+| 온보딩 | onboarding / đào tạo hội nhập | Kakao technical onboarding cho tân binh | other | https://tech.kakao.com/posts/815 | 2026-07-16 |
 | 옴니 | omni / omni-modal | AI | other | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
 | 와이쥐 | YG Entertainment | công ty | organization |  | 2026-07-16 |
 | 워밍업 | warm-up / làm nóng model | server start VoiceBox | other | https://tech.kakao.com/posts/821 | 2026-07-16 |
@@ -203,6 +212,7 @@
 | 표예진 | Pyo Ye-jin | diễn viên | celebrity | https://www.dispatch.co.kr/2344420 | 2026-07-16 |
 | 프로덕션 | production / môi trường production | triển khai AI | other | https://tech.kakao.com/posts/821 | 2026-07-16 |
 | 프로젝트 단골 | Project Dangol / dự án khách quen (Kakao SME) | Kakao small business | other | https://www.kakaocorp.com/page/detail/12080 | 2026-07-16 |
+| 프롬프트 체이닝 | prompt chaining / xâu chuỗi prompt | AI agent design tại Kakao | other | https://tech.kakao.com/posts/815 | 2026-07-16 |
 | 플러스엠 엔터테인먼트 | Plus M Entertainment | ngành điện ảnh | organization | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 하이브 | HYBE | công ty | organization |  | 2026-07-16 |
 | 한국은행 | Ngân hàng Trung ương Hàn Quốc / Bank of Korea (BOK) | chính sách tiền tệ | organization | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
