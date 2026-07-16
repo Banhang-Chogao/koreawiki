@@ -12,7 +12,7 @@
     <article class="featured-main">
       <a href="{{ .RelPermalink }}" class="featured-main-link">
         {{ if .Params.cover.image }}
-        <img src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" class="featured-main-img" width="800" height="450" loading="eager" fetchpriority="high" />
+        {{ partial "cover-img" (dict "src" .Params.cover.image "alt" (.Params.cover.alt | default .Title) "class" "featured-main-img" "width" "800" "height" "450" "loading" "eager" "fetchpriority" "high") }}
         {{ end }}
         <div class="featured-main-overlay">
           {{ with .Params.categories }}{{ range first 1 . }}<span class="featured-main-cat">{{ . }}</span>{{ end }}{{ end }}
@@ -27,7 +27,7 @@
         {{ if .Params.cover.image }}
         <div class="featured-side-img-wrap">
           <a href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
-            <img src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" class="featured-side-img" width="120" height="68" loading="lazy" />
+            {{ partial "cover-img" (dict "src" .Params.cover.image "alt" (.Params.cover.alt | default .Title) "class" "featured-side-img" "width" "120" "height" "68") }}
           </a>
         </div>
         {{ end }}
@@ -56,7 +56,7 @@
         <div class="card-img-wrap">
           <a href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
             {{ if .Params.cover.image }}
-            <img src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" class="card-img" width="400" height="225" loading="lazy" />
+            {{ partial "cover-img" (dict "src" .Params.cover.image "alt" (.Params.cover.alt | default .Title) "class" "card-img" "width" "400" "height" "225") }}
             {{ end }}
           </a>
         </div>
@@ -88,7 +88,7 @@
         <div class="card-img-wrap">
           <a href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
             {{ if .Params.cover.image }}
-            <img src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" class="card-img" width="200" height="113" loading="lazy" />
+            {{ partial "cover-img" (dict "src" .Params.cover.image "alt" (.Params.cover.alt | default .Title) "class" "card-img" "width" "200" "height" "113") }}
             {{ end }}
           </a>
         </div>

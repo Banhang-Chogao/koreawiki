@@ -1,3 +1,15 @@
+{{ $twImage := "" }}
+{{ if .IsPage }}
+  {{ with .Params.cover.image }}
+    {{ $twImage = trim . "/" | absURL }}
+  {{ end }}
+{{ end }}
+{{ if not $twImage }}
+  {{ with .Site.Params.images }}
+    {{ $twImage = trim (index . 0) "/" | absURL }}
+  {{ end }}
+{{ end }}
+
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:url" content="{{ .Permalink }}">
 <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
@@ -6,8 +18,6 @@
 <meta name="twitter:site" content="{{ . }}">
 <meta name="twitter:creator" content="{{ . }}">
 {{ end }}
-{{ with .Site.Params.images }}
-{{ range first 1 . }}
-<meta name="twitter:image" content="{{ . | absURL }}">
-{{ end }}
+{{ if $twImage }}
+<meta name="twitter:image" content="{{ $twImage }}">
 {{ end }}
