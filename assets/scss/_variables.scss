@@ -48,6 +48,15 @@
   --color-live-stamp: #c2410c;         /* warm garnet / pomegranate */
   --color-live-stamp-muted: #ea580c;   /* softer coral-orange separator */
 
+  /* Pagination — hot / warm tones (not cool gray) */
+  --color-page-bg: #fff7ed;            /* orange-50 */
+  --color-page-border: #fb923c;        /* orange-400 */
+  --color-page-text: #c2410c;          /* orange-700 / garnet */
+  --color-page-hover-bg: #ea580c;      /* orange-600 */
+  --color-page-hover-border: #c2410c;
+  --color-page-active-bg: #dc2626;     /* red-600 — current page pops */
+  --color-page-active-border: #b91c1c; /* red-700 */
+
   /*
     IBM Plex Sans (self-hosted under static/fonts/ibm-plex-sans/).
     Hangul falls through to OS Korean fonts (Plex has no full Hangul set).
