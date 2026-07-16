@@ -1,22 +1,11 @@
 {{/*
   Article footer macro — copyright/source, internal links, external links, FAQ.
 
-  Usage (YAML body):
+  FAQ source (first match wins):
+  1. YAML body `faq:`
+  2. Page front matter `faq:`  (same list used by "Bài này trả lời")
 
-  {{< article-footer >}}
-  source: "Dispatch"
-  source_url: "https://..."
-  copyright: "Bài viết tham khảo nguồn …"
-  external:
-    - title: "How to study Korean"
-      url: "https://www.howtostudykorean.com/"
-  internal:
-    - title: "Bài liên quan"
-      url: "en/kpop/some-slug/"
-  faq:
-    - q: "Câu hỏi?"
-      a: "Trả lời."
-  {{< /article-footer >}}
+  FAQ items get id="faq-1", "faq-2", … for jump links from answers-toc.
 */}}
 {{- $data := dict -}}
 {{- $inner := trim .Inner " \n\r\t" -}}
@@ -29,7 +18,7 @@
 {{- $copyright := .Get "copyright" | default (index $data "copyright" | default "") -}}
 {{- $external := index $data "external" | default (slice) -}}
 {{- $internal := index $data "internal" | default (slice) -}}
-{{- $faq := index $data "faq" | default (slice) -}}
+{{- $faq := index $data "faq" | default (.Page.Params.faq | default (slice)) -}}
 
 {{- $tExt := .Get "title_external" | default "Liên kết bên ngoài được sử dụng trong bài viết" -}}
 {{- $tInt := .Get "title_internal" | default "Liên kết nội bộ liên quan" -}}
@@ -101,14 +90,15 @@
   {{- end -}}
 
   {{- if gt $faqLen 0 -}}
-  <section class="af-block af-faq">
+  <section class="af-block af-faq" id="faq">
     <h2 class="af-heading">{{ $tFaq }}</h2>
     <div class="af-faq-list">
       {{- range $i, $item := $faq -}}
       {{- $q := index $item "q" | default (index $item "question" | default "") -}}
       {{- $a := index $item "a" | default (index $item "answer" | default "") -}}
       {{- if and $q $a -}}
-      <details class="af-faq-item"{{ if eq $i 0 }} open{{ end }}>
+      {{- $id := printf "faq-%d" (add $i 1) -}}
+      <details class="af-faq-item" id="{{ $id }}" data-faq-id="{{ $id }}">
         <summary class="af-faq-q">{{ $q }}</summary>
         <div class="af-faq-a">{{ $a | markdownify }}</div>
       </details>

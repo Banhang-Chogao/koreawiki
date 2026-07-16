@@ -121,8 +121,43 @@ if(copyBtn){copyBtn.addEventListener('click',function(){var u=this.getAttribute(
   window.__koreaCloseSearch=closeSearch;
 })();
 
-// Smooth Scroll Anchors
-document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(e){var t=document.querySelector(this.getAttribute('href'));if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth'});}});});
+// Smooth Scroll Anchors (+ open FAQ <details> when jumping to #faq-N)
+function openFaqTarget(el){
+  if(!el)return;
+  var details=el.closest?el.closest('details'):null;
+  if(el.tagName&&el.tagName.toLowerCase()==='details')details=el;
+  if(details){
+    details.open=true;
+    // close siblings optional? keep others as-is
+  }
+}
+function scrollToHash(hash){
+  if(!hash||hash==='#')return;
+  var t=null;
+  try{t=document.querySelector(hash);}catch(err){return;}
+  if(!t)return;
+  openFaqTarget(t);
+  t.scrollIntoView({behavior:'smooth',block:'start'});
+}
+document.querySelectorAll('a[href^="#"]').forEach(function(a){
+  a.addEventListener('click',function(e){
+    var href=this.getAttribute('href');
+    if(!href||href==='#')return;
+    var t=null;
+    try{t=document.querySelector(href);}catch(err){return;}
+    if(!t)return;
+    e.preventDefault();
+    openFaqTarget(t);
+    t.scrollIntoView({behavior:'smooth',block:'start'});
+    if(history.pushState)history.pushState(null,'',href);
+    else location.hash=href;
+  });
+});
+// Deep-link on load: /article/#faq-2 opens that FAQ
+if(location.hash){
+  // delay so layout/fonts settle
+  setTimeout(function(){scrollToHash(location.hash);},50);
+}
 
 // Heading Anchor Links
 document.querySelectorAll('.article-body h2,.article-body h3,.article-body h4').forEach(function(h){if(!h.id)return;var l=document.createElement('a');l.className='anchor-link';l.href='#'+h.id;l.setAttribute('aria-label','Link to this section');l.innerHTML='<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>';h.appendChild(l);});

@@ -106,9 +106,12 @@ cover=""
 
 Beautiful typography, SEO friendly, internal links, related articles placeholder, proper heading hierarchy, valid Markdown, Hugo compatible.
 
-### Step 8b — Article footer macro (required)
+### Step 8b — FAQ front matter + article footer (required)
 
-Append `article-footer` shortcode at the end of the article body:
+1. Add `faq:` list in YAML front matter (drives **"Bài này trả lời"** under the title
+   and FAQ anchors `#faq-1` … at the bottom).
+2. Append `article-footer` shortcode at the end of the body (source / links / FAQ).
+   If `faq` is already in front matter, you may omit `faq:` inside the shortcode.
 
 ```markdown
 {{</* article-footer */>}}

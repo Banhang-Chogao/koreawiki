@@ -25,6 +25,8 @@
     {{ if .Description }}
     <p class="article-desc" data-pagefind-weight="3.0">{{ .Description }}</p>
     {{ end }}
+    {{/* "Bài này trả lời" — jump links to FAQ (#faq-N) at article footer */}}
+    {{ partial "answers-toc" . }}
     <div class="article-meta" data-pagefind-ignore>
       {{ if .Params.author }}
       <span>

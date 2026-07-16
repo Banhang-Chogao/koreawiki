@@ -120,6 +120,8 @@ other = "K-드라마"
 other = "문화"
 [glossary]
 other = "용어집"
+[answers_toc]
+other = "이 글이 답하는 질문"
 [glossary_entries]
 other = "항목"
 [glossary_ko_vi]

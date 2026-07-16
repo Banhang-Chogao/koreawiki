@@ -7,9 +7,23 @@ Shortcode `article-footer` thêm khối cuối bài (kiểu SEOMONEY):
 3. **Bản quyền & ghi nguồn**  
 4. **FAQ** (accordion)
 
-## Cách dùng
+## "Bài này trả lời" (đầu bài)
 
-Cuối file Markdown của bài:
+Đặt FAQ trong **front matter** — partial `answers-toc` tự hiện ngay dưới tiêu đề:
+
+```yaml
+faq:
+  - q: "SODA SODA phát hành khi nào?"
+    a: "Ngày **4 tháng 8 năm 2026**."
+  - q: "Pop-up store mở ở đâu?"
+    a: "Tokyo, Osaka, Fukuoka."
+```
+
+Mỗi câu là link `#faq-1`, `#faq-2`, … nhảy xuống FAQ cuối bài và **tự mở** accordion.
+
+## Cách dùng footer
+
+Cuối file Markdown của bài (FAQ có thể bỏ nếu đã có trong front matter):
 
 ````markdown
 {{</* article-footer */>}}

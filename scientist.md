@@ -209,6 +209,18 @@ git commit --allow-empty -m "redeploy article" && git push
 
 ---
 
+## Entry 019 — 2026-07-16: "Bài này trả lời" jump links to FAQ
+
+**Added:** Under article title, `answers-toc` lists FAQ questions from front matter `faq:`.
+
+**Behavior:** Click → smooth scroll to `#faq-N` + open matching `<details>` in `article-footer`.
+
+**Files:** `themes/koreawiki/layouts/partials/answers-toc.html`, `single.html`, `article-footer.html` (ids), `assets/js/main.js`, `_article-footer.scss`, i18n `answers_toc`.
+
+**Authoring:** Put `faq:` in front matter (source of truth for both TOC and bottom FAQ).
+
+---
+
 ## Entry 018 — 2026-07-16: Article footer macro (source / links / FAQ)
 
 **Added:** Hugo shortcode `article-footer` for per-article end blocks (SEOMONEY-style UI).

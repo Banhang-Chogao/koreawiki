@@ -1,0 +1,22 @@
+{{/*
+  "Bài này trả lời" — jump links to FAQ items (id=faq-N) in article-footer.
+  Data: .Params.faq  [{q, a}, ...]  or  [{question, answer}, ...]
+*/}}
+{{- $faq := .Params.faq | default (slice) -}}
+{{- $len := 0 -}}{{- with $faq }}{{ $len = len . }}{{ end -}}
+{{- if gt $len 0 -}}
+<nav class="answers-toc" aria-label="{{ T "answers_toc" | default "Bài này trả lời" }}">
+  <h2 class="answers-toc-title">{{ T "answers_toc" | default "Bài này trả lời" }}</h2>
+  <ol class="answers-toc-list">
+    {{- range $i, $item := $faq -}}
+    {{- $q := index $item "q" | default (index $item "question" | default "") -}}
+    {{- if $q -}}
+    {{- $id := printf "faq-%d" (add $i 1) -}}
+    <li>
+      <a class="answers-toc-link" href="#{{ $id }}" data-faq-jump="{{ $id }}">{{ $q }}</a>
+    </li>
+    {{- end -}}
+    {{- end -}}
+  </ol>
+</nav>
+{{- end -}}
