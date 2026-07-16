@@ -46,12 +46,15 @@ sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
 
-LOS ANGELES – Vào một buổi tối tháng 7 ấm áp tại sân vận động BMO, Seventeen đã làm một điều mà ít nghệ sĩ K-pop nào làm được: họ khiến đám đông 22.000 người có cảm giác như đang ở một buổi tiệc thân mật.
-chương trình câu lạc bộ. Chuyến lưu diễn "Follow Again", kết thúc ở Los Angeles vào ngày 8 tháng 7 trong hai đêm, là chuyến đi chơi Bắc Mỹ lớn nhất của nhóm cho đến nay và đồng thời là giá trị sản xuất.
+LOS ANGELES – Vào một buổi tối tháng 7 ấm áp tại sân vận động BMO, Seventeen đã làm một điều mà ít nghệ sĩ K-pop nào làm được: họ khiến đám đông 22.000 người có cảm giác như đang ở một buổi tiệc thân
+mật.
+chương trình câu lạc bộ. Chuyến lưu diễn "Follow Again", kết thúc ở Los Angeles vào ngày 8 tháng 7 trong hai đêm, là chuyến đi chơi Bắc Mỹ lớn nhất của nhóm cho đến nay và đồng thời là giá trị sản
+xuất.
 phản ánh vị thế của họ như một trong những buổi biểu diễn trực tiếp có khả năng sinh lời cao nhất trong ngành.
 
 Ngay từ những nốt mở đầu của "Super", năng lượng trong sân vận động đã như điện. 13 thành viên đã trải qua một danh sách dàn dựng được dàn dựng tỉ mỉ kéo dài suốt 9 năm hoạt động của họ.
-đĩa hát, từ những bài hát được người hâm mộ yêu thích sớm như "Adore U" cho đến những bản hit gần đây nhất của họ bao gồm "Maestro" và "Spell". Điều khiến Seventeen khác biệt so với các đồng nghiệp của họ là tính cách của nhóm.
+đĩa hát, từ những bài hát được người hâm mộ yêu thích sớm như "Adore U" cho đến những bản hit gần đây nhất của họ bao gồm "Maestro" và "Spell". Điều khiến Seventeen khác biệt so với các đồng nghiệp
+của họ là tính cách của nhóm.
 phân chia cấu trúc thành ba đơn vị - hip-hop, vocal và biểu diễn - mỗi đơn vị có các phân đoạn riêng thể hiện thế mạnh riêng biệt của chúng.
 
 ## Đơn vị Hiệu suất chiếm lấy phần trình diễn

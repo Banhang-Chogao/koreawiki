@@ -44,7 +44,8 @@ sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
 
-Nhiếp ảnh gia kỳ cựu Lee Sung-min đã dành ba tuần để chụp ảnh Busan sau khi trời tối, từ phiên đấu giá cá cuối cùng ở chợ Jagalchi lúc 3 giờ sáng cho đến buổi cầu nguyện đầu tiên của các nhà sư ở Beomeosa
+Nhiếp ảnh gia kỳ cựu Lee Sung-min đã dành ba tuần để chụp ảnh Busan sau khi trời tối, từ phiên đấu giá cá cuối cùng ở chợ Jagalchi lúc 3 giờ sáng cho đến buổi cầu nguyện đầu tiên của các nhà sư ở
+Beomeosa
 Ngôi chùa lúc 4 giờ sáng. Bộ sưu tập thành quả, "Busan Noir," là một bức thư tình gửi đến cuộc sống về đêm của thành phố.
 
 “Thành phố biến đổi sau nửa đêm,” Lee nói. "Busan du lịch biến mất và Busan thực sự xuất hiện - yên tĩnh hơn, chân thực hơn, đẹp đẽ hơn."

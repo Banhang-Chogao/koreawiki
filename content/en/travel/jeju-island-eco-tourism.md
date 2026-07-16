@@ -47,17 +47,20 @@ lang_note: vi-localized-from-en-scaffold
 Đảo Jeju, thiên đường núi lửa ngoài khơi bờ biển phía nam Hàn Quốc, có một vấn đề khiến nhiều điểm đến phải ghen tị: có quá nhiều du khách. Hòn đảo đón 21,3 triệu khách du lịch
 2025, một kỷ lục gây căng thẳng cho cơ sở hạ tầng, đe dọa các hệ sinh thái mỏng manh và gây ra một cuộc tranh luận gay gắt về tương lai của ngành du lịch trên đảo.
 
-Những thách thức có thể nhìn thấy trên diện tích 1.848 km2 của Jeju. Seongsan Ilchulbong (Đỉnh bình minh) mang tính biểu tượng hiện yêu cầu vé vào cửa theo thời gian để quản lý đám đông. Đường mòn Olle
+Những thách thức có thể nhìn thấy trên diện tích 1.848 km2 của Jeju. Seongsan Ilchulbong (Đỉnh bình minh) mang tính biểu tượng hiện yêu cầu vé vào cửa theo thời gian để quản lý đám đông. Đường mòn
+Olle
 mạng lưới, một con đường đi bộ ven biển dài 425 km, có những đoạn bị xói mòn do giao thông đi bộ đã mở rộng đường mòn lên gấp ba lần chiều rộng ban đầu. Và nguồn nước ngầm của hòn đảo —
 nguồn nước uống duy nhất của nó - phải đối mặt với áp lực ô nhiễm ngày càng tăng từ sự phát triển không được kiểm soát.
 
 ## Mô hình du lịch bền vững
 
 Để đáp lại, Tỉnh tự quản đặc biệt Jeju đã thực hiện những gì các quan chức mô tả là khuôn khổ du lịch bền vững đầy tham vọng nhất ở châu Á. “Lời hứa Jeju”
-sáng kiến, được triển khai vào năm 2024, bao gồm giới hạn số lượng khách truy cập hàng ngày (hiện được đặt ở mức 80.000), thuế sinh thái ₩10.000 mỗi khách và các giới hạn nghiêm ngặt đối với việc xây dựng khách sạn mới bên ngoài
+sáng kiến, được triển khai vào năm 2024, bao gồm giới hạn số lượng khách truy cập hàng ngày (hiện được đặt ở mức 80.000), thuế sinh thái ₩10.000 mỗi khách và các giới hạn nghiêm ngặt đối với việc xây
+dựng khách sạn mới bên ngoài
 vùng phát triển được chỉ định.
 
-Thống đốc Jeju Oh Young-hun cho biết: “Chúng tôi không cố gắng ngăn cản du lịch”. "Chúng tôi đang cố gắng bảo tồn những gì mà khách du lịch đến xem. Jeju không phải là một công viên giải trí. Nó là một công viên."
+Thống đốc Jeju Oh Young-hun cho biết: “Chúng tôi không cố gắng ngăn cản du lịch”. "Chúng tôi đang cố gắng bảo tồn những gì mà khách du lịch đến xem. Jeju không phải là một công viên giải trí. Nó là
+một công viên."
 hòn đảo sống động với hệ sinh thái núi lửa độc đáo, bản sắc văn hóa riêng biệt và cộng đồng 700.000 người. Công việc của chúng tôi là đảm bảo rằng du lịch tăng cường thay vì phá hủy
 điều gì làm cho Jeju trở nên đặc biệt."
 

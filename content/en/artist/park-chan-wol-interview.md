@@ -63,7 +63,8 @@ kiên nhẫn. Dự án do Đại học Nghệ thuật Quốc gia Hàn Quốc và
 “Tôi chán cái khung rồi,” Park giải thích, dùng tay ra hiệu để tạo ra một hình chữ nhật. "Điện ảnh đã bị mắc kẹt bên trong hình chữ nhật này suốt 130 năm. VR mang đến khả năng
 một rạp chiếu phim không có tường. Tôi không biết liệu nó có hiệu quả không. Nhưng tôi phải cố gắng."
 
-Nguồn tài trợ cho dự án đến từ sự kết hợp giữa các khoản tài trợ của hội đồng nghệ thuật và quyên góp tư nhân, tổng cộng là 2,8 tỷ Yên — khiêm tốn so với tiêu chuẩn phim thương mại nhưng có ý nghĩa quan trọng đối với một bộ phim.
+Nguồn tài trợ cho dự án đến từ sự kết hợp giữa các khoản tài trợ của hội đồng nghệ thuật và quyên góp tư nhân, tổng cộng là 2,8 tỷ Yên — khiêm tốn so với tiêu chuẩn phim thương mại nhưng có ý nghĩa
+quan trọng đối với một bộ phim.
 công việc VR thử nghiệm. Trải nghiệm này sẽ ra mắt tại Liên hoan phim Venice vào tháng 9.
 
 

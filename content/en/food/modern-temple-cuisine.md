@@ -54,11 +54,13 @@ du khách ẩm thực quốc tế đang tìm kiếm hương vị đích thực c
 
 ##Triết lý ẩm thực chùa
 
-Không giống như phong cách ăn chay của phương Tây hay thậm chí là các truyền thống ẩm thực Phật giáo châu Á khác, ẩm thực chùa Hàn Quốc (seungsik) vận hành trong một triết lý ẩm thực nghiêm ngặt vượt ra ngoài giới hạn của ẩm thực.
+Không giống như phong cách ăn chay của phương Tây hay thậm chí là các truyền thống ẩm thực Phật giáo châu Á khác, ẩm thực chùa Hàn Quốc (seungsik) vận hành trong một triết lý ẩm thực nghiêm ngặt vượt
+ra ngoài giới hạn của ẩm thực.
 thiếu thịt. Các nguyên tắc - cân bằng ngũ hành (ngọt, chua, mặn, đắng, hăng), sử dụng nguyên liệu theo mùa và địa phương, và chuẩn bị thức ăn một cách có tâm.
 ý định - ngày càng gây được tiếng vang với những thực khách hiện đại đang tìm kiếm thứ gì đó ngoài dinh dưỡng đơn thuần.
 
-“Có lý do mà thức ăn ở chùa đang có thời điểm phát triển”, Hòa thượng nói. Jeonjin, một nhà sư-đầu bếp tại chùa Guinsa ở Đan Dương, người đã trở thành một người nổi tiếng không ngờ nhờ khả năng nấu ăn của mình
+“Có lý do mà thức ăn ở chùa đang có thời điểm phát triển”, Hòa thượng nói. Jeonjin, một nhà sư-đầu bếp tại chùa Guinsa ở Đan Dương, người đã trở thành một người nổi tiếng không ngờ nhờ khả năng nấu ăn
+của mình
 xuất hiện trên truyền hình Hàn Quốc. "Thế giới hiện đại ồn ào, con người kiệt sức. Thức ăn trong chùa yêu cầu bạn sống chậm lại, nếm thử từng thành phần, hiện diện. Đó là một điều căn bản.
 hành động vào năm 2026."
 

@@ -46,7 +46,8 @@ sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
 
-Khu phức hợp công nghiệp đám cưới Hàn Quốc - một hệ sinh thái rộng lớn bao gồm các sảnh cưới, cơ quan mai mối và các nghi lễ chính thức - từ lâu đã là một trong những ngành công nghiệp cứng nhắc nhất ở Hàn Quốc.
+Khu phức hợp công nghiệp đám cưới Hàn Quốc - một hệ sinh thái rộng lớn bao gồm các sảnh cưới, cơ quan mai mối và các nghi lễ chính thức - từ lâu đã là một trong những ngành công nghiệp cứng nhắc nhất
+ở Hàn Quốc.
 đất nước. Nhưng việc thay đổi các giá trị xã hội, áp lực kinh tế và ảnh hưởng của văn hóa toàn cầu đang định hình lại cách giới trẻ Hàn Quốc tiếp cận hôn nhân, tạo ra những cơ hội và cơ hội mới.
 căng thẳng ở một trong những thể chế gắn liền với truyền thống nhất của xã hội.
 
@@ -56,10 +57,12 @@ Những con số thật rõ ràng. Tỷ lệ kết hôn của Hàn Quốc đã g
 
 ## Sự trỗi dậy của đám cưới nhỏ
 
-Nhà thiết kế đồ họa Park So-young, 29 tuổi, người đã kết hôn với người bạn đời 5 năm trong một buổi lễ, cho biết: “Tôi không cần 300 người mà tôi hầu như không biết đang theo dõi tôi cho chồng tôi ăn hẹn hò”.
+Nhà thiết kế đồ họa Park So-young, 29 tuổi, người đã kết hôn với người bạn đời 5 năm trong một buổi lễ, cho biết: “Tôi không cần 300 người mà tôi hầu như không biết đang theo dõi tôi cho chồng tôi ăn
+hẹn hò”.
 có sự tham dự của 38 khách tại một nhà kho đã được chuyển đổi ở Seongsu-dong. "Chúng tôi muốn một đám cưới giống như chúng tôi - không phải một buổi biểu diễn dành cho bạn bè của bố mẹ chúng tôi."
 
-Tình cảm này đang thúc đẩy sự bùng nổ của “đám cưới nhỏ” (so-rang gyeol-hon), một thể loại hầu như không tồn tại cách đây một thập kỷ. Địa điểm nhỏ - nhiều địa điểm trong không gian công nghiệp đã được chuyển đổi -
+Tình cảm này đang thúc đẩy sự bùng nổ của “đám cưới nhỏ” (so-rang gyeol-hon), một thể loại hầu như không tồn tại cách đây một thập kỷ. Địa điểm nhỏ - nhiều địa điểm trong không gian công nghiệp đã
+được chuyển đổi -
 đã sinh sôi nảy nở và các sảnh cưới truyền thống đang phải vật lộn để thích nghi. Ứng dụng tổ chức đám cưới "WEDIBOOK" báo cáo rằng 62% người dùng năm 2025 đã chọn địa điểm có ít chỗ ngồi hơn
 hơn 100 khách.
 

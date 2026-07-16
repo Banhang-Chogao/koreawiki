@@ -45,10 +45,12 @@ lang_note: vi-localized-from-en-scaffold
 ---
 
 KBS đã công bố dòng phim cổ trang năm 2027 vào thứ Ba, xác nhận ba tác phẩm cổ trang lớn mà đài truyền hình đại chúng hy vọng sẽ lấy lại di sản là quê hương của
-Kể chuyện lịch sử Hàn Quốc. Danh sách phim bao gồm The Last Admiral, bộ phim truyền hình dài 24 tập về chiến dịch cuối cùng của Đô đốc Yi Sun-sin; "Giấc mơ Goryeo", một câu chuyện tình lãng mạn lấy bối cảnh thời kỳ
+Kể chuyện lịch sử Hàn Quốc. Danh sách phim bao gồm The Last Admiral, bộ phim truyền hình dài 24 tập về chiến dịch cuối cùng của Đô đốc Yi Sun-sin; "Giấc mơ Goryeo", một câu chuyện tình lãng mạn lấy
+bối cảnh thời kỳ
 triều đại Goryeo; và The Secret Annals, một phim kinh dị cung đình xoay quanh kho lưu trữ hoàng gia Joseon.
 
-Thông báo này được đưa ra trong bối cảnh KBS đang thất thế trong cuộc chiến phim truyền hình trước các kênh truyền hình cáp và nền tảng phát trực tuyến, vốn đã thống trị tỷ suất người xem và cuộc trò chuyện về văn hóa trong thời gian gần đây.
+Thông báo này được đưa ra trong bối cảnh KBS đang thất thế trong cuộc chiến phim truyền hình trước các kênh truyền hình cáp và nền tảng phát trực tuyến, vốn đã thống trị tỷ suất người xem và cuộc trò
+chuyện về văn hóa trong thời gian gần đây.
 năm. Giám đốc Trung tâm Kịch nghệ KBS Lee Jae-moon thừa nhận thách thức trong cuộc họp báo tại trụ sở Yeouido của đài truyền hình. "KBS đã xây dựng thể loại phim cổ trang"
 đã nói. "Chúng tôi đã phát minh ra mẫu. Bây giờ là lúc để phát minh lại nó."
 

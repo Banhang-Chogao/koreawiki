@@ -45,7 +45,8 @@ lang_note: vi-localized-from-en-scaffold
 ---
 
 Khi khán giả toàn cầu xem nội dung tiếng Hàn trên Netflix, họ thường trải nghiệm nội dung đó qua hai bản âm thanh riêng biệt: bản gốc tiếng Hàn và bản lồng tiếng Anh. Nhưng
-Bản thân phiên bản tiếng Hàn có thể có một diễn viên lồng tiếng mà hàng triệu người nghe giọng nói của họ hoàn toàn không biết đến khuôn mặt của họ. Điều đó đang thay đổi. Các diễn viên lồng tiếng đằng sau phim Hàn Quốc
+Bản thân phiên bản tiếng Hàn có thể có một diễn viên lồng tiếng mà hàng triệu người nghe giọng nói của họ hoàn toàn không biết đến khuôn mặt của họ. Điều đó đang thay đổi. Các diễn viên lồng tiếng
+đằng sau phim Hàn Quốc
 hầu hết các nhân vật và lời kể mang tính biểu tượng đang bước ra khỏi bóng tối và trở thành tâm điểm chú ý.
 
 Sự thay đổi này được thúc đẩy bởi sự tăng trưởng bùng nổ của ngành công nghiệp nội dung Hàn Quốc. Với Netflix, Disney+, Apple TV+ và các nền tảng địa phương như Tving và Wavve đang cạnh tranh
@@ -54,15 +55,18 @@ Yeon-ah, người có hơn 200 bản lồng tiếng phim và truyền hình. “
 
 ## Tính kinh tế mới của giọng nói
 
-Nút thắt cổ chai đã dẫn đến những thay đổi đáng kể trong cách thức hoạt động của ngành. Các nền tảng phát trực tuyến lớn đã bắt đầu chiêu mộ diễn viên lồng tiếng từ các đài truyền hình mặt đất, cung cấp
-mức lương không thể tưởng tượng được một thập kỷ trước. Hiệp hội Diễn viên lồng tiếng Hàn Quốc báo cáo rằng thu nhập trung bình hàng năm của các diễn viên lồng tiếng toàn thời gian đã tăng hơn gấp đôi kể từ năm 2022,
+Nút thắt cổ chai đã dẫn đến những thay đổi đáng kể trong cách thức hoạt động của ngành. Các nền tảng phát trực tuyến lớn đã bắt đầu chiêu mộ diễn viên lồng tiếng từ các đài truyền hình mặt đất, cung
+cấp
+mức lương không thể tưởng tượng được một thập kỷ trước. Hiệp hội Diễn viên lồng tiếng Hàn Quốc báo cáo rằng thu nhập trung bình hàng năm của các diễn viên lồng tiếng toàn thời gian đã tăng hơn gấp đôi
+kể từ năm 2022,
 từ khoảng 40 triệu yên đến 85 triệu yên.
 
 Lần đầu tiên, các diễn viên lồng tiếng cũng đạt được danh tiếng độc lập. Yoon Seung-hoon, người đã lồng tiếng cho các nhân vật trong "Squid Game" (lồng tiếng Hàn Quốc) và nhiều bộ phim hoạt hình,
 có 1,2 triệu người theo dõi trên Instagram và gần đây xuất hiện với tư cách khách mời trên "Knowing Bros." “Thật kỳ quái,” Yoon nói. "Tôi đã làm việc này được 15 năm và đột nhiên mọi người
 nhận ra giọng nói của tôi trong thang máy. Họ muốn chụp ảnh tự sướng. Họ yêu cầu tôi nói câu họ yêu thích nhất."
 
-Ngành công nghiệp vẫn phải đối mặt với những thách thức, bao gồm mối đe dọa về lồng tiếng do AI tạo ra và thiếu cơ chế đào tạo chính thức cho các tài năng mới. Nhưng hiện tại, các diễn viên lồng tiếng Hàn Quốc
+Ngành công nghiệp vẫn phải đối mặt với những thách thức, bao gồm mối đe dọa về lồng tiếng do AI tạo ra và thiếu cơ chế đào tạo chính thức cho các tài năng mới. Nhưng hiện tại, các diễn viên lồng tiếng
+Hàn Quốc
 đang tận hưởng khoảnh khắc được công nhận đã được hình thành trong nhiều thập kỷ.
 
 "Lồng tiếng là diễn xuất," Kim Yeon-ah nói chắc chắn. "Chúng tôi không chỉ đọc chữ. Chúng tôi đang làm sống động các nhân vật. Thật vui khi cuối cùng thế giới cũng đã chú ý đến."

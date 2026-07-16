@@ -45,27 +45,34 @@ sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
 
-Trong nhiều thập kỷ, hành trình tiêu chuẩn dành cho du khách quốc tế đến Hàn Quốc đã tuân theo một công thức có thể dự đoán được: bay đến Seoul, dành ba ngày ở Seoul, thực hiện một chuyến đi trong ngày đến Seoul.
-DMZ và bay ra ngoài. Busan, thành phố lớn thứ hai của Hàn Quốc và là đô thị ven biển hàng đầu của Hàn Quốc, được coi là một tiện ích bổ sung xứng đáng nhưng không bắt buộc. Điều đó đang bắt đầu thay đổi, và đối với
+Trong nhiều thập kỷ, hành trình tiêu chuẩn dành cho du khách quốc tế đến Hàn Quốc đã tuân theo một công thức có thể dự đoán được: bay đến Seoul, dành ba ngày ở Seoul, thực hiện một chuyến đi trong
+ngày đến Seoul.
+DMZ và bay ra ngoài. Busan, thành phố lớn thứ hai của Hàn Quốc và là đô thị ven biển hàng đầu của Hàn Quốc, được coi là một tiện ích bổ sung xứng đáng nhưng không bắt buộc. Điều đó đang bắt đầu thay
+đổi, và đối với
 lý do tốt.
 
 Busan mang đến một điều mà Seoul, với tất cả sự sống động của nó, đơn giản là không thể: một khung cảnh thiên nhiên tuyệt đẹp nơi những ngọn núi gặp biển ở quy mô sánh ngang với Cape Town hay
-Rio de Janeiro. Địa hình của thành phố – một loạt các thung lũng được hình thành bởi những dòng sông chảy vào bến cảng hình lưỡi liềm – tạo nên những khu dân cư có cá tính riêng biệt, mỗi khu vực đều có những đặc điểm riêng biệt.
+Rio de Janeiro. Địa hình của thành phố – một loạt các thung lũng được hình thành bởi những dòng sông chảy vào bến cảng hình lưỡi liềm – tạo nên những khu dân cư có cá tính riêng biệt, mỗi khu vực đều
+có những đặc điểm riêng biệt.
 mang đến hương vị khác biệt của cuộc sống ven biển Hàn Quốc.
 
 ##Trải nghiệm tinh túy của Busan
 
-Bất kỳ chuyến thăm nào cũng nên bắt đầu tại Làng văn hóa Gamcheon, mê cung sườn đồi với những ngôi nhà sơn màu rực rỡ đã trở thành địa điểm được chụp ảnh nhiều nhất ở Busan. Nhưng không giống nhiều người
-Những điểm đến nổi tiếng trên Instagram, Gamcheon trao thưởng cho những người mạo hiểm vượt ra ngoài các địa điểm chụp ảnh chính. Ngôi làng là một cộng đồng sống động và những phòng trưng bày nhỏ, những quán trà độc lập,
+Bất kỳ chuyến thăm nào cũng nên bắt đầu tại Làng văn hóa Gamcheon, mê cung sườn đồi với những ngôi nhà sơn màu rực rỡ đã trở thành địa điểm được chụp ảnh nhiều nhất ở Busan. Nhưng không giống nhiều
+người
+Những điểm đến nổi tiếng trên Instagram, Gamcheon trao thưởng cho những người mạo hiểm vượt ra ngoài các địa điểm chụp ảnh chính. Ngôi làng là một cộng đồng sống động và những phòng trưng bày nhỏ,
+những quán trà độc lập,
 và các studio nghệ sĩ thường trú nằm trong các con hẻm mang đến cái nhìn chân thực về nền tảng sáng tạo của Busan.
 
 Thức ăn là lý do tuyệt vời khác để ghé thăm. Vị trí của Busan là cảng cá hàng đầu của Hàn Quốc có nghĩa là các chợ hải sản ở đây - đặc biệt là chợ Jagalchi, chợ lớn nhất cả nước -
-mang đến chiều sâu và sự đa dạng mà Seoul không thể sánh bằng. Đặc sản địa phương là dwaeji-gukbap (cơm súp thịt lợn), một món ăn thịnh soạn có nguồn gốc từ quá trình tái thiết thành phố sau chiến tranh
+mang đến chiều sâu và sự đa dạng mà Seoul không thể sánh bằng. Đặc sản địa phương là dwaeji-gukbap (cơm súp thịt lợn), một món ăn thịnh soạn có nguồn gốc từ quá trình tái thiết thành phố sau chiến
+tranh
 thời đại và vẫn là nguồn gốc của niềm tự hào mãnh liệt của địa phương. Đầu bếp Jung Ho-yeon, chủ nhà hàng ở quận Nampo-dong, cho biết: “Hương vị của Busan chính là hương vị của biển”.
 phục vụ banchan hải sản trong ba thế hệ.
 
 Đối với những người đến thăm đúng thời điểm, tháng 10 mang đến Liên hoan phim quốc tế Busan (BIFF), liên hoan phim có ảnh hưởng nhất châu Á và là nơi hội tụ điện ảnh,
-người nổi tiếng và văn hóa đường phố. Nhưng ngay cả trong những tháng yên tĩnh hơn, sự kết hợp giữa vẻ đẹp tự nhiên, chiều sâu ẩm thực và năng lượng sáng tạo của Busan khiến nơi đây trở thành một điểm đến xứng đáng.
+người nổi tiếng và văn hóa đường phố. Nhưng ngay cả trong những tháng yên tĩnh hơn, sự kết hợp giữa vẻ đẹp tự nhiên, chiều sâu ẩm thực và năng lượng sáng tạo của Busan khiến nơi đây trở thành một điểm
+đến xứng đáng.
 chuyến đi tận tâm - không chỉ là một chú thích trên hành trình ở Seoul.
 
 

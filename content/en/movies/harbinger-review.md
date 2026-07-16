@@ -46,7 +46,8 @@ sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
 
-Bong Joon-ho đã làm được điều đó một lần nữa. “Harbinger,” bộ phim đầu tiên của đạo diễn đoạt Cành cọ vàng và đoạt giải Oscar kể từ bộ phim lịch sử “Parasite”, được công chiếu lần đầu tại Liên hoan phim Cannes vào tháng 5 tới.
+Bong Joon-ho đã làm được điều đó một lần nữa. “Harbinger,” bộ phim đầu tiên của đạo diễn đoạt Cành cọ vàng và đoạt giải Oscar kể từ bộ phim lịch sử “Parasite”, được công chiếu lần đầu tại Liên hoan
+phim Cannes vào tháng 5 tới.
 sau 12 phút hoan nghênh nhiệt liệt, và sau khi xem bộ phim hoàn chỉnh tại buổi chiếu báo chí ở Seoul, thật dễ hiểu tại sao. Đây là một nhà làm phim hoạt động hoàn toàn thành thạo
 trong tay nghề của mình, mang đến một bộ phim kinh dị khoa học viễn tưởng đen tối vừa tàn khốc về mặt cảm xúc vừa khiêu khích trí tuệ.
 
@@ -58,11 +59,14 @@ gọi đây là một trong những màn trình diễn xuất sắc nhất trong
 ##Phim có hình ảnh tham vọng nhất của Bong
 
 Từ quan điểm thuần túy kỹ thuật, Harbinger đại diện cho một bước nhảy vọt về lượng tử của điện ảnh Hàn Quốc. Phân cảnh trung tâm của bộ phim — một cảnh dài 25 phút trong đó Ha-neul điều hướng
-tàn tích ngập nước của một khu chợ ven biển — được quay trong sáu tuần trong một bể chứa dưới nước được chế tạo có mục đích và yêu cầu Park So-dam phải huấn luyện trong nhiều tháng với các nhà vô địch lặn tự do. các
+tàn tích ngập nước của một khu chợ ven biển — được quay trong sáu tuần trong một bể chứa dưới nước được chế tạo có mục đích và yêu cầu Park So-dam phải huấn luyện trong nhiều tháng với các nhà vô địch
+lặn tự do. các
 kết quả thật ngoạn mục: nước hiếm khi được thể hiện với vẻ đẹp xúc giác và đáng sợ như vậy trên màn ảnh.
 
-Tuy nhiên, điều nâng tầm "Harbinger" vượt xa cảnh tượng là cốt lõi cảm xúc của nó. Bong luôn là một nhà làm phim theo chủ nghĩa nhân văn, và tại đây anh hướng ống kính của mình vào những cộng đồng bị di dời bởi
-các lực lượng nằm ngoài tầm kiểm soát của họ — một chủ đề gây tiếng vang vượt xa biên giới Hàn Quốc. Một tình tiết phụ liên quan đến một Halmeoni lớn tuổi không chịu rời khỏi ngôi nhà ngập nước của mình được hiển thị bằng
+Tuy nhiên, điều nâng tầm "Harbinger" vượt xa cảnh tượng là cốt lõi cảm xúc của nó. Bong luôn là một nhà làm phim theo chủ nghĩa nhân văn, và tại đây anh hướng ống kính của mình vào những cộng đồng bị
+di dời bởi
+các lực lượng nằm ngoài tầm kiểm soát của họ — một chủ đề gây tiếng vang vượt xa biên giới Hàn Quốc. Một tình tiết phụ liên quan đến một Halmeoni lớn tuổi không chịu rời khỏi ngôi nhà ngập nước của
+mình được hiển thị bằng
 sự dịu dàng đến mức có nguy cơ cướp mất toàn bộ bộ phim.
 
 Harbinger sẽ ra rạp ở Hàn Quốc vào ngày 25/7 và sẽ được ra rạp toàn cầu thông qua CJ ENM và Neon vào tháng 8. Nó không thể bỏ qua.

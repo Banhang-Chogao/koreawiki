@@ -51,12 +51,14 @@ trên Sàn giao dịch Hàn Quốc. Tập đoàn, ngôi nhà của BTS, Seventee
 doanh thu từ nền tảng Weverse của nó.
 
 Lợi nhuận hoạt động đạt 135 tỷ Yên, tăng 28% so với cùng kỳ năm ngoái, nhờ doanh thu lưu diễn hợp nhất của các thành viên BTS hiện đang thực hiện các chuyến lưu diễn solo vòng quanh thế giới,
-bao gồm chuyến tham quan sân vận động "D-Day" của SUGA và hoạt động chạy tại đấu trường Bắc Mỹ của Jung Kook. Tour diễn "Follow Again" đang diễn ra của Seventeen bắt đầu tại Seoul vào tháng 3 và sau đó đã chuyển địa điểm
+bao gồm chuyến tham quan sân vận động "D-Day" của SUGA và hoạt động chạy tại đấu trường Bắc Mỹ của Jung Kook. Tour diễn "Follow Again" đang diễn ra của Seventeen bắt đầu tại Seoul vào tháng 3 và sau
+đó đã chuyển địa điểm
 thông qua Nhật Bản và Đông Nam Á, chỉ riêng doanh thu bán vé và hàng hóa ước tính đã đóng góp khoảng 95 tỷ Yên.
 
 ## Weverse nổi lên như một trung tâm lợi nhuận
 
-Weverse, nền tảng cộng đồng người hâm mộ của HYBE, đã chứng kiến lượng người dùng hoạt động hàng tháng tăng lên 12,8 triệu, tạo ra doanh thu 87 tỷ Yên từ hàng hóa kỹ thuật số, đăng ký nội dung độc quyền,
+Weverse, nền tảng cộng đồng người hâm mộ của HYBE, đã chứng kiến lượng người dùng hoạt động hàng tháng tăng lên 12,8 triệu, tạo ra doanh thu 87 tỷ Yên từ hàng hóa kỹ thuật số, đăng ký nội dung độc
+quyền,
 và phát trực tiếp buổi hòa nhạc. Công ty đã đầu tư rất nhiều vào các tính năng cá nhân hóa được hỗ trợ bởi AI cho nền tảng này, bao gồm dịch thuật thời gian thực cho các buổi phát trực tiếp trong 12
 ngôn ngữ.
 
@@ -64,7 +66,8 @@ Giám đốc điều hành Park Ji-won tuyên bố trong cuộc họp báo cáo 
 thành trì. Công ty cũng xác nhận rằng kế hoạch thành lập một nhóm nhạc nữ mới trực thuộc công ty con ADOR đang trên đà ra mắt vào đầu năm 2027, nối tiếp quỹ đạo thành công của
 NewJeans dưới cùng một nhãn hiệu.
 
-Các nhà phân tích tại Daishin Securities vẫn duy trì xếp hạng "Nên mua" đối với cổ phiếu HYBE, nâng giá mục tiêu của họ lên ₩310.000, với lý do công ty đã kiếm tiền thành công từ hoạt động kinh doanh đa nhãn hiệu của mình.
+Các nhà phân tích tại Daishin Securities vẫn duy trì xếp hạng "Nên mua" đối với cổ phiếu HYBE, nâng giá mục tiêu của họ lên ₩310.000, với lý do công ty đã kiếm tiền thành công từ hoạt động kinh doanh
+đa nhãn hiệu của mình.
 cấu trúc và phạm vi tiếp cận toàn cầu.
 
 

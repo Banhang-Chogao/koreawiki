@@ -54,14 +54,17 @@ Châu Á, để lại đằng sau khung cảnh của những nhà máy bị bỏ
 
 ## Thời Phục hưng do nghệ sĩ lãnh đạo
 
-Quá trình chuyển đổi bắt đầu một cách lặng lẽ vào cuối những năm 2010, khi các nghệ sĩ và các phòng trưng bày nhỏ bắt đầu chuyển đến những không gian nhà xưởng rộng rãi, rẻ tiền. Họ được theo sau bởi độc lập
+Quá trình chuyển đổi bắt đầu một cách lặng lẽ vào cuối những năm 2010, khi các nghệ sĩ và các phòng trưng bày nhỏ bắt đầu chuyển đến những không gian nhà xưởng rộng rãi, rẻ tiền. Họ được theo sau bởi
+độc lập
 nhà thiết kế, nhà rang cà phê đặc sản và nhà hàng thử nghiệm. Đến năm 2022, khu vực lân cận đã đạt đến đỉnh điểm khi các thương hiệu lớn nhận ra dấu ấn văn hóa của nơi này.
 
-Lisa Kim, người đồng sáng lập thương hiệu phong cách sống AMOMENTO, đã mở cửa hàng hàng đầu trong một nhà máy giày đã được chuyển đổi vào năm 2023, cho biết: “Chúng tôi chọn Seongsu-dong vì nó có cảm giác chân thực”.
+Lisa Kim, người đồng sáng lập thương hiệu phong cách sống AMOMENTO, đã mở cửa hàng hàng đầu trong một nhà máy giày đã được chuyển đổi vào năm 2023, cho biết: “Chúng tôi chọn Seongsu-dong vì nó có cảm
+giác chân thực”.
 "Gangnam lịch sự. Hongdae trẻ trung. Seongsu-dong có kết cấu. Những vết nứt trên bê tông, biển hiệu mờ nhạt từ những năm 1980, cảm giác rằng nơi này có lịch sử — bạn không thể
 sản xuất thứ đó."
 
-Sự trỗi dậy của khu phố không phải là không có những lời chỉ trích. Những cư dân lâu năm và các nhà sản xuất nhỏ đã phải trả giá đắt khi giá thuê đã tăng gấp 4 lần kể từ năm 2020. Chính quyền thành phố
+Sự trỗi dậy của khu phố không phải là không có những lời chỉ trích. Những cư dân lâu năm và các nhà sản xuất nhỏ đã phải trả giá đắt khi giá thuê đã tăng gấp 4 lần kể từ năm 2020. Chính quyền thành
+phố
 đã cố gắng bảo tồn một số đặc điểm công nghiệp của khu vực thông qua các quy định phân vùng, yêu cầu các nhà phát triển duy trì mặt tiền bên ngoài của các tòa nhà nhà máy lịch sử.
 Nhưng sự căng thẳng giữa bảo tồn và tiến bộ vẫn chưa được giải quyết.
 

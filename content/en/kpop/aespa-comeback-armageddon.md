@@ -52,7 +52,8 @@ Entertainment, dự án nhận thấy bộ tứ đang từ bỏ chủ nghĩa tư
 rock, nhạc pop hòa tấu và hip-hop thử nghiệm.
 
 Ca khúc chủ đề, "Armageddon", là một bản anh hùng ca dài bảy phút mở ra theo ba chuyển động riêng biệt, chuyển từ phần giới thiệu piano trầm ngâm sang phần thả nhịp dồn dập trước đó.
-giải quyết trong một đêm chung kết hợp xướng cao vút. Video âm nhạc của bài hát, do đội ngũ nổi tiếng tại Rigend Film đạo diễn, là video đắt nhất từng được sản xuất cho một nhóm nhạc nữ K-pop, với doanh thu được báo cáo là
+giải quyết trong một đêm chung kết hợp xướng cao vút. Video âm nhạc của bài hát, do đội ngũ nổi tiếng tại Rigend Film đạo diễn, là video đắt nhất từng được sản xuất cho một nhóm nhạc nữ K-pop, với
+doanh thu được báo cáo là
 ngân sách 3,5 tỷ Yên. Câu chuyện bằng hình ảnh đan xen giữa hình ảnh pháp sư Hàn Quốc với viễn tưởng viễn tưởng cyberpunk, bao gồm một phân cảnh dừng chiếu được quay tại Xi măng Ssangyong废弃
 nhà máy ở Đan Dương.
 

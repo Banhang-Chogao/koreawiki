@@ -50,11 +50,13 @@ Người Hàn Quốc có câu tục ngữ: “Cây rễ sâu không sợ gió”
 Câu hỏi không còn là liệu cái cây có đủ khỏe để chịu được ngoại lực hay không - mà là liệu rễ có còn kết nối với lớp đất đã nuôi dưỡng chúng hay không.
 
 Thành công của Hallyu thật phi thường xét trên mọi phương diện. Các công ty giải trí Hàn Quốc hiện nằm trong số những công ty có giá trị nhất thế giới. Tiêu đề diễn viên và nhạc sĩ Hàn Quốc
-các chuyến tham quan toàn cầu và nền tảng phát trực tuyến. Các sản phẩm thực phẩm, thời trang và làm đẹp của Hàn Quốc là những mặt hàng chủ lực của văn hóa tiêu dùng quốc tế. Đây là lý do để ăn mừng - và để lo lắng.
+các chuyến tham quan toàn cầu và nền tảng phát trực tuyến. Các sản phẩm thực phẩm, thời trang và làm đẹp của Hàn Quốc là những mặt hàng chủ lực của văn hóa tiêu dùng quốc tế. Đây là lý do để ăn mừng -
+và để lo lắng.
 
 ## Câu hỏi về tính xác thực
 
-Khi Netflix đặt mua một bộ phim truyền hình Hàn Quốc, đó là phim truyền hình Hàn Quốc hay sản phẩm toàn cầu được sản xuất tại Hàn Quốc? Khi HYBE ký hợp đồng với một nhóm nhạc nữ đa quốc gia với các thành viên đến từ Việt Nam, Brazil và
+Khi Netflix đặt mua một bộ phim truyền hình Hàn Quốc, đó là phim truyền hình Hàn Quốc hay sản phẩm toàn cầu được sản xuất tại Hàn Quốc? Khi HYBE ký hợp đồng với một nhóm nhạc nữ đa quốc gia với các
+thành viên đến từ Việt Nam, Brazil và
 Thụy Điển, kết quả là K-pop hay một phiên bản nhạc pop toàn cầu do Hàn Quốc sản xuất? Khi món ăn Hàn Quốc được điều chỉnh phù hợp với khẩu vị quốc tế – ít cay hơn, ngọt hơn, loại bỏ chất lên men
 cường độ - nó có còn là ẩm thực Hàn Quốc không?
 
@@ -62,10 +64,12 @@ cường độ - nó có còn là ẩm thực Hàn Quốc không?
 quá trình toàn cầu hóa văn hóa Hàn Quốc, chúng ta có thể vô tình tước đi những phẩm chất khiến nó trở nên hấp dẫn ngay từ đầu.
 
 Lập luận phản bác - và nó là một lập luận mạnh mẽ - là văn hóa luôn phát triển thông qua tiếp xúc và trao đổi. Bản thân văn hóa Hàn Quốc là sản phẩm của sự tương tác qua nhiều thế kỷ
-với Trung Quốc, Nhật Bản, phương Tây và thế giới rộng lớn hơn. Hanbok kết hợp các yếu tố của thời trang Mông Cổ. Kim chi ban đầu là hàng nhập khẩu từ Trung Quốc. K-pop không thể tưởng tượng được nếu không có
+với Trung Quốc, Nhật Bản, phương Tây và thế giới rộng lớn hơn. Hanbok kết hợp các yếu tố của thời trang Mông Cổ. Kim chi ban đầu là hàng nhập khẩu từ Trung Quốc. K-pop không thể tưởng tượng được nếu
+không có
 R&B và hip-hop Mỹ.
 
-Có lẽ câu hỏi không phải là liệu văn hóa Hàn Quốc có thể tồn tại được trong quá trình toàn cầu hóa hay không mà là liệu chúng ta có thể duy trì các điều kiện cho sự đổi mới văn hóa trong nước hay không. Rủi ro thực sự không phải ở chỗ đó
+Có lẽ câu hỏi không phải là liệu văn hóa Hàn Quốc có thể tồn tại được trong quá trình toàn cầu hóa hay không mà là liệu chúng ta có thể duy trì các điều kiện cho sự đổi mới văn hóa trong nước hay
+không. Rủi ro thực sự không phải ở chỗ đó
 Văn hóa Hàn Quốc trở nên ít Hàn Quốc hơn, nhưng logic kinh tế của giải trí toàn cầu sẽ tiêu hao năng lượng từ hệ sinh thái văn hóa nội địa của Hàn Quốc - âm nhạc độc lập
 địa điểm, nhà xuất bản nhỏ, liên hoan phim khu vực - ủng hộ sản phẩm được tối ưu hóa cho xuất khẩu.
 

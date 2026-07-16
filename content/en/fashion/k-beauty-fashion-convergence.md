@@ -50,21 +50,25 @@ khai mạc. Không gian này là sự hợp tác giữa dòng sản phẩm làm 
 cửa hàng - đó là cả hai. Khách hàng có thể được cố vấn sắc đẹp AI của Sulwhasoo phân tích làn da của mình, sau đó duyệt qua bộ sưu tập quần áo may sẵn của Maison Margiela trong khi chờ đợi.
 huyết thanh pha trộn tùy chỉnh của họ.
 
-Sự hội tụ giữa vẻ đẹp và thời trang Hàn Quốc đại diện cho một trong những xu hướng quan trọng nhất trong ngành bán lẻ cao cấp và các thương hiệu Hàn Quốc đang dẫn đầu xu hướng này. Tập đoàn Amorepacific,
+Sự hội tụ giữa vẻ đẹp và thời trang Hàn Quốc đại diện cho một trong những xu hướng quan trọng nhất trong ngành bán lẻ cao cấp và các thương hiệu Hàn Quốc đang dẫn đầu xu hướng này. Tập đoàn
+Amorepacific,
 báo cáo doanh thu 4,8 nghìn tỷ Yên vào năm 2025, đã tích cực tái định vị danh mục đầu tư của mình sang phân khúc cao cấp, mở các cửa hàng cao cấp hàng đầu ở Seoul, Tokyo,
 Thượng Hải và Paris. Chiến lược đang phát huy hiệu quả: Doanh thu toàn cầu của Sulwhasoo tăng 28% so với cùng kỳ năm ngoái trong quý đầu tiên của năm 2026.
 
 ## Ngoài quy trình 10 bước
 
-Nhà phân tích thời trang và sắc đẹp Park Eun-ji cho biết: “Trước đây, K-beauty gắn liền với các sản phẩm dành cho thị trường đại chúng và các quy trình chăm sóc da phức tạp”. “Nhưng thế hệ mới của Hàn Quốc
+Nhà phân tích thời trang và sắc đẹp Park Eun-ji cho biết: “Trước đây, K-beauty gắn liền với các sản phẩm dành cho thị trường đại chúng và các quy trình chăm sóc da phức tạp”. “Nhưng thế hệ mới của Hàn
+Quốc
 Người tiêu dùng làm đẹp đang tìm kiếm sự tinh tế chứ không phải sự phức tạp. Họ muốn những sản phẩm có hiệu quả và đẹp mắt theo cách riêng của họ."
 
 Điều này đã thúc đẩy làn sóng hợp tác giữa các thương hiệu làm đẹp Hàn Quốc và các hãng thời trang toàn cầu. Innisfree hợp tác với Prada cho ra mắt bộ sưu tập son phiên bản giới hạn. Laneige
-cộng tác với Jacquemus trên một viên nang mùa hè. Tuy nhiên, mối quan hệ hợp tác đầy tham vọng nhất cho đến nay là dòng thời trang chính thức được đồn đại từ COSRX, mà các nguồn tin xác nhận là đang trong quá trình hợp tác.
+cộng tác với Jacquemus trên một viên nang mùa hè. Tuy nhiên, mối quan hệ hợp tác đầy tham vọng nhất cho đến nay là dòng thời trang chính thức được đồn đại từ COSRX, mà các nguồn tin xác nhận là đang
+trong quá trình hợp tác.
 phát triển với một hãng thời trang lớn của Ý.
 
 Tác động kinh tế là đáng kể. Theo Hiệp hội Thương mại Quốc tế Hàn Quốc, xuất khẩu mỹ phẩm đạt 12,3 tỷ USD vào năm 2025, khiến sắc đẹp trở thành thị trường lớn thứ ba
-hạng mục xuất khẩu văn hóa đằng sau giải trí và thực phẩm. Với sự hội tụ về thời trang và sắc đẹp ngày càng tăng, con số đó dự kiến sẽ tăng lên khi các thương hiệu Hàn Quốc chiếm được nhiều thị trường hơn.
+hạng mục xuất khẩu văn hóa đằng sau giải trí và thực phẩm. Với sự hội tụ về thời trang và sắc đẹp ngày càng tăng, con số đó dự kiến sẽ tăng lên khi các thương hiệu Hàn Quốc chiếm được nhiều thị trường
+hơn.
 thị trường xa xỉ toàn cầu.
 
 

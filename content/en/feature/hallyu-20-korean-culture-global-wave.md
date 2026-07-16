@@ -45,7 +45,8 @@ sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
 
-Vào năm 2012, "Gangnam Style" của Psy là một hiện tượng toàn cầu được nhiều người coi là một điều mới lạ - một tia sáng đầy màu sắc, bất kính trong một thời gian ngắn đã khiến cả thế giới chú ý đến miền Nam.
+Vào năm 2012, "Gangnam Style" của Psy là một hiện tượng toàn cầu được nhiều người coi là một điều mới lạ - một tia sáng đầy màu sắc, bất kính trong một thời gian ngắn đã khiến cả thế giới chú ý đến
+miền Nam.
 Hàn Quốc. Mười bốn năm sau, ý tưởng coi văn hóa Hàn Quốc như một thứ mốt nhất thời có vẻ phi lý. Làn sóng Hàn Quốc, hay Hallyu, đã phát triển từ một sở thích nhỏ thành một trụ cột mang tính cấu trúc
 của nền kinh tế văn hóa và giải trí toàn cầu.
 
@@ -60,15 +61,19 @@ Viện. "Ngày nay, các nhà hàng Hàn Quốc nằm trong số các danh mục
 siêu thị. Đây không phải là một xu hướng - nó là một sự biến đổi lâu dài về khẩu vị toàn cầu."
 
 Việc xuất khẩu văn học Hàn Quốc có lẽ đã chứng kiến ​​sự đột biến đáng ngạc nhiên nhất. Sau giải Nobel Văn học năm 2024 của Han Kang và giải Booker sau đó của bà, tác phẩm Hàn Quốc
-doanh số bán tiểu thuyết văn học qua bản dịch tăng 340% so với cùng kỳ năm trước. Các nhà xuất bản trên toàn thế giới đua nhau giành bản quyền dịch thuật cho các tác giả Hàn Quốc và các cơ quan văn học Hàn Quốc
+doanh số bán tiểu thuyết văn học qua bản dịch tăng 340% so với cùng kỳ năm trước. Các nhà xuất bản trên toàn thế giới đua nhau giành bản quyền dịch thuật cho các tác giả Hàn Quốc và các cơ quan văn
+học Hàn Quốc
 báo cáo rằng số tiến bộ dành cho các tiểu thuyết gia đầu tay đã tăng gấp 10 lần kể từ năm 2023.
 
 Jeong Myeong-seok, giáo sư nghiên cứu văn hóa tại Đại học Yonsei, lập luận rằng làn sóng thứ hai về cơ bản khác với làn sóng thứ nhất. "Halyu đầu tiên được thúc đẩy bởi một
-rất ít sản phẩm bom tấn – một bộ phim truyền hình ở đây, một nhóm nhạc K-pop ở đó,” ông nói. "Nó rất mong manh vì nó phụ thuộc vào từng lượt truy cập riêng lẻ. Hallyu 2.0 mang tính cấu trúc. Nó được gắn vào toàn cầu
+rất ít sản phẩm bom tấn – một bộ phim truyền hình ở đây, một nhóm nhạc K-pop ở đó,” ông nói. "Nó rất mong manh vì nó phụ thuộc vào từng lượt truy cập riêng lẻ. Hallyu 2.0 mang tính cấu trúc. Nó được
+gắn vào toàn cầu
 hành vi của người tiêu dùng, từ thói quen làm đẹp đến thói quen ăn kiêng cho đến cách mọi người trang trí nhà cửa."
 
-Những tác động đối với nền kinh tế Hàn Quốc là rất sâu sắc. Chính phủ đã đặt mục tiêu xuất khẩu nội dung văn hóa đạt 50 nghìn tỷ Yên vào năm 2032, mục tiêu mà các nhà phân tích cho là có thể đạt được nếu
-quỹ đạo tăng trưởng hiện tại được giữ vững. Đối với phần còn lại của thế giới, Hallyu 2.0 đại diện cho một điều gì đó hiếm hoi hơn: sự trao đổi văn hóa hai chiều đích thực trong thời đại văn hóa ngày càng phát triển.
+Những tác động đối với nền kinh tế Hàn Quốc là rất sâu sắc. Chính phủ đã đặt mục tiêu xuất khẩu nội dung văn hóa đạt 50 nghìn tỷ Yên vào năm 2032, mục tiêu mà các nhà phân tích cho là có thể đạt được
+nếu
+quỹ đạo tăng trưởng hiện tại được giữ vững. Đối với phần còn lại của thế giới, Hallyu 2.0 đại diện cho một điều gì đó hiếm hoi hơn: sự trao đổi văn hóa hai chiều đích thực trong thời đại văn hóa ngày
+càng phát triển.
 sự phân mảnh.
 
 

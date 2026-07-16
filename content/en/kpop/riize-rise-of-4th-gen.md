@@ -50,14 +50,17 @@ Trong bối cảnh siêu cạnh tranh của K-pop thế hệ thứ tư, rất í
 Tháng 9 năm 2023, vừa phát hành album phòng thu dài đầu tiên "Realize" với sự hoan nghênh về mặt thương mại và phê bình, ra mắt ở vị trí số một trên Bảng xếp hạng Album vòng tròn và lọt vào danh sách
 Billboard 200 ở vị trí thứ 4 - vị trí xếp hạng cao nhất đối với bất kỳ nhóm nhạc nam thế hệ thứ tư nào trong lịch sử bảng xếp hạng.
 
-Điều khiến quỹ đạo của RIIZE trở nên đặc biệt đáng chú ý là họ đã nhanh chóng thiết lập được bản sắc âm nhạc riêng biệt như thế nào. Trong khi nhiều nhóm tân binh mất nhiều năm theo đuổi xu hướng thì RIIZE
+Điều khiến quỹ đạo của RIIZE trở nên đặc biệt đáng chú ý là họ đã nhanh chóng thiết lập được bản sắc âm nhạc riêng biệt như thế nào. Trong khi nhiều nhóm tân binh mất nhiều năm theo đuổi xu hướng thì
+RIIZE
 đến với một bản thiết kế âm thanh rõ ràng: sự kết hợp giữa R&B những năm 2000 với sản xuất nhạc pop đương đại, được củng cố bởi sự đóng góp sáng tác của thành viên Anton và nhà sản xuất nội bộ
-Kenzie. Công thức đã được chứng minh là có hiệu quả về mặt thương mại. "Realize" đã bán được 2,3 triệu bản trong tuần đầu tiên và đĩa đơn chủ đạo "Eternal" đã trải qua 5 tuần liên tiếp ở vị trí quán quân.
+Kenzie. Công thức đã được chứng minh là có hiệu quả về mặt thương mại. "Realize" đã bán được 2,3 triệu bản trong tuần đầu tiên và đĩa đơn chủ đạo "Eternal" đã trải qua 5 tuần liên tiếp ở vị trí quán
+quân.
 một trên Biểu đồ kỹ thuật số vòng tròn.
 
 ## Thời kỳ phục hưng của SM R&B
 
-Các nhà phê bình âm nhạc đã nhanh chóng coi thành công của RIIZE là một phần trong sự hồi sinh rộng rãi hơn của R&B trong hệ sinh thái K-pop. "Trong nhiều năm, SM Entertainment đã xây dựng danh tiếng của mình dựa trên
+Các nhà phê bình âm nhạc đã nhanh chóng coi thành công của RIIZE là một phần trong sự hồi sinh rộng rãi hơn của R&B trong hệ sinh thái K-pop. "Trong nhiều năm, SM Entertainment đã xây dựng danh tiếng
+của mình dựa trên
 âm thanh bóng bẩy, mang tính tương lai," nhà phê bình âm nhạc Kim Yeon-ji lưu ý trong một chuyên mục gần đây cho The Hankyoreh. “Với RIIZE, họ đã trở lại với cảm xúc ấm áp của những bản ballad R&B
 đã tạo nên những nhóm nhạc như TVXQ và SHINee trở thành huyền thoại nhưng được lọc qua lăng kính sản xuất hiện đại."
 

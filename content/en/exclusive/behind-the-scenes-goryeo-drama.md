@@ -52,15 +52,18 @@ cần 18 tháng lập kế hoạch và đội ngũ xây dựng gồm 230 ngườ
 
 ## Độ chính xác về mặt lịch sử đáp ứng nhu cầu kịch tính
 
-Tiến sĩ cố vấn lịch sử, Tiến sĩ Bae Jae-sung, giáo sư lịch sử Hàn Quốc tại Đại học Hàn Quốc, có mặt trên phim trường hàng ngày, thường làm trung gian giữa mong muốn tạo ra tác động kịch tính của bộ phim.
+Tiến sĩ cố vấn lịch sử, Tiến sĩ Bae Jae-sung, giáo sư lịch sử Hàn Quốc tại Đại học Hàn Quốc, có mặt trên phim trường hàng ngày, thường làm trung gian giữa mong muốn tạo ra tác động kịch tính của bộ
+phim.
 và cam kết của chính ông về tính chính xác. “Họ muốn công chúa sử dụng một loại bát gốm cụ thể trong một cảnh quay,” anh nói và chỉ vào màn hình của đạo diễn. "Tôi đã phải giải thích
 Chiếc bát đó không tồn tại ở Hàn Quốc cho đến triều đại Joseon. Đây là những cuộc trò chuyện chúng tôi có hàng ngày."
 
-Sự chú ý đến từng chi tiết còn mở rộng đến trang phục, nơi một nhóm gồm 45 nghệ nhân đã sản xuất hơn 2.000 sản phẩm may mặc riêng lẻ. Nhà thiết kế trang phục Lee Ji-yeon, người đã đoạt giải Baeksang cho tác phẩm của mình
+Sự chú ý đến từng chi tiết còn mở rộng đến trang phục, nơi một nhóm gồm 45 nghệ nhân đã sản xuất hơn 2.000 sản phẩm may mặc riêng lẻ. Nhà thiết kế trang phục Lee Ji-yeon, người đã đoạt giải Baeksang
+cho tác phẩm của mình
 trong "The RedTae áo", chúng tôi đã cho chúng tôi thấy quy trình nhuộm vải bằng tay tỉ mỉ bằng bột màu tự nhiên. Cô giải thích: “Màu sắc ở Goryeo khác với Joseon. "Họ là
 sinh động hơn, chịu ảnh hưởng nhiều hơn từ con đường tơ lụa. Chúng tôi đang tái tạo những màu sắc chưa từng thấy trong 600 năm qua.”
 
-Nam diễn viên chính Rowoon, người đóng vai học giả Goryeo, nói chuyện giữa các cảnh quay trong khi nghệ sĩ trang điểm chỉnh lại sangtu (mũ tóc được mặc bởi những người đàn ông quý tộc). "Đây là điều tuyệt vời nhất về thể chất
+Nam diễn viên chính Rowoon, người đóng vai học giả Goryeo, nói chuyện giữa các cảnh quay trong khi nghệ sĩ trang điểm chỉnh lại sangtu (mũ tóc được mặc bởi những người đàn ông quý tộc). "Đây là điều
+tuyệt vời nhất về thể chất
 vai trò đòi hỏi khắt khe mà tôi từng đảm nhận", anh nói. “Tôi đã học thư pháp cổ điển Trung Quốc, cưỡi ngựa và geomungo (đàn tam thập lục) truyền thống trong năm tháng qua.
 không có đường tắt cho kiểu chuẩn bị này."
 

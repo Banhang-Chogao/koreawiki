@@ -55,7 +55,8 @@ Giám đốc sáng tạo Kang Yeon-jung cho biết: “Chúng tôi muốn tạo 
 ## Đối thủ quốc tế tăng tiền đặt cược
 
 Sự tham gia của các thủy thủ đoàn quốc tế đã tạo thêm một lớp căng thẳng mới. Nhóm nhạc Nhật Bản "Tokyo Renegades" đã đến với danh tiếng đã được tạo dựng trong làng khiêu vũ ngầm của Nhật Bản,
-trong khi nhóm nhạc "Les Royaux" người Pháp lại mang đến nền tảng hip-hop khác biệt rõ rệt với phong cách nhảy Hàn Quốc. Phi hành đoàn người Mỹ "Bronx Storm" có sự góp mặt của các thành viên đã nhảy trong
+trong khi nhóm nhạc "Les Royaux" người Pháp lại mang đến nền tảng hip-hop khác biệt rõ rệt với phong cách nhảy Hàn Quốc. Phi hành đoàn người Mỹ "Bronx Storm" có sự góp mặt của các thành viên đã nhảy
+trong
 Beyoncé và Janet Jackson.
 
 “Tôi đã xem Phần 1 và 2 một cách ám ảnh,” đội trưởng Maya Thompson của Bronx Storm nói trong cuộc họp báo. "Các nhóm nhảy Hàn Quốc có kỹ thuật thật đáng kinh ngạc. Nhưng chúng tôi mang đến một

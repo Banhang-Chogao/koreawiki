@@ -43,22 +43,26 @@ sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
 
-Netflix xác nhận hôm thứ Hai rằng Park Seo-joon và Jun Ji-hyun đã được chọn vào vai chính trong "The Seoul Agency", một bộ phim kinh dị gián điệp kinh phí lớn mà các nhà điều hành phát trực tuyến đã sẵn sàng.
+Netflix xác nhận hôm thứ Hai rằng Park Seo-joon và Jun Ji-hyun đã được chọn vào vai chính trong "The Seoul Agency", một bộ phim kinh dị gián điệp kinh phí lớn mà các nhà điều hành phát trực tuyến đã
+sẵn sàng.
 gọi là "câu trả lời của người Hàn Quốc cho Mission: Impossible." Bộ phim do biên kịch "Kingdom" Kim Eun-hee sáng tác, bắt đầu quay phim chính vào tháng 8 và tiến hành sản xuất theo báo cáo.
 kinh phí 100 tỷ Yên, trở thành phim truyền hình dài tập đắt nhất trong lịch sử truyền hình Hàn Quốc.
 
 Bộ phim dài 10 tập kể về một cơ quan tình báo bí mật hoạt động dưới vỏ bọc là một công ty tư vấn du lịch sang trọng ở quận Gangnam của Seoul. Park Seo Joon vào vai Kang Daniel
-Đặc vụ NIS bị thất sủng được tuyển dụng cho một nhiệm vụ cuối cùng, trong khi Jun Ji-hyun vào vai Yoon Seo-yeon, một người quản lý bảo tàng có quá khứ đen tối, người không ngờ lại trở thành đồng minh của anh ta. Dàn diễn viên cũng
+Đặc vụ NIS bị thất sủng được tuyển dụng cho một nhiệm vụ cuối cùng, trong khi Jun Ji-hyun vào vai Yoon Seo-yeon, một người quản lý bảo tàng có quá khứ đen tối, người không ngờ lại trở thành đồng minh
+của anh ta. Dàn diễn viên cũng
 bao gồm Lee Byung-hun trong vai giám đốc bí ẩn của cơ quan và Kim Go-eun trong vai một người đào thoát Bắc Triều Tiên trở thành đặc vụ.
 
 ## Tham vọng toàn cầu
 
 "The Seoul Agency" đại diện cho sự đặt cược quyết liệt nhất của Netflix vào việc loạt phim Hàn Quốc tiếp cận khán giả phổ thông toàn cầu giống như cách "Squid Game" đã làm. Bộ phim sẽ được
-được quay chủ yếu bằng tiếng Anh, với lời thoại bằng tiếng Hàn được sử dụng trong các bối cảnh tường thuật cụ thể và nhà sản xuất đã thuê các điều phối viên đóng thế từng làm việc cho loạt phim "John Wick"
+được quay chủ yếu bằng tiếng Anh, với lời thoại bằng tiếng Hàn được sử dụng trong các bối cảnh tường thuật cụ thể và nhà sản xuất đã thuê các điều phối viên đóng thế từng làm việc cho loạt phim "John
+Wick"
 và loạt phim "Bourne".
 
 Tại một sự kiện báo chí ở Gangnam, Kim Eun-hee mô tả dự án là "một bức thư tình gửi Seoul." "Tôi muốn giới thiệu thành phố theo cách mà khán giả quốc tế chưa từng thấy — không phải
-phiên bản dành cho khách du lịch, nhưng Seoul mà tôi biết, với những con hẻm bí mật, những căn lều pojangmacha vào đêm khuya và những mối nguy hiểm tồn tại bên dưới bề mặt của một xã hội siêu hiện đại.
+phiên bản dành cho khách du lịch, nhưng Seoul mà tôi biết, với những con hẻm bí mật, những căn lều pojangmacha vào đêm khuya và những mối nguy hiểm tồn tại bên dưới bề mặt của một xã hội siêu hiện
+đại.
 đô thị," cô nói.
 
 Quá trình sản xuất sẽ được quay tại các địa điểm trên khắp Seoul, Busan và Đảo Jeju, cũng như ở Tokyo và Bangkok. Bộ phim dự kiến ​​phát hành vào cuối năm 2027 trên Netflix.

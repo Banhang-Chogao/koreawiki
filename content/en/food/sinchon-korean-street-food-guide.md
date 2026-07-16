@@ -46,7 +46,8 @@ Sinchon, khu đại học nơi có Yonsei, Đại học Nữ sinh Ewha và Đạ
 đã phát triển một nền văn hóa ẩm thực đường phố vô song về tính sáng tạo, khả năng chi trả và mật độ tuyệt đối.
 
 Điểm thu hút chính, Sinchon-ro, là lễ hội của các lựa chọn ăn uống từ sáng muộn cho đến sáng sớm. Đặc điểm nổi bật của khu vực là sự đổi mới không ngừng. "Ở Myeongdong,
-bạn sẽ nhận được món tteokbokki và odeng giống như món mà khách du lịch đã ăn trong 20 năm qua", blogger ẩm thực Kim Do-yeon, người điều hành tài khoản Instagram nổi tiếng "Seoul Bites", cho biết. "Trong
+bạn sẽ nhận được món tteokbokki và odeng giống như món mà khách du lịch đã ăn trong 20 năm qua", blogger ẩm thực Kim Do-yeon, người điều hành tài khoản Instagram nổi tiếng "Seoul Bites", cho biết.
+"Trong
 Sinchon, nếu một gian hàng phục vụ cùng một món trong hai tháng liên tục, nó sẽ không tồn tại được. Sinh viên muốn sự mới lạ và họ muốn nó với giá ₩5.000 trở xuống."
 
 ## Những sáng tạo đặc trưng của Sinchon

@@ -42,21 +42,28 @@ sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
 
-Seoul về đêm là một thành phố của sự tương phản. Ở Gangnam, ánh đèn neon của các biển quảng cáo K-pop và mặt tiền cửa hàng sang trọng phản chiếu lên các tòa tháp kính của trụ sở công ty, tạo nên một không gian
-tầm nhìn về sự thịnh vượng siêu hiện đại. Ở Bukchon, những con hẻm chật hẹp chỉ được chiếu sáng bởi ánh sáng ấm áp của các nhà nghỉ hanok và thỉnh thoảng có ánh đèn đường, mang lại cảm giác về một không gian cổ kính.
+Seoul về đêm là một thành phố của sự tương phản. Ở Gangnam, ánh đèn neon của các biển quảng cáo K-pop và mặt tiền cửa hàng sang trọng phản chiếu lên các tòa tháp kính của trụ sở công ty, tạo nên một
+không gian
+tầm nhìn về sự thịnh vượng siêu hiện đại. Ở Bukchon, những con hẻm chật hẹp chỉ được chiếu sáng bởi ánh sáng ấm áp của các nhà nghỉ hanok và thỉnh thoảng có ánh đèn đường, mang lại cảm giác về một
+không gian cổ kính.
 Seoul tồn tại trước phép màu kinh tế.
 
 ## Gangnam: Khu Điện lực
 
-Cảnh đêm Gangnam được xác định bằng ánh sáng - cụ thể là các biển quảng cáo kỹ thuật số khổng lồ dọc theo Gangnam-daero, một trong những biển lớn nhất ở châu Á. Các nhiếp ảnh gia của chúng tôi đã dành một đêm
+Cảnh đêm Gangnam được xác định bằng ánh sáng - cụ thể là các biển quảng cáo kỹ thuật số khổng lồ dọc theo Gangnam-daero, một trong những biển lớn nhất ở châu Á. Các nhiếp ảnh gia của chúng tôi đã dành
+một đêm
 ghi lại sự tương tác giữa các nguồn sáng thương mại này và hoạt động của con người bên dưới chúng. Những hình ảnh ấn tượng nhất là những hình ảnh ghi lại khoảnh khắc tĩnh lặng bên trong
-sự hỗn loạn về mặt hình ảnh: một tài xế giao hàng đang nghỉ ngơi trên chiếc xe tay ga của mình, được đóng khung bởi một đoạn video cao chót vót về một thần tượng K-pop; một cặp đôi đang chia sẻ khoảnh khắc yên tĩnh dưới ánh sáng của màn hình LED dài 50 mét.
+sự hỗn loạn về mặt hình ảnh: một tài xế giao hàng đang nghỉ ngơi trên chiếc xe tay ga của mình, được đóng khung bởi một đoạn video cao chót vót về một thần tượng K-pop; một cặp đôi đang chia sẻ khoảnh
+khắc yên tĩnh dưới ánh sáng của màn hình LED dài 50 mét.
 
 ## Hongdae: Tuổi trẻ và Bóng tối
 
-Hongdae vào ban đêm là một sinh vật hoàn toàn khác. Đường phố rộn ràng với những buổi biểu diễn hát rong, âm nhạc câu lạc bộ tràn ra từ những cánh cửa mở và đám đông thanh niên đang tìm đường trong mê cung
-của những con hẻm. Những bức ảnh của chúng tôi tập trung vào các nghệ sĩ biểu diễn — các vũ công đường phố, các ban nhạc indie, các nghệ sĩ guitar solo, những người tạo nên nền tảng cho năng lượng sáng tạo của Hongdae. Trong bóng tối
-giữa ánh đèn đường, những khoảnh khắc chân thực hiện lên: một vũ công lấy lại hơi thở, một nghệ sĩ guitar đang điều chỉnh chốt điều chỉnh, một cặp đôi chia sẻ nụ hôn đầu tiên trong ánh sáng rực rỡ của một chiếc đàn.
+Hongdae vào ban đêm là một sinh vật hoàn toàn khác. Đường phố rộn ràng với những buổi biểu diễn hát rong, âm nhạc câu lạc bộ tràn ra từ những cánh cửa mở và đám đông thanh niên đang tìm đường trong mê
+cung
+của những con hẻm. Những bức ảnh của chúng tôi tập trung vào các nghệ sĩ biểu diễn — các vũ công đường phố, các ban nhạc indie, các nghệ sĩ guitar solo, những người tạo nên nền tảng cho năng lượng
+sáng tạo của Hongdae. Trong bóng tối
+giữa ánh đèn đường, những khoảnh khắc chân thực hiện lên: một vũ công lấy lại hơi thở, một nghệ sĩ guitar đang điều chỉnh chốt điều chỉnh, một cặp đôi chia sẻ nụ hôn đầu tiên trong ánh sáng rực rỡ của
+một chiếc đàn.
 cửa hàng tiện lợi.
 
 ## Bukchon: Thành phố yên tĩnh
