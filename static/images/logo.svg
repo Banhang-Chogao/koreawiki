@@ -1,15 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 44" fill="none">
   <title>KoreaWiki</title>
-  <g transform="translate(4,6)">
-    <g stroke="#00B5A6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-      <line x1="8" y1="4" x2="8" y2="28"/>
-      <line x1="8" y1="8" x2="25" y2="8"/>
-      <line x1="8" y1="16" x2="21" y2="16"/>
-      <line x1="8" y1="24" x2="16" y2="24"/>
+  <g transform="translate(2,6)">
+    <rect width="32" height="32" rx="7" fill="#00B5A6"/>
+    <rect x="6" y="5" width="19" height="22" rx="2" fill="#ffffff"/>
+    <path d="M19 5 L25 5 L25 11 Z" fill="#00B5A6"/>
+    <rect x="9" y="12" width="11" height="1.5" rx="0.75" fill="#00B5A6" opacity="0.2"/>
+    <rect x="9" y="17" width="8" height="1.5" rx="0.75" fill="#00B5A6" opacity="0.2"/>
+    <rect x="9" y="22" width="5" height="1.5" rx="0.75" fill="#00B5A6" opacity="0.2"/>
+    <g fill="#00B5A6">
+      <path d="M12 10 L13 8 L15 11 L14 13 Z"/>
+      <path d="M13 11 L14 13 L21 19 L20 22 L17 20 L12 14 Z"/>
+      <rect x="18" y="19.5" width="4" height="3.5" rx="0.8" opacity="0.8"/>
+      <rect x="18.5" y="19.5" width="0.6" height="3.5" fill="#ffffff" opacity="0.6"/>
     </g>
-    <circle cx="25" cy="8" r="2.5" fill="#00B5A6"/>
-    <circle cx="21" cy="16" r="2.5" fill="#00B5A6"/>
-    <circle cx="16" cy="24" r="2.5" fill="#00B5A6"/>
   </g>
   <text x="48" y="29" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="22" font-weight="800" letter-spacing="-0.02em" fill="#1a1a2e">
     <tspan>Korea</tspan><tspan fill="#00B5A6">Wiki</tspan>

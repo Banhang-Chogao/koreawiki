@@ -1,13 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" fill="none">
-  <title>KoreaWiki</title>
   <rect width="180" height="180" rx="40" fill="#00B5A6"/>
-  <g stroke="#ffffff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
-    <line x1="45" y1="22" x2="45" y2="158"/>
-    <line x1="45" y1="45" x2="143" y2="45"/>
-    <line x1="45" y1="90" x2="120" y2="90"/>
-    <line x1="45" y1="135" x2="92" y2="135"/>
+  <rect x="34" y="28" width="106" height="124" rx="12" fill="#ffffff"/>
+  <path d="M106 28 L140 28 L140 62 Z" fill="#00B5A6"/>
+  <rect x="52" y="68" width="62" height="8" rx="4" fill="#00B5A6" opacity="0.2"/>
+  <rect x="52" y="96" width="46" height="8" rx="4" fill="#00B5A6" opacity="0.2"/>
+  <rect x="52" y="124" width="28" height="8" rx="4" fill="#00B5A6" opacity="0.2"/>
+  <g fill="#00B5A6">
+    <path d="M68 56 L73 45 L84 62 L79 73 Z"/>
+    <path d="M74 64 L79 73 L118 107 L112 124 L96 112 L68 80 Z"/>
+    <rect x="102" y="110" width="22" height="20" rx="4" opacity="0.8"/>
+    <rect x="104" y="110" width="4" height="20" fill="#ffffff" opacity="0.6"/>
   </g>
-  <circle cx="143" cy="45" r="14" fill="#ffffff"/>
-  <circle cx="120" cy="90" r="14" fill="#ffffff"/>
-  <circle cx="92" cy="135" r="14" fill="#ffffff"/>
 </svg>
