@@ -19,7 +19,7 @@
           <div class="hero-main-meta">
             {{ partial "live-stamp" $heroPost }}
             {{ if $.Site.Params.readingTime }}
-            <span>{{ $heroPost.ReadingTime }} {{ T "min_read" | default "min read" }}</span>
+            <span class="meta-reading-time">{{ $heroPost.ReadingTime }} {{ T "min_read" | default "min read" }}</span>
             {{ end }}
           </div>
         </div>
@@ -35,7 +35,12 @@
         <div class="hero-side-body">
           <span class="hero-side-cat">{{ .CurrentSection.Title }}</span>
           <h2 class="hero-side-title">{{ .Title }}</h2>
-          <span class="hero-side-meta">{{ partial "live-stamp" . }}</span>
+          <span class="hero-side-meta">
+            {{ partial "live-stamp" . }}
+            {{ if $.Site.Params.readingTime }}
+            <span class="meta-reading-time">{{ .ReadingTime }} {{ T "min_read" | default "min read" }}</span>
+            {{ end }}
+          </span>
         </div>
       </a>
       {{ end }}

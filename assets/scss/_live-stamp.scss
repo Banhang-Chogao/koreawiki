@@ -47,3 +47,31 @@
 .hero-main-meta .live-stamp {
   font-size: 0.8125rem;
 }
+
+/* Reading time sits next to live-stamp — keep it visible, not sky-blue mono */
+.meta-reading-time {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  font-family: var(--font-sans);
+  font-size: inherit;
+  font-weight: 500;
+  color: var(--color-text-tertiary);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.card-meta,
+.hero-main-meta,
+.hero-side-meta,
+.article-meta {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.hero-side-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-3);
+}

@@ -82,7 +82,7 @@
               <div class="card-meta">
                 {{ partial "live-stamp" . }}
                 {{ if $.Site.Params.readingTime }}
-                <span>{{ .ReadingTime }} {{ T "min_read" | default "min read" }}</span>
+                <span class="meta-reading-time">{{ .ReadingTime }} {{ T "min_read" | default "min read" }}</span>
                 {{ end }}
               </div>
             </div>
