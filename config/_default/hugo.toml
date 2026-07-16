@@ -144,3 +144,7 @@ copyright = "Copyright © {currentYear} KoreaWiki. All rights reserved."
   name = "Opinion"
   url = "/opinion/"
   weight = 15
+
+[security]
+  [security.funcs]
+    getenv = ['^HUGO_', '^CI$', '^GITHUB_']

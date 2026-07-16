@@ -3,6 +3,7 @@
 .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:var(--space-10);margin-bottom:var(--space-10)}
 .footer-brand-name{font-size:var(--fs-xl);font-weight:800;color:var(--color-text);display:block;margin-bottom:var(--space-2)}
 .footer-desc{font-size:var(--fs-sm);color:var(--color-text-secondary);margin:0;line-height:1.6;max-width:300px}
+.footer-version{font-size:var(--fs-xs);color:#dc2626;margin-top:var(--space-2);font-family:var(--font-mono);opacity:.9}
 .footer-heading{font-size:var(--fs-xs);font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--color-text-tertiary);margin-bottom:var(--space-4)}
 .footer-list{list-style:none;padding:0;margin:0;li{margin:0;& a{display:block;padding:var(--space-1) 0;font-size:var(--fs-sm);color:var(--color-text-secondary);text-decoration:none;&:hover{color:var(--color-text)}}}}
 .footer-bottom{display:flex;justify-content:space-between;align-items:center;padding-top:var(--space-6);border-top:1px solid var(--color-border)}
