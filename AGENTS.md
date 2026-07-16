@@ -120,15 +120,23 @@ If a fix is **not** in the playbook / `scientist.md`, stop after 5 rounds, write
 6. **Hugo CI = 0.126.0** — do not use `try`, or other post-0.126-only template funcs without bumping `HUGO_VERSION` in workflows  
 7. **Private TM** stays under `data/glossary/` — never publish raw JSON/CSV/SQLite under `static/` or `public/`
 
-## mm publishing
+## Publishing shortcuts (`mm` / `nn`)
 
-Follow `.opencode/commands/mm.md`:
+| Command | When |
+|---------|------|
+| **`mm`** | Source article is **Korean** → Vietnamese — `.opencode/commands/mm.md` |
+| **`nn`** | Source article is **English** (general news/blog **or ArchDaily**) → Vietnamese — `.opencode/commands/nn.md` |
+
+Both require full image gallery fetch (`scripts/fetch_cover.py --all`), `faq` + `article-footer`, QA, and Hugo build before push.
+
+Shared steps:
 
 1. `python3 scripts/glossary.py consult` before translate  
-2. Write article  
-3. Extract TM → `glossary.py upsert` → `sync`  
-4. Run scientist / self-heal validate  
-5. Commit + push only when green  
+2. Write Vietnamese article (KO→VI for `mm`, EN→VI for `nn`)  
+3. Fetch **all** usable source images → `static/images/…` + body embeds  
+4. Extract TM → `glossary.py upsert` → `sync` (lighter for pure EN when no KO terms)  
+5. Run scientist / QA validate  
+6. Commit + push only when green  
 
 ## Commit style
 

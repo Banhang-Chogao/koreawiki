@@ -223,6 +223,21 @@ CDN URL harvest, content-hash dedup, browser UA, story-folder filter).
 
 ---
 
+## Entry 026 — 2026-07-16: Permanent shortcut `nn` (English → Vietnamese)
+
+**Added:** `.opencode/commands/nn.md` — durable agent command parallel to `mm`.
+
+| | `mm` | `nn` |
+|--|------|------|
+| Source | Korean news | **English** news/blog **or ArchDaily** projects |
+| Translate | KO → VI | EN → VI |
+| Images | `fetch_cover.py --all` | same (+ ArchDaily full gallery rules) |
+| QA / footer / FAQ | required | required |
+
+**Docs:** `shortcuts.md` row; use `nn` not `mm` for EN URLs.
+
+---
+
 ## Entry 025 — 2026-07-16: Localize EN scaffold posts → Vietnamese
 
 **Fact:** ~40 posts from initial blog scaffold were **demo English** content with
