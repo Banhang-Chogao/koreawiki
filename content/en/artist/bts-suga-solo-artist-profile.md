@@ -40,6 +40,7 @@ faq:
 ---
 
 
+
 Min Yoon-gi, known to the world as SUGA, has spent the past 13 years dismantling every expectation placed upon him. The BTS rapper, producer, and now solo stadium headliner
 completed the Asian leg of his "D-Day" world tour on July 3 with a three-night stand at Seoul Olympic Stadium, drawing 135,000 fans across the weekend. It was the triumphant
 culmination of a chapter that has fundamentally altered the landscape of K-pop solo careers.
@@ -62,7 +63,9 @@ music lessons," SUGA said. "If this tour can fund even one kid's dream, it was w
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Ji-Yeon Park** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Ji-Yeon Park** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "Choi Siwon (Super Junior) được tòa Mỹ cho phép truy xuất danh tính 10 anti-fan"
     url: "en/artist/choi-siwon-us-court-identity-disclosure-2026/"

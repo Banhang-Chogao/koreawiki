@@ -45,6 +45,7 @@ faq:
 ---
 
 
+
 aespa has returned with "Armageddon," a sprawling 12-track album that marks the most significant artistic departure in the group's six-year career. Released on July 10 through SM
 Entertainment, the project finds the quartet abandoning the hyper-polished futurism of their early work in favor of a grittier, more textured sound that incorporates industrial
 rock, orchestral pop, and experimental hip-hop.
@@ -69,7 +70,9 @@ Member Karina told KoreaWiki in a press roundtable that the album represents "th
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Ji-Yeon Park** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Ji-Yeon Park** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "Bang Chan (Stray Kids) tỏa sáng tại sự kiện ra mắt bộ sưu tập mùa đông 2026"
     url: "en/kpop/bangchan-winter-collection-2026/"

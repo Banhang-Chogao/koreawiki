@@ -42,6 +42,7 @@ faq:
 ---
 
 
+
 MUNGYEONG, North Gyeongsang Province — The first thing you notice on the set of "Goryeo Dreams" is the smell. Freshly cut pine, wood smoke, and the earthy scent of hanji —
 traditional Korean paper — permeate the sprawling outdoor set that KBS has built on 40 acres of land near Mungyeong Saejae, a historic mountain pass that once connected the
 Gyeongsang and Chungcheong provinces.
@@ -68,7 +69,9 @@ no shortcut for this kind of preparation."
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Soo-Jin Choi** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Soo-Jin Choi** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "Exclusive: BTS Members Weigh In on Group Future — 'We Will Come Back When the Story Requires It'"
     url: "en/exclusive/bts-members-individual-futures/"

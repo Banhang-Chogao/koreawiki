@@ -46,6 +46,7 @@ faq:
 ---
 
 
+
 Sau 25 năm hoạt động trong làng giải trí Hàn Quốc, nam tài tử Gong Yoo lần đầu
 tiên tổ chức tour fan meeting xuyên châu Á, hứa hẹn mang đến những khoảnh khắc
 giao lưu khó quên cho người hâm mộ trên khắp khu vực.
@@ -106,7 +107,9 @@ thế của anh như một trong những diễn viên có tầm ảnh hưởng n
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Banhang Chogao** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Banhang Chogao** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở
+  hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
     url: "en/artist/bts-suga-solo-artist-profile/"

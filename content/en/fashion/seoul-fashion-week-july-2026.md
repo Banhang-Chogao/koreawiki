@@ -41,6 +41,7 @@ faq:
 ---
 
 
+
 Seoul Fashion Week returned to the iconic Dongdaemun Design Plaza from July 3 to July 8, presenting the Fall/Winter 2026 collections from 64 Korean designers and, for the first
 time, eight international guest designers from Tokyo, Shanghai, and Milan. The event has undergone a quiet transformation in recent seasons, evolving from a regional showcase into
 a legitimate fixture on the global fashion calendar.
@@ -65,7 +66,9 @@ at the launch event. "What has been missing is the infrastructure to take Korean
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Soo-Jin Choi** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Soo-Jin Choi** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "When K-Beauty Met Fashion: How Korean Cosmetics Brands Are Redefining Luxury Retail"
     url: "en/fashion/k-beauty-fashion-convergence/"

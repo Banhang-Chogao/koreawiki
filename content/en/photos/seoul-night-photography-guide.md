@@ -41,6 +41,7 @@ faq:
 ---
 
 
+
 Seoul at night is a city of contrasts. In Gangnam, the neon glow of K-pop billboards and luxury storefronts reflects off the glass towers of corporate headquarters, creating a
 vision of hyper-modern prosperity. In Bukchon, the narrow alleyways are lit only by the warm glow of hanok guesthouses and the occasional street lamp, preserving a sense of a
 Seoul that existed before the economic miracle.
@@ -66,7 +67,9 @@ home through the cobblestone alleys. It is a reminder that even in one of the wo
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **KoreaWiki Photography Team** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **KoreaWiki Photography Team** / KoreaWiki biên soạn. Hình ảnh (nếu có)
+  thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui
+  lòng dẫn nguồn khi trích dẫn.
 internal:
   - title: "Busan After Dark: A Photo Essay of Korea's Coastal City When the Sun Goes Down"
     url: "en/photos/busan-night-photography-essay/"

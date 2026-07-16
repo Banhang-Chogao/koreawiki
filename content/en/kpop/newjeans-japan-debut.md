@@ -46,6 +46,7 @@ faq:
 ---
 
 
+
 NewJeans has done what no K-pop girl group has done before: debut at number one on the Oricon Weekly Album Chart with 1.5 million copies sold in the first seven days. Their first
 full-length Japanese album, "Tokyo 404," released June 30 through ADOR and Warner Music Japan, has surpassed all industry projections and established the quintet as a dominant
 force in the world's second-largest music market.
@@ -68,7 +69,9 @@ The group will spend August and September on a sold-out Japanese arena tour, per
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Min-Jun Kim** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Min-Jun Kim** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "aespa Returns with 'Armageddon': A Futuristic Sonic Evolution That Redefines Their Narrative"
     url: "en/kpop/aespa-comeback-armageddon/"

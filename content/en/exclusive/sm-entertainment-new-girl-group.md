@@ -44,6 +44,7 @@ faq:
 ---
 
 
+
 SEOUL — Behind the unmarked glass doors of a nondescript building in Seongnam, 20 minutes south of Seoul, the next generation of K-pop is being assembled with military precision.
 KoreaWiki was granted exclusive access to SM Entertainment's newly completed "NEO Training Center," a ₩50 billion facility where the company's next girl group — currently
 code-named "Project Iris" — has been training for the past 18 months.
@@ -71,7 +72,9 @@ An SM Entertainment spokesperson declined to comment on specific details but con
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Ji-Yeon Park** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Ji-Yeon Park** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "Exclusive: On Set With 'Goryeo Dreams' — Inside KBS's Most Ambitious Period Drama"
     url: "en/exclusive/behind-the-scenes-goryeo-drama/"

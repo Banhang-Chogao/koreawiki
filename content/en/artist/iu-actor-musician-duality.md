@@ -43,6 +43,7 @@ faq:
 ---
 
 
+
 Lee Ji-eun — IU to the world — has been a star for so long that it is easy to forget she is only 33. She debuted at 15, wrote her first hit at 17, and by 21 was already being
 called "the nation's little sister." But two decades into a career that spans music, television, and film, IU is showing no signs of resting on her laurels. In fact, she may be
 entering her most creatively ambitious phase yet.
@@ -67,7 +68,9 @@ follow.
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Soo-Jin Choi** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Soo-Jin Choi** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
     url: "en/artist/bts-suga-solo-artist-profile/"

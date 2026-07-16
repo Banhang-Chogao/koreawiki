@@ -43,6 +43,7 @@ faq:
 ---
 
 
+
 Bong Joon-ho has done it again. "Harbinger," the Palme d'Or and Oscar-winning director's first film since the historic "Parasite," premiered at the Cannes Film Festival in May to
 a 12-minute standing ovation, and after seeing the finished film at a press screening in Seoul, it is easy to understand why. This is a filmmaker operating with complete mastery
 of his craft, delivering a dystopian sci-fi thriller that is as emotionally devastating as it is intellectually provocative.
@@ -66,7 +67,9 @@ such tenderness that it threatens to steal the entire film.
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "Phim 'Hope' của đạo diễn Na Hong-jin đạt doanh thu mở màn cao nhất năm 2026"
     url: "en/movies/hope-opening-day-box-office-2026/"

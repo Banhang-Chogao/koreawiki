@@ -40,6 +40,7 @@ faq:
 ---
 
 
+
 Myeongdong has the reputation. Gwangjang Market has the history. But ask anyone who actually lives in Seoul where to find the best street food, and they will likely point you to
 Sinchon, the university district that is home to Yonsei, Ewha Womans University, and Sogang University. With three major campuses within walking distance of each other, Sinchon
 has developed a street food culture that is peerless in its creativity, affordability, and sheer density.
@@ -63,7 +64,9 @@ stall selling something you have never seen before. That is the one to join.
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Hyun-Woo Lee** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Hyun-Woo Lee** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "Temple Food Gets a Makeover: The Global Rise of Korean Buddhist Cuisine"
     url: "en/food/modern-temple-cuisine/"

@@ -44,6 +44,7 @@ faq:
 ---
 
 
+
 Samsung Electronics will co-host what industry insiders are calling the largest corporate-sponsored K-pop event in history at Busan Asiad Stadium on August 15, Korea's Liberation
 Day. The Samsung Hope Concert will feature headliners including BTS member SUGA, NCT 127, Seventeen, and rising rookie group RIIZE, with all proceeds benefiting youth education
 programs in underserved communities across Gyeongsangnam-do.
@@ -68,7 +69,9 @@ guesthouses in the Haeundae district have reported near-capacity bookings for th
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Min-Jun Kim** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Min-Jun Kim** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "HYBE Reports Record Q2 Revenue of ₩620 Billion Driven by Global Touring and Weverse Growth"
     url: "en/news/hybe-second-quarter-earnings/"

@@ -40,6 +40,7 @@ faq:
 ---
 
 
+
 South Korea's creator economy has exploded into a multi-billion dollar industry, with platforms from YouTube to TikTok investing heavily in Korean content creators. The ecosystem
 now supports over 200,000 active creators generating content across dozens of genres.
 
@@ -62,7 +63,9 @@ standards and creator protections.
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "Beyond the Music Video: The Art and Science of K-Pop Video Production"
     url: "en/videos/kpop-video-production-bts/"

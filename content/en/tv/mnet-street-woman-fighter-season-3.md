@@ -44,6 +44,7 @@ faq:
 ---
 
 
+
 Mnet's "Street Woman Fighter" returns for its third season on July 25 with a format overhaul designed to capitalize on the franchise's growing international appeal. The dance
 competition, which launched in 2021 and became a cultural phenomenon, has expanded from eight Korean crews to 12, including three international crews from Japan, France, and the
 United States.
@@ -66,7 +67,9 @@ universal language," j-hope said. "This season, more than ever, we will see that
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Ji-Yeon Park** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Ji-Yeon Park** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "'Running Man' Celebrates 600 Episodes: The Variety Show That Refuses to Age"
     url: "en/tv/running-man-600th-episode/"

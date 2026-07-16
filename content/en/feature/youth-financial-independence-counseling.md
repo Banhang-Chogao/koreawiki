@@ -45,6 +45,7 @@ faq:
 ---
 
 
+
 Giữa khu rừng cao ốc và năng lượng sôi động của đại lộ Teheran — trái tim của hệ sinh thái khởi nghiệp IT và đầu tư mạo hiểm Hàn Quốc — có một bóng tối mà ít ai thấy: những người
 trẻ tuổi bị đẩy đến bờ vực tài chính bởi biến động thị trường và cảm giác thiếu thốn tương đối.
 
@@ -115,7 +116,9 @@ trầm cảm nặng, và cả hỗ trợ sinh hoạt phí khẩn cấp — tất
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Ha Byeon-gil (Hankyoreh)** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Ha Byeon-gil (Hankyoreh)** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc
+  quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn
+  nguồn khi trích dẫn.
 internal:
   - title: "Hallyu 2.0: How Korean Culture Evolved from Niche Export to Global Dominance"
     url: "en/feature/hallyu-20-korean-culture-global-wave/"

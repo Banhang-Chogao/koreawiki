@@ -43,6 +43,7 @@ faq:
 ---
 
 
+
 The 27th Jeonju International Film Festival (JIFF) opened on July 2 with a record 147 Korean independent films in its program, signaling a robust recovery for the country's
 independent film sector after several challenging years. The 10-day festival, held across venues in Korea's cultural capital of Jeonju, has drawn over 80,000 attendees in its
 first week, exceeding pre-pandemic attendance figures.
@@ -66,7 +67,9 @@ JIFF continues through July 12, with the competitive awards announced at the clo
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Hyun-Woo Lee** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Hyun-Woo Lee** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "'Harbinger' Review: Bong Joon-ho Returns with a Dystopian Masterpiece That Rivals 'Parasite'"
     url: "en/movies/harbinger-review/"

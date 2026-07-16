@@ -42,6 +42,7 @@ faq:
 ---
 
 
+
 Walk through Seongsu-dong on a Saturday afternoon and you will encounter a version of Seoul that did not exist a decade ago. Young people queue outside a bakery housed in a
 converted tire factory. A French tourist photographs the exposed brick wall of a gallery that was once a shoe workshop. The smell of specialty coffee mingles with the industrial
 ghost of glue and leather. This is the neighborhood that urban planners around the world are studying as a model of organic, artist-led regeneration.
@@ -69,7 +70,9 @@ meets creative energy.
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Ji-Yeon Park** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Ji-Yeon Park** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "Hallyu 2.0: How Korean Culture Evolved from Niche Export to Global Dominance"
     url: "en/feature/hallyu-20-korean-culture-global-wave/"

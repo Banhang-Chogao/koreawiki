@@ -44,6 +44,7 @@ faq:
 ---
 
 
+
 At the Michelin-starred restaurant Balwoo in Jongno-gu, Seoul, dinner is a meditative experience. The 12-course tasting menu contains no meat, no fish, no garlic, no onions — the
 five pungent ingredients (ohshinchae) banned in Buddhist monastic cooking. What it does contain is a revelation of what Korean cuisine can achieve within constraints: delicate
 lotus root porridge, mountain vegetable namul that tastes of the forest floor, beondegi (fermented soybean paste) aged for seven years, and a dessert of cinnamon-scented yakbap
@@ -69,7 +70,9 @@ temple food experiences to its official travel itineraries, offering visitors th
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Ji-Yeon Park** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Ji-Yeon Park** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "Sinchon's Street Food Revolution: Why Seoul's University District Is the Best Place to Eat in Korea"
     url: "en/food/sinchon-korean-street-food-guide/"

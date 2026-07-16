@@ -39,6 +39,7 @@ faq:
 ---
 
 
+
 Nhóm nhạc K-pop TOURS (TWS) đang chuẩn bị cho chiến dịch quảng bá quy mô lớn tại Nhật Bản nhân dịp ra mắt single Nhật thứ hai "SODA SODA", dự kiến phát hành vào ngày 4 tháng 8 năm 2026.
 
 ## Hợp tác với Shibuya109
@@ -75,7 +76,10 @@ Ngoài ca khúc chủ đề, single còn bao gồm "Palm Tree" và phiên bản 
 {{< article-footer >}}
 source: "Pledis Entertainment"
 copyright: >
-  Một phần thông tin trong bài được tham khảo từ **Pledis Entertainment**. Mọi thương hiệu, hình ảnh và tài liệu gốc thuộc quyền sở hữu của chủ sở hữu tương ứng. Bài viết trên KoreaWiki chỉ tổng hợp, biên tập và phân tích phục vụ độc giả — không thay thế thông cáo hay tài liệu chính thức.
+  Một phần thông tin trong bài được tham khảo từ **Pledis Entertainment**. Mọi thương
+  hiệu, hình ảnh và tài liệu gốc thuộc quyền sở hữu của chủ sở hữu tương ứng. Bài viết
+  trên KoreaWiki chỉ tổng hợp, biên tập và phân tích phục vụ độc giả — không thay thế
+  thông cáo hay tài liệu chính thức.
 external:
   - title: "pledis.co.kr"
     url: "https://www.pledis.co.kr/"

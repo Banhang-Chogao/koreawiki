@@ -40,6 +40,7 @@ faq:
 ---
 
 
+
 In 2019, when Sulli and Goo Hara died within weeks of each other, the K-pop industry promised change. Statements were issued. Mental health initiatives were announced. Agency
 executives held press conferences with solemn expressions and vowed to do better. Seven years later, the question is unavoidable: what actually changed?
 
@@ -68,7 +69,9 @@ hours for minor trainees, and a cultural shift that values artist wellbeing over
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Min-Jun Kim** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Min-Jun Kim** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "When Everything Is Korean, Is Anything Still Korean?"
     url: "en/opinion/globalization-of-korean-culture/"

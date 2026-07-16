@@ -44,6 +44,7 @@ faq:
 ---
 
 
+
 HYBE Corporation reported record second-quarter earnings of ₩620 billion on Friday, surpassing analysts' consensus estimates by 8% and sending shares up 5.3% in afternoon trading
 on the Korea Exchange. The conglomerate, home to BTS, Seventeen, and LE SSERAFIM, attributed the strong performance to a packed global touring schedule and accelerating commerce
 revenue from its Weverse platform.
@@ -67,7 +68,9 @@ structure and global reach.
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Min-Jun Kim** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Min-Jun Kim** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "South Korea Expands Film Tax Credit Program to Lure International Productions"
     url: "en/news/korean-film-tax-credit-expansion/"

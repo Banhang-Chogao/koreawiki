@@ -40,6 +40,7 @@ faq:
 ---
 
 
+
 Nam diễn viên Lee Jong-suk và nữ ca sĩ IU đã chính thức kết thúc mối quan hệ
 tình cảm kéo dài 4 năm. Cả hai quyết định rẽ theo hai hướng riêng sau quãng thời
 gian dài gắn bó.
@@ -76,7 +77,11 @@ Nguồn: Dispatch — https://www.dispatch.co.kr/2345087
 source: "Dispatch"
 source_url: "https://www.dispatch.co.kr/2345087"
 copyright: >
-  Một phần thông tin trong bài được tham khảo từ [Dispatch](https://www.dispatch.co.kr/2345087). Mọi thương hiệu, hình ảnh và tài liệu gốc thuộc quyền sở hữu của chủ sở hữu tương ứng. Bài viết trên KoreaWiki chỉ tổng hợp, biên tập và phân tích phục vụ độc giả — không thay thế thông cáo hay tài liệu chính thức.
+  Một phần thông tin trong bài được tham khảo từ
+  [Dispatch](https://www.dispatch.co.kr/2345087). Mọi thương hiệu, hình ảnh và tài liệu
+  gốc thuộc quyền sở hữu của chủ sở hữu tương ứng. Bài viết trên KoreaWiki chỉ tổng hợp,
+  biên tập và phân tích phục vụ độc giả — không thay thế thông cáo hay tài liệu chính
+  thức.
 external:
   - title: "Dispatch"
     url: "https://www.dispatch.co.kr/2345087"

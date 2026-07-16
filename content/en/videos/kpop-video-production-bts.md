@@ -43,6 +43,7 @@ faq:
 ---
 
 
+
 When LE SSERAFIM released the music video for their June single "Firefly," it was viewed 78 million times in its first week. The video, a four-minute cinematic piece involving a
 post-apocalyptic Seoul, elaborate choreography in a water-filled set, and CGI creatures rendered by the same studio that worked on "The Host," cost ₩2.3 billion to produce. It is
 among the most expensive music videos in K-pop history — but it is by no means an outlier.
@@ -67,7 +68,9 @@ As streaming becomes the dominant mode of music consumption, the music video has
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Hyun-Woo Lee** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Hyun-Woo Lee** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "Inside Korea's Creator Economy Boom"
     url: "en/videos/korean-creator-economy-boom/"

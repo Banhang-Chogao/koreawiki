@@ -44,6 +44,7 @@ faq:
 ---
 
 
+
 Nam ca sĩ Bang Chan, trưởng nhóm của Stray Kids, đã xuất hiện đầy ấn tượng tại
 sự kiện ra mắt bộ sưu tập mùa đông 2026 được tổ chức tại một cửa hàng ở
 Cheongdam-dong, quận Gangnam, Seoul vào chiều ngày 15 tháng 7.
@@ -71,7 +72,9 @@ phần nam tính và mạnh mẽ, như một võ sĩ quyền Anh thực thụ.
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Banhang Chogao** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Banhang Chogao** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở
+  hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "aespa Returns with 'Armageddon': A Futuristic Sonic Evolution That Redefines Their Narrative"
     url: "en/kpop/aespa-comeback-armageddon/"

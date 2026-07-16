@@ -38,6 +38,7 @@ faq:
 ---
 
 
+
 Yoo Ah-in, nam tài tử từng vướng vụ án ma túy gây chấn động làng giải trí Hàn
 Quốc, vừa có lần đầu tiên xuất hiện trước công chúng kể từ khi nhận án treo, làm
 dấy lên đồn đoán về khả năng trở lại màn ảnh.
@@ -93,7 +94,10 @@ Nguồn: Xportsnews
 {{< article-footer >}}
 source: "Xportsnews"
 copyright: >
-  Một phần thông tin trong bài được tham khảo từ **Xportsnews**. Mọi thương hiệu, hình ảnh và tài liệu gốc thuộc quyền sở hữu của chủ sở hữu tương ứng. Bài viết trên KoreaWiki chỉ tổng hợp, biên tập và phân tích phục vụ độc giả — không thay thế thông cáo hay tài liệu chính thức.
+  Một phần thông tin trong bài được tham khảo từ **Xportsnews**. Mọi thương hiệu, hình ảnh
+  và tài liệu gốc thuộc quyền sở hữu của chủ sở hữu tương ứng. Bài viết trên KoreaWiki chỉ
+  tổng hợp, biên tập và phân tích phục vụ độc giả — không thay thế thông cáo hay tài liệu
+  chính thức.
 internal:
   - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
     url: "en/artist/bts-suga-solo-artist-profile/"

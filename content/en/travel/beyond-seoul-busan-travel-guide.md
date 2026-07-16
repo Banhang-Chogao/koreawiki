@@ -43,6 +43,7 @@ faq:
 ---
 
 
+
 For decades, the standard itinerary for international visitors to Korea has followed a predictable formula: fly into Incheon, spend three days in Seoul, take a day trip to the
 DMZ, and fly out. Busan, Korea's second-largest city and its premier coastal metropolis, has been treated as a worthy but optional add-on. That is beginning to change, and for
 good reason.
@@ -68,7 +69,9 @@ dedicated trip — not just a footnote on a Seoul itinerary.
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Min-Jun Kim** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Min-Jun Kim** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "Jeju's Eco-Tourism Revolution: How Korea's Island Paradise Is Balancing Development and Conservation"
     url: "en/travel/jeju-island-eco-tourism/"

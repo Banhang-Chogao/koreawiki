@@ -43,6 +43,7 @@ faq:
 ---
 
 
+
 The Korean wedding industrial complex — a sprawling ecosystem of wedding halls, matchmaking agencies, and formalized rituals — has long been one of the most rigid industries in
 the country. But changing social values, economic pressures, and the influence of global culture are reshaping how young Koreans approach marriage, creating new opportunities and
 tensions in one of society's most tradition-bound institutions.
@@ -69,7 +70,9 @@ that now they do it on their own terms.
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "Anne's Library — Nhà xuất bản Hàn Quốc hạ thấp rào cản tiếp cận văn học cổ điển và nghệ thuật"
     url: "en/culture/annes-library-publishing-house-profile/"

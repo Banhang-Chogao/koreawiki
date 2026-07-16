@@ -44,6 +44,7 @@ faq:
 ---
 
 
+
 Bộ phim kinh dị "Hope" (호프) của đạo diễn Na Hong-jin chính thức ra mắt khán giả
 vào ngày 15 tháng 7 và ngay lập tức gây tiếng vang lớn. Theo số liệu từ Hệ thống
 thống kê vé điện ảnh tích hợp của Ủy ban Điện ảnh Hàn Quốc, tác phẩm đã thu hút
@@ -81,7 +82,11 @@ Nguồn: Dispatch — https://www.dispatch.co.kr/2345296
 source: "Dispatch"
 source_url: "https://www.dispatch.co.kr/2345296"
 copyright: >
-  Một phần thông tin trong bài được tham khảo từ [Dispatch](https://www.dispatch.co.kr/2345296). Mọi thương hiệu, hình ảnh và tài liệu gốc thuộc quyền sở hữu của chủ sở hữu tương ứng. Bài viết trên KoreaWiki chỉ tổng hợp, biên tập và phân tích phục vụ độc giả — không thay thế thông cáo hay tài liệu chính thức.
+  Một phần thông tin trong bài được tham khảo từ
+  [Dispatch](https://www.dispatch.co.kr/2345296). Mọi thương hiệu, hình ảnh và tài liệu
+  gốc thuộc quyền sở hữu của chủ sở hữu tương ứng. Bài viết trên KoreaWiki chỉ tổng hợp,
+  biên tập và phân tích phục vụ độc giả — không thay thế thông cáo hay tài liệu chính
+  thức.
 external:
   - title: "Dispatch"
     url: "https://www.dispatch.co.kr/2345296"

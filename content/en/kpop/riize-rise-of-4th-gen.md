@@ -45,6 +45,7 @@ faq:
 ---
 
 
+
 In the hyper-competitive landscape of fourth-generation K-pop, few groups have risen as meteorically as RIIZE. SM Entertainment's seven-member boy group, which debuted in
 September 2023, has just released their first full-length studio album "Realize" to commercial and critical acclaim, debuting at number one on the Circle Album Chart and entering
 the Billboard 200 at number four — the highest charting position for any fourth-generation boy group in the chart's history.
@@ -68,7 +69,9 @@ SM Entertainment has already confirmed a second studio album for early 2027 and 
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Hyun-Woo Lee** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Hyun-Woo Lee** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "aespa Returns with 'Armageddon': A Futuristic Sonic Evolution That Redefines Their Narrative"
     url: "en/kpop/aespa-comeback-armageddon/"

@@ -45,6 +45,7 @@ faq:
 ---
 
 
+
 Walk through the streets of Bukchon on a weekend afternoon and you will see them everywhere: young Koreans in hanbok, the traditional Korean dress, posing for photographs,
 browsing galleries, and casually sipping iced americanos. But look closer. The hanbok they are wearing are not the heavily structured, formal garments of their grandparents'
 generation. These are lighter, more flexible, often customized versions — hanbok that breathe, move, and fit the rhythms of contemporary life.
@@ -68,7 +69,9 @@ to museums and wedding halls. We want to see hanbok on the streets of Paris, New
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Soo-Jin Choi** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Soo-Jin Choi** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "Anne's Library — Nhà xuất bản Hàn Quốc hạ thấp rào cản tiếp cận văn học cổ điển và nghệ thuật"
     url: "en/culture/annes-library-publishing-house-profile/"

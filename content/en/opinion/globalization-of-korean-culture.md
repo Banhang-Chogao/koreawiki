@@ -44,6 +44,7 @@ faq:
 ---
 
 
+
 There is a Korean proverb: "A tree with deep roots does not fear the wind." As Korean popular culture enjoys a period of global influence unprecedented in the nation's history,
 the question is no longer whether the tree is strong enough to withstand external forces — it is whether the roots remain connected to the soil that nourished them.
 
@@ -71,7 +72,9 @@ The tree's roots are deep. But even deep roots need tending.
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Ji-Yeon Park** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Ji-Yeon Park** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "The Idol Industry's Mental Health Crisis: Have We Learned Nothing?"
     url: "en/opinion/mental-health-kpop-industry/"

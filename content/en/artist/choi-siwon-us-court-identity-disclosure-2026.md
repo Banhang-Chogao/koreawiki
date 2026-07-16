@@ -44,6 +44,7 @@ faq:
 ---
 
 
+
 Thành viên Super Junior Choi Siwon đang đẩy nhanh cuộc chiến pháp lý chống lại
 các anti-fan. Tòa án liên bang Mỹ vừa cho phép tiết lộ thông tin định danh của
 10 tài khoản ẩn danh từng đăng nội dung xúc phạm trên X và YouTube.
@@ -110,7 +111,11 @@ Nguồn: Dispatch — https://www.dispatch.co.kr/2344867
 source: "Dispatch"
 source_url: "https://www.dispatch.co.kr/2344867"
 copyright: >
-  Một phần thông tin trong bài được tham khảo từ [Dispatch](https://www.dispatch.co.kr/2344867). Mọi thương hiệu, hình ảnh và tài liệu gốc thuộc quyền sở hữu của chủ sở hữu tương ứng. Bài viết trên KoreaWiki chỉ tổng hợp, biên tập và phân tích phục vụ độc giả — không thay thế thông cáo hay tài liệu chính thức.
+  Một phần thông tin trong bài được tham khảo từ
+  [Dispatch](https://www.dispatch.co.kr/2344867). Mọi thương hiệu, hình ảnh và tài liệu
+  gốc thuộc quyền sở hữu của chủ sở hữu tương ứng. Bài viết trên KoreaWiki chỉ tổng hợp,
+  biên tập và phân tích phục vụ độc giả — không thay thế thông cáo hay tài liệu chính
+  thức.
 external:
   - title: "Dispatch"
     url: "https://www.dispatch.co.kr/2344867"

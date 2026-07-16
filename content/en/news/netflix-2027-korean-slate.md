@@ -43,6 +43,7 @@ faq:
 ---
 
 
+
 Netflix Korea announced its most ambitious content slate to date on Tuesday, committing ₩1.5 trillion to 28 original Korean productions scheduled for release in 2027. The
 announcement, made at a star-studded event at the COEX Convention Center in Samseong-dong, positions Korea as the streaming giant's single largest content investment market
 outside of the United States.
@@ -66,7 +67,9 @@ the talent, and the vision are entirely Korean."
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Ji-Yeon Park** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Ji-Yeon Park** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "HYBE Reports Record Q2 Revenue of ₩620 Billion Driven by Global Touring and Weverse Growth"
     url: "en/news/hybe-second-quarter-earnings/"

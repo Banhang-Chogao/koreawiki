@@ -44,6 +44,7 @@ faq:
 ---
 
 
+
 "Tôi mong muốn giữ vững vai trò là cầu nối để người dân Incheon có thể tiếp cận với những bộ phim mang đậm dấu ấn địa phương."
 
 Đó là lời chia sẻ của Sa Jun-seo, Phó phòng Truyền thông của Liên hoan phim độc lập Incheon lần thứ 13, trong cuộc trò chuyện với phóng viên tại Bupyeong, Incheon vào ngày 15
@@ -121,7 +122,9 @@ Liên hoan phim độc lập Incheon lần thứ 13 sẽ chờ đón khán giả
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Song Jeong-hoon (OhmyNews)** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Song Jeong-hoon (OhmyNews)** / KoreaWiki biên soạn. Hình ảnh (nếu có)
+  thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui
+  lòng dẫn nguồn khi trích dẫn.
 internal:
   - title: "Anne's Library — Nhà xuất bản Hàn Quốc hạ thấp rào cản tiếp cận văn học cổ điển và nghệ thuật"
     url: "en/culture/annes-library-publishing-house-profile/"

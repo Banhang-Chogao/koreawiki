@@ -43,6 +43,7 @@ faq:
 ---
 
 
+
 In the luxury section of Shinsegae Gangnam, the flagship department store in one of Seoul's most affluent districts, a new retail concept has been drawing crowds since its April
 opening. The space, a collaboration between Amorepacific's premium beauty line Sulwhasoo and French fashion house Maison Margiela, is neither a beauty counter nor a fashion
 boutique — it is both. Customers can have their skin analyzed by Sulwhasoo's AI beauty advisor, then browse a curated selection of Maison Margiela ready-to-wear while waiting for
@@ -67,7 +68,9 @@ global luxury market.
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "Seoul Fashion Week Fall/Winter 2026: Tradition, Tech, and a New Global Ambition"
     url: "en/fashion/seoul-fashion-week-july-2026/"

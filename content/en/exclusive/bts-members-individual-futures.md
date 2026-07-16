@@ -42,6 +42,7 @@ faq:
 ---
 
 
+
 Over the course of four months, KoreaWiki sat down individually with all seven members of BTS — Jin, SUGA, j-hope, RM, Jimin, V, and Jung Kook — for a series of conversations
 about their lives, their solo work, and the future of the group that changed K-pop forever. What emerged is a portrait of seven young men at peace with their past and thoughtful
 about what comes next.
@@ -71,7 +72,9 @@ No date has been announced for a group reunion, but multiple members hinted at "
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Min-Jun Kim** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Min-Jun Kim** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "Exclusive: On Set With 'Goryeo Dreams' — Inside KBS's Most Ambitious Period Drama"
     url: "en/exclusive/behind-the-scenes-goryeo-drama/"

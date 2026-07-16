@@ -44,6 +44,7 @@ faq:
 ---
 
 
+
 Korean cinema is enjoying a remarkable summer at the domestic box office, with local titles claiming six of the top ten positions in July's first weekend. The trend underscores
 what industry analysts describe as a sustained "Korean film renaissance" that has seen domestic market share hover above 55% for the first half of 2026, the highest figure since
 the post-"Parasite" boom of 2020.
@@ -67,7 +68,9 @@ has become a surprise hit with family audiences, grossing ₩12 billion against 
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Min-Jun Kim** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Min-Jun Kim** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "'Harbinger' Review: Bong Joon-ho Returns with a Dystopian Masterpiece That Rivals 'Parasite'"
     url: "en/movies/harbinger-review/"

@@ -44,6 +44,7 @@ faq:
 ---
 
 
+
 Netflix confirmed on Monday that Park Seo-joon and Jun Ji-hyun have been cast as the leads in "The Seoul Agency," a big-budget spy thriller that streaming executives are already
 calling "the Korean answer to Mission: Impossible." The series, created by "Kingdom" writer Kim Eun-hee, begins principal photography in August and carries a reported production
 budget of ₩100 billion, making it the most expensive drama series in Korean television history.
@@ -66,7 +67,9 @@ Production will shoot on location across Seoul, Busan, and Jeju Island, as well 
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Soo-Jin Choi** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Soo-Jin Choi** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "KBS Announces 2027 Sageuk Lineup Including 'The Last Admiral' and 'Goryeo Dreams'"
     url: "en/kdrama/kbs-sageuk-slot-2027/"

@@ -41,6 +41,7 @@ faq:
 ---
 
 
+
 Veteran photographer Lee Sung-min spent three weeks capturing Busan after dark, from the last fish auctions at Jagalchi Market at 3 a.m. to the first monks' prayers at Beomeosa
 Temple at 4 a.m. The resulting collection, "Busan Noir," is a love letter to the city's nocturnal life.
 
@@ -60,7 +61,9 @@ Lee's work reminds us that Busan's beauty does not require sunshine. The city's 
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **KoreaWiki Photo Desk** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **KoreaWiki Photo Desk** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc
+  quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn
+  nguồn khi trích dẫn.
 internal:
   - title: "Seoul After Dark: A Photo Essay on the City That Never Sleeps"
     url: "en/photos/seoul-night-photography-guide/"

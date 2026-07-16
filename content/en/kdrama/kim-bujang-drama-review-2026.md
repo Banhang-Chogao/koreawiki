@@ -46,6 +46,7 @@ faq:
 ---
 
 
+
 "Juvenile offender? Cách nói hay đấy. Vậy thì tôi là 'kẻ vô pháp tuổi trung niên'." — Kim Bu-jang
 
 Trước mặt những kẻ vị thành niên coi thường pháp luật, "Kim Bu-jang" (So Ji-sub)
@@ -130,7 +131,9 @@ Ba con người, ba người cha — một "vũ trụ những người cha" hoà
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Lee A-jin (Dispatch)** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Lee A-jin (Dispatch)** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc
+  quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn
+  nguồn khi trích dẫn.
 internal:
   - title: "Park Seo-joon and Jun Ji-hyun Confirmed for 'The Seoul Agency' — Netflix's Most Expensive Drama Series Ever"
     url: "en/kdrama/casting-announcement-july-2026/"

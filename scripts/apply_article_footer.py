@@ -258,21 +258,39 @@ def build_faq(meta: dict, body: str) -> list[dict]:
     return uniq[:4]
 
 
+def wrap_text(text: str, width: int = 88) -> str:
+    words = text.split()
+    lines: list[str] = []
+    cur: list[str] = []
+    for w in words:
+        trial = (" ".join(cur + [w])).strip()
+        if cur and len(trial) > width:
+            lines.append(" ".join(cur))
+            cur = [w]
+        else:
+            cur.append(w)
+    if cur:
+        lines.append(" ".join(cur))
+    return "\n".join(lines)
+
+
 def build_copyright(source: str, source_url: str, author: str) -> str:
     if source:
         link = f" [{source}]({source_url})" if source_url else f" **{source}**"
-        return (
+        text = (
             f"Một phần thông tin trong bài được tham khảo từ{link}. "
             "Mọi thương hiệu, hình ảnh và tài liệu gốc thuộc quyền sở hữu của chủ sở hữu tương ứng. "
             "Bài viết trên KoreaWiki chỉ tổng hợp, biên tập và phân tích phục vụ độc giả — "
             "không thay thế thông cáo hay tài liệu chính thức."
         )
+        return wrap_text(text)
     who = author or "KoreaWiki Newsroom"
-    return (
+    text = (
         f"Bài viết do **{who}** / KoreaWiki biên soạn. "
         "Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. "
         "Vui lòng dẫn nguồn khi trích dẫn."
     )
+    return wrap_text(text)
 
 
 def render_footer_shortcode(

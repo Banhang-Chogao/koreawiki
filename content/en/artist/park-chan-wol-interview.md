@@ -43,6 +43,7 @@ faq:
 ---
 
 
+
 Park Chan-wol does not make films for people who want comfort. The 41-year-old director, whose five feature films have polarized critics and delighted festival programmers, is
 sitting across from me at a quiet coffee shop in Seoul's Hongdae district, nursing an americano and explaining why he has turned down every studio offer that has come his way.
 
@@ -67,7 +68,9 @@ experimental VR work. The experience will premiere at the Venice Film Festival i
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Hyun-Woo Lee** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Hyun-Woo Lee** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
     url: "en/artist/bts-suga-solo-artist-profile/"

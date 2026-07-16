@@ -41,6 +41,7 @@ faq:
 ---
 
 
+
 In 2012, Psy's "Gangnam Style" was a global phenomenon widely regarded as a novelty — a colorful, irreverent flash in the pan that briefly turned the world's attention to South
 Korea. Fourteen years later, the idea of Korean culture as a passing fad seems preposterous. The Korean Wave, or Hallyu, has evolved from a niche interest into a structural pillar
 of the global entertainment and cultural economy.
@@ -69,7 +70,9 @@ fragmentation.
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "The Voice Behind the Screen: How Korean Voice Actors Became Global Stars"
     url: "en/feature/korean-voice-actors-rise/"

@@ -44,6 +44,7 @@ faq:
 ---
 
 
+
 Studio Dragon's latest sageuk, "When Stars Fall," premiered on tvN on July 5 to the highest ratings for any Friday-Saturday drama in 2026, and after four episodes, it is clear
 why. This is historical drama at its most ambitious — a 16-episode epic that intertwines the fall of the Joseon dynasty's astronomy bureau with a forbidden romance between a royal
 astronomer and a noblewoman disguised as a servant.
@@ -68,7 +69,9 @@ With a reported budget of ₩45 billion, "When Stars Fall" is one of the most ex
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Ji-Yeon Park** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Ji-Yeon Park** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "Park Seo-joon and Jun Ji-hyun Confirmed for 'The Seoul Agency' — Netflix's Most Expensive Drama Series Ever"
     url: "en/kdrama/casting-announcement-july-2026/"

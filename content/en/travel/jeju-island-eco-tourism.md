@@ -45,6 +45,7 @@ faq:
 ---
 
 
+
 Jeju Island, the volcanic paradise off Korea's southern coast, has a problem that many destinations would envy: too many visitors. The island welcomed 21.3 million tourists in
 2025, a record that strains infrastructure, threatens delicate ecosystems, and has sparked a contentious debate about the future of tourism on the island.
 
@@ -72,7 +73,9 @@ experience that mass tourism rarely touches.
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "Beyond Seoul: Why Busan Is Korea's Most Underrated Travel Destination"
     url: "en/travel/beyond-seoul-busan-travel-guide/"

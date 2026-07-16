@@ -42,6 +42,7 @@ faq:
 ---
 
 
+
 WARNING: This recap contains spoilers for "Lovely Runner" Episode 8.
 
 "Lovely Runner" has been one of 2026's most reliable ratings performers, but Episode 8, which aired Wednesday on tvN, was the moment the drama announced that it is playing for
@@ -69,7 +70,9 @@ engaged to someone else. Episode 9 airs next Wednesday on tvN.
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Hyun-Woo Lee** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Hyun-Woo Lee** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "Park Seo-joon and Jun Ji-hyun Confirmed for 'The Seoul Agency' — Netflix's Most Expensive Drama Series Ever"
     url: "en/kdrama/casting-announcement-july-2026/"

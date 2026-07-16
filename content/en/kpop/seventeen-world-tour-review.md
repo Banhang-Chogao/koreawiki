@@ -44,6 +44,7 @@ faq:
 ---
 
 
+
 LOS ANGELES — On a warm July evening at BMO Stadium, Seventeen did something that few K-pop acts have accomplished: they made a crowd of 22,000 feel like they were at an intimate
 club show. The "Follow Again" tour, which touched down in Los Angeles on July 8 for two nights, is the group's largest North American outing to date, and the production value
 reflects their status as one of the industry's most bankable live acts.
@@ -67,7 +68,9 @@ you something you've never seen before." Mission accomplished.
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "aespa Returns with 'Armageddon': A Futuristic Sonic Evolution That Redefines Their Narrative"
     url: "en/kpop/aespa-comeback-armageddon/"

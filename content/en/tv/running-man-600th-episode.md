@@ -42,6 +42,7 @@ faq:
 ---
 
 
+
 On July 12, "Running Man" achieved something no other Korean variety show has managed: 600 episodes. The SBS flagship program, which first aired on July 11, 2010, has survived
 cast changes, format evolutions, the rise of streaming, a global pandemic, and the notoriously fickle nature of Korean television audiences. Its longevity is a testament to the
 power of a simple, brilliant premise executed with consistent heart and humor.
@@ -64,7 +65,9 @@ that's a privilege. Thank you for 600 episodes. We'll try to earn 600 more."
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Hyun-Woo Lee** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Hyun-Woo Lee** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "'Street Woman Fighter' Season 3: Mnet Bets Big on Global Expansion with International Dance Crews"
     url: "en/tv/mnet-street-woman-fighter-season-3/"

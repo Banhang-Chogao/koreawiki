@@ -44,6 +44,7 @@ faq:
 ---
 
 
+
 The Korean Ministry of Culture, Sports and Tourism unveiled a significantly expanded tax credit program on Wednesday designed to attract major international film and television
 productions to the peninsula. The revised Korean Film and Television Production Incentive increases the maximum rebate to 40% of qualifying local expenditures, up from the
 previous 25%, and removes the cap on eligible production budgets.
@@ -67,7 +68,9 @@ program could generate an additional ₩2 trillion in economic activity annually
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
+  của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
+  trích dẫn.
 internal:
   - title: "HYBE Reports Record Q2 Revenue of ₩620 Billion Driven by Global Touring and Weverse Growth"
     url: "en/news/hybe-second-quarter-earnings/"

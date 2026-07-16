@@ -43,6 +43,7 @@ faq:
 ---
 
 
+
 Thị trường xuất bản đang đối mặt với khủng hoảng, nhưng số lượng nhà xuất bản lại ngày càng tăng. Trong số đó, Anne's Library (앤의서재) nổi lên như một làn gió mới với triết lý hạ
 thấp rào cản tiếp cận tri thức, mang văn học cổ điển và nghệ thuật đến gần hơn với độc giả hiện đại.
 
@@ -97,7 +98,9 @@ Mục tiêu xa hơn là không chỉ dừng lại ở việc đọc sách về n
 
 {{< article-footer >}}
 copyright: >
-  Bài viết do **Jang Su-jeong (Dailyan)** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài viết do **Jang Su-jeong (Dailyan)** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc
+  quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn
+  nguồn khi trích dẫn.
 internal:
   - title: "The Hanbok Renaissance: How Korea's Traditional Dress Found a New Generation of Wearers"
     url: "en/culture/hanbok-modern-revival/"
