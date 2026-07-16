@@ -7,6 +7,10 @@ description: Gặp gỡ Han Seon-hwa, CEO của Anne's Library, nhà xuất bả
 date: 2026-06-03
 draft: false
 author: Jang Su-jeong (Dailyan)
+cover:
+  image: images/2026/07/annes-library-publishing-house-2026.jpg
+  alt: "Sách và ấn phẩm của nhà xuất bản Anne's Library"
+  caption: "Anne's Library — Ảnh: Jang Su-jeong / Dailian"
 tags:
 - annes-library
 - publishing
