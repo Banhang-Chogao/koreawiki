@@ -1,14 +1,22 @@
 #!/usr/bin/env python3
 """KoreaWiki Slug — validates and normalizes URL slugs."""
 
-import sys, re, yaml
+import sys, re, yaml, unicodedata
 from pathlib import Path
 
 CONTENT = Path("content")
 SEP = "---"
 
+VIET_MAP = str.maketrans({
+    'đ': 'd', 'Đ': 'd',
+})
+
 def slugify(text):
-    text = re.sub(r'[^\w\s-]', '', text.lower().strip())
+    text = text.lower().strip()
+    text = text.translate(VIET_MAP)
+    text = unicodedata.normalize('NFD', text)
+    text = re.sub(r'[\u0300-\u036f]', '', text)
+    text = re.sub(r'[^a-z0-9\s-]', '', text)
     return re.sub(r'-+', '-', re.sub(r'[\s_]+', '-', text)).strip('-')
 
 def normalize(fp):
@@ -21,7 +29,10 @@ def normalize(fp):
     expected = slugify(meta.get("title",""))
     if meta.get("slug","") == expected: return False
     meta["slug"] = expected
-    fp.write_text(f"{SEP}\n{yaml.dump(meta, default_flow_style=False, allow_unicode=True, sort_keys=False)}{SEP}\n{parts[2].lstrip()}", "utf-8")
+    fp.write_text(
+        f"{SEP}\n{yaml.dump(meta, default_flow_style=False, allow_unicode=True, sort_keys=False)}{SEP}\n{parts[2].lstrip()}",
+        "utf-8",
+    )
     return True
 
 def main():

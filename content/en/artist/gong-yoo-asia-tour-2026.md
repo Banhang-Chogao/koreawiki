@@ -27,7 +27,7 @@ keywords:
 - train to busan
 - goblin
 - netflix
-slug: gong-yoo-tổ-chức-tour-fan-meeting-châu-á-đầu-tiên-sau-25-năm-sự-nghiệp
+slug: gong-yoo-to-chuc-tour-fan-meeting-chau-a-dau-tien-sau-25-nam-su-nghiep
 ---
 Sau 25 năm hoạt động trong làng giải trí Hàn Quốc, nam tài tử Gong Yoo lần đầu
 tiên tổ chức tour fan meeting xuyên châu Á, hứa hẹn mang đến những khoảnh khắc
