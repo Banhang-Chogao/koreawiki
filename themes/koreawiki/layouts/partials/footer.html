@@ -12,10 +12,10 @@
       <div>
         <h4 class="footer-heading">{{ T "sections" | default "Sections" }}</h4>
         <ul class="footer-list">
-          {{/* Content is under content/en/ → live URLs are /koreawiki/en/<section>/ */}}
+          {{/* Content lives at /koreawiki/en/<section>/ — take last path segment only. */}}
           {{ range .Site.Menus.main }}
-          {{ $path := trim .URL "/" }}
-          <li><a href="{{ printf "en/%s/" $path | relURL }}">{{ .Name }}</a></li>
+          {{ $slug := path.Base (strings.TrimSuffix "/" .URL) }}
+          <li><a href="{{ printf "en/%s/" $slug | relURL }}">{{ .Name }}</a></li>
           {{ end }}
         </ul>
       </div>

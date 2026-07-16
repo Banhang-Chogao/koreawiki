@@ -54,8 +54,8 @@
   </div>
   <ul class="mobile-nav-list">
     {{ range .Site.Menus.main }}
-    {{ $path := trim .URL "/" }}
-    <li><a href="{{ printf "en/%s/" $path | relURL }}">{{ .Name }}</a></li>
+    {{ $slug := path.Base (strings.TrimSuffix "/" .URL) }}
+    <li><a href="{{ printf "en/%s/" $slug | relURL }}">{{ .Name }}</a></li>
     {{ end }}
   </ul>
 </div>
