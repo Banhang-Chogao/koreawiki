@@ -1,7 +1,7 @@
 {
   "version": 1,
   "language_pair": "ko-vi",
-  "updated": "2026-07-16T12:35:48+00:00",
+  "updated": "2026-07-16T12:39:02+00:00",
   "entries": [
     {
       "id": "ed0f4da4b180",
@@ -367,6 +367,24 @@
       "category": "phrase"
     },
     {
+      "id": "af5a0214fa5f",
+      "korean": "굿모닝 아메리카",
+      "vietnamese": "Good Morning America",
+      "romanization": "gut-mo-ning a-me-ri-ka",
+      "pos": "proper_noun",
+      "meaning": "chương trình sáng ABC",
+      "context": "truyền hình Mỹ",
+      "example": "굿모닝 아메리카 서머 콘서트 시리즈",
+      "source_url": "https://www.dispatch.co.kr/2345227",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "tv"
+      ],
+      "category": "organization"
+    },
+    {
       "id": "272087f55f27",
       "korean": "그룹",
       "vietnamese": "nhóm nhạc",
@@ -532,6 +550,24 @@
       "category": "organization"
     },
     {
+      "id": "95df39d51c12",
+      "korean": "노 레이블스: 파트 02",
+      "vietnamese": "No Labels: Part 02",
+      "romanization": "no re-i-beul-seu pa-teu 02",
+      "pos": "proper_noun",
+      "meaning": "mini album 2 của YEONJUN",
+      "context": "âm nhạc",
+      "example": "미니 2집 노 레이블스: 파트 02",
+      "source_url": "https://www.dispatch.co.kr/2345227",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "yeonjun"
+      ],
+      "category": "other"
+    },
+    {
       "id": "8658190e48a2",
       "korean": "논란",
       "vietnamese": "tranh cãi / scandal",
@@ -623,6 +659,24 @@
       "category": "organization"
     },
     {
+      "id": "d6467c932ffc",
+      "korean": "라인업",
+      "vietnamese": "lineup / danh sách nghệ sĩ",
+      "romanization": "ra-in-eop",
+      "pos": "noun",
+      "meaning": "danh sách biểu diễn sự kiện",
+      "context": "sự kiện",
+      "example": "라인업에 합류했다",
+      "source_url": "https://www.dispatch.co.kr/2345227",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "concert"
+      ],
+      "category": "other"
+    },
+    {
       "id": "2418847455c3",
       "korean": "만기 출소",
       "vietnamese": "xuất ngục đúng hạn / hết hạn chấp hành",
@@ -657,6 +711,24 @@
         "music"
       ],
       "category": "noun"
+    },
+    {
+      "id": "8a301faae5dd",
+      "korean": "미니",
+      "vietnamese": "mini album",
+      "romanization": "mi-ni",
+      "pos": "noun",
+      "meaning": "album mini / EP",
+      "context": "âm nhạc",
+      "example": "미니 2집",
+      "source_url": "https://www.dispatch.co.kr/2345227",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "album"
+      ],
+      "category": "other"
     },
     {
       "id": "799f6213e055",
@@ -712,6 +784,24 @@
         "bts"
       ],
       "category": "celebrity"
+    },
+    {
+      "id": "73721600c422",
+      "korean": "벅스",
+      "vietnamese": "Bugs",
+      "romanization": "beok-seu",
+      "pos": "proper_noun",
+      "meaning": "nền tảng nghe nhạc Hàn",
+      "context": "âm nhạc / chart",
+      "example": "벅스 주간 차트 톱 10",
+      "source_url": "https://www.dispatch.co.kr/2345227",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "chart"
+      ],
+      "category": "organization"
     },
     {
       "id": "682459072e44",
@@ -856,6 +946,24 @@
       "frequency": 1,
       "tags": [
         "box-office"
+      ],
+      "category": "other"
+    },
+    {
+      "id": "5f263a078766",
+      "korean": "서머배시",
+      "vietnamese": "Summer Bash",
+      "romanization": "seo-meo-bae-si",
+      "pos": "proper_noun",
+      "meaning": "concert mùa hè Z100",
+      "context": "sự kiện / Mỹ",
+      "example": "Z100 서머배시",
+      "source_url": "https://www.dispatch.co.kr/2345227",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "concert"
       ],
       "category": "other"
     },
@@ -1005,6 +1113,24 @@
       "category": "noun"
     },
     {
+      "id": "baca0cfb6155",
+      "korean": "스포티파이",
+      "vietnamese": "Spotify",
+      "romanization": "seu-po-ti-pa-i",
+      "pos": "proper_noun",
+      "meaning": "nền tảng streaming nhạc",
+      "context": "âm nhạc",
+      "example": "스포티파이 바이럴 히트 코리아",
+      "source_url": "https://www.dispatch.co.kr/2345227",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "streaming"
+      ],
+      "category": "organization"
+    },
+    {
       "id": "41247d778ba0",
       "korean": "시사회",
       "vietnamese": "buổi công chiếu thử / premiere",
@@ -1095,6 +1221,24 @@
       "category": "noun"
     },
     {
+      "id": "eb3266048e6c",
+      "korean": "아이스 크림",
+      "vietnamese": "Ice Cream",
+      "romanization": "a-i-seu keu-rim",
+      "pos": "proper_noun",
+      "meaning": "title track mini 2 của YEONJUN",
+      "context": "âm nhạc",
+      "example": "타이틀곡 아이스 크림",
+      "source_url": "https://www.dispatch.co.kr/2345227",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "yeonjun"
+      ],
+      "category": "other"
+    },
+    {
       "id": "0255638b68b1",
       "korean": "아이유",
       "vietnamese": "IU",
@@ -1111,6 +1255,24 @@
         "artist"
       ],
       "category": "celebrity"
+    },
+    {
+      "id": "6d8b6aad1400",
+      "korean": "아이하트미디어",
+      "vietnamese": "iHeartMedia",
+      "romanization": "a-i-ha-teu-mi-di-eo",
+      "pos": "proper_noun",
+      "meaning": "tập đoàn media / radio Mỹ",
+      "context": "truyền thông",
+      "example": "아이하트미디어 산하의 라디오 방송사 Z100",
+      "source_url": "https://www.dispatch.co.kr/2345227",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "media"
+      ],
+      "category": "organization"
     },
     {
       "id": "ce5ef7bfae57",
@@ -1255,6 +1417,25 @@
         "kpop"
       ],
       "category": "noun"
+    },
+    {
+      "id": "27a49cee41ad",
+      "korean": "연준",
+      "vietnamese": "YEONJUN",
+      "romanization": "yeon-jun",
+      "pos": "proper_noun",
+      "meaning": "thành viên TOMORROW X TOGETHER",
+      "context": "K-pop",
+      "example": "투모로우바이투게더 연준",
+      "source_url": "https://www.dispatch.co.kr/2345227",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "txt",
+        "kpop"
+      ],
+      "category": "celebrity"
     },
     {
       "id": "4c27c4c90ee3",
@@ -1816,6 +1997,25 @@
       "category": "noun"
     },
     {
+      "id": "097a1dca1ca1",
+      "korean": "투모로우바이투게더",
+      "vietnamese": "TOMORROW X TOGETHER / TXT",
+      "romanization": "tu-mo-ro-u-ba-i-tu-ge-deo",
+      "pos": "proper_noun",
+      "meaning": "nhóm nhạc nam HYBE / Big Hit",
+      "context": "K-pop",
+      "example": "투모로우바이투게더 연준",
+      "source_url": "https://www.dispatch.co.kr/2345227",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "group",
+        "kpop"
+      ],
+      "category": "celebrity"
+    },
+    {
       "id": "ebab7ac9cce9",
       "korean": "투어",
       "vietnamese": "tour / chuyến lưu diễn",
@@ -1976,6 +2176,24 @@
         "culture"
       ],
       "category": "noun"
+    },
+    {
+      "id": "57095c43634f",
+      "korean": "허드슨 야드",
+      "vietnamese": "Hudson Yards",
+      "romanization": "heo-deu-seun ya-deu",
+      "pos": "proper_noun",
+      "meaning": "khu vực Manhattan, New York",
+      "context": "địa danh",
+      "example": "뉴욕 허드슨 야드",
+      "source_url": "https://www.dispatch.co.kr/2345227",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "new-york"
+      ],
+      "category": "location"
     },
     {
       "id": "31f715891725",

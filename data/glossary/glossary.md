@@ -1,7 +1,7 @@
 # KoreaWiki Translation Memory (Korean → Vietnamese)
 
-> Private linguistic asset. Updated: 2026-07-16T12:35:48+00:00
-> Entries: 117
+> Private linguistic asset. Updated: 2026-07-16T12:39:02+00:00
+> Entries: 129
 
 | Korean | Vietnamese | Context | Category | Source | Updated |
 |--------|------------|---------|----------|--------|---------|
@@ -25,6 +25,7 @@
 | 공정거래위원회 | Ủy ban Thương mại Công bằng (FTC) | pháp lý / chính sách | organization | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 관계자 | người liên quan / nguồn tin | báo chí | noun |  | 2026-07-16 |
 | 관심을 받다 | nhận được sự quan tâm | truyền thông | phrase |  | 2026-07-16 |
+| 굿모닝 아메리카 | Good Morning America | truyền hình Mỹ | organization | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 그룹 | nhóm nhạc | K-pop | noun |  | 2026-07-16 |
 | 기업집단 | tập đoàn doanh nghiệp | luật cạnh tranh | noun | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 김명수 | Kim Myung-soo | diễn viên | celebrity | https://www.dispatch.co.kr/2344420 | 2026-07-16 |
@@ -34,16 +35,20 @@
 | 나홍진 | Na Hong-jin | điện ảnh | celebrity | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 남배우 | nam diễn viên | ngành giải trí | noun |  | 2026-07-16 |
 | 넷플릭스 | Netflix | streaming | organization |  | 2026-07-16 |
+| 노 레이블스: 파트 02 | No Labels: Part 02 | âm nhạc | other | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 논란 | tranh cãi / scandal | truyền thông | noun |  | 2026-07-16 |
 | 데뷔 | ra mắt / debut | sự nghiệp | noun |  | 2026-07-16 |
 | 동일인 | người kiểm soát / controller | luật cạnh tranh / công bố tập đoàn | noun | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 드라마 | phim truyền hình / drama | truyền hình | drama |  | 2026-07-16 |
 | 디스패치 | Dispatch | báo chí | organization |  | 2026-07-16 |
+| 라인업 | lineup / danh sách nghệ sĩ | sự kiện | other | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 만기 출소 | xuất ngục đúng hạn / hết hạn chấp hành | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 뮤직비디오 | MV / video ca nhạc | âm nhạc | noun |  | 2026-07-16 |
+| 미니 | mini album | âm nhạc | other | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 발표 | công bố / announcement | truyền thông | noun |  | 2026-07-16 |
 | 방송 | phát sóng / chương trình | truyền hình | noun |  | 2026-07-16 |
 | 방탄소년단 | BTS | K-pop | celebrity |  | 2026-07-16 |
+| 벅스 | Bugs | âm nhạc / chart | organization | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 범죄도시 | The Roundup / Crime City | điện ảnh | movie | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 법무부 | Bộ Tư pháp | chính phủ | organization | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 보도 | đưa tin / báo cáo | báo chí | noun |  | 2026-07-16 |
@@ -52,6 +57,7 @@
 | 뷰티 | làm đẹp / beauty | K-beauty | noun |  | 2026-07-16 |
 | 블랙핑크 | BLACKPINK | K-pop | celebrity |  | 2026-07-16 |
 | 사전 예매 | đặt vé trước / pre-sale | phòng vé | other | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
+| 서머배시 | Summer Bash | sự kiện / Mỹ | other | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 서울 | Seoul | địa danh | location |  | 2026-07-16 |
 | 서울고등법원 | Tòa thượng thẩm Seoul | tư pháp | organization | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 서울구치소 | trại giam Seoul | tư pháp | location | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
@@ -60,12 +66,15 @@
 | 솔로 | solo | âm nhạc | noun |  | 2026-07-16 |
 | 수감 | bị giam / chấp hành án tù | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 수상 | nhận giải | giải thưởng | noun |  | 2026-07-16 |
+| 스포티파이 | Spotify | âm nhạc | organization | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 시사회 | buổi công chiếu thử / premiere | điện ảnh | noun |  | 2026-07-16 |
 | 시상식 | lễ trao giải | giải thưởng | noun |  | 2026-07-16 |
 | 싱가포르 | Singapore | địa danh | location | https://www.dispatch.co.kr/2344420 | 2026-07-16 |
 | 싱글 | single | âm nhạc | noun |  | 2026-07-16 |
 | 아이돌 | idol | K-pop | noun |  | 2026-07-16 |
+| 아이스 크림 | Ice Cream | âm nhạc | other | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 아이유 | IU | nghệ sĩ | celebrity |  | 2026-07-16 |
+| 아이하트미디어 | iHeartMedia | truyền thông | organization | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 안무 | biên đạo / vũ đạo | biểu diễn | noun |  | 2026-07-16 |
 | 압구정동 | Apgujeong-dong | địa danh | location | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 앨범 | album | âm nhạc | noun |  | 2026-07-16 |
@@ -74,6 +83,7 @@
 | 여주 | Yeoju | địa danh | location | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 연대보증 로맨스 | Yeondae Bojeung Romance | tên drama | drama | https://www.dispatch.co.kr/2344420 | 2026-07-16 |
 | 연습생 | thực tập sinh | K-pop | noun |  | 2026-07-16 |
+| 연준 | YEONJUN | K-pop | celebrity | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 열애 | yêu đương / hẹn hò | showbiz | noun |  | 2026-07-16 |
 | 영진위 | Ủy ban Điện ảnh Hàn Quốc (KOFIC) | điện ảnh / chính sách | organization | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 영화 | phim điện ảnh | điện ảnh | movie |  | 2026-07-16 |
@@ -105,6 +115,7 @@
 | 콘서트 | buổi hòa nhạc / concert | sự kiện | noun |  | 2026-07-16 |
 | 쿠팡 | Coupang | doanh nghiệp / thương mại điện tử | organization | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 타이틀곡 | bài chủ đề / title track | âm nhạc | noun |  | 2026-07-16 |
+| 투모로우바이투게더 | TOMORROW X TOGETHER / TXT | K-pop | celebrity | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 투어 | tour / chuyến lưu diễn | sự kiện | noun |  | 2026-07-16 |
 | 패션 | thời trang | thời trang | noun |  | 2026-07-16 |
 | 팬 | fan | fandom | noun |  | 2026-07-16 |
@@ -114,6 +125,7 @@
 | 하이브 | HYBE | công ty | organization |  | 2026-07-16 |
 | 한류 | Hallyu / làn sóng Hàn | văn hóa | noun |  | 2026-07-16 |
 | 한복 | hanbok | văn hóa | noun |  | 2026-07-16 |
+| 허드슨 야드 | Hudson Yards | địa danh | location | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 호프 | Hope | điện ảnh | movie | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 홍대 | Hongdae | địa danh | location |  | 2026-07-16 |
 | 화보 | bộ ảnh / pictorial | thời trang | noun |  | 2026-07-16 |
