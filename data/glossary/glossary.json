@@ -1,7 +1,7 @@
 {
   "version": 1,
   "language_pair": "ko-vi",
-  "updated": "2026-07-16T10:58:10+00:00",
+  "updated": "2026-07-16T11:57:48+00:00",
   "entries": [
     {
       "id": "ed0f4da4b180",
@@ -184,6 +184,24 @@
       "category": "noun"
     },
     {
+      "id": "4407e66d9343",
+      "korean": "공감세포",
+      "vietnamese": "Gonggam Sepo",
+      "romanization": "gong-gam-se-po",
+      "pos": "",
+      "meaning": "",
+      "context": "tên drama",
+      "example": "",
+      "source_url": "https://www.dispatch.co.kr/2344420",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "kdrama"
+      ],
+      "category": "drama"
+    },
+    {
       "id": "0a04b875e320",
       "korean": "공개",
       "vietnamese": "công bố / công khai",
@@ -272,6 +290,24 @@
         "kpop"
       ],
       "category": "noun"
+    },
+    {
+      "id": "8c6d017a1977",
+      "korean": "김명수",
+      "vietnamese": "Kim Myung-soo",
+      "romanization": "gim-myeong-su",
+      "pos": "",
+      "meaning": "",
+      "context": "diễn viên",
+      "example": "",
+      "source_url": "https://www.dispatch.co.kr/2344420",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "actor"
+      ],
+      "category": "celebrity"
     },
     {
       "id": "76bb3c3f25c6",
@@ -635,6 +671,24 @@
       "category": "noun"
     },
     {
+      "id": "68a09e615ed6",
+      "korean": "싱가포르",
+      "vietnamese": "Singapore",
+      "romanization": "sing-ga-po-reu",
+      "pos": "",
+      "meaning": "",
+      "context": "địa danh",
+      "example": "",
+      "source_url": "https://www.dispatch.co.kr/2344420",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "place"
+      ],
+      "category": "location"
+    },
+    {
       "id": "1a3a55a0f68a",
       "korean": "싱글",
       "vietnamese": "single",
@@ -759,6 +813,24 @@
         "entertainment"
       ],
       "category": "noun"
+    },
+    {
+      "id": "539e2b4a5739",
+      "korean": "연대보증 로맨스",
+      "vietnamese": "Yeondae Bojeung Romance",
+      "romanization": "yeon-dae-bo-jeung-ro-maen-seu",
+      "pos": "",
+      "meaning": "",
+      "context": "tên drama",
+      "example": "",
+      "source_url": "https://www.dispatch.co.kr/2344420",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "kdrama"
+      ],
+      "category": "drama"
     },
     {
       "id": "4d2540df0160",
@@ -1191,6 +1263,24 @@
         "event"
       ],
       "category": "noun"
+    },
+    {
+      "id": "7529c38a2d8b",
+      "korean": "표예진",
+      "vietnamese": "Pyo Ye-jin",
+      "romanization": "pyo-ye-jin",
+      "pos": "",
+      "meaning": "",
+      "context": "diễn viên",
+      "example": "",
+      "source_url": "https://www.dispatch.co.kr/2344420",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "actor"
+      ],
+      "category": "celebrity"
     },
     {
       "id": "36f5832d3275",
