@@ -1,7 +1,7 @@
 # KoreaWiki Translation Memory (Korean → Vietnamese)
 
-> Private linguistic asset. Updated: 2026-07-16T12:42:05+00:00
-> Entries: 151
+> Private linguistic asset. Updated: 2026-07-16T12:53:13+00:00
+> Entries: 154
 
 | Korean | Vietnamese | Context | Category | Source | Updated |
 |--------|------------|---------|----------|--------|---------|
@@ -16,6 +16,7 @@
 | 감독 | đạo diễn | điện ảnh | noun |  | 2026-07-16 |
 | 강남 | Gangnam | địa danh | location |  | 2026-07-16 |
 | 개봉 | công chiếu / ra rạp | điện ảnh | noun |  | 2026-07-16 |
+| 건축 | kiến trúc | architecture | other | https://www.archdaily.com/975033/our-lady-of-victoria-monastery-localworks | 2026-07-16 |
 | 결별 | chia tay | showbiz | noun |  | 2026-07-16 |
 | 결혼 | kết hôn | đời tư | noun |  | 2026-07-16 |
 | 곡성 | The Wailing | điện ảnh | movie | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
@@ -59,6 +60,7 @@
 | 벅스 | Bugs | âm nhạc / chart | organization | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 범죄도시 | The Roundup / Crime City | điện ảnh | movie | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 법무부 | Bộ Tư pháp | chính phủ | organization | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
+| 벽돌 | gạch (xây) | brick | other | https://www.archdaily.com/975033/our-lady-of-victoria-monastery-localworks | 2026-07-16 |
 | 보도 | đưa tin / báo cáo | báo chí | noun |  | 2026-07-16 |
 | 보도자료 | thông cáo báo chí / press release | báo chí / PR | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
 | 보호관찰 | giám sát bảo hộ / quản chế | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
@@ -75,6 +77,7 @@
 | 소속사 | công ty quản lý / agency | ngành | noun |  | 2026-07-16 |
 | 솔로 | solo | âm nhạc | noun |  | 2026-07-16 |
 | 수감 | bị giam / chấp hành án tù | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
+| 수도원 | tu viện / monastery | monastery | other | https://www.archdaily.com/975033/our-lady-of-victoria-monastery-localworks | 2026-07-16 |
 | 수상 | nhận giải | giải thưởng | noun |  | 2026-07-16 |
 | 스포티파이 | Spotify | âm nhạc | organization | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 시사회 | buổi công chiếu thử / premiere | điện ảnh | noun |  | 2026-07-16 |

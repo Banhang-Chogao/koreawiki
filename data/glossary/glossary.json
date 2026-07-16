@@ -1,7 +1,7 @@
 {
   "version": 1,
   "language_pair": "ko-vi",
-  "updated": "2026-07-16T12:42:05+00:00",
+  "updated": "2026-07-16T12:53:13+00:00",
   "entries": [
     {
       "id": "ed0f4da4b180",
@@ -202,6 +202,22 @@
         "film"
       ],
       "category": "noun"
+    },
+    {
+      "id": "67ad9b0e792b",
+      "korean": "건축",
+      "vietnamese": "kiến trúc",
+      "romanization": "geon-chuk",
+      "pos": "",
+      "meaning": "",
+      "context": "architecture",
+      "example": "",
+      "source_url": "https://www.archdaily.com/975033/our-lady-of-victoria-monastery-localworks",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [],
+      "category": "other"
     },
     {
       "id": "aff3380a27d0",
@@ -987,6 +1003,22 @@
       "category": "organization"
     },
     {
+      "id": "b2522f6cb474",
+      "korean": "벽돌",
+      "vietnamese": "gạch (xây)",
+      "romanization": "byeok-dol",
+      "pos": "",
+      "meaning": "",
+      "context": "brick",
+      "example": "",
+      "source_url": "https://www.archdaily.com/975033/our-lady-of-victoria-monastery-localworks",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [],
+      "category": "other"
+    },
+    {
       "id": "287dd7baf311",
       "korean": "보도",
       "vietnamese": "đưa tin / báo cáo",
@@ -1274,6 +1306,22 @@
       "tags": [
         "prison"
       ],
+      "category": "other"
+    },
+    {
+      "id": "c8e3450180a0",
+      "korean": "수도원",
+      "vietnamese": "tu viện / monastery",
+      "romanization": "su-do-won",
+      "pos": "",
+      "meaning": "",
+      "context": "monastery",
+      "example": "",
+      "source_url": "https://www.archdaily.com/975033/our-lady-of-victoria-monastery-localworks",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [],
       "category": "other"
     },
     {
