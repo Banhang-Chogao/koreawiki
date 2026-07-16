@@ -223,6 +223,14 @@ CDN URL harvest, content-hash dedup, browser UA, story-folder filter).
 
 ---
 
+## Entry 029 — 2026-07-16: mm/nn body ≥ 2,000 words
+
+**Policy:** Hard floor **2,000 Vietnamese words** on article body
+(`scripts/wordcount_article.py --min 2000`). Target 2,000–2,800.
+
+**Note:** AdSense has **no official 2k-word rule**; floor is ours for substance.
+Expand with reader value (context, FAQ, term explainers) — **never** fluff or invented facts.
+
 ## Entry 028 — 2026-07-16: mm/nn human rewrite without content loss
 
 **Policy:** Steps 4–5 in `mm.md` and `nn.md` require **human, objective Vietnamese

@@ -94,12 +94,54 @@ or summarizing so hard that a reader loses information the source provided.
   đáng chú ý”) — still no new facts
 - Prefer concrete verbs and short–medium sentences over stiff translationese
 
+### Length bar (substance for AdSense-friendly pages)
+
+**Reality check:** Google AdSense does **not** publish a hard “must be 2,000 words”
+rule. What hurts is **thin / scraped / low-value** pages. Still, for KoreaWiki we set
+a **clear length target** so every `mm` post is a real feature, not a 400-word gloss.
+
+| Bar | Vietnamese body words* | When |
+|-----|------------------------|------|
+| **Hard minimum** | **≥ 2,000** | Ship blocker for `mm` (fail Step 10 if below) |
+| **Healthy target** | **2,000–2,800** | Default aim after human rewrite + allowed expansion |
+| **Stretch** | 2,800–3,500 | Long explainers only if still useful (not fluff) |
+
+\*Count = body only (no YAML, no `article-footer` block). Measure with:
+
+```bash
+python3 scripts/wordcount_article.py content/en/<section>/<file>.md --min 2000
+```
+
+**How to reach ≥ 2,000 without padding spam** (allowed expansion — still objective):
+
+1. **Keep every source fact** (baseline), then **expand for Vietnamese readers**:
+   - Explain orgs/terms (who is this agency? what is Talk Channel / 경일?) in plain VI
+   - “Bối cảnh” / “Vì sao đáng chú ý” grounded in the source story
+   - Timeline / bullet recap of numbers already in the source
+2. **Deeper FAQ** (5–8 items) — answers only from article facts
+3. **Section “Điểm độc giả cần nhớ”** — structured recap, not new claims
+4. **Internal links** with 1–3 sentences of relevance to older KoreaWiki posts
+5. **Caption + short orientation** under photos (who/where) from known credits
+6. Optional short **glossary box** of 4–8 terms used in the piece (KO + VI)
+
+**Forbidden length hacks:**
+
+- Repeating the same paragraph / synonym salad
+- Keyword stuffing (“Hàn Quốc” every sentence)
+- Invented stats, quotes, or drama not in the source
+- Copy-paste English/Korean blobs to inflate count
+
+If the Korean source is very short, you **still** hit 2,000 by **reader-value expansion**
+above — never by fabrication. Prefer quality over empty bulk; if stuck under 2,000 after
+honest expansion, keep expanding FAQ/context until the bar is met.
+
 ### Self-check before shipping body
 
 1. Could a reader get the **same factual package** as the Korean source? If not → add back.
 2. Does it still **sound translated line-by-line**? If yes → rewrite paragraphs again.
 3. Any number/name you cannot find in the source? → **remove** (never invent).
 4. Title/description are **new wording**, not a direct gloss of the original headline only.
+5. **`wordcount_article.py --min 2000` passes.**
 
 Apply TM terminology from Step 3.
 
@@ -320,6 +362,7 @@ Do **not** place raw JSON/CSV/SQLite under `static/` or `public/`. TM stays in `
 
 Execute every validation from scientist.md:
 
+- **Word count:** `python3 scripts/wordcount_article.py <this-post.md> --min 2000`
 - Markdown lint
 - Hugo build
 - Internal links
@@ -377,6 +420,8 @@ No manual glossary work required on the happy path. **Full image gallery from so
 - Preserve factual accuracy — **rewrite without content loss** (full fact package)
 - **Human, objective Vietnamese** — active editorial contribution, not MT paste / calque
   (helps originality; still always attribute the Korean source)
+- **Length:** body **≥ 2,000 words** (`scripts/wordcount_article.py --min 2000`); expand
+  with reader value, never fluff or invented facts
 - Prefer Translation Memory terminology for consistency
 - Luôn dẫn nguồn ở cuối bài: nếu là URL → ghi dạng `Nguồn: [Tên báo] — [URL]`; nếu là text thô → ghi `Nguồn: [Tên báo gốc]`
 - **Images:** **must attempt** `python3 scripts/fetch_cover.py --page URL --slug … --all`. Host **every** usable source photo under `static/images/…`. Set `cover` from the best image; **embed the rest in the body**. Remote-only image URLs are not allowed.

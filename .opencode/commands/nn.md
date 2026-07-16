@@ -123,12 +123,46 @@ dropping materials, team, or program “to keep it short.”
 - For ArchDaily: lead with **where / who / what**, then program → materials/context →
   embed photos next to related sections
 
+### Length bar (substance for AdSense-friendly pages)
+
+**Reality check:** AdSense does **not** hard-require 2,000 words. Thin/scraped pages
+are the real risk. KoreaWiki still sets a **hard floor** so `nn` posts are full features.
+
+| Bar | Vietnamese body words* | When |
+|-----|------------------------|------|
+| **Hard minimum** | **≥ 2,000** | Ship blocker for `nn` (incl. ArchDaily) |
+| **Healthy target** | **2,000–2,800** | Default after human rewrite + allowed expansion |
+| **Stretch** | 2,800–3,500 | Only if still useful (materials, program, context) |
+
+\*Body only (no YAML, no `article-footer`). Measure:
+
+```bash
+python3 scripts/wordcount_article.py content/en/<section>/<file>.md --min 2000
+```
+
+**Allowed expansion to reach ≥ 2,000** (objective, no fabrication):
+
+1. Keep **all** source facts/specs, then expand for VI readers (what is TUM? what is
+   vertical kindergarten? why timber?)
+2. Full team / materials / program lists in prose + bullets (never drop ArchDaily specs)
+3. Deeper **FAQ** (5–8) grounded only in the project brief
+4. Sections: bối cảnh địa điểm, vật liệu, ý đồ sử dụng, “độc giả cần nhớ”
+5. Photo orientation captions (photographer + what the frame shows)
+6. 1–3 internal links with short relevance notes
+7. Optional short term box (EN name + VI gloss)
+
+**Forbidden:** paragraph loops, keyword stuffing, invented quotes/numbers, empty SEO filler.
+
+ArchDaily briefs are often short in text — **still** hit 2,000 by unpacking specs +
+reader context + structure, not by inventing design claims.
+
 ### Self-check before shipping body
 
 1. Same **fact package** as the English source? If thinner → restore missing facts.
 2. Still reads like EN→VI line mirror? → rewrite again in human Vietnamese.
 3. Any claim not in the source? → **delete** (never invent).
 4. Title/description are **original wording**, not only a literal headline clone.
+5. **`wordcount_article.py --min 2000` passes.**
 
 Apply TM terminology from Step 3 when relevant.
 
@@ -328,6 +362,7 @@ Never put raw glossary DB under `static/` or `public/`.
 Same as `mm` / scientist.md:
 
 ```bash
+python3 scripts/wordcount_article.py content/en/<section>/<this-post>.md --min 2000
 python3 scripts/qa.py
 python3 scripts/seo.py
 python3 scripts/frontmatter_check.py
@@ -407,6 +442,8 @@ EN URL/text → fetch (+ ALL images) → consult TM → EN→VI rewrite
 - Preserve factual accuracy — **rewrite without content loss** (full fact package)
 - **Human, objective Vietnamese** — active editorial contribution, not MT paste / calque
   (originality / AdSense-friendly; always attribute the English source)
+- **Length:** body **≥ 2,000 words** (`scripts/wordcount_article.py --min 2000`); expand
+  with reader value (specs unpack, context, FAQ), never fluff or invented facts
 - Prefer TM for shared terminology
 - Always attribute: `Nguồn: [Publisher] — [URL]`
 - **Images:** mandatory `fetch_cover.py --page … --all` effort; host everything usable under `static/images/…`

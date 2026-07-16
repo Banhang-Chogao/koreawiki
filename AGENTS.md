@@ -143,10 +143,13 @@ Shared steps:
 1. `python3 scripts/glossary.py consult` before translate  
 2. **Human rewrite** into Vietnamese (KO→VI / EN→VI): objective, natural voice,
    **full facts retained** (no thin MT paste) — original editorial contribution  
-3. Fetch **all** usable source images → `static/images/…` + body Markdown embeds  
-4. Extract TM → `glossary.py upsert` → `sync` (lighter for pure EN when no KO terms)  
-5. Run scientist / QA validate + baseURL image smoke test  
-6. Commit + push only when green  
+3. **Body length ≥ 2,000 words** (`python3 scripts/wordcount_article.py <post.md> --min 2000`).
+   Expand with real reader value (context, FAQ, term explainers), never empty padding.
+   (AdSense has no official 2k rule; we use 2k as our substance floor.)  
+4. Fetch **all** usable source images → `static/images/…` + body Markdown embeds  
+5. Extract TM → `glossary.py upsert` → `sync` (lighter for pure EN when no KO terms)  
+6. Run scientist / QA validate + baseURL image smoke test  
+7. Commit + push only when green  
 
 ## Commit style
 
