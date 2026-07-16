@@ -35,6 +35,15 @@
   --color-accent-light: var(--orange-50);
   --color-overlay: rgba(0,0,0,.4);
 
+  /* Nav bar — soft sky blue solid, readable with deep navy text */
+  --color-nav-bg: #c5e4f8;           /* sky blue solid */
+  --color-nav-bg-hover: #aed8f5;     /* slightly deeper on item hover */
+  --color-nav-border: #8ec8ea;
+  --color-nav-text: #0c3d66;         /* deep navy — WCAG-friendly on sky */
+  --color-nav-text-hover: #075985;   /* sky-800 */
+  --color-nav-text-active: #0369a1;  /* sky-700 */
+  --color-nav-underline: #0284c7;    /* sky-600 */
+
   /*
     Unified native stack for the ENTIRE site (not nav-only).
     Latin: system-ui first. Hangul: OS Korean fonts in the same stack
@@ -131,4 +140,13 @@
   --shadow-sm: 0 1px 2px rgba(0,0,0,.3);
   --shadow-md: 0 4px 6px rgba(0,0,0,.4);
   --shadow-lg: 0 10px 25px rgba(0,0,0,.5);
+
+  /* Nav — deeper sky/navy bar for dark theme */
+  --color-nav-bg: #0c4a6e;
+  --color-nav-bg-hover: #075985;
+  --color-nav-border: #0369a1;
+  --color-nav-text: #e0f2fe;
+  --color-nav-text-hover: #ffffff;
+  --color-nav-text-active: #7dd3fc;
+  --color-nav-underline: #38bdf8;
 }
