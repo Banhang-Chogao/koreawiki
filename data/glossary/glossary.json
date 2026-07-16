@@ -1,7 +1,7 @@
 {
   "version": 1,
   "language_pair": "ko-vi",
-  "updated": "2026-07-16T12:39:02+00:00",
+  "updated": "2026-07-16T12:40:28+00:00",
   "entries": [
     {
       "id": "ed0f4da4b180",
@@ -20,6 +20,25 @@
         "entertainment"
       ],
       "category": "noun"
+    },
+    {
+      "id": "5a3471831532",
+      "korean": "AI로 만들기",
+      "vietnamese": "Tạo bằng AI",
+      "romanization": "ei-a-i-ro man-deul-gi",
+      "pos": "phrase",
+      "meaning": "nút tái tạo ảnh bằng AI trên KakaoTalk",
+      "context": "KakaoTalk / AI",
+      "example": "우측 상단의 'AI로 만들기'를 눌러",
+      "source_url": "https://www.kakaocorp.com/page/detail/12082",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "feature",
+        "ai"
+      ],
+      "category": "other"
     },
     {
       "id": "67276be18dcb",
@@ -586,6 +605,43 @@
       "category": "noun"
     },
     {
+      "id": "03aac291c95c",
+      "korean": "대표이사",
+      "vietnamese": "CEO / đại diện pháp lý công ty",
+      "romanization": "dae-pyo-i-sa",
+      "pos": "noun",
+      "meaning": "representative director / CEO (Hàn)",
+      "context": "doanh nghiệp",
+      "example": "대표이사 정신아",
+      "source_url": "https://www.kakaocorp.com/page/detail/12082",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "corporate"
+      ],
+      "category": "other"
+    },
+    {
+      "id": "624211076cf7",
+      "korean": "대화 요약",
+      "vietnamese": "tóm tắt hội thoại",
+      "romanization": "dae-hwa yo-yak",
+      "pos": "noun",
+      "meaning": "tính năng tóm tắt tin nhắn trong phòng chat",
+      "context": "KakaoTalk / AI",
+      "example": "대화 요약 버튼을 누르면",
+      "source_url": "https://www.kakaocorp.com/page/detail/12082",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "feature",
+        "ai"
+      ],
+      "category": "other"
+    },
+    {
       "id": "559f2a9f86c9",
       "korean": "데뷔",
       "vietnamese": "ra mắt / debut",
@@ -857,6 +913,24 @@
         "media"
       ],
       "category": "noun"
+    },
+    {
+      "id": "ba19536ecbc2",
+      "korean": "보도자료",
+      "vietnamese": "thông cáo báo chí / press release",
+      "romanization": "bo-do-ja-ryo",
+      "pos": "noun",
+      "meaning": "tài liệu truyền thông chính thức",
+      "context": "báo chí / PR",
+      "example": "보도자료 2026.07.15",
+      "source_url": "https://www.kakaocorp.com/page/detail/12082",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "pr"
+      ],
+      "category": "other"
     },
     {
       "id": "3a06825328ee",
@@ -1546,6 +1620,24 @@
       "category": "other"
     },
     {
+      "id": "9de44dedc716",
+      "korean": "오픈채팅",
+      "vietnamese": "open chat / phòng chat mở",
+      "romanization": "o-peun-chae-ting",
+      "pos": "noun",
+      "meaning": "tính năng phòng chat công khai/mở trên KakaoTalk",
+      "context": "KakaoTalk",
+      "example": "오픈채팅에도 챗봇(beta)을 적용",
+      "source_url": "https://www.kakaocorp.com/page/detail/12082",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "feature"
+      ],
+      "category": "other"
+    },
+    {
       "id": "8e24b1132e23",
       "korean": "와이쥐",
       "vietnamese": "YG Entertainment",
@@ -1670,6 +1762,42 @@
         "media"
       ],
       "category": "noun"
+    },
+    {
+      "id": "bd3e6d0ed19e",
+      "korean": "정기 업데이트",
+      "vietnamese": "cập nhật định kỳ",
+      "romanization": "jeong-gi eop-de-i-teu",
+      "pos": "noun",
+      "meaning": "bản cập nhật theo lịch định kỳ",
+      "context": "phần mềm",
+      "example": "6차 정기 업데이트",
+      "source_url": "https://www.kakaocorp.com/page/detail/12082",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "software"
+      ],
+      "category": "other"
+    },
+    {
+      "id": "f2bf3274ef96",
+      "korean": "정신아",
+      "vietnamese": "Jung Shin-a",
+      "romanization": "jeong-sin-a",
+      "pos": "proper_noun",
+      "meaning": "CEO / đại diện pháp lý Kakao",
+      "context": "doanh nghiệp",
+      "example": "카카오(대표이사 정신아)",
+      "source_url": "https://www.kakaocorp.com/page/detail/12082",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "executive"
+      ],
+      "category": "celebrity"
     },
     {
       "id": "2309d716f3a6",
@@ -1816,6 +1944,24 @@
       "category": "noun"
     },
     {
+      "id": "5d2c24fe7d92",
+      "korean": "챗봇",
+      "vietnamese": "chatbot",
+      "romanization": "chaet-bot",
+      "pos": "noun",
+      "meaning": "bot trò chuyện tự động",
+      "context": "AI / messaging",
+      "example": "챗봇(beta)",
+      "source_url": "https://www.kakaocorp.com/page/detail/12082",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "ai"
+      ],
+      "category": "other"
+    },
+    {
       "id": "a8d3b986f191",
       "korean": "출소",
       "vietnamese": "xuất ngục / ra tù",
@@ -1850,6 +1996,61 @@
         "entertainment"
       ],
       "category": "noun"
+    },
+    {
+      "id": "5bcf865e3453",
+      "korean": "카카오",
+      "vietnamese": "Kakao",
+      "romanization": "ka-ka-o",
+      "pos": "proper_noun",
+      "meaning": "tập đoàn tech Hàn Quốc",
+      "context": "công nghệ / doanh nghiệp",
+      "example": "카카오가 카카오톡 6차 정기 업데이트를 진행",
+      "source_url": "https://www.kakaocorp.com/page/detail/12082",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "tech"
+      ],
+      "category": "organization"
+    },
+    {
+      "id": "81e6733e155d",
+      "korean": "카카오톡",
+      "vietnamese": "KakaoTalk",
+      "romanization": "ka-ka-o-tok",
+      "pos": "proper_noun",
+      "meaning": "ứng dụng nhắn tin của Kakao",
+      "context": "công nghệ",
+      "example": "카카오톡 6차 정기 업데이트",
+      "source_url": "https://www.kakaocorp.com/page/detail/12082",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "app",
+        "messaging"
+      ],
+      "category": "other"
+    },
+    {
+      "id": "1235ad3e98e1",
+      "korean": "카카오톡 채널",
+      "vietnamese": "KakaoTalk Channel",
+      "romanization": "ka-ka-o-tok chae-neol",
+      "pos": "proper_noun",
+      "meaning": "kênh doanh nghiệp / brand trên KakaoTalk",
+      "context": "KakaoTalk",
+      "example": "카카오톡 채널 채팅 발송 후 24시간 이내",
+      "source_url": "https://www.kakaocorp.com/page/detail/12082",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "business"
+      ],
+      "category": "other"
     },
     {
       "id": "37099c66658a",

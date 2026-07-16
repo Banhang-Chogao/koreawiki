@@ -1,11 +1,12 @@
 # KoreaWiki Translation Memory (Korean → Vietnamese)
 
-> Private linguistic asset. Updated: 2026-07-16T12:39:02+00:00
-> Entries: 129
+> Private linguistic asset. Updated: 2026-07-16T12:40:28+00:00
+> Entries: 140
 
 | Korean | Vietnamese | Context | Category | Source | Updated |
 |--------|------------|---------|----------|--------|---------|
 | 배우 | diễn viên | ngành giải trí | noun | https://example.com/test | 2026-07-16 |
+| AI로 만들기 | Tạo bằng AI | KakaoTalk / AI | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
 | ~에 따르면 | theo… | báo chí | grammar |  | 2026-07-16 |
 | ~을/를 통해 | thông qua… | báo chí | grammar |  | 2026-07-16 |
 | 가사 | lời bài hát | âm nhạc | noun |  | 2026-07-16 |
@@ -37,6 +38,8 @@
 | 넷플릭스 | Netflix | streaming | organization |  | 2026-07-16 |
 | 노 레이블스: 파트 02 | No Labels: Part 02 | âm nhạc | other | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 논란 | tranh cãi / scandal | truyền thông | noun |  | 2026-07-16 |
+| 대표이사 | CEO / đại diện pháp lý công ty | doanh nghiệp | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
+| 대화 요약 | tóm tắt hội thoại | KakaoTalk / AI | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
 | 데뷔 | ra mắt / debut | sự nghiệp | noun |  | 2026-07-16 |
 | 동일인 | người kiểm soát / controller | luật cạnh tranh / công bố tập đoàn | noun | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 드라마 | phim truyền hình / drama | truyền hình | drama |  | 2026-07-16 |
@@ -52,6 +55,7 @@
 | 범죄도시 | The Roundup / Crime City | điện ảnh | movie | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 법무부 | Bộ Tư pháp | chính phủ | organization | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 보도 | đưa tin / báo cáo | báo chí | noun |  | 2026-07-16 |
+| 보도자료 | thông cáo báo chí / press release | báo chí / PR | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
 | 보호관찰 | giám sát bảo hộ / quản chế | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 부산 | Busan | địa danh | location |  | 2026-07-16 |
 | 뷰티 | làm đẹp / beauty | K-beauty | noun |  | 2026-07-16 |
@@ -90,6 +94,7 @@
 | 영화관입장권 통합전산망 | mạng thống kê vé điện ảnh tích hợp | phòng vé | other | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 예능 | chương trình giải trí / variety | truyền hình | noun |  | 2026-07-16 |
 | 예매율 | tỷ lệ đặt vé | phòng vé | other | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
+| 오픈채팅 | open chat / phòng chat mở | KakaoTalk | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
 | 와이쥐 | YG Entertainment | công ty | organization |  | 2026-07-16 |
 | 월드 프리미어 | world premiere / ra mắt thế giới | điện ảnh / LHP | other | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 음원 | nhạc số / digital track | âm nhạc | noun |  | 2026-07-16 |
@@ -97,6 +102,8 @@
 | 이감 | chuyển trại / chuyển giam | tư pháp / cải tạo | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 인터뷰 | phỏng vấn | báo chí | noun |  | 2026-07-16 |
 | 입장 | lập trường / tuyên bố | truyền thông | noun |  | 2026-07-16 |
+| 정기 업데이트 | cập nhật định kỳ | phần mềm | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
+| 정신아 | Jung Shin-a | doanh nghiệp | celebrity | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
 | 정호연 | Jung Ho-yeon | điện ảnh | celebrity | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 제이와이드 | JYP Entertainment | công ty | organization |  | 2026-07-16 |
 | 제작 | sản xuất | truyền thông | noun |  | 2026-07-16 |
@@ -105,8 +112,12 @@
 | 주목받다 | được chú ý | truyền thông | verb |  | 2026-07-16 |
 | 징역 | án tù / hình phạt tù | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 차트 | bảng xếp hạng | âm nhạc | noun |  | 2026-07-16 |
+| 챗봇 | chatbot | AI / messaging | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
 | 출소 | xuất ngục / ra tù | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 출연 | tham gia / đóng vai | giải trí | noun |  | 2026-07-16 |
+| 카카오 | Kakao | công nghệ / doanh nghiệp | organization | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
+| 카카오톡 | KakaoTalk | công nghệ | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
+| 카카오톡 채널 | KakaoTalk Channel | KakaoTalk | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
 | 칸국제영화제 | Liên hoan phim Cannes | điện ảnh | organization | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 캐스팅 | casting | phim/drama | noun |  | 2026-07-16 |
 | 컴백 | comeback | K-pop | noun |  | 2026-07-16 |

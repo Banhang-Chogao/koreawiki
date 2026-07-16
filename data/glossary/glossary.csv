@@ -1,5 +1,6 @@
 id,korean,vietnamese,romanization,pos,meaning,context,example,source_url,first_seen,last_seen,frequency,tags,category
 ed0f4da4b180,배우,diễn viên,bae-u,noun,người biểu diễn trên màn ảnh,ngành giải trí,그 배우는 유명하다.,https://example.com/test,2026-07-16,2026-07-16,2,entertainment,noun
+5a3471831532,AI로 만들기,Tạo bằng AI,ei-a-i-ro man-deul-gi,phrase,nút tái tạo ảnh bằng AI trên KakaoTalk,KakaoTalk / AI,우측 상단의 'AI로 만들기'를 눌러,https://www.kakaocorp.com/page/detail/12082,2026-07-16,2026-07-16,1,"feature,ai",other
 67276be18dcb,~에 따르면,theo…,e tta-reu-myeon,pattern,dẫn nguồn,báo chí,보도에 따르면,,2026-07-16,2026-07-16,1,news,grammar
 b6f78987585a,~을/를 통해,thông qua…,eul/reul tong-hae,pattern,by means of,báo chí,,,2026-07-16,2026-07-16,1,news,grammar
 0c9d651ffb30,가사,lời bài hát,ga-sa,noun,lyrics,âm nhạc,,,2026-07-16,2026-07-16,1,music,noun
@@ -31,6 +32,8 @@ a03521c4026d,김범석,Kim Bom-suk / Bom Kim,gim-beom-seok,proper_noun,"Nhà sá
 4fef8364f4f0,넷플릭스,Netflix,net-peul-lik-seu,proper_noun,nền tảng streaming,streaming,,,2026-07-16,2026-07-16,1,streaming,organization
 95df39d51c12,노 레이블스: 파트 02,No Labels: Part 02,no re-i-beul-seu pa-teu 02,proper_noun,mini album 2 của YEONJUN,âm nhạc,미니 2집 노 레이블스: 파트 02,https://www.dispatch.co.kr/2345227,2026-07-16,2026-07-16,1,yeonjun,other
 8658190e48a2,논란,tranh cãi / scandal,non-lan,noun,controversy,truyền thông,,,2026-07-16,2026-07-16,1,media,noun
+03aac291c95c,대표이사,CEO / đại diện pháp lý công ty,dae-pyo-i-sa,noun,representative director / CEO (Hàn),doanh nghiệp,대표이사 정신아,https://www.kakaocorp.com/page/detail/12082,2026-07-16,2026-07-16,1,corporate,other
+624211076cf7,대화 요약,tóm tắt hội thoại,dae-hwa yo-yak,noun,tính năng tóm tắt tin nhắn trong phòng chat,KakaoTalk / AI,대화 요약 버튼을 누르면,https://www.kakaocorp.com/page/detail/12082,2026-07-16,2026-07-16,1,"feature,ai",other
 559f2a9f86c9,데뷔,ra mắt / debut,de-byu,noun,lần xuất hiện đầu,sự nghiệp,올해 데뷔했다.,,2026-07-16,2026-07-16,1,career,noun
 d930f8906c5a,동일인,người kiểm soát / controller,dong-il-in,noun,Chủ thể được pháp luật chỉ định là người kiểm soát tập đoàn (legal controller),luật cạnh tranh / công bố tập đoàn,동일인으로 지정,https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller,2026-07-16,2026-07-16,1,"legal,business",noun
 2bb81ef5a286,드라마,phim truyền hình / drama,deu-ra-ma,noun,K-drama,truyền hình,,,2026-07-16,2026-07-16,1,kdrama,drama
@@ -46,6 +49,7 @@ eeeae8d67f6b,뮤직비디오,MV / video ca nhạc,myu-jik-bi-di-o,noun,music vid
 682459072e44,범죄도시,The Roundup / Crime City,beom-joe-do-si,proper_noun,series phim hành động Hàn Quốc,điện ảnh,범죄도시 3와 범죄도시 4,https://www.dispatch.co.kr/2345236,2026-07-16,2026-07-16,1,"film,franchise",movie
 d6ef9fb0273c,법무부,Bộ Tư pháp,beom-mu-bu,proper_noun,Ministry of Justice (Hàn Quốc),chính phủ,법무부 가석방 심사,https://www.dispatch.co.kr/2344260,2026-07-16,2026-07-16,1,government,organization
 287dd7baf311,보도,đưa tin / báo cáo,bo-do,noun,news report,báo chí,,,2026-07-16,2026-07-16,1,media,noun
+ba19536ecbc2,보도자료,thông cáo báo chí / press release,bo-do-ja-ryo,noun,tài liệu truyền thông chính thức,báo chí / PR,보도자료 2026.07.15,https://www.kakaocorp.com/page/detail/12082,2026-07-16,2026-07-16,1,pr,other
 3a06825328ee,보호관찰,giám sát bảo hộ / quản chế,bo-ho-gwan-chal,noun,probation — giám sát sau khi tha trước thời hạn,tư pháp,가석방 기간 동안 보호관찰,https://www.dispatch.co.kr/2344260,2026-07-16,2026-07-16,1,"parole,probation",other
 01add5f5349e,부산,Busan,bu-san,proper_noun,thành phố cảng,địa danh,,,2026-07-16,2026-07-16,1,place,location
 1ce09adebbdd,뷰티,làm đẹp / beauty,byu-ti,noun,beauty industry,K-beauty,,,2026-07-16,2026-07-16,1,beauty,noun
@@ -84,6 +88,7 @@ af03a64e5279,여배우,nữ diễn viên,yeo-bae-u,noun,diễn viên nữ,ngành
 a8b382894692,영화관입장권 통합전산망,mạng thống kê vé điện ảnh tích hợp,yeong-hwa-gwan-ip-jang-gwon tong-hap-jeon-san-mang,noun,hệ thống KOFIC theo dõi vé rạp toàn quốc,phòng vé,영화관입장권 통합전산망에 따르면,https://www.dispatch.co.kr/2345236,2026-07-16,2026-07-16,1,kofic,other
 bbb9f4f22800,예능,chương trình giải trí / variety,ye-neung,noun,variety show,truyền hình,,,2026-07-16,2026-07-16,1,tv,noun
 2d0305696fd2,예매율,tỷ lệ đặt vé,ye-mae-yul,noun,tỷ lệ chỗ/suất đã được đặt trước,phòng vé,예매율은 65.7%,https://www.dispatch.co.kr/2345236,2026-07-16,2026-07-16,1,box-office,other
+9de44dedc716,오픈채팅,open chat / phòng chat mở,o-peun-chae-ting,noun,tính năng phòng chat công khai/mở trên KakaoTalk,KakaoTalk,오픈채팅에도 챗봇(beta)을 적용,https://www.kakaocorp.com/page/detail/12082,2026-07-16,2026-07-16,1,feature,other
 8e24b1132e23,와이쥐,YG Entertainment,wa-i-ji,proper_noun,công ty YG,công ty,,,2026-07-16,2026-07-16,1,company,organization
 acc142694191,월드 프리미어,world premiere / ra mắt thế giới,wol-deu peu-ri-mi-eo,noun,buổi chiếu lần đầu trên thế giới,điện ảnh / LHP,월드 프리미어를 통해 공개,https://www.dispatch.co.kr/2345236,2026-07-16,2026-07-16,1,festival,other
 5362a56b7642,음원,nhạc số / digital track,eum-won,noun,digital music release,âm nhạc,,,2026-07-16,2026-07-16,1,music,noun
@@ -91,6 +96,8 @@ acc142694191,월드 프리미어,world premiere / ra mắt thế giới,wol-deu 
 099c252f909c,이감,chuyển trại / chuyển giam,i-gam,noun,chuyển người bị giam từ cơ sở này sang cơ sở khác,tư pháp / cải tạo,소망교도소로 이감,https://www.dispatch.co.kr/2344260,2026-07-16,2026-07-16,1,prison,other
 81833368534c,인터뷰,phỏng vấn,in-teo-byu,noun,interview,báo chí,,,2026-07-16,2026-07-16,1,media,noun
 bd3208440fb3,입장,lập trường / tuyên bố,ip-jang,noun,official position statement,truyền thông,소속사 입장,,2026-07-16,2026-07-16,1,media,noun
+bd3e6d0ed19e,정기 업데이트,cập nhật định kỳ,jeong-gi eop-de-i-teu,noun,bản cập nhật theo lịch định kỳ,phần mềm,6차 정기 업데이트,https://www.kakaocorp.com/page/detail/12082,2026-07-16,2026-07-16,1,software,other
+f2bf3274ef96,정신아,Jung Shin-a,jeong-sin-a,proper_noun,CEO / đại diện pháp lý Kakao,doanh nghiệp,카카오(대표이사 정신아),https://www.kakaocorp.com/page/detail/12082,2026-07-16,2026-07-16,1,executive,celebrity
 2309d716f3a6,정호연,Jung Ho-yeon,jeong-ho-yeon,proper_noun,nữ diễn viên / người mẫu Hàn Quốc,điện ảnh,정호연이 순경 성애 역,https://www.dispatch.co.kr/2345236,2026-07-16,2026-07-16,1,actor,celebrity
 91ce7e41aa14,제이와이드,JYP Entertainment,je-i-wa-i-deu,proper_noun,công ty JYP,công ty,,,2026-07-16,2026-07-16,1,company,organization
 f1e3f5161dc4,제작,sản xuất,je-jak,noun,production,truyền thông,,,2026-07-16,2026-07-16,1,media,noun
@@ -99,8 +106,12 @@ f1e3f5161dc4,제작,sản xuất,je-jak,noun,production,truyền thông,,,2026-0
 f5a71ff61b12,주목받다,được chú ý,ju-mok-bat-da,verb,draw attention,truyền thông,,,2026-07-16,2026-07-16,1,media,verb
 d58c6d796aae,징역,án tù / hình phạt tù,jing-yeok,noun,imprisonment sentence,tư pháp,징역 2년 6개월,https://www.dispatch.co.kr/2344260,2026-07-16,2026-07-16,1,sentence,other
 388ea902b8d4,차트,bảng xếp hạng,cha-teu,noun,music chart,âm nhạc,,,2026-07-16,2026-07-16,1,music,noun
+5d2c24fe7d92,챗봇,chatbot,chaet-bot,noun,bot trò chuyện tự động,AI / messaging,챗봇(beta),https://www.kakaocorp.com/page/detail/12082,2026-07-16,2026-07-16,1,ai,other
 a8d3b986f191,출소,xuất ngục / ra tù,chul-so,noun,rời cơ sở giam giữ sau khi chấp hành án,tư pháp,6월 30일 출소 예정,https://www.dispatch.co.kr/2344260,2026-07-16,2026-07-16,1,prison,other
 e38250c656d1,출연,tham gia / đóng vai,chul-yeon,noun,xuất hiện trên show/phim,giải trí,,,2026-07-16,2026-07-16,1,entertainment,noun
+5bcf865e3453,카카오,Kakao,ka-ka-o,proper_noun,tập đoàn tech Hàn Quốc,công nghệ / doanh nghiệp,카카오가 카카오톡 6차 정기 업데이트를 진행,https://www.kakaocorp.com/page/detail/12082,2026-07-16,2026-07-16,1,tech,organization
+81e6733e155d,카카오톡,KakaoTalk,ka-ka-o-tok,proper_noun,ứng dụng nhắn tin của Kakao,công nghệ,카카오톡 6차 정기 업데이트,https://www.kakaocorp.com/page/detail/12082,2026-07-16,2026-07-16,1,"app,messaging",other
+1235ad3e98e1,카카오톡 채널,KakaoTalk Channel,ka-ka-o-tok chae-neol,proper_noun,kênh doanh nghiệp / brand trên KakaoTalk,KakaoTalk,카카오톡 채널 채팅 발송 후 24시간 이내,https://www.kakaocorp.com/page/detail/12082,2026-07-16,2026-07-16,1,business,other
 37099c66658a,칸국제영화제,Liên hoan phim Cannes,kan-guk-je-yeong-hwa-je,proper_noun,Festival de Cannes,điện ảnh,제79회 칸국제영화제 경쟁 부문,https://www.dispatch.co.kr/2345236,2026-07-16,2026-07-16,1,festival,organization
 8116d8b6f736,캐스팅,casting,kae-seu-ting,noun,tuyển vai,phim/drama,,,2026-07-16,2026-07-16,1,film,noun
 3732e2f8f9e9,컴백,comeback,keom-baek,noun,trở lại với sản phẩm mới,K-pop,컴백 일정이 공개됐다.,,2026-07-16,2026-07-16,1,kpop,noun
