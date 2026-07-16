@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" fill="none">
+  <title>KoreaWiki</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00C4B3"/>
+      <stop offset="100%" stop-color="#00B5A6"/>
+    </linearGradient>
+  </defs>
+  <rect width="180" height="180" rx="40" fill="url(#bg)"/>
+  <rect x="34" y="28" width="100" height="124" rx="14" fill="#ffffff"/>
+  <path d="M112 28 L134 50 L134 28 Z" fill="url(#bg)"/>
+  <rect x="52" y="68" width="56" height="8" rx="4" fill="#00B5A6" opacity="0.2"/>
+  <rect x="52" y="93" width="44" height="8" rx="4" fill="#00B5A6" opacity="0.2"/>
+  <rect x="52" y="118" width="28" height="8" rx="4" fill="#00B5A6" opacity="0.2"/>
+</svg>

@@ -1,1 +1,22 @@
-{"name":"KoreaWiki","short_name":"KoreaWiki","start_url":"/","display":"standalone","background_color":"#ffffff","theme_color":"#1a56db","icons":[{"src":"/images/favicon.svg","sizes":"any","type":"image/svg+xml"}]}
+{
+  "name": "KoreaWiki",
+  "short_name": "KoreaWiki",
+  "description": "Korean Entertainment & Culture News",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00B5A6",
+  "icons": [
+    {
+      "src": "/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/images/apple-touch-icon.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["news", "entertainment", "korean"]
+}

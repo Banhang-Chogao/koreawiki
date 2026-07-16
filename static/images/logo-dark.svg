@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 44" fill="none">
+  <title>KoreaWiki</title>
+  <g transform="translate(0,6)">
+    <rect width="32" height="32" rx="7" fill="#00B5A6"/>
+    <rect x="6" y="5" width="18" height="22" rx="2.5" fill="#ffffff"/>
+    <path d="M20 5 L24 9 L24 5 Z" fill="#00B5A6"/>
+    <rect x="9" y="12" width="10" height="1.5" rx="0.75" fill="#00B5A6" opacity="0.2"/>
+    <rect x="9" y="16.5" width="8" height="1.5" rx="0.75" fill="#00B5A6" opacity="0.2"/>
+    <rect x="9" y="21" width="5" height="1.5" rx="0.75" fill="#00B5A6" opacity="0.2"/>
+  </g>
+  <text x="44" y="29" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="22" font-weight="800" letter-spacing="-0.02em" fill="#ffffff">
+    <tspan>Korea</tspan><tspan fill="#00B5A6">Wiki</tspan>
+  </text>
+</svg>

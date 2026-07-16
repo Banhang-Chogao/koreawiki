@@ -56,7 +56,7 @@ copyright = "Copyright © {currentYear} KoreaWiki. All rights reserved."
   description = "Your premium source for Korean entertainment, K-drama, K-pop, culture, and lifestyle news."
   author = "KoreaWiki Newsroom"
   keywords = ["Korean entertainment", "K-drama", "K-pop", "Korean news", "Korean culture", "Korea"]
-  images = ["/images/og-default.png"]
+  images = ["/images/logo.svg"]
 
   twitter = "@koreawiki"
   search = true
