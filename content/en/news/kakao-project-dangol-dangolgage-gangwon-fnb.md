@@ -1,7 +1,7 @@
 ---
 title: 'Kakao mở ‘Cửa hàng quen’ (단골가게): hỗ trợ F&B Gangwon tới 100 triệu won'
-description: 'Dự án ‘프로젝트 단골’ ra mắt gói hỗ trợ từng chủ quán: 10 đơn vị F&B Gangwon, nhận
-  hồ sơ đến 28/7, công bố 18/8; kèm chương trình số hóa 38 chợ truyền thống.'
+description: 'Dự án ‘프로젝트 단골’ ra mắt gói hỗ trợ từng chủ quán: 10 đơn vị F&B Gangwon,
+  nhận hồ sơ đến 28/7, công bố 18/8; kèm chương trình số hóa 38 chợ truyền thống.'
 date: 2026-07-16
 lastmod: 2026-07-16
 source_date: 2026-07-09
@@ -31,18 +31,19 @@ keywords:
 slug: kakao-mo-cua-hang-quen-ho-tro-fb-gangwon-toi-100-trieu-won
 faq:
 - q: ‘단골가게’ (Cửa hàng quen) là gì?
-  a: Gói hỗ trợ từng chủ quán trong ‘프로젝트 단골’ của Kakao, giúp quán địa phương vươn ra khách
-    toàn quốc qua thương mại, marketing và tư vấn vận hành.
+  a: Gói hỗ trợ từng chủ quán trong ‘프로젝트 단골’ của Kakao, giúp quán địa phương vươn
+    ra khách toàn quốc qua thương mại, marketing và tư vấn vận hành.
 - q: Ai được nộp hồ sơ đợt đầu?
-  a: Chủ F&B tại Gangwon; chọn 10 đơn vị. Nộp đến 28/7/2026 trên Kakao Business Seminar; kết
-    quả dự kiến 18/8/2026.
+  a: Chủ F&B tại Gangwon; chọn 10 đơn vị. Nộp đến 28/7/2026 trên Kakao Business Seminar;
+    kết quả dự kiến 18/8/2026.
 - q: Mức hỗ trợ tối đa bao nhiêu?
-  a: Tối đa khoảng 100 triệu won mỗi cửa hàng (tư vấn menu, đào tạo commerce-AI, Talk Deal/Makers,
-    Talk Channel 3 triệu won, branding…).
+  a: Tối đa khoảng 100 triệu won mỗi cửa hàng (tư vấn menu, đào tạo commerce-AI, Talk
+    Deal/Makers, Talk Channel 3 triệu won, branding…).
 - q: ‘상권 디지털 지원사업’ khác gì?
-  a: Chương trình số hóa cho 38 chợ/phố thương mại toàn quốc (Social Solidarity Bank + SME
-    Market), thêm đào tạo AI; bổ sung chứ không thay ‘단골가게’.
+  a: Chương trình số hóa cho 38 chợ/phố thương mại toàn quốc (Social Solidarity Bank
+    + SME Market), thêm đào tạo AI; bổ sung chứ không thay ‘단골가게’.
 ---
+
 
 Ngày **9/7/2026**, **Kakao** (CEO Jeong Shin-ah / 정신아) công bố ra mắt **‘단골가게’ (Cửa hàng
 quen)** — gói hỗ trợ **từng chủ quán** trong khuôn khổ chương trình đồng hành SME
@@ -111,22 +112,26 @@ và hỗ trợ tích lũy khoảng **33,4 tỷ won** chi phí gửi tin nhắn T
 
 ## Ghi chú biên tập
 
-Bài KoreaWiki tóm lược / Việt hóa **보도자료** Kakao ngày **2026-07-09**. Số liệu, mốc
-thời gian và tên chương trình bám thông cáo gốc; không suy diễn kết quả tuyển chọn.
+Bài của **KoreaWiki Newsroom**. Số liệu, mốc thời gian và tên chương trình theo
+**thông cáo báo chí Kakao** ngày **2026-07-09**; không suy diễn kết quả tuyển chọn.
 
 {{< article-footer >}}
 source: "Kakao Corp. 보도자료 — 카카오 ‘프로젝트 단골’, 사장님 지원 사업 ‘단골가게’ 첫 공모 시작"
 source_url: "https://www.kakaocorp.com/page/detail/12080"
 copyright: >
-  Tóm lược / Việt hóa bởi **KoreaWiki Newsroom** dựa trên thông cáo báo chí Kakao.
-  Hình ảnh thuộc Kakao Corp.; dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
-  trích dẫn.
+  Một phần thông tin trong bài được tham khảo từ [Kakao Corp. 보도자료 — 카카오 ‘프로젝트 단골’, 사장님 지원
+  사업 ‘단골가게’ 첫 공모 시작](https://www.kakaocorp.com/page/detail/12080). Mọi thương hiệu, hình
+  ảnh và tài liệu gốc thuộc quyền sở hữu của chủ sở hữu tương ứng. Bài viết trên KoreaWiki
+  chỉ tổng hợp, biên tập và phân tích phục vụ độc giả — không thay thế thông cáo hay tài
+  liệu chính thức.
 external:
-  - title: "Kakao press detail 12080"
-    url: "https://www.kakaocorp.com/page/detail/12080"
-  - title: "Đăng ký 단골가게 (Gangwon F&B) — Kakao Business Seminar"
+  - title: "bizseminar.kakao.com — event 9202001"
     url: "https://bizseminar.kakao.com/promotion/event/detail?eventId=9202001"
+  - title: "kakaocorp.com"
+    url: "https://www.kakaocorp.com/page/detail/12080"
 internal:
-  - title: "Boknal — ba ngày phục mùa hè Hàn Quốc"
-    url: "en/culture/boknal-ba-ngay-phuc-giua-mua-he-han-quoc/"
+  - title: "Ngân hàng Trung ương Hàn Quốc tăng lãi suất cơ sở 0,25 điểm phần trăm — thắt chặt sau 3 năm 6 tháng"
+    url: "en/news/bok-raises-base-rate-0-25-july-2026/"
+  - title: "Tòa Hàn Quốc đình chỉ lệnh FTC xác định Bom Kim là người kiểm soát Coupang"
+    url: "en/news/court-suspends-ftc-coupang-bom-kim-controller-2026/"
 {{< /article-footer >}}

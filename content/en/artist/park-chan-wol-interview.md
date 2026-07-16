@@ -44,6 +44,7 @@ faq:
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
 Park Chan-wol không làm phim dành cho những người muốn được an ủi. Đạo diễn 41 tuổi, người có năm phim truyện đã khiến các nhà phê bình phân cực và làm các nhà tổ chức liên hoan phim thích thú, là
 ngồi đối diện tôi tại một quán cà phê yên tĩnh ở quận Hongdae của Seoul, chăm sóc một người Mỹ và giải thích lý do tại sao anh ấy từ chối mọi lời đề nghị của studio đến với mình.
 
@@ -67,15 +68,13 @@ Nguồn tài trợ cho dự án đến từ sự kết hợp giữa các khoản
 quan trọng đối với một bộ phim.
 công việc VR thử nghiệm. Trải nghiệm này sẽ ra mắt tại Liên hoan phim Venice vào tháng 9.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Hyun-Woo Lee** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+  - title: "Kỷ nguyên solo của SUGA: Min Yoon-gi đã định nghĩa lại ý nghĩa của việc trở thành một nghệ sĩ K-Pop như thế nào"
     url: "en/artist/bts-suga-solo-artist-profile/"
   - title: "Choi Siwon (Super Junior) được tòa Mỹ cho phép truy xuất danh tính 10 anti-fan"
     url: "en/artist/choi-siwon-us-court-identity-disclosure-2026/"

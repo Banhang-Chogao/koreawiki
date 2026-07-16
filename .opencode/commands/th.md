@@ -292,8 +292,8 @@ Beautiful typography, SEO friendly, internal links, proper heading hierarchy, va
 source: "Bangkok Post / The Nation / Thairath / …"
 source_url: "https://..."
 copyright: >
-  Tóm lược / Việt hóa bởi KoreaWiki. Ảnh và nội dung gốc thuộc chủ sở hữu tương ứng.
-  Không bịa nguồn.
+  Bài **KoreaWiki**. Tham khảo nguồn công khai đã dẫn. Ảnh và bản quyền hình thuộc
+  chủ sở hữu; dùng với mục đích thông tin. Không bịa nguồn.
 external:
   - title: "Bài gốc (Thái / Anh)"
     url: "https://..."
@@ -303,7 +303,10 @@ internal:
 {{</* /article-footer */>}}
 ```
 
-See `docs/article-footer.md`. FAQ must not invent facts.
+**Public wording:** never on-page `viết lại` / `rewrite` / `Việt hóa dựa trên…`. Prefer
+“Bài của KoreaWiki… tham khảo nguồn **công khai**… Ảnh © …”. See `docs/article-footer.md`.
+
+FAQ must not invent facts.
 
 ---
 

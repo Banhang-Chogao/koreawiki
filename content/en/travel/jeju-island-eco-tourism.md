@@ -46,6 +46,7 @@ faq:
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
 Đảo Jeju, thiên đường núi lửa ngoài khơi bờ biển phía nam Hàn Quốc, có một vấn đề khiến nhiều điểm đến phải ghen tị: có quá nhiều du khách. Hòn đảo đón 21,3 triệu khách du lịch
 2025, một kỷ lục gây căng thẳng cho cơ sở hạ tầng, đe dọa các hệ sinh thái mỏng manh và gây ra một cuộc tranh luận gay gắt về tương lai của ngành du lịch trên đảo.
 
@@ -74,16 +75,14 @@ thành lập một khu bảo tồn biển xung quanh đảo Udo. Dữ liệu ban
 vận chuyển và khám phá bên ngoài các địa điểm nổi tiếng. Nội địa của hòn đảo, với Oreum (nón núi lửa), vườn cam quýt và làng haenyeo (nữ thợ lặn), mang đến cho Jeju một vẻ đẹp tự nhiên.
 trải nghiệm mà du lịch đại chúng hiếm khi chạm tới.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "Beyond Seoul: Why Busan Is Korea's Most Underrated Travel Destination"
+  - title: "Ngoài Seoul: Tại sao Busan là điểm đến du lịch bị đánh giá thấp nhất ở Hàn Quốc"
     url: "en/travel/beyond-seoul-busan-travel-guide/"
-  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+  - title: "Kỷ nguyên solo của SUGA: Min Yoon-gi đã định nghĩa lại ý nghĩa của việc trở thành một nghệ sĩ K-Pop như thế nào"
     url: "en/artist/bts-suga-solo-artist-profile/"
 {{< /article-footer >}}

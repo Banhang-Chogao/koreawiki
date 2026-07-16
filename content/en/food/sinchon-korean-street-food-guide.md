@@ -41,6 +41,7 @@ faq:
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
 Myeongdong có danh tiếng. Chợ Gwangjang có lịch sử. Nhưng hãy hỏi bất cứ ai thực sự sống ở Seoul nơi có thể tìm được món ăn đường phố ngon nhất, và họ có thể sẽ chỉ cho bạn địa chỉ
 Sinchon, khu đại học nơi có Yonsei, Đại học Nữ sinh Ewha và Đại học Sogang. Với ba cơ sở chính nằm cách nhau một quãng đi bộ, Sinchon
 đã phát triển một nền văn hóa ẩm thực đường phố vô song về tính sáng tạo, khả năng chi trả và mật độ tuyệt đối.
@@ -63,16 +64,14 @@ ngon. Điều đó không bao giờ thay đổi."
 Đối với du khách, chiến lược rất đơn giản: đến lúc đói, mang theo tiền mặt (nhiều quầy hàng vẫn không chấp nhận thẻ) và xếp hàng theo sau. Hàng dài nhất thường ở phía trước
 gian hàng bán thứ gì đó mà bạn chưa từng thấy trước đây. Đó là người nên tham gia.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Hyun-Woo Lee** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "Temple Food Gets a Makeover: The Global Rise of Korean Buddhist Cuisine"
+  - title: "Ẩm thực chùa có sự thay đổi: Sự trỗi dậy toàn cầu của ẩm thực Phật giáo Hàn Quốc"
     url: "en/food/modern-temple-cuisine/"
-  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+  - title: "Kỷ nguyên solo của SUGA: Min Yoon-gi đã định nghĩa lại ý nghĩa của việc trở thành một nghệ sĩ K-Pop như thế nào"
     url: "en/artist/bts-suga-solo-artist-profile/"
 {{< /article-footer >}}

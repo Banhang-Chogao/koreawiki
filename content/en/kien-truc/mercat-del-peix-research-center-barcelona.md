@@ -1,68 +1,76 @@
 ---
-title: "Mercat del Peix Research Center ở Barcelona: ZGF + MIRAG + Double Twist thắng cuộc thi thiết kế"
-description: >
-  ArchDaily đưa tin liên danh ZGF Architects, MIRAG và Double Twist thắng cuộc
-  thi thiết kế trung tâm nghiên cứu net-positive mass timber Mercat del Peix
+title: 'Mercat del Peix Research Center ở Barcelona: ZGF + MIRAG + Double Twist thắng
+  cuộc thi thiết kế'
+description: 'ArchDaily đưa tin liên danh ZGF Architects, MIRAG và Double Twist thắng
+  cuộc thi thiết kế trung tâm nghiên cứu net-positive mass timber Mercat del Peix
   tại Barcelona — 42.000 m², lab khô UPF và lab ướt IBE, dự kiến vận hành cuối 2025.
+
+  '
 date: 2026-07-16
 lastmod: 2026-07-16
 source_date: 2026-07-07
 draft: false
-author: "KoreaWiki Culture Desk"
+author: KoreaWiki Culture Desk
 cover:
   image: images/2026/07/mercat-del-peix-research-center-barcelona-cover.jpg
-  alt: "Phối cảnh ngoại thất Mercat del Peix Research Center, Barcelona"
-  caption: "Mercat del Peix Research Center — Ảnh: © ZGF / ArchDaily"
+  alt: Phối cảnh ngoại thất Mercat del Peix Research Center, Barcelona
+  caption: 'Mercat del Peix Research Center — Ảnh: © ZGF / ArchDaily'
 tags:
-  - architecture
-  - barcelona
-  - spain
-  - timber
-  - zgf
-  - research
-  - sustainability
+- architecture
+- barcelona
+- spain
+- timber
+- zgf
+- research
+- sustainability
 categories:
-  - Kien-truc
-  - Feature
+- Kien-truc
+- Feature
 keywords:
-  - mercat del peix
-  - barcelona research center
-  - zgf architects
-  - mirag
-  - double twist
-  - mass timber
-  - citadel of knowledge
+- mercat del peix
+- barcelona research center
+- zgf architects
+- mirag
+- double twist
+- mass timber
+- citadel of knowledge
 slug: mercat-del-peix-research-center-o-barcelona-zgf-mirag-double-twist-thang-cuoc-thi-thiet-ke
 faq:
-  - q: "Mercat del Peix Research Center là gì?"
-    a: >
-      Trung tâm nghiên cứu **xuyên ngành, net-positive**, gồm **hai tòa mass timber**
-      nối bằng sân trong (agora), tổng khoảng **42.000 m²**, trên khu vực chợ cá
-      lịch sử **Mercat del Peix** thuộc **Citadel of Knowledge** ở Barcelona.
-  - q: "Ai thiết kế và thắng cuộc thi?"
-    a: >
-      Liên danh **ZGF Architects** (cùng **MIRAG** và **Double Twist** — hai văn
-      phòng tại Barcelona) được chọn làm phương án thắng cuộc thi kiến trúc.
-  - q: "Hai tòa nhà phục vụ tổ chức nào?"
-    a: >
-      Tòa **5 tầng dry lab** cho dự án liên ngành **Universitat Pompeu Fabra
-      (UPF)**; tòa **7 tầng wet lab** làm trụ sở **Institute of Evolutionary
-      Biology (IBE)**.
-  - q: "Net-positive và mass timber nghĩa là gì trong bài?"
-    a: >
-      Theo brief ArchDaily: tòa **mass timber** (khung/vỏ gỗ kỹ thuật hiệu năng
-      cao) kết hợp hệ cơ điện nhằm **giảm carbon embodied + vận hành** và hướng
-      tới cân bằng năng lượng **net-positive** (theo mô tả phương án, không phải
-      số liệu vận hành đã đo).
-  - q: "Khi nào dự kiến vận hành?"
-    a: >
-      Theo ArchDaily: dự kiến **vận hành vào cuối năm 2025**, là hub trao đổi tri
-      thức mở cho nhà nghiên cứu địa phương.
-  - q: "Mercat del Peix Research Center dựa trên nguồn nào?"
-    a: >
-      Tham khảo bài **Agustina Iñiguez** trên **ArchDaily** (published
-      **7/7/2026**; schema ghi datePublished **16/1/2023**). Ảnh render **© ZGF**.
+- q: Mercat del Peix Research Center là gì?
+  a: 'Trung tâm nghiên cứu **xuyên ngành, net-positive**, gồm **hai tòa mass timber**
+    nối bằng sân trong (agora), tổng khoảng **42.000 m²**, trên khu vực chợ cá lịch
+    sử **Mercat del Peix** thuộc **Citadel of Knowledge** ở Barcelona.
+
+    '
+- q: Ai thiết kế và thắng cuộc thi?
+  a: 'Liên danh **ZGF Architects** (cùng **MIRAG** và **Double Twist** — hai văn phòng
+    tại Barcelona) được chọn làm phương án thắng cuộc thi kiến trúc.
+
+    '
+- q: Hai tòa nhà phục vụ tổ chức nào?
+  a: 'Tòa **5 tầng dry lab** cho dự án liên ngành **Universitat Pompeu Fabra (UPF)**;
+    tòa **7 tầng wet lab** làm trụ sở **Institute of Evolutionary Biology (IBE)**.
+
+    '
+- q: Net-positive và mass timber nghĩa là gì trong bài?
+  a: 'Theo brief ArchDaily: tòa **mass timber** (khung/vỏ gỗ kỹ thuật hiệu năng cao)
+    kết hợp hệ cơ điện nhằm **giảm carbon embodied + vận hành** và hướng tới cân bằng
+    năng lượng **net-positive** (theo mô tả phương án, không phải số liệu vận hành
+    đã đo).
+
+    '
+- q: Khi nào dự kiến vận hành?
+  a: 'Theo ArchDaily: dự kiến **vận hành vào cuối năm 2025**, là hub trao đổi tri
+    thức mở cho nhà nghiên cứu địa phương.
+
+    '
+- q: Mercat del Peix Research Center dựa trên nguồn nào?
+  a: 'Tham khảo bài **Agustina Iñiguez** trên **ArchDaily** (published **7/7/2026**;
+    schema ghi datePublished **16/1/2023**). Ảnh render **© ZGF**.
+
+    '
 ---
+
 
 
 **ArchDaily** đăng bài của **Agustina Iñiguez** về phương án thắng cuộc thi thiết
@@ -356,16 +364,17 @@ Nguồn: ArchDaily — https://www.archdaily.com/1135879/zgf-architects-mirag-an
 source: "ArchDaily"
 source_url: "https://www.archdaily.com/1135879/zgf-architects-mirag-and-double-twist-design-the-mercat-del-peix-research-center-in-barcelona"
 copyright: >
-  Một phần nội dung tham khảo từ bài Agustina Iñiguez trên
-  [ArchDaily](https://www.archdaily.com/1135879/zgf-architects-mirag-and-double-twist-design-the-mercat-del-peix-research-center-in-barcelona)
-   (trang EN; schema datePublished 16/1/2023, dateModified / published display
-   7/7/2026). Ảnh render © ZGF theo credit ArchDaily.
+  Một phần thông tin trong bài được tham khảo từ
+  [ArchDaily](https://www.archdaily.com/1135879/zgf-architects-mirag-and-double-twist-design-the-mercat-del-peix-research-center-in-barcelona).
+  Mọi thương hiệu, hình ảnh và tài liệu gốc thuộc quyền sở hữu của chủ sở hữu tương ứng.
+  Bài viết trên KoreaWiki chỉ tổng hợp, biên tập và phân tích phục vụ độc giả — không thay
+  thế thông cáo hay tài liệu chính thức.
 external:
-  - title: "ArchDaily — Mercat del Peix Research Center (ZGF / MIRAG / Double Twist)"
+  - title: "ArchDaily"
     url: "https://www.archdaily.com/1135879/zgf-architects-mirag-and-double-twist-design-the-mercat-del-peix-research-center-in-barcelona"
 internal:
   - title: "Barcelona architecture city guide: 30 điểm từ Gaudí đến siêu khối đô thị"
-    url: "en/culture/barcelona-architecture-city-guide-30-diem-tu-gaudi-den-sieu-khoi-do-thi/"
-  - title: "Kinderoase TUM Munich: nhà trẻ gỗ đứng của Kéré + HK Architekten"
-    url: "en/culture/kinderoase-tum-munich-nha-tre-go-dung-cua-kere-hk-architekten/"
+    url: "en/kien-truc/barcelona-architecture-city-guide/"
+  - title: "Cathedral House / JAK Architecture: nhà nghỉ cuối tuần nhìn dãy Cathedral Ranges"
+    url: "en/kien-truc/cathedral-house-jak-architecture/"
 {{< /article-footer >}}

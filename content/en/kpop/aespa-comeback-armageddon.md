@@ -47,6 +47,7 @@ faq:
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
 aespa đã trở lại với "Armageddon", một album gồm 12 ca khúc phong phú đánh dấu sự khởi đầu nghệ thuật quan trọng nhất trong sự nghiệp 6 năm của nhóm. Phát hành vào ngày 10 tháng 7 thông qua SM
 Entertainment, dự án nhận thấy bộ tứ đang từ bỏ chủ nghĩa tương lai siêu bóng bẩy trong tác phẩm đầu tiên của họ để chuyển sang âm thanh gai góc hơn, có kết cấu hơn kết hợp giữa âm thanh công nghiệp
 rock, nhạc pop hòa tấu và hip-hop thử nghiệm.
@@ -70,8 +71,6 @@ mong đợi về thể loại."
 Thành viên Karina nói với KoreaWiki trong một cuộc họp báo rằng album đại diện cho "aespa thực sự". Cô nói: “Chúng tôi đã kể câu chuyện về các phiên bản ảo của chính mình trong nhiều năm.
 "Với 'Armageddon', chúng tôi muốn thể hiện chúng tôi là ai khi tắt hình đại diện." Nhóm sẽ bắt đầu chuyến lưu diễn vòng quanh thế giới kéo dài 26 ngày vào tháng 9, bắt đầu tại KSPO Dome ở Seoul.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Ji-Yeon Park** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
@@ -80,6 +79,6 @@ copyright: >
 internal:
   - title: "Bang Chan (Stray Kids) tỏa sáng tại sự kiện ra mắt bộ sưu tập mùa đông 2026"
     url: "en/kpop/bangchan-winter-collection-2026/"
-  - title: "NewJeans Conquers Japan: Debut Album 'Tokyo 404' Breaks Records and Charts Across Asia"
+  - title: "NewJeans chinh phục Nhật Bản: Album đầu tay 'Tokyo 404' phá kỷ lục và bảng xếp hạng khắp châu Á"
     url: "en/kpop/newjeans-japan-debut/"
 {{< /article-footer >}}

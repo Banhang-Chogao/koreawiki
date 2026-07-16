@@ -1,7 +1,7 @@
 ---
 title: 'Boknal (복날): ba ngày ''phục'' giữa mùa hè Hàn Quốc'
-description: Chobok, Jungbok, Malbok là gì? Lịch can chi, nguồn gốc từ Trung Quốc, và vì sao
-  người Hàn ăn samgyetang vào những ngày nóng nhất năm.
+description: Chobok, Jungbok, Malbok là gì? Lịch can chi, nguồn gốc từ Trung Quốc,
+  và vì sao người Hàn ăn samgyetang vào những ngày nóng nhất năm.
 date: 2026-07-16
 lastmod: 2026-07-16
 source_date: 2025-07-01
@@ -33,18 +33,19 @@ keywords:
 slug: boknal-ba-ngay-phuc-giua-mua-he-han-quoc
 faq:
 - q: Boknal (복날) là gì?
-  a: 'Ba ngày ''phục'' hè: Chobok, Jungbok, Malbok (Sam-bok). Tính theo ngày can 庚 quanh hạ
-    chí và lập thu; thường là đỉnh nóng năm (삼복더위).'
+  a: 'Ba ngày ''phục'' hè: Chobok, Jungbok, Malbok (Sam-bok). Tính theo ngày can 庚
+    quanh hạ chí và lập thu; thường là đỉnh nóng năm (삼복더위).'
 - q: Chobok, Jungbok, Malbok tính thế nào?
-  a: Chobok = can 庚 thứ 3 sau hạ chí; Jungbok = can 庚 thứ 4 sau hạ chí; Malbok = can 庚 đầu
-    sau lập thu. Khoảng cách có thể 10 hoặc ~20 ngày.
+  a: Chobok = can 庚 thứ 3 sau hạ chí; Jungbok = can 庚 thứ 4 sau hạ chí; Malbok = can
+    庚 đầu sau lập thu. Khoảng cách có thể 10 hoặc ~20 ngày.
 - q: Vì sao ngày Boknal hay ăn samgyetang?
   a: Gà và nhân sâm được coi là món sinh nhiệt, bù nước–protein mất qua mồ hôi. Samgyetang
     phổ biến mạnh từ thập niên 1960–70; cũng có tục ăn cháo đậu đỏ.
 - q: Boknal có thuộc 24 tiết khí không?
-  a: Không. Hạ chí và lập thu thuộc 24 tiết khí; Boknal là tạp tiết (잡절) — ngày tập quán,
-    không phải tiết khí chính thức.
+  a: Không. Hạ chí và lập thu thuộc 24 tiết khí; Boknal là tạp tiết (잡절) — ngày tập
+    quán, không phải tiết khí chính thức.
 ---
+
 
 Mỗi mùa hè Hàn Quốc, lịch văn hóa nhắc tới ba mốc nóng đặc biệt: **Chobok (초복)**, **Jungbok (중복)** và **Malbok (말복)**. Gộp lại gọi là **Sam-bok (삼복)** — ba ngày "phục" — và từ **Boknal (복날)** chính là
 cách gọi chung cho các mốc đó.
@@ -107,24 +108,28 @@ Mục từ liệt kê vài câu quen thuộc:
 
 ## Ghi chú biên tập
 
-Bài KoreaWiki tóm lược và Việt hóa mục từ **복날** trong *시사상식사전* trên **Naver 지식백과** (cập nhật mục từ ghi **2025-07-01**; tác giả mục: pmg 지식엔진연구소; cung cấp: **박문각 / Parkmungak**). Không thêm số liệu
-ngoài nguồn đã dẫn.
+Bài của **KoreaWiki Culture Desk**. Kiến thức mục **복날** tham khảo *시사상식사전* trên
+**Naver 지식백과** (cập nhật mục từ ghi **2025-07-01**; tác giả mục: pmg 지식엔진연구소;
+cung cấp: **박문각 / Parkmungak**). Không thêm số liệu ngoài nguồn đã dẫn.
 
 {{< article-footer >}}
-source: "Naver 지식백과 · 시사상식사전 — 복날"
+source: "ảnh liên quan trên mục từ (한국민족문화대백과 / Đông quốc tuế thời ký) — quyền thuộc nguồn gốc"
 source_url: "https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667"
 copyright: >
-  Tóm lược / Việt hóa bởi **KoreaWiki Culture Desk** dựa trên mục từ Naver 지식백과
-  (시사상식사전 / 박문각). Hình minh họa thuộc quyền chủ sở hữu gốc (Pixabay /
-  한국민족문화대백과…); dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Một phần thông tin trong bài được tham khảo từ [ảnh liên quan trên mục từ (한국민족문화대백과 /
+  Đông quốc tuế thời ký) — quyền thuộc nguồn
+  gốc](https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667). Mọi
+  thương hiệu, hình ảnh và tài liệu gốc thuộc quyền sở hữu của chủ sở hữu tương ứng. Bài
+  viết trên KoreaWiki chỉ tổng hợp, biên tập và phân tích phục vụ độc giả — không thay thế
+  thông cáo hay tài liệu chính thức.
 external:
-  - title: "복날 — 시사상식사전 (Naver 지식백과)"
+  - title: "terms.naver.com"
     url: "https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667"
-  - title: "박문각 (Parkmungak)"
+  - title: "pmg.co.kr"
     url: "http://www.pmg.co.kr/"
 internal:
-  - title: "Ẩm thực chùa — sự trỗi dậy toàn cầu của ẩm thực Phật giáo Hàn Quốc"
-    url: "en/food/am-thuc-chua-co-su-thay-doi-su-troi-day-toan-cau-cua-am-thuc-phat-giao-han-quoc/"
-  - title: "Cuộc cách mạng ẩm thực đường phố ở Sinchon"
-    url: "en/food/cuoc-cach-mang-am-thuc-duong-pho-o-sinchon-tai-sao-khu-dai-hoc-cua-seoul-la-noi-an-uong-tot-nhat-o-han-quoc/"
+  - title: "Anne's Library — Nhà xuất bản Hàn Quốc hạ thấp rào cản tiếp cận văn học cổ điển và nghệ thuật"
+    url: "en/culture/annes-library-publishing-house-profile/"
+  - title: "Thời kỳ Phục hưng Hanbok: Trang phục truyền thống của Hàn Quốc đã tìm thấy thế hệ người mặc mới như thế nào"
+    url: "en/culture/hanbok-modern-revival/"
 {{< /article-footer >}}

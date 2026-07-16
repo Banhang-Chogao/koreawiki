@@ -72,6 +72,47 @@ Khi publish bài với `mm`, `nn`, hoặc `th`, nên điền:
 - External links thực sự dùng trong bài
 - 3–5 FAQ ngắn (không bịa sự kiện)
 
+## Ghi chú biên tập / `copyright` — wording công khai (bắt buộc khéo)
+
+**Không** viết công khai kiểu “viết lại”, “rewrite”, “dịch từ”, “tóm lược / Việt hóa
+dựa trên bài X”, “copy”, “đạo” — nghe như đạo văn và xấu cho độc giả + AdSense.
+
+**Có** ghi nguồn lịch sự: bài thuộc KoreaWiki desk; **tham khảo** hồ sơ / thông cáo /
+mục từ **công khai**; credit ảnh; không bổ sung số liệu ngoài nguồn.
+
+### Mẫu tốt (ArchDaily / hồ sơ dự án)
+
+```markdown
+## Ghi chú biên tập
+
+Bài của **KoreaWiki Culture Desk**. Thông tin kỹ thuật theo **hồ sơ dự án công khai**
+của [văn phòng] (đăng trên ArchDaily). Specs bám nguồn đã dẫn; không bổ sung số liệu
+ngoài hồ sơ. Ảnh © **[photographer]**.
+```
+
+```yaml
+copyright: >
+  Bài **KoreaWiki Culture Desk**. Tham khảo hồ sơ dự án công khai trên ArchDaily.
+  Ảnh: **[photographer]**. Bản quyền hình ảnh thuộc chủ sở hữu; dùng với mục đích
+  thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+```
+
+### Mẫu tốt (thông cáo / báo)
+
+```markdown
+Bài của **KoreaWiki Newsroom**. Số liệu và mốc thời gian theo **thông cáo / bài**
+của [nguồn] ngày [YYYY-MM-DD]; không suy diễn ngoài nguồn.
+```
+
+### Cấm trong body / FAQ / description / copyright
+
+| Cấm | Thay bằng |
+|-----|-----------|
+| viết lại / rewrite | biên soạn / trình bày bằng tiếng Việt |
+| Việt hóa dựa trên… | tham khảo hồ sơ / thông cáo công khai |
+| tóm lược từ bài X | theo thông tin công khai đã dẫn |
+| Giữ đủ specs từ nguồn (giọng “copy”) | Specs bám nguồn đã dẫn; không bổ sung số liệu |
+
 ## File kỹ thuật
 
 - Shortcode: `themes/koreawiki/layouts/shortcodes/article-footer.html`

@@ -1,61 +1,65 @@
 ---
-title: "Kanana-O lên production: hành trình tối ưu serving AI giọng nói của Kakao"
-description: >
-  Đội AI Engineering Kakao (hulk.5, steve.ai) chia sẻ trên Kakao Tech cách đưa
-  mô hình omni Kanana-O vào dịch vụ thoại thời gian thực: server Kanana-Omni,
+title: 'Kanana-O lên production: hành trình tối ưu serving AI giọng nói của Kakao'
+description: 'Đội AI Engineering Kakao (hulk.5, steve.ai) chia sẻ trên Kakao Tech
+  cách đưa mô hình omni Kanana-O vào dịch vụ thoại thời gian thực: server Kanana-Omni,
   shared memory, cascaded streaming, vLLM batching và API tương thích OpenAI.
+
+  '
 date: 2026-07-16
 lastmod: 2026-07-16
 source_date: 2026-05-06
 draft: false
-author: "KoreaWiki Newsroom"
+author: KoreaWiki Newsroom
 cover:
   image: images/2026/07/kakao-kanana-o-serving-optimization-2026-cover.jpg
-  alt: "Sơ đồ / minh họa hành trình tối ưu serving Kanana-O của Kakao Tech"
-  caption: "Kanana-O serving — Ảnh: Kakao Tech"
+  alt: Sơ đồ / minh họa hành trình tối ưu serving Kanana-O của Kakao Tech
+  caption: 'Kanana-O serving — Ảnh: Kakao Tech'
 tags:
-  - kakao
-  - kanana
-  - ai
-  - tech
-  - kanana-o
+- kakao
+- kanana
+- ai
+- tech
+- kanana-o
 categories:
-  - News
-  - Digital
+- News
+- Digital
 keywords:
-  - kakao
-  - kanana-o
-  - kanana-omni server
-  - serving
-  - multimodal
-  - vLLM
-  - 카나나
+- kakao
+- kanana-o
+- kanana-omni server
+- serving
+- multimodal
+- vLLM
+- 카나나
 slug: kanana-o-len-production-hanh-trinh-toi-uu-serving-ai-giong-noi-cua-kakao
 faq:
-  - q: "Kanana-O là gì?"
-    a: >
-      Mô hình **multimodal (omni)** của Kakao: hiểu **text, ảnh, audio** và trả
-      lời bằng **text + giọng nói** tự nhiên. Bài Kakao Tech mô tả hành trình
-      đưa model này lên **production** thoại thời gian thực.
-  - q: "Kanana-Omni Server khác gì so với framework serving thông thường?"
-    a: >
-      Đội Kakao tự xây server phục vụ pipeline **Thinker → Talker → VoiceBox**
-      (truyền **embedding** giữa các stage, streaming audio). Trong benchmark
-      nội bộ với **64 user đồng thời**, throughput tương đối đạt **1,6×** so
-      với **vllm-omni** (baseline 1,0).
-  - q: "Ba bottleneck chính được xử lý thế nào?"
-    a: >
-      (1) **Truyền dữ liệu** giữa component: pool **shared memory** + **CUDA
-      IPC**; (2) **Độ trễ tuần tự**: **Cascaded Streaming Pipeline**; (3)
-      **Đồng thời / GPU**: tách process vLLM, **continuous batching**, FastAPI
-      **workers=1** + async.
-  - q: "Latency-First và Quality-First khác nhau ra sao?"
-    a: >
-      Khác **kích thước chunk** của VoiceBox: Latency-First (chunk nhỏ, phản
-      hồi nhanh, chất lượng vừa) cho chat thời gian thực; Quality-First (chunk
-      lớn, chậm hơn, âm thanh tự nhiên hơn) cho TTS / tạo nội dung. Client chọn
-      theo request.
+- q: Kanana-O là gì?
+  a: 'Mô hình **multimodal (omni)** của Kakao: hiểu **text, ảnh, audio** và trả lời
+    bằng **text + giọng nói** tự nhiên. Bài Kakao Tech mô tả hành trình đưa model
+    này lên **production** thoại thời gian thực.
+
+    '
+- q: Kanana-Omni Server khác gì so với framework serving thông thường?
+  a: 'Đội Kakao tự xây server phục vụ pipeline **Thinker → Talker → VoiceBox** (truyền
+    **embedding** giữa các stage, streaming audio). Trong benchmark nội bộ với **64
+    user đồng thời**, throughput tương đối đạt **1,6×** so với **vllm-omni** (baseline
+    1,0).
+
+    '
+- q: Ba bottleneck chính được xử lý thế nào?
+  a: '(1) **Truyền dữ liệu** giữa component: pool **shared memory** + **CUDA IPC**;
+    (2) **Độ trễ tuần tự**: **Cascaded Streaming Pipeline**; (3) **Đồng thời / GPU**:
+    tách process vLLM, **continuous batching**, FastAPI **workers=1** + async.
+
+    '
+- q: Latency-First và Quality-First khác nhau ra sao?
+  a: 'Khác **kích thước chunk** của VoiceBox: Latency-First (chunk nhỏ, phản hồi nhanh,
+    chất lượng vừa) cho chat thời gian thực; Quality-First (chunk lớn, chậm hơn, âm
+    thanh tự nhiên hơn) cho TTS / tạo nội dung. Client chọn theo request.
+
+    '
 ---
+
 
 Trên blog kỹ thuật **Kakao Tech** (카카오테크), hai kỹ sư thuộc đội **AI
 Engineering** — **hulk.5** và **steve.ai** — đã đăng bài viết kỹ thuật dài ngày
@@ -435,19 +439,22 @@ Nguồn: Kakao Tech — https://tech.kakao.com/posts/821
 source: "Kakao Tech"
 source_url: "https://tech.kakao.com/posts/821"
 copyright: >
-  Một phần nội dung tham khảo từ bài kỹ thuật
-  [Kakao Tech — posts/821](https://tech.kakao.com/posts/821)
-  (6/5/2026, hulk.5 & steve.ai). Ảnh minh họa thuộc Kakao Tech / Kakao.
-  Bài KoreaWiki chỉ tổng hợp và biên tập tiếng Việt phục vụ độc giả — không thay
-  thế tài liệu kỹ thuật hay tài liệu chính thức của Kakao.
+  Một phần thông tin trong bài được tham khảo từ [Kakao
+  Tech](https://tech.kakao.com/posts/821). Mọi thương hiệu, hình ảnh và tài liệu gốc thuộc
+  quyền sở hữu của chủ sở hữu tương ứng. Bài viết trên KoreaWiki chỉ tổng hợp, biên tập và
+  phân tích phục vụ độc giả — không thay thế thông cáo hay tài liệu chính thức.
 external:
-  - title: "Kakao Tech — Kanana-O 서빙 최적화 여정"
-    url: "https://tech.kakao.com/posts/821"
-  - title: "Kakao Tech — tìm hiểu thêm Kanana-o (posts/702)"
+  - title: "giới thiệu Kanana-o trên Kakao Tech"
     url: "https://tech.kakao.com/posts/702"
+  - title: "Kakao Tech posts/821"
+    url: "https://tech.kakao.com/posts/821"
+  - title: "tech.kakao.com"
+    url: "https://tech.kakao.com/posts/821*"
+  - title: "localhost:8000"
+    url: "http://localhost:8000/v1`"
 internal:
-  - title: "Kakao ra mắt series Kanana-original giới thiệu AI omni Kanana-o"
-    url: "en/news/kakao-ra-mat-series-kanana-original-gioi-thieu-ai-omni-kanana-o/"
-  - title: "KakaoTalk bản cập nhật 6: tóm tắt tin nhắn, ChatGPT for Kakao trên PC"
-    url: "en/news/kakaotalk-ban-cap-nhat-6-tom-tat-tin-nhan-chatgpt-for-kakao-tren-pc/"
+  - title: "Ngân hàng Trung ương Hàn Quốc tăng lãi suất cơ sở 0,25 điểm phần trăm — thắt chặt sau 3 năm 6 tháng"
+    url: "en/news/bok-raises-base-rate-0-25-july-2026/"
+  - title: "Tòa Hàn Quốc đình chỉ lệnh FTC xác định Bom Kim là người kiểm soát Coupang"
+    url: "en/news/court-suspends-ftc-coupang-bom-kim-controller-2026/"
 {{< /article-footer >}}

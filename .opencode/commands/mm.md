@@ -322,6 +322,11 @@ faq:
 
 Rules: only real sources and links; FAQ must not invent facts. See `docs/article-footer.md`.
 
+**Public wording (ghi chú biên tập / copyright):** never say `viết lại`, `rewrite`,
+`tóm lược / Việt hóa dựa trên…` on the public page. Prefer:
+`Bài của **KoreaWiki Newsroom**. Tham khảo [thông cáo / bài] công khai của [nguồn]…`
++ photo credits. Full templates: `docs/article-footer.md`.
+
 ## Step 9 — Extract glossary entries → Update Translation Memory
 
 From the source Korean text and the Vietnamese article, extract meaningful items:

@@ -22,7 +22,10 @@ AI agent, import, or any other workflow.** CI (`scripts/qa.py`) will fail.
 1. Write body (facts only; no fabrication).  
 2. Set `faq:` in front matter (2–4 Q&A grounded in the article).  
 3. Close body with `article-footer` (source, links, copyright).  
-4. Or batch-fill missing pieces:
+4. **Editorial / copyright wording:** never say publicly *viết lại / rewrite / Việt hóa
+   dựa trên bài X* (sounds like plagiarism). Prefer *Bài của KoreaWiki… tham khảo hồ sơ /
+   thông cáo công khai… Ảnh © …* — see `docs/article-footer.md`.  
+5. Or batch-fill missing pieces:
 
 ```bash
 python3 scripts/apply_article_footer.py --apply

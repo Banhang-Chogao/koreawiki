@@ -321,8 +321,8 @@ Beautiful typography, SEO friendly, internal links, proper heading hierarchy, va
 source: "ArchDaily / New York Times / …"
 source_url: "https://..."
 copyright: >
-  Tóm lược / Việt hóa bởi KoreaWiki. Ảnh và nội dung gốc thuộc chủ sở hữu tương ứng.
-  Không bịa nguồn.
+  Bài **KoreaWiki Culture Desk / Newsroom**. Tham khảo nguồn công khai đã dẫn.
+  Ảnh và bản quyền hình thuộc chủ sở hữu; dùng với mục đích thông tin.
 external:
   - title: "Original English article"
     url: "https://..."
@@ -332,7 +332,16 @@ internal:
 {{</* /article-footer */>}}
 ```
 
-See `docs/article-footer.md`. FAQ must not invent facts.
+**Public wording (never say “we rewrote their article”):**
+
+- **Forbidden** on-page: `viết lại`, `rewrite`, `dịch từ`, `tóm lược / Việt hóa dựa trên…`
+- **Preferred:** “Bài của KoreaWiki … Tham khảo hồ sơ / thông cáo **công khai** … Specs
+  bám nguồn; không bổ sung số liệu. Ảnh © photographer.”
+- ArchDaily body note example:
+  `Bài của **KoreaWiki Culture Desk**. Thông tin kỹ thuật theo **hồ sơ dự án công khai**
+  của [office] (đăng trên ArchDaily). Ảnh © [photographer].`
+
+See `docs/article-footer.md` (section *Ghi chú biên tập*). FAQ must not invent facts.
 
 ---
 

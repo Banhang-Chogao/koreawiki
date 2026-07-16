@@ -1,9 +1,10 @@
 ---
-title: "Ở Thái Lan, thương hiệu điện thoại là biểu tượng địa vị"
-description: >
-  Người tiêu dùng Thái ngày càng coi smartphone không chỉ là công cụ liên lạc mà
-  còn là tín hiệu về giá trị, sự tin cậy và vị thế xã hội. Phân tích thị trường
+title: Ở Thái Lan, thương hiệu điện thoại là biểu tượng địa vị
+description: 'Người tiêu dùng Thái ngày càng coi smartphone không chỉ là công cụ liên
+  lạc mà còn là tín hiệu về giá trị, sự tin cậy và vị thế xã hội. Phân tích thị trường
   Samsung, Apple, Oppo, vivo, Infinix, Huawei, Nothing và Honor.
+
+  '
 date: 2026-07-16
 lastmod: 2026-07-16
 source_date: 2026-07-15
@@ -11,8 +12,8 @@ draft: false
 author: KoreaWiki Newsroom
 cover:
   image: images/2026/07/thuong-hieu-dien-thoai-bieu-tuong-dia-vi-thai-lan-cover.jpg
-  alt: "Các mẫu smartphone trên kệ cửa hàng — thị trường Thái Lan"
-  caption: "Ảnh tư liệu Bangkok Post — thị trường smartphone Thái Lan"
+  alt: Các mẫu smartphone trên kệ cửa hàng — thị trường Thái Lan
+  caption: Ảnh tư liệu Bangkok Post — thị trường smartphone Thái Lan
 tags:
 - thailand
 - bangkok
@@ -38,37 +39,43 @@ keywords:
 - consumer electronics thailand
 slug: o-thai-lan-thuong-hieu-dien-thoai-la-bieu-tuong-dia-vi
 faq:
-- q: "Vì sao thương hiệu điện thoại được coi là biểu tượng địa vị ở Thái Lan?"
-  a: >
-    Người mua Thái ngày càng xem smartphone không chỉ là thiết bị tiện ích mà còn
-    là tín hiệu về giá trị, sự tin cậy và vị thế cá nhân. Việc chọn Samsung,
-    Apple, Oppo, vivo, Infinix, Nothing hay Honor trở thành một tuyên bố xã hội
-    nhỏ nhưng dễ đọc.
-- q: "Thương hiệu nào chiếm vị trí chủ đạo và cao cấp trên thị trường Thái?"
-  a: >
-    Theo khung phân tích của Bangkok Post, Samsung vẫn là “gã khổng lồ đại chúng”
-    (Galaxy S ở phân khúc premium, Galaxy A ở cửa hàng đời thường). Apple đứng
-    vững ở nhóm cao cấp: iPhone vừa là thiết bị tin cậy, vừa là lựa chọn phong
-    cách sống — đôi khi gắn với trả góp hàng tháng.
-- q: "Oppo, vivo và Infinix khác nhau thế nào trong mắt người mua Thái?"
-  a: >
-    Oppo được mô tả là đối thủ thực dụng: cửa hàng dễ tìm, camera tốt, giá dễ
-    tiếp cận. vivo là lựa chọn tầm trung quen thuộc nhờ camera, pin và độ bền
-    hằng ngày. Infinix nhắm người trẻ và game thủ mobile, nhấn mạnh cấu hình mạnh
-    với mức giá thấp hơn.
-- q: "Huawei, Nothing và Honor đang ở vị trí nào tại Thái Lan?"
-  a: >
-    Huawei là cái tên “comeback” với câu chuyện phức tạp: nhận diện thương hiệu
-    còn mạnh, máy mới gắn chặt HarmonyOS; mức chấp nhận hệ sinh thái ứng dụng là
-    yếu tố then chốt. Nothing là “ngoại đạo” theo hướng thiết kế (vỏ trong suốt,
-    giao diện khác lạ), còn niche. Honor có máy tốt và hiện trên listing/review
-    nhưng chưa có trọng lượng đại chúng như Samsung, Apple hay Oppo.
-- q: "Người Thái chọn điện thoại dựa trên những tiêu chí nào?"
-  a: >
-    Điểm then chốt: người tiêu dùng Thái không trung thành mù quáng với một logo.
+- q: Vì sao thương hiệu điện thoại được coi là biểu tượng địa vị ở Thái Lan?
+  a: 'Người mua Thái ngày càng xem smartphone không chỉ là thiết bị tiện ích mà còn
+    là tín hiệu về giá trị, sự tin cậy và vị thế cá nhân. Việc chọn Samsung, Apple,
+    Oppo, vivo, Infinix, Nothing hay Honor trở thành một tuyên bố xã hội nhỏ nhưng
+    dễ đọc.
+
+    '
+- q: Thương hiệu nào chiếm vị trí chủ đạo và cao cấp trên thị trường Thái?
+  a: 'Theo khung phân tích của Bangkok Post, Samsung vẫn là “gã khổng lồ đại chúng”
+    (Galaxy S ở phân khúc premium, Galaxy A ở cửa hàng đời thường). Apple đứng vững
+    ở nhóm cao cấp: iPhone vừa là thiết bị tin cậy, vừa là lựa chọn phong cách sống
+    — đôi khi gắn với trả góp hàng tháng.
+
+    '
+- q: Oppo, vivo và Infinix khác nhau thế nào trong mắt người mua Thái?
+  a: 'Oppo được mô tả là đối thủ thực dụng: cửa hàng dễ tìm, camera tốt, giá dễ tiếp
+    cận. vivo là lựa chọn tầm trung quen thuộc nhờ camera, pin và độ bền hằng ngày.
+    Infinix nhắm người trẻ và game thủ mobile, nhấn mạnh cấu hình mạnh với mức giá
+    thấp hơn.
+
+    '
+- q: Huawei, Nothing và Honor đang ở vị trí nào tại Thái Lan?
+  a: 'Huawei là cái tên “comeback” với câu chuyện phức tạp: nhận diện thương hiệu
+    còn mạnh, máy mới gắn chặt HarmonyOS; mức chấp nhận hệ sinh thái ứng dụng là yếu
+    tố then chốt. Nothing là “ngoại đạo” theo hướng thiết kế (vỏ trong suốt, giao
+    diện khác lạ), còn niche. Honor có máy tốt và hiện trên listing/review nhưng chưa
+    có trọng lượng đại chúng như Samsung, Apple hay Oppo.
+
+    '
+- q: Người Thái chọn điện thoại dựa trên những tiêu chí nào?
+  a: 'Điểm then chốt: người tiêu dùng Thái không trung thành mù quáng với một logo.
     Họ cân nhắc giá, sự tin cậy, chất lượng camera, dịch vụ sau bán hàng và yếu tố
     địa vị — cùng lúc, không chỉ chạy theo thương hiệu.
+
+    '
 ---
+
 
 Người mua tại Thái Lan ngày càng nhìn smartphone không chỉ như một “đồ điện tử”
 để gọi điện hay lướt mạng. Máy trong túi còn mang theo tín hiệu về **giá trị**,
@@ -417,17 +424,17 @@ as status symbols”, Bangkok Post (Life/Tech), 15/7/2026.*
 source: "Bangkok Post"
 source_url: "https://www.bangkokpost.com/life/tech/3286354/in-thailand-phone-brands-are-seen-as-status-symbols"
 copyright: >
-  Bài của **KoreaWiki**. Tham khảo hồ sơ và bài phân tích công khai trên Bangkok
-  Post (Komsan Jandamit, 15/7/2026). Ảnh tư liệu © Bangkok Post / chủ sở hữu
-  tương ứng; dùng với mục đích thông tin. Không bịa nguồn hay số liệu.
+  Một phần thông tin trong bài được tham khảo từ [Bangkok
+  Post](https://www.bangkokpost.com/life/tech/3286354/in-thailand-phone-brands-are-seen-as-status-symbols).
+  Mọi thương hiệu, hình ảnh và tài liệu gốc thuộc quyền sở hữu của chủ sở hữu tương ứng.
+  Bài viết trên KoreaWiki chỉ tổng hợp, biên tập và phân tích phục vụ độc giả — không thay
+  thế thông cáo hay tài liệu chính thức.
 external:
-  - title: "Bài gốc trên Bangkok Post (EN)"
+  - title: "bangkokpost.com"
     url: "https://www.bangkokpost.com/life/tech/3286354/in-thailand-phone-brands-are-seen-as-status-symbols"
 internal:
-  - title: "Samsung Foundry — biến động nhân sự 2026"
-    url: "en/news/samsung-foundry-turnover-intent-2026/"
-  - title: "Samsung và concert K-pop"
-    url: "en/news/samsung-k-pop-concert/"
-  - title: "Quản lý chi tiêu — tự do tài chính giới trẻ"
-    url: "en/feature/quan-ly-chi-tieu-buoc-dau-tien-den-tu-do-tai-chinh-cho-gioi-tre-han-quoc/"
+  - title: "Hallyu 2.0: Văn hóa Hàn Quốc phát triển như thế nào từ xuất khẩu thị trường ngách sang thống trị toàn cầu"
+    url: "en/feature/hallyu-20-korean-culture-global-wave/"
+  - title: "Từ sinh viên đến kỹ sư Kakao: Hành trình học DB, bảo mật và AI qua chương trình onboarding cho tân binh"
+    url: "en/feature/kakao-new-krew-onboarding-2026/"
 {{< /article-footer >}}

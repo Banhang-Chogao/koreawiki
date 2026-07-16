@@ -49,6 +49,7 @@ faq:
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
 Samsung Electronics sẽ đồng tổ chức sự kiện K-pop do công ty tài trợ lớn nhất trong lịch sử tại Sân vận động Busan Asiad vào ngày 15 tháng 8, Giải phóng Hàn Quốc
 Ngày. Buổi hòa nhạc Samsung Hope sẽ có sự góp mặt của những người dẫn đầu bao gồm thành viên BTS SUGA, NCT 127, Seventeen và nhóm nhạc tân binh đang lên RIIZE, với tất cả số tiền thu được sẽ mang lại
 lợi ích cho giáo dục thanh thiếu niên
@@ -75,16 +76,14 @@ phát sóng trên nền tảng phát trực tuyến của Samsung, có cung cấ
 Thành phố thủ đô Busan đã cam kết hỗ trợ bổ sung về an ninh và giao thông, dự kiến ​​sẽ có hàng chục nghìn du khách đến thành phố ven biển để tham dự sự kiện này. Khách sạn địa phương và
 các nhà nghỉ ở quận Haeundae đã báo cáo lượng đặt chỗ gần như đủ sức chứa cho tuần diễn ra buổi hòa nhạc.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Min-Jun Kim** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "HYBE Reports Record Q2 Revenue of ₩620 Billion Driven by Global Touring and Weverse Growth"
-    url: "en/news/hybe-second-quarter-earnings/"
-  - title: "South Korea Expands Film Tax Credit Program to Lure International Productions"
-    url: "en/news/korean-film-tax-credit-expansion/"
+  - title: "Ngân hàng Trung ương Hàn Quốc tăng lãi suất cơ sở 0,25 điểm phần trăm — thắt chặt sau 3 năm 6 tháng"
+    url: "en/news/bok-raises-base-rate-0-25-july-2026/"
+  - title: "Tòa Hàn Quốc đình chỉ lệnh FTC xác định Bom Kim là người kiểm soát Coupang"
+    url: "en/news/court-suspends-ftc-coupang-bom-kim-controller-2026/"
 {{< /article-footer >}}
