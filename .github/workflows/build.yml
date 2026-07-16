@@ -1,4 +1,4 @@
-name: Build
+name: Build & Deploy
 
 on:
   push:
@@ -7,8 +7,13 @@ on:
     branches: [main]
   workflow_dispatch:
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
+  group: pages
   cancel-in-progress: true
 
 env:
@@ -63,3 +68,11 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Deploy to GitHub Pages
+        if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
+        id: deployment
+        uses: actions/deploy-pages@v4
