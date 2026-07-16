@@ -223,6 +223,22 @@ CDN URL harvest, content-hash dedup, browser UA, story-folder filter).
 
 ---
 
+## Entry 027 — 2026-07-16: Body Markdown images ignored baseURL
+
+**Error:** ArchDaily/`nn` post had cover OK but body gallery 404.
+
+**Root cause:** Cover uses `{{ cover.image | relURL }}` → `/koreawiki/images/…`.
+Body `![…](/images/…)` rendered as `src="/images/…"` (site root of github.io,
+**missing** `/koreawiki/`). Files existed under `static/` and returned 200 at
+`/koreawiki/images/…`.
+
+**Fix:** `themes/koreawiki/layouts/_default/_markup/render-image.html` —
+`strings.TrimPrefix "/" | relURL` for non-http destinations.
+
+**Prevention:** mm/nn docs note body images must go through the render hook.
+
+---
+
 ## Entry 026 — 2026-07-16: Permanent shortcut `nn` (English → Vietnamese)
 
 **Added:** `.opencode/commands/nn.md` — durable agent command parallel to `mm`.

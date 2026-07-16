@@ -174,7 +174,9 @@ Nội dung…
 *Chú thích ngắn nếu có trên bài gốc*
 ```
 
-- Use site-root paths `/images/...` in Markdown so Hugo resolves static assets
+- Body Markdown: `![alt](/images/YYYY/MM/file.jpg)` **or** `![alt](images/YYYY/MM/file.jpg)` —
+  both work via `themes/.../render-image.html` (`TrimPrefix "/" | relURL`) so paths honor
+  `baseURL = …/koreawiki/`. Do **not** rely on browser-root `/images/…` alone.
 - Keep caption factual (credit from source page only)
 - If the source has **N** content photos, the published post should host **N** (minus true duplicates / junk)
 

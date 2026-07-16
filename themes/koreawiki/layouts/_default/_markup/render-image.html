@@ -1,0 +1,25 @@
+{{/*
+  Image render hook — honor baseURL (/koreawiki/) for static assets.
+
+  Markdown like ![alt](/images/foo.jpg) becomes src="/images/foo.jpg" by default,
+  which 404s on GitHub Pages project sites. Cover images in templates use relURL
+  and work; body images must go through this hook.
+
+  Rules:
+  - http(s) remote URLs: leave as-is
+  - site paths (/images/… or images/…): TrimPrefix "/" then relURL
+*/}}
+{{- $dest := .Destination -}}
+{{- $src := $dest -}}
+{{- if or (hasPrefix $dest "http://") (hasPrefix $dest "https://") (hasPrefix $dest "//") -}}
+  {{- $src = $dest -}}
+{{- else -}}
+  {{- $src = strings.TrimPrefix "/" $dest | relURL -}}
+{{- end -}}
+<img
+  src="{{ $src | safeURL }}"
+  alt="{{ .Text | default "" }}"
+  {{- with .Title }} title="{{ . }}"{{- end }}
+  loading="lazy"
+  decoding="async"
+>

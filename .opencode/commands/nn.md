@@ -161,7 +161,10 @@ Stdout with `--all` is JSON: `cover`, `count`, `images[]` with `path` / `source_
 Rules (identical spirit to `mm`):
 
 - `static/images/YYYY/MM/` — `<slug>-cover.*`, `<slug>-01.*`, …
-- Front matter / MD paths relative to `static/` or site-root `/images/...` for body embeds
+- Front matter paths relative to `static/` (e.g. `images/YYYY/MM/file.jpg`) — templates use `relURL`
+- Body Markdown: `![alt](/images/YYYY/MM/file.jpg)` — **render-image hook** applies
+  `TrimPrefix "/" | relURL` so `baseURL` (`/koreawiki/`) is honored. Without the hook,
+  bare `/images/…` 404s on GitHub Pages project sites.
 - Dedup; continue on single 403; never remote-only `cover.image` or body `![](https://...)`
 - Never fabricate photo credits
 - If originals are huge, downscale for web (keep aspect; ~1200–1600px long edge is enough)
