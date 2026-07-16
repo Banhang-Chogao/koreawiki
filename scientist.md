@@ -209,6 +209,20 @@ git commit --allow-empty -m "redeploy article" && git push
 
 ---
 
+## Entry 017 — 2026-07-16: Self-host IBM Plex Sans site-wide
+
+**Change:** Entire site font-family → **"IBM Plex Sans"** self-hosted (no Google Fonts).
+
+**Assets:** `static/fonts/ibm-plex-sans/` + `assets/fonts/ibm-plex-sans/` (Regular/Medium/SemiBold/Bold + italics + variable).
+
+**CSS:** `assets/scss/_fonts.scss` (@font-face, `font-display: swap`); `--font-sans` starts with `"IBM Plex Sans"` then system/Korean OS fallbacks for Hangul.
+
+**Note:** IBM Plex Sans has limited Hangul — Korean glyphs fall back to Apple SD Gothic Neo / Malgun Gothic in the stack.
+
+**Verify:** CSS contains `@font-face` + `IBM Plex Sans`; fonts served under `/fonts/ibm-plex-sans/`.
+
+---
+
 ## Entry 016 — 2026-07-16: Native typography system (zero webfonts)
 
 **Change:** Full typography redesign for premium Korean digital newspaper feel using **OS system fonts only**.

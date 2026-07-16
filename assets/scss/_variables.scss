@@ -45,12 +45,12 @@
   --color-nav-underline: #0284c7;    /* sky-600 */
 
   /*
-    Unified native stack for the ENTIRE site (not nav-only).
-    Latin: system-ui first. Hangul: OS Korean fonts in the same stack
-    so mixed EN/KO content (titles, body, cards) all share one face family.
-    Zero external downloads / @font-face / Google Fonts.
+    IBM Plex Sans (self-hosted under static/fonts/ibm-plex-sans/).
+    Hangul falls through to OS Korean fonts (Plex has no full Hangul set).
+    No Google Fonts / CDN.
   */
   --font-sans:
+    "IBM Plex Sans",
     system-ui,
     -apple-system,
     BlinkMacSystemFont,
@@ -58,7 +58,6 @@
     "Malgun Gothic",
     "AppleGothic",
     "Segoe UI",
-    "Segoe UI Variable",
     Roboto,
     "Noto Sans KR",
     "Noto Sans CJK KR",
@@ -66,7 +65,6 @@
     Helvetica,
     Arial,
     sans-serif;
-  /* Alias kept for explicit :lang(ko) — same stack, no download */
   --font-ko: var(--font-sans);
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono",
     monospace;

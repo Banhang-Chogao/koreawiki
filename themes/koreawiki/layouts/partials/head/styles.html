@@ -1,3 +1,11 @@
-{{ $css := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }}
+{{/* Preload primary IBM Plex face for faster first paint (self-hosted). */}}
+{{ with resources.Get "fonts/ibm-plex-sans/IBMPlexSans-Regular.ttf" }}
+<link rel="preload" href="{{ .RelPermalink }}" as="font" type="font/ttf" crossorigin="anonymous">
+{{ end }}
+{{ with resources.Get "fonts/ibm-plex-sans/IBMPlexSans-Bold.ttf" }}
+<link rel="preload" href="{{ .RelPermalink }}" as="font" type="font/ttf" crossorigin="anonymous">
+{{ end }}
+{{ $opts := dict "transpiler" "libsass" "targetPath" "scss/main.css" "enableSourceMap" false }}
+{{ $css := resources.Get "scss/main.scss" | toCSS $opts | minify | fingerprint }}
 <link rel="preload" href="{{ $css.RelPermalink }}" as="style" crossorigin="anonymous">
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" crossorigin="anonymous">
