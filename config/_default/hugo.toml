@@ -5,9 +5,10 @@ theme = "koreawiki"
 enableRobotsTXT = true
 enableGitInfo = true
 summaryLength = 20
-paginate = 12
 copyright = "Copyright © {currentYear} KoreaWiki. All rights reserved."
 
+[pagination]
+  pagerSize = 12
 
 # Private Translation Memory lives under data/glossary/ (json/md/csv/sqlite).
 # Hugo's auto data loader only accepts json/yaml/toml/csv and would break on

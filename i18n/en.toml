@@ -78,6 +78,8 @@ other = "Close"
 other = "Tags"
 [latest_news]
 other = "Latest News"
+[older_articles]
+other = "Older Articles"
 [photos]
 other = "Photos"
 [videos]

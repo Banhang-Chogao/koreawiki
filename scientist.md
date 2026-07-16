@@ -209,6 +209,30 @@ git commit --allow-empty -m "redeploy article" && git push
 
 ---
 
+## Entry 014 — 2026-07-16: Homepage restored to chronological news feed
+
+**Change:** Removed per-category “latest in every section” homepage layout; restored classic newsroom feed.
+
+**Removed:**
+- `home/sections-grid.html` (latest post per category — caused clutter + duplicates)
+- Homepage category blocks: photos / videos / opinion sections
+- Unused wiki-era partials: featured-grid, latest-news, categories, popular-topics, featured-guides, learning-paths, newsletter, latest-articles, search-box
+
+**Restored (`layouts/index.html`):**
+1. Global sort: all `RegularPages` (except `type=page`) by `date` descending  
+2. Hero on page 1 only (1 featured + up to 3 side — not repeated in the grid)  
+3. Unified Latest / Older article grid  
+4. Hugo pagination (`paginate = 12`)  
+5. Exactly one card per article; no category loops
+
+**Preserved:** Category list pages (`_default/list.html`), article single layout, SEO, search, RSS, URLs.
+
+**Verify:** Homepage dates newest→oldest; no duplicate permalinks; `/kpop/` etc. still section-only; `hugo` + QA pass.
+
+**Prevention:** Do not add per-section homepage queries; keep a single chronological paginator.
+
+---
+
 ## Entry 013 — 2026-07-16: Translation Memory (TM) & Glossary system
 
 **Added:** Permanent Korean → Vietnamese Translation Memory and public Glossary page.

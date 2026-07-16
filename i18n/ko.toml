@@ -78,6 +78,8 @@ other = "닫기"
 other = "태그"
 [latest_news]
 other = "최신 뉴스"
+[older_articles]
+other = "이전 기사"
 [photos]
 other = "포토"
 [videos]

@@ -1,4 +1,6 @@
+{{/* Featured story + up to 3 chronological side items. Caller must pass newest-first Pages. */}}
 {{ $pages := .Pages }}
+{{ if $pages }}
 {{ $heroPost := index $pages 0 }}
 {{ $sidePosts := first 3 (after 1 $pages) }}
 <section class="hero">
@@ -23,6 +25,7 @@
         </div>
       </a>
     </article>
+    {{ if $sidePosts }}
     <aside class="hero-side">
       {{ range $sidePosts }}
       <a href="{{ .RelPermalink }}" class="hero-side-item">
@@ -37,5 +40,7 @@
       </a>
       {{ end }}
     </aside>
+    {{ end }}
   </div>
 </section>
+{{ end }}

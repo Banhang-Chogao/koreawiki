@@ -1,28 +1,66 @@
 {{ define "main" }}
-  {{ $pages := where .Site.RegularPages "Type" "not in" (slice "page" "photos" "videos") }}
-  {{ $latestPages := $pages.ByDate.Reverse }}
+{{/*
+  Classic newsroom homepage: one global chronological feed (newest first).
+  No per-category blocks, no latest-per-section queries, no duplicate cards.
+*/}}
+{{ $pages := where .Site.RegularPages "Type" "ne" "page" }}
+{{ $pages = $pages.ByDate.Reverse }}
+{{ $paginator := .Paginate $pages }}
+{{ $pagePosts := $paginator.Pages }}
 
-  <div data-pagefind-ignore="all">
-  {{ partial "home/hero" (dict "Pages" $latestPages "Site" .Site) }}
+{{/* Hero uses the first 4 of page 1 only (1 featured + 3 side). Not repeated below. */}}
+{{ $heroCount := 0 }}
+{{ if and (eq $paginator.PageNumber 1) (gt (len $pagePosts) 0) }}
+  {{ $heroCount = cond (ge (len $pagePosts) 4) 4 (len $pagePosts) }}
+{{ end }}
+{{ $feed := after $heroCount $pagePosts }}
 
-  <div class="section-row" style="max-width:var(--max-w);margin:0 auto;padding:0 var(--space-4)">
-    {{ partial "home/featured-grid" (dict "Pages" $latestPages "Site" .Site) }}
+<div data-pagefind-ignore="all">
+  {{ if gt $heroCount 0 }}
+    {{ partial "home/hero" (dict "Pages" $pagePosts "Site" .Site) }}
+  {{ end }}
 
-    {{ partial "home/latest-news" (dict "Pages" $latestPages "Site" .Site) }}
-
-    {{ partial "home/sections-grid" (dict "Pages" $latestPages "Site" .Site) }}
-
-    {{ with where .Site.RegularPages "Section" "photos" }}
-      {{ partial "home/photos-section" (dict "Pages" . "Site" $.Site) }}
+  <div class="section-row" style="max-width:var(--max-w);margin:0 auto;padding:0 var(--space-4) var(--space-16)">
+    {{ if $feed }}
+    <section class="home-feed" style="margin-bottom:var(--space-10)" aria-label="{{ T "latest_news" | default "Latest News" }}">
+      <h2 style="font-size:var(--fs-2xl);font-weight:800;margin-bottom:var(--space-6);display:flex;align-items:center;gap:var(--space-3)">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9h2"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8V6Z"/></svg>
+        {{ if eq $paginator.PageNumber 1 }}
+          {{ T "latest_news" | default "Latest News" }}
+        {{ else }}
+          {{ T "older_articles" | default "Older Articles" }}
+        {{ end }}
+      </h2>
+      <div class="grid-2">
+        {{ range $feed }}
+        <article class="card">
+          <a href="{{ .RelPermalink }}" class="card-link">
+            {{ if .Params.cover.image }}
+            <img class="card-img" src="{{ .Params.cover.image | relURL }}" alt="{{ .Params.cover.alt | default .Title }}" loading="lazy" decoding="async">
+            {{ end }}
+            <div class="card-body">
+              <span class="card-cat">{{ .CurrentSection.Title }}</span>
+              <h2 class="card-title">{{ .Title }}</h2>
+              {{ if .Description }}
+              <p class="card-desc">{{ .Description }}</p>
+              {{ end }}
+              <div class="card-meta">
+                <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+                {{ if $.Site.Params.readingTime }}
+                <span>{{ .ReadingTime }} {{ T "min_read" | default "min read" }}</span>
+                {{ end }}
+              </div>
+            </div>
+          </a>
+        </article>
+        {{ end }}
+      </div>
+    </section>
     {{ end }}
 
-    {{ with where .Site.RegularPages "Section" "videos" }}
-      {{ partial "home/videos-section" (dict "Pages" . "Site" $.Site) }}
-    {{ end }}
-
-    {{ with where .Site.RegularPages "Section" "opinion" }}
-      {{ partial "home/opinion-section" (dict "Pages" . "Site" $.Site) }}
+    {{ if gt $paginator.TotalPages 1 }}
+      {{ template "_internal/pagination.html" . }}
     {{ end }}
   </div>
-  </div>
+</div>
 {{ end }}

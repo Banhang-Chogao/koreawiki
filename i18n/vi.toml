@@ -78,6 +78,8 @@ other = "Đóng"
 other = "Thẻ"
 [latest_news]
 other = "Tin mới nhất"
+[older_articles]
+other = "Bài viết cũ hơn"
 [photos]
 other = "Ảnh"
 [videos]
