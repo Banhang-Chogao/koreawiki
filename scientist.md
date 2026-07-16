@@ -209,6 +209,27 @@ git commit --allow-empty -m "redeploy article" && git push
 
 ---
 
+## Entry 016 — 2026-07-16: Native typography system (zero webfonts)
+
+**Change:** Full typography redesign for premium Korean digital newspaper feel using **OS system fonts only**.
+
+**Stack:**
+- Default: `system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, …`
+- Korean `:lang(ko)`: Apple SD Gothic Neo → Malgun Gothic → Noto Sans KR (local only)
+- Mono: `ui-monospace, SFMono-Regular, Menlo, Consolas, …`
+
+**Removed:** Pretendard / Noto Serif KR as primary; no Google Fonts / @font-face / external font URLs.
+
+**Also:** fluid `clamp()` type scale, editorial nav (800 / uppercase / letter-spacing), article display title, blockquote treatment, body lh 1.75, measure ~72ch, taller nav.
+
+**Files:** `assets/scss/_variables.scss`, `_typography.scss` (new), `_base.scss`, `_header.scss`, `_article.scss`, `_footer.scss`, `_buttons.scss`, `_hero.scss`, `_search.scss`, `main.scss`
+
+**Verify:** Hugo build OK; CSS contains `system-ui`, no `Pretendard`/`googleapis`/`@font-face`.
+
+**Prevention:** Never add `fonts.googleapis.com` or bundled webfonts without explicit product decision.
+
+---
+
 ## Entry 015 — 2026-07-16: Self-Healing CI/CD system
 
 **Added:** Automatic recovery when Build & Deploy or QA fails.

@@ -331,7 +331,7 @@
   color: var(--color-text-quaternary) !important;
   margin-top: var(--space-3) !important;
   margin-bottom: 0 !important;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-family: var(--font-mono);
 }
 .search-shortcuts {
   display: flex;

@@ -13,7 +13,7 @@
 ## Logo Structure
 
 - **Icon**: Teal (#00B5A6) rounded square containing a white document with folded corner (wiki/knowledge) and a teal pencil writing on it (editing/collaboration) — symbolizing an active wiki platform where knowledge is both read and created.
-- **Wordmark**: "KoreaWiki" set in Pretendard or system sans-serif (bold, 800 weight, slightly condensed tracking).
+- **Wordmark**: "KoreaWiki" set in native system sans-serif (`system-ui` stack; bold, 800 weight, slightly condensed tracking).
 - **Color split**: "Korea" in primary text color, "Wiki" in teal (#00B5A6).
 
 ## Clear Space
