@@ -1,7 +1,7 @@
 {
   "version": 1,
   "language_pair": "ko-vi",
-  "updated": "2026-07-16T13:06:05+00:00",
+  "updated": "2026-07-16T13:10:06+00:00",
   "entries": [
     {
       "id": "ed0f4da4b180",
@@ -878,6 +878,42 @@
       "category": "drama"
     },
     {
+      "id": "45e36a3f9cdd",
+      "korean": "디바이스경험",
+      "vietnamese": "Device Experience (DX)",
+      "romanization": "di-ba-i-seu gyeong-heom",
+      "pos": "organization",
+      "meaning": "Khối thiết bị tiêu dùng Samsung (TV, điện thoại…)",
+      "context": "Samsung DX",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/021/0002805238",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "samsung"
+      ],
+      "category": "organization"
+    },
+    {
+      "id": "833e566322e4",
+      "korean": "디바이스솔루션",
+      "vietnamese": "Device Solutions (DS)",
+      "romanization": "di-ba-i-seu sol-lu-syeon",
+      "pos": "organization",
+      "meaning": "Khối bán dẫn Samsung Electronics",
+      "context": "Samsung DS",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/021/0002805238",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "samsung"
+      ],
+      "category": "organization"
+    },
+    {
       "id": "8429f2033a29",
       "korean": "디스패치",
       "vietnamese": "Dispatch",
@@ -984,6 +1020,24 @@
       "category": "other"
     },
     {
+      "id": "2831f9edcaed",
+      "korean": "메모리",
+      "vietnamese": "Memory / bộ nhớ (bán dẫn)",
+      "romanization": "me-mo-ri",
+      "pos": "noun",
+      "meaning": "Mảng chip nhớ (DRAM, NAND…)",
+      "context": "Samsung DS",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/021/0002805238",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "semiconductor"
+      ],
+      "category": "other"
+    },
+    {
       "id": "b6e3caa85ba6",
       "korean": "메이커스",
       "vietnamese": "Makers (Kakao)",
@@ -998,6 +1052,24 @@
       "frequency": 1,
       "tags": [],
       "category": "other"
+    },
+    {
+      "id": "752f68040283",
+      "korean": "문화일보",
+      "vietnamese": "Munhwa Ilbo / 문화일보",
+      "romanization": "mun-hwa-il-bo",
+      "pos": "organization",
+      "meaning": "Báo Munhwa (Hàn Quốc)",
+      "context": "báo chí",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/021/0002805238",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "media"
+      ],
+      "category": "organization"
     },
     {
       "id": "eeeae8d67f6b",
@@ -1410,6 +1482,44 @@
       "category": "other"
     },
     {
+      "id": "86f4871bc671",
+      "korean": "삼성전자",
+      "vietnamese": "Samsung Electronics",
+      "romanization": "sam-seong-jeon-ja",
+      "pos": "organization",
+      "meaning": "Tập đoàn điện tử Samsung",
+      "context": "doanh nghiệp / bán dẫn",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/021/0002805238",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "samsung",
+        "business"
+      ],
+      "category": "organization"
+    },
+    {
+      "id": "cda240521694",
+      "korean": "삼성전자지부",
+      "vietnamese": "chi nhánh Samsung Electronics (công đoàn)",
+      "romanization": "sam-seong-jeon-ja-ji-bu",
+      "pos": "organization",
+      "meaning": "Chi hội công đoàn tại Samsung Electronics",
+      "context": "초기업노조",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/021/0002805238",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "labor",
+        "samsung"
+      ],
+      "category": "organization"
+    },
+    {
       "id": "5f263a078766",
       "korean": "서머배시",
       "vietnamese": "Summer Bash",
@@ -1481,6 +1591,25 @@
         "prison"
       ],
       "category": "location"
+    },
+    {
+      "id": "f2e75d0ce793",
+      "korean": "성과급",
+      "vietnamese": "thưởng thành tích / performance bonus",
+      "romanization": "seong-gwa-geup",
+      "pos": "noun",
+      "meaning": "Khoản thưởng theo kết quả kinh doanh",
+      "context": "lương thưởng doanh nghiệp",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/021/0002805238",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "labor",
+        "business"
+      ],
+      "category": "other"
     },
     {
       "id": "6968312c93db",
@@ -1675,6 +1804,24 @@
         "awards"
       ],
       "category": "noun"
+    },
+    {
+      "id": "976a036b4049",
+      "korean": "시스템LSI",
+      "vietnamese": "System LSI",
+      "romanization": "si-seu-tem el-e-seu-a-i",
+      "pos": "noun",
+      "meaning": "Mảng logic / system semiconductor",
+      "context": "Samsung DS",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/021/0002805238",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "semiconductor"
+      ],
+      "category": "other"
     },
     {
       "id": "55b306f4ce6a",
@@ -1967,6 +2114,24 @@
       "category": "celebrity"
     },
     {
+      "id": "6fe913a82d0a",
+      "korean": "연합뉴스",
+      "vietnamese": "Yonhap News",
+      "romanization": "yeon-hap-nyu-seu",
+      "pos": "organization",
+      "meaning": "Hãng thông tấn Yonhap",
+      "context": "credit ảnh / tin",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/021/0002805238",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "media"
+      ],
+      "category": "organization"
+    },
+    {
       "id": "4c27c4c90ee3",
       "korean": "열애",
       "vietnamese": "yêu đương / hẹn hò",
@@ -1983,6 +2148,24 @@
         "showbiz"
       ],
       "category": "noun"
+    },
+    {
+      "id": "a9404c82ea42",
+      "korean": "영업이익",
+      "vietnamese": "lợi nhuận hoạt động / operating profit",
+      "romanization": "yeong-eop-i-ik",
+      "pos": "noun",
+      "meaning": "Lợi nhuận từ hoạt động kinh doanh chính",
+      "context": "báo cáo tài chính",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/021/0002805238",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "finance"
+      ],
+      "category": "other"
     },
     {
       "id": "931b247fb437",
@@ -2219,6 +2402,42 @@
       "category": "other"
     },
     {
+      "id": "41f6b23e6160",
+      "korean": "이직",
+      "vietnamese": "nghỉ việc / chuyển việc / turnover",
+      "romanization": "i-jik",
+      "pos": "noun",
+      "meaning": "Rời công ty hiện tại sang chỗ khác",
+      "context": "nhân sự",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/021/0002805238",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "labor"
+      ],
+      "category": "other"
+    },
+    {
+      "id": "ca17af93189c",
+      "korean": "이직 의향",
+      "vietnamese": "ý định nghỉ việc / intent to leave",
+      "romanization": "i-jik ui-hyang",
+      "pos": "phrase",
+      "meaning": "Mức độ muốn chuyển việc trong khảo sát",
+      "context": "khảo sát công đoàn",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/021/0002805238",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "labor"
+      ],
+      "category": "other"
+    },
+    {
       "id": "81833368534c",
       "korean": "인터뷰",
       "vietnamese": "phỏng vấn",
@@ -2253,6 +2472,24 @@
         "media"
       ],
       "category": "noun"
+    },
+    {
+      "id": "2ef3d779cd0d",
+      "korean": "자사주",
+      "vietnamese": "cổ phiếu tự doanh / treasury/company stock grant",
+      "romanization": "ja-sa-ju",
+      "pos": "noun",
+      "meaning": "Cổ phiếu công ty dùng để trả thưởng",
+      "context": "thưởng Samsung",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/021/0002805238",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "finance"
+      ],
+      "category": "other"
     },
     {
       "id": "bd3e6d0ed19e",
@@ -2487,6 +2724,43 @@
       "category": "other"
     },
     {
+      "id": "40bf4cd3b291",
+      "korean": "초과이익성과급",
+      "vietnamese": "OPI / thưởng lợi nhuận vượt mức",
+      "romanization": "cho-gwa-i-ik-seong-gwa-geup",
+      "pos": "noun",
+      "meaning": "Over Performance Incentive, thường trần % lương năm",
+      "context": "Samsung compensation",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/021/0002805238",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "samsung",
+        "labor"
+      ],
+      "category": "other"
+    },
+    {
+      "id": "6b41d9238a71",
+      "korean": "초기업노동조합",
+      "vietnamese": "liên công đoàn đa doanh nghiệp",
+      "romanization": "cho-gi-eop-no-dong-jo-hap",
+      "pos": "organization",
+      "meaning": "Công đoàn liên doanh nghiệp (không chỉ một công ty)",
+      "context": "Samsung union",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/021/0002805238",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "labor"
+      ],
+      "category": "organization"
+    },
+    {
       "id": "3f71750e5612",
       "korean": "초복",
       "vietnamese": "Chobok / phục đầu",
@@ -2519,6 +2793,24 @@
         "economy"
       ],
       "category": "other"
+    },
+    {
+      "id": "58779c87449b",
+      "korean": "최승호",
+      "vietnamese": "Choi Seung-ho",
+      "romanization": "choe-seung-ho",
+      "pos": "proper_noun",
+      "meaning": "Chủ tịch công đoàn chi nhánh Samsung Electronics",
+      "context": "phát biểu khảo sát 2026",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/021/0002805238",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "labor"
+      ],
+      "category": "proper_noun"
     },
     {
       "id": "a8d3b986f191",
@@ -2880,6 +3172,43 @@
         "event"
       ],
       "category": "noun"
+    },
+    {
+      "id": "e7cb4e00b8c1",
+      "korean": "특별경영성과급",
+      "vietnamese": "thưởng thành tích kinh doanh đặc biệt",
+      "romanization": "teuk-byeol-gyeong-yeong-seong-gwa-geup",
+      "pos": "noun",
+      "meaning": "Bonus đặc biệt theo thỏa thuận lao–quản lý Samsung DS",
+      "context": "Samsung 2026",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/021/0002805238",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "samsung",
+        "labor"
+      ],
+      "category": "other"
+    },
+    {
+      "id": "94d4a7037c05",
+      "korean": "파운드리",
+      "vietnamese": "foundry / sản xuất bán dẫn gia công",
+      "romanization": "pa-un-deu-ri",
+      "pos": "noun",
+      "meaning": "Dịch vụ gia công chip theo đơn đặt hàng",
+      "context": "bán dẫn",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/021/0002805238",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "semiconductor"
+      ],
+      "category": "other"
     },
     {
       "id": "72e6b0d92e72",

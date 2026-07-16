@@ -47,13 +47,17 @@ a03521c4026d,김범석,Kim Bom-suk / Bom Kim,gim-beom-seok,proper_noun,"Nhà sá
 559f2a9f86c9,데뷔,ra mắt / debut,de-byu,noun,lần xuất hiện đầu,sự nghiệp,올해 데뷔했다.,,2026-07-16,2026-07-16,1,career,noun
 d930f8906c5a,동일인,người kiểm soát / controller,dong-il-in,noun,Chủ thể được pháp luật chỉ định là người kiểm soát tập đoàn (legal controller),luật cạnh tranh / công bố tập đoàn,동일인으로 지정,https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller,2026-07-16,2026-07-16,1,"legal,business",noun
 2bb81ef5a286,드라마,phim truyền hình / drama,deu-ra-ma,noun,K-drama,truyền hình,,,2026-07-16,2026-07-16,1,kdrama,drama
+45e36a3f9cdd,디바이스경험,Device Experience (DX),di-ba-i-seu gyeong-heom,organization,"Khối thiết bị tiêu dùng Samsung (TV, điện thoại…)",Samsung DX,,https://n.news.naver.com/mnews/article/021/0002805238,2026-07-16,2026-07-16,1,samsung,organization
+833e566322e4,디바이스솔루션,Device Solutions (DS),di-ba-i-seu sol-lu-syeon,organization,Khối bán dẫn Samsung Electronics,Samsung DS,,https://n.news.naver.com/mnews/article/021/0002805238,2026-07-16,2026-07-16,1,samsung,organization
 8429f2033a29,디스패치,Dispatch,di-seu-pae-chi,proper_noun,tờ tin giải trí Hàn,báo chí,,,2026-07-16,2026-07-16,1,media,organization
 d6467c932ffc,라인업,lineup / danh sách nghệ sĩ,ra-in-eop,noun,danh sách biểu diễn sự kiện,sự kiện,라인업에 합류했다,https://www.dispatch.co.kr/2345227,2026-07-16,2026-07-16,1,concert,other
 2418847455c3,만기 출소,xuất ngục đúng hạn / hết hạn chấp hành,man-gi chul-so,phrase,ra tù khi đã chấp hành đủ mức án,tư pháp,만기 출소일은 2026년 11월 24일,https://www.dispatch.co.kr/2344260,2026-07-16,2026-07-16,1,prison,other
 0d2ec8805c26,말복,Malbok / phục cuối,mal-bok,,,last dog day,,https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667,2026-07-16,2026-07-16,1,,other
 79d0d6ca9bf2,멀티모달,multimodal / đa phương thức,meol-ti-mo-dal,adjective,"xử lý nhiều loại dữ liệu (text, audio, image)",AI,멀티모달 언어모델,https://www.kakaocorp.com/page/detail/12083,2026-07-16,2026-07-16,1,ai,other
 4e3e188e7981,멀티턴,multi-turn (hội thoại nhiều lượt),meol-ti-teon,noun,đối thoại nhiều vòng liên tiếp với AI,AI,멀티턴 대화,https://www.kakaocorp.com/page/detail/12083,2026-07-16,2026-07-16,1,ai,other
+2831f9edcaed,메모리,Memory / bộ nhớ (bán dẫn),me-mo-ri,noun,"Mảng chip nhớ (DRAM, NAND…)",Samsung DS,,https://n.news.naver.com/mnews/article/021/0002805238,2026-07-16,2026-07-16,1,semiconductor,other
 b6e3caa85ba6,메이커스,Makers (Kakao),me-i-keo-seu,,,Kakao Makers,,https://www.kakaocorp.com/page/detail/12080,2026-07-16,2026-07-16,1,,other
+752f68040283,문화일보,Munhwa Ilbo / 문화일보,mun-hwa-il-bo,organization,Báo Munhwa (Hàn Quốc),báo chí,,https://n.news.naver.com/mnews/article/021/0002805238,2026-07-16,2026-07-16,1,media,organization
 eeeae8d67f6b,뮤직비디오,MV / video ca nhạc,myu-jik-bi-di-o,noun,music video,âm nhạc,,,2026-07-16,2026-07-16,1,music,noun
 8a301faae5dd,미니,mini album,mi-ni,noun,album mini / EP,âm nhạc,미니 2집,https://www.dispatch.co.kr/2345227,2026-07-16,2026-07-16,1,album,other
 98152c9c745c,민음사,Minumsa,min-eum-sa,proper_noun,nhà xuất bản Hàn Quốc,xuất bản,민음사의 김민경 편집자,https://www.kakaocorp.com/page/detail/12083,2026-07-16,2026-07-16,1,publisher,organization
@@ -77,10 +81,13 @@ c105d9d197fa,복날,Boknal / ngày phục (ba ngày nóng hè),bok-nal,,,seasona
 af9a19df4fd2,사진공동취재단,đoàn phóng viên ảnh chung / joint press corps,sa-jin-gong-dong-chwi-jae-dan,organization,Pool ảnh báo chí chung,credit ảnh tin tức,,https://n.news.naver.com/mnews/article/437/0000501443,2026-07-16,2026-07-16,1,media,organization
 880a1fbced85,삼계탕,samgyetang / canh gà nhân sâm,sam-gye-tang,,,boknal food,,https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667,2026-07-16,2026-07-16,1,,other
 fea63cf24840,삼복,Sam-bok / ba ngày phục,sam-bok,,,chobok jungbok malbok,,https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667,2026-07-16,2026-07-16,1,,other
+86f4871bc671,삼성전자,Samsung Electronics,sam-seong-jeon-ja,organization,Tập đoàn điện tử Samsung,doanh nghiệp / bán dẫn,,https://n.news.naver.com/mnews/article/021/0002805238,2026-07-16,2026-07-16,1,"samsung,business",organization
+cda240521694,삼성전자지부,chi nhánh Samsung Electronics (công đoàn),sam-seong-jeon-ja-ji-bu,organization,Chi hội công đoàn tại Samsung Electronics,초기업노조,,https://n.news.naver.com/mnews/article/021/0002805238,2026-07-16,2026-07-16,1,"labor,samsung",organization
 5f263a078766,서머배시,Summer Bash,seo-meo-bae-si,proper_noun,concert mùa hè Z100,sự kiện / Mỹ,Z100 서머배시,https://www.dispatch.co.kr/2345227,2026-07-16,2026-07-16,1,concert,other
 74fdbe283795,서울,Seoul,seo-ul,proper_noun,thủ đô Hàn Quốc,địa danh,,,2026-07-16,2026-07-16,1,place,location
 26ba22c156ed,서울고등법원,Tòa thượng thẩm Seoul,seo-ul-go-deung-beob-won,proper_noun,Tòa án cấp cao tại Seoul (Seoul High Court),tư pháp,서울고등법원 가처분,https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller,2026-07-16,2026-07-16,1,"court,legal",organization
 cac39550896f,서울구치소,trại giam Seoul,seo-ul-gu-chi-so,proper_noun,cơ sở giam giữ tạm thời / trại giam tại Seoul,tư pháp,서울구치소에서 수감 생활,https://www.dispatch.co.kr/2344260,2026-07-16,2026-07-16,1,prison,location
+f2e75d0ce793,성과급,thưởng thành tích / performance bonus,seong-gwa-geup,noun,Khoản thưởng theo kết quả kinh doanh,lương thưởng doanh nghiệp,,https://n.news.naver.com/mnews/article/021/0002805238,2026-07-16,2026-07-16,1,"labor,business",other
 6968312c93db,소망교도소,nhà tù Somang,so-mang-gyo-do-so,proper_noun,"cơ sở cải tạo tại Yeoju, Gyeonggi",tư pháp / địa điểm,여주 소망교도소로 이감,https://www.dispatch.co.kr/2344260,2026-07-16,2026-07-16,1,prison,location
 edc049b25785,소상공인,tiểu thương / SME nhỏ,so-sang-gong-in,,,small merchants,,https://www.kakaocorp.com/page/detail/12080,2026-07-16,2026-07-16,1,,other
 2608d47c84a3,소속사,công ty quản lý / agency,so-sok-sa,noun,công ty giải trí của nghệ sĩ,ngành,,,2026-07-16,2026-07-16,1,industry,noun
@@ -92,6 +99,7 @@ c8e3450180a0,수도원,tu viện / monastery,su-do-won,,,monastery,,https://www.
 baca0cfb6155,스포티파이,Spotify,seu-po-ti-pa-i,proper_noun,nền tảng streaming nhạc,âm nhạc,스포티파이 바이럴 히트 코리아,https://www.dispatch.co.kr/2345227,2026-07-16,2026-07-16,1,streaming,organization
 41247d778ba0,시사회,buổi công chiếu thử / premiere,si-sa-hoe,noun,chiếu ra mắt,điện ảnh,,,2026-07-16,2026-07-16,1,film,noun
 e43b9b0d5de5,시상식,lễ trao giải,si-sang-sik,noun,award ceremony,giải thưởng,,,2026-07-16,2026-07-16,1,awards,noun
+976a036b4049,시스템LSI,System LSI,si-seu-tem el-e-seu-a-i,noun,Mảng logic / system semiconductor,Samsung DS,,https://n.news.naver.com/mnews/article/021/0002805238,2026-07-16,2026-07-16,1,semiconductor,other
 55b306f4ce6a,신현송,Shin Hyun-song,sin-hyeon-song,proper_noun,Thống đốc Ngân hàng Trung ương Hàn Quốc,BOK governor,,https://n.news.naver.com/mnews/article/437/0000501443,2026-07-16,2026-07-16,1,"economy,bok",celebrity
 68a09e615ed6,싱가포르,Singapore,sing-ga-po-reu,,,địa danh,,https://www.dispatch.co.kr/2344420,2026-07-16,2026-07-16,1,place,location
 1a3a55a0f68a,싱글,single,sing-geul,noun,đĩa đơn,âm nhạc,,,2026-07-16,2026-07-16,1,music,noun
@@ -108,7 +116,9 @@ af03a64e5279,여배우,nữ diễn viên,yeo-bae-u,noun,diễn viên nữ,ngành
 539e2b4a5739,연대보증 로맨스,Yeondae Bojeung Romance,yeon-dae-bo-jeung-ro-maen-seu,,,tên drama,,https://www.dispatch.co.kr/2344420,2026-07-16,2026-07-16,1,kdrama,drama
 4d2540df0160,연습생,thực tập sinh,yeon-seup-saeng,noun,trainee idol,K-pop,,,2026-07-16,2026-07-16,1,kpop,noun
 27a49cee41ad,연준,YEONJUN,yeon-jun,proper_noun,thành viên TOMORROW X TOGETHER,K-pop,투모로우바이투게더 연준,https://www.dispatch.co.kr/2345227,2026-07-16,2026-07-16,1,"txt,kpop",celebrity
+6fe913a82d0a,연합뉴스,Yonhap News,yeon-hap-nyu-seu,organization,Hãng thông tấn Yonhap,credit ảnh / tin,,https://n.news.naver.com/mnews/article/021/0002805238,2026-07-16,2026-07-16,1,media,organization
 4c27c4c90ee3,열애,yêu đương / hẹn hò,yeol-ae,noun,dating news,showbiz,,,2026-07-16,2026-07-16,1,showbiz,noun
+a9404c82ea42,영업이익,lợi nhuận hoạt động / operating profit,yeong-eop-i-ik,noun,Lợi nhuận từ hoạt động kinh doanh chính,báo cáo tài chính,,https://n.news.naver.com/mnews/article/021/0002805238,2026-07-16,2026-07-16,1,finance,other
 931b247fb437,영진위,Ủy ban Điện ảnh Hàn Quốc (KOFIC),yeong-jin-wi,proper_noun,Korean Film Council,điện ảnh / chính sách,영진위 영화관입장권 통합전산망,https://www.dispatch.co.kr/2345236,2026-07-16,2026-07-16,1,film,organization
 9b39914e2b5a,영화,phim điện ảnh,yeong-hwa,noun,movie,điện ảnh,,,2026-07-16,2026-07-16,1,film,movie
 a8b382894692,영화관입장권 통합전산망,mạng thống kê vé điện ảnh tích hợp,yeong-hwa-gwan-ip-jang-gwon tong-hap-jeon-san-mang,noun,hệ thống KOFIC theo dõi vé rạp toàn quốc,phòng vé,영화관입장권 통합전산망에 따르면,https://www.dispatch.co.kr/2345236,2026-07-16,2026-07-16,1,kofic,other
@@ -122,8 +132,11 @@ f856bb41b1bb,유병재,Yoo Byung-jae,yu-byeong-jae,proper_noun,diễn viên hài
 5362a56b7642,음원,nhạc số / digital track,eum-won,noun,digital music release,âm nhạc,,,2026-07-16,2026-07-16,1,music,noun
 16b3db0792f2,음주운전,lái xe khi say rượu,eum-ju-un-jeon,noun,drunk driving,pháp lý / giao thông,음주 상태로 마주오던 택시를 들이받고,https://www.dispatch.co.kr/2344260,2026-07-16,2026-07-16,1,crime,other
 099c252f909c,이감,chuyển trại / chuyển giam,i-gam,noun,chuyển người bị giam từ cơ sở này sang cơ sở khác,tư pháp / cải tạo,소망교도소로 이감,https://www.dispatch.co.kr/2344260,2026-07-16,2026-07-16,1,prison,other
+41f6b23e6160,이직,nghỉ việc / chuyển việc / turnover,i-jik,noun,Rời công ty hiện tại sang chỗ khác,nhân sự,,https://n.news.naver.com/mnews/article/021/0002805238,2026-07-16,2026-07-16,1,labor,other
+ca17af93189c,이직 의향,ý định nghỉ việc / intent to leave,i-jik ui-hyang,phrase,Mức độ muốn chuyển việc trong khảo sát,khảo sát công đoàn,,https://n.news.naver.com/mnews/article/021/0002805238,2026-07-16,2026-07-16,1,labor,other
 81833368534c,인터뷰,phỏng vấn,in-teo-byu,noun,interview,báo chí,,,2026-07-16,2026-07-16,1,media,noun
 bd3208440fb3,입장,lập trường / tuyên bố,ip-jang,noun,official position statement,truyền thông,소속사 입장,,2026-07-16,2026-07-16,1,media,noun
+2ef3d779cd0d,자사주,cổ phiếu tự doanh / treasury/company stock grant,ja-sa-ju,noun,Cổ phiếu công ty dùng để trả thưởng,thưởng Samsung,,https://n.news.naver.com/mnews/article/021/0002805238,2026-07-16,2026-07-16,1,finance,other
 bd3e6d0ed19e,정기 업데이트,cập nhật định kỳ,jeong-gi eop-de-i-teu,noun,bản cập nhật theo lịch định kỳ,phần mềm,6차 정기 업데이트,https://www.kakaocorp.com/page/detail/12082,2026-07-16,2026-07-16,1,software,other
 f2bf3274ef96,정신아,Jung Shin-a,jeong-sin-a,proper_noun,CEO / đại diện pháp lý Kakao,doanh nghiệp,카카오(대표이사 정신아),https://www.kakaocorp.com/page/detail/12082,2026-07-16,2026-07-16,1,executive,celebrity
 2309d716f3a6,정호연,Jung Ho-yeon,jeong-ho-yeon,proper_noun,nữ diễn viên / người mẫu Hàn Quốc,điện ảnh,정호연이 순경 성애 역,https://www.dispatch.co.kr/2345236,2026-07-16,2026-07-16,1,actor,celebrity
@@ -137,8 +150,11 @@ a142f50a656d,중복,Jungbok / phục giữa,jung-bok,,,middle dog day,,https://t
 d58c6d796aae,징역,án tù / hình phạt tù,jing-yeok,noun,imprisonment sentence,tư pháp,징역 2년 6개월,https://www.dispatch.co.kr/2344260,2026-07-16,2026-07-16,1,sentence,other
 388ea902b8d4,차트,bảng xếp hạng,cha-teu,noun,music chart,âm nhạc,,,2026-07-16,2026-07-16,1,music,noun
 5d2c24fe7d92,챗봇,chatbot,chaet-bot,noun,bot trò chuyện tự động,AI / messaging,챗봇(beta),https://www.kakaocorp.com/page/detail/12082,2026-07-16,2026-07-16,1,ai,other
+40bf4cd3b291,초과이익성과급,OPI / thưởng lợi nhuận vượt mức,cho-gwa-i-ik-seong-gwa-geup,noun,"Over Performance Incentive, thường trần % lương năm",Samsung compensation,,https://n.news.naver.com/mnews/article/021/0002805238,2026-07-16,2026-07-16,1,"samsung,labor",other
+6b41d9238a71,초기업노동조합,liên công đoàn đa doanh nghiệp,cho-gi-eop-no-dong-jo-hap,organization,Công đoàn liên doanh nghiệp (không chỉ một công ty),Samsung union,,https://n.news.naver.com/mnews/article/021/0002805238,2026-07-16,2026-07-16,1,labor,organization
 3f71750e5612,초복,Chobok / phục đầu,cho-bok,,,first dog day,,https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667,2026-07-16,2026-07-16,1,,other
 9da67986ae56,총재,thống đốc / governor,chong-jae,noun,Người đứng đầu ngân hàng trung ương,BOK governor,,https://n.news.naver.com/mnews/article/437/0000501443,2026-07-16,2026-07-16,1,economy,other
+58779c87449b,최승호,Choi Seung-ho,choe-seung-ho,proper_noun,Chủ tịch công đoàn chi nhánh Samsung Electronics,phát biểu khảo sát 2026,,https://n.news.naver.com/mnews/article/021/0002805238,2026-07-16,2026-07-16,1,labor,proper_noun
 a8d3b986f191,출소,xuất ngục / ra tù,chul-so,noun,rời cơ sở giam giữ sau khi chấp hành án,tư pháp,6월 30일 출소 예정,https://www.dispatch.co.kr/2344260,2026-07-16,2026-07-16,1,prison,other
 e38250c656d1,출연,tham gia / đóng vai,chul-yeon,noun,xuất hiện trên show/phim,giải trí,,,2026-07-16,2026-07-16,1,entertainment,noun
 f52b8741b9ad,카나나 오리지널,Kanana-original,ka-na-na o-ri-ji-neol,proper_noun,series video giới thiệu Kanana-o trên YouTube Kakao,marketing / AI,영상 시리즈 Kanana-original,https://www.kakaocorp.com/page/detail/12083,2026-07-16,2026-07-16,1,"campaign,youtube",other
@@ -159,6 +175,8 @@ dc267659a9ff,케이팝,K-pop,ke-i-pap,noun,nhạc pop Hàn Quốc,âm nhạc,,,2
 3ae1ab0e7668,통화 긴축,thắt chặt tiền tệ / monetary tightening,tong-hwa gin-chuk,phrase,"Giai đoạn nâng lãi suất, thu hẹp thanh khoản",chính sách tiền tệ,,https://n.news.naver.com/mnews/article/437/0000501443,2026-07-16,2026-07-16,1,economy,other
 097a1dca1ca1,투모로우바이투게더,TOMORROW X TOGETHER / TXT,tu-mo-ro-u-ba-i-tu-ge-deo,proper_noun,nhóm nhạc nam HYBE / Big Hit,K-pop,투모로우바이투게더 연준,https://www.dispatch.co.kr/2345227,2026-07-16,2026-07-16,1,"group,kpop",celebrity
 ebab7ac9cce9,투어,tour / chuyến lưu diễn,tu-eo,noun,chuỗi concert nhiều thành phố,sự kiện,,,2026-07-16,2026-07-16,1,event,noun
+e7cb4e00b8c1,특별경영성과급,thưởng thành tích kinh doanh đặc biệt,teuk-byeol-gyeong-yeong-seong-gwa-geup,noun,Bonus đặc biệt theo thỏa thuận lao–quản lý Samsung DS,Samsung 2026,,https://n.news.naver.com/mnews/article/021/0002805238,2026-07-16,2026-07-16,1,"samsung,labor",other
+94d4a7037c05,파운드리,foundry / sản xuất bán dẫn gia công,pa-un-deu-ri,noun,Dịch vụ gia công chip theo đơn đặt hàng,bán dẫn,,https://n.news.naver.com/mnews/article/021/0002805238,2026-07-16,2026-07-16,1,semiconductor,other
 72e6b0d92e72,패션,thời trang,pae-syeon,noun,fashion,thời trang,,,2026-07-16,2026-07-16,1,fashion,noun
 60cec53da715,팬,fan,paen,noun,người hâm mộ,fandom,,,2026-07-16,2026-07-16,1,fandom,noun
 f669d568eefd,팬미팅,fan meeting,paen-mi-ting,noun,gặp gỡ fan,sự kiện,,,2026-07-16,2026-07-16,1,event,noun

@@ -1,7 +1,7 @@
 # KoreaWiki Translation Memory (Korean → Vietnamese)
 
-> Private linguistic asset. Updated: 2026-07-16T13:06:05+00:00
-> Entries: 180
+> Private linguistic asset. Updated: 2026-07-16T13:10:06+00:00
+> Entries: 198
 
 | Korean | Vietnamese | Context | Category | Source | Updated |
 |--------|------------|---------|----------|--------|---------|
@@ -53,13 +53,17 @@
 | 데뷔 | ra mắt / debut | sự nghiệp | noun |  | 2026-07-16 |
 | 동일인 | người kiểm soát / controller | luật cạnh tranh / công bố tập đoàn | noun | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 드라마 | phim truyền hình / drama | truyền hình | drama |  | 2026-07-16 |
+| 디바이스경험 | Device Experience (DX) | Samsung DX | organization | https://n.news.naver.com/mnews/article/021/0002805238 | 2026-07-16 |
+| 디바이스솔루션 | Device Solutions (DS) | Samsung DS | organization | https://n.news.naver.com/mnews/article/021/0002805238 | 2026-07-16 |
 | 디스패치 | Dispatch | báo chí | organization |  | 2026-07-16 |
 | 라인업 | lineup / danh sách nghệ sĩ | sự kiện | other | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 만기 출소 | xuất ngục đúng hạn / hết hạn chấp hành | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 말복 | Malbok / phục cuối | last dog day | other | https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667 | 2026-07-16 |
 | 멀티모달 | multimodal / đa phương thức | AI | other | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
 | 멀티턴 | multi-turn (hội thoại nhiều lượt) | AI | other | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
+| 메모리 | Memory / bộ nhớ (bán dẫn) | Samsung DS | other | https://n.news.naver.com/mnews/article/021/0002805238 | 2026-07-16 |
 | 메이커스 | Makers (Kakao) | Kakao Makers | other | https://www.kakaocorp.com/page/detail/12080 | 2026-07-16 |
+| 문화일보 | Munhwa Ilbo / 문화일보 | báo chí | organization | https://n.news.naver.com/mnews/article/021/0002805238 | 2026-07-16 |
 | 뮤직비디오 | MV / video ca nhạc | âm nhạc | noun |  | 2026-07-16 |
 | 미니 | mini album | âm nhạc | other | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 민음사 | Minumsa | xuất bản | organization | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
@@ -83,10 +87,13 @@
 | 사진공동취재단 | đoàn phóng viên ảnh chung / joint press corps | credit ảnh tin tức | organization | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
 | 삼계탕 | samgyetang / canh gà nhân sâm | boknal food | other | https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667 | 2026-07-16 |
 | 삼복 | Sam-bok / ba ngày phục | chobok jungbok malbok | other | https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667 | 2026-07-16 |
+| 삼성전자 | Samsung Electronics | doanh nghiệp / bán dẫn | organization | https://n.news.naver.com/mnews/article/021/0002805238 | 2026-07-16 |
+| 삼성전자지부 | chi nhánh Samsung Electronics (công đoàn) | 초기업노조 | organization | https://n.news.naver.com/mnews/article/021/0002805238 | 2026-07-16 |
 | 서머배시 | Summer Bash | sự kiện / Mỹ | other | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 서울 | Seoul | địa danh | location |  | 2026-07-16 |
 | 서울고등법원 | Tòa thượng thẩm Seoul | tư pháp | organization | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 서울구치소 | trại giam Seoul | tư pháp | location | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
+| 성과급 | thưởng thành tích / performance bonus | lương thưởng doanh nghiệp | other | https://n.news.naver.com/mnews/article/021/0002805238 | 2026-07-16 |
 | 소망교도소 | nhà tù Somang | tư pháp / địa điểm | location | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 소상공인 | tiểu thương / SME nhỏ | small merchants | other | https://www.kakaocorp.com/page/detail/12080 | 2026-07-16 |
 | 소속사 | công ty quản lý / agency | ngành | noun |  | 2026-07-16 |
@@ -98,6 +105,7 @@
 | 스포티파이 | Spotify | âm nhạc | organization | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 시사회 | buổi công chiếu thử / premiere | điện ảnh | noun |  | 2026-07-16 |
 | 시상식 | lễ trao giải | giải thưởng | noun |  | 2026-07-16 |
+| 시스템LSI | System LSI | Samsung DS | other | https://n.news.naver.com/mnews/article/021/0002805238 | 2026-07-16 |
 | 신현송 | Shin Hyun-song | BOK governor | celebrity | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
 | 싱가포르 | Singapore | địa danh | location | https://www.dispatch.co.kr/2344420 | 2026-07-16 |
 | 싱글 | single | âm nhạc | noun |  | 2026-07-16 |
@@ -114,7 +122,9 @@
 | 연대보증 로맨스 | Yeondae Bojeung Romance | tên drama | drama | https://www.dispatch.co.kr/2344420 | 2026-07-16 |
 | 연습생 | thực tập sinh | K-pop | noun |  | 2026-07-16 |
 | 연준 | YEONJUN | K-pop | celebrity | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
+| 연합뉴스 | Yonhap News | credit ảnh / tin | organization | https://n.news.naver.com/mnews/article/021/0002805238 | 2026-07-16 |
 | 열애 | yêu đương / hẹn hò | showbiz | noun |  | 2026-07-16 |
+| 영업이익 | lợi nhuận hoạt động / operating profit | báo cáo tài chính | other | https://n.news.naver.com/mnews/article/021/0002805238 | 2026-07-16 |
 | 영진위 | Ủy ban Điện ảnh Hàn Quốc (KOFIC) | điện ảnh / chính sách | organization | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 영화 | phim điện ảnh | điện ảnh | movie |  | 2026-07-16 |
 | 영화관입장권 통합전산망 | mạng thống kê vé điện ảnh tích hợp | phòng vé | other | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
@@ -128,8 +138,11 @@
 | 음원 | nhạc số / digital track | âm nhạc | noun |  | 2026-07-16 |
 | 음주운전 | lái xe khi say rượu | pháp lý / giao thông | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 이감 | chuyển trại / chuyển giam | tư pháp / cải tạo | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
+| 이직 | nghỉ việc / chuyển việc / turnover | nhân sự | other | https://n.news.naver.com/mnews/article/021/0002805238 | 2026-07-16 |
+| 이직 의향 | ý định nghỉ việc / intent to leave | khảo sát công đoàn | other | https://n.news.naver.com/mnews/article/021/0002805238 | 2026-07-16 |
 | 인터뷰 | phỏng vấn | báo chí | noun |  | 2026-07-16 |
 | 입장 | lập trường / tuyên bố | truyền thông | noun |  | 2026-07-16 |
+| 자사주 | cổ phiếu tự doanh / treasury/company stock grant | thưởng Samsung | other | https://n.news.naver.com/mnews/article/021/0002805238 | 2026-07-16 |
 | 정기 업데이트 | cập nhật định kỳ | phần mềm | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
 | 정신아 | Jung Shin-a | doanh nghiệp | celebrity | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
 | 정호연 | Jung Ho-yeon | điện ảnh | celebrity | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
@@ -143,8 +156,11 @@
 | 징역 | án tù / hình phạt tù | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 차트 | bảng xếp hạng | âm nhạc | noun |  | 2026-07-16 |
 | 챗봇 | chatbot | AI / messaging | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
+| 초과이익성과급 | OPI / thưởng lợi nhuận vượt mức | Samsung compensation | other | https://n.news.naver.com/mnews/article/021/0002805238 | 2026-07-16 |
+| 초기업노동조합 | liên công đoàn đa doanh nghiệp | Samsung union | organization | https://n.news.naver.com/mnews/article/021/0002805238 | 2026-07-16 |
 | 초복 | Chobok / phục đầu | first dog day | other | https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667 | 2026-07-16 |
 | 총재 | thống đốc / governor | BOK governor | other | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
+| 최승호 | Choi Seung-ho | phát biểu khảo sát 2026 | proper_noun | https://n.news.naver.com/mnews/article/021/0002805238 | 2026-07-16 |
 | 출소 | xuất ngục / ra tù | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 출연 | tham gia / đóng vai | giải trí | noun |  | 2026-07-16 |
 | 카나나 오리지널 | Kanana-original | marketing / AI | other | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
@@ -165,6 +181,8 @@
 | 통화 긴축 | thắt chặt tiền tệ / monetary tightening | chính sách tiền tệ | other | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
 | 투모로우바이투게더 | TOMORROW X TOGETHER / TXT | K-pop | celebrity | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 투어 | tour / chuyến lưu diễn | sự kiện | noun |  | 2026-07-16 |
+| 특별경영성과급 | thưởng thành tích kinh doanh đặc biệt | Samsung 2026 | other | https://n.news.naver.com/mnews/article/021/0002805238 | 2026-07-16 |
+| 파운드리 | foundry / sản xuất bán dẫn gia công | bán dẫn | other | https://n.news.naver.com/mnews/article/021/0002805238 | 2026-07-16 |
 | 패션 | thời trang | thời trang | noun |  | 2026-07-16 |
 | 팬 | fan | fandom | noun |  | 2026-07-16 |
 | 팬미팅 | fan meeting | sự kiện | noun |  | 2026-07-16 |
