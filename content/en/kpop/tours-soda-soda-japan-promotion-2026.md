@@ -40,6 +40,11 @@ faq:
 
 
 
+
+
+
+
+
 Nhóm nhạc K-pop TOURS (TWS) đang chuẩn bị cho chiến dịch quảng bá quy mô lớn tại Nhật Bản nhân dịp ra mắt single Nhật thứ hai "SODA SODA", dự kiến phát hành vào ngày 4 tháng 8 năm 2026.
 
 ## Hợp tác với Shibuya109
@@ -84,7 +89,7 @@ external:
   - title: "pledis.co.kr"
     url: "https://www.pledis.co.kr/"
 internal:
-  - title: "aespa Returns with 'Armageddon': A Futuristic Sonic Evolution That Redefines Their Narrative"
+  - title: "aespa trở lại với 'Armageddon': Sự tiến hóa âm thanh tương lai định nghĩa lại câu chuyện của họ"
     url: "en/kpop/aespa-comeback-armageddon/"
   - title: "Bang Chan (Stray Kids) tỏa sáng tại sự kiện ra mắt bộ sưu tập mùa đông 2026"
     url: "en/kpop/bangchan-winter-collection-2026/"

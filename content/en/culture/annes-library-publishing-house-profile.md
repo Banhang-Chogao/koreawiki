@@ -9,8 +9,8 @@ draft: false
 author: Jang Su-jeong (Dailyan)
 cover:
   image: images/2026/07/annes-library-publishing-house-2026.jpg
-  alt: "Sách và ấn phẩm của nhà xuất bản Anne's Library"
-  caption: "Anne's Library — Ảnh: Jang Su-jeong / Dailian"
+  alt: Sách và ấn phẩm của nhà xuất bản Anne's Library
+  caption: 'Anne''s Library — Ảnh: Jang Su-jeong / Dailian'
 tags:
 - annes-library
 - publishing
@@ -45,6 +45,11 @@ faq:
     mới với triết lý hạ thấp rào cản tiếp cận tri thức, mang văn học cổ điển và nghệ
     thuật đến gần hơn với độc giả hiện đại.
 ---
+
+
+
+
+
 
 
 
@@ -106,7 +111,7 @@ copyright: >
   quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn
   nguồn khi trích dẫn.
 internal:
-  - title: "The Hanbok Renaissance: How Korea's Traditional Dress Found a New Generation of Wearers"
+  - title: "Thời kỳ Phục hưng Hanbok: Trang phục truyền thống của Hàn Quốc đã tìm thấy thế hệ người mặc mới như thế nào"
     url: "en/culture/hanbok-modern-revival/"
   - title: "Liên hoan phim độc lập Incheon lần thứ 13: Giữ gìn gốc rễ K-Content từ vùng địa phương"
     url: "en/culture/incheon-independent-film-festival-2026/"

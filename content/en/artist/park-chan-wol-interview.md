@@ -1,16 +1,16 @@
 ---
 title: 'Park Chan-wol: Đạo diễn độc lập từ chối làm cùng một bộ phim hai lần'
-description: Nhà làm phim lập dị đằng sau 'Busan at Dawn' và 'The Inbetween' nói về quá trình
-  sáng tạo của anh ấy, việc từ chối hệ thống trường quay và thử nghiệm VR sắp tới của anh
-  ấy.
+description: Nhà làm phim lập dị đằng sau 'Busan at Dawn' và 'The Inbetween' nói về
+  quá trình sáng tạo của anh ấy, việc từ chối hệ thống trường quay và thử nghiệm VR
+  sắp tới của anh ấy.
 date: 2026-07-06
 draft: false
 author: Hyun-Woo Lee
 cover:
   image: images/sample/park-chan-wol-interview.jpg
   alt: Park Chan-wol trên phim trường
-  caption: Đạo diễn Park Chan-wol tại địa điểm ở Busan trong quá trình sản xuất dự án mới
-    nhất của ông
+  caption: Đạo diễn Park Chan-wol tại địa điểm ở Busan trong quá trình sản xuất dự
+    án mới nhất của ông
 tags:
 - park-chan-wol
 - independent-film
@@ -25,24 +25,28 @@ keywords:
 - independent-film
 - director
 - interview
-slug: park-chan-wol-the-indie-director-who-refuses-to-make-the-same-film-twice
+slug: park-chan-wol-dao-dien-doc-lap-tu-choi-lam-cung-mot-bo-phim-hai-lan
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Nhà làm phim lập dị đằng sau 'Busan at Dawn' và 'The Inbetween' nói về quá trình sáng
-    tạo của anh ấy, việc từ chối hệ thống trường quay và thử nghiệm VR sắp tới của anh ấy.
+  a: Nhà làm phim lập dị đằng sau 'Busan at Dawn' và 'The Inbetween' nói về quá trình
+    sáng tạo của anh ấy, việc từ chối hệ thống trường quay và thử nghiệm VR sắp tới
+    của anh ấy.
 - q: Nội dung chính về «The VR Frontier» là gì?
-  a: Dự án tiếp theo của Park thể hiện sự ra đi triệt để nhất của anh ấy. "Vanishing Point"
-    là trải nghiệm thực tế ảo dài 45 phút đưa người xem vào trong ký ức của một bệnh nhân
-    sa sút trí tuệ.
+  a: Dự án tiếp theo của Park thể hiện sự ra đi triệt để nhất của anh ấy. "Vanishing
+    Point" là trải nghiệm thực tế ảo dài 45 phút đưa người xem vào trong ký ức của
+    một bệnh nhân sa sút trí tuệ.
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: Park Chan-wol không làm phim dành cho những người muốn được an ủi. Vị đạo diễn 41 tuổi,
-    với năm phim điện ảnh đã khiến các nhà phê bình phân cực và các nhà tổ chức liên hoan
-    phim hài lòng, đang ngồi đối diện tôi tại một quán cà phê yên tĩnh ở quận Hongdae của
-    Seoul, chăm sóc một người Mỹ và giải thích lý do tại sao ông từ chối mọi lời đề nghị của
-    hãng phim đến với mình.
+  a: Park Chan-wol không làm phim dành cho những người muốn được an ủi. Vị đạo diễn
+    41 tuổi, với năm phim điện ảnh đã khiến các nhà phê bình phân cực và các nhà tổ
+    chức liên hoan phim hài lòng, đang ngồi đối diện tôi tại một quán cà phê yên tĩnh
+    ở quận Hongdae của Seoul, chăm sóc một người Mỹ và giải thích lý do tại sao ông
+    từ chối mọi lời đề nghị của hãng phim đến với mình.
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
+
+
 
 Park Chan-wol không làm phim dành cho những người muốn được an ủi. Đạo diễn 41 tuổi, người có năm phim truyện đã khiến các nhà phê bình phân cực và làm các nhà tổ chức liên hoan phim thích thú, là
 ngồi đối diện tôi tại một quán cà phê yên tĩnh ở quận Hongdae của Seoul, chăm sóc một người Mỹ và giải thích lý do tại sao anh ấy từ chối mọi lời đề nghị của studio đến với mình.
@@ -63,10 +67,9 @@ kiên nhẫn. Dự án do Đại học Nghệ thuật Quốc gia Hàn Quốc và
 “Tôi chán cái khung rồi,” Park giải thích, dùng tay ra hiệu để tạo ra một hình chữ nhật. "Điện ảnh đã bị mắc kẹt bên trong hình chữ nhật này suốt 130 năm. VR mang đến khả năng
 một rạp chiếu phim không có tường. Tôi không biết liệu nó có hiệu quả không. Nhưng tôi phải cố gắng."
 
-Nguồn tài trợ cho dự án đến từ sự kết hợp giữa các khoản tài trợ của hội đồng nghệ thuật và quyên góp tư nhân, tổng cộng là 2,8 tỷ Yên — khiêm tốn so với tiêu chuẩn phim thương mại nhưng có ý nghĩa quan trọng đối với một bộ phim.
+Nguồn tài trợ cho dự án đến từ sự kết hợp giữa các khoản tài trợ của hội đồng nghệ thuật và quyên góp tư nhân, tổng cộng là 2,8 tỷ Yên — khiêm tốn so với tiêu chuẩn phim thương
+mại nhưng có ý nghĩa quan trọng đối với một bộ phim.
 công việc VR thử nghiệm. Trải nghiệm này sẽ ra mắt tại Liên hoan phim Venice vào tháng 9.
-
-
 
 {{< article-footer >}}
 copyright: >
@@ -74,7 +77,7 @@ copyright: >
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+  - title: "Kỷ nguyên solo của SUGA: Min Yoon-gi đã định nghĩa lại ý nghĩa của việc trở thành một nghệ sĩ K-Pop như thế nào"
     url: "en/artist/bts-suga-solo-artist-profile/"
   - title: "Choi Siwon (Super Junior) được tòa Mỹ cho phép truy xuất danh tính 10 anti-fan"
     url: "en/artist/choi-siwon-us-court-identity-disclosure-2026/"

@@ -7,8 +7,8 @@ draft: false
 author: Xportsnews
 cover:
   image: images/2026/07/yoo-ah-in-hope-premiere-2026.jpg
-  alt: "Yoo Ah-in tại buổi ra mắt phim Hope"
-  caption: "Yoo Ah-in — Ảnh: The Korea Times"
+  alt: Yoo Ah-in tại buổi ra mắt phim Hope
+  caption: 'Yoo Ah-in — Ảnh: The Korea Times'
 tags:
 - yoo-ah-in
 - hope
@@ -40,6 +40,11 @@ faq:
     phim "Hope" của đạo diễn Na Hong-jin vào thứ Hai tại Megabox Coex thuộc quận Gangnam,
     Seoul.
 ---
+
+
+
+
+
 
 
 
@@ -103,7 +108,7 @@ copyright: >
   tổng hợp, biên tập và phân tích phục vụ độc giả — không thay thế thông cáo hay tài liệu
   chính thức.
 internal:
-  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+  - title: "Kỷ nguyên solo của SUGA: Min Yoon-gi đã định nghĩa lại ý nghĩa của việc trở thành một nghệ sĩ K-Pop như thế nào"
     url: "en/artist/bts-suga-solo-artist-profile/"
   - title: "Choi Siwon (Super Junior) được tòa Mỹ cho phép truy xuất danh tính 10 anti-fan"
     url: "en/artist/choi-siwon-us-court-identity-disclosure-2026/"

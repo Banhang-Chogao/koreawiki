@@ -1,8 +1,8 @@
 ---
-title: 'Độc quyền: Bên trong nhóm nhạc nữ tiếp theo của SM Entertainment — Tầm nhìn, Thành
-  viên, Chiến lược'
-description: KoreaWiki có được quyền truy cập chưa từng có vào cơ sở đào tạo của SM khi công
-  ty chuẩn bị ra mắt nhóm nhạc nữ mới đầu tiên sau sáu năm.
+title: 'Độc quyền: Bên trong nhóm nhạc nữ tiếp theo của SM Entertainment — Tầm nhìn,
+  Thành viên, Chiến lược'
+description: KoreaWiki có được quyền truy cập chưa từng có vào cơ sở đào tạo của SM
+  khi công ty chuẩn bị ra mắt nhóm nhạc nữ mới đầu tiên sau sáu năm.
 date: 2026-07-14
 draft: false
 author: Ji-Yeon Park
@@ -24,25 +24,28 @@ keywords:
 - exclusive
 - debut
 - Exclusive
-slug: exclusive-inside-sm-entertainments-next-girl-group-the-vision-the-members-the-strategy
+slug: doc-quyen-ben-trong-nhom-nhac-nu-tiep-theo-cua-sm-entertainment-tam-nhin-thanh-vien-chien-luoc
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: KoreaWiki có được quyền truy cập chưa từng có vào cơ sở đào tạo của SM khi công ty chuẩn
-    bị ra mắt nhóm nhạc nữ mới đầu tiên sau sáu năm.
+  a: KoreaWiki có được quyền truy cập chưa từng có vào cơ sở đào tạo của SM khi công
+    ty chuẩn bị ra mắt nhóm nhạc nữ mới đầu tiên sau sáu năm.
 - q: Nội dung chính về «The Final Seven» là gì?
-  a: Sau hai năm thử giọng thu hút hơn 60.000 người đăng ký, đội hình đã được chốt gồm bảy
-    thành viên, trong độ tuổi từ 17 đến 22. SM từ chối tiết lộ danh tính của họ trước thông
-    báo ra mắt chính thức, nhưng KoreaWiki đã xác nhận rằng nhóm bao gồm hai người Trung Quốc-Hàn
-    Quốc…
+  a: Sau hai năm thử giọng thu hút hơn 60.000 người đăng ký, đội hình đã được chốt
+    gồm bảy thành viên, trong độ tuổi từ 17 đến 22. SM từ chối tiết lộ danh tính của
+    họ trước thông báo ra mắt chính thức, nhưng KoreaWiki đã xác nhận rằng nhóm bao
+    gồm hai người Trung Quốc-Hàn Quốc…
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: SEOUL - Đằng sau những cánh cửa kính không có dấu vết của một tòa nhà bình thường ở Seongnam,
-    cách Seoul 20 phút về phía nam, thế hệ K-pop tiếp theo đang được tập hợp với độ chính
-    xác của quân đội. KoreaWiki đã được cấp quyền truy cập độc quyền vào "Trung tâm đào tạo
-    NEO" mới hoàn thành của SM Entertainment, một cơ sở trị giá 50 tỷ Yên, nơi nhóm nhạc nữ
-    tiếp theo của công ty — hiện…
+  a: SEOUL - Đằng sau những cánh cửa kính không có dấu vết của một tòa nhà bình thường
+    ở Seongnam, cách Seoul 20 phút về phía nam, thế hệ K-pop tiếp theo đang được tập
+    hợp với độ chính xác của quân đội. KoreaWiki đã được cấp quyền truy cập độc quyền
+    vào "Trung tâm đào tạo NEO" mới hoàn thành của SM Entertainment, một cơ sở trị
+    giá 50 tỷ Yên, nơi nhóm nhạc nữ tiếp theo của công ty — hiện…
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
+
+
 
 SEOUL - Đằng sau những cánh cửa kính không có dấu vết của một tòa nhà bình thường ở Seongnam, cách Seoul 20 phút về phía nam, thế hệ K-pop tiếp theo đang được tập hợp với độ chính xác của quân đội.
 KoreaWiki đã được cấp quyền truy cập độc quyền vào "Trung tâm đào tạo NEO" mới hoàn thành của SM Entertainment, một cơ sở trị giá 50 tỷ Yên nơi nhóm nhạc nữ tiếp theo của công ty — hiện tại
@@ -69,16 +72,14 @@ một số thành viên chơi nhạc cụ. Album đầu tay, dự kiến ra mắ
 
 Người phát ngôn của SM Entertainment từ chối bình luận về chi tiết cụ thể nhưng xác nhận rằng nhóm nhạc nữ mới sẽ ra mắt vào quý 1 năm 2027.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Ji-Yeon Park** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "Exclusive: On Set With 'Goryeo Dreams' — Inside KBS's Most Ambitious Period Drama"
+  - title: "Độc quyền: Trên trường quay 'Goryeo Dreams' — Bên trong bộ phim cổ trang đầy tham vọng nhất của KBS"
     url: "en/exclusive/behind-the-scenes-goryeo-drama/"
-  - title: "Exclusive: BTS Members Weigh In on Group Future — 'We Will Come Back When the Story Requires It'"
+  - title: "Độc quyền: Các thành viên BTS cân nhắc về tương lai của nhóm - 'Chúng tôi sẽ quay lại khi câu chuyện yêu cầu'"
     url: "en/exclusive/bts-members-individual-futures/"
 {{< /article-footer >}}
