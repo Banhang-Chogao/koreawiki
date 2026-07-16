@@ -1,8 +1,8 @@
 {
   "version": 1,
   "language_pair": "ko-vi",
-  "updated": "2026-07-16T13:10:06+00:00",
-  "count": 198,
+  "updated": "2026-07-16T13:10:38+00:00",
+  "count": 199,
   "categories": {
     "adjective": 1,
     "celebrity": 19,
@@ -13,7 +13,7 @@
     "movie": 4,
     "noun": 56,
     "organization": 30,
-    "other": 65,
+    "other": 66,
     "phrase": 1,
     "proper_noun": 2,
     "verb": 2

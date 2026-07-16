@@ -1,4 +1,5 @@
 id,korean,vietnamese,romanization,pos,meaning,context,example,source_url,first_seen,last_seen,frequency,tags,category
+67ad9b0e792b,건축,kiến trúc,geon-chuk,,,architecture,,https://www.archdaily.com/975033/our-lady-of-victoria-monastery-localworks,2026-07-16,2026-07-16,2,,other
 ed0f4da4b180,배우,diễn viên,bae-u,noun,người biểu diễn trên màn ảnh,ngành giải trí,그 배우는 유명하다.,https://example.com/test,2026-07-16,2026-07-16,2,entertainment,noun
 5a3471831532,AI로 만들기,Tạo bằng AI,ei-a-i-ro man-deul-gi,phrase,nút tái tạo ảnh bằng AI trên KakaoTalk,KakaoTalk / AI,우측 상단의 'AI로 만들기'를 눌러,https://www.kakaocorp.com/page/detail/12082,2026-07-16,2026-07-16,1,"feature,ai",other
 67276be18dcb,~에 따르면,theo…,e tta-reu-myeon,pattern,dẫn nguồn,báo chí,보도에 따르면,,2026-07-16,2026-07-16,1,news,grammar
@@ -10,7 +11,6 @@ c0dc48ba6539,가처분,lệnh tạm thời / injunction,ga-cheo-bun,noun,Biện 
 0b99cfd64501,감독,đạo diễn,gam-dok,noun,người chỉ đạo phim,điện ảnh,,,2026-07-16,2026-07-16,1,film,noun
 ed5fa0128d02,강남,Gangnam,gang-nam,proper_noun,"khu Gangnam, Seoul",địa danh,,,2026-07-16,2026-07-16,1,place,location
 c6f46929ea2a,개봉,công chiếu / ra rạp,gae-bong,noun,phát hành phim,điện ảnh,영화가 개봉했다.,,2026-07-16,2026-07-16,1,film,noun
-67ad9b0e792b,건축,kiến trúc,geon-chuk,,,architecture,,https://www.archdaily.com/975033/our-lady-of-victoria-monastery-localworks,2026-07-16,2026-07-16,1,,other
 aff3380a27d0,결별,chia tay,gyeol-byeol,noun,breakup,showbiz,,,2026-07-16,2026-07-16,1,showbiz,noun
 57ac5270980c,결혼,kết hôn,gyeol-hon,noun,marriage,đời tư,,,2026-07-16,2026-07-16,1,life,noun
 0f6c596b2660,고물가,lạm phát cao / high inflation,go-mul-ga,noun,Mức giá tiêu dùng tăng mạnh,kinh tế vĩ mô,,https://n.news.naver.com/mnews/article/437/0000501443,2026-07-16,2026-07-16,1,"economy,inflation",other
@@ -146,6 +146,7 @@ f1e3f5161dc4,제작,sản xuất,je-jak,noun,production,truyền thông,,,2026-0
 1a658d6fb0ba,조나단,Jonathan,jo-na-dan,proper_noun,người dẫn chương trình / broadcaster tại Hàn,truyền hình,방송인 조나단,https://www.kakaocorp.com/page/detail/12083,2026-07-16,2026-07-16,1,broadcaster,celebrity
 4cad7da6e8bc,조인성,Jo In-sung,jo-in-seong,proper_noun,nam diễn viên Hàn Quốc,điện ảnh,조인성은 마을 청년인 성기 역할,https://www.dispatch.co.kr/2345236,2026-07-16,2026-07-16,1,actor,celebrity
 f5a71ff61b12,주목받다,được chú ý,ju-mok-bat-da,verb,draw attention,truyền thông,,,2026-07-16,2026-07-16,1,media,verb
+445df91e1a82,주택,nhà ở / house,ju-taek,,,houses,,https://www.archdaily.com/1092490/cathedral-house-jak-architecture,2026-07-16,2026-07-16,1,,other
 a142f50a656d,중복,Jungbok / phục giữa,jung-bok,,,middle dog day,,https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667,2026-07-16,2026-07-16,1,,other
 d58c6d796aae,징역,án tù / hình phạt tù,jing-yeok,noun,imprisonment sentence,tư pháp,징역 2년 6개월,https://www.dispatch.co.kr/2344260,2026-07-16,2026-07-16,1,sentence,other
 388ea902b8d4,차트,bảng xếp hạng,cha-teu,noun,music chart,âm nhạc,,,2026-07-16,2026-07-16,1,music,noun

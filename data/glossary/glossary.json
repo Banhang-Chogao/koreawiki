@@ -1,8 +1,24 @@
 {
   "version": 1,
   "language_pair": "ko-vi",
-  "updated": "2026-07-16T13:10:06+00:00",
+  "updated": "2026-07-16T13:10:38+00:00",
   "entries": [
+    {
+      "id": "67ad9b0e792b",
+      "korean": "건축",
+      "vietnamese": "kiến trúc",
+      "romanization": "geon-chuk",
+      "pos": "",
+      "meaning": "",
+      "context": "architecture",
+      "example": "",
+      "source_url": "https://www.archdaily.com/975033/our-lady-of-victoria-monastery-localworks",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 2,
+      "tags": [],
+      "category": "other"
+    },
     {
       "id": "ed0f4da4b180",
       "korean": "배우",
@@ -202,22 +218,6 @@
         "film"
       ],
       "category": "noun"
-    },
-    {
-      "id": "67ad9b0e792b",
-      "korean": "건축",
-      "vietnamese": "kiến trúc",
-      "romanization": "geon-chuk",
-      "pos": "",
-      "meaning": "",
-      "context": "architecture",
-      "example": "",
-      "source_url": "https://www.archdaily.com/975033/our-lady-of-victoria-monastery-localworks",
-      "first_seen": "2026-07-16",
-      "last_seen": "2026-07-16",
-      "frequency": 1,
-      "tags": [],
-      "category": "other"
     },
     {
       "id": "aff3380a27d0",
@@ -2652,6 +2652,22 @@
         "media"
       ],
       "category": "verb"
+    },
+    {
+      "id": "445df91e1a82",
+      "korean": "주택",
+      "vietnamese": "nhà ở / house",
+      "romanization": "ju-taek",
+      "pos": "",
+      "meaning": "",
+      "context": "houses",
+      "example": "",
+      "source_url": "https://www.archdaily.com/1092490/cathedral-house-jak-architecture",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [],
+      "category": "other"
     },
     {
       "id": "a142f50a656d",

@@ -1,10 +1,11 @@
 # KoreaWiki Translation Memory (Korean → Vietnamese)
 
-> Private linguistic asset. Updated: 2026-07-16T13:10:06+00:00
-> Entries: 198
+> Private linguistic asset. Updated: 2026-07-16T13:10:38+00:00
+> Entries: 199
 
 | Korean | Vietnamese | Context | Category | Source | Updated |
 |--------|------------|---------|----------|--------|---------|
+| 건축 | kiến trúc | architecture | other | https://www.archdaily.com/975033/our-lady-of-victoria-monastery-localworks | 2026-07-16 |
 | 배우 | diễn viên | ngành giải trí | noun | https://example.com/test | 2026-07-16 |
 | AI로 만들기 | Tạo bằng AI | KakaoTalk / AI | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
 | ~에 따르면 | theo… | báo chí | grammar |  | 2026-07-16 |
@@ -16,7 +17,6 @@
 | 감독 | đạo diễn | điện ảnh | noun |  | 2026-07-16 |
 | 강남 | Gangnam | địa danh | location |  | 2026-07-16 |
 | 개봉 | công chiếu / ra rạp | điện ảnh | noun |  | 2026-07-16 |
-| 건축 | kiến trúc | architecture | other | https://www.archdaily.com/975033/our-lady-of-victoria-monastery-localworks | 2026-07-16 |
 | 결별 | chia tay | showbiz | noun |  | 2026-07-16 |
 | 결혼 | kết hôn | đời tư | noun |  | 2026-07-16 |
 | 고물가 | lạm phát cao / high inflation | kinh tế vĩ mô | other | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
@@ -152,6 +152,7 @@
 | 조나단 | Jonathan | truyền hình | celebrity | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
 | 조인성 | Jo In-sung | điện ảnh | celebrity | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 주목받다 | được chú ý | truyền thông | verb |  | 2026-07-16 |
+| 주택 | nhà ở / house | houses | other | https://www.archdaily.com/1092490/cathedral-house-jak-architecture | 2026-07-16 |
 | 중복 | Jungbok / phục giữa | middle dog day | other | https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667 | 2026-07-16 |
 | 징역 | án tù / hình phạt tù | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 차트 | bảng xếp hạng | âm nhạc | noun |  | 2026-07-16 |
