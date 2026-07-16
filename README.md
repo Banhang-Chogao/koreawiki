@@ -71,6 +71,7 @@ koreawiki/
 | `slug.py` | Normalize URL slugs |
 | `translate.py` | Export for translation (+ TM hints) |
 | `glossary.py` | Translation Memory & Glossary manager |
+| `self_healing.py` | CI failure recovery (scientist playbook) |
 | `optimize_images.py` | Validate image refs |
 | `check_links.py` | Internal link checking |
 | `generate_schema.py` | Schema.org validation |
@@ -96,6 +97,23 @@ python3 scripts/glossary.py sync
 ```
 
 Backup / restore procedures: see [`data/glossary/README.md`](data/glossary/README.md).
+
+## Self-Healing CI/CD
+
+When **Build & Deploy** or **QA** fails, GitHub Actions runs
+**Self-Healing Recovery** automatically:
+
+1. Download workflow logs  
+2. Apply deterministic fixes from `scientist.md` / `AGENTS.md`  
+3. Re-validate (Hugo, QA, SEO, links, …) — max 5 rounds  
+4. Open a `self-heal/…` PR (auto-merge only if fully green)  
+5. Never force-deploy while checks are red  
+
+```bash
+python3 scripts/self_healing.py recover --log /tmp/workflow.log
+```
+
+See [`docs/self-healing.md`](docs/self-healing.md) and [`AGENTS.md`](AGENTS.md).
 
 ## Deployment
 

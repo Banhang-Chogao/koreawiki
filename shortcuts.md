@@ -37,6 +37,7 @@ Mỗi mục nên ghi rõ:
 | `Tab` | Search overlay | Autocomplete gợi ý / title | `autocompleteTab()` lấy suggestion đầu hoặc title kết quả đầu | `implemented` | `assets/js/search.js` |
 | `mm` | `opencode` command | Workflow xuất bản news tiếng Hàn + cập nhật Translation Memory | `.opencode/commands/mm.md` (consult TM → translate → extract → upsert → sync glossary → QA → build) | `implemented` | `.opencode/commands/mm.md`, `scripts/glossary.py`, `data/glossary/`, `scientist.md` |
 | `glossary` page | Site footer / `/glossary/` | Duyệt bảng thuật ngữ Hàn→Việt | Layout `glossary/list.html` + `assets/js/glossary.js` search (Hangul/VI/romaja, fuzzy, filter, pagination) | `implemented` | `content/en/glossary/`, `themes/koreawiki/layouts/glossary/`, `assets/js/glossary.js` |
+| Self-heal CI | GitHub Actions on Build/QA **failure** | Tự phân tích log, fix theo scientist.md, validate, mở PR | `.github/workflows/self-healing.yml` + `scripts/self_healing.py` (max 5 rounds, không force deploy) | `implemented` | `AGENTS.md`, `scientist.md`, `docs/self-healing.md`, `reports/self-healing/` |
 
 ## Recent `mm` Runs
 

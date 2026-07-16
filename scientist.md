@@ -209,6 +209,25 @@ git commit --allow-empty -m "redeploy article" && git push
 
 ---
 
+## Entry 015 — 2026-07-16: Self-Healing CI/CD system
+
+**Added:** Automatic recovery when Build & Deploy or QA fails.
+
+**Components:**
+- `AGENTS.md` — agent recovery protocol (always consult scientist.md)
+- `scripts/self_healing.py` — analyze logs, apply playbook fixes, validate, report
+- `.github/workflows/self-healing.yml` — trigger on `workflow_run` failure
+- `docs/self-healing.md` — architecture
+- `reports/self-healing/` — logs + RECOVERY_REPORT.md
+
+**Flow:** failure → download logs → fix (max 5 rounds) → validate → PR → merge only if green → normal deploy. Never force deploy while red.
+
+**Known auto-fixes:** missing draft/keywords/author, markdown wrap, slugs, Hugo `try`→`fileExists` (0.126), glossary sync.
+
+**Prevention:** Keep playbook entries in scientist.md; agents must run `self_healing.py recover` on any red CI.
+
+---
+
 ## Entry 014 — 2026-07-16: Homepage restored to chronological news feed
 
 **Change:** Removed per-category “latest in every section” homepage layout; restored classic newsroom feed.
