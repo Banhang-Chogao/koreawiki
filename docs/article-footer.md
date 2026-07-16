@@ -1,6 +1,6 @@
 # Article Footer Macro
 
-> **BẮT BUỘC** cho mọi bài viết, mọi cách soạn (`mm`, thủ công, AI, import…).
+> **BẮT BUỘC** cho mọi bài viết, mọi cách soạn (`mm`, `nn`, `th`, thủ công, AI, import…).
 > `scripts/qa.py` fail nếu thiếu `faq:` hoặc `article-footer`.
 > Auto-fill: `python3 scripts/apply_article_footer.py --apply`
 
@@ -63,9 +63,9 @@ faq:
 
 Chỉ render block nào có dữ liệu. FAQ dùng `<details>` (mở câu đầu).
 
-## mm workflow
+## mm / nn / th workflow
 
-Khi publish bài với `mm`, nên điền:
+Khi publish bài với `mm`, `nn`, hoặc `th`, nên điền:
 
 - Nguồn báo gốc → `source` / `source_url` / `copyright`
 - 1–3 internal links cùng chuyên mục

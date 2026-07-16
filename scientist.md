@@ -259,6 +259,24 @@ AGENTS.md publishing section documents the same contract for both shortcuts.
 
 ---
 
+## Entry 027 — 2026-07-16: Permanent shortcut `th` (Thailand market → Vietnamese)
+
+**Added:** `.opencode/commands/th.md` — durable agent command parallel to `mm` / `nn`.
+
+| | `mm` | `nn` | `th` |
+|--|------|------|-----|
+| Market | Korea (Korean news) | General EN (+ ArchDaily) | **Thailand** (Thai **or** EN about TH) |
+| Translate | KO → VI | EN → VI | **TH→VI or EN→VI** |
+| Images | `fetch_cover.py --all` | same (+ ArchDaily gallery) | same full gallery |
+| QA / footer / FAQ | required | required | required |
+| TM | Heavy KO↔VI | Light | Light; **never invent Hangul** for Thai-only terms |
+
+**Docs:** `shortcuts.md` row; `AGENTS.md` publishing section. Trigger: type `th` in opencode.
+
+**Routing:** pure Korean → `mm`; general EN no Thailand angle → `nn`; Thai or Thailand-related EN → `th`.
+
+---
+
 ## Entry 026 — 2026-07-16: Permanent shortcut `nn` (English → Vietnamese)
 
 **Added:** `.opencode/commands/nn.md` — durable agent command parallel to `mm`.

@@ -120,16 +120,17 @@ If a fix is **not** in the playbook / `scientist.md`, stop after 5 rounds, write
 6. **Hugo CI = 0.126.0** — do not use `try`, or other post-0.126-only template funcs without bumping `HUGO_VERSION` in workflows  
 7. **Private TM** stays under `data/glossary/` — never publish raw JSON/CSV/SQLite under `static/` or `public/`
 
-## Publishing shortcuts (`mm` / `nn`)
+## Publishing shortcuts (`mm` / `nn` / `th`)
 
 | Command | When |
 |---------|------|
 | **`mm`** | Source article is **Korean** → Vietnamese — `.opencode/commands/mm.md` |
 | **`nn`** | Source article is **English** (general news/blog **or ArchDaily**) → Vietnamese — `.opencode/commands/nn.md` |
+| **`th`** | **Thailand market**: Thai **or** English source related to Thailand → Vietnamese — `.opencode/commands/th.md` |
 
-Both require full image gallery fetch (`scripts/fetch_cover.py --all`), `faq` + `article-footer`, QA, and Hugo build before push.
+All three require full image gallery fetch (`scripts/fetch_cover.py --all`), `faq` + `article-footer`, QA, and Hugo build before push.
 
-**Images + baseURL (critical for `nn` ArchDaily galleries):**
+**Images + baseURL (critical for `nn` ArchDaily galleries and all body galleries):**
 
 - Host files under `static/images/YYYY/MM/`
 - `cover.image`: `images/…` (no leading `/`) → templates use `relURL`
@@ -141,13 +142,15 @@ Both require full image gallery fetch (`scripts/fetch_cover.py --all`), `faq` + 
 Shared steps:
 
 1. `python3 scripts/glossary.py consult` before translate  
-2. **Human rewrite** into Vietnamese (KO→VI / EN→VI): objective, natural voice,
-   **full facts retained** (no thin MT paste) — original editorial contribution  
+2. **Human rewrite** into Vietnamese (KO→VI / EN→VI / TH→VI for `th`): objective,
+   natural voice, **full facts retained** (no thin MT paste) — original editorial
+   contribution  
 3. **Body length ≥ 2,000 words** (`python3 scripts/wordcount_article.py <post.md> --min 2000`).
    Expand with real reader value (context, FAQ, term explainers), never empty padding.
    (AdSense has no official 2k rule; we use 2k as our substance floor.)  
 4. Fetch **all** usable source images → `static/images/…` + body Markdown embeds  
-5. Extract TM → `glossary.py upsert` → `sync` (lighter for pure EN when no KO terms)  
+5. Extract TM → `glossary.py upsert` → `sync` (lighter for pure EN / pure TH when no
+   KO terms; **never invent Hangul** for Thai-only words)  
 6. Run scientist / QA validate + baseURL image smoke test  
 7. Commit + push only when green  
 
