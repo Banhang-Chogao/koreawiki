@@ -67,7 +67,7 @@ dataDir = "data-hugo"
 
   twitter = "@koreawiki"
   search = true
-  darkMode = true
+  darkMode = false
   comments = true
   relatedPosts = true
   readingTime = true
