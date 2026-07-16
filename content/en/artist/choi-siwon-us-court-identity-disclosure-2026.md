@@ -1,8 +1,7 @@
 ---
 title: Choi Siwon (Super Junior) được tòa Mỹ cho phép truy xuất danh tính 10 anti-fan
-description: >-
-  Tòa án liên bang khu vực Bắc California phê duyệt yêu cầu tiết lộ thông tin
-  người dùng theo luật 28 U.S.C. §1782, giúp thành viên Super Junior đẩy nhanh
+description: Tòa án liên bang khu vực Bắc California phê duyệt yêu cầu tiết lộ thông
+  tin người dùng theo luật 28 U.S.C. §1782, giúp thành viên Super Junior đẩy nhanh
   vụ kiện chống bình luận độc hại trên X và YouTube.
 date: 2026-07-07
 draft: false
@@ -30,7 +29,21 @@ keywords:
 - sm entertainment
 - danh tính anti-fan
 slug: choi-siwon-super-junior-duoc-toa-my-cho-phep-truy-xuat-danh-tinh-10-anti-fan
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: Tòa án liên bang khu vực Bắc California phê duyệt yêu cầu tiết lộ thông tin người
+    dùng theo luật 28 U.S.C. §1782, giúp thành viên Super Junior đẩy nhanh vụ kiện
+    chống bình luận độc hại trên X và YouTube.
+- q: Nội dung chính về «Tòa Mỹ phê duyệt yêu cầu tiết lộ danh tính» là gì?
+  a: Theo Dispatch, Choi Siwon đã nộp đơn vào tháng 6 năm 2026 căn cứ **28 U.S.C.
+    §1782** — quy định hỗ trợ thu thập chứng cứ cho tố tụng nước ngoài.
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: Thành viên Super Junior Choi Siwon đang đẩy nhanh cuộc chiến pháp lý chống lại
+    các anti-fan. Tòa án liên bang Mỹ vừa cho phép tiết lộ thông tin định danh của
+    10 tài khoản ẩn danh từng đăng nội dung xúc phạm trên X và YouTube.
 ---
+
+
 Thành viên Super Junior Choi Siwon đang đẩy nhanh cuộc chiến pháp lý chống lại
 các anti-fan. Tòa án liên bang Mỹ vừa cho phép tiết lộ thông tin định danh của
 10 tài khoản ẩn danh từng đăng nội dung xúc phạm trên X và YouTube.
@@ -92,3 +105,18 @@ Với lệnh của tòa California, phía Choi Siwon được kỳ vọng sẽ c
 để đẩy nhanh tố tụng tại Hàn Quốc.
 
 Nguồn: Dispatch — https://www.dispatch.co.kr/2344867
+
+{{< article-footer >}}
+source: "Dispatch"
+source_url: "https://www.dispatch.co.kr/2344867"
+copyright: >
+  Một phần thông tin trong bài được tham khảo từ [Dispatch](https://www.dispatch.co.kr/2344867). Mọi thương hiệu, hình ảnh và tài liệu gốc thuộc quyền sở hữu của chủ sở hữu tương ứng. Bài viết trên KoreaWiki chỉ tổng hợp, biên tập và phân tích phục vụ độc giả — không thay thế thông cáo hay tài liệu chính thức.
+external:
+  - title: "Dispatch"
+    url: "https://www.dispatch.co.kr/2344867"
+internal:
+  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+    url: "en/artist/bts-suga-solo-artist-profile/"
+  - title: "Gong Yoo tổ chức tour fan meeting châu Á đầu tiên sau 25 năm sự nghiệp"
+    url: "en/artist/gong-yoo-asia-tour-2026/"
+{{< /article-footer >}}

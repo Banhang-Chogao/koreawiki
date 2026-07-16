@@ -23,7 +23,23 @@ keywords:
 - platform economy
 - Digital
 slug: inside-koreas-creator-economy-boom
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: The rise of Korean digital creators is reshaping the entertainment landscape
+    as platforms invest billions in local content production.
+- q: Nội dung chính về «The Numbers Behind the Boom» là gì?
+  a: Industry analysts project that Korea's creator economy will exceed W5 trillion
+    ($3.8 billion) by the end of 2026. This growth has been fueled by the global popularity
+    of K-content and sophisticated monetization tools that allow creators to earn
+    directly from their audiences.
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: South Korea's creator economy has exploded into a multi-billion dollar industry,
+    with platforms from YouTube to TikTok investing heavily in Korean content creators.
+    The ecosystem now supports over 200,000 active creators generating content across
+    dozens of genres.
 ---
+
+
 South Korea's creator economy has exploded into a multi-billion dollar industry, with platforms from YouTube to TikTok investing heavily in Korean content creators. The ecosystem
 now supports over 200,000 active creators generating content across dozens of genres.
 
@@ -43,3 +59,13 @@ films. The line between traditional celebrity and digital creator continues to b
 
 This shift has not been without challenges. Concerns over mental health, contract disputes, and the pressure to constantly produce content have led to calls for better industry
 standards and creator protections.
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "Beyond the Music Video: The Art and Science of K-Pop Video Production"
+    url: "en/videos/kpop-video-production-bts/"
+  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+    url: "en/artist/bts-suga-solo-artist-profile/"
+{{< /article-footer >}}

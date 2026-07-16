@@ -25,7 +25,24 @@ keywords:
 - historical-drama
 - k-drama
 slug: kbs-announces-2027-sageuk-lineup-including-the-last-admiral-and-goryeo-dreams
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: The public broadcaster is doubling down on historical drama with three ambitious
+    period productions scheduled for the 2027 calendar year.
+- q: Nội dung chính về «Ambitious Casting and Production» là gì?
+  a: '"The Last Admiral" has already generated the most buzz, with veteran actor Choi
+    Min-sik confirmed to play the iconic Joseon naval commander. The drama, written
+    by "Six Flying Dragons" scribe Kim Young-hyun, will focus on the final three years
+    of Yi Sun-sin''s life, culminating in the Battle of…'
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: KBS announced its 2027 historical drama lineup on Tuesday, confirming three major
+    sageuk productions that the public broadcaster hopes will reclaim its legacy as
+    the home of Korean historical storytelling. The slate includes "The Last Admiral,"
+    a 24-episode drama about Admiral Yi Sun-sin's final campaign; "Goryeo Dreams,"
+    a romance set during the Goryeo…
 ---
+
+
 KBS announced its 2027 historical drama lineup on Tuesday, confirming three major sageuk productions that the public broadcaster hopes will reclaim its legacy as the home of
 Korean historical storytelling. The slate includes "The Last Admiral," a 24-episode drama about Admiral Yi Sun-sin's final campaign; "Goryeo Dreams," a romance set during the
 Goryeo dynasty; and "The Secret Annals," a court intrigue thriller centered on the Joseon royal archives.
@@ -48,3 +65,13 @@ modern cinematic techniques.
 conspiracy hidden within the official records. Lee Joon-gi is in talks for the lead role of the chief scribe.
 
 All three dramas are slated for 2027 broadcasts, with "The Last Admiral" expected to premiere in March.
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Soo-Jin Choi** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "Park Seo-joon and Jun Ji-hyun Confirmed for 'The Seoul Agency' — Netflix's Most Expensive Drama Series Ever"
+    url: "en/kdrama/casting-announcement-july-2026/"
+  - title: "'Kim Bu-jang' — Khi hương vị quen thuộc trở thành cơn nghiện mạnh mẽ"
+    url: "en/kdrama/kim-bujang-drama-review-2026/"
+{{< /article-footer >}}

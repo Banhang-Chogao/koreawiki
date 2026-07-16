@@ -25,7 +25,25 @@ keywords:
 - phim han quoc
 - dien anh doc lap
 slug: lien-hoan-phim-doc-lap-incheon-lan-thu-13-giu-gin-goc-re-k-content-tu-vung-dia-phuong
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: Phó phòng truyền thông Sa Jun-seo chia sẻ về hành trình tổ chức Liên hoan phim
+    độc lập Incheon, nơi kết nối cộng đồng qua những thước phim độc lập đậm chất địa
+    phương.
+- q: Nội dung chính về «Bản sắc Incheon đậm nét» là gì?
+  a: 'Năm nay, liên hoan phim mang đậm "khuôn mặt Incheon" hơn mọi năm. Khẩu hiệu
+    là "Triều lên triều xuống" (Tidal Range), áp phích được thiết kế với màu sắc đặc
+    trưng của Incheon, và các hạng mục giải thưởng cũng được đặt tên mới theo các
+    biểu tượng của thành phố: Giải Hải cẩu đốm, Giải Cò thìa, và…'
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: '"Tôi mong muốn giữ vững vai trò là cầu nối để người dân Incheon có thể tiếp
+    cận với những bộ phim mang đậm dấu ấn địa phương." Đó là lời chia sẻ của Sa Jun-seo,
+    Phó phòng Truyền thông của Liên hoan phim độc lập Incheon lần thứ 13, trong cuộc
+    trò chuyện với phóng viên tại Bupyeong, Incheon vào ngày 15 tháng 7. Ngay trước
+    khi bắt đầu câu chuyện về liên hoan…'
 ---
+
+
 "Tôi mong muốn giữ vững vai trò là cầu nối để người dân Incheon có thể tiếp cận với những bộ phim mang đậm dấu ấn địa phương."
 
 Đó là lời chia sẻ của Sa Jun-seo, Phó phòng Truyền thông của Liên hoan phim độc lập Incheon lần thứ 13, trong cuộc trò chuyện với phóng viên tại Bupyeong, Incheon vào ngày 15
@@ -101,3 +119,12 @@ Kết thúc cuộc trò chuyện, anh gửi gắm: "Trong thời đại mà cả
 
 Liên hoan phim độc lập Incheon lần thứ 13 sẽ chờ đón khán giả không phải bằng thảm đỏ hoa lệ, mà bằng những bộ phim chứa đựng câu chuyện của vùng đất này.
 
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Song Jeong-hoon (OhmyNews)** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "Anne's Library — Nhà xuất bản Hàn Quốc hạ thấp rào cản tiếp cận văn học cổ điển và nghệ thuật"
+    url: "en/culture/annes-library-publishing-house-profile/"
+  - title: "The Hanbok Renaissance: How Korea's Traditional Dress Found a New Generation of Wearers"
+    url: "en/culture/hanbok-modern-revival/"
+{{< /article-footer >}}

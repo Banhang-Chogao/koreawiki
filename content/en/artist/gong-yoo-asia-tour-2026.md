@@ -28,7 +28,24 @@ keywords:
 - goblin
 - netflix
 slug: gong-yoo-to-chuc-tour-fan-meeting-chau-a-dau-tien-sau-25-nam-su-nghiep
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: Tài tử 'Train to Busan' chính thức công bố Asia fan meeting tour 'The Long Take'
+    qua 6 thành phố, mở màn tại Yokohama vào tháng 10 năm 2026.
+- q: Nội dung chính về «Lịch trình 6 thành phố» là gì?
+  a: 'Tour diễn sẽ đưa Gong Yoo đến với người hâm mộ tại sáu thành phố và khu vực
+    trên khắp châu Á: - **Yokohama**, Nhật Bản — 4 tháng 10 - **Bangkok**, Thái Lan
+    - **Jakarta**, Indonesia - **Ma Cao** - **Manila**, Philippines - **Seoul**, Hàn
+    Quốc Đêm mở màn tại Yokohama được kỳ vọng sẽ tạo nên dấu ấn…'
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: Sau 25 năm hoạt động trong làng giải trí Hàn Quốc, nam tài tử Gong Yoo lần đầu
+    tiên tổ chức tour fan meeting xuyên châu Á, hứa hẹn mang đến những khoảnh khắc
+    giao lưu khó quên cho người hâm mộ trên khắp khu vực. Management SOOP, công ty
+    quản lý của Gong Yoo, xác nhận vào ngày 16 tháng 7 rằng nam diễn viên sẽ khởi
+    động tour fan meeting mang tên "The Long…
 ---
+
+
 Sau 25 năm hoạt động trong làng giải trí Hàn Quốc, nam tài tử Gong Yoo lần đầu
 tiên tổ chức tour fan meeting xuyên châu Á, hứa hẹn mang đến những khoảnh khắc
 giao lưu khó quên cho người hâm mộ trên khắp khu vực.
@@ -87,3 +104,12 @@ Intensely" (천천히 강렬하게), dự kiến phát hành vào quý IV năm 2
 công vang dội của "Train to Busan" (2016) và "Goblin" (2016–2017), khẳng định vị
 thế của anh như một trong những diễn viên có tầm ảnh hưởng nhất làn sóng Hallyu.
 
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Banhang Chogao** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+    url: "en/artist/bts-suga-solo-artist-profile/"
+  - title: "Choi Siwon (Super Junior) được tòa Mỹ cho phép truy xuất danh tính 10 anti-fan"
+    url: "en/artist/choi-siwon-us-court-identity-disclosure-2026/"
+{{< /article-footer >}}

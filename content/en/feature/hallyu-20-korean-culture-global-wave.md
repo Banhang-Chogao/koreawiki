@@ -24,7 +24,23 @@ keywords:
 - cultural-export
 - global
 slug: hallyu-20-how-korean-culture-evolved-from-niche-export-to-global-dominance
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: A comprehensive look at the second wave of the Korean cultural export boom, from
+    K-food to K-literature, and what it means for the next decade.
+- q: Nội dung chính về «The Lifestyle Wave» là gì?
+  a: '"Ten years ago, if you told someone you were opening a Korean restaurant in
+    Paris or New York, you were taking a risk," said Kim Seong-ho, CEO of the Korean
+    Food Promotion Institute. "Today, Korean restaurants are among the highest-rated
+    cuisine categories on platforms like Michelin Guide and…'
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: In 2012, Psy's "Gangnam Style" was a global phenomenon widely regarded as a novelty
+    — a colorful, irreverent flash in the pan that briefly turned the world's attention
+    to South Korea. Fourteen years later, the idea of Korean culture as a passing
+    fad seems preposterous.
 ---
+
+
 In 2012, Psy's "Gangnam Style" was a global phenomenon widely regarded as a novelty — a colorful, irreverent flash in the pan that briefly turned the world's attention to South
 Korea. Fourteen years later, the idea of Korean culture as a passing fad seems preposterous. The Korean Wave, or Hallyu, has evolved from a niche interest into a structural pillar
 of the global entertainment and cultural economy.
@@ -50,3 +66,13 @@ consumer behavior, from beauty routines to dietary habits to how people decorate
 The implications for Korea's economy are profound. The government has set a target of ₩50 trillion in cultural content exports by 2032, a goal that analysts consider achievable if
 current growth trajectories hold. For the rest of the world, Hallyu 2.0 represents something rarer: a genuine two-way cultural exchange in an era of increasing cultural
 fragmentation.
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "The Voice Behind the Screen: How Korean Voice Actors Became Global Stars"
+    url: "en/feature/korean-voice-actors-rise/"
+  - title: "Seongsu-dong: How Seoul's Industrial Wasteland Became the Coolest Neighborhood in Asia"
+    url: "en/feature/seongsu-dong-transformation/"
+{{< /article-footer >}}

@@ -24,7 +24,22 @@ keywords:
 - korean-content
 - entertainment-industry
 slug: the-voice-behind-the-screen-how-korean-voice-actors-became-global-stars
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: The booming demand for Korean-language dubbing and narration has elevated voice
+    actors from invisible craftspeople to celebrated artists in their own right.
+- q: Nội dung chính về «The New Economics of Voice» là gì?
+  a: The bottleneck has led to significant changes in how the industry operates. Major
+    streaming platforms have begun poaching voice actors from terrestrial broadcasters,
+    offering salaries that were unthinkable a decade ago.
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: 'When global audiences watch Korean content on Netflix, they are often experiencing
+    it through two distinct audio tracks: the original Korean and an English dub.
+    But the Korean-language version itself may feature a voice actor whose face is
+    entirely unknown to the millions who hear their voice.'
 ---
+
+
 When global audiences watch Korean content on Netflix, they are often experiencing it through two distinct audio tracks: the original Korean and an English dub. But the
 Korean-language version itself may feature a voice actor whose face is entirely unknown to the millions who hear their voice. That is changing. The voice actors behind Korea's
 most iconic characters and narrations are stepping out of the shadows and into the spotlight.
@@ -47,3 +62,13 @@ The industry still faces challenges, including the threat of AI-generated voice 
 are enjoying a moment of recognition that has been decades in the making.
 
 "Voice acting is acting," Kim Yeon-ah said firmly. "We are not just reading words. We are bringing characters to life. It's nice that the world is finally noticing."
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Hyun-Woo Lee** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "Hallyu 2.0: How Korean Culture Evolved from Niche Export to Global Dominance"
+    url: "en/feature/hallyu-20-korean-culture-global-wave/"
+  - title: "Seongsu-dong: How Seoul's Industrial Wasteland Became the Coolest Neighborhood in Asia"
+    url: "en/feature/seongsu-dong-transformation/"
+{{< /article-footer >}}

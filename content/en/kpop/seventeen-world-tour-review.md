@@ -26,7 +26,24 @@ keywords:
 - world-tour
 - live-performance
 slug: seventeens-follow-again-world-tour-a-masterclass-in-performance-and-production
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: The 13-member group delivers a three-and-a-half-hour spectacle that reaffirms
+    their status as K-pop's premier live act during their sold-out Los Angeles stop.
+- q: Nội dung chính về «The Performance Unit Steals the Show» là gì?
+  a: While the entire group is formidable, it was the performance unit's sequence
+    that drew the loudest reactions. Dino, Hoshi, and Jun delivered a contemporary
+    dance piece set to a rearranged version of "Habit" that drew audible gasps from
+    the audience.
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: 'LOS ANGELES — On a warm July evening at BMO Stadium, Seventeen did something
+    that few K-pop acts have accomplished: they made a crowd of 22,000 feel like they
+    were at an intimate club show. The "Follow Again" tour, which touched down in
+    Los Angeles on July 8 for two nights, is the group''s largest North American outing
+    to date, and the production value…'
 ---
+
+
 LOS ANGELES — On a warm July evening at BMO Stadium, Seventeen did something that few K-pop acts have accomplished: they made a crowd of 22,000 feel like they were at an intimate
 club show. The "Follow Again" tour, which touched down in Los Angeles on July 8 for two nights, is the group's largest North American outing to date, and the production value
 reflects their status as one of the industry's most bankable live acts.
@@ -47,3 +64,13 @@ the floor seating. Sound quality, often a challenge in stadium venues, was excep
 At three hours and 25 minutes, the show was among the longest K-pop concerts ever performed in the United States. The encore featured all 13 members addressing the audience in
 English, with leader S.Coups visibly emotional as he thanked CARATs for their support. "We never take this for granted," he said. "Every time we come to America, we want to show
 you something you've never seen before." Mission accomplished.
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "aespa Returns with 'Armageddon': A Futuristic Sonic Evolution That Redefines Their Narrative"
+    url: "en/kpop/aespa-comeback-armageddon/"
+  - title: "Bang Chan (Stray Kids) tỏa sáng tại sự kiện ra mắt bộ sưu tập mùa đông 2026"
+    url: "en/kpop/bangchan-winter-collection-2026/"
+{{< /article-footer >}}

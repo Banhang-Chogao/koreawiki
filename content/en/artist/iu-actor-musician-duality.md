@@ -26,7 +26,23 @@ keywords:
 - solo-artist
 - actress
 slug: iu-at-33-koreas-premier-solo-artist-on-acting-aging-and-artistic-freedom
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: Lee Ji-eun reflects on her two-decade career as she prepares for dual releases
+    — a new album and a starring role in a Netflix thriller.
+- q: Nội dung chính về «A New Acting Chapter» là gì?
+  a: October will bring IU back to screens in a dramatic new register. She stars in
+    "The Silent Hour," a Netflix psychological thriller from director Na Hong-jin
+    ("The Wailing," "The Chase").
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: Lee Ji-eun — IU to the world — has been a star for so long that it is easy to
+    forget she is only 33. She debuted at 15, wrote her first hit at 17, and by 21
+    was already being called "the nation's little sister." But two decades into a
+    career that spans music, television, and film, IU is showing no signs of resting
+    on her laurels.
 ---
+
+
 Lee Ji-eun — IU to the world — has been a star for so long that it is easy to forget she is only 33. She debuted at 15, wrote her first hit at 17, and by 21 was already being
 called "the nation's little sister." But two decades into a career that spans music, television, and film, IU is showing no signs of resting on her laurels. In fact, she may be
 entering her most creatively ambitious phase yet.
@@ -48,3 +64,13 @@ relief — it's permission to be someone else entirely." Early word from Netflix
 IU's dual career as a chart-topping musician and critically acclaimed actress has no parallel in Korean entertainment. She has won every major music award multiple times and has
 acting accolades including Baeksang and Blue Dragon Film Awards. At 33, with her best work arguably still ahead of her, she is writing a playbook that no one else has been able to
 follow.
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Soo-Jin Choi** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+    url: "en/artist/bts-suga-solo-artist-profile/"
+  - title: "Choi Siwon (Super Junior) được tòa Mỹ cho phép truy xuất danh tính 10 anti-fan"
+    url: "en/artist/choi-siwon-us-court-identity-disclosure-2026/"
+{{< /article-footer >}}

@@ -25,7 +25,23 @@ keywords:
 - tvN
 - time-slip
 slug: lovely-runner-episode-8-time-slip-thriller-takes-a-devastating-turn-as-the-past-begins-to-rewrite-itself
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: tvN's hit drama delivers its most shocking episode yet as Sun-jae's actions in
+    the past threaten to unravel the timeline entirely.
+- q: Nội dung chính về «The Butterfly Effect Unleashed» là gì?
+  a: The episode's centerpiece is a 15-minute sequence in which Im Sol realizes that
+    her successful prevention of Sun-jae's 2012 accident has had cascading consequences
+    she never anticipated. Sun-jae, who should have been inspired to pursue music
+    by his near-death experience, never picks up a guitar in…
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: 'WARNING: This recap contains spoilers for "Lovely Runner" Episode 8. "Lovely
+    Runner" has been one of 2026''s most reliable ratings performers, but Episode
+    8, which aired Wednesday on tvN, was the moment the drama announced that it is
+    playing for keeps.'
 ---
+
+
 WARNING: This recap contains spoilers for "Lovely Runner" Episode 8.
 
 "Lovely Runner" has been one of 2026's most reliable ratings performers, but Episode 8, which aired Wednesday on tvN, was the moment the drama announced that it is playing for
@@ -50,3 +66,13 @@ that makes the episode's final shot — a single tear rolling down his face as h
 
 The episode ends on a cliffhanger that has been trending across Korean social media platforms: Im Sol wakes up in 2026 to find that Sun-jae not only doesn't know her — he is
 engaged to someone else. Episode 9 airs next Wednesday on tvN.
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Hyun-Woo Lee** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "Park Seo-joon and Jun Ji-hyun Confirmed for 'The Seoul Agency' — Netflix's Most Expensive Drama Series Ever"
+    url: "en/kdrama/casting-announcement-july-2026/"
+  - title: "KBS Announces 2027 Sageuk Lineup Including 'The Last Admiral' and 'Goryeo Dreams'"
+    url: "en/kdrama/kbs-sageuk-slot-2027/"
+{{< /article-footer >}}

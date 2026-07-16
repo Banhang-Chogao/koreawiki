@@ -26,7 +26,24 @@ keywords:
 - opinion
 - Opinion
 slug: when-everything-is-korean-is-anything-still-korean
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: As Korean culture achieves unprecedented global penetration, we must reckon with
+    the risks of its own success and the tension between universality and identity.
+- q: Nội dung chính về «The Authenticity Question» là gì?
+  a: When Netflix commissions a Korean drama, is it a Korean drama or a global product
+    made in Korea? When HYBE signs a multinational girl group with members from Vietnam,
+    Brazil, and Sweden, is the result K-pop or a Korean-produced version of global
+    pop?
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: 'There is a Korean proverb: "A tree with deep roots does not fear the wind."
+    As Korean popular culture enjoys a period of global influence unprecedented in
+    the nation''s history, the question is no longer whether the tree is strong enough
+    to withstand external forces — it is whether the roots remain connected to the
+    soil that nourished them. The success of…'
 ---
+
+
 There is a Korean proverb: "A tree with deep roots does not fear the wind." As Korean popular culture enjoys a period of global influence unprecedented in the nation's history,
 the question is no longer whether the tree is strong enough to withstand external forces — it is whether the roots remain connected to the soil that nourished them.
 
@@ -51,3 +68,13 @@ Korean culture becomes less Korean, but that the economic logic of global entert
 venues, the small publishing houses, the regional film festivals — in favor of an export-optimized product.
 
 The tree's roots are deep. But even deep roots need tending.
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Ji-Yeon Park** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "The Idol Industry's Mental Health Crisis: Have We Learned Nothing?"
+    url: "en/opinion/mental-health-kpop-industry/"
+  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+    url: "en/artist/bts-suga-solo-artist-profile/"
+{{< /article-footer >}}

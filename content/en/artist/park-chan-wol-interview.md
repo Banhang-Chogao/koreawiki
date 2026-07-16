@@ -26,7 +26,23 @@ keywords:
 - director
 - interview
 slug: park-chan-wol-the-indie-director-who-refuses-to-make-the-same-film-twice
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: The maverick filmmaker behind 'Busan at Dawn' and 'The Inbetween' talks about
+    his creative process, rejection of the studio system, and his upcoming VR experiment.
+- q: Nội dung chính về «The VR Frontier» là gì?
+  a: Park's next project represents his most radical departure yet. "Vanishing Point"
+    is a 45-minute virtual reality experience that places the viewer inside the memory
+    of a dementia patient.
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: Park Chan-wol does not make films for people who want comfort. The 41-year-old
+    director, whose five feature films have polarized critics and delighted festival
+    programmers, is sitting across from me at a quiet coffee shop in Seoul's Hongdae
+    district, nursing an americano and explaining why he has turned down every studio
+    offer that has come his way.
 ---
+
+
 Park Chan-wol does not make films for people who want comfort. The 41-year-old director, whose five feature films have polarized critics and delighted festival programmers, is
 sitting across from me at a quiet coffee shop in Seoul's Hongdae district, nursing an americano and explaining why he has turned down every studio offer that has come his way.
 
@@ -48,3 +64,13 @@ a cinema without walls. I don't know if it will work. But I have to try."
 
 Funding for the project came from a combination of arts council grants and private donations, totaling ₩2.8 billion — modest by commercial film standards but significant for an
 experimental VR work. The experience will premiere at the Venice Film Festival in September.
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Hyun-Woo Lee** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+    url: "en/artist/bts-suga-solo-artist-profile/"
+  - title: "Choi Siwon (Super Junior) được tòa Mỹ cho phép truy xuất danh tính 10 anti-fan"
+    url: "en/artist/choi-siwon-us-court-identity-disclosure-2026/"
+{{< /article-footer >}}

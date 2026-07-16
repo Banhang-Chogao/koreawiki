@@ -26,7 +26,20 @@ keywords:
 - seoul
 - food-guide
 slug: sinchons-street-food-revolution-why-seouls-university-district-is-the-best-place-to-eat-in-korea
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: Beyond the tourist traps of Myeongdong, Sinchon's alleys are home to a thriving
+    street food culture that defines the cutting edge of Korean casual dining.
+- q: Nội dung chính về «Signature Sinchon Creations» là gì?
+  a: This pressure to innovate has produced dishes that have since spread across Korea.
+    Sinchon is the birthplace of "army stew" (budae jjigae) street food versions,
+    cheese-tteokbokki, and the phenomenon of "twisted donuts" (kkwabaegi) stuffed
+    with sweet potato cream.
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: Myeongdong has the reputation. Gwangjang Market has the history.
 ---
+
+
 Myeongdong has the reputation. Gwangjang Market has the history. But ask anyone who actually lives in Seoul where to find the best street food, and they will likely point you to
 Sinchon, the university district that is home to Yonsei, Ewha Womans University, and Sogang University. With three major campuses within walking distance of each other, Sinchon
 has developed a street food culture that is peerless in its creativity, affordability, and sheer density.
@@ -47,3 +60,13 @@ delicious. That never changes."
 
 For the visitor, the strategy is simple: come hungry, bring cash (many stalls still do not accept cards), and follow the queues. The longest line is generally in front of the
 stall selling something you have never seen before. That is the one to join.
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Hyun-Woo Lee** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "Temple Food Gets a Makeover: The Global Rise of Korean Buddhist Cuisine"
+    url: "en/food/modern-temple-cuisine/"
+  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+    url: "en/artist/bts-suga-solo-artist-profile/"
+{{< /article-footer >}}

@@ -25,7 +25,22 @@ keywords:
 - runway
 - design
 slug: seoul-fashion-week-fallwinter-2026-tradition-tech-and-a-new-global-ambition
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: The bi-annual event showcased a Korean fashion industry coming into its own,
+    with designers blending heritage craftsmanship with cutting-edge technology.
+- q: Nội dung chính về «The Seoul Aesthetic Finds Global Buyers» là gì?
+  a: '"This is the strongest season I can remember," said fashion critic Hwang Min-hee.
+    "The designers have stopped trying to imitate Paris or Milan.'
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: Seoul Fashion Week returned to the iconic Dongdaemun Design Plaza from July 3
+    to July 8, presenting the Fall/Winter 2026 collections from 64 Korean designers
+    and, for the first time, eight international guest designers from Tokyo, Shanghai,
+    and Milan. The event has undergone a quiet transformation in recent seasons, evolving
+    from a regional showcase into a…
 ---
+
+
 Seoul Fashion Week returned to the iconic Dongdaemun Design Plaza from July 3 to July 8, presenting the Fall/Winter 2026 collections from 64 Korean designers and, for the first
 time, eight international guest designers from Tokyo, Shanghai, and Milan. The event has undergone a quiet transformation in recent seasons, evolving from a regional showcase into
 a legitimate fixture on the global fashion calendar.
@@ -47,3 +62,13 @@ jeogori (jacket) silhouettes to norigae (traditional ornament) accessories reima
 Perhaps the most significant development was the launch of the "Seoul Fashion Fund," a ₩20 billion initiative backed by the Seoul Metropolitan Government and six Korean
 corporations, designed to provide financial support for emerging Korean designers looking to show at international fashion weeks. "The talent is here," said Seoul Mayor Oh Se-hoon
 at the launch event. "What has been missing is the infrastructure to take Korean fashion to the world. That is changing now."
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Soo-Jin Choi** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "When K-Beauty Met Fashion: How Korean Cosmetics Brands Are Redefining Luxury Retail"
+    url: "en/fashion/k-beauty-fashion-convergence/"
+  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+    url: "en/artist/bts-suga-solo-artist-profile/"
+{{< /article-footer >}}

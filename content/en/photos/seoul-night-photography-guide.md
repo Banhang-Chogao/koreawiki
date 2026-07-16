@@ -25,7 +25,22 @@ keywords:
 - travel
 - photo-essay
 slug: seoul-after-dark-a-photo-essay-on-the-city-that-never-sleeps
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: From neon-lit Gangnam to the quiet alleys of Bukchon, KoreaWiki's photographers
+    capture the contrasting moods of Seoul's nighttime landscape.
+- q: 'Nội dung chính về «Gangnam: The Electric District» là gì?'
+  a: The Gangnam nightscape is defined by light — specifically, the massive digital
+    billboards that line Gangnam-daero, some of the largest in Asia. Our photographers
+    spent a night capturing the interplay between these commercial light sources and
+    the human activity beneath them.
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: Seoul at night is a city of contrasts. In Gangnam, the neon glow of K-pop billboards
+    and luxury storefronts reflects off the glass towers of corporate headquarters,
+    creating a vision of hyper-modern prosperity.
 ---
+
+
 Seoul at night is a city of contrasts. In Gangnam, the neon glow of K-pop billboards and luxury storefronts reflects off the glass towers of corporate headquarters, creating a
 vision of hyper-modern prosperity. In Bukchon, the narrow alleyways are lit only by the warm glow of hanok guesthouses and the occasional street lamp, preserving a sense of a
 Seoul that existed before the economic miracle.
@@ -48,3 +63,13 @@ convenience store.
 The night photography essay concludes in Bukchon, where the absence of commercial lighting creates a different kind of beauty. Here, the photographs are defined by what is not
 illuminated — the dark silhouettes of hanok roofs against the slightly lighter sky, the single lamp in a traditional window, the long shadows cast by the last pedestrian walking
 home through the cobblestone alleys. It is a reminder that even in one of the world's most dynamic cities, pockets of profound stillness still exist.
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **KoreaWiki Photography Team** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "Busan After Dark: A Photo Essay of Korea's Coastal City When the Sun Goes Down"
+    url: "en/photos/busan-night-photography-essay/"
+  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+    url: "en/artist/bts-suga-solo-artist-profile/"
+{{< /article-footer >}}

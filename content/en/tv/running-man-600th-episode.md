@@ -26,7 +26,22 @@ keywords:
 - sbs
 - 600th-episode
 slug: running-man-celebrates-600-episodes-the-variety-show-that-refuses-to-age
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: Korea's longest-running variety show reaches a historic milestone with a special
+    episode that honors its legacy while pointing toward the future.
+- q: Nội dung chính về «The Enduring Appeal» là gì?
+  a: '"The secret to Running Man is that it refuses to take itself seriously while
+    taking its audience very seriously," said media professor Kim Young-hoon at Seoul
+    National University. "Other variety shows chase trends.'
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: 'On July 12, "Running Man" achieved something no other Korean variety show has
+    managed: 600 episodes. The SBS flagship program, which first aired on July 11,
+    2010, has survived cast changes, format evolutions, the rise of streaming, a global
+    pandemic, and the notoriously fickle nature of Korean television audiences.'
 ---
+
+
 On July 12, "Running Man" achieved something no other Korean variety show has managed: 600 episodes. The SBS flagship program, which first aired on July 11, 2010, has survived
 cast changes, format evolutions, the rise of streaming, a global pandemic, and the notoriously fickle nature of Korean television audiences. Its longevity is a testament to the
 power of a simple, brilliant premise executed with consistent heart and humor.
@@ -46,3 +61,13 @@ directed the show's first 200 episodes. Ratings hit 12.4% — the show's highest
 Yoo Jae-suk, the "National MC" who has anchored the show for all 600 episodes, reflected on the milestone during the closing segment. "When we started, we didn't know if we would
 last 60 episodes, let alone 600," he said. "What keeps us going is the belief that laughter is not trivial. In a complicated world, making people laugh for an hour on a Sunday —
 that's a privilege. Thank you for 600 episodes. We'll try to earn 600 more."
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Hyun-Woo Lee** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "'Street Woman Fighter' Season 3: Mnet Bets Big on Global Expansion with International Dance Crews"
+    url: "en/tv/mnet-street-woman-fighter-season-3/"
+  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+    url: "en/artist/bts-suga-solo-artist-profile/"
+{{< /article-footer >}}

@@ -27,7 +27,21 @@ keywords:
 - urban-regeneration
 - lifestyle
 slug: seongsu-dong-how-seouls-industrial-wasteland-became-the-coolest-neighborhood-in-asia
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: The transformation of Seongsu-dong from a decrepit shoe-manufacturing district
+    into a global trendsetting hub is a case study in organic urban regeneration.
+- q: Nội dung chính về «The Artist-Led Renaissance» là gì?
+  a: The transformation began quietly in the late 2010s, when artists and small galleries
+    began moving into the cheap, spacious factory spaces. They were followed by independent
+    designers, specialty coffee roasters, and experimental restaurants.
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: Walk through Seongsu-dong on a Saturday afternoon and you will encounter a version
+    of Seoul that did not exist a decade ago. Young people queue outside a bakery
+    housed in a converted tire factory.
 ---
+
+
 Walk through Seongsu-dong on a Saturday afternoon and you will encounter a version of Seoul that did not exist a decade ago. Young people queue outside a bakery housed in a
 converted tire factory. A French tourist photographs the exposed brick wall of a gallery that was once a shoe workshop. The smell of specialty coffee mingles with the industrial
 ghost of glue and leather. This is the neighborhood that urban planners around the world are studying as a model of organic, artist-led regeneration.
@@ -52,3 +66,13 @@ But the tension between preservation and progress remains unresolved.
 Today, Seongsu-dong attracts an estimated 50,000 visitors on weekends, and its mix of high-end fashion, independent art galleries, and destination eateries has earned it
 comparisons to Tokyo's Shimokitazawa and Brooklyn's Williamsburg. For now, it remains one of Seoul's most dynamic neighborhoods — a living museum of what happens when urban decay
 meets creative energy.
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Ji-Yeon Park** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "Hallyu 2.0: How Korean Culture Evolved from Niche Export to Global Dominance"
+    url: "en/feature/hallyu-20-korean-culture-global-wave/"
+  - title: "The Voice Behind the Screen: How Korean Voice Actors Became Global Stars"
+    url: "en/feature/korean-voice-actors-rise/"
+{{< /article-footer >}}

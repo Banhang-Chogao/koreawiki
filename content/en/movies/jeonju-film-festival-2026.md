@@ -26,7 +26,23 @@ keywords:
 - korean-film
 - festival
 slug: jeonju-international-film-festival-2026-independent-korean-cinema-takes-center-stage
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: The 27th edition of Korea's premier independent film festival showcases a record
+    number of domestic productions and launches a new AI-focused competition section.
+- q: Nội dung chính về «Breakout Films and Emerging Voices» là gì?
+  a: The Korean Competition section has yielded several discoveries. "Concrete Heart,"
+    a debut feature by 28-year-old director Kim Su-bin, has emerged as the festival's
+    breakout hit, winning the Audience Award following its sold-out premiere.
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: The 27th Jeonju International Film Festival (JIFF) opened on July 2 with a record
+    147 Korean independent films in its program, signaling a robust recovery for the
+    country's independent film sector after several challenging years. The 10-day
+    festival, held across venues in Korea's cultural capital of Jeonju, has drawn
+    over 80,000 attendees in its first…
 ---
+
+
 The 27th Jeonju International Film Festival (JIFF) opened on July 2 with a record 147 Korean independent films in its program, signaling a robust recovery for the country's
 independent film sector after several challenging years. The 10-day festival, held across venues in Korea's cultural capital of Jeonju, has drawn over 80,000 attendees in its
 first week, exceeding pre-pandemic attendance figures.
@@ -47,3 +63,13 @@ Aware," a contemplative Korean-Japanese co-production about a failing sake brewe
 chaired by Iranian director Asghar Farhadi.
 
 JIFF continues through July 12, with the competitive awards announced at the closing ceremony.
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Hyun-Woo Lee** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "'Harbinger' Review: Bong Joon-ho Returns with a Dystopian Masterpiece That Rivals 'Parasite'"
+    url: "en/movies/harbinger-review/"
+  - title: "Phim 'Hope' của đạo diễn Na Hong-jin đạt doanh thu mở màn cao nhất năm 2026"
+    url: "en/movies/hope-opening-day-box-office-2026/"
+{{< /article-footer >}}

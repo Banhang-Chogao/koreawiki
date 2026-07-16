@@ -26,7 +26,24 @@ keywords:
 - charity
 - busan
 slug: samsung-and-k-pop-giants-unite-for-historic-charity-concert-in-busan
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: Samsung Electronics partners with HYBE and SM Entertainment for a landmark charity
+    concert at Busan Asiad Stadium, featuring BTS's Suga, NCT 127, and Seventeen.
+- q: Nội dung chính về «A New Model for Corporate-Artist Collaboration» là gì?
+  a: Industry analysts note that the structure of the Samsung Hope Concert differs
+    significantly from traditional corporate sponsorships. Artists will retain full
+    creative control over their performances, and a portion of merchandise sales will
+    be donated to causes chosen by each act.
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: Samsung Electronics will co-host what industry insiders are calling the largest
+    corporate-sponsored K-pop event in history at Busan Asiad Stadium on August 15,
+    Korea's Liberation Day. The Samsung Hope Concert will feature headliners including
+    BTS member SUGA, NCT 127, Seventeen, and rising rookie group RIIZE, with all proceeds
+    benefiting youth education…
 ---
+
+
 Samsung Electronics will co-host what industry insiders are calling the largest corporate-sponsored K-pop event in history at Busan Asiad Stadium on August 15, Korea's Liberation
 Day. The Samsung Hope Concert will feature headliners including BTS member SUGA, NCT 127, Seventeen, and rising rookie group RIIZE, with all proceeds benefiting youth education
 programs in underserved communities across Gyeongsangnam-do.
@@ -48,3 +65,13 @@ broadcast on Samsung's streaming platform, with Korean and English subtitles pro
 
 Busan Metropolitan City has pledged additional security and transportation support, expecting tens of thousands of visitors to the coastal city for the event. Local hotels and
 guesthouses in the Haeundae district have reported near-capacity bookings for the week of the concert.
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Min-Jun Kim** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "HYBE Reports Record Q2 Revenue of ₩620 Billion Driven by Global Touring and Weverse Growth"
+    url: "en/news/hybe-second-quarter-earnings/"
+  - title: "South Korea Expands Film Tax Credit Program to Lure International Productions"
+    url: "en/news/korean-film-tax-credit-expansion/"
+{{< /article-footer >}}

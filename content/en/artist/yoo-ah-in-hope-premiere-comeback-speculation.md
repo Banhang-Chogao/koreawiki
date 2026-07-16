@@ -1,8 +1,7 @@
 ---
 title: Yoo Ah-in xuất hiện tại buổi ra mắt phim 'Hope' giữa đồn đoán tái xuất
-description: >-
-  Nam diễn viên Yoo Ah-in lần đầu xuất hiện trước công chúng kể từ khi nhận án
-  treo, tham dự buổi ra mắt phim mới của đạo diễn Na Hong-jin tại Seoul.
+description: Nam diễn viên Yoo Ah-in lần đầu xuất hiện trước công chúng kể từ khi
+  nhận án treo, tham dự buổi ra mắt phim mới của đạo diễn Na Hong-jin tại Seoul.
 date: 2026-07-14
 draft: false
 author: Xportsnews
@@ -22,7 +21,23 @@ keywords:
 - na hong jin
 - jang jae hyun vampir
 slug: yoo-ah-in-xuat-hien-tai-buoi-ra-mat-phim-hope-giua-don-doan-tai-xuat
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: Nam diễn viên Yoo Ah-in lần đầu xuất hiện trước công chúng kể từ khi nhận án
+    treo, tham dự buổi ra mắt phim mới của đạo diễn Na Hong-jin tại Seoul.
+- q: Nội dung chính về «Xuất hiện kín đáo nhưng không khẩu trang» là gì?
+  a: Hình ảnh và video lan truyền trên các cộng đồng mạng và mạng xã hội cho thấy
+    Yoo Ah-in diện trang phục đen, đội mũ lưỡi trai kéo thấp. Dù giữ thái độ kín đáo,
+    anh không đeo khẩu trang, thu hút sự chú ý từ những người có mặt.
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: Yoo Ah-in, nam tài tử từng vướng vụ án ma túy gây chấn động làng giải trí Hàn
+    Quốc, vừa có lần đầu tiên xuất hiện trước công chúng kể từ khi nhận án treo, làm
+    dấy lên đồn đoán về khả năng trở lại màn ảnh. Nam diễn viên tham dự buổi ra mắt
+    phim "Hope" của đạo diễn Na Hong-jin vào thứ Hai tại Megabox Coex thuộc quận Gangnam,
+    Seoul.
 ---
+
+
 Yoo Ah-in, nam tài tử từng vướng vụ án ma túy gây chấn động làng giải trí Hàn
 Quốc, vừa có lần đầu tiên xuất hiện trước công chúng kể từ khi nhận án treo, làm
 dấy lên đồn đoán về khả năng trở lại màn ảnh.
@@ -74,3 +89,14 @@ Hồi tháng 9 năm ngoái, Yoo Ah-in cũng gây chú ý khi bị bắt gặp đ
 trên mạng xã hội trước khi xóa bài.
 
 Nguồn: Xportsnews
+
+{{< article-footer >}}
+source: "Xportsnews"
+copyright: >
+  Một phần thông tin trong bài được tham khảo từ **Xportsnews**. Mọi thương hiệu, hình ảnh và tài liệu gốc thuộc quyền sở hữu của chủ sở hữu tương ứng. Bài viết trên KoreaWiki chỉ tổng hợp, biên tập và phân tích phục vụ độc giả — không thay thế thông cáo hay tài liệu chính thức.
+internal:
+  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+    url: "en/artist/bts-suga-solo-artist-profile/"
+  - title: "Choi Siwon (Super Junior) được tòa Mỹ cho phép truy xuất danh tính 10 anti-fan"
+    url: "en/artist/choi-siwon-us-court-identity-disclosure-2026/"
+{{< /article-footer >}}

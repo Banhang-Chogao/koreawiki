@@ -25,7 +25,24 @@ keywords:
 - k-pop
 - behind-the-scenes
 slug: beyond-the-music-video-the-art-and-science-of-k-pop-video-production
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: A look inside the multi-million-dollar video production industry that has made
+    K-pop music videos the most visually ambitious in the world.
+- q: Nội dung chính về «The New Breed of Directors» là gì?
+  a: Leading this transformation is a new generation of Korean directors who are as
+    famous as the artists they film. Rigend Film, the studio behind videos for BTS,
+    BLACKPINK, and aespa, has become a global brand in its own right, with directors
+    earning followings on social media that rival mid-tier…
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: When LE SSERAFIM released the music video for their June single "Firefly," it
+    was viewed 78 million times in its first week. The video, a four-minute cinematic
+    piece involving a post-apocalyptic Seoul, elaborate choreography in a water-filled
+    set, and CGI creatures rendered by the same studio that worked on "The Host,"
+    cost ₩2.3 billion to produce.
 ---
+
+
 When LE SSERAFIM released the music video for their June single "Firefly," it was viewed 78 million times in its first week. The video, a four-minute cinematic piece involving a
 post-apocalyptic Seoul, elaborate choreography in a water-filled set, and CGI creatures rendered by the same studio that worked on "The Host," cost ₩2.3 billion to produce. It is
 among the most expensive music videos in K-pop history — but it is by no means an outlier.
@@ -47,3 +64,13 @@ The newly launched YouTube channel "MV Behind" has capitalized on fan interest i
 a single music video from concept to final cut, demystifying the craft.
 
 As streaming becomes the dominant mode of music consumption, the music video has become more important than ever. And Korean directors are setting the global standard.
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Hyun-Woo Lee** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "Inside Korea's Creator Economy Boom"
+    url: "en/videos/korean-creator-economy-boom/"
+  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+    url: "en/artist/bts-suga-solo-artist-profile/"
+{{< /article-footer >}}

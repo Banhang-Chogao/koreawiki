@@ -25,7 +25,23 @@ keywords:
 - sageuk
 - behind-the-scenes
 slug: exclusive-on-set-with-goryeo-dreams-inside-kbss-most-ambitious-period-drama
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: KoreaWiki spends two days on the set of KBS's upcoming sageuk epic, witnessing
+    the extraordinary effort behind bringing 14th-century Goryeo to life.
+- q: Nội dung chính về «Historical Accuracy Meets Dramatic Necessity» là gì?
+  a: Historical consultant Dr. Bae Jae-sung, a professor of Korean history at Korea
+    University, is on set every day, often mediating between the production's desire
+    for dramatic impact and his own commitment to accuracy.
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: MUNGYEONG, North Gyeongsang Province — The first thing you notice on the set
+    of "Goryeo Dreams" is the smell. Freshly cut pine, wood smoke, and the earthy
+    scent of hanji — traditional Korean paper — permeate the sprawling outdoor set
+    that KBS has built on 40 acres of land near Mungyeong Saejae, a historic mountain
+    pass that once connected the Gyeongsang…
 ---
+
+
 MUNGYEONG, North Gyeongsang Province — The first thing you notice on the set of "Goryeo Dreams" is the smell. Freshly cut pine, wood smoke, and the earthy scent of hanji —
 traditional Korean paper — permeate the sprawling outdoor set that KBS has built on 40 acres of land near Mungyeong Saejae, a historic mountain pass that once connected the
 Gyeongsang and Chungcheong provinces.
@@ -49,3 +65,13 @@ demanding role I've ever taken," he said. "I've been learning classical Chinese 
 no shortcut for this kind of preparation."
 
 "Goryeo Dreams" is scheduled to premiere on KBS2 in March 2027.
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Soo-Jin Choi** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "Exclusive: BTS Members Weigh In on Group Future — 'We Will Come Back When the Story Requires It'"
+    url: "en/exclusive/bts-members-individual-futures/"
+  - title: "Exclusive: Inside SM Entertainment's Next Girl Group — The Vision, The Members, The Strategy"
+    url: "en/exclusive/sm-entertainment-new-girl-group/"
+{{< /article-footer >}}

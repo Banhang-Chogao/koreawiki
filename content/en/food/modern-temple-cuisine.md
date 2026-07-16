@@ -26,7 +26,24 @@ keywords:
 - buddhist
 - fine-dining
 slug: temple-food-gets-a-makeover-the-global-rise-of-korean-buddhist-cuisine
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: Once confined to mountain monasteries, Korean temple cuisine — Seungsik — is
+    finding new audiences in fine dining restaurants and home kitchens around the
+    world.
+- q: Nội dung chính về «The Philosophy of Temple Food» là gì?
+  a: Unlike Western vegetarianism or even other Asian Buddhist culinary traditions,
+    Korean temple food (seungsik) operates within a rigorous culinary philosophy that
+    extends beyond the absence of meat. The principles — balancing the five elemental
+    flavors (sweet, sour, salty, bitter, pungent), using…
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: At the Michelin-starred restaurant Balwoo in Jongno-gu, Seoul, dinner is a meditative
+    experience. The 12-course tasting menu contains no meat, no fish, no garlic, no
+    onions — the five pungent ingredients (ohshinchae) banned in Buddhist monastic
+    cooking.
 ---
+
+
 At the Michelin-starred restaurant Balwoo in Jongno-gu, Seoul, dinner is a meditative experience. The 12-course tasting menu contains no meat, no fish, no garlic, no onions — the
 five pungent ingredients (ohshinchae) banned in Buddhist monastic cooking. What it does contain is a revelation of what Korean cuisine can achieve within constraints: delicate
 lotus root porridge, mountain vegetable namul that tastes of the forest floor, beondegi (fermented soybean paste) aged for seven years, and a dessert of cinnamon-scented yakbap
@@ -49,3 +66,13 @@ act in 2026."
 The trend has commercial legs. Seoul now boasts at least eight fine-dining restaurants specializing in temple cuisine, and the number is growing. Abroad, Korean Buddhist
 restaurants have opened in New York, London, and Tokyo, with "Baru" in Manhattan's Koreatown earning a Bib Gourmand from Michelin in 2025. The Korea Tourism Organization has added
 temple food experiences to its official travel itineraries, offering visitors the chance to dine at mountain monasteries as part of templestay programs.
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Ji-Yeon Park** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "Sinchon's Street Food Revolution: Why Seoul's University District Is the Best Place to Eat in Korea"
+    url: "en/food/sinchon-korean-street-food-guide/"
+  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+    url: "en/artist/bts-suga-solo-artist-profile/"
+{{< /article-footer >}}

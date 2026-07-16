@@ -26,7 +26,23 @@ keywords:
 - guide
 - Travel
 slug: beyond-seoul-why-busan-is-koreas-most-underrated-travel-destination
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: From the raw beauty of Haedong Yonggungsa to the electric energy of Busan International
+    Film Festival, Korea's second city offers an experience that rivals the capital.
+- q: Nội dung chính về «The Quintessential Busan Experience» là gì?
+  a: Any visit should begin at Gamcheon Culture Village, the hillside maze of brightly
+    painted houses that has become Busan's most photographed location. But unlike
+    many Instagram-famous destinations, Gamcheon rewards those who venture beyond
+    the main photo spots.
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: 'For decades, the standard itinerary for international visitors to Korea has
+    followed a predictable formula: fly into Incheon, spend three days in Seoul, take
+    a day trip to the DMZ, and fly out. Busan, Korea''s second-largest city and its
+    premier coastal metropolis, has been treated as a worthy but optional add-on.'
 ---
+
+
 For decades, the standard itinerary for international visitors to Korea has followed a predictable formula: fly into Incheon, spend three days in Seoul, take a day trip to the
 DMZ, and fly out. Busan, Korea's second-largest city and its premier coastal metropolis, has been treated as a worthy but optional add-on. That is beginning to change, and for
 good reason.
@@ -49,3 +65,13 @@ serving seafood banchan for three generations.
 For those timing their visit right, October brings the Busan International Film Festival (BIFF), Asia's most influential film festival and an electric convergence of cinema,
 celebrity, and street culture. But even in the quieter months, Busan's combination of natural beauty, culinary depth, and creative energy makes it a destination worthy of a
 dedicated trip — not just a footnote on a Seoul itinerary.
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Min-Jun Kim** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "Jeju's Eco-Tourism Revolution: How Korea's Island Paradise Is Balancing Development and Conservation"
+    url: "en/travel/jeju-island-eco-tourism/"
+  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+    url: "en/artist/bts-suga-solo-artist-profile/"
+{{< /article-footer >}}

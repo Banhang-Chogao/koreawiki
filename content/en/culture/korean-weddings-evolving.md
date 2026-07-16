@@ -25,7 +25,24 @@ keywords:
 - tradition
 - gen-z
 slug: the-new-korean-wedding-how-millennials-and-gen-z-are-rewriting-centuries-of-tradition
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: From wedding halls to boutique venues, from matchmaking to self-choice, the Korean
+    wedding industry is undergoing its most dramatic transformation in generations.
+- q: Nội dung chính về «The Rise of the Small Wedding» là gì?
+  a: '"I don''t need 300 people I barely know watching me feed dates to my husband,"
+    said 29-year-old graphic designer Park So-young, who married her partner of five
+    years in a ceremony attended by 38 guests at a converted warehouse in Seongsu-dong.
+    "We wanted a wedding that felt like us — not a…'
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: The Korean wedding industrial complex — a sprawling ecosystem of wedding halls,
+    matchmaking agencies, and formalized rituals — has long been one of the most rigid
+    industries in the country. But changing social values, economic pressures, and
+    the influence of global culture are reshaping how young Koreans approach marriage,
+    creating new opportunities and…
 ---
+
+
 The Korean wedding industrial complex — a sprawling ecosystem of wedding halls, matchmaking agencies, and formalized rituals — has long been one of the most rigid industries in
 the country. But changing social values, economic pressures, and the influence of global culture are reshaping how young Koreans approach marriage, creating new opportunities and
 tensions in one of society's most tradition-bound institutions.
@@ -49,3 +66,13 @@ choice rather than a social obligation."
 
 Yet tradition still exerts a pull. Most couples still incorporate the pyebaek (formal bowing ceremony) and wear hanbok for at least part of their celebration. The difference is
 that now they do it on their own terms.
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "Anne's Library — Nhà xuất bản Hàn Quốc hạ thấp rào cản tiếp cận văn học cổ điển và nghệ thuật"
+    url: "en/culture/annes-library-publishing-house-profile/"
+  - title: "The Hanbok Renaissance: How Korea's Traditional Dress Found a New Generation of Wearers"
+    url: "en/culture/hanbok-modern-revival/"
+{{< /article-footer >}}

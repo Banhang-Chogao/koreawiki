@@ -26,7 +26,23 @@ keywords:
 - film-review
 - korean-cinema
 slug: harbinger-review-bong-joon-ho-returns-with-a-dystopian-masterpiece-that-rivals-parasite
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: The Oscar-winning director's latest film is a searing sci-fi thriller about climate
+    justice and class warfare that cements his place as a generational filmmaker.
+- q: Nội dung chính về «Bong's Most Visually Ambitious Film» là gì?
+  a: From a purely technical standpoint, "Harbinger" represents a quantum leap for
+    Korean cinema. The film's centerpiece sequence — a 25-minute set piece in which
+    Ha-neul navigates the submerged remnants of a coastal market — was shot over six
+    weeks in a purpose-built underwater tank and required Park…
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: Bong Joon-ho has done it again. "Harbinger," the Palme d'Or and Oscar-winning
+    director's first film since the historic "Parasite," premiered at the Cannes Film
+    Festival in May to a 12-minute standing ovation, and after seeing the finished
+    film at a press screening in Seoul, it is easy to understand why.
 ---
+
+
 Bong Joon-ho has done it again. "Harbinger," the Palme d'Or and Oscar-winning director's first film since the historic "Parasite," premiered at the Cannes Film Festival in May to
 a 12-minute standing ovation, and after seeing the finished film at a press screening in Seoul, it is easy to understand why. This is a filmmaker operating with complete mastery
 of his craft, delivering a dystopian sci-fi thriller that is as emotionally devastating as it is intellectually provocative.
@@ -47,3 +63,13 @@ forces beyond their control — a theme that resonates far beyond Korea's border
 such tenderness that it threatens to steal the entire film.
 
 "Harbinger" opens in Korean theaters on July 25 and will receive a global theatrical release through CJ ENM and Neon in August. It is not to be missed.
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "Phim 'Hope' của đạo diễn Na Hong-jin đạt doanh thu mở màn cao nhất năm 2026"
+    url: "en/movies/hope-opening-day-box-office-2026/"
+  - title: "Jeonju International Film Festival 2026: Independent Korean Cinema Takes Center Stage"
+    url: "en/movies/jeonju-film-festival-2026/"
+{{< /article-footer >}}

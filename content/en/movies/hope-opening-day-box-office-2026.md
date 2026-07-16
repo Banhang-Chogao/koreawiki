@@ -1,8 +1,7 @@
 ---
-title: "Phim 'Hope' của đạo diễn Na Hong-jin đạt doanh thu mở màn cao nhất năm 2026"
-description: >-
-  Tác phẩm kinh dị mới của đạo diễn Na Hong-jin thu hút 333.918 khán giả trong
-  ngày đầu ra rạp, vượt qua 'Exhuma' và thiết lập kỷ lục mới cho năm 2026.
+title: Phim 'Hope' của đạo diễn Na Hong-jin đạt doanh thu mở màn cao nhất năm 2026
+description: Tác phẩm kinh dị mới của đạo diễn Na Hong-jin thu hút 333.918 khán giả
+  trong ngày đầu ra rạp, vượt qua 'Exhuma' và thiết lập kỷ lục mới cho năm 2026.
 date: 2026-07-16
 draft: false
 author: Lee Myung-joo
@@ -27,7 +26,24 @@ keywords:
 - the chaser
 - the wailing
 slug: phim-hope-cua-dao-dien-na-hong-jin-dat-doanh-thu-mo-man-cao-nhat-nam-2026
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: Tác phẩm kinh dị mới của đạo diễn Na Hong-jin thu hút 333.918 khán giả trong
+    ngày đầu ra rạp, vượt qua 'Exhuma' và thiết lập kỷ lục mới cho năm 2026.
+- q: Nội dung chính về «Kỷ lục mở màn cao nhất năm» là gì?
+  a: Với thành tích này, "Hope" chính thức trở thành phim có doanh thu ngày đầu tiên
+    cao nhất tại Hàn Quốc trong năm 2026, đồng thời cũng là tác phẩm đạt điểm mở màn
+    ấn tượng nhất trong sự nghiệp của đạo diễn Na Hong-jin. So sánh với các tác phẩm
+    trước đây của ông, "The Chaser" (추격자) từng đạt 110.000…
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: Bộ phim kinh dị "Hope" (호프) của đạo diễn Na Hong-jin chính thức ra mắt khán giả
+    vào ngày 15 tháng 7 và ngay lập tức gây tiếng vang lớn. Theo số liệu từ Hệ thống
+    thống kê vé điện ảnh tích hợp của Ủy ban Điện ảnh Hàn Quốc, tác phẩm đã thu hút
+    333.918 lượt khán giả trong ngày đầu công chiếu, đứng đầu bảng xếp hạng phòng
+    vé.
 ---
+
+
 Bộ phim kinh dị "Hope" (호프) của đạo diễn Na Hong-jin chính thức ra mắt khán giả
 vào ngày 15 tháng 7 và ngay lập tức gây tiếng vang lớn. Theo số liệu từ Hệ thống
 thống kê vé điện ảnh tích hợp của Ủy ban Điện ảnh Hàn Quốc, tác phẩm đã thu hút
@@ -60,3 +76,18 @@ biến kỳ quái xảy ra sau đó.
 Bộ phim hiện đang được công chiếu tại các rạp trên toàn Hàn Quốc.
 
 Nguồn: Dispatch — https://www.dispatch.co.kr/2345296
+
+{{< article-footer >}}
+source: "Dispatch"
+source_url: "https://www.dispatch.co.kr/2345296"
+copyright: >
+  Một phần thông tin trong bài được tham khảo từ [Dispatch](https://www.dispatch.co.kr/2345296). Mọi thương hiệu, hình ảnh và tài liệu gốc thuộc quyền sở hữu của chủ sở hữu tương ứng. Bài viết trên KoreaWiki chỉ tổng hợp, biên tập và phân tích phục vụ độc giả — không thay thế thông cáo hay tài liệu chính thức.
+external:
+  - title: "Dispatch"
+    url: "https://www.dispatch.co.kr/2345296"
+internal:
+  - title: "'Harbinger' Review: Bong Joon-ho Returns with a Dystopian Masterpiece That Rivals 'Parasite'"
+    url: "en/movies/harbinger-review/"
+  - title: "Jeonju International Film Festival 2026: Independent Korean Cinema Takes Center Stage"
+    url: "en/movies/jeonju-film-festival-2026/"
+{{< /article-footer >}}

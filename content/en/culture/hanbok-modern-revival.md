@@ -27,7 +27,24 @@ keywords:
 - fashion
 - korean-culture
 slug: the-hanbok-renaissance-how-koreas-traditional-dress-found-a-new-generation-of-wearers
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: From red carpets to daily street style, the hanbok is experiencing a remarkable
+    revival among young Koreans who are reimagining tradition for the modern era.
+- q: Nội dung chính về «From Ceremonial to Everyday» là gì?
+  a: '"The hanbok has been trapped in the category of ''ceremonial wear'' for too
+    long," said designer Kim Ri-ho, whose brand, "Riho," has been at the forefront
+    of the hanbok modernization movement. "People associate it with weddings and Lunar
+    New Year.'
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: 'Walk through the streets of Bukchon on a weekend afternoon and you will see
+    them everywhere: young Koreans in hanbok, the traditional Korean dress, posing
+    for photographs, browsing galleries, and casually sipping iced americanos. The
+    hanbok they are wearing are not the heavily structured, formal garments of their
+    grandparents'' generation.'
 ---
+
+
 Walk through the streets of Bukchon on a weekend afternoon and you will see them everywhere: young Koreans in hanbok, the traditional Korean dress, posing for photographs,
 browsing galleries, and casually sipping iced americanos. But look closer. The hanbok they are wearing are not the heavily structured, formal garments of their grandparents'
 generation. These are lighter, more flexible, often customized versions — hanbok that breathe, move, and fit the rhythms of contemporary life.
@@ -48,3 +65,13 @@ A Riho hanbok starts at ₩350,000, positioning it as accessible luxury.
 The government has taken notice. The Ministry of Culture, Sports and Tourism has designated hanbok modernization as a priority cultural industry and is funding design incubators
 and international promotional campaigns. "Hanbok is a beautiful and distinct aesthetic tradition," said ministry official Park Min-jung. "There is no reason it should be confined
 to museums and wedding halls. We want to see hanbok on the streets of Paris, New York, and Tokyo."
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Soo-Jin Choi** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "Anne's Library — Nhà xuất bản Hàn Quốc hạ thấp rào cản tiếp cận văn học cổ điển và nghệ thuật"
+    url: "en/culture/annes-library-publishing-house-profile/"
+  - title: "Liên hoan phim độc lập Incheon lần thứ 13: Giữ gìn gốc rễ K-Content từ vùng địa phương"
+    url: "en/culture/incheon-independent-film-festival-2026/"
+{{< /article-footer >}}

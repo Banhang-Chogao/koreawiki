@@ -25,7 +25,26 @@ keywords:
 - do doc tai chinh
 - free financial counseling
 slug: quan-ly-chi-tieu-buoc-dau-tien-den-tu-do-tai-chinh-cho-gioi-tre-han-quoc
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: Trung tâm Đồng hành cùng Thanh niên Seoul giúp hàng ngàn bạn trẻ vượt qua khủng
+    hoảng tài chính qua các chương trình tư vấn và huấn luyện tài chính cá nhân miễn
+    phí.
+- q: Nội dung chính về «Từ kỹ sư tập đoàn đến 'bác sĩ tài chính' cho người trẻ» là
+    gì?
+  a: Trong số 9 chuyên viên tư vấn tại trung tâm, Lee Jae-won có một hành trình đặc
+    biệt. Từng là kỹ sư tại một tập đoàn lớn với tương lai đầy hứa hẹn, anh đã từ
+    bỏ tất cả để theo đuổi khát vọng "tạo ra thay đổi tích cực cho con người thay
+    vì máy móc." Động lực đến từ nỗi đau gia đình.
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: 'Giữa khu rừng cao ốc và năng lượng sôi động của đại lộ Teheran — trái tim của
+    hệ sinh thái khởi nghiệp IT và đầu tư mạo hiểm Hàn Quốc — có một bóng tối mà ít
+    ai thấy: những người trẻ tuổi bị đẩy đến bờ vực tài chính bởi biến động thị trường
+    và cảm giác thiếu thốn tương đối. Đây cũng chính là lý do Trung tâm Tư vấn Phúc
+    lợi Tài chính Seoul (thuộc Quỹ Phúc…'
 ---
+
+
 Giữa khu rừng cao ốc và năng lượng sôi động của đại lộ Teheran — trái tim của hệ sinh thái khởi nghiệp IT và đầu tư mạo hiểm Hàn Quốc — có một bóng tối mà ít ai thấy: những người
 trẻ tuổi bị đẩy đến bờ vực tài chính bởi biến động thị trường và cảm giác thiếu thốn tương đối.
 
@@ -94,3 +113,12 @@ trầm cảm nặng, và cả hỗ trợ sinh hoạt phí khẩn cấp — tất
 
 "Thất bại chỉ là một phần của tuổi trẻ. Nếu vấp ngã, bạn không cần phải gánh mọi trách nhiệm một mình."
 
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Ha Byeon-gil (Hankyoreh)** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "Hallyu 2.0: How Korean Culture Evolved from Niche Export to Global Dominance"
+    url: "en/feature/hallyu-20-korean-culture-global-wave/"
+  - title: "The Voice Behind the Screen: How Korean Voice Actors Became Global Stars"
+    url: "en/feature/korean-voice-actors-rise/"
+{{< /article-footer >}}

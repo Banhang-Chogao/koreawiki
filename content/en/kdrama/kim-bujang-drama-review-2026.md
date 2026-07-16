@@ -29,7 +29,23 @@ keywords:
 - taken ban han
 - phim bao thu han quoc
 slug: kim-bu-jang-khi-huong-vi-quen-thuoc-tro-thanh-con-nghien-manh-me
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: Dispatch phân tích sức hút của bộ phim 'Kim Bu-jang' (SBS) với sự tham gia của
+    So Ji-sub, đạt rating 21,6% chỉ sau 4 tập — một 'Taken' phiên bản Hàn đầy cuốn
+    hút.
+- q: Nội dung chính về «Cơn sốt rating» là gì?
+  a: '"Kim Bu-jang" khai thác mọi vấn đề nóng: từ bạo lực học đường đến giang hồ xã
+    hội đen, từ ức hiếp quyền lực đến sự bất công của hệ thống pháp luật. Khi những
+    kẻ xấu lợi dụng kẽ hở pháp luật và nạn nhân bị đẩy ra ngoài rìa xã hội, cơn phẫn
+    nộ dồn nén — thì người cha xuất hiện.'
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: Vậy thì tôi là 'kẻ vô pháp tuổi trung niên'." — Kim Bu-jang Trước mặt những kẻ
+    vị thành niên coi thường pháp luật, "Kim Bu-jang" (So Ji-sub) không hề lùi bước.
+    Anh dùng chính logic của chúng để phản pháo lại.
 ---
+
+
 "Juvenile offender? Cách nói hay đấy. Vậy thì tôi là 'kẻ vô pháp tuổi trung niên'." — Kim Bu-jang
 
 Trước mặt những kẻ vị thành niên coi thường pháp luật, "Kim Bu-jang" (So Ji-sub)
@@ -112,3 +128,12 @@ khứ luôn đuổi theo và đẩy họ trở lại cuộc chiến sinh tồn.
 
 Ba con người, ba người cha — một "vũ trụ những người cha" hoàn chỉnh.
 
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Lee A-jin (Dispatch)** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "Park Seo-joon and Jun Ji-hyun Confirmed for 'The Seoul Agency' — Netflix's Most Expensive Drama Series Ever"
+    url: "en/kdrama/casting-announcement-july-2026/"
+  - title: "KBS Announces 2027 Sageuk Lineup Including 'The Last Admiral' and 'Goryeo Dreams'"
+    url: "en/kdrama/kbs-sageuk-slot-2027/"
+{{< /article-footer >}}

@@ -26,7 +26,24 @@ keywords:
 - korean cinema
 - production
 slug: south-korea-expands-film-tax-credit-program-to-lure-international-productions
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: The Ministry of Culture, Sports and Tourism announces a revamped incentive scheme
+    offering up to 40% tax credits for international productions filming in Korea.
+- q: Nội dung chính về «Targeting Big-Budget Franchise Productions» là gì?
+  a: Under the revised framework, productions spending at least ₩10 billion in Korea
+    will qualify for a base 30% cash rebate, with an additional 10% available for
+    projects that meet specific criteria, including the use of Korean visual effects
+    studios, employment of local post-production facilities,…
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: The Korean Ministry of Culture, Sports and Tourism unveiled a significantly expanded
+    tax credit program on Wednesday designed to attract major international film and
+    television productions to the peninsula. The revised Korean Film and Television
+    Production Incentive increases the maximum rebate to 40% of qualifying local expenditures,
+    up from the previous…
 ---
+
+
 The Korean Ministry of Culture, Sports and Tourism unveiled a significantly expanded tax credit program on Wednesday designed to attract major international film and television
 productions to the peninsula. The revised Korean Film and Television Production Incentive increases the maximum rebate to 40% of qualifying local expenditures, up from the
 previous 25%, and removes the cap on eligible production budgets.
@@ -47,3 +64,13 @@ The bonus criteria were designed in consultation with the Korean Film Council an
 The announcement was met with enthusiasm by Hollywood studios. Warner Bros. Discovery confirmed it is scouting locations for a tentpole superhero film scheduled for 2028
 production, and Netflix indicated it would base an additional two original series in Korea under the expanded incentive structure. The Korea Creative Content Agency estimates the
 program could generate an additional ₩2 trillion in economic activity annually by 2029.
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "HYBE Reports Record Q2 Revenue of ₩620 Billion Driven by Global Touring and Weverse Growth"
+    url: "en/news/hybe-second-quarter-earnings/"
+  - title: "Netflix Unveils Record ₩1.5 Trillion Korean Content Slate for 2027"
+    url: "en/news/netflix-2027-korean-slate/"
+{{< /article-footer >}}

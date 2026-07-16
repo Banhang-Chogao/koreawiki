@@ -26,7 +26,24 @@ keywords:
 - k-pop
 - business
 slug: hybe-reports-record-q2-revenue-of-620-billion-driven-by-global-touring-and-weverse-growth
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: The K-pop entertainment giant surpasses expectations with a 34% year-over-year
+    increase, fueled by BTS solo tours, Seventeen's world tour, and platform expansion.
+- q: Nội dung chính về «Weverse Emerges as a Profit Center» là gì?
+  a: Weverse, HYBE's fan community platform, saw monthly active users grow to 12.8
+    million, generating ₩87 billion in revenue from digital merchandise, exclusive
+    content subscriptions, and concert live-streaming. The company has invested heavily
+    in AI-powered personalization features for the platform,…
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: HYBE Corporation reported record second-quarter earnings of ₩620 billion on Friday,
+    surpassing analysts' consensus estimates by 8% and sending shares up 5.3% in afternoon
+    trading on the Korea Exchange. The conglomerate, home to BTS, Seventeen, and LE
+    SSERAFIM, attributed the strong performance to a packed global touring schedule
+    and accelerating commerce…
 ---
+
+
 HYBE Corporation reported record second-quarter earnings of ₩620 billion on Friday, surpassing analysts' consensus estimates by 8% and sending shares up 5.3% in afternoon trading
 on the Korea Exchange. The conglomerate, home to BTS, Seventeen, and LE SSERAFIM, attributed the strong performance to a packed global touring schedule and accelerating commerce
 revenue from its Weverse platform.
@@ -47,3 +64,13 @@ NewJeans under the same label.
 
 Analysts at Daishin Securities maintained their "Buy" rating on HYBE stock, raising their target price to ₩310,000, citing the company's successful monetization of its multi-label
 structure and global reach.
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Min-Jun Kim** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "South Korea Expands Film Tax Credit Program to Lure International Productions"
+    url: "en/news/korean-film-tax-credit-expansion/"
+  - title: "Netflix Unveils Record ₩1.5 Trillion Korean Content Slate for 2027"
+    url: "en/news/netflix-2027-korean-slate/"
+{{< /article-footer >}}

@@ -26,7 +26,23 @@ keywords:
 - cosmetics
 - retail
 slug: when-k-beauty-met-fashion-how-korean-cosmetics-brands-are-redefining-luxury-retail
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: From Amorepacific's flagship in Gangnam to collaborations with global fashion
+    houses, Korean beauty is experiencing a luxury renaissance.
+- q: Nội dung chính về «Beyond the 10-Step Routine» là gì?
+  a: '"In the past, K-beauty was associated with mass-market products and elaborate
+    skincare routines," said fashion and beauty analyst Park Eun-ji. "But the new
+    generation of Korean beauty consumers are looking for sophistication, not complexity.'
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: In the luxury section of Shinsegae Gangnam, the flagship department store in
+    one of Seoul's most affluent districts, a new retail concept has been drawing
+    crowds since its April opening. The space, a collaboration between Amorepacific's
+    premium beauty line Sulwhasoo and French fashion house Maison Margiela, is neither
+    a beauty counter nor a fashion…
 ---
+
+
 In the luxury section of Shinsegae Gangnam, the flagship department store in one of Seoul's most affluent districts, a new retail concept has been drawing crowds since its April
 opening. The space, a collaboration between Amorepacific's premium beauty line Sulwhasoo and French fashion house Maison Margiela, is neither a beauty counter nor a fashion
 boutique — it is both. Customers can have their skin analyzed by Sulwhasoo's AI beauty advisor, then browse a curated selection of Maison Margiela ready-to-wear while waiting for
@@ -48,3 +64,13 @@ development with a major Italian fashion house.
 The economic impact is substantial. According to the Korea International Trade Association, cosmetics exports reached $12.3 billion in 2025, making beauty the third-largest
 cultural export category behind entertainment and food. With the fashion-beauty convergence accelerating, that figure is expected to grow as Korean brands capture more of the
 global luxury market.
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "Seoul Fashion Week Fall/Winter 2026: Tradition, Tech, and a New Global Ambition"
+    url: "en/fashion/seoul-fashion-week-july-2026/"
+  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+    url: "en/artist/bts-suga-solo-artist-profile/"
+{{< /article-footer >}}

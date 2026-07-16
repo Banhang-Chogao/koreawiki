@@ -26,7 +26,22 @@ keywords:
 - future
 - Exclusive
 slug: exclusive-bts-members-weigh-in-on-group-future-we-will-come-back-when-the-story-requires-it
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: In a series of candid one-on-one conversations, the seven members of BTS open
+    up about solo careers, military service, and the band's eventual reunion.
+- q: Nội dung chính về «On the Reunion» là gì?
+  a: '"I get asked about this every single day," said RM, speaking in English for
+    much of our conversation. "And the honest answer is: we don''t have a date.'
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: Over the course of four months, KoreaWiki sat down individually with all seven
+    members of BTS — Jin, SUGA, j-hope, RM, Jimin, V, and Jung Kook — for a series
+    of conversations about their lives, their solo work, and the future of the group
+    that changed K-pop forever. What emerged is a portrait of seven young men at peace
+    with their past and thoughtful about…
 ---
+
+
 Over the course of four months, KoreaWiki sat down individually with all seven members of BTS — Jin, SUGA, j-hope, RM, Jimin, V, and Jung Kook — for a series of conversations
 about their lives, their solo work, and the future of the group that changed K-pop forever. What emerged is a portrait of seven young men at peace with their past and thoughtful
 about what comes next.
@@ -53,3 +68,13 @@ that we would grow apart," Jimin admitted. "But actually, spending time apart ma
 are just BTS in a different form right now."
 
 No date has been announced for a group reunion, but multiple members hinted at "significant conversations" scheduled for early 2027.
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Min-Jun Kim** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "Exclusive: On Set With 'Goryeo Dreams' — Inside KBS's Most Ambitious Period Drama"
+    url: "en/exclusive/behind-the-scenes-goryeo-drama/"
+  - title: "Exclusive: Inside SM Entertainment's Next Girl Group — The Vision, The Members, The Strategy"
+    url: "en/exclusive/sm-entertainment-new-girl-group/"
+{{< /article-footer >}}

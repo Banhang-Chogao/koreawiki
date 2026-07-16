@@ -26,7 +26,24 @@ keywords:
 - debut
 - Exclusive
 slug: exclusive-inside-sm-entertainments-next-girl-group-the-vision-the-members-the-strategy
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: KoreaWiki gains unprecedented access to SM's training facility as the company
+    prepares to launch its first new girl group in six years.
+- q: Nội dung chính về «The Final Seven» là gì?
+  a: After two years of auditions that drew over 60,000 applicants, the lineup has
+    been finalized at seven members, ranging in age from 17 to 22. SM declined to
+    reveal their identities ahead of the official debut announcement, but KoreaWiki
+    has confirmed that the group includes two Chinese-Korean…
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: SEOUL — Behind the unmarked glass doors of a nondescript building in Seongnam,
+    20 minutes south of Seoul, the next generation of K-pop is being assembled with
+    military precision. KoreaWiki was granted exclusive access to SM Entertainment's
+    newly completed "NEO Training Center," a ₩50 billion facility where the company's
+    next girl group — currently…
 ---
+
+
 SEOUL — Behind the unmarked glass doors of a nondescript building in Seongnam, 20 minutes south of Seoul, the next generation of K-pop is being assembled with military precision.
 KoreaWiki was granted exclusive access to SM Entertainment's newly completed "NEO Training Center," a ₩50 billion facility where the company's next girl group — currently
 code-named "Project Iris" — has been training for the past 18 months.
@@ -51,3 +68,13 @@ several members play instruments. The debut album, scheduled for March 2027, is 
 have worked with Dua Lipa and Olivia Rodrigo.
 
 An SM Entertainment spokesperson declined to comment on specific details but confirmed that a new girl group debut is planned for the first quarter of 2027.
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Ji-Yeon Park** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "Exclusive: On Set With 'Goryeo Dreams' — Inside KBS's Most Ambitious Period Drama"
+    url: "en/exclusive/behind-the-scenes-goryeo-drama/"
+  - title: "Exclusive: BTS Members Weigh In on Group Future — 'We Will Come Back When the Story Requires It'"
+    url: "en/exclusive/bts-members-individual-futures/"
+{{< /article-footer >}}

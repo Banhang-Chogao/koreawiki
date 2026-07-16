@@ -27,7 +27,24 @@ keywords:
 - sustainability
 - Travel
 slug: jejus-eco-tourism-revolution-how-koreas-island-paradise-is-balancing-development-and-conservation
+faq:
+- q: Bài viết này nói về chủ đề gì?
+  a: As tourist numbers surge past 20 million annually, Jeju Island grapples with
+    the challenge of preserving its unique natural heritage while accommodating visitors.
+- q: Nội dung chính về «A Model for Sustainable Tourism» là gì?
+  a: In response, the Jeju Special Self-Governing Province has implemented what officials
+    describe as the most ambitious sustainable tourism framework in Asia. The "Jeju
+    Promise" initiative, launched in 2024, includes a daily visitor cap (currently
+    set at 80,000), an eco-levy of ₩10,000 per visitor,…
+- q: Điểm thông tin chính độc giả nên nhớ là gì?
+  a: 'Jeju Island, the volcanic paradise off Korea''s southern coast, has a problem
+    that many destinations would envy: too many visitors. The island welcomed 21.3
+    million tourists in 2025, a record that strains infrastructure, threatens delicate
+    ecosystems, and has sparked a contentious debate about the future of tourism on
+    the island.'
 ---
+
+
 Jeju Island, the volcanic paradise off Korea's southern coast, has a problem that many destinations would envy: too many visitors. The island welcomed 21.3 million tourists in
 2025, a record that strains infrastructure, threatens delicate ecosystems, and has sparked a contentious debate about the future of tourism on the island.
 
@@ -52,3 +69,13 @@ implemented, and the island's environmental indicators are stabilizing.
 For travelers, the key to experiencing Jeju responsibly is simple: go during the shoulder season (April-May or October-November), stay in locally owned accommodation, use public
 transportation, and explore beyond the famous sites. The island's interior, with its Oreum (volcanic cones), citrus orchards, and haenyeo (female diver) villages, offers a Jeju
 experience that mass tourism rarely touches.
+
+{{< article-footer >}}
+copyright: >
+  Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+internal:
+  - title: "Beyond Seoul: Why Busan Is Korea's Most Underrated Travel Destination"
+    url: "en/travel/beyond-seoul-busan-travel-guide/"
+  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+    url: "en/artist/bts-suga-solo-artist-profile/"
+{{< /article-footer >}}
