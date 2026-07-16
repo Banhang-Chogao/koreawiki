@@ -1,50 +1,51 @@
 ---
-title: "YEONJUN (TXT) lần đầu ca sĩ Hàn lên sân khấu Z100 Summer Bash tại New York"
-description: "Thành viên TOMORROW X TOGETHER YEONJUN gia nhập lineup Z100's Summer
+title: YEONJUN (TXT) lần đầu ca sĩ Hàn lên sân khấu Z100 Summer Bash tại New York
+description: Thành viên TOMORROW X TOGETHER YEONJUN gia nhập lineup Z100's Summer
   Bash (6/8, Hudson Yards, NYC) — ca sĩ Hàn Quốc đầu tiên trên sân khấu này. Anh cũng
-  xác nhận GMA Summer Concert Series."
+  xác nhận GMA Summer Concert Series.
 date: 2026-07-16
 lastmod: 2026-07-16
 source_date: 2026-07-14
 draft: false
-author: "KoreaWiki Newsroom"
+author: KoreaWiki Newsroom
 cover:
   image: images/2026/07/yeonjun-z100-summer-bash-2026-cover.jpg
-  alt: "YEONJUN của TOMORROW X TOGETHER"
-  caption: "YEONJUN — Ảnh: Z100 Summer Bash"
+  alt: YEONJUN của TOMORROW X TOGETHER
+  caption: 'YEONJUN — Ảnh: Z100 Summer Bash'
 tags:
-  - yeonjun
-  - txt
-  - tomorrow-x-together
-  - z100
-  - summer-bash
-  - k-pop
+- yeonjun
+- txt
+- tomorrow-x-together
+- z100
+- summer-bash
+- k-pop
 categories:
-  - K-Pop
-  - News
+- K-Pop
+- News
 keywords:
-  - yeonjun
-  - txt
-  - z100 summer bash
-  - ice cream
-  - no labels part 02
-  - good morning america
+- yeonjun
+- txt
+- z100 summer bash
+- ice cream
+- no labels part 02
+- good morning america
 slug: yeonjun-txt-lan-dau-ca-si-han-len-san-khau-z100-summer-bash-tai-new-york
 faq:
-  - q: "YEONJUN sẽ biểu diễn ở đâu và khi nào?"
-    a: "Anh tham gia **Z100's Summer Bash Presented By Wells Fargo** vào **6 tháng 8**,
-      tại **Hudson Yards, New York**."
-  - q: "Vì sao đây là cột mốc?"
-    a: "Theo Dispatch, YEONJUN là **ca sĩ Hàn Quốc đầu tiên** lên sân khấu **Z100 Summer
-      Bash** — concert ngoài trời do đài radio **Z100** (iHeartMedia) tổ chức."
-  - q: "Anh còn lịch Mỹ nào khác?"
-    a: "Anh cũng xác nhận **Summer Concert Series** do **Good Morning America** (ABC)
-      tổ chức."
-  - q: "Album solo mới của YEONJUN ra sao?"
-    a: "Mini 2 *No Labels: Part 02*, title track **Ice Cream** (từ 10/7). Ngày đầu bán
-      **hơn 660.000** bản — cao nhất ngày đầu trong năm với ca sĩ solo Hàn. **Ice Cream**
-      top 10 Bugs tuần trong 3 ngày; Spotify Viral Hits Korea hạng **3**."
+- q: YEONJUN sẽ biểu diễn ở đâu và khi nào?
+  a: Anh tham gia **Z100's Summer Bash Presented By Wells Fargo** vào **6 tháng 8**,
+    tại **Hudson Yards, New York**.
+- q: Vì sao đây là cột mốc?
+  a: Theo Dispatch, YEONJUN là **ca sĩ Hàn Quốc đầu tiên** lên sân khấu **Z100 Summer
+    Bash** — concert ngoài trời do đài radio **Z100** (iHeartMedia) tổ chức.
+- q: Anh còn lịch Mỹ nào khác?
+  a: Anh cũng xác nhận **Summer Concert Series** do **Good Morning America** (ABC)
+    tổ chức.
+- q: Album solo mới của YEONJUN ra sao?
+  a: 'Mini 2 *No Labels: Part 02*, title track **Ice Cream** (từ 10/7). Ngày đầu bán
+    **hơn 660.000** bản — cao nhất ngày đầu trong năm với ca sĩ solo Hàn. **Ice Cream**
+    top 10 Bugs tuần trong 3 ngày; Spotify Viral Hits Korea hạng **3**.'
 ---
+
 
 **YEONJUN** (연준) của **TOMORROW X TOGETHER** (투모로우바이투게더) tiếp tục được mời biểu diễn tại các sân khấu lớn ở Mỹ.
 
@@ -80,16 +81,16 @@ source: "Dispatch"
 source_url: "https://www.dispatch.co.kr/2345227"
 copyright: >
   Một phần thông tin trong bài được tham khảo từ
-  [Dispatch](https://www.dispatch.co.kr/2345227) (구민지 기자, 14/7/2026).
-  Ảnh theo ghi chú nguồn Z100 Summer Bash / chủ sở hữu tương ứng.
-  Bài viết trên KoreaWiki chỉ tổng hợp và biên tập phục vụ độc giả — không thay
-  thế thông cáo chính thức của nghệ sĩ hay nhà tổ chức.
+  [Dispatch](https://www.dispatch.co.kr/2345227). Mọi thương hiệu, hình ảnh và tài liệu
+  gốc thuộc quyền sở hữu của chủ sở hữu tương ứng. Bài viết trên KoreaWiki chỉ tổng hợp,
+  biên tập và phân tích phục vụ độc giả — không thay thế thông cáo hay tài liệu chính
+  thức.
 external:
-  - title: "Dispatch gốc — 연준 Z100 서머배시"
+  - title: "Dispatch"
     url: "https://www.dispatch.co.kr/2345227"
 internal:
-  - title: "TWS đẩy mạnh promotion 'SODA SODA' tại Nhật: pop-up store 3 thành phố"
-    url: "en/kpop/tours-soda-soda-japan-promotion-2026/"
-  - title: "aespa Returns with 'Armageddon'"
+  - title: "aespa trở lại với 'Armageddon': Sự tiến hóa âm thanh tương lai định nghĩa lại câu chuyện của họ"
     url: "en/kpop/aespa-comeback-armageddon/"
+  - title: "Bang Chan (Stray Kids) tỏa sáng tại sự kiện ra mắt bộ sưu tập mùa đông 2026"
+    url: "en/kpop/bangchan-winter-collection-2026/"
 {{< /article-footer >}}

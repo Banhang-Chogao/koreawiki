@@ -1,8 +1,9 @@
 ---
-title: '''Lovely Runner'' Tập 8: Phim kinh dị vượt thời gian có bước ngoặt tàn khốc khi quá
-  khứ bắt đầu tự viết lại'
-description: Bộ phim truyền hình ăn khách của tvN mang đến tình tiết gây sốc nhất khi những
-  hành động của Sun-jae trong quá khứ có nguy cơ làm sáng tỏ hoàn toàn dòng thời gian.
+title: '''Lovely Runner'' Tập 8: Phim kinh dị vượt thời gian có bước ngoặt tàn khốc
+  khi quá khứ bắt đầu tự viết lại'
+description: Bộ phim truyền hình ăn khách của tvN mang đến tình tiết gây sốc nhất
+  khi những hành động của Sun-jae trong quá khứ có nguy cơ làm sáng tỏ hoàn toàn dòng
+  thời gian.
 date: 2026-07-09
 draft: false
 author: Hyun-Woo Lee
@@ -24,26 +25,26 @@ keywords:
 - recap
 - tvN
 - time-slip
-slug: lovely-runner-episode-8-time-slip-thriller-takes-a-devastating-turn-as-the-past-begins-to-rewrite-itself
+slug: lovely-runner-tap-8-phim-kinh-di-vuot-thoi-gian-co-buoc-ngoat-tan-khoc-khi-qua-khu-bat-dau-tu-viet-lai
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Bộ phim truyền hình ăn khách của tvN mang đến tình tiết gây sốc nhất khi những hành động
-    của Sun-jae trong quá khứ có nguy cơ làm sáng tỏ hoàn toàn dòng thời gian.
+  a: Bộ phim truyền hình ăn khách của tvN mang đến tình tiết gây sốc nhất khi những
+    hành động của Sun-jae trong quá khứ có nguy cơ làm sáng tỏ hoàn toàn dòng thời
+    gian.
 - q: Nội dung chính về «The Butterfly Effect Unleashed» là gì?
-  a: Trọng tâm của tập phim là một đoạn phim dài 15 phút, trong đó Im Sol nhận ra rằng việc
-    ngăn chặn thành công vụ tai nạn của Sun-jae năm 2012 đã gây ra những hậu quả nặng nề mà
-    cô không bao giờ lường trước được. Sun-jae, người đáng lẽ phải được truyền cảm hứng theo
-    đuổi âm nhạc từ trải nghiệm cận kề cái chết của mình, lại không bao giờ cầm đàn guitar
-    trong…
+  a: Trọng tâm của tập phim là một đoạn phim dài 15 phút, trong đó Im Sol nhận ra
+    rằng việc ngăn chặn thành công vụ tai nạn của Sun-jae năm 2012 đã gây ra những
+    hậu quả nặng nề mà cô không bao giờ lường trước được. Sun-jae, người đáng lẽ phải
+    được truyền cảm hứng theo đuổi âm nhạc từ trải nghiệm cận kề cái chết của mình,
+    lại không bao giờ cầm đàn guitar trong…
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: 'CẢNH BÁO: Bản tóm tắt này có chứa phần tiết lộ nội dung của "Lovely Runner" Tập 8. "Lovely
-    Runner" là một trong những bộ phim có rating đáng tin cậy nhất năm 2026, nhưng Tập 8,
-    phát sóng vào thứ Tư trên tvN, lại là thời điểm bộ phim thông báo rằng bộ phim sẽ tiếp
-    tục chiếu.'
+  a: 'CẢNH BÁO: Bản tóm tắt này có chứa phần tiết lộ nội dung của "Lovely Runner"
+    Tập 8. "Lovely Runner" là một trong những bộ phim có rating đáng tin cậy nhất
+    năm 2026, nhưng Tập 8, phát sóng vào thứ Tư trên tvN, lại là thời điểm bộ phim
+    thông báo rằng bộ phim sẽ tiếp tục chiếu.'
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 CẢNH BÁO: Bản tóm tắt này có chứa phần tiết lộ nội dung của Tập 8 "Lovely Runner".
 
 "Lovely Runner" là một trong những bộ phim có rating đáng tin cậy nhất năm 2026, nhưng Tập 8, phát sóng thứ Tư trên tvN, lại là thời điểm bộ phim thông báo sẽ chiếu.
@@ -58,18 +59,20 @@ nhân vật.
 ## Hiệu ứng cánh bướm được tung ra
 
 Trọng tâm của tập phim là một đoạn phim dài 15 phút, trong đó Im Sol nhận ra rằng việc ngăn chặn thành công vụ tai nạn của Sun-jae năm 2012 đã gây ra những hậu quả nặng nề mà cô chưa bao giờ gặp phải.
-dự kiến. Sun-jae, người đáng lẽ phải được truyền cảm hứng để theo đuổi âm nhạc từ trải nghiệm cận kề cái chết của mình, lại không bao giờ chọn một cây đàn guitar trong dòng thời gian đã bị thay đổi. Quán karaoke nơi họ
+dự kiến. Sun-jae, người đáng lẽ phải được truyền cảm hứng để theo đuổi âm nhạc từ trải nghiệm cận kề cái chết của mình, lại không bao giờ chọn một cây đàn guitar trong dòng thời
+gian đã bị thay đổi. Quán karaoke nơi họ
 chia sẻ nụ hôn đầu tiên của họ không bao giờ mở ra. Bài hát lẽ ra là đĩa đơn đầu tay của anh - chính bài hát đã kết nối họ xuyên thời gian - bắt đầu mờ dần trong trí nhớ của cô như một
 mơ khi thức dậy.
 
 Diễn xuất của Kim Hye-yoon trong cảnh này thật phi thường. Vẻ kinh hoàng hiện rõ trên khuôn mặt cô khi cô điên cuồng lướt qua chiếc điện thoại thông minh không còn chứa thông tin
-những bức ảnh cô chụp trong dòng thời gian ban đầu chính là kiểu diễn xuất mà các giải thưởng được xây dựng dựa trên đó. Trong khi đó, Byeon Woo-seok đóng vai Sun-jae ngày càng bối rối trước một điểm yếu
-điều đó khiến cho cảnh quay cuối cùng của tập phim - một giọt nước mắt lăn dài trên khuôn mặt anh ấy khi anh ấy nhìn chằm chằm vào một người lạ mà cảm thấy quen thuộc đến không thể tin được - rơi xuống với tác động tàn khốc.
+những bức ảnh cô chụp trong dòng thời gian ban đầu chính là kiểu diễn xuất mà các giải thưởng được xây dựng dựa trên đó. Trong khi đó, Byeon Woo-seok đóng vai Sun-jae ngày càng
+bối rối trước một điểm yếu
+điều đó khiến cho cảnh quay cuối cùng của tập phim - một giọt nước mắt lăn dài trên khuôn mặt anh ấy khi anh ấy nhìn chằm chằm vào một người lạ mà cảm thấy quen thuộc đến không
+thể tin được - rơi xuống với tác động tàn khốc.
 
-Tập phim kết thúc với một tình tiết bất ngờ đang thịnh hành trên khắp các nền tảng mạng xã hội Hàn Quốc: Im Sol thức dậy vào năm 2026 và phát hiện ra rằng Sun-jae không những không biết cô ấy mà còn là
+Tập phim kết thúc với một tình tiết bất ngờ đang thịnh hành trên khắp các nền tảng mạng xã hội Hàn Quốc: Im Sol thức dậy vào năm 2026 và phát hiện ra rằng Sun-jae không những
+không biết cô ấy mà còn là
 đính hôn với người khác. Tập 9 sẽ phát sóng vào thứ Tư tuần sau trên kênh tvN.
-
-
 
 {{< article-footer >}}
 copyright: >
@@ -77,8 +80,8 @@ copyright: >
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "Park Seo-joon and Jun Ji-hyun Confirmed for 'The Seoul Agency' — Netflix's Most Expensive Drama Series Ever"
+  - title: "Park Seo-joon & Jun Ji-hyun vào 'The Seoul Agency' — drama Netflix kỷ lục"
     url: "en/kdrama/casting-announcement-july-2026/"
-  - title: "KBS Announces 2027 Sageuk Lineup Including 'The Last Admiral' and 'Goryeo Dreams'"
+  - title: "KBS công bố đội hình Sageuk năm 2027 bao gồm 'Đô đốc cuối cùng' và 'Giấc mơ Goryeo'"
     url: "en/kdrama/kbs-sageuk-slot-2027/"
 {{< /article-footer >}}
