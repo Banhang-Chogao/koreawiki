@@ -141,7 +141,8 @@ Both require full image gallery fetch (`scripts/fetch_cover.py --all`), `faq` + 
 Shared steps:
 
 1. `python3 scripts/glossary.py consult` before translate  
-2. Write Vietnamese article (KO→VI for `mm`, EN→VI for `nn`)  
+2. **Human rewrite** into Vietnamese (KO→VI / EN→VI): objective, natural voice,
+   **full facts retained** (no thin MT paste) — original editorial contribution  
 3. Fetch **all** usable source images → `static/images/…` + body Markdown embeds  
 4. Extract TM → `glossary.py upsert` → `sync` (lighter for pure EN when no KO terms)  
 5. Run scientist / QA validate + baseURL image smoke test  

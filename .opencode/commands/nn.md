@@ -92,22 +92,47 @@ python3 scripts/glossary.py lookup <term>
 
 ---
 
-## Step 4 — Translate English → Vietnamese
+## Step 4–5 — Human rewrite (EN → VI) — **original contribution, full content**
 
-Preserve facts, names, numbers, timeline, quotations where appropriate. **Do not fabricate.**
+**Goal:** A KoreaWiki piece that reads as **written by a human editor** in Vietnamese —
+not a machine-translation dump — while **retaining the full factual content** of the
+English source. That active rewrite (structure, wording, sectioning) is intentional
+**editorial contribution** (relevant for originality / AdSense thin-content risk):
+we **contribute**, we do not republish a gloss of the source.
 
-- Translate meaning into natural Vietnamese; do not calque English sentence order
-- Keep established English proper nouns when that is the global standard (project titles, office names); explain once in Vietnamese if helpful
-- Apply TM terminology from Step 3 when relevant
+### Must keep (no content loss)
 
----
+- All **facts**: who / what / when / where / m² / year / budget / counts / deadlines
+- **Names** (people, offices, projects, places, manufacturers) — global EN names OK;
+  explain once in VI if helpful
+- **Quotes** or architect-provided text claims that carry value (paraphrase only if
+  meaning stays identical)
+- Specs tables / program lists (Church, rooms, materials…) — do not silently drop rows
+- ArchDaily: location, office, photographer, year, area, contractors, key design intent
+  from the provided project text
 
-## Step 5 — Rewrite in original Vietnamese journalistic / feature style
+**Forbidden “thinning”:** cover + 2 paragraphs while the source had a full brief;
+dropping materials, team, or program “to keep it short.”
 
-- Original wording, objective tone
-- Clear headings and subheadings
-- For ArchDaily: lead with where / who / what; then program, materials, context; embed photos next to related sections
-- Include: title, description, slug (Vietnamese-friendly via `slug.py` conventions), keywords, categories, tags
+### Must change (human + objective voice)
+
+- Natural Vietnamese feature/news prose — **do not calque** English syntax
+- **Objective** framing: no marketing hype beyond what the source states
+- **Your own** lead and subheads; reorder for clarity if needed
+- Light editorial framing (“đây là gì / bối cảnh”) without new facts
+- For ArchDaily: lead with **where / who / what**, then program → materials/context →
+  embed photos next to related sections
+
+### Self-check before shipping body
+
+1. Same **fact package** as the English source? If thinner → restore missing facts.
+2. Still reads like EN→VI line mirror? → rewrite again in human Vietnamese.
+3. Any claim not in the source? → **delete** (never invent).
+4. Title/description are **original wording**, not only a literal headline clone.
+
+Apply TM terminology from Step 3 when relevant.
+
+Include: title, description, slug (`slug.py`), keywords, categories, tags.
 
 **Section routing (guidance):**
 
@@ -379,8 +404,9 @@ EN URL/text → fetch (+ ALL images) → consult TM → EN→VI rewrite
 ## Rules
 
 - Never fabricate facts, dates, quotes, or image credits
-- Preserve factual accuracy
-- Produce **original Vietnamese** prose, not a close calque of English
+- Preserve factual accuracy — **rewrite without content loss** (full fact package)
+- **Human, objective Vietnamese** — active editorial contribution, not MT paste / calque
+  (originality / AdSense-friendly; always attribute the English source)
 - Prefer TM for shared terminology
 - Always attribute: `Nguồn: [Publisher] — [URL]`
 - **Images:** mandatory `fetch_cover.py --page … --all` effort; host everything usable under `static/images/…`

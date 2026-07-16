@@ -223,6 +223,16 @@ CDN URL harvest, content-hash dedup, browser UA, story-folder filter).
 
 ---
 
+## Entry 028 — 2026-07-16: mm/nn human rewrite without content loss
+
+**Policy:** Steps 4–5 in `mm.md` and `nn.md` require **human, objective Vietnamese
+rewrite** with **full fact retention** (no thin MT paste / calque). Intentional
+editorial contribution for originality (e.g. AdSense), while always attributing source.
+
+**Self-check:** same fact package as source; natural VI voice; zero invented claims.
+
+---
+
 ## Entry 027 — 2026-07-16: Body Markdown images ignored baseURL
 
 **Error:** ArchDaily/`nn` post had cover OK but body gallery 404.

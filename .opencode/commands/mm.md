@@ -64,17 +64,46 @@ python3 scripts/glossary.py lookup <term>
 - Maintain terminology consistency with prior articles
 - Do not invent alternate spellings for names/orgs already in the TM
 
-## Step 4 — Translate into Vietnamese
+## Step 4–5 — Human rewrite (KO → VI) — **original contribution, full content**
 
-Preserve facts, names, numbers, timeline, quotations where appropriate. Do not add fabricated information.
+**Goal:** A KoreaWiki article that reads as **written by a human editor**, not a
+paste of machine translation — while **keeping every material fact** from the source.
+This is intentional editorial contribution (structure, wording, framing), relevant
+for originality (e.g. AdSense / thin-content policies): we **contribute**, we do not
+mirror the source sentence-by-sentence.
+
+### Must keep (no content loss)
+
+- All **facts**: who / what / when / where / numbers / money / counts / deadlines
+- **Names** (people, orgs, titles, places) — use TM spellings when present
+- **Quotes** that carry news value (or paraphrase carefully **without** changing meaning)
+- **Timeline** and causal claims present in the source
+- Key **context** paragraphs (background, “why it matters”) — do not drop for brevity
+- Source-specific details (program names, product lines, court/agency names, etc.)
+
+**Forbidden “thinning”:** cutting half the article, dropping secondary but real facts,
+or summarizing so hard that a reader loses information the source provided.
+
+### Must change (human + objective voice)
+
+- **Rewrite** into natural Vietnamese news prose: rhythm, paragraphing, connectors
+- **Do not calque** Korean word order or stock press-release formulas
+- **Objective** tone: no hype, no fan bias, no invented opinion
+- **Original structure**: your own lead, subheads, and section order (as long as facts stay)
+- Add light **editorial glue** only when it clarifies (e.g. one-line “đây là gì / vì sao
+  đáng chú ý”) — still no new facts
+- Prefer concrete verbs and short–medium sentences over stiff translationese
+
+### Self-check before shipping body
+
+1. Could a reader get the **same factual package** as the Korean source? If not → add back.
+2. Does it still **sound translated line-by-line**? If yes → rewrite paragraphs again.
+3. Any number/name you cannot find in the source? → **remove** (never invent).
+4. Title/description are **new wording**, not a direct gloss of the original headline only.
 
 Apply TM terminology from Step 3.
 
-## Step 5 — Rewrite in original Vietnamese journalistic style
-
-Original wording, objective tone, professional news writing. Do not closely mirror source sentence structure. Add clear headings and subheadings.
-
-Include: title, description, slug, keywords, summary, categories, tags.
+Include: title, description, slug, keywords, categories, tags (+ clear headings in body).
 
 ## Step 6 — **ALL images** from original source (**MANDATORY effort**)
 
@@ -345,8 +374,9 @@ No manual glossary work required on the happy path. **Full image gallery from so
 ## Rules
 
 - Never fabricate facts, dates, quotes, or image credits
-- Preserve factual accuracy
-- Produce original Vietnamese article, not a close translation
+- Preserve factual accuracy — **rewrite without content loss** (full fact package)
+- **Human, objective Vietnamese** — active editorial contribution, not MT paste / calque
+  (helps originality; still always attribute the Korean source)
 - Prefer Translation Memory terminology for consistency
 - Luôn dẫn nguồn ở cuối bài: nếu là URL → ghi dạng `Nguồn: [Tên báo] — [URL]`; nếu là text thô → ghi `Nguồn: [Tên báo gốc]`
 - **Images:** **must attempt** `python3 scripts/fetch_cover.py --page URL --slug … --all`. Host **every** usable source photo under `static/images/…`. Set `cover` from the best image; **embed the rest in the body**. Remote-only image URLs are not allowed.
