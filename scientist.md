@@ -138,7 +138,30 @@
 
 ---
 
-## Fix Replay Scripts
+## Entry 010 — 2026-07-16: Slug auto-generates from Vietnamese title with correct transliteration
+
+**Error:** `scripts/seo.py` rejected slug `gong-yoo-tổ-chức-tour-fan-meeting-châu-á-đầu-tiên-sau-25-năm-sự-nghiệp` — regex `^[a-z0-9\-]+$` doesn't allow Vietnamese characters.
+
+**Root Cause:** `slug.py` used `\w` in regex which matches Unicode word chars (Vietnamese letters pass through). `seo.py` requires pure ASCII slugs.
+
+**Fix:**
+1. `slugify()` now transliterates `đ→d`, decomposes accents via `unicodedata.normalize('NFD')`, strips combining marks `[\u0300-\u036f]`, then keeps only `[a-z0-9\s-]`.
+2. `slug.py` always auto-generates slug from title (no manual override).
+3. `seo.py` regex `^[a-z0-9\-]+$` remains unchanged — slugs are now guaranteed ASCII.
+
+**Files affected:** `scripts/slug.py`
+- Added `import unicodedata`
+- Added `VIET_MAP` translation table for `đ/Đ`
+- Changed regex from `\w` to `[a-z0-9]` after NFD + combining mark removal
+- Removed "keep existing slug" logic
+
+**Example:** Title `today đi` → slug `today-di` ✅
+
+**Detection:** `python scripts/seo.py` CI step
+
+**Prevention:** Slug is always derived from title; no manual slug editing needed.
+
+---
 
 To re-apply all known fixes to fresh content:
 
@@ -177,6 +200,11 @@ for fp in sorted(Path("content/en").rglob("*.md")):
             lines[i] = "\n".join(broken)
     fp.write_text("\n".join(lines), "utf-8")
 PYEOF
+```
+
+### Regenerate all slugs from titles
+```bash
+python3 scripts/slug.py
 ```
 
 ### Fix missing `keywords` field
