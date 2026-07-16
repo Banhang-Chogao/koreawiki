@@ -12,8 +12,10 @@
       <div>
         <h4 class="footer-heading">{{ T "sections" | default "Sections" }}</h4>
         <ul class="footer-list">
+          {{/* Content is under content/en/ → live URLs are /koreawiki/en/<section>/ */}}
           {{ range .Site.Menus.main }}
-          <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+          {{ $path := trim .URL "/" }}
+          <li><a href="{{ printf "en/%s/" $path | relURL }}">{{ .Name }}</a></li>
           {{ end }}
         </ul>
       </div>
