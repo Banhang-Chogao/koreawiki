@@ -23,6 +23,7 @@ keywords:
 - suga
 - profile
 - solo
+slug: sugas-solo-era-how-min-yoon-gi-redefined-what-it-means-to-be-a-k-pop-artist
 ---
 Min Yoon-gi, known to the world as SUGA, has spent the past 13 years dismantling every expectation placed upon him. The BTS rapper, producer, and now solo stadium headliner
 completed the Asian leg of his "D-Day" world tour on July 3 with a three-night stand at Seoul Olympic Stadium, drawing 135,000 fans across the weekend. It was the triumphant

@@ -24,6 +24,7 @@ keywords:
 - photography
 - night
 - photo-essay
+slug: busan-after-dark-a-photo-essay-of-koreas-coastal-city-when-the-sun-goes-down
 ---
 Veteran photographer Lee Sung-min spent three weeks capturing Busan after dark, from the last fish auctions at Jagalchi Market at 3 a.m. to the first monks' prayers at Beomeosa
 Temple at 4 a.m. The resulting collection, "Busan Noir," is a love letter to the city's nocturnal life.

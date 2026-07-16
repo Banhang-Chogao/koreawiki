@@ -24,6 +24,7 @@ keywords:
 - production
 - k-pop
 - behind-the-scenes
+slug: beyond-the-music-video-the-art-and-science-of-k-pop-video-production
 ---
 When LE SSERAFIM released the music video for their June single "Firefly," it was viewed 78 million times in its first week. The video, a four-minute cinematic piece involving a
 post-apocalyptic Seoul, elaborate choreography in a water-filled set, and CGI creatures rendered by the same studio that worked on "The Host," cost ₩2.3 billion to produce. It is

@@ -25,6 +25,7 @@ keywords:
 - interview
 - future
 - Exclusive
+slug: exclusive-bts-members-weigh-in-on-group-future-we-will-come-back-when-the-story-requires-it
 ---
 Over the course of four months, KoreaWiki sat down individually with all seven members of BTS — Jin, SUGA, j-hope, RM, Jimin, V, and Jung Kook — for a series of conversations
 about their lives, their solo work, and the future of the group that changed K-pop forever. What emerged is a portrait of seven young men at peace with their past and thoughtful

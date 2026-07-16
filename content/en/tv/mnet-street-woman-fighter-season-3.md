@@ -25,6 +25,7 @@ keywords:
 - mnet
 - dance
 - competition
+slug: street-woman-fighter-season-3-mnet-bets-big-on-global-expansion-with-international-dance-crews
 ---
 Mnet's "Street Woman Fighter" returns for its third season on July 25 with a format overhaul designed to capitalize on the franchise's growing international appeal. The dance
 competition, which launched in 2021 and became a cultural phenomenon, has expanded from eight Korean crews to 12, including three international crews from Japan, France, and the

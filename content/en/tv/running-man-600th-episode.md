@@ -25,6 +25,7 @@ keywords:
 - variety-show
 - sbs
 - 600th-episode
+slug: running-man-celebrates-600-episodes-the-variety-show-that-refuses-to-age
 ---
 On July 12, "Running Man" achieved something no other Korean variety show has managed: 600 episodes. The SBS flagship program, which first aired on July 11, 2010, has survived
 cast changes, format evolutions, the rise of streaming, a global pandemic, and the notoriously fickle nature of Korean television audiences. Its longevity is a testament to the

@@ -25,6 +25,7 @@ keywords:
 - luxury
 - cosmetics
 - retail
+slug: when-k-beauty-met-fashion-how-korean-cosmetics-brands-are-redefining-luxury-retail
 ---
 In the luxury section of Shinsegae Gangnam, the flagship department store in one of Seoul's most affluent districts, a new retail concept has been drawing crowds since its April
 opening. The space, a collaboration between Amorepacific's premium beauty line Sulwhasoo and French fashion house Maison Margiela, is neither a beauty counter nor a fashion

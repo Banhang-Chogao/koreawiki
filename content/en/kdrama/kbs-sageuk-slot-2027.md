@@ -24,6 +24,7 @@ keywords:
 - sageuk
 - historical-drama
 - k-drama
+slug: kbs-announces-2027-sageuk-lineup-including-the-last-admiral-and-goryeo-dreams
 ---
 KBS announced its 2027 historical drama lineup on Tuesday, confirming three major sageuk productions that the public broadcaster hopes will reclaim its legacy as the home of
 Korean historical storytelling. The slate includes "The Last Admiral," a 24-episode drama about Admiral Yi Sun-sin's final campaign; "Goryeo Dreams," a romance set during the

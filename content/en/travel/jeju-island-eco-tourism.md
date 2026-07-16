@@ -26,6 +26,7 @@ keywords:
 - travel
 - sustainability
 - Travel
+slug: jejus-eco-tourism-revolution-how-koreas-island-paradise-is-balancing-development-and-conservation
 ---
 Jeju Island, the volcanic paradise off Korea's southern coast, has a problem that many destinations would envy: too many visitors. The island welcomed 21.3 million tourists in
 2025, a record that strains infrastructure, threatens delicate ecosystems, and has sparked a contentious debate about the future of tourism on the island.

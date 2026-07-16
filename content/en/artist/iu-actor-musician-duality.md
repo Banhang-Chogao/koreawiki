@@ -25,6 +25,7 @@ keywords:
 - profile
 - solo-artist
 - actress
+slug: iu-at-33-koreas-premier-solo-artist-on-acting-aging-and-artistic-freedom
 ---
 Lee Ji-eun — IU to the world — has been a star for so long that it is easy to forget she is only 33. She debuted at 15, wrote her first hit at 17, and by 21 was already being
 called "the nation's little sister." But two decades into a career that spans music, television, and film, IU is showing no signs of resting on her laurels. In fact, she may be

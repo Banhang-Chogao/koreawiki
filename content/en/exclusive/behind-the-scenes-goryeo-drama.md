@@ -24,6 +24,7 @@ keywords:
 - kbs
 - sageuk
 - behind-the-scenes
+slug: exclusive-on-set-with-goryeo-dreams-inside-kbss-most-ambitious-period-drama
 ---
 MUNGYEONG, North Gyeongsang Province — The first thing you notice on the set of "Goryeo Dreams" is the smell. Freshly cut pine, wood smoke, and the earthy scent of hanji —
 traditional Korean paper — permeate the sprawling outdoor set that KBS has built on 40 acres of land near Mungyeong Saejae, a historic mountain pass that once connected the

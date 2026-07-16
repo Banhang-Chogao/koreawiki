@@ -25,6 +25,7 @@ keywords:
 - sm-entertainment
 - 4th-generation
 - boy-group
+slug: riize-ascends-how-sms-youngest-boy-group-became-the-defining-act-of-fourth-generation-k-pop
 ---
 In the hyper-competitive landscape of fourth-generation K-pop, few groups have risen as meteorically as RIIZE. SM Entertainment's seven-member boy group, which debuted in
 September 2023, has just released their first full-length studio album "Realize" to commercial and critical acclaim, debuting at number one on the Circle Album Chart and entering

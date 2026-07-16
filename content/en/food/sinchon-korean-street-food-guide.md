@@ -25,6 +25,7 @@ keywords:
 - street-food
 - seoul
 - food-guide
+slug: sinchons-street-food-revolution-why-seouls-university-district-is-the-best-place-to-eat-in-korea
 ---
 Myeongdong has the reputation. Gwangjang Market has the history. But ask anyone who actually lives in Seoul where to find the best street food, and they will likely point you to
 Sinchon, the university district that is home to Yonsei, Ewha Womans University, and Sogang University. With three major campuses within walking distance of each other, Sinchon

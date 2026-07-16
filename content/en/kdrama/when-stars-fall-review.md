@@ -25,6 +25,7 @@ keywords:
 - sageuk
 - drama-review
 - studio-dragon
+slug: when-stars-fall-review-kim-tae-ri-delivers-a-career-defining-performance-in-this-heart-wrenching-sageuk
 ---
 Studio Dragon's latest sageuk, "When Stars Fall," premiered on tvN on July 5 to the highest ratings for any Friday-Saturday drama in 2026, and after four episodes, it is clear
 why. This is historical drama at its most ambitious — a 16-episode epic that intertwines the fall of the Joseon dynasty's astronomy bureau with a forbidden romance between a royal

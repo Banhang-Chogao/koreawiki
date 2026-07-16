@@ -25,6 +25,7 @@ keywords:
 - independent-cinema
 - korean-film
 - festival
+slug: jeonju-international-film-festival-2026-independent-korean-cinema-takes-center-stage
 ---
 The 27th Jeonju International Film Festival (JIFF) opened on July 2 with a record 147 Korean independent films in its program, signaling a robust recovery for the country's
 independent film sector after several challenging years. The 10-day festival, held across venues in Korea's cultural capital of Jeonju, has drawn over 80,000 attendees in its

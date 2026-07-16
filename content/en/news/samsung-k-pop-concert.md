@@ -25,6 +25,7 @@ keywords:
 - samsung
 - charity
 - busan
+slug: samsung-and-k-pop-giants-unite-for-historic-charity-concert-in-busan
 ---
 Samsung Electronics will co-host what industry insiders are calling the largest corporate-sponsored K-pop event in history at Busan Asiad Stadium on August 15, Korea's Liberation
 Day. The Samsung Hope Concert will feature headliners including BTS member SUGA, NCT 127, Seventeen, and rising rookie group RIIZE, with all proceeds benefiting youth education

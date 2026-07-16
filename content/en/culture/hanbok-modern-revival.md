@@ -26,6 +26,7 @@ keywords:
 - tradition
 - fashion
 - korean-culture
+slug: the-hanbok-renaissance-how-koreas-traditional-dress-found-a-new-generation-of-wearers
 ---
 Walk through the streets of Bukchon on a weekend afternoon and you will see them everywhere: young Koreans in hanbok, the traditional Korean dress, posing for photographs,
 browsing galleries, and casually sipping iced americanos. But look closer. The hanbok they are wearing are not the heavily structured, formal garments of their grandparents'

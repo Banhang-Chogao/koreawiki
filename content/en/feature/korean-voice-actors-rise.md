@@ -23,6 +23,7 @@ keywords:
 - dubbing
 - korean-content
 - entertainment-industry
+slug: the-voice-behind-the-screen-how-korean-voice-actors-became-global-stars
 ---
 When global audiences watch Korean content on Netflix, they are often experiencing it through two distinct audio tracks: the original Korean and an English dub. But the
 Korean-language version itself may feature a voice actor whose face is entirely unknown to the millions who hear their voice. That is changing. The voice actors behind Korea's

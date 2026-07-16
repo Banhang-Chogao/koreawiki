@@ -25,6 +25,7 @@ keywords:
 - tax credits
 - korean cinema
 - production
+slug: south-korea-expands-film-tax-credit-program-to-lure-international-productions
 ---
 The Korean Ministry of Culture, Sports and Tourism unveiled a significantly expanded tax credit program on Wednesday designed to attract major international film and television
 productions to the peninsula. The revised Korean Film and Television Production Incentive increases the maximum rebate to 40% of qualifying local expenditures, up from the

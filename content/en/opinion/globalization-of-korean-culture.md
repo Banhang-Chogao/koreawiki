@@ -25,6 +25,7 @@ keywords:
 - korean-culture
 - opinion
 - Opinion
+slug: when-everything-is-korean-is-anything-still-korean
 ---
 There is a Korean proverb: "A tree with deep roots does not fear the wind." As Korean popular culture enjoys a period of global influence unprecedented in the nation's history,
 the question is no longer whether the tree is strong enough to withstand external forces — it is whether the roots remain connected to the soil that nourished them.

@@ -25,6 +25,7 @@ keywords:
 - harbinger
 - film-review
 - korean-cinema
+slug: harbinger-review-bong-joon-ho-returns-with-a-dystopian-masterpiece-that-rivals-parasite
 ---
 Bong Joon-ho has done it again. "Harbinger," the Palme d'Or and Oscar-winning director's first film since the historic "Parasite," premiered at the Cannes Film Festival in May to
 a 12-minute standing ovation, and after seeing the finished film at a press screening in Seoul, it is easy to understand why. This is a filmmaker operating with complete mastery

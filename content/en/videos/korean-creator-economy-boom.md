@@ -22,6 +22,7 @@ keywords:
 - korean entertainment
 - platform economy
 - Digital
+slug: inside-koreas-creator-economy-boom
 ---
 South Korea's creator economy has exploded into a multi-billion dollar industry, with platforms from YouTube to TikTok investing heavily in Korean content creators. The ecosystem
 now supports over 200,000 active creators generating content across dozens of genres.

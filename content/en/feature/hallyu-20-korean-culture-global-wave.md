@@ -23,6 +23,7 @@ keywords:
 - korean-wave
 - cultural-export
 - global
+slug: hallyu-20-how-korean-culture-evolved-from-niche-export-to-global-dominance
 ---
 In 2012, Psy's "Gangnam Style" was a global phenomenon widely regarded as a novelty — a colorful, irreverent flash in the pan that briefly turned the world's attention to South
 Korea. Fourteen years later, the idea of Korean culture as a passing fad seems preposterous. The Korean Wave, or Hallyu, has evolved from a niche interest into a structural pillar

@@ -26,6 +26,7 @@ keywords:
 - japan
 - ador
 - record-breaking
+slug: newjeans-conquers-japan-debut-album-tokyo-404-breaks-records-and-charts-across-asia
 ---
 NewJeans has done what no K-pop girl group has done before: debut at number one on the Oricon Weekly Album Chart with 1.5 million copies sold in the first seven days. Their first
 full-length Japanese album, "Tokyo 404," released June 30 through ADOR and Warner Music Japan, has surpassed all industry projections and established the quintet as a dominant

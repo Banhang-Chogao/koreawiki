@@ -25,6 +25,7 @@ keywords:
 - korean-film
 - harbinger
 - cgv
+slug: korean-box-office-local-titles-dominate-july-as-harbinger-pre-sales-break-records
 ---
 Korean cinema is enjoying a remarkable summer at the domestic box office, with local titles claiming six of the top ten positions in July's first weekend. The trend underscores
 what industry analysts describe as a sustained "Korean film renaissance" that has seen domestic market share hover above 55% for the first half of 2026, the highest figure since

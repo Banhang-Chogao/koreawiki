@@ -25,6 +25,7 @@ keywords:
 - jun-ji-hyun
 - netflix
 - casting-news
+slug: park-seo-joon-and-jun-ji-hyun-confirmed-for-the-seoul-agency-netflixs-most-expensive-drama-series-ever
 ---
 Netflix confirmed on Monday that Park Seo-joon and Jun Ji-hyun have been cast as the leads in "The Seoul Agency," a big-budget spy thriller that streaming executives are already
 calling "the Korean answer to Mission: Impossible." The series, created by "Kingdom" writer Kim Eun-hee, begins principal photography in August and carries a reported production

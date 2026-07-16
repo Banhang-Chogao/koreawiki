@@ -25,6 +25,7 @@ keywords:
 - korea
 - guide
 - Travel
+slug: beyond-seoul-why-busan-is-koreas-most-underrated-travel-destination
 ---
 For decades, the standard itinerary for international visitors to Korea has followed a predictable formula: fly into Incheon, spend three days in Seoul, take a day trip to the
 DMZ, and fly out. Busan, Korea's second-largest city and its premier coastal metropolis, has been treated as a worthy but optional add-on. That is beginning to change, and for

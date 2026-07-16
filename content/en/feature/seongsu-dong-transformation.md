@@ -26,6 +26,7 @@ keywords:
 - seoul
 - urban-regeneration
 - lifestyle
+slug: seongsu-dong-how-seouls-industrial-wasteland-became-the-coolest-neighborhood-in-asia
 ---
 Walk through Seongsu-dong on a Saturday afternoon and you will encounter a version of Seoul that did not exist a decade ago. Young people queue outside a bakery housed in a
 converted tire factory. A French tourist photographs the exposed brick wall of a gallery that was once a shoe workshop. The smell of specialty coffee mingles with the industrial

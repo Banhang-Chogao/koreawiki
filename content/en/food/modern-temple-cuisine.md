@@ -25,6 +25,7 @@ keywords:
 - korean-cuisine
 - buddhist
 - fine-dining
+slug: temple-food-gets-a-makeover-the-global-rise-of-korean-buddhist-cuisine
 ---
 At the Michelin-starred restaurant Balwoo in Jongno-gu, Seoul, dinner is a meditative experience. The 12-course tasting menu contains no meat, no fish, no garlic, no onions — the
 five pungent ingredients (ohshinchae) banned in Buddhist monastic cooking. What it does contain is a revelation of what Korean cuisine can achieve within constraints: delicate

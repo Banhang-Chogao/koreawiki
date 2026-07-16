@@ -24,6 +24,7 @@ keywords:
 - recap
 - tvN
 - time-slip
+slug: lovely-runner-episode-8-time-slip-thriller-takes-a-devastating-turn-as-the-past-begins-to-rewrite-itself
 ---
 WARNING: This recap contains spoilers for "Lovely Runner" Episode 8.
 

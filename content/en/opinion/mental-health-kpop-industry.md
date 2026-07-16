@@ -24,6 +24,7 @@ keywords:
 - industry-criticism
 - opinion
 - Opinion
+slug: the-idol-industrys-mental-health-crisis-have-we-learned-nothing
 ---
 In 2019, when Sulli and Goo Hara died within weeks of each other, the K-pop industry promised change. Statements were issued. Mental health initiatives were announced. Agency
 executives held press conferences with solemn expressions and vowed to do better. Seven years later, the question is unavoidable: what actually changed?

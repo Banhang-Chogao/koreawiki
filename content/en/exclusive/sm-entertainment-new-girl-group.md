@@ -25,6 +25,7 @@ keywords:
 - exclusive
 - debut
 - Exclusive
+slug: exclusive-inside-sm-entertainments-next-girl-group-the-vision-the-members-the-strategy
 ---
 SEOUL — Behind the unmarked glass doors of a nondescript building in Seongnam, 20 minutes south of Seoul, the next generation of K-pop is being assembled with military precision.
 KoreaWiki was granted exclusive access to SM Entertainment's newly completed "NEO Training Center," a ₩50 billion facility where the company's next girl group — currently

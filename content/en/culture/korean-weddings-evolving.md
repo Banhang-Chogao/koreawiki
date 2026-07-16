@@ -24,6 +24,7 @@ keywords:
 - korean-culture
 - tradition
 - gen-z
+slug: the-new-korean-wedding-how-millennials-and-gen-z-are-rewriting-centuries-of-tradition
 ---
 The Korean wedding industrial complex — a sprawling ecosystem of wedding halls, matchmaking agencies, and formalized rituals — has long been one of the most rigid industries in
 the country. But changing social values, economic pressures, and the influence of global culture are reshaping how young Koreans approach marriage, creating new opportunities and

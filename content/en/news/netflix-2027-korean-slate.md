@@ -25,6 +25,7 @@ keywords:
 - streaming
 - k-drama
 - investment
+slug: netflix-unveils-record-15-trillion-korean-content-slate-for-2027
 ---
 Netflix Korea announced its most ambitious content slate to date on Tuesday, committing ₩1.5 trillion to 28 original Korean productions scheduled for release in 2027. The
 announcement, made at a star-studded event at the COEX Convention Center in Samseong-dong, positions Korea as the streaming giant's single largest content investment market

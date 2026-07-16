@@ -110,6 +110,22 @@
 
 ---
 
+## Entry 008 — 2026-07-16: Missing slug field in all 40 articles
+
+**Error:** `scripts/slug.py --check` reported 40 files need slug normalization.
+
+**Root Cause:** Articles had no `slug` field in frontmatter. The slug script generates a URL-safe slug from the title.
+
+**Fix:** Ran `python3 scripts/slug.py` (without `--check`) to auto-add normalized slugs.
+
+**Files affected:** All 40 article files
+
+**Detection:** QA pipeline step `python scripts/slug.py --check`
+
+**Prevention:** Add `slug` to content generation template; run `slug.py` during content creation.
+
+---
+
 ## Fix Replay Scripts
 
 To re-apply all known fixes to fresh content:

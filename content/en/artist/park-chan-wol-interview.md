@@ -25,6 +25,7 @@ keywords:
 - independent-film
 - director
 - interview
+slug: park-chan-wol-the-indie-director-who-refuses-to-make-the-same-film-twice
 ---
 Park Chan-wol does not make films for people who want comfort. The 41-year-old director, whose five feature films have polarized critics and delighted festival programmers, is
 sitting across from me at a quiet coffee shop in Seoul's Hongdae district, nursing an americano and explaining why he has turned down every studio offer that has come his way.

@@ -25,6 +25,7 @@ keywords:
 - earnings
 - k-pop
 - business
+slug: hybe-reports-record-q2-revenue-of-620-billion-driven-by-global-touring-and-weverse-growth
 ---
 HYBE Corporation reported record second-quarter earnings of ₩620 billion on Friday, surpassing analysts' consensus estimates by 8% and sending shares up 5.3% in afternoon trading
 on the Korea Exchange. The conglomerate, home to BTS, Seventeen, and LE SSERAFIM, attributed the strong performance to a packed global touring schedule and accelerating commerce

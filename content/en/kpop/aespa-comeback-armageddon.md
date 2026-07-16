@@ -26,6 +26,7 @@ keywords:
 - comeback
 - sm-entertainment
 - album-review
+slug: aespa-returns-with-armageddon-a-futuristic-sonic-evolution-that-redefines-their-narrative
 ---
 aespa has returned with "Armageddon," a sprawling 12-track album that marks the most significant artistic departure in the group's six-year career. Released on July 10 through SM
 Entertainment, the project finds the quartet abandoning the hyper-polished futurism of their early work in favor of a grittier, more textured sound that incorporates industrial

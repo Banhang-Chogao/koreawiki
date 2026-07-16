@@ -25,6 +25,7 @@ keywords:
 - concert-review
 - world-tour
 - live-performance
+slug: seventeens-follow-again-world-tour-a-masterclass-in-performance-and-production
 ---
 LOS ANGELES — On a warm July evening at BMO Stadium, Seventeen did something that few K-pop acts have accomplished: they made a crowd of 22,000 feel like they were at an intimate
 club show. The "Follow Again" tour, which touched down in Los Angeles on July 8 for two nights, is the group's largest North American outing to date, and the production value
