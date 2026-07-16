@@ -50,6 +50,7 @@ Git không lưu trực tiếp log runtime của phím tắt, nên đây là dấ
 | `152497d` | Bang Chan winter collection event | `content/en/kpop/bangchan-winter-collection-2026.md` | `static/images/2026/07/bangchan-winter-collection-2026.jpg` | Dispatch |
 | `aa0f459` | Gong Yoo first Asia tour | `content/en/artist/gong-yoo-asia-tour-2026.md` | `static/images/2026/07/gongyoo-asia-tour-2026.jpg` | Dispatch |
 | `4fa4b5f` | Yoo Ah-in comeback speculation | `content/en/artist/yoo-ah-in-hope-premiere-comeback-speculation.md` | Không có | Xportsnews |
+| `e34f941` | 'Hope' opening day box office record | `content/en/movies/hope-opening-day-box-office-2026.md` | `static/images/2026/07/hope-opening-day-2026.jpg` | Dispatch |
 
 ## Cách cập nhật
 
