@@ -1,0 +1,44 @@
+{{/*
+  Live stamp: when this post first went live on GitHub + commit id.
+
+  Context: a Page (.File.Path used to look up data-hugo/git_first_live.json).
+
+  Renders:
+    dd-mm-yyyy hh:mm:ss GMT±N | <shortsha>
+  Time is formatted in the visitor's local timezone via JS (data-live-stamp).
+  SSR fallback: ISO UTC + short commit.
+*/}}
+{{ $iso := "" }}
+{{ $unix := 0 }}
+{{ $short := "" }}
+{{ $hash := "" }}
+{{ $live := .Site.Data.git_first_live }}
+{{ with .File }}
+  {{ with index $live .Path }}
+    {{ with .iso }}{{ $iso = . }}{{ end }}
+    {{ with .unix }}{{ $unix = int . }}{{ end }}
+    {{ with .short }}{{ $short = . }}{{ end }}
+    {{ with .hash }}{{ $hash = . }}{{ end }}
+  {{ end }}
+{{ end }}
+{{ if not $iso }}
+  {{ $iso = .Date.Format "2006-01-02T15:04:05Z07:00" }}
+  {{ $unix = .Date.Unix }}
+  {{ with .GitInfo }}
+    {{ $hash = .Hash }}
+    {{ $short = substr .Hash 0 7 }}
+  {{ end }}
+{{ end }}
+{{ if and (not $short) $hash }}{{ $short = substr $hash 0 7 }}{{ end }}
+{{ if $iso }}
+<span
+  class="live-stamp"
+  data-live-stamp
+  data-live-iso="{{ $iso }}"
+  {{ if $unix }}data-live-unix="{{ $unix }}"{{ end }}
+  {{ with $short }}data-live-commit="{{ . }}"{{ end }}
+  title="Thời điểm bài lên live GitHub{{ with $short }} · commit {{ . }}{{ end }}"
+>
+  <time class="live-stamp-time" datetime="{{ $iso }}" data-live-time>{{ $iso }}</time>{{ with $short }}<span class="live-stamp-sep" aria-hidden="true"> | </span><code class="live-stamp-commit" title="Git commit {{ . }}">{{ . }}</code>{{ end }}
+</span>
+{{ end }}

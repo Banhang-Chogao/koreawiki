@@ -159,6 +159,40 @@ if(location.hash){
   setTimeout(function(){scrollToHash(location.hash);},50);
 }
 
+// Live stamp: format first-live GitHub time in visitor local timezone
+// Output: dd-mm-yyyy hh:mm:ss GMT±N  (commit id stays in markup after |)
+(function(){
+  function pad(n){return String(n).padStart(2,'0');}
+  function gmtLabel(date){
+    // getTimezoneOffset: minutes *west* of UTC; flip for GMT+east
+    var offMin=-date.getTimezoneOffset();
+    var sign=offMin>=0?'+':'-';
+    var abs=Math.abs(offMin);
+    var h=Math.floor(abs/60);
+    var m=abs%60;
+    return m?('GMT'+sign+h+':'+pad(m)):('GMT'+sign+h);
+  }
+  function formatLocal(date){
+    return pad(date.getDate())+'-'+pad(date.getMonth()+1)+'-'+date.getFullYear()
+      +' '+pad(date.getHours())+':'+pad(date.getMinutes())+':'+pad(date.getSeconds())
+      +' '+gmtLabel(date);
+  }
+  function hydrate(el){
+    var iso=el.getAttribute('data-live-iso');
+    var unix=el.getAttribute('data-live-unix');
+    var d=null;
+    if(iso)d=new Date(iso);
+    if((!d||isNaN(d.getTime()))&&unix)d=new Date(Number(unix)*1000);
+    if(!d||isNaN(d.getTime()))return;
+    var timeEl=el.querySelector('[data-live-time]');
+    if(timeEl){
+      timeEl.textContent=formatLocal(d);
+      timeEl.setAttribute('datetime',d.toISOString());
+    }
+  }
+  document.querySelectorAll('[data-live-stamp]').forEach(hydrate);
+})();
+
 // Heading Anchor Links
 document.querySelectorAll('.article-body h2,.article-body h3,.article-body h4').forEach(function(h){if(!h.id)return;var l=document.createElement('a');l.className='anchor-link';l.href='#'+h.id;l.setAttribute('aria-label','Link to this section');l.innerHTML='<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>';h.appendChild(l);});
 

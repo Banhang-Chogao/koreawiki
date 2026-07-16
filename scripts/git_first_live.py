@@ -9,9 +9,14 @@ file in one commit and scramble the feed.
 
 Keys are paths relative to content/ (matches Hugo .File.Path).
 Values are objects:
-  { "unix": <int>, "iso": "<RFC3339 UTC>" }
-Hugo sorts on unix; displays with time.AsTime on iso
-(time.Unix is unavailable / broken on some Hugo versions).
+  {
+    "unix": <int>,
+    "iso":  "<RFC3339 UTC>",
+    "hash": "<full commit sha>",
+    "short": "<7-char short sha>"
+  }
+
+Hugo sorts on unix; UI shows local timezone via JS + commit short id.
 
 Output goes to data-hugo/ (project dataDir) — not data/ (glossary + sqlite).
 
@@ -32,48 +37,46 @@ CONTENT = ROOT / "content"
 OUT = ROOT / "data-hugo" / "git_first_live.json"
 
 
-def first_commit_unix(rel_from_root: str) -> int | None:
-    """Unix time of the first commit that added this path."""
-    try:
-        out = subprocess.check_output(
-            [
-                "git",
-                "log",
-                "--diff-filter=A",
-                "--follow",
-                "--reverse",
-                "--format=%ct",
-                "--",
-                rel_from_root,
-            ],
-            cwd=ROOT,
-            text=True,
-            stderr=subprocess.DEVNULL,
-        ).strip()
-    except subprocess.CalledProcessError:
-        return None
-    if out:
-        return int(out.splitlines()[0])
-
-    # Fallback: oldest commit that ever touched the file
-    try:
-        out = subprocess.check_output(
-            [
-                "git",
-                "log",
-                "--reverse",
-                "--format=%ct",
-                "--",
-                rel_from_root,
-            ],
-            cwd=ROOT,
-            text=True,
-            stderr=subprocess.DEVNULL,
-        ).strip()
-    except subprocess.CalledProcessError:
-        return None
-    if out:
-        return int(out.splitlines()[0])
+def first_commit_meta(rel_from_root: str) -> tuple[int, str] | None:
+    """(unix, full_hash) of the first commit that added this path."""
+    for args in (
+        [
+            "git",
+            "log",
+            "--diff-filter=A",
+            "--follow",
+            "--reverse",
+            "--format=%ct %H",
+            "--",
+            rel_from_root,
+        ],
+        # Fallback: oldest commit that ever touched the file
+        [
+            "git",
+            "log",
+            "--reverse",
+            "--format=%ct %H",
+            "--",
+            rel_from_root,
+        ],
+    ):
+        try:
+            out = subprocess.check_output(
+                args,
+                cwd=ROOT,
+                text=True,
+                stderr=subprocess.DEVNULL,
+            ).strip()
+        except subprocess.CalledProcessError:
+            continue
+        if not out:
+            continue
+        line = out.splitlines()[0].strip()
+        parts = line.split()
+        if len(parts) >= 2:
+            return int(parts[0]), parts[1]
+        if len(parts) == 1 and parts[0].isdigit():
+            return int(parts[0]), ""
     return None
 
 
@@ -88,10 +91,17 @@ def main() -> int:
             continue
         rel_root = md.relative_to(ROOT).as_posix()
         key = md.relative_to(CONTENT).as_posix()  # Hugo .File.Path
-        ts = first_commit_unix(rel_root)
-        if ts is not None:
-            iso = datetime.fromtimestamp(ts, tz=timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-            mapping[key] = {"unix": ts, "iso": iso}
+        meta = first_commit_meta(rel_root)
+        if meta is None:
+            continue
+        ts, full_hash = meta
+        iso = datetime.fromtimestamp(ts, tz=timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        short = full_hash[:7] if full_hash else ""
+        entry: dict[str, object] = {"unix": ts, "iso": iso}
+        if full_hash:
+            entry["hash"] = full_hash
+            entry["short"] = short
+        mapping[key] = entry
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(mapping, indent=2, sort_keys=True) + "\n", encoding="utf-8")

@@ -44,6 +44,10 @@
   --color-nav-text-active: #0369a1;  /* sky-700 */
   --color-nav-underline: #0284c7;    /* sky-600 */
 
+  /* Live stamp (first-live + commit) — deep sky blue, slightly muted */
+  --color-live-stamp: #3a8fc4;
+  --color-live-stamp-muted: #5aa3d0;
+
   /*
     IBM Plex Sans (self-hosted under static/fonts/ibm-plex-sans/).
     Hangul falls through to OS Korean fonts (Plex has no full Hangul set).
@@ -138,6 +142,10 @@
   --shadow-sm: 0 1px 2px rgba(0,0,0,.3);
   --shadow-md: 0 4px 6px rgba(0,0,0,.4);
   --shadow-lg: 0 10px 25px rgba(0,0,0,.5);
+
+  /* Live stamp — slightly brighter sky on dark bg */
+  --color-live-stamp: #7eb8dc;
+  --color-live-stamp-muted: #9bc9e6;
 
   /* Nav — deeper sky/navy bar for dark theme */
   --color-nav-bg: #0c4a6e;

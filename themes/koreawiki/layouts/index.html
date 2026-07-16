@@ -52,7 +52,7 @@
 
 <div data-pagefind-ignore="all">
   {{ if gt $heroCount 0 }}
-    {{ partial "home/hero" (dict "Pages" $pagePosts "Site" .Site "Live" $live) }}
+    {{ partial "home/hero" (dict "Pages" $pagePosts "Site" .Site) }}
   {{ end }}
 
   <div class="section-row" style="max-width:var(--max-w);margin:0 auto;padding:0 var(--space-4) var(--space-16)">
@@ -68,13 +68,6 @@
       </h2>
       <div class="grid-2">
         {{ range $feed }}
-        {{/* Display date = first-live time when available so UI matches sort order */}}
-        {{ $showDate := .Date }}
-        {{ with .File }}
-          {{ with index $live .Path }}
-            {{ with .iso }}{{ $showDate = time.AsTime . }}{{ end }}
-          {{ end }}
-        {{ end }}
         <article class="card">
           <a href="{{ .RelPermalink }}" class="card-link">
             {{ if .Params.cover.image }}
@@ -87,7 +80,7 @@
               <p class="card-desc">{{ .Description }}</p>
               {{ end }}
               <div class="card-meta">
-                <time datetime="{{ $showDate.Format "2006-01-02T15:04:05Z07:00" }}">{{ $showDate.Format "Jan 2, 2006" }}</time>
+                {{ partial "live-stamp" . }}
                 {{ if $.Site.Params.readingTime }}
                 <span>{{ .ReadingTime }} {{ T "min_read" | default "min read" }}</span>
                 {{ end }}
