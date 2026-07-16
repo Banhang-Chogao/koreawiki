@@ -3,13 +3,13 @@ other = "홈"
 [search]
 other = "검색"
 [search_placeholder]
-other = "KoreaWiki 검색..."
+other = "기사 검색..."
 [close_search]
 other = "검색 닫기"
 [search_hint]
-other = "검색어를 입력하세요."
+other = "2자 이상 입력하세요."
 [toggle_menu]
-other = "메뉴 열기/닫기"
+other = "메뉴"
 [toggle_theme]
 other = "테마 전환"
 [switch_language]
@@ -27,46 +27,34 @@ other = "목차"
 [share]
 other = "공유하기"
 [related_articles]
-other = "관련 글"
+other = "관련 기사"
 [previous]
-other = "이전 글"
+other = "이전"
 [next]
-other = "다음 글"
+other = "다음"
 [comments]
 other = "댓글"
 [comments_soon]
-other = "댓글 기능 준비 중."
-[content]
-other = "콘텐츠"
-[resources]
-other = "자료"
-[about]
-other = "소개"
-[email]
-other = "이메일"
-[email_placeholder]
-other = "이메일 주소"
-[subscribe]
-other = "구독하기"
-[hero_title]
-other = "한국어와 한국 문화 탐험"
-[hero_desc]
-other = "문법, 어휘, TOPIK, 문화, 여행, 음식, K-드라마 등 한국어 학습을 위한 종합 지식 위키입니다."
-[start_learning]
-other = "학습 시작"
-[prepare_topik]
-other = "TOPIK 준비"
-[articles]
-other = "개 글"
-[topics]
-other = "개 주제"
-[latest_articles]
-other = "최신 글"
-[browse_all]
-other = "모두 보기"
-[browse_topics]
-other = "주제별 보기"
-[newsletter_title]
-other = "최신 소식 받기"
-[footer_tagline]
-other = "한국어와 한국 문화를 위한 지식 위키"
+other = "댓글 기능 준비 중입니다."
+[sections]
+other = "섹션"
+[more]
+other = "더보기"
+[follow]
+other = "팔로우"
+[navigate]
+other = "이동"
+[select]
+other = "선택"
+[close]
+other = "닫기"
+[tags]
+other = "태그"
+[latest_news]
+other = "최신 뉴스"
+[photos]
+other = "포토"
+[videos]
+other = "동영상"
+[opinion]
+other = "오피니언"

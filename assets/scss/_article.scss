@@ -1,0 +1,14 @@
+.article{max-width:var(--max-w-article);margin:0 auto;padding:var(--space-8) var(--space-4) var(--space-16)}
+.article-header{margin-bottom:var(--space-8)}
+.article-cat{display:inline-flex;padding:3px 12px;font-size:var(--fs-xs);font-weight:700;color:var(--color-primary);background:var(--color-primary-light);border-radius:4px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:var(--space-4)}
+.article-title{font-size:var(--fs-4xl);font-weight:800;line-height:1.15;letter-spacing:-.02em;margin-bottom:var(--space-4)}
+.article-desc{font-size:var(--fs-lg);color:var(--color-text-secondary);line-height:1.6;margin-bottom:var(--space-4)}
+.article-meta{display:flex;flex-wrap:wrap;gap:var(--space-4);font-size:var(--fs-sm);color:var(--color-text-tertiary);align-items:center;margin-bottom:var(--space-6)}
+.article-meta span,.article-meta time{display:inline-flex;align-items:center;gap:var(--space-1)}
+.article-cover{width:100%;border-radius:var(--radius-lg);margin-bottom:var(--space-8);overflow:hidden}
+.article-cover img{width:100%;height:auto}
+.article-body{font-size:var(--fs-lg);line-height:1.8;h2,h3,h4{position:relative;&:hover .anchor-link,.anchor-link:focus{opacity:1}}.anchor-link{position:absolute;left:-1.5em;top:0;display:inline-flex;align-items:center;justify-content:center;width:1.25em;height:1.25em;opacity:0;color:var(--color-primary);font-size:.8em;text-decoration:none;transition:opacity var(--transition)}p,li{color:var(--color-text)}}
+.article-footer{margin-top:var(--space-12);padding-top:var(--space-8);border-top:1px solid var(--color-border)}
+.article-tags{display:flex;flex-wrap:wrap;gap:var(--space-2);margin-bottom:var(--space-6)}
+.tag{display:inline-flex;padding:2px 10px;font-size:var(--fs-xs);color:var(--color-text-secondary);background:var(--color-bg-alt);border-radius:12px;text-decoration:none;&:hover{color:var(--color-primary);background:var(--color-primary-light);text-decoration:none}}
+@media(max-width:640px){.article{padding:var(--space-4) var(--space-4) var(--space-10)}.article-title{font-size:var(--fs-2xl)}.article-body{font-size:var(--fs-base)}}

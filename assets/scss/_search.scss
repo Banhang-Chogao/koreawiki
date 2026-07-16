@@ -1,0 +1,17 @@
+.search-overlay{display:none;position:fixed;inset:0;z-index:300;background:rgba(0,0,0,.5);backdrop-filter:blur(4px)}
+.search-overlay.open{display:block}
+.search-modal{max-width:640px;margin:100px auto 0;background:var(--color-bg);border:1px solid var(--color-border);border-radius:var(--radius-lg);box-shadow:var(--shadow-lg);overflow:hidden}
+.search-header{padding:var(--space-4);border-bottom:1px solid var(--color-border)}
+.search-form{display:flex;align-items:center;gap:var(--space-3)}
+.search-form-icon{flex-shrink:0;color:var(--color-text-tertiary)}
+.search-input{flex:1;border:none;background:none;color:var(--color-text);font-size:var(--fs-lg);outline:none;&::placeholder{color:var(--color-text-tertiary)}}
+.search-close{display:flex;align-items:center;justify-content:center;width:32px;height:32px;border:none;background:none;color:var(--color-text-tertiary);cursor:pointer;border-radius:var(--radius);&:hover{background:var(--color-bg-alt);color:var(--color-text)}}
+.search-body{max-height:400px;overflow-y:auto;padding:var(--space-4)}
+.search-hint{text-align:center;padding:var(--space-6);p{color:var(--color-text-tertiary);margin-bottom:var(--space-4)}}
+.search-shortcuts{display:flex;justify-content:center;gap:var(--space-4);flex-wrap:wrap;span{font-size:var(--fs-xs);color:var(--color-text-tertiary);display:inline-flex;align-items:center;gap:var(--space-2)}}
+.search-item{display:flex;flex-direction:column;padding:var(--space-3);border-radius:var(--radius);text-decoration:none;transition:background var(--transition);&:hover{background:var(--color-bg-alt);text-decoration:none}}
+.search-item-title{font-size:var(--fs-base);font-weight:600;color:var(--color-text);margin-bottom:2px}
+.search-item-desc{font-size:var(--fs-sm);color:var(--color-text-secondary);margin:0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.search-item-meta{font-size:var(--fs-xs);color:var(--color-text-tertiary);margin-top:var(--space-1)}
+.search-empty{text-align:center;padding:var(--space-8);p{color:var(--color-text-tertiary);margin:0}}
+@media(max-width:680px){.search-modal{margin:60px var(--space-4) 0}}

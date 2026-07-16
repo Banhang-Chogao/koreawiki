@@ -17,7 +17,7 @@
   <a href="#main-content" class="skip-link">{{ T "skip_to_content" | default "Skip to content" }}</a>
   {{ partial "header" . }}
   {{ block "breadcrumb" . }}
-    {{ if .Params.breadcrumbs | default .Site.Params.breadcrumbs | default true }}
+    {{ if and (not .IsHome) (.Params.breadcrumbs | default .Site.Params.breadcrumbs | default true) }}
       {{ partial "breadcrumb" . }}
     {{ end }}
   {{ end }}

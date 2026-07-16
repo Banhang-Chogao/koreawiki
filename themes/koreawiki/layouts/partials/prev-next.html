@@ -1,18 +1,18 @@
-<nav class="prev-next-nav" aria-label="Previous and next articles">
-  <div class="prev-next-container">
-    <div class="prev-next-prev">
+<nav class="prev-next" aria-label="Previous and next articles">
+  <div class="prev-next-inner">
+    <div class="prev">
       {{ if .PrevInSection }}
       <a href="{{ .PrevInSection.RelPermalink }}" rel="prev">
-        <span class="prev-next-label">{{ T "previous" | default "Previous" }}</span>
-        <span class="prev-next-title">{{ .PrevInSection.Title }}</span>
+        <span class="prev-label">{{ T "previous" | default "Previous" }}</span>
+        <span class="prev-title">{{ .PrevInSection.Title }}</span>
       </a>
       {{ end }}
     </div>
-    <div class="prev-next-next">
+    <div class="next">
       {{ if .NextInSection }}
       <a href="{{ .NextInSection.RelPermalink }}" rel="next">
-        <span class="prev-next-label">{{ T "next" | default "Next" }}</span>
-        <span class="prev-next-title">{{ .NextInSection.Title }}</span>
+        <span class="next-label">{{ T "next" | default "Next" }}</span>
+        <span class="next-title">{{ .NextInSection.Title }}</span>
       </a>
       {{ end }}
     </div>

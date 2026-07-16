@@ -1,27 +1,41 @@
+{{ $pages := .Pages }}
+{{ $heroPost := index $pages 0 }}
+{{ $sidePosts := first 3 (after 1 $pages) }}
 <section class="hero">
-  <div class="hero-container">
-    <div class="hero-content">
-      <span class="hero-badge">{{ T "wiki_badge" | default "Knowledge Wiki" }}</span>
-      <h1 class="hero-title">{{ T "hero_title" | default "Explore Korean Language & Culture" }}</h1>
-      <p class="hero-description">{{ T "hero_desc" | default "A comprehensive knowledge wiki covering Korean grammar, vocabulary, TOPIK preparation, culture, travel, food, K-drama, and more." }}</p>
-      <div class="hero-actions">
-        <a href="{{ "/grammar/" | relLangURL }}" class="btn btn-primary">{{ T "start_learning" | default "Start Learning" }}</a>
-        <a href="{{ "/topik/" | relLangURL }}" class="btn btn-secondary">{{ T "prepare_topik" | default "Prepare for TOPIK" }}</a>
-      </div>
-      <div class="hero-stats">
-        <div class="hero-stat">
-          <span class="hero-stat-value">{{ len (where .Site.RegularPages "Section" "in" (slice "grammar" "vocabulary" "topik" "culture" "travel" "food" "history" "society")) }}</span>
-          <span class="hero-stat-label">{{ T "articles" | default "Articles" }}</span>
+  <div class="hero-featured" style="max-width:var(--max-w);margin:0 auto;padding:0 var(--space-4)">
+    <article class="hero-main">
+      <a href="{{ $heroPost.RelPermalink }}" class="hero-main-link">
+        {{ if $heroPost.Params.cover.image }}
+        <img class="hero-main-img" src="{{ $heroPost.Params.cover.image }}" alt="{{ $heroPost.Params.cover.alt | default $heroPost.Title }}" loading="eager" decoding="async">
+        {{ end }}
+        <div class="hero-main-body">
+          <span class="hero-main-cat">{{ $heroPost.Section | humanize | title }}</span>
+          <h1 class="hero-main-title">{{ $heroPost.Title }}</h1>
+          {{ if $heroPost.Description }}
+          <p class="hero-main-desc">{{ $heroPost.Description }}</p>
+          {{ end }}
+          <div class="hero-main-meta">
+            <time datetime="{{ $heroPost.Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ $heroPost.Date.Format "January 2, 2006" }}</time>
+            {{ if $.Site.Params.readingTime }}
+            <span>{{ $heroPost.ReadingTime }} {{ T "min_read" | default "min read" }}</span>
+            {{ end }}
+          </div>
         </div>
-        <div class="hero-stat">
-          <span class="hero-stat-value">{{ len .Site.Sections }}</span>
-          <span class="hero-stat-label">{{ T "topics" | default "Topics" }}</span>
+      </a>
+    </article>
+    <aside class="hero-side">
+      {{ range $sidePosts }}
+      <a href="{{ .RelPermalink }}" class="hero-side-item">
+        {{ if .Params.cover.image }}
+        <img class="hero-side-img" src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" loading="lazy" decoding="async">
+        {{ end }}
+        <div class="hero-side-body">
+          <span class="hero-side-cat">{{ .Section | humanize | title }}</span>
+          <h2 class="hero-side-title">{{ .Title }}</h2>
+          <span class="hero-side-meta"><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "Jan 2, 2006" }}</time></span>
         </div>
-        <div class="hero-stat">
-          <span class="hero-stat-value">{{ T "open_source" | default "Open Source" }}</span>
-          <span class="hero-stat-label">{{ T "community_driven" | default "Community Driven" }}</span>
-        </div>
-      </div>
-    </div>
+      </a>
+      {{ end }}
+    </aside>
   </div>
 </section>

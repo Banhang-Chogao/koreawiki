@@ -3,13 +3,13 @@ other = "Trang chủ"
 [search]
 other = "Tìm kiếm"
 [search_placeholder]
-other = "Tìm kiếm KoreaWiki..."
+other = "Tìm kiếm bài viết..."
 [close_search]
 other = "Đóng tìm kiếm"
 [search_hint]
-other = "Nhập từ khóa để tìm kiếm."
+other = "Nhập ít nhất 2 ký tự."
 [toggle_menu]
-other = "Chuyển menu"
+other = "Menu"
 [toggle_theme]
 other = "Chuyển giao diện"
 [switch_language]
@@ -29,44 +29,32 @@ other = "Chia sẻ"
 [related_articles]
 other = "Bài viết liên quan"
 [previous]
-other = "Bài trước"
+other = "Trước"
 [next]
-other = "Bài sau"
+other = "Sau"
 [comments]
 other = "Bình luận"
 [comments_soon]
 other = "Bình luận sắp có."
-[content]
-other = "Nội dung"
-[resources]
-other = "Tài nguyên"
-[about]
-other = "Giới thiệu"
-[email]
-other = "Email"
-[email_placeholder]
-other = "email@của bạn"
-[subscribe]
-other = "Đăng ký"
-[hero_title]
-other = "Khám phá tiếng Hàn & Văn hóa Hàn Quốc"
-[hero_desc]
-other = "Wiki kiến thức toàn diện về ngữ pháp, từ vựng, TOPIK, văn hóa và nhiều hơn nữa."
-[start_learning]
-other = "Bắt đầu học"
-[prepare_topik]
-other = "Luyện thi TOPIK"
-[articles]
-other = "bài viết"
-[topics]
-other = "chủ đề"
-[latest_articles]
-other = "Bài viết mới"
-[browse_all]
-other = "Xem tất cả"
-[browse_topics]
-other = "Danh mục chủ đề"
-[newsletter_title]
-other = "Luôn cập nhật"
-[footer_tagline]
-other = "Wiki kiến thức về ngôn ngữ và văn hóa Hàn Quốc"
+[sections]
+other = "Chuyên mục"
+[more]
+other = "Thêm"
+[follow]
+other = "Theo dõi"
+[navigate]
+other = "Điều hướng"
+[select]
+other = "Chọn"
+[close]
+other = "Đóng"
+[tags]
+other = "Thẻ"
+[latest_news]
+other = "Tin mới nhất"
+[photos]
+other = "Ảnh"
+[videos]
+other = "Video"
+[opinion]
+other = "Ý kiến"

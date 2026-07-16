@@ -1,46 +1,33 @@
 {{ define "main" }}
-<section class="section page-section">
-  <div class="section-container">
-    <header class="section-header">
-      <h1 class="section-title">{{ .Title }}</h1>
-      {{ if .Description }}
-      <p class="section-description">{{ .Description }}</p>
-      {{ end }}
-    </header>
-    <div class="article-list">
-      {{ range .Paginator.Pages }}
-      <article class="article-card">
+<section style="max-width:var(--max-w);margin:0 auto;padding:var(--space-8) var(--space-4) var(--space-16)">
+  <header style="margin-bottom:var(--space-8)">
+    <h1 style="font-size:var(--fs-3xl);font-weight:800;margin-bottom:var(--space-3)">{{ .Title }}</h1>
+    {{ if .Description }}
+    <p style="font-size:var(--fs-lg);color:var(--color-text-secondary);max-width:600px;margin:0">{{ .Description }}</p>
+    {{ end }}
+  </header>
+  <div class="grid-2">
+    {{ range .Paginator.Pages }}
+    <article class="card">
+      <a href="{{ .RelPermalink }}" class="card-link">
         {{ if .Params.cover.image }}
-        <div class="article-card-cover">
-          <a href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
-            <img src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" loading="lazy" decoding="async" width="400" height="225" />
-          </a>
-        </div>
+        <img class="card-img" src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" loading="lazy" decoding="async">
         {{ end }}
-        <div class="article-card-body">
-          <div class="article-card-meta">
-            {{ if .Params.categories }}
-            {{ range first 1 .Params.categories }}
-            <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}/" class="category-badge">{{ . }}</a>
-            {{ end }}
-            {{ end }}
+        <div class="card-body">
+          <span class="card-cat">{{ .Section | humanize | title }}</span>
+          <h2 class="card-title">{{ .Title }}</h2>
+          <p class="card-desc">{{ .Description | default .Summary }}</p>
+          <div class="card-meta">
             <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-            <span class="reading-time">{{ .ReadingTime }} {{ T "min_read" | default "min read" }}</span>
-          </div>
-          <h2 class="article-card-title">
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-          </h2>
-          <p class="article-card-description">{{ .Description | default .Summary }}</p>
-          <div class="article-card-tags">
-            {{ range .Params.tags }}
-            <span class="tag-badge">{{ . }}</span>
+            {{ if $.Site.Params.readingTime }}
+            <span>{{ .ReadingTime }} {{ T "min_read" | default "min read" }}</span>
             {{ end }}
           </div>
         </div>
-      </article>
-      {{ end }}
-    </div>
-    {{ template "_internal/pagination.html" . }}
+      </a>
+    </article>
+    {{ end }}
   </div>
+  {{ template "_internal/pagination.html" . }}
 </section>
 {{ end }}

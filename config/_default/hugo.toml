@@ -1,10 +1,10 @@
 baseURL = "https://banhang-chogao.github.io/koreawiki"
 languageCode = "en"
-title = "KoreaWiki — Learn Korean Language & Culture"
+title = "KoreaWiki — Korean Entertainment & Culture News"
 theme = "koreawiki"
 enableRobotsTXT = true
 enableGitInfo = true
-summaryLength = 25
+summaryLength = 20
 paginate = 12
 copyright = "Copyright © {currentYear} KoreaWiki. All rights reserved."
 
@@ -53,109 +53,94 @@ copyright = "Copyright © {currentYear} KoreaWiki. All rights reserved."
     notAlternative = true
 
 [params]
-  description = "Your comprehensive wiki for learning Korean language, grammar, vocabulary, TOPIK, and culture."
-  author = "KoreaWiki Team"
-  keywords = ["Korean", "language", "learn Korean", "TOPIK", "K-drama", "K-pop", "Korean grammar", "Korean vocabulary", "한국어"]
+  description = "Your premium source for Korean entertainment, K-drama, K-pop, culture, and lifestyle news."
+  author = "KoreaWiki Newsroom"
+  keywords = ["Korean entertainment", "K-drama", "K-pop", "Korean news", "Korean culture", "Korea"]
   images = ["/images/og-default.png"]
 
   twitter = "@koreawiki"
-
-  seo = true
-  schema = true
-  opengraph = true
-  twittercards = true
-  breadcrumbs = true
-  jsonfeed = true
-
   search = true
   darkMode = true
   comments = true
   relatedPosts = true
   readingTime = true
   toc = true
-  newsletter = false
-
-  accentColor = "#1a56db"
+  accentColor = "#2563eb"
 
 [languages]
   [languages.en]
     languageCode = "en"
     languageName = "English"
+    contentDir = "content/en"
     weight = 1
-    title = "KoreaWiki — Learn Korean Language & Culture"
-    [languages.en.params]
-      description = "Your comprehensive wiki for learning Korean language, grammar, vocabulary, TOPIK, and culture."
-
   [languages.ko]
     languageCode = "ko"
     languageName = "한국어"
+    contentDir = "content/ko"
     weight = 2
-    title = "KoreaWiki — 한국어와 한국 문화 배우기"
-    [languages.ko.params]
-      description = "한국어, 문법, 어휘, 문화를 배우는 종합 위키입니다."
-
   [languages.vi]
     languageCode = "vi"
     languageName = "Tiếng Việt"
+    contentDir = "content/vi"
     weight = 3
-    title = "KoreaWiki — Học Tiếng Hàn & Văn Hóa Hàn Quốc"
-    [languages.vi.params]
-      description = "Wiki toàn diện học tiếng Hàn, ngữ pháp, từ vựng và văn hóa Hàn Quốc."
 
-[menu]
-  [[menu.main]]
-    identifier = "grammar"
-    name = "Grammar"
-    url = "/grammar/"
-    weight = 1
-  [[menu.main]]
-    identifier = "vocabulary"
-    name = "Vocabulary"
-    url = "/vocabulary/"
-    weight = 2
-  [[menu.main]]
-    identifier = "topik"
-    name = "TOPIK"
-    url = "/topik/"
-    weight = 3
-  [[menu.main]]
-    identifier = "culture"
-    name = "Culture"
-    url = "/culture/"
-    weight = 4
-  [[menu.main]]
-    identifier = "travel"
-    name = "Travel"
-    url = "/travel/"
-    weight = 5
-  [[menu.main]]
-    identifier = "food"
-    name = "Food"
-    url = "/food/"
-    weight = 6
-  [[menu.main]]
-    identifier = "kdrama"
-    name = "K-Drama"
-    url = "/kdrama/"
-    weight = 7
-  [[menu.main]]
-    identifier = "history"
-    name = "History"
-    url = "/history/"
-    weight = 8
-
-  [[menu.footer]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 1
-  [[menu.footer]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 2
-  [[menu.footer]]
-    identifier = "privacy"
-    name = "Privacy Policy"
-    url = "/privacy/"
-    weight = 3
+[[menu.main]]
+  name = "Exclusive"
+  url = "/exclusive/"
+  weight = 1
+[[menu.main]]
+  name = "Feature"
+  url = "/feature/"
+  weight = 2
+[[menu.main]]
+  name = "News"
+  url = "/news/"
+  weight = 3
+[[menu.main]]
+  name = "Photos"
+  url = "/photos/"
+  weight = 4
+[[menu.main]]
+  name = "Videos"
+  url = "/videos/"
+  weight = 5
+[[menu.main]]
+  name = "Fashion"
+  url = "/fashion/"
+  weight = 6
+[[menu.main]]
+  name = "Artist"
+  url = "/artist/"
+  weight = 7
+[[menu.main]]
+  name = "K-Drama"
+  url = "/kdrama/"
+  weight = 8
+[[menu.main]]
+  name = "K-Pop"
+  url = "/kpop/"
+  weight = 9
+[[menu.main]]
+  name = "Movies"
+  url = "/movies/"
+  weight = 10
+[[menu.main]]
+  name = "TV"
+  url = "/tv/"
+  weight = 11
+[[menu.main]]
+  name = "Culture"
+  url = "/culture/"
+  weight = 12
+[[menu.main]]
+  name = "Travel"
+  url = "/travel/"
+  weight = 13
+[[menu.main]]
+  name = "Food"
+  url = "/food/"
+  weight = 14
+[[menu.main]]
+  name = "Opinion"
+  url = "/opinion/"
+  weight = 15

@@ -1,10 +1,24 @@
 {{ define "main" }}
-  {{ partial "home/hero" . }}
-  {{ partial "home/search-box" . }}
-  {{ partial "home/featured-guides" . }}
-  {{ partial "home/learning-paths" . }}
-  {{ partial "home/latest-articles" . }}
-  {{ partial "home/categories" . }}
-  {{ partial "home/popular-topics" . }}
-  {{ partial "home/newsletter" . }}
+  {{ $pages := where .Site.RegularPages "Type" "not in" (slice "page" "photos" "videos") }}
+  {{ $latestPages := $pages.ByDate.Reverse }}
+
+  {{ partial "home/hero" (dict "Pages" $latestPages "Site" .Site) }}
+
+  <div class="section-row" style="max-width:var(--max-w);margin:0 auto;padding:0 var(--space-4)">
+    {{ partial "home/featured-grid" (dict "Pages" $latestPages "Site" .Site) }}
+
+    {{ partial "home/latest-news" (dict "Pages" $latestPages "Site" .Site) }}
+
+    {{ with where .Site.RegularPages "Section" "photos" }}
+      {{ partial "home/photos-section" (dict "Pages" . "Site" $.Site) }}
+    {{ end }}
+
+    {{ with where .Site.RegularPages "Section" "videos" }}
+      {{ partial "home/videos-section" (dict "Pages" . "Site" $.Site) }}
+    {{ end }}
+
+    {{ with where .Site.RegularPages "Section" "opinion" }}
+      {{ partial "home/opinion-section" (dict "Pages" . "Site" $.Site) }}
+    {{ end }}
+  </div>
 {{ end }}

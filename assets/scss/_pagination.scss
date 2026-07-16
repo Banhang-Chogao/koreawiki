@@ -1,0 +1,6 @@
+.pagination{display:flex;justify-content:center;gap:var(--space-2);margin-top:var(--space-10);list-style:none;padding:0}
+.pagination li{margin:0;display:inline}
+.pagination a,.pagination span{display:inline-flex;align-items:center;justify-content:center;min-width:36px;height:36px;padding:0 var(--space-2);border:1px solid var(--color-border);border-radius:var(--radius);font-size:var(--fs-sm);color:var(--color-text-secondary);text-decoration:none;transition:border-color var(--transition),color var(--transition)}
+.pagination a:hover{border-color:var(--color-primary);color:var(--color-primary)}
+.pagination .active span{background:var(--color-primary);color:var(--color-text-inverse);border-color:var(--color-primary)}
+.pagination .disabled span{opacity:.5;cursor:not-allowed}

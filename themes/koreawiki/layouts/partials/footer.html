@@ -1,38 +1,36 @@
 <footer class="site-footer" role="contentinfo">
-  <div class="footer-container">
+  <div class="footer-inner">
     <div class="footer-grid">
-      <div class="footer-brand">
-        <a href="{{ "" | relLangURL }}" class="footer-logo">KoreaWiki</a>
-        <p class="footer-tagline">{{ T "footer_tagline" | default "Knowledge wiki for Korean language and culture." }}</p>
-        <p class="footer-description">{{ .Site.Params.description }}</p>
+      <div>
+        <span class="footer-brand-name">KoreaWiki</span>
+        <p class="footer-desc">{{ .Site.Params.description }}</p>
       </div>
-      <div class="footer-links">
-        <h4 class="footer-heading">{{ T "content" | default "Content" }}</h4>
-        <ul class="footer-nav-list">
-          {{ range first 6 .Site.Menus.main }}
+      <div>
+        <h4 class="footer-heading">{{ T "sections" | default "Sections" }}</h4>
+        <ul class="footer-list">
+          {{ range .Site.Menus.main }}
           <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
           {{ end }}
         </ul>
       </div>
-      <div class="footer-links">
-        <h4 class="footer-heading">{{ T "resources" | default "Resources" }}</h4>
-        <ul class="footer-nav-list">
-          {{ range after 6 .Site.Menus.main }}
-          <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
-          {{ end }}
+      <div>
+        <h4 class="footer-heading">{{ T "more" | default "More" }}</h4>
+        <ul class="footer-list">
+          <li><a href="{{ "/photos/" | relLangURL }}">{{ T "photos" | default "Photos" }}</a></li>
+          <li><a href="{{ "/videos/" | relLangURL }}">{{ T "videos" | default "Videos" }}</a></li>
+          <li><a href="{{ "/opinion/" | relLangURL }}">{{ T "opinion" | default "Opinion" }}</a></li>
         </ul>
       </div>
-      <div class="footer-links">
-        <h4 class="footer-heading">{{ T "about" | default "About" }}</h4>
-        <ul class="footer-nav-list">
-          {{ range .Site.Menus.footer }}
-          <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
-          {{ end }}
+      <div>
+        <h4 class="footer-heading">{{ T "follow" | default "Follow" }}</h4>
+        <ul class="footer-list">
+          <li><a href="{{ "/index.xml" | relURL }}" target="_blank" rel="noopener">RSS</a></li>
+          <li><a href="https://github.com/Banhang-Chogao/koreawiki" target="_blank" rel="noopener">GitHub</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <p class="footer-copyright">{{ replace .Site.Copyright "{currentYear}" (now.Format "2006") }}</p>
+      <p class="footer-copy">{{ replace .Site.Copyright "{currentYear}" (now.Format "2006") }}</p>
       <div class="footer-social">
         <a href="{{ "/index.xml" | relURL }}" aria-label="RSS Feed" target="_blank" rel="noopener">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="6" cy="18" r="3"/><path d="M4 4a16 16 0 0 1 16 16h-4A12 12 0 0 0 4 8V4zm0 8a8 8 0 0 1 8 8H8a4 4 0 0 0-4-4v-4z"/></svg>
