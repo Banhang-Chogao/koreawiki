@@ -63,3 +63,28 @@ viên Kyungmin, Youngjae và Jihoon.
 
 Ngoài ca khúc chủ đề, single còn bao gồm "Palm Tree" và phiên bản tiếng Nhật của ca khúc "If I'm S, Be My N" từ mini album thứ hai của nhóm.
 
+{{< article-footer >}}
+source: "Pledis Entertainment"
+source_url: "https://www.pledis.co.kr/"
+copyright: >
+  Một phần thông tin trong bài được tham khảo từ thông cáo và tư liệu công khai
+  của Pledis Entertainment / TOURS (TWS). Ảnh minh họa thuộc quyền sở hữu của
+  chủ sở hữu tương ứng. Bài viết chỉ tổng hợp, phân tích phục vụ độc giả — không
+  thay thế thông cáo chính thức.
+external:
+  - title: "Pledis Entertainment (official)"
+    url: "https://www.pledis.co.kr/"
+internal:
+  - title: "RIIZE and the rise of 4th gen K-pop"
+    url: "en/kpop/riize-ascends-how-sms-youngest-boy-group-became-the-defining-act-of-fourth-generation-k-pop/"
+  - title: "aespa Armageddon comeback"
+    url: "en/kpop/aespa-returns-with-armageddon-a-futuristic-sonic-evolution-that-redefines-their-narrative/"
+faq:
+  - q: "SODA SODA phát hành khi nào?"
+    a: "Single Nhật thứ hai của TOURS dự kiến phát hành ngày **4 tháng 8 năm 2026**."
+  - q: "Chiến dịch Shibuya109 kéo dài bao lâu?"
+    a: "Từ **16 đến 31 tháng 7** tại các điểm ở Tokyo và Osaka."
+  - q: "Pop-up store mở ở đâu?"
+    a: "Tokyo, Osaka và Fukuoka — nơi fan có thể mua album và merch tour Nhật."
+{{< /article-footer >}}
+

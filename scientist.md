@@ -209,6 +209,22 @@ git commit --allow-empty -m "redeploy article" && git push
 
 ---
 
+## Entry 018 — 2026-07-16: Article footer macro (source / links / FAQ)
+
+**Added:** Hugo shortcode `article-footer` for per-article end blocks (SEOMONEY-style UI).
+
+**Sections:** external links · internal links · copyright/source · FAQ accordion.
+
+**Usage:** YAML body inside `{{</* article-footer */>}}` … `{{</* /article-footer */>}}`.
+
+**Files:** `themes/koreawiki/layouts/shortcodes/article-footer.html`, `assets/scss/_article-footer.scss`, `docs/article-footer.md`; mm workflow step 8b.
+
+**Example:** `content/en/kpop/tours-soda-soda-japan-promotion-2026.md`
+
+**Prevention:** Only cite real sources; never fabricate FAQ facts.
+
+---
+
 ## Entry 017 — 2026-07-16: Self-host IBM Plex Sans site-wide
 
 **Change:** Entire site font-family → **"IBM Plex Sans"** self-hosted (no Google Fonts).

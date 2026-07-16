@@ -106,6 +106,30 @@ cover=""
 
 Beautiful typography, SEO friendly, internal links, related articles placeholder, proper heading hierarchy, valid Markdown, Hugo compatible.
 
+### Step 8b — Article footer macro (required)
+
+Append `article-footer` shortcode at the end of the article body:
+
+```markdown
+{{</* article-footer */>}}
+source: "Tên báo gốc"
+source_url: "https://..."
+copyright: >
+  Ghi nguồn / bản quyền ngắn gọn. Không bịa.
+external:
+  - title: "..."
+    url: "https://..."
+internal:
+  - title: "Bài liên quan trên KoreaWiki"
+    url: "en/<section>/<slug>/"
+faq:
+  - q: "Câu hỏi thực tế từ bài?"
+    a: "Trả lời ngắn, đúng facts đã có."
+{{</* /article-footer */>}}
+```
+
+Rules: only real sources and links; FAQ must not invent facts. See `docs/article-footer.md`.
+
 ## Step 9 — Extract glossary entries → Update Translation Memory
 
 From the source Korean text and the Vietnamese article, extract meaningful items:
