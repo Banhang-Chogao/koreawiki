@@ -1,15 +1,14 @@
 {{ define "main" }}
 {{/*
   Public Glossary page.
-  Loads private TM via readFile (data/glossary/glossary.json) — not Site.Data,
-  so raw md/csv/sqlite co-located under data/glossary/ never enter the public build.
+  Loads private TM via readFile (data/glossary/glossary.json).
+  Compatible with Hugo 0.126+ (no try function).
 */}}
 {{ $store := dict "entries" (slice) }}
-{{ with try (readFile "data/glossary/glossary.json") }}
-  {{ with .Err }}
-    {{/* missing TM file — empty glossary */}}
-  {{ else }}
-    {{ with transform.Unmarshal .Value }}
+{{ $tmPath := "data/glossary/glossary.json" }}
+{{ if fileExists $tmPath }}
+  {{ with readFile $tmPath }}
+    {{ with transform.Unmarshal . }}
       {{ $store = . }}
     {{ end }}
   {{ end }}
