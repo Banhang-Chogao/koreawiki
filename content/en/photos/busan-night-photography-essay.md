@@ -43,6 +43,7 @@ faq:
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
 Nhiếp ảnh gia kỳ cựu Lee Sung-min đã dành ba tuần để chụp ảnh Busan sau khi trời tối, từ phiên đấu giá cá cuối cùng ở chợ Jagalchi lúc 3 giờ sáng cho đến buổi cầu nguyện đầu tiên của các nhà sư ở
 Beomeosa
 Ngôi chùa lúc 4 giờ sáng. Bộ sưu tập thành quả, "Busan Noir," là một bức thư tình gửi đến cuộc sống về đêm của thành phố.
@@ -61,16 +62,14 @@ Loạt phim này cũng ghi lại Làng văn hóa Gamcheon vào một giờ xanh 
 
 Tác phẩm của Lee nhắc nhở chúng ta rằng vẻ đẹp của Busan không cần đến ánh nắng. Tâm hồn của thành phố có lẽ hiện rõ nhất vào những giờ mà hầu hết du khách đang say ngủ.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **KoreaWiki Photo Desk** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc
   quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn
   nguồn khi trích dẫn.
 internal:
-  - title: "Seoul After Dark: A Photo Essay on the City That Never Sleeps"
+  - title: "Seoul After Dark: Một bài luận ảnh về thành phố không bao giờ ngủ"
     url: "en/photos/seoul-night-photography-guide/"
-  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+  - title: "Kỷ nguyên solo của SUGA: Min Yoon-gi đã định nghĩa lại ý nghĩa của việc trở thành một nghệ sĩ K-Pop như thế nào"
     url: "en/artist/bts-suga-solo-artist-profile/"
 {{< /article-footer >}}

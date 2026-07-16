@@ -45,6 +45,7 @@ faq:
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
 Tuần lễ thời trang Seoul quay trở lại Dongdaemun Design Plaza mang tính biểu tượng từ ngày 3 tháng 7 đến ngày 8 tháng 7, giới thiệu các bộ sưu tập Thu/Đông 2026 của 64 nhà thiết kế Hàn Quốc và lần đầu
 tiên
 cùng lúc có tám nhà thiết kế khách quốc tế đến từ Tokyo, Thượng Hải và Milan. Sự kiện này đã trải qua một sự chuyển đổi thầm lặng trong những mùa giải gần đây, phát triển từ một chương trình giới
@@ -71,16 +72,14 @@ các tập đoàn, được thiết kế để cung cấp hỗ trợ tài chính
 là ở đây”.
 tại sự kiện ra mắt. "Điều còn thiếu là cơ sở hạ tầng để đưa thời trang Hàn Quốc ra thế giới. Điều đó hiện đang thay đổi."
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Soo-Jin Choi** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "When K-Beauty Met Fashion: How Korean Cosmetics Brands Are Redefining Luxury Retail"
+  - title: "Khi K-Beauty gặp gỡ thời trang: Các thương hiệu mỹ phẩm Hàn Quốc đang định nghĩa lại hoạt động bán lẻ xa xỉ như thế nào"
     url: "en/fashion/k-beauty-fashion-convergence/"
-  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+  - title: "Kỷ nguyên solo của SUGA: Min Yoon-gi đã định nghĩa lại ý nghĩa của việc trở thành một nghệ sĩ K-Pop như thế nào"
     url: "en/artist/bts-suga-solo-artist-profile/"
 {{< /article-footer >}}

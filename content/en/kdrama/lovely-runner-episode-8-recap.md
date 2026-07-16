@@ -45,6 +45,7 @@ faq:
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
 CẢNH BÁO: Bản tóm tắt này có chứa phần tiết lộ nội dung của Tập 8 "Lovely Runner".
 
 "Lovely Runner" là một trong những bộ phim có rating đáng tin cậy nhất năm 2026, nhưng Tập 8, phát sóng thứ Tư trên tvN, lại là thời điểm bộ phim thông báo sẽ chiếu.
@@ -74,16 +75,14 @@ Tập phim kết thúc với một tình tiết bất ngờ đang thịnh hành 
 là
 đính hôn với người khác. Tập 9 sẽ phát sóng vào thứ Tư tuần sau trên kênh tvN.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Hyun-Woo Lee** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "Park Seo-joon and Jun Ji-hyun Confirmed for 'The Seoul Agency' — Netflix's Most Expensive Drama Series Ever"
+  - title: "Park Seo-joon & Jun Ji-hyun vào 'The Seoul Agency' — drama Netflix kỷ lục"
     url: "en/kdrama/casting-announcement-july-2026/"
-  - title: "KBS Announces 2027 Sageuk Lineup Including 'The Last Admiral' and 'Goryeo Dreams'"
+  - title: "KBS công bố đội hình Sageuk năm 2027 bao gồm 'Đô đốc cuối cùng' và 'Giấc mơ Goryeo'"
     url: "en/kdrama/kbs-sageuk-slot-2027/"
 {{< /article-footer >}}

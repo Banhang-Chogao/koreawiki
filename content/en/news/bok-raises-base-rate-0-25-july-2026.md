@@ -1,54 +1,62 @@
 ---
-title: "Ngân hàng Trung ương Hàn Quốc tăng lãi suất cơ sở 0,25 điểm phần trăm — thắt chặt sau 3 năm 6 tháng"
-description: >
-  Ngày 16/7/2026, Ủy ban Chính sách Tiền tệ Ngân hàng Trung ương Hàn Quốc (BOK)
-  nâng lãi suất cơ sở từ 2,50% lên 2,75%. Đây là lần tăng đầu tiên kể từ tháng 1/2023,
-  đánh dấu bước vào giai đoạn thắt chặt tiền tệ.
+title: Ngân hàng Trung ương Hàn Quốc tăng lãi suất cơ sở 0,25 điểm phần trăm — thắt
+  chặt sau 3 năm 6 tháng
+description: 'Ngày 16/7/2026, Ủy ban Chính sách Tiền tệ Ngân hàng Trung ương Hàn Quốc
+  (BOK) nâng lãi suất cơ sở từ 2,50% lên 2,75%. Đây là lần tăng đầu tiên kể từ tháng
+  1/2023, đánh dấu bước vào giai đoạn thắt chặt tiền tệ.
+
+  '
 date: 2026-07-16
 lastmod: 2026-07-16
 source_date: 2026-07-16
 draft: false
-author: "KoreaWiki Newsroom"
+author: KoreaWiki Newsroom
 cover:
   image: images/2026/07/bok-raises-base-rate-0-25-july-2026-cover.jpg
-  alt: "Thống đốc Ngân hàng Trung ương Hàn Quốc Shin Hyun-song tại cuộc họp Ủy ban Chính sách Tiền tệ"
-  caption: "Shin Hyun-song tại BOK (Jung-gu, Seoul) — Ảnh: 사진공동취재단 / JTBC"
+  alt: Thống đốc Ngân hàng Trung ương Hàn Quốc Shin Hyun-song tại cuộc họp Ủy ban
+    Chính sách Tiền tệ
+  caption: 'Shin Hyun-song tại BOK (Jung-gu, Seoul) — Ảnh: 사진공동취재단 / JTBC'
 tags:
-  - bank-of-korea
-  - base-rate
-  - interest-rate
-  - monetary-policy
-  - economy
-  - inflation
+- bank-of-korea
+- base-rate
+- interest-rate
+- monetary-policy
+- economy
+- inflation
 categories:
-  - News
-  - Business
+- News
+- Business
 keywords:
-  - ngân hàng trung ương hàn quốc
-  - lãi suất cơ sở
-  - bok
-  - thắt chặt tiền tệ
-  - shin hyun-song
-  - 한국은행
-  - 기준금리
+- ngân hàng trung ương hàn quốc
+- lãi suất cơ sở
+- bok
+- thắt chặt tiền tệ
+- shin hyun-song
+- 한국은행
+- 기준금리
 slug: ngan-hang-trung-uong-han-quoc-tang-lai-suat-co-so-025-diem-phan-tram-that-chat-sau-3-nam-6-thang
 faq:
-  - q: "BOK tăng lãi suất cơ sở bao nhiêu và lên mức nào?"
-    a: >
-      Ngày **16 tháng 7 năm 2026**, lãi suất cơ sở được nâng **0,25 điểm phần trăm**,
-      từ **2,50%** lên **2,75%**/năm.
-  - q: "Đây có phải lần tăng lãi suất gần đây không?"
-    a: >
-      Đây là lần tăng **đầu tiên kể từ tháng 1 năm 2023** — sau khoảng **3 năm 6 tháng**.
-  - q: "Vì sao BOK quyết định tăng lãi suất?"
-    a: >
-      Theo JTBC, bối cảnh gồm **lạm phát trên 3%**, triển vọng tăng trưởng nhờ **bán dẫn**,
-      **tỷ giá cao** và **giá nhà khu vực thủ đô** tăng.
-  - q: "Thị trường kỳ vọng gì tiếp theo?"
-    a: >
-      Thị trường dự báo **còn một lần tăng nữa trong năm**. Một số ý kiến còn nói khả năng
-      tăng **liên tiếp hai tháng**, kể cả **tháng sau**.
+- q: BOK tăng lãi suất cơ sở bao nhiêu và lên mức nào?
+  a: 'Ngày **16 tháng 7 năm 2026**, lãi suất cơ sở được nâng **0,25 điểm phần trăm**,
+    từ **2,50%** lên **2,75%**/năm.
+
+    '
+- q: Đây có phải lần tăng lãi suất gần đây không?
+  a: 'Đây là lần tăng **đầu tiên kể từ tháng 1 năm 2023** — sau khoảng **3 năm 6 tháng**.
+
+    '
+- q: Vì sao BOK quyết định tăng lãi suất?
+  a: 'Theo JTBC, bối cảnh gồm **lạm phát trên 3%**, triển vọng tăng trưởng nhờ **bán
+    dẫn**, **tỷ giá cao** và **giá nhà khu vực thủ đô** tăng.
+
+    '
+- q: Thị trường kỳ vọng gì tiếp theo?
+  a: 'Thị trường dự báo **còn một lần tăng nữa trong năm**. Một số ý kiến còn nói
+    khả năng tăng **liên tiếp hai tháng**, kể cả **tháng sau**.
+
+    '
 ---
+
 
 **Ngân hàng Trung ương Hàn Quốc** (한국은행, *Bank of Korea* — BOK) hôm
 **16 tháng 7 năm 2026** đã **tăng lãi suất cơ sở** **0,25 điểm phần trăm**, từ
@@ -101,16 +109,19 @@ vẫn gây áp lực.
 source: "JTBC"
 source_url: "https://n.news.naver.com/mnews/article/437/0000501443"
 copyright: >
-  Tổng hợp từ tin JTBC (Naver News). Ảnh: 사진공동취재단 / JTBC.
-  Bài viết chỉ tóm lược sự kiện; không thay thế tư vấn tài chính.
+  Một phần thông tin trong bài được tham khảo từ
+  [JTBC](https://n.news.naver.com/mnews/article/437/0000501443). Mọi thương hiệu, hình ảnh
+  và tài liệu gốc thuộc quyền sở hữu của chủ sở hữu tương ứng. Bài viết trên KoreaWiki chỉ
+  tổng hợp, biên tập và phân tích phục vụ độc giả — không thay thế thông cáo hay tài liệu
+  chính thức.
 external:
-  - title: "Bản gốc JTBC trên Naver News"
+  - title: "n.news.naver.com"
     url: "https://n.news.naver.com/mnews/article/437/0000501443"
-  - title: "Bài gốc JTBC"
+  - title: "news.jtbc.co.kr"
     url: "https://news.jtbc.co.kr/article/NB12308553"
 internal:
   - title: "Tòa Hàn Quốc đình chỉ lệnh FTC xác định Bom Kim là người kiểm soát Coupang"
-    url: "en/news/toa-han-quoc-dinh-chi-lenh-ftc-xac-dinh-bom-kim-la-nguoi-kiem-soat-coupang/"
-  - title: "Kakao ra mắt series Kanana-original giới thiệu AI omni Kanana-o"
-    url: "en/news/kakao-ra-mat-series-kanana-original-gioi-thieu-ai-omni-kanana-o/"
+    url: "en/news/court-suspends-ftc-coupang-bom-kim-controller-2026/"
+  - title: "Báo cáo của HYBE ghi nhận doanh thu quý 2 là 620 tỷ Yên nhờ hoạt động lưu diễn toàn cầu và tăng trưởng Weverse"
+    url: "en/news/hybe-second-quarter-earnings/"
 {{< /article-footer >}}

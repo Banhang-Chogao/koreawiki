@@ -46,6 +46,7 @@ faq:
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
 Tập đoàn HYBE đã báo cáo thu nhập quý hai kỷ lục là 620 tỷ Yên vào thứ Sáu, vượt qua ước tính đồng thuận của các nhà phân tích là 8% và khiến cổ phiếu tăng 5,3% trong phiên giao dịch buổi chiều.
 trên Sàn giao dịch Hàn Quốc. Tập đoàn, ngôi nhà của BTS, Seventeen và LE SSERAFIM, cho rằng hiệu suất mạnh mẽ là nhờ lịch trình lưu diễn toàn cầu dày đặc và thương mại tăng tốc
 doanh thu từ nền tảng Weverse của nó.
@@ -70,16 +71,14 @@ Các nhà phân tích tại Daishin Securities vẫn duy trì xếp hạng "Nên
 đa nhãn hiệu của mình.
 cấu trúc và phạm vi tiếp cận toàn cầu.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Min-Jun Kim** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "South Korea Expands Film Tax Credit Program to Lure International Productions"
-    url: "en/news/korean-film-tax-credit-expansion/"
-  - title: "Netflix Unveils Record ₩1.5 Trillion Korean Content Slate for 2027"
-    url: "en/news/netflix-2027-korean-slate/"
+  - title: "Ngân hàng Trung ương Hàn Quốc tăng lãi suất cơ sở 0,25 điểm phần trăm — thắt chặt sau 3 năm 6 tháng"
+    url: "en/news/bok-raises-base-rate-0-25-july-2026/"
+  - title: "Tòa Hàn Quốc đình chỉ lệnh FTC xác định Bom Kim là người kiểm soát Coupang"
+    url: "en/news/court-suspends-ftc-coupang-bom-kim-controller-2026/"
 {{< /article-footer >}}

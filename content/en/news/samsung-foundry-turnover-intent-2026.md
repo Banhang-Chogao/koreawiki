@@ -1,57 +1,64 @@
 ---
-title: "Samsung Foundry 81,5% ý định nghỉ việc: chênh thưởng 600 triệu vs 210 triệu won"
-description: >
-  Khảo sát công đoàn Samsung Electronics (16/7/2026): 81,5% nhân viên Foundry
-  và 75,4% System LSI cho biết ý định nghỉ việc trong 2 năm ở mức cao — gấp hơn
-  hai lần Memory, gắn với chênh lệch thưởng đặc biệt theo lợi nhuận.
+title: 'Samsung Foundry 81,5% ý định nghỉ việc: chênh thưởng 600 triệu vs 210 triệu
+  won'
+description: 'Khảo sát công đoàn Samsung Electronics (16/7/2026): 81,5% nhân viên
+  Foundry và 75,4% System LSI cho biết ý định nghỉ việc trong 2 năm ở mức cao — gấp
+  hơn hai lần Memory, gắn với chênh lệch thưởng đặc biệt theo lợi nhuận.
+
+  '
 date: 2026-07-16
 lastmod: 2026-07-16
 source_date: 2026-07-16
 draft: false
-author: "KoreaWiki Newsroom"
+author: KoreaWiki Newsroom
 cover:
   image: images/2026/07/samsung-foundry-turnover-intent-2026-cover.png
-  alt: "Trụ sở Samsung Electronics tại Suwon, Gyeonggi"
-  caption: "Trụ sở Samsung Electronics (Suwon) — Ảnh: Yonhap / 문화일보"
+  alt: Trụ sở Samsung Electronics tại Suwon, Gyeonggi
+  caption: 'Trụ sở Samsung Electronics (Suwon) — Ảnh: Yonhap / 문화일보'
 tags:
-  - samsung
-  - foundry
-  - semiconductor
-  - labor
-  - bonus
-  - business
+- samsung
+- foundry
+- semiconductor
+- labor
+- bonus
+- business
 categories:
-  - News
-  - Business
+- News
+- Business
 keywords:
-  - samsung foundry
-  - samsung electronics
-  - ý định nghỉ việc
-  - thưởng đặc biệt
-  - memory
-  - system lsi
-  - 삼성전자
-  - 파운드리
+- samsung foundry
+- samsung electronics
+- ý định nghỉ việc
+- thưởng đặc biệt
+- memory
+- system lsi
+- 삼성전자
+- 파운드리
 slug: samsung-foundry-815-y-dinh-nghi-viec-chenh-thuong-600-trieu-vs-210-trieu-won
 faq:
-  - q: "Bao nhiêu nhân viên Foundry muốn nghỉ việc?"
-    a: >
-      Trong **1.462** người trả lời thuộc **Foundry**, **81,5%** chọn ý định nghỉ
-      việc trong **2 năm** ở mức **cao** hoặc **rất cao**.
-  - q: "Memory khác Foundry ra sao?"
-    a: >
-      **Memory** chỉ **32,7%** — thấp thứ hai sau **AI Center (31,6%)**. Mức thưởng
-      đặc biệt ước tính của Memory khoảng **6억 원** (≈ **600 triệu won**), trong
-      khi Foundry/System LSI khoảng **2,1억 원**.
-  - q: "Khảo sát do ai làm, bao nhiêu người?"
-    a: >
-      **Công đoàn chi nhánh Samsung Electronics** thuộc liên công đoàn đa doanh
-      nghiệp (**초기업노조**), khảo sát **8.297** đoàn viên từ **17–30/6**.
-  - q: "Công đoàn yêu cầu gì?"
-    a: >
-      Chủ tịch **Choi Seung-ho** nói kết quả phản ánh **khủng hoảng thực địa** và
-      kêu gọi công ty có **biện pháp ngăn chảy máu nhân sự** có hiệu quả sớm.
+- q: Bao nhiêu nhân viên Foundry muốn nghỉ việc?
+  a: 'Trong **1.462** người trả lời thuộc **Foundry**, **81,5%** chọn ý định nghỉ
+    việc trong **2 năm** ở mức **cao** hoặc **rất cao**.
+
+    '
+- q: Memory khác Foundry ra sao?
+  a: '**Memory** chỉ **32,7%** — thấp thứ hai sau **AI Center (31,6%)**. Mức thưởng
+    đặc biệt ước tính của Memory khoảng **6억 원** (≈ **600 triệu won**), trong khi
+    Foundry/System LSI khoảng **2,1억 원**.
+
+    '
+- q: Khảo sát do ai làm, bao nhiêu người?
+  a: '**Công đoàn chi nhánh Samsung Electronics** thuộc liên công đoàn đa doanh nghiệp
+    (**초기업노조**), khảo sát **8.297** đoàn viên từ **17–30/6**.
+
+    '
+- q: Công đoàn yêu cầu gì?
+  a: 'Chủ tịch **Choi Seung-ho** nói kết quả phản ánh **khủng hoảng thực địa** và
+    kêu gọi công ty có **biện pháp ngăn chảy máu nhân sự** có hiệu quả sớm.
+
+    '
 ---
+
 
 **Hơn 8 trên 10** nhân viên **Foundry** (sản xuất bán dẫn gia công) thuộc khối
 **bán dẫn DS** của **Samsung Electronics** cho biết đang **cân nhắc nghỉ việc**
@@ -118,17 +125,19 @@ trong cùng bản tin.
 source: "문화일보 (Munhwa Ilbo)"
 source_url: "https://n.news.naver.com/mnews/article/021/0002805238"
 copyright: >
-  Tổng hợp từ 문화일보 qua Naver News. Ảnh: Yonhap / 문화일보.
-  Các mức thưởng là ước tính theo giả định trong bài nguồn, không phải cam kết
-  chi trả đã chốt cho từng cá nhân.
+  Một phần thông tin trong bài được tham khảo từ [문화일보 (Munhwa
+  Ilbo)](https://n.news.naver.com/mnews/article/021/0002805238). Mọi thương hiệu, hình ảnh
+  và tài liệu gốc thuộc quyền sở hữu của chủ sở hữu tương ứng. Bài viết trên KoreaWiki chỉ
+  tổng hợp, biên tập và phân tích phục vụ độc giả — không thay thế thông cáo hay tài liệu
+  chính thức.
 external:
-  - title: "Bản gốc trên Naver News"
+  - title: "n.news.naver.com"
     url: "https://n.news.naver.com/mnews/article/021/0002805238"
-  - title: "Bài gốc 문화일보"
+  - title: "munhwa.com"
     url: "https://www.munhwa.com/article/11603208?ref=naver"
 internal:
-  - title: "Ngân hàng Trung ương Hàn Quốc tăng lãi suất cơ sở 0,25 điểm phần trăm"
-    url: "en/news/ngan-hang-trung-uong-han-quoc-tang-lai-suat-co-so-025-diem-phan-tram-that-chat-sau-3-nam-6-thang/"
+  - title: "Ngân hàng Trung ương Hàn Quốc tăng lãi suất cơ sở 0,25 điểm phần trăm — thắt chặt sau 3 năm 6 tháng"
+    url: "en/news/bok-raises-base-rate-0-25-july-2026/"
   - title: "Tòa Hàn Quốc đình chỉ lệnh FTC xác định Bom Kim là người kiểm soát Coupang"
-    url: "en/news/toa-han-quoc-dinh-chi-lenh-ftc-xac-dinh-bom-kim-la-nguoi-kiem-soat-coupang/"
+    url: "en/news/court-suspends-ftc-coupang-bom-kim-controller-2026/"
 {{< /article-footer >}}

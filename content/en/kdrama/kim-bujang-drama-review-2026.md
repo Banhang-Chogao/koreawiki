@@ -47,6 +47,7 @@ faq:
 
 
 
+
 "Juvenile offender? Cách nói hay đấy. Vậy thì tôi là 'kẻ vô pháp tuổi trung niên'." — Kim Bu-jang
 
 Trước mặt những kẻ vị thành niên coi thường pháp luật, "Kim Bu-jang" (So Ji-sub)
@@ -135,8 +136,8 @@ copyright: >
   quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn
   nguồn khi trích dẫn.
 internal:
-  - title: "Park Seo-joon and Jun Ji-hyun Confirmed for 'The Seoul Agency' — Netflix's Most Expensive Drama Series Ever"
+  - title: "Park Seo-joon & Jun Ji-hyun vào 'The Seoul Agency' — drama Netflix kỷ lục"
     url: "en/kdrama/casting-announcement-july-2026/"
-  - title: "KBS Announces 2027 Sageuk Lineup Including 'The Last Admiral' and 'Goryeo Dreams'"
+  - title: "KBS công bố đội hình Sageuk năm 2027 bao gồm 'Đô đốc cuối cùng' và 'Giấc mơ Goryeo'"
     url: "en/kdrama/kbs-sageuk-slot-2027/"
 {{< /article-footer >}}

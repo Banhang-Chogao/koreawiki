@@ -1,43 +1,48 @@
 ---
-title: "Kim Myung-soo đóng chính romance 'Yeondae Bojeung Romance' cùng Pyo Ye-jin"
-description: "Nam diễn viên Kim Myung-soo xác nhận vai chính drama romance 12 tập; Pyo Ye-jin được cho là nữ chính. Dự án quay nhiều cảnh tại Singapore, dự kiến bấm máy hè 2026."
+title: Kim Myung-soo đóng chính romance 'Yeondae Bojeung Romance' cùng Pyo Ye-jin
+description: Nam diễn viên Kim Myung-soo xác nhận vai chính drama romance 12 tập;
+  Pyo Ye-jin được cho là nữ chính. Dự án quay nhiều cảnh tại Singapore, dự kiến bấm
+  máy hè 2026.
 date: 2026-07-16
 lastmod: 2026-07-16
-# Original Dispatch publish time (for attribution only — homepage sorts by date)
 source_date: 2026-06-24
 draft: false
 author: KoreaWiki Newsroom
 cover:
   image: images/2026/07/kim-myung-soo-yeondae-romance-2026.jpg
-  alt: "Nam diễn viên Kim Myung-soo"
-  caption: "Kim Myung-soo — Ảnh: Dispatch DB"
+  alt: Nam diễn viên Kim Myung-soo
+  caption: 'Kim Myung-soo — Ảnh: Dispatch DB'
 tags:
-  - kim-myung-soo
-  - pyo-ye-jin
-  - k-drama
-  - casting
-  - singapore
+- kim-myung-soo
+- pyo-ye-jin
+- k-drama
+- casting
+- singapore
 categories:
-  - Exclusive
-  - K-Drama
+- Exclusive
+- K-Drama
 keywords:
-  - kim myung-soo
-  - pyo ye-jin
-  - yeondae bojeung romance
-  - casting
-  - k-drama
-  - exclusive
+- kim myung-soo
+- pyo ye-jin
+- yeondae bojeung romance
+- casting
+- k-drama
+- exclusive
 slug: kim-myung-soo-dong-chinh-romance-yeondae-bojeung-romance-cung-pyo-ye-jin
 faq:
-  - q: "Kim Myung-soo đóng chính drama nào?"
-    a: "Anh xác nhận vai chính drama romance **'Yeondae Bojeung Romance'** (연대보증 로맨스)."
-  - q: "Nữ chính là ai?"
-    a: "Theo thông tin Dispatch, **Pyo Ye-jin** (nổi bật qua *Taxi Driver 3* / 모범택시3) được cho là nữ chính."
-  - q: "Drama quay ở đâu và bao nhiêu tập?"
-    a: "Dự án **12 tập**, đầu tư quốc tế; nhiều cảnh quay tại **Singapore**. Hiện pre-production, dự kiến **bấm máy hè 2026**."
-  - q: "Kim Myung-soo còn lịch phát sóng nào sắp tới?"
-    a: "Anh xuất hiện trong drama cuối tuần **'Gonggam Sepo'** (공감세포) từ **4 tháng 7**, đồng thời đang có fancon châu Á **UNCHANGED**."
+- q: Kim Myung-soo đóng chính drama nào?
+  a: Anh xác nhận vai chính drama romance **'Yeondae Bojeung Romance'** (연대보증 로맨스).
+- q: Nữ chính là ai?
+  a: Theo thông tin Dispatch, **Pyo Ye-jin** (nổi bật qua *Taxi Driver 3* / 모범택시3)
+    được cho là nữ chính.
+- q: Drama quay ở đâu và bao nhiêu tập?
+  a: Dự án **12 tập**, đầu tư quốc tế; nhiều cảnh quay tại **Singapore**. Hiện pre-production,
+    dự kiến **bấm máy hè 2026**.
+- q: Kim Myung-soo còn lịch phát sóng nào sắp tới?
+  a: Anh xuất hiện trong drama cuối tuần **'Gonggam Sepo'** (공감세포) từ **4 tháng 7**,
+    đồng thời đang có fancon châu Á **UNCHANGED**.
 ---
+
 
 Nam diễn viên **Kim Myung-soo** sắp trở lại màn ảnh nhỏ với vai chính một bộ romance thanh xuân.
 Dispatch đưa tin độc quyền: anh đã chốt **'Yeondae Bojeung Romance'** (연대보증 로맨스) làm dự án tiếp theo.
@@ -73,16 +78,16 @@ source: "Dispatch"
 source_url: "https://www.dispatch.co.kr/2344420"
 copyright: >
   Một phần thông tin trong bài được tham khảo từ
-  [Dispatch](https://www.dispatch.co.kr/2344420).
-  Ảnh thuộc Dispatch DB / chủ sở hữu tương ứng.
-  Bài viết trên KoreaWiki chỉ tổng hợp và biên tập phục vụ độc giả — không thay
-  thế thông cáo hay tài liệu chính thức.
+  [Dispatch](https://www.dispatch.co.kr/2344420). Mọi thương hiệu, hình ảnh và tài liệu
+  gốc thuộc quyền sở hữu của chủ sở hữu tương ứng. Bài viết trên KoreaWiki chỉ tổng hợp,
+  biên tập và phân tích phục vụ độc giả — không thay thế thông cáo hay tài liệu chính
+  thức.
 external:
-  - title: "Dispatch gốc — Kim Myung-soo '연대보증 로맨스'"
+  - title: "Dispatch"
     url: "https://www.dispatch.co.kr/2344420"
 internal:
-  - title: "Casting announcement July 2026"
-    url: "en/kdrama/casting-announcement-july-2026/"
-  - title: "KBS sageuk slot 2027"
-    url: "en/kdrama/kbs-sageuk-slot-2027/"
+  - title: "Độc quyền: Trên trường quay 'Goryeo Dreams' — Bên trong bộ phim cổ trang đầy tham vọng nhất của KBS"
+    url: "en/exclusive/behind-the-scenes-goryeo-drama/"
+  - title: "Độc quyền: Các thành viên BTS cân nhắc về tương lai của nhóm - 'Chúng tôi sẽ quay lại khi câu chuyện yêu cầu'"
+    url: "en/exclusive/bts-members-individual-futures/"
 {{< /article-footer >}}

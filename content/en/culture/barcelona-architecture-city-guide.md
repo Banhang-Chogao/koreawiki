@@ -1,8 +1,8 @@
 ---
 title: 'Barcelona architecture city guide: 30 điểm từ Gaudí đến siêu khối đô thị'
 description: 'Viết lại city guide ArchDaily của Valentina Díaz: Gothic Quarter, Eixample,
-  Gaudí, Pavilion Mies, Bofill, Olympics 1992 và các dự án đương đại — kèm gallery ảnh host
-  local.'
+  Gaudí, Pavilion Mies, Bofill, Olympics 1992 và các dự án đương đại — kèm gallery
+  ảnh host local.'
 date: 2026-07-16
 lastmod: 2026-07-16
 source_date: 2026-06-25
@@ -11,8 +11,8 @@ author: KoreaWiki Culture Desk
 cover:
   image: images/2026/07/barcelona-architecture-city-guide-cover.jpg
   alt: Toàn cảnh Barcelona — minh họa city guide kiến trúc ArchDaily
-  caption: Barcelona Architecture City Guide — ảnh bìa trên ArchDaily (Logan Armstrong / Unsplash
-    theo credit trang)
+  caption: Barcelona Architecture City Guide — ảnh bìa trên ArchDaily (Logan Armstrong
+    / Unsplash theo credit trang)
 tags:
 - architecture
 - barcelona
@@ -38,24 +38,25 @@ keywords:
 slug: barcelona-architecture-city-guide-30-diem-tu-gaudi-den-sieu-khoi-do-thi
 faq:
 - q: City guide ArchDaily này nói về gì?
-  a: Hướng dẫn 30 công trình và địa điểm kiến trúc Barcelona từ Gaudí đến nay, do Valentina
-    Díaz viết, đăng 25/6/2026 trên ArchDaily.
+  a: Hướng dẫn 30 công trình và địa điểm kiến trúc Barcelona từ Gaudí đến nay, do
+    Valentina Díaz viết, đăng 25/6/2026 trên ArchDaily.
 - q: Vì sao Eixample quan trọng?
-  a: 'Theo guide: lưới Ildefons Cerdà mở rộng thành phố ra ngoài lõi Gothic; trở thành sân
-    khấu cho Gaudí và cùng thời thách thức hình thức, tỷ lệ và trang trí.'
+  a: 'Theo guide: lưới Ildefons Cerdà mở rộng thành phố ra ngoài lõi Gothic; trở thành
+    sân khấu cho Gaudí và cùng thời thách thức hình thức, tỷ lệ và trang trí.'
 - q: Công trình hiện đại nào được nêu như biểu tượng quốc tế?
   a: Barcelona Pavilion của Mies van der Rohe được dẫn như hiện thân nguyên tắc International
     Modernism; sau đó có Bofill, Olympics 1992 và các dự án đương đại.
 - q: Có những địa điểm Modernisme nào trong gallery?
-  a: Các khung hình trên trang gắn Casa Milà, Casa Batlló, Park Güell và ngữ cảnh Sagrada
-    Família — trục Modernisme Catalan gắn Gaudí.
+  a: Các khung hình trên trang gắn Casa Milà, Casa Batlló, Park Güell và ngữ cảnh
+    Sagrada Família — trục Modernisme Catalan gắn Gaudí.
 - q: Superblock Sant Antoni là gì trong guide?
-  a: Được liệt kê như can thiệp đô thị gần đây (Leku Studio theo credit ảnh), thuộc lớp “urban
-    commons” / tái tổ chức không gian phố cùng các dự án đương đại khác.
+  a: Được liệt kê như can thiệp đô thị gần đây (Leku Studio theo credit ảnh), thuộc
+    lớp “urban commons” / tái tổ chức không gian phố cùng các dự án đương đại khác.
 - q: Bài KoreaWiki khác guide gốc ra sao?
-  a: Viết lại tiếng Việt, cấu trúc và lời văn riêng, giữ khung lịch sử + các địa điểm được
-    guide/gallery nêu; không thay thế bản ArchDaily đầy đủ 30 mục gốc.
+  a: Viết lại tiếng Việt, cấu trúc và lời văn riêng, giữ khung lịch sử + các địa điểm
+    được guide/gallery nêu; không thay thế bản ArchDaily đầy đủ 30 mục gốc.
 ---
+
 
 ArchDaily đăng city guide **«Barcelona Architecture City Guide: 30 Buildings and Places from
 Gaudí to Today»** do **Valentina Díaz** viết (published **25 June 2026**). URL gốc dùng
@@ -316,22 +317,22 @@ host file local và ghi nguồn trang guide; bản quyền vẫn thuộc chủ s
 - **Sponsored note trên trang gốc:** “Presented by VELUX / livingplaces” — độc giả nên biết
   guide nằm trong hệ content có nhãn trình bày đối tác trên ArchDaily.
 
-
-
 {{< article-footer >}}
 source: "ArchDaily — Barcelona Architecture City Guide (Valentina Díaz)"
 source_url: "https://www.archdaily.com/918881/23-amazing-places-in-barcelonas-best-architecture-city-guide"
 copyright: >
-  Viết lại tiếng Việt bởi **KoreaWiki Culture Desk** dựa trên city guide ArchDaily của
-  Valentina Díaz (25 Jun 2026). Ảnh gallery thuộc các tác giả/credit gốc trên trang
-  ArchDaily; host local chỉ phục vụ minh họa thông tin.
+  Một phần thông tin trong bài được tham khảo từ [ArchDaily — Barcelona Architecture City
+  Guide (Valentina
+  Díaz)](https://www.archdaily.com/918881/23-amazing-places-in-barcelonas-best-architecture-city-guide).
+  Mọi thương hiệu, hình ảnh và tài liệu gốc thuộc quyền sở hữu của chủ sở hữu tương ứng.
+  Bài viết trên KoreaWiki chỉ tổng hợp, biên tập và phân tích phục vụ độc giả — không thay
+  thế thông cáo hay tài liệu chính thức.
 external:
-  - title: "Barcelona Architecture City Guide — ArchDaily"
+  - title: "archdaily.com"
     url: "https://www.archdaily.com/918881/23-amazing-places-in-barcelonas-best-architecture-city-guide"
 internal:
-  - title: "Kinderoase TUM Munich — Kéré + HK Architekten"
-    url: "en/culture/kinderoase-tum-munich-nha-tre-go-dung-cua-kere-hk-architekten/"
-  - title: "Cathedral House / JAK Architecture"
-    url: "en/culture/cathedral-house-jak-architecture-nha-nghi-cuoi-tuan-nhin-day-cathedral-ranges/"
+  - title: "Anne's Library — Nhà xuất bản Hàn Quốc hạ thấp rào cản tiếp cận văn học cổ điển và nghệ thuật"
+    url: "en/culture/annes-library-publishing-house-profile/"
+  - title: "Boknal (복날): ba ngày 'phục' giữa mùa hè Hàn Quốc"
+    url: "en/culture/boknal-sam-phuc-mua-he-han-quoc/"
 {{< /article-footer >}}
-

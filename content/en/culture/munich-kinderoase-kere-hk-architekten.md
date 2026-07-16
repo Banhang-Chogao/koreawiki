@@ -44,6 +44,7 @@ faq:
   a: Hỗ trợ giới trẻ chuyên môn — đặc biệt phụ nữ — cân bằng công việc và gia đình
     khi làm việc/học tại môi trường TUM.
 ---
+
 **Kinderoase an der TUM** là nhà trẻ mới trên campus **Technische Universität München (TUM)**
 tại **Munich, Đức**. Theo text do đội thiết kế cung cấp trên ArchDaily, công trình được nghĩ
 như **nhà trẻ theo phương đứng (vertical kindergarten)**, xây **gần như toàn bộ bằng gỗ**,
@@ -142,17 +143,22 @@ Giữ đủ specs và ý đồ xã hội/vật liệu từ nguồn; không thêm
 source: "ArchDaily — TU Munich Kinderoase Daycare / Kéré Architecture + HK Architekten"
 source_url: "https://www.archdaily.com/1054059/munich-kinderoase-kindergarten-kere-architecture-plus-hk-architekten-hermann-kaufmann-plus-partner-zt"
 copyright: >
-  Viết lại / Việt hóa bởi **KoreaWiki Culture Desk** dựa trên hồ sơ dự án trên ArchDaily.
-  Ảnh: **Iwan Baan** (và các tác giả hình kỹ thuật theo credit gốc). Bản quyền thuộc chủ
-  sở hữu tương ứng; dùng với mục đích thông tin.
+  Một phần thông tin trong bài được tham khảo từ [ArchDaily — TU Munich Kinderoase Daycare
+  / Kéré Architecture + HK
+  Architekten](https://www.archdaily.com/1054059/munich-kinderoase-kindergarten-kere-architecture-plus-hk-architekten-hermann-kaufmann-plus-partner-zt).
+  Mọi thương hiệu, hình ảnh và tài liệu gốc thuộc quyền sở hữu của chủ sở hữu tương ứng.
+  Bài viết trên KoreaWiki chỉ tổng hợp, biên tập và phân tích phục vụ độc giả — không thay
+  thế thông cáo hay tài liệu chính thức.
 external:
-  - title: "TU Munich Kinderoase Daycare — ArchDaily"
-    url: "https://www.archdaily.com/1054059/munich-kinderoase-kindergarten-kere-architecture-plus-hk-architekten-hermann-kaufmann-plus-partner-zt"
   - title: "Kéré Architecture"
     url: "https://www.archdaily.com/office/kere-architecture"
   - title: "Hermann Kaufmann + Partner"
     url: "https://www.archdaily.com/office/hk-architekten-hermann-kaufmann-plus-partner-zt"
+  - title: "archdaily.com"
+    url: "https://www.archdaily.com/1054059/munich-kinderoase-kindergarten-kere-architecture-plus-hk-architekten-hermann-kaufmann-plus-partner-zt"
 internal:
-  - title: "Cathedral House / JAK Architecture"
-    url: "en/culture/cathedral-house-jak-architecture-nha-nghi-cuoi-tuan-nhin-day-cathedral-ranges/"
+  - title: "Anne's Library — Nhà xuất bản Hàn Quốc hạ thấp rào cản tiếp cận văn học cổ điển và nghệ thuật"
+    url: "en/culture/annes-library-publishing-house-profile/"
+  - title: "Barcelona architecture city guide: 30 điểm từ Gaudí đến siêu khối đô thị"
+    url: "en/culture/barcelona-architecture-city-guide/"
 {{< /article-footer >}}

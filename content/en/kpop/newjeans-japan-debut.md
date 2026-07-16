@@ -47,6 +47,7 @@ faq:
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
 NewJeans đã làm được điều mà chưa một nhóm nhạc nữ K-pop nào làm được trước đây: ra mắt ở vị trí số một trên Bảng xếp hạng Album hàng tuần của Oricon với 1,5 triệu bản được bán ra trong bảy ngày đầu
 tiên. đầu tiên của họ
 Album tiếng Nhật đầy đủ, "Tokyo 404", phát hành ngày 30 tháng 6 thông qua ADOR và Warner Music Japan, đã vượt qua mọi dự đoán trong ngành và đưa nhóm ngũ tấu trở thành nhóm thống trị
@@ -72,15 +73,13 @@ các chiến dịch quảng cáo cho Nước giải khát Shiseido, Uniqlo và A
 
 Nhóm sẽ dành tháng 8 và tháng 9 cho chuyến lưu diễn cháy vé tại Nhật Bản, biểu diễn tại 8 thành phố bao gồm Tokyo Dome trong hai đêm vào tháng 9.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Min-Jun Kim** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "aespa Returns with 'Armageddon': A Futuristic Sonic Evolution That Redefines Their Narrative"
+  - title: "aespa trở lại với 'Armageddon': Sự tiến hóa âm thanh tương lai định nghĩa lại câu chuyện của họ"
     url: "en/kpop/aespa-comeback-armageddon/"
   - title: "Bang Chan (Stray Kids) tỏa sáng tại sự kiện ra mắt bộ sưu tập mùa đông 2026"
     url: "en/kpop/bangchan-winter-collection-2026/"

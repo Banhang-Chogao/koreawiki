@@ -47,6 +47,7 @@ faq:
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
 Bong Joon-ho đã làm được điều đó một lần nữa. “Harbinger,” bộ phim đầu tiên của đạo diễn đoạt Cành cọ vàng và đoạt giải Oscar kể từ bộ phim lịch sử “Parasite”, được công chiếu lần đầu tại Liên hoan
 phim Cannes vào tháng 5 tới.
 sau 12 phút hoan nghênh nhiệt liệt, và sau khi xem bộ phim hoàn chỉnh tại buổi chiếu báo chí ở Seoul, thật dễ hiểu tại sao. Đây là một nhà làm phim hoạt động hoàn toàn thành thạo
@@ -72,16 +73,14 @@ sự dịu dàng đến mức có nguy cơ cướp mất toàn bộ bộ phim.
 
 Harbinger sẽ ra rạp ở Hàn Quốc vào ngày 25/7 và sẽ được ra rạp toàn cầu thông qua CJ ENM và Neon vào tháng 8. Nó không thể bỏ qua.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
+  - title: "Phim 'Hope' của Na Hong-jin vượt 500.000 vé đặt trước, tỷ lệ 65,7%"
+    url: "en/movies/hope-movie-presale-500k-2026/"
   - title: "Phim 'Hope' của đạo diễn Na Hong-jin đạt doanh thu mở màn cao nhất năm 2026"
     url: "en/movies/hope-opening-day-box-office-2026/"
-  - title: "Jeonju International Film Festival 2026: Independent Korean Cinema Takes Center Stage"
-    url: "en/movies/jeonju-film-festival-2026/"
 {{< /article-footer >}}
