@@ -2,6 +2,7 @@
 title: "aespa Returns with 'Armageddon': A Futuristic Sonic Evolution That Redefines Their Narrative"
 description: "The quartet's third studio album arrives with a bold new sonic direction, intricate lore expansion, and the most ambitious music video production of their career."
 date: 2026-07-13
+draft: false
 author: "Ji-Yeon Park"
 cover:
   image: "https://picsum.photos/seed/kpop1/1200/630"

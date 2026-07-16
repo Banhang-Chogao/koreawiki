@@ -2,6 +2,7 @@
 title: "NewJeans Conquers Japan: Debut Album 'Tokyo 404' Breaks Records and Charts Across Asia"
 description: "The ADOR quintet's first full-length Japanese album tops the Oricon chart and sells 1.5 million copies in its first week, redefining what a K-pop act can achieve in Japan."
 date: 2026-07-07
+draft: false
 author: "Min-Jun Kim"
 cover:
   image: "https://picsum.photos/seed/kpop3/1200/630"

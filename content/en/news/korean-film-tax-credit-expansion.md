@@ -2,6 +2,7 @@
 title: "South Korea Expands Film Tax Credit Program to Lure International Productions"
 description: "The Ministry of Culture, Sports and Tourism announces a revamped incentive scheme offering up to 40% tax credits for international productions filming in Korea."
 date: 2026-07-08
+draft: false
 author: "Sarah Chen"
 cover:
   image: "https://picsum.photos/seed/news4/1200/630"

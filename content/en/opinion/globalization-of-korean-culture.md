@@ -2,6 +2,7 @@
 title: "When Everything Is Korean, Is Anything Still Korean?"
 description: "As Korean culture achieves unprecedented global penetration, we must reckon with the risks of its own success and the tension between universality and identity."
 date: 2026-07-07
+draft: false
 author: "Ji-Yeon Park"
 cover:
   image: "https://picsum.photos/seed/opinion2/1200/630"

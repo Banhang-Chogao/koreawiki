@@ -2,6 +2,7 @@
 title: "'Running Man' Celebrates 600 Episodes: The Variety Show That Refuses to Age"
 description: "Korea's longest-running variety show reaches a historic milestone with a special episode that honors its legacy while pointing toward the future."
 date: 2026-07-13
+draft: false
 author: "Hyun-Woo Lee"
 cover:
   image: "https://picsum.photos/seed/tv1/1200/630"

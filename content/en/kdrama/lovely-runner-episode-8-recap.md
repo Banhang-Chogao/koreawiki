@@ -2,6 +2,7 @@
 title: "'Lovely Runner' Episode 8: Time-Slip Thriller Takes a Devastating Turn as the Past Begins to Rewrite Itself"
 description: "tvN's hit drama delivers its most shocking episode yet as Sun-jae's actions in the past threaten to unravel the timeline entirely."
 date: 2026-07-09
+draft: false
 author: "Hyun-Woo Lee"
 cover:
   image: "https://picsum.photos/seed/kdrama3/1200/630"

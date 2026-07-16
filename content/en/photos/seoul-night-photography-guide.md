@@ -2,6 +2,7 @@
 title: "Seoul After Dark: A Photo Essay on the City That Never Sleeps"
 description: "From neon-lit Gangnam to the quiet alleys of Bukchon, KoreaWiki's photographers capture the contrasting moods of Seoul's nighttime landscape."
 date: 2026-07-05
+draft: false
 author: "KoreaWiki Photography Team"
 cover:
   image: "https://picsum.photos/seed/photo2/1200/630"

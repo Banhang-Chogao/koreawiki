@@ -2,6 +2,7 @@
 title: "Korean Box Office: Local Titles Dominate July as 'Harbinger' Pre-Sales Break Records"
 description: "Domestic films claim six of the top ten spots at the Korean box office, with Bong Joon-ho's latest driving unprecedented pre-sale numbers."
 date: 2026-07-03
+draft: false
 author: "Min-Jun Kim"
 cover:
   image: "https://picsum.photos/seed/movies3/1200/630"

@@ -2,6 +2,7 @@
 title: "Temple Food Gets a Makeover: The Global Rise of Korean Buddhist Cuisine"
 description: "Once confined to mountain monasteries, Korean temple cuisine — Seungsik — is finding new audiences in fine dining restaurants and home kitchens around the world."
 date: 2026-07-09
+draft: false
 author: "Ji-Yeon Park"
 cover:
   image: "https://picsum.photos/seed/food1/1200/630"

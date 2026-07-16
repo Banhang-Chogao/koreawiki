@@ -2,6 +2,7 @@
 title: "The Idol Industry's Mental Health Crisis: Have We Learned Nothing?"
 description: "Despite high-profile tragedies and public promises of reform, the K-pop industry continues to prioritize profit over the wellbeing of its artists."
 date: 2026-07-14
+draft: false
 author: "Min-Jun Kim"
 cover:
   image: "https://picsum.photos/seed/opinion1/1200/630"

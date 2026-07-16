@@ -2,6 +2,7 @@
 title: "Netflix Unveils Record ₩1.5 Trillion Korean Content Slate for 2027"
 description: "The streaming giant announces 28 new Korean productions including Squid Game Season 3, a Kim Eun-sook romance epic, and Korea's first big-budget space thriller."
 date: 2026-07-14
+draft: false
 author: "Ji-Yeon Park"
 cover:
   image: "https://picsum.photos/seed/news2/1200/630"

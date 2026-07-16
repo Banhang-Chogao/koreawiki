@@ -2,6 +2,7 @@
 title: "'Street Woman Fighter' Season 3: Mnet Bets Big on Global Expansion with International Dance Crews"
 description: "The hit dance competition series returns with a new format, international competitors, and the highest production budget in Korean variety history."
 date: 2026-07-05
+draft: false
 author: "Ji-Yeon Park"
 cover:
   image: "https://picsum.photos/seed/tv2/1200/630"

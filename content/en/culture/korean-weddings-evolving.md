@@ -2,6 +2,7 @@
 title: "The New Korean Wedding: How Millennials and Gen Z Are Rewriting Centuries of Tradition"
 description: "From wedding halls to boutique venues, from matchmaking to self-choice, the Korean wedding industry is undergoing its most dramatic transformation in generations."
 date: 2026-07-04
+draft: false
 author: "Sarah Chen"
 cover:
   image: "https://picsum.photos/seed/culture2/1200/630"

@@ -2,6 +2,7 @@
 title: "Exclusive: BTS Members Weigh In on Group Future — 'We Will Come Back When the Story Requires It'"
 description: "In a series of candid one-on-one conversations, the seven members of BTS open up about solo careers, military service, and the band's eventual reunion."
 date: 2026-07-10
+draft: false
 author: "Min-Jun Kim"
 cover:
   image: "https://picsum.photos/seed/exclusive2/1200/630"

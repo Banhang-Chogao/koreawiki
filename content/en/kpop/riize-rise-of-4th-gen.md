@@ -2,6 +2,7 @@
 title: "RIIZE Ascends: How SM's Youngest Boy Group Became the Defining Act of Fourth-Generation K-Pop"
 description: "With their first studio album debuting at number one globally, RIIZE has cemented their position as the leading boy group of their generation through a unique blend of talent and strategy."
 date: 2026-07-04
+draft: false
 author: "Hyun-Woo Lee"
 cover:
   image: "https://picsum.photos/seed/kpop4/1200/630"

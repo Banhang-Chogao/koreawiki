@@ -2,6 +2,7 @@
 title: "Exclusive: On Set With 'Goryeo Dreams' — Inside KBS's Most Ambitious Period Drama"
 description: "KoreaWiki spends two days on the set of KBS's upcoming sageuk epic, witnessing the extraordinary effort behind bringing 14th-century Goryeo to life."
 date: 2026-07-04
+draft: false
 author: "Soo-Jin Choi"
 cover:
   image: "https://picsum.photos/seed/exclusive3/1200/630"

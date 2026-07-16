@@ -2,6 +2,7 @@
 title: "Jeonju International Film Festival 2026: Independent Korean Cinema Takes Center Stage"
 description: "The 27th edition of Korea's premier independent film festival showcases a record number of domestic productions and launches a new AI-focused competition section."
 date: 2026-07-05
+draft: false
 author: "Hyun-Woo Lee"
 cover:
   image: "https://picsum.photos/seed/movies2/1200/630"

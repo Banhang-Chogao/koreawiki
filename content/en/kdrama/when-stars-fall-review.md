@@ -2,6 +2,7 @@
 title: "'When Stars Fall' Review: Kim Tae-ri Delivers a Career-Defining Performance in This Heart-Wrenching Sageuk"
 description: "The 16-episode historical drama from Studio Dragon combines political intrigue with a deeply personal love story, anchored by Kim Tae-ri's tour-de-force portrayal." 
 date: 2026-07-14
+draft: false
 author: "Ji-Yeon Park"
 cover:
   image: "https://picsum.photos/seed/kdrama1/1200/630"

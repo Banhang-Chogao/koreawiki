@@ -2,6 +2,7 @@
 title: "Sinchon's Street Food Revolution: Why Seoul's University District Is the Best Place to Eat in Korea"
 description: "Beyond the tourist traps of Myeongdong, Sinchon's alleys are home to a thriving street food culture that defines the cutting edge of Korean casual dining."
 date: 2026-07-02
+draft: false
 author: "Hyun-Woo Lee"
 cover:
   image: "https://picsum.photos/seed/food2/1200/630"

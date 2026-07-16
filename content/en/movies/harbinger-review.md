@@ -2,6 +2,7 @@
 title: "'Harbinger' Review: Bong Joon-ho Returns with a Dystopian Masterpiece That Rivals 'Parasite'"
 description: "The Oscar-winning director's latest film is a searing sci-fi thriller about climate justice and class warfare that cements his place as a generational filmmaker."
 date: 2026-07-15
+draft: false
 author: "Sarah Chen"
 cover:
   image: "https://picsum.photos/seed/movies1/1200/630"

@@ -2,6 +2,7 @@
 title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
 description: "An in-depth profile of BTS's Min SUGA as he completes his first solo stadium tour and releases his most personal work to date."
 date: 2026-07-12
+draft: false
 author: "Ji-Yeon Park"
 cover:
   image: "https://picsum.photos/seed/artist1/1200/630"

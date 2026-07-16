@@ -2,6 +2,7 @@
 title: "IU at 33: Korea's Premier Solo Artist on Acting, Aging, and Artistic Freedom"
 description: "Lee Ji-eun reflects on her two-decade career as she prepares for dual releases — a new album and a starring role in a Netflix thriller."
 date: 2026-07-09
+draft: false
 author: "Soo-Jin Choi"
 cover:
   image: "https://picsum.photos/seed/artist2/1200/630"

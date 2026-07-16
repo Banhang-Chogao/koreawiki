@@ -2,6 +2,7 @@
 title: "Park Chan-wol: The Indie Director Who Refuses to Make the Same Film Twice"
 description: "The maverick filmmaker behind 'Busan at Dawn' and 'The Inbetween' talks about his creative process, rejection of the studio system, and his upcoming VR experiment."
 date: 2026-07-06
+draft: false
 author: "Hyun-Woo Lee"
 cover:
   image: "https://picsum.photos/seed/artist3/1200/630"

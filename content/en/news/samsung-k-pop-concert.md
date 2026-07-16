@@ -2,6 +2,7 @@
 title: "Samsung and K-Pop Giants Unite for Historic Charity Concert in Busan"
 description: "Samsung Electronics partners with HYBE and SM Entertainment for a landmark charity concert at Busan Asiad Stadium, featuring BTS's Suga, NCT 127, and Seventeen."
 date: 2026-07-15
+draft: false
 author: "Min-Jun Kim"
 cover:
   image: "https://picsum.photos/seed/news1/1200/630"

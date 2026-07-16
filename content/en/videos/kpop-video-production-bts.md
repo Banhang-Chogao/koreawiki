@@ -2,6 +2,7 @@
 title: "Beyond the Music Video: The Art and Science of K-Pop Video Production"
 description: "A look inside the multi-million-dollar video production industry that has made K-pop music videos the most visually ambitious in the world."
 date: 2026-07-12
+draft: false
 author: "Hyun-Woo Lee"
 cover:
   image: "https://picsum.photos/seed/video1/1200/630"

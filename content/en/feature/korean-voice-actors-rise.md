@@ -2,6 +2,7 @@
 title: "The Voice Behind the Screen: How Korean Voice Actors Became Global Stars"
 description: "The booming demand for Korean-language dubbing and narration has elevated voice actors from invisible craftspeople to celebrated artists in their own right."
 date: 2026-07-02
+draft: false
 author: "Hyun-Woo Lee"
 cover:
   image: "https://picsum.photos/seed/feature3/1200/630"

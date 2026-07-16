@@ -2,6 +2,7 @@
 title: "When K-Beauty Met Fashion: How Korean Cosmetics Brands Are Redefining Luxury Retail"
 description: "From Amorepacific's flagship in Gangnam to collaborations with global fashion houses, Korean beauty is experiencing a luxury renaissance."
 date: 2026-07-06
+draft: false
 author: "Sarah Chen"
 cover:
   image: "https://picsum.photos/seed/fashion2/1200/630"

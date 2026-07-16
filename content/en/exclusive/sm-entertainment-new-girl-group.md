@@ -2,6 +2,7 @@
 title: "Exclusive: Inside SM Entertainment's Next Girl Group — The Vision, The Members, The Strategy"
 description: "KoreaWiki gains unprecedented access to SM's training facility as the company prepares to launch its first new girl group in six years."
 date: 2026-07-14
+draft: false
 author: "Ji-Yeon Park"
 cover:
   image: "https://picsum.photos/seed/exclusive1/1200/630"

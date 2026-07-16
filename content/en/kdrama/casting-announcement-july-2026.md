@@ -2,6 +2,7 @@
 title: "Park Seo-joon and Jun Ji-hyun Confirmed for 'The Seoul Agency' — Netflix's Most Expensive Drama Series Ever"
 description: "The star-studded spy thriller, with a reported budget of ₩100 billion, begins production in August for a 2027 release."
 date: 2026-07-12
+draft: false
 author: "Soo-Jin Choi"
 cover:
   image: "https://picsum.photos/seed/kdrama2/1200/630"

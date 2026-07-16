@@ -2,6 +2,7 @@
 title: "Seoul Fashion Week Fall/Winter 2026: Tradition, Tech, and a New Global Ambition"
 description: "The bi-annual event showcased a Korean fashion industry coming into its own, with designers blending heritage craftsmanship with cutting-edge technology."
 date: 2026-07-11
+draft: false
 author: "Soo-Jin Choi"
 cover:
   image: "https://picsum.photos/seed/fashion1/1200/630"

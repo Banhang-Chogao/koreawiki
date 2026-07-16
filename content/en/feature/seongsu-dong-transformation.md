@@ -2,6 +2,7 @@
 title: "Seongsu-dong: How Seoul's Industrial Wasteland Became the Coolest Neighborhood in Asia"
 description: "The transformation of Seongsu-dong from a decrepit shoe-manufacturing district into a global trendsetting hub is a case study in organic urban regeneration."
 date: 2026-07-08
+draft: false
 author: "Ji-Yeon Park"
 cover:
   image: "https://picsum.photos/seed/feature2/1200/630"

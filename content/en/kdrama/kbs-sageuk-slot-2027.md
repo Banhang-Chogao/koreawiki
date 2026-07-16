@@ -2,6 +2,7 @@
 title: "KBS Announces 2027 Sageuk Lineup Including 'The Last Admiral' and 'Goryeo Dreams'"
 description: "The public broadcaster is doubling down on historical drama with three ambitious period productions scheduled for the 2027 calendar year."
 date: 2026-07-06
+draft: false
 author: "Soo-Jin Choi"
 cover:
   image: "https://picsum.photos/seed/kdrama4/1200/630"

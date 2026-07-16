@@ -2,6 +2,7 @@
 title: "Jeju's Eco-Tourism Revolution: How Korea's Island Paradise Is Balancing Development and Conservation"
 description: "As tourist numbers surge past 20 million annually, Jeju Island grapples with the challenge of preserving its unique natural heritage while accommodating visitors."
 date: 2026-07-03
+draft: false
 author: "Sarah Chen"
 cover:
   image: "https://picsum.photos/seed/travel2/1200/630"

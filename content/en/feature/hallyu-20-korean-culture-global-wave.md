@@ -2,6 +2,7 @@
 title: "Hallyu 2.0: How Korean Culture Evolved from Niche Export to Global Dominance"
 description: "A comprehensive look at the second wave of the Korean cultural export boom, from K-food to K-literature, and what it means for the next decade."
 date: 2026-07-13
+draft: false
 author: "Sarah Chen"
 cover:
   image: "https://picsum.photos/seed/feature1/1200/630"

@@ -2,6 +2,7 @@
 title: "HYBE Reports Record Q2 Revenue of ₩620 Billion Driven by Global Touring and Weverse Growth"
 description: "The K-pop entertainment giant surpasses expectations with a 34% year-over-year increase, fueled by BTS solo tours, Seventeen's world tour, and platform expansion."
 date: 2026-07-11
+draft: false
 author: "Min-Jun Kim"
 cover:
   image: "https://picsum.photos/seed/news3/1200/630"
