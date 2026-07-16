@@ -1,0 +1,19 @@
+<section class="section categories-section">
+  <div class="section-container">
+    <div class="section-header">
+      <h2 class="section-title">{{ T "browse_topics" | default "Browse by Topic" }}</h2>
+      <p class="section-description">{{ T "browse_topics_desc" | default "Explore Korean through different knowledge areas." }}</p>
+    </div>
+    <div class="topic-grid">
+      {{ $sections := where .Site.Sections "Type" "not in" (slice "page" "blog") }}
+      {{ range $sections }}
+      <a href="{{ .RelPermalink }}" class="topic-card">
+        <div class="topic-card-content">
+          <h3 class="topic-card-title">{{ .Title }}</h3>
+          <p class="topic-card-count">{{ len .RegularPages }} {{ T "articles" | default "articles" }}</p>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>

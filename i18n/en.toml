@@ -1,0 +1,112 @@
+[home]
+other = "Home"
+[search]
+other = "Search"
+[search_placeholder]
+other = "Search KoreaWiki..."
+[close_search]
+other = "Close search"
+[search_hint]
+other = "Type to search..."
+[toggle_menu]
+other = "Toggle menu"
+[toggle_theme]
+other = "Toggle theme"
+[switch_language]
+other = "Switch language"
+[skip_to_content]
+other = "Skip to content"
+[min_read]
+other = "min read"
+[words]
+other = "words"
+[updated]
+other = "Updated"
+[on_this_page]
+other = "On This Page"
+[share]
+other = "Share this article"
+[related_articles]
+other = "Related Articles"
+[previous]
+other = "Previous article"
+[next]
+other = "Next article"
+[comments]
+other = "Comments"
+[comments_soon]
+other = "Comments coming soon."
+[content]
+other = "Content"
+[resources]
+other = "Resources"
+[about]
+other = "About"
+[email]
+other = "Email"
+[email_placeholder]
+other = "your@email.com"
+[subscribe]
+other = "Subscribe"
+[hero_title]
+other = "Explore Korean Language & Culture"
+[hero_desc]
+other = "A comprehensive knowledge wiki covering Korean grammar, vocabulary, TOPIK preparation, culture, travel, food, K-drama, and more."
+[wiki_badge]
+other = "Knowledge Wiki"
+[start_learning]
+other = "Start Learning"
+[prepare_topik]
+other = "Prepare for TOPIK"
+[articles]
+other = "Articles"
+[topics]
+other = "Topics"
+[open_source]
+other = "Open Source"
+[community_driven]
+other = "Community Driven"
+[featured_guides]
+other = "Featured Guides"
+[featured_guides_desc]
+other = "Curated resources to accelerate your Korean learning."
+[learning_paths]
+other = "Learning Paths"
+[learning_paths_desc]
+other = "Structured journeys from beginner to advanced."
+[path_beginner]
+other = "Getting Started"
+[path_intermediate]
+other = "Building Fluency"
+[path_advanced]
+other = "Mastery & Culture"
+[start_path]
+other = "Start Path"
+[latest_articles]
+other = "Latest Articles"
+[latest_articles_desc]
+other = "Recently published content."
+[browse_all]
+other = "Browse All Articles"
+[browse_topics]
+other = "Browse by Topic"
+[browse_topics_desc]
+other = "Explore Korean through different knowledge areas."
+[popular_topics]
+other = "Popular Topics"
+[popular_topics_desc]
+other = "Most visited content."
+[newsletter_title]
+other = "Stay Updated"
+[newsletter_desc_home]
+other = "Get the latest Korean learning resources delivered to your inbox."
+[footer_tagline]
+other = "Knowledge wiki for Korean language and culture."
+[navigate]
+other = "Navigate"
+[select]
+other = "Select"
+[close]
+other = "Close"
+[tags]
+other = "Tags"

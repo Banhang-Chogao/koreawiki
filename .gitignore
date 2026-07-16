@@ -1,0 +1,10 @@
+public/
+resources/
+__pycache__/
+.venv/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
+*.log
+.hugo_build.lock

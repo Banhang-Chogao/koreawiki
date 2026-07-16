@@ -1,0 +1,42 @@
+<section class="section latest-articles">
+  <div class="section-container">
+    <div class="section-header">
+      <h2 class="section-title">{{ T "latest_articles" | default "Latest Articles" }}</h2>
+      <p class="section-description">{{ T "latest_articles_desc" | default "Recently published content to expand your knowledge." }}</p>
+    </div>
+    <div class="article-grid">
+      {{ $pages := where .Site.RegularPages "Type" "not in" (slice "page") }}
+      {{ range first 6 $pages }}
+      <article class="article-card">
+        {{ if .Params.cover.image }}
+        <div class="article-card-cover">
+          <a href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
+            <img src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" loading="lazy" decoding="async" width="400" height="225" />
+          </a>
+        </div>
+        {{ end }}
+        <div class="article-card-body">
+          <div class="article-card-meta">
+            <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+            <span class="reading-time">{{ .ReadingTime }} {{ T "min_read" | default "min read" }}</span>
+          </div>
+          <h3 class="article-card-title">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </h3>
+          <p class="article-card-description">{{ .Description | default .Summary }}</p>
+          {{ if .Params.tags }}
+          <div class="article-card-tags">
+            {{ range first 3 .Params.tags }}
+            <span class="tag-badge">{{ . }}</span>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+      </article>
+      {{ end }}
+    </div>
+    <div class="section-action">
+      <a href="{{ "/blog/" | relLangURL }}" class="btn btn-outline">{{ T "browse_all" | default "Browse All Articles" }}</a>
+    </div>
+  </div>
+</section>

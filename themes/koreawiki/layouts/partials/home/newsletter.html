@@ -1,0 +1,17 @@
+<section class="section newsletter-section">
+  <div class="section-container">
+    <div class="newsletter-card">
+      <div class="newsletter-content">
+        <h2 class="newsletter-title">{{ T "newsletter_title" | default "Stay Updated" }}</h2>
+        <p class="newsletter-desc">{{ T "newsletter_desc_home" | default "Get the latest Korean learning resources, article updates, and exclusive tips delivered to your inbox." }}</p>
+        <form class="newsletter-form" action="#" method="post" novalidate>
+          <div class="newsletter-input-group">
+            <label for="nl-email" class="sr-only">{{ T "email" | default "Email" }}</label>
+            <input type="email" id="nl-email" class="newsletter-input" placeholder="{{ T "email_placeholder" | default "your@email.com" }}" required autocomplete="email" />
+            <button type="submit" class="btn btn-primary">{{ T "subscribe" | default "Subscribe" }}</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

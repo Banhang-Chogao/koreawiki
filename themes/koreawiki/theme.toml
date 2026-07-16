@@ -1,0 +1,12 @@
+name = "koreawiki"
+license = "MIT"
+licenselink = "https://opensource.org/licenses/MIT"
+description = "Original custom theme for KoreaWiki — a production-ready knowledge wiki about Korean language and culture."
+homepage = "https://github.com/Banhang-Chogao/koreawiki"
+tags = ["wiki", "korean", "education", "documentation", "knowledge-base"]
+features = ["dark-mode", "offline-search", "i18n", "seo", "responsive", "accessible"]
+min_version = "0.120.0"
+
+[author]
+  name = "KoreaWiki Team"
+  homepage = "https://github.com/Banhang-Chogao"

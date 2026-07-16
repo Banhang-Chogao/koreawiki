@@ -1,0 +1,65 @@
+name: Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  HUGO_VERSION: 0.126.0
+  PYTHON_VERSION: "3.12"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: recursive
+
+      - name: Setup Hugo Extended
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: ${{ env.HUGO_VERSION }}
+          extended: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Run QA
+        run: |
+          python scripts/qa.py
+          python scripts/seo.py
+          python scripts/frontmatter_check.py
+          python scripts/markdown_lint.py
+
+      - name: Check links & slugs
+        run: |
+          python scripts/check_links.py
+          python scripts/slug.py --check
+
+      - name: Validate images
+        run: python scripts/optimize_images.py
+
+      - name: Build Hugo site
+        run: hugo --minify --gc
+
+      - name: Validate schema
+        run: python scripts/generate_schema.py
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public

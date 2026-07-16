@@ -1,0 +1,13 @@
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="{{ .Permalink }}">
+<meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
+<meta name="twitter:description" content="{{ .Description | default .Site.Params.description }}">
+{{ with .Site.Params.twitter }}
+<meta name="twitter:site" content="{{ . }}">
+<meta name="twitter:creator" content="{{ . }}">
+{{ end }}
+{{ with .Site.Params.images }}
+{{ range first 1 . }}
+<meta name="twitter:image" content="{{ . | absURL }}">
+{{ end }}
+{{ end }}

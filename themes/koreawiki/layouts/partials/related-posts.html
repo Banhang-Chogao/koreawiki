@@ -1,0 +1,23 @@
+{{ $related := .Site.RegularPages.Related . | first 4 }}
+{{ if $related }}
+<section class="related-articles">
+  <h2 class="related-title">{{ T "related_articles" | default "Related Articles" }}</h2>
+  <div class="related-grid">
+    {{ range $related }}
+    <article class="related-card">
+      {{ if .Params.cover.image }}
+      <div class="related-card-cover">
+        <a href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
+          <img src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" loading="lazy" decoding="async" width="300" height="169" />
+        </a>
+      </div>
+      {{ end }}
+      <div class="related-card-body">
+        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      </div>
+    </article>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

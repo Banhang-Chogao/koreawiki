@@ -1,0 +1,27 @@
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <ol class="breadcrumb-list" itemscope itemtype="https://schema.org/BreadcrumbList">
+    {{ $position := 1 }}
+    <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a href="{{ "" | relLangURL }}" itemprop="item">
+        <span itemprop="name">{{ T "home" | default "Home" }}</span>
+      </a>
+      <meta itemprop="position" content="{{ $position }}" />
+    </li>
+    {{ if .Section }}
+    {{ $position = add $position 1 }}
+    <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a href="{{ .Section | relLangURL }}/" itemprop="item">
+        <span itemprop="name">{{ .Section | humanize | title }}</span>
+      </a>
+      <meta itemprop="position" content="{{ $position }}" />
+    </li>
+    {{ end }}
+    {{ if .IsPage }}
+    {{ $position = add $position 1 }}
+    <li class="breadcrumb-item active" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" aria-current="page">
+      <span itemprop="name">{{ .Title }}</span>
+      <meta itemprop="position" content="{{ $position }}" />
+    </li>
+    {{ end }}
+  </ol>
+</nav>

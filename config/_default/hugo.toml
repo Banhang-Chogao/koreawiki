@@ -1,0 +1,161 @@
+baseURL = "https://banhang-chogao.github.io/koreawiki"
+languageCode = "en"
+title = "KoreaWiki — Learn Korean Language & Culture"
+theme = "koreawiki"
+enableRobotsTXT = true
+enableGitInfo = true
+summaryLength = 25
+paginate = 12
+copyright = "Copyright © {currentYear} KoreaWiki. All rights reserved."
+
+[module]
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+  [[module.mounts]]
+    source = "i18n"
+    target = "i18n"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      typographer = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+  [markup.highlight]
+    style = "github"
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+  page = ["HTML"]
+
+[outputFormats]
+  [outputFormats.JSON]
+    mediaType = "application/json"
+    baseName = "index"
+    isPlainText = true
+    notAlternative = true
+
+[params]
+  description = "Your comprehensive wiki for learning Korean language, grammar, vocabulary, TOPIK, and culture."
+  author = "KoreaWiki Team"
+  keywords = ["Korean", "language", "learn Korean", "TOPIK", "K-drama", "K-pop", "Korean grammar", "Korean vocabulary", "한국어"]
+  images = ["/images/og-default.png"]
+
+  twitter = "@koreawiki"
+
+  seo = true
+  schema = true
+  opengraph = true
+  twittercards = true
+  breadcrumbs = true
+  jsonfeed = true
+
+  search = true
+  darkMode = true
+  comments = true
+  relatedPosts = true
+  readingTime = true
+  toc = true
+  newsletter = false
+
+  accentColor = "#1a56db"
+
+[languages]
+  [languages.en]
+    languageCode = "en"
+    languageName = "English"
+    weight = 1
+    title = "KoreaWiki — Learn Korean Language & Culture"
+    [languages.en.params]
+      description = "Your comprehensive wiki for learning Korean language, grammar, vocabulary, TOPIK, and culture."
+
+  [languages.ko]
+    languageCode = "ko"
+    languageName = "한국어"
+    weight = 2
+    title = "KoreaWiki — 한국어와 한국 문화 배우기"
+    [languages.ko.params]
+      description = "한국어, 문법, 어휘, 문화를 배우는 종합 위키입니다."
+
+  [languages.vi]
+    languageCode = "vi"
+    languageName = "Tiếng Việt"
+    weight = 3
+    title = "KoreaWiki — Học Tiếng Hàn & Văn Hóa Hàn Quốc"
+    [languages.vi.params]
+      description = "Wiki toàn diện học tiếng Hàn, ngữ pháp, từ vựng và văn hóa Hàn Quốc."
+
+[menu]
+  [[menu.main]]
+    identifier = "grammar"
+    name = "Grammar"
+    url = "/grammar/"
+    weight = 1
+  [[menu.main]]
+    identifier = "vocabulary"
+    name = "Vocabulary"
+    url = "/vocabulary/"
+    weight = 2
+  [[menu.main]]
+    identifier = "topik"
+    name = "TOPIK"
+    url = "/topik/"
+    weight = 3
+  [[menu.main]]
+    identifier = "culture"
+    name = "Culture"
+    url = "/culture/"
+    weight = 4
+  [[menu.main]]
+    identifier = "travel"
+    name = "Travel"
+    url = "/travel/"
+    weight = 5
+  [[menu.main]]
+    identifier = "food"
+    name = "Food"
+    url = "/food/"
+    weight = 6
+  [[menu.main]]
+    identifier = "kdrama"
+    name = "K-Drama"
+    url = "/kdrama/"
+    weight = 7
+  [[menu.main]]
+    identifier = "history"
+    name = "History"
+    url = "/history/"
+    weight = 8
+
+  [[menu.footer]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+  [[menu.footer]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 2
+  [[menu.footer]]
+    identifier = "privacy"
+    name = "Privacy Policy"
+    url = "/privacy/"
+    weight = 3

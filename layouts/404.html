@@ -1,0 +1,10 @@
+{{ define "main" }}
+<section class="section" style="text-align:center;padding:var(--space-24) 0;">
+  <div class="section-container">
+    <h1 style="font-size:5rem;font-weight:800;color:var(--color-primary);margin-bottom:var(--space-4);">404</h1>
+    <h2 style="font-size:var(--font-size-2xl);margin-bottom:var(--space-4);">{{ T "page_not_found" | default "Page Not Found" }}</h2>
+    <p style="margin-bottom:var(--space-8);">{{ T "404_desc" | default "The page you are looking for does not exist or has been moved." }}</p>
+    <a href="{{ "" | relLangURL }}" class="btn btn-primary">{{ T "back_home" | default "Back to Home" }}</a>
+  </div>
+</section>
+{{ end }}

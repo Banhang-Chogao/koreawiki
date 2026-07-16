@@ -1,0 +1,5 @@
+.notice{margin:var(--space-6) 0;padding:var(--space-4) var(--space-5);border-radius:var(--radius-md);font-size:var(--font-size-sm);p{margin:0}&+&{margin-top:calc(var(--space-6) * -1 + var(--space-4))}}
+.notice-info{background:var(--color-primary-bg);border-left:3px solid var(--color-primary)}
+.notice-tip{background:var(--color-success-bg);border-left:3px solid var(--color-success)}
+.notice-warning{background:var(--color-warning-bg);border-left:3px solid var(--color-warning)}
+.notice-danger{background:var(--color-error-bg);border-left:3px solid var(--color-error)}
