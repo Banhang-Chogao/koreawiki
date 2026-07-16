@@ -108,8 +108,9 @@ faq: []   # required
 ---
 ```
 
-**Homepage / Latest News sort:** `layouts/index.html` orders by **Git commit time** of the content file
-(when it went live on GitHub / last touched on `main`), not by newspaper `date` alone.
+**Homepage / Latest News sort:** ordered by **first GitHub live time** — the commit that
+*added* the content file on `main` (`scripts/git_first_live.py` → `data-hugo/git_first_live.json`).
+Not newspaper `date`, and not last-touch (batch footer/FAQ edits must not reshuffle the feed).
 `source_date` is attribution only. Still set `date`/`lastmod` to publish day for SEO and fallbacks.
 
 ## Step 8 — Generate Markdown article

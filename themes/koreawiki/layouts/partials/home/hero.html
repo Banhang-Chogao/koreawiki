@@ -1,12 +1,14 @@
-{{/* Featured story + up to 3 side items. Caller passes pages already sorted by live/git time. */}}
+{{/* Featured story + up to 3 side items. Caller passes pages already sorted by first-live time. */}}
 {{ $pages := .Pages }}
+{{ $live := .Live | default dict }}
 {{ if $pages }}
 {{ $heroPost := index $pages 0 }}
 {{ $sidePosts := first 3 (after 1 $pages) }}
 {{ $heroDate := $heroPost.Date }}
-{{ with $heroPost.GitInfo }}
-  {{ with .CommitDate }}{{ $heroDate = . }}{{ end }}
-  {{ if not .CommitDate }}{{ with .AuthorDate }}{{ $heroDate = . }}{{ end }}{{ end }}
+{{ with $heroPost.File }}
+  {{ with index $live .Path }}
+    {{ with .iso }}{{ $heroDate = time.AsTime . }}{{ end }}
+  {{ end }}
 {{ end }}
 <section class="hero">
   <div class="hero-featured" style="max-width:var(--max-w);margin:0 auto;padding:0 var(--space-4)">
@@ -34,9 +36,10 @@
     <aside class="hero-side">
       {{ range $sidePosts }}
       {{ $d := .Date }}
-      {{ with .GitInfo }}
-        {{ with .CommitDate }}{{ $d = . }}{{ end }}
-        {{ if not .CommitDate }}{{ with .AuthorDate }}{{ $d = . }}{{ end }}{{ end }}
+      {{ with .File }}
+        {{ with index $live .Path }}
+          {{ with .iso }}{{ $d = time.AsTime . }}{{ end }}
+        {{ end }}
       {{ end }}
       <a href="{{ .RelPermalink }}" class="hero-side-item">
         {{ if .Params.cover.image }}

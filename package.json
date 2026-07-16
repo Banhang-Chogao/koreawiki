@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "KoreaWiki — Korean Entertainment & Culture News",
   "scripts": {
-    "build": "hugo --minify --gc && npx pagefind --site public",
+    "prebuild": "python scripts/git_first_live.py",
+    "build": "python scripts/git_first_live.py && hugo --minify --gc && npx pagefind --site public",
     "index": "npx pagefind --site public",
-    "dev": "hugo server -D",
+    "dev": "python scripts/git_first_live.py && hugo server -D",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

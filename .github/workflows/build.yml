@@ -57,6 +57,9 @@ jobs:
       - name: Validate images
         run: python scripts/optimize_images.py
 
+      - name: Generate first-live map (Latest News order)
+        run: python scripts/git_first_live.py
+
       - name: Build Hugo site
         run: hugo --minify --gc
 

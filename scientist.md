@@ -209,15 +209,34 @@ git commit --allow-empty -m "redeploy article" && git push
 
 ---
 
+## Entry 023 — 2026-07-16: Latest News = first GitHub live (not last-touch)
+
+**Error:** Sort by `.GitInfo.CommitDate` (last touch) was scrambled by batch commits
+(`fac8288` article-footer/FAQ on all posts) — every old post shared one commit time.
+
+**Correct logic:** Latest News = thứ tự bài **mới lên live GitHub** (first commit that
+*added* the file), tuần tự newest-first. Batch re-touches must not reshuffle the feed.
+
+**Fix:**
+- `scripts/git_first_live.py` → `data-hugo/git_first_live.json` (path → first-add unix)
+- `layouts/index.html` + `partials/home/hero.html` sort/display from that map
+- CI/package.json run the script before `hugo`
+- Mount `data-hugo` → `data` so Hugo does not load `data/glossary/*.sqlite`
+
+**Requires:** `fetch-depth: 0` (already set).
+
+---
+
 ## Entry 022 — 2026-07-16: Latest News ordered by GitHub live time
 
-**Change:** Homepage feed sorts by `.GitInfo.CommitDate` (fallback AuthorDate → lastmod → date).
+**Change:** Homepage feed sorted by `.GitInfo.CommitDate` (superseded by Entry 023).
 
 **Intent:** "Latest News" = thứ tự bài **lên live GitHub**, không phải ngày báo gốc.
 
 **Requires:** `enableGitInfo = true` + CI `fetch-depth: 0` (already set).
 
 **Display:** Card/hero time uses the same live/git timestamp so UI matches order.
+**Superseded:** last-touch GitInfo fails after batch edits → Entry 023 first-add map.
 
 ---
 
