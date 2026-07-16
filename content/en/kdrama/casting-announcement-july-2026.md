@@ -1,6 +1,5 @@
 ---
-title: Park Seo-joon và Jun Ji-hyun xác nhận tham gia 'The Seoul Agency' — Phim truyền hình
-  dài tập đắt giá nhất từ ​​trước đến nay của Netflix
+title: Park Seo-joon & Jun Ji-hyun vào 'The Seoul Agency' — drama Netflix kỷ lục
 description: Bộ phim gián điệp ly kỳ quy tụ nhiều ngôi sao, với kinh phí được báo cáo là 100
   tỷ won, bắt đầu sản xuất vào tháng 8 và phát hành vào năm 2027.
 date: 2026-07-12

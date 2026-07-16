@@ -1,6 +1,5 @@
 ---
-title: 'Cuộc cách mạng du lịch sinh thái ở Jeju: Đảo thiên đường của Hàn Quốc đang cân bằng
-  giữa phát triển và bảo tồn như thế nào'
+title: 'Du lịch sinh thái Jeju: Cân bằng phát triển và bảo tồn trên đảo thiên đường'
 description: Khi số lượng khách du lịch tăng lên hơn 20 triệu người mỗi năm, đảo Jeju phải
   vật lộn với thách thức bảo tồn di sản thiên nhiên độc đáo đồng thời tiếp đón du khách.
 date: 2026-07-03
