@@ -1,16 +1,17 @@
 ---
-title: 'Cuộc khủng hoảng sức khỏe tâm thần của ngành công nghiệp thần tượng: Chúng ta chưa
-  học được gì sao?'
-description: Bất chấp những bi kịch nổi tiếng và những lời hứa cải cách công khai, ngành công
-  nghiệp K-pop vẫn tiếp tục ưu tiên lợi nhuận hơn phúc lợi của các nghệ sĩ.
+title: 'Cuộc khủng hoảng sức khỏe tâm thần của ngành công nghiệp thần tượng: Chúng
+  ta chưa học được gì sao?'
+description: Bất chấp những bi kịch nổi tiếng và những lời hứa cải cách công khai,
+  ngành công nghiệp K-pop vẫn tiếp tục ưu tiên lợi nhuận hơn phúc lợi của các nghệ
+  sĩ.
 date: 2026-07-14
 draft: false
 author: Min-Jun Kim
 cover:
   image: images/sample/mental-health-kpop-industry.jpg
   alt: Một bóng người đơn độc trên sân khấu tối tăm dưới ánh đèn duy nhất
-  caption: Khoảng cách giữa vẻ ngoài quyến rũ trên sân khấu và đời sống thần tượng thực tế
-    vẫn còn rộng lớn một cách nguy hiểm
+  caption: Khoảng cách giữa vẻ ngoài quyến rũ trên sân khấu và đời sống thần tượng
+    thực tế vẫn còn rộng lớn một cách nguy hiểm
 tags:
 - mental-health
 - k-pop
@@ -25,23 +26,22 @@ keywords:
 - industry-criticism
 - opinion
 - Opinion
-slug: the-idol-industrys-mental-health-crisis-have-we-learned-nothing
+slug: cuoc-khung-hoang-suc-khoe-tam-than-cua-nganh-cong-nghiep-than-tuong-chung-ta-chua-hoc-duoc-gi-sao
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Bất chấp những bi kịch nổi tiếng và những lời hứa cải cách công khai, ngành công nghiệp
-    K-pop vẫn tiếp tục ưu tiên lợi nhuận hơn phúc lợi của các nghệ sĩ.
+  a: Bất chấp những bi kịch nổi tiếng và những lời hứa cải cách công khai, ngành công
+    nghiệp K-pop vẫn tiếp tục ưu tiên lợi nhuận hơn phúc lợi của các nghệ sĩ.
 - q: Nội dung chính về «Vấn đề kết cấu» là gì?
-  a: Vấn đề cơ bản là về cơ cấu. Hệ thống thực tập sinh K-pop tuyển dụng trẻ em từ 11 tuổi
-    và bắt chúng phải trải qua nhiều năm đào tạo chuyên sâu trong điều kiện cạnh tranh, được
-    thiết kế để tạo ra những nghệ sĩ biểu diễn hoàn hảo chứ không phải những con người có
-    khả năng thích ứng tốt.
+  a: Vấn đề cơ bản là về cơ cấu. Hệ thống thực tập sinh K-pop tuyển dụng trẻ em từ
+    11 tuổi và bắt chúng phải trải qua nhiều năm đào tạo chuyên sâu trong điều kiện
+    cạnh tranh, được thiết kế để tạo ra những nghệ sĩ biểu diễn hoàn hảo chứ không
+    phải những con người có khả năng thích ứng tốt.
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: Năm 2019, khi Sulli và Goo Hara qua đời chỉ cách nhau vài tuần, ngành công nghiệp K-pop
-    hứa hẹn sẽ có sự thay đổi. Các tuyên bố đã được đưa ra.
+  a: Năm 2019, khi Sulli và Goo Hara qua đời chỉ cách nhau vài tuần, ngành công nghiệp
+    K-pop hứa hẹn sẽ có sự thay đổi. Các tuyên bố đã được đưa ra.
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 Năm 2019, khi Sulli và Goo Hara qua đời chỉ cách nhau vài tuần, ngành công nghiệp K-pop hứa hẹn sẽ có sự thay đổi. Các tuyên bố đã được đưa ra. Các sáng kiến ​​​​về sức khỏe tâm thần đã được công bố.
 đại lý
 các nhà điều hành đã tổ chức họp báo với vẻ mặt trang trọng và thề sẽ làm tốt hơn nữa. Bảy năm sau, câu hỏi không thể tránh khỏi: Điều gì thực sự đã thay đổi?

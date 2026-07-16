@@ -1,15 +1,16 @@
 ---
 title: 'Seoul After Dark: Một bài luận ảnh về thành phố không bao giờ ngủ'
-description: Từ Gangnam được thắp đèn neon cho đến những con hẻm yên tĩnh ở Bukchon, các nhiếp
-  ảnh gia của KoreaWiki đã ghi lại những tâm trạng tương phản của cảnh quan về đêm của Seoul.
+description: Từ Gangnam được thắp đèn neon cho đến những con hẻm yên tĩnh ở Bukchon,
+  các nhiếp ảnh gia của KoreaWiki đã ghi lại những tâm trạng tương phản của cảnh quan
+  về đêm của Seoul.
 date: 2026-07-05
 draft: false
 author: KoreaWiki Photography Team
 cover:
   image: images/sample/seoul-night-photography-guide.jpg
   alt: Cảnh đêm của đường chân trời Seoul từ Tháp Namsan
-  caption: Cảnh quan thành phố rộng lớn của Seoul được chiếu sáng dưới bầu trời đêm, nhìn
-    từ Tháp Namsan Seoul
+  caption: Cảnh quan thành phố rộng lớn của Seoul được chiếu sáng dưới bầu trời đêm,
+    nhìn từ Tháp Namsan Seoul
 tags:
 - seoul
 - night-photography
@@ -24,24 +25,25 @@ keywords:
 - night-photography
 - travel
 - photo-essay
-slug: seoul-after-dark-a-photo-essay-on-the-city-that-never-sleeps
+slug: seoul-after-dark-mot-bai-luan-anh-ve-thanh-pho-khong-bao-gio-ngu
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Từ Gangnam được thắp đèn neon cho đến những con hẻm yên tĩnh ở Bukchon, các nhiếp ảnh
-    gia của KoreaWiki đã ghi lại những tâm trạng tương phản của cảnh quan về đêm của Seoul.
+  a: Từ Gangnam được thắp đèn neon cho đến những con hẻm yên tĩnh ở Bukchon, các nhiếp
+    ảnh gia của KoreaWiki đã ghi lại những tâm trạng tương phản của cảnh quan về đêm
+    của Seoul.
 - q: 'Nội dung chính về «Gangnam: The Electric District» là gì?'
-  a: Cảnh đêm Gangnam được xác định bằng ánh sáng - cụ thể là các biển quảng cáo kỹ thuật
-    số khổng lồ dọc theo Gangnam-daero, một trong những biển lớn nhất ở châu Á. Các nhiếp
-    ảnh gia của chúng tôi đã dành một đêm để ghi lại sự tương tác giữa các nguồn sáng thương
-    mại này và hoạt động của con người bên dưới chúng.
+  a: Cảnh đêm Gangnam được xác định bằng ánh sáng - cụ thể là các biển quảng cáo kỹ
+    thuật số khổng lồ dọc theo Gangnam-daero, một trong những biển lớn nhất ở châu
+    Á. Các nhiếp ảnh gia của chúng tôi đã dành một đêm để ghi lại sự tương tác giữa
+    các nguồn sáng thương mại này và hoạt động của con người bên dưới chúng.
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: Seoul về đêm là một thành phố của sự tương phản. Ở Gangnam, ánh đèn neon của các biển
-    quảng cáo K-pop và mặt tiền cửa hàng sang trọng phản chiếu lên các tòa tháp kính của trụ
-    sở công ty, tạo nên một viễn cảnh về sự thịnh vượng siêu hiện đại.
+  a: Seoul về đêm là một thành phố của sự tương phản. Ở Gangnam, ánh đèn neon của
+    các biển quảng cáo K-pop và mặt tiền cửa hàng sang trọng phản chiếu lên các tòa
+    tháp kính của trụ sở công ty, tạo nên một viễn cảnh về sự thịnh vượng siêu hiện
+    đại.
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 Seoul về đêm là một thành phố của sự tương phản. Ở Gangnam, ánh đèn neon của các biển quảng cáo K-pop và mặt tiền cửa hàng sang trọng phản chiếu lên các tòa tháp kính của trụ sở công ty, tạo nên một
 không gian
 tầm nhìn về sự thịnh vượng siêu hiện đại. Ở Bukchon, những con hẻm chật hẹp chỉ được chiếu sáng bởi ánh sáng ấm áp của các nhà nghỉ hanok và thỉnh thoảng có ánh đèn đường, mang lại cảm giác về một

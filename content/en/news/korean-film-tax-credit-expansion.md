@@ -1,14 +1,17 @@
 ---
-title: Hàn Quốc mở rộng chương trình tín dụng thuế phim để thu hút các nhà sản xuất quốc tế
-description: Bộ Văn hóa, Thể thao và Du lịch công bố chương trình khuyến khích cải tiến cung
-  cấp khoản tín dụng thuế lên tới 40% cho các tác phẩm quốc tế quay phim tại Hàn Quốc.
+title: Hàn Quốc mở rộng chương trình tín dụng thuế phim để thu hút các nhà sản xuất
+  quốc tế
+description: Bộ Văn hóa, Thể thao và Du lịch công bố chương trình khuyến khích cải
+  tiến cung cấp khoản tín dụng thuế lên tới 40% cho các tác phẩm quốc tế quay phim
+  tại Hàn Quốc.
 date: 2026-07-08
 draft: false
 author: Sarah Chen
 cover:
   image: images/sample/korean-film-tax-credit-expansion.jpg
   alt: Đoàn làm phim tại trường quay làng Bukchon Hanok
-  caption: Đoàn làm phim quốc tế đang quay phim tại làng Bukchon Hanok, quận lịch sử của Seoul
+  caption: Đoàn làm phim quốc tế đang quay phim tại làng Bukchon Hanok, quận lịch
+    sử của Seoul
 tags:
 - film
 - tax credits
@@ -24,26 +27,27 @@ keywords:
 - tax credits
 - korean cinema
 - production
-slug: south-korea-expands-film-tax-credit-program-to-lure-international-productions
+slug: han-quoc-mo-rong-chuong-trinh-tin-dung-thue-phim-de-thu-hut-cac-nha-san-xuat-quoc-te
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Bộ Văn hóa, Thể thao và Du lịch công bố chương trình khuyến khích cải tiến cung cấp khoản
-    tín dụng thuế lên tới 40% cho các tác phẩm quốc tế quay phim tại Hàn Quốc.
-- q: Nội dung chính về «Nhắm mục tiêu vào các sản phẩm nhượng quyền thương mại với ngân sách
-    lớn» là gì?
-  a: Theo khuôn khổ sửa đổi, các tác phẩm chi ít nhất 10 tỷ Yên ở Hàn Quốc sẽ đủ điều kiện
-    được hoàn tiền cơ bản 30%, cộng thêm 10% dành cho các dự án đáp ứng các tiêu chí cụ thể,
-    bao gồm việc sử dụng studio hiệu ứng hình ảnh của Hàn Quốc, sử dụng cơ sở sản xuất hậu
-    kỳ tại địa phương,…
+  a: Bộ Văn hóa, Thể thao và Du lịch công bố chương trình khuyến khích cải tiến cung
+    cấp khoản tín dụng thuế lên tới 40% cho các tác phẩm quốc tế quay phim tại Hàn
+    Quốc.
+- q: Nội dung chính về «Nhắm mục tiêu vào các sản phẩm nhượng quyền thương mại với
+    ngân sách lớn» là gì?
+  a: Theo khuôn khổ sửa đổi, các tác phẩm chi ít nhất 10 tỷ Yên ở Hàn Quốc sẽ đủ điều
+    kiện được hoàn tiền cơ bản 30%, cộng thêm 10% dành cho các dự án đáp ứng các tiêu
+    chí cụ thể, bao gồm việc sử dụng studio hiệu ứng hình ảnh của Hàn Quốc, sử dụng
+    cơ sở sản xuất hậu kỳ tại địa phương,…
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: Bộ Văn hóa, Thể thao và Du lịch Hàn Quốc hôm thứ Tư đã công bố một chương trình tín dụng
-    thuế mở rộng đáng kể được thiết kế để thu hút các tác phẩm điện ảnh và truyền hình quốc
-    tế lớn đến bán đảo. Khuyến khích sản xuất phim và truyền hình Hàn Quốc sửa đổi tăng mức
-    giảm giá tối đa lên 40% chi tiêu địa phương đủ điều kiện, tăng so với trước đó…
+  a: Bộ Văn hóa, Thể thao và Du lịch Hàn Quốc hôm thứ Tư đã công bố một chương trình
+    tín dụng thuế mở rộng đáng kể được thiết kế để thu hút các tác phẩm điện ảnh và
+    truyền hình quốc tế lớn đến bán đảo. Khuyến khích sản xuất phim và truyền hình
+    Hàn Quốc sửa đổi tăng mức giảm giá tối đa lên 40% chi tiêu địa phương đủ điều
+    kiện, tăng so với trước đó…
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 Bộ Văn hóa, Thể thao và Du lịch Hàn Quốc hôm thứ Tư đã công bố một chương trình tín dụng thuế mở rộng đáng kể được thiết kế để thu hút các bộ phim và truyền hình quốc tế lớn.
 sản xuất đến bán đảo. Khuyến khích Sản xuất Phim và Truyền hình Hàn Quốc sửa đổi tăng mức giảm giá tối đa lên 40% chi tiêu địa phương đủ điều kiện, tăng từ mức
 25% trước đó và loại bỏ giới hạn đối với ngân sách sản xuất đủ điều kiện.

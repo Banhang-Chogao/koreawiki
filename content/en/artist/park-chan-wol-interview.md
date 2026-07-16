@@ -1,16 +1,16 @@
 ---
 title: 'Park Chan-wol: Đạo diễn độc lập từ chối làm cùng một bộ phim hai lần'
-description: Nhà làm phim lập dị đằng sau 'Busan at Dawn' và 'The Inbetween' nói về quá trình
-  sáng tạo của anh ấy, việc từ chối hệ thống trường quay và thử nghiệm VR sắp tới của anh
-  ấy.
+description: Nhà làm phim lập dị đằng sau 'Busan at Dawn' và 'The Inbetween' nói về
+  quá trình sáng tạo của anh ấy, việc từ chối hệ thống trường quay và thử nghiệm VR
+  sắp tới của anh ấy.
 date: 2026-07-06
 draft: false
 author: Hyun-Woo Lee
 cover:
   image: images/sample/park-chan-wol-interview.jpg
   alt: Park Chan-wol trên phim trường
-  caption: Đạo diễn Park Chan-wol tại địa điểm ở Busan trong quá trình sản xuất dự án mới
-    nhất của ông
+  caption: Đạo diễn Park Chan-wol tại địa điểm ở Busan trong quá trình sản xuất dự
+    án mới nhất của ông
 tags:
 - park-chan-wol
 - independent-film
@@ -25,25 +25,25 @@ keywords:
 - independent-film
 - director
 - interview
-slug: park-chan-wol-the-indie-director-who-refuses-to-make-the-same-film-twice
+slug: park-chan-wol-dao-dien-doc-lap-tu-choi-lam-cung-mot-bo-phim-hai-lan
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Nhà làm phim lập dị đằng sau 'Busan at Dawn' và 'The Inbetween' nói về quá trình sáng
-    tạo của anh ấy, việc từ chối hệ thống trường quay và thử nghiệm VR sắp tới của anh ấy.
+  a: Nhà làm phim lập dị đằng sau 'Busan at Dawn' và 'The Inbetween' nói về quá trình
+    sáng tạo của anh ấy, việc từ chối hệ thống trường quay và thử nghiệm VR sắp tới
+    của anh ấy.
 - q: Nội dung chính về «The VR Frontier» là gì?
-  a: Dự án tiếp theo của Park thể hiện sự ra đi triệt để nhất của anh ấy. "Vanishing Point"
-    là trải nghiệm thực tế ảo dài 45 phút đưa người xem vào trong ký ức của một bệnh nhân
-    sa sút trí tuệ.
+  a: Dự án tiếp theo của Park thể hiện sự ra đi triệt để nhất của anh ấy. "Vanishing
+    Point" là trải nghiệm thực tế ảo dài 45 phút đưa người xem vào trong ký ức của
+    một bệnh nhân sa sút trí tuệ.
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: Park Chan-wol không làm phim dành cho những người muốn được an ủi. Vị đạo diễn 41 tuổi,
-    với năm phim điện ảnh đã khiến các nhà phê bình phân cực và các nhà tổ chức liên hoan
-    phim hài lòng, đang ngồi đối diện tôi tại một quán cà phê yên tĩnh ở quận Hongdae của
-    Seoul, chăm sóc một người Mỹ và giải thích lý do tại sao ông từ chối mọi lời đề nghị của
-    hãng phim đến với mình.
+  a: Park Chan-wol không làm phim dành cho những người muốn được an ủi. Vị đạo diễn
+    41 tuổi, với năm phim điện ảnh đã khiến các nhà phê bình phân cực và các nhà tổ
+    chức liên hoan phim hài lòng, đang ngồi đối diện tôi tại một quán cà phê yên tĩnh
+    ở quận Hongdae của Seoul, chăm sóc một người Mỹ và giải thích lý do tại sao ông
+    từ chối mọi lời đề nghị của hãng phim đến với mình.
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 Park Chan-wol không làm phim dành cho những người muốn được an ủi. Đạo diễn 41 tuổi, người có năm phim truyện đã khiến các nhà phê bình phân cực và làm các nhà tổ chức liên hoan phim thích thú, là
 ngồi đối diện tôi tại một quán cà phê yên tĩnh ở quận Hongdae của Seoul, chăm sóc một người Mỹ và giải thích lý do tại sao anh ấy từ chối mọi lời đề nghị của studio đến với mình.
 

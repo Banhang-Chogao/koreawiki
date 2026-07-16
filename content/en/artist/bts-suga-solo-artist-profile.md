@@ -1,16 +1,17 @@
 ---
-title: 'Kỷ nguyên solo của SUGA: Min Yoon-gi đã định nghĩa lại ý nghĩa của việc trở thành
-  một nghệ sĩ K-Pop như thế nào'
-description: Hồ sơ chuyên sâu về Min SUGA của BTS khi anh ấy hoàn thành chuyến lưu diễn sân
-  vận động solo đầu tiên và phát hành tác phẩm cá nhân nhất của mình cho đến nay.
+title: 'Kỷ nguyên solo của SUGA: Min Yoon-gi đã định nghĩa lại ý nghĩa của việc trở
+  thành một nghệ sĩ K-Pop như thế nào'
+description: Hồ sơ chuyên sâu về Min SUGA của BTS khi anh ấy hoàn thành chuyến lưu
+  diễn sân vận động solo đầu tiên và phát hành tác phẩm cá nhân nhất của mình cho
+  đến nay.
 date: 2026-07-12
 draft: false
 author: Ji-Yeon Park
 cover:
   image: images/sample/bts-suga-solo-artist-profile.jpg
   alt: SUGA biểu diễn tại sân vận động Olympic Seoul
-  caption: SUGA trong đêm chung kết chuyến lưu diễn vòng quanh thế giới 'D-Day' tại Sân vận
-    động Olympic Seoul
+  caption: SUGA trong đêm chung kết chuyến lưu diễn vòng quanh thế giới 'D-Day' tại
+    Sân vận động Olympic Seoul
 tags:
 - bts
 - suga
@@ -25,26 +26,25 @@ keywords:
 - suga
 - profile
 - solo
-slug: sugas-solo-era-how-min-yoon-gi-redefined-what-it-means-to-be-a-k-pop-artist
+slug: ky-nguyen-solo-cua-suga-min-yoon-gi-da-dinh-nghia-lai-y-nghia-cua-viec-tro-thanh-mot-nghe-si-k-pop-nhu-the-nao
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Hồ sơ chuyên sâu về Min SUGA của BTS khi anh ấy hoàn thành chuyến lưu diễn sân vận động
-    solo đầu tiên và phát hành tác phẩm cá nhân nhất của mình cho đến nay.
+  a: Hồ sơ chuyên sâu về Min SUGA của BTS khi anh ấy hoàn thành chuyến lưu diễn sân
+    vận động solo đầu tiên và phát hành tác phẩm cá nhân nhất của mình cho đến nay.
 - q: Nội dung chính về «Ngôi sao bất đắc dĩ ôm lấy sân khấu» là gì?
-  a: 'SUGA nói với KoreaWiki trong một cuộc phỏng vấn kéo dài hiếm hoi tại studio của anh
-    ấy ở Hannam-dong: “Những người biết tôi từ những ngày đầu sẽ không nhận ra tôi trên sân
-    khấu bây giờ”. “Tôi từng trốn sau chiếc mũ lưỡi trai, đằng sau cây đàn piano, đằng sau
-    bất cứ thứ gì tôi có thể tìm thấy.'
+  a: 'SUGA nói với KoreaWiki trong một cuộc phỏng vấn kéo dài hiếm hoi tại studio
+    của anh ấy ở Hannam-dong: “Những người biết tôi từ những ngày đầu sẽ không nhận
+    ra tôi trên sân khấu bây giờ”. “Tôi từng trốn sau chiếc mũ lưỡi trai, đằng sau
+    cây đàn piano, đằng sau bất cứ thứ gì tôi có thể tìm thấy.'
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: Min Yoon-gi, được cả thế giới biết đến với cái tên SUGA, đã dành 13 năm qua để phá bỏ
-    mọi kỳ vọng đặt vào anh. Rapper, nhà sản xuất và hiện là người đứng đầu sân vận động solo
-    của BTS đã hoàn thành chặng châu Á trong chuyến lưu diễn vòng quanh thế giới "D-Day" vào
-    ngày 3 tháng 7 với khán đài kéo dài ba đêm tại Sân vận động Olympic Seoul, thu hút 135.000
-    người hâm mộ vào cuối tuần.
+  a: Min Yoon-gi, được cả thế giới biết đến với cái tên SUGA, đã dành 13 năm qua để
+    phá bỏ mọi kỳ vọng đặt vào anh. Rapper, nhà sản xuất và hiện là người đứng đầu
+    sân vận động solo của BTS đã hoàn thành chặng châu Á trong chuyến lưu diễn vòng
+    quanh thế giới "D-Day" vào ngày 3 tháng 7 với khán đài kéo dài ba đêm tại Sân
+    vận động Olympic Seoul, thu hút 135.000 người hâm mộ vào cuối tuần.
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 Min Yoon-gi, được cả thế giới biết đến với cái tên SUGA, đã dành 13 năm qua để phá bỏ mọi kỳ vọng đặt vào anh. Rapper, nhà sản xuất của BTS và hiện là người dẫn đầu sân vận động solo
 đã hoàn thành chặng châu Á trong chuyến lưu diễn vòng quanh thế giới "D-Day" vào ngày 3 tháng 7 với khán đài kéo dài ba đêm tại Sân vận động Olympic Seoul, thu hút 135.000 người hâm mộ vào cuối tuần.
 Đó là chiến thắng

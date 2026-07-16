@@ -1,15 +1,16 @@
 ---
 title: 'Du lịch sinh thái Jeju: Cân bằng phát triển và bảo tồn trên đảo thiên đường'
-description: Khi số lượng khách du lịch tăng lên hơn 20 triệu người mỗi năm, đảo Jeju phải
-  vật lộn với thách thức bảo tồn di sản thiên nhiên độc đáo đồng thời tiếp đón du khách.
+description: Khi số lượng khách du lịch tăng lên hơn 20 triệu người mỗi năm, đảo Jeju
+  phải vật lộn với thách thức bảo tồn di sản thiên nhiên độc đáo đồng thời tiếp đón
+  du khách.
 date: 2026-07-03
 draft: false
 author: Sarah Chen
 cover:
   image: images/sample/jeju-island-eco-tourism.jpg
   alt: Núi Hallasan nhìn từ Đường mòn Olle của Jeju
-  caption: Núi Hallasan hùng vĩ sừng sững trên con đường ven biển Olle mang tính biểu tượng
-    của Jeju
+  caption: Núi Hallasan hùng vĩ sừng sững trên con đường ven biển Olle mang tính biểu
+    tượng của Jeju
 tags:
 - jeju
 - eco-tourism
@@ -25,25 +26,26 @@ keywords:
 - travel
 - sustainability
 - Travel
-slug: jejus-eco-tourism-revolution-how-koreas-island-paradise-is-balancing-development-and-conservation
+slug: du-lich-sinh-thai-jeju-can-bang-phat-trien-va-bao-ton-tren-dao-thien-duong
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Khi số lượng khách du lịch tăng lên hơn 20 triệu người mỗi năm, đảo Jeju phải vật lộn
-    với thách thức bảo tồn di sản thiên nhiên độc đáo đồng thời tiếp đón du khách.
+  a: Khi số lượng khách du lịch tăng lên hơn 20 triệu người mỗi năm, đảo Jeju phải
+    vật lộn với thách thức bảo tồn di sản thiên nhiên độc đáo đồng thời tiếp đón du
+    khách.
 - q: Nội dung chính về «Mô hình du lịch bền vững» là gì?
-  a: Để đáp lại, Tỉnh tự quản đặc biệt Jeju đã thực hiện những gì các quan chức mô tả là khuôn
-    khổ du lịch bền vững đầy tham vọng nhất ở châu Á. Sáng kiến ​​"Lời hứa của Jeju", được
-    triển khai vào năm 2024, bao gồm giới hạn số lượng khách truy cập hàng ngày (hiện được
-    đặt ở mức 80.000), phí sinh thái là ₩10.000 mỗi khách,,…
+  a: Để đáp lại, Tỉnh tự quản đặc biệt Jeju đã thực hiện những gì các quan chức mô
+    tả là khuôn khổ du lịch bền vững đầy tham vọng nhất ở châu Á. Sáng kiến ​​"Lời
+    hứa của Jeju", được triển khai vào năm 2024, bao gồm giới hạn số lượng khách truy
+    cập hàng ngày (hiện được đặt ở mức 80.000), phí sinh thái là ₩10.000 mỗi khách,,…
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: 'Đảo Jeju, thiên đường núi lửa ngoài khơi bờ biển phía nam Hàn Quốc, có một vấn đề khiến
-    nhiều điểm đến phải ghen tị: có quá nhiều du khách. Hòn đảo đã đón 21,3 triệu khách du
-    lịch vào năm 2025, một kỷ lục gây căng thẳng cho cơ sở hạ tầng, đe dọa các hệ sinh thái
-    mỏng manh và gây ra một cuộc tranh luận gay gắt về tương lai của ngành du lịch trên đảo.'
+  a: 'Đảo Jeju, thiên đường núi lửa ngoài khơi bờ biển phía nam Hàn Quốc, có một vấn
+    đề khiến nhiều điểm đến phải ghen tị: có quá nhiều du khách. Hòn đảo đã đón 21,3
+    triệu khách du lịch vào năm 2025, một kỷ lục gây căng thẳng cho cơ sở hạ tầng,
+    đe dọa các hệ sinh thái mỏng manh và gây ra một cuộc tranh luận gay gắt về tương
+    lai của ngành du lịch trên đảo.'
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 Đảo Jeju, thiên đường núi lửa ngoài khơi bờ biển phía nam Hàn Quốc, có một vấn đề khiến nhiều điểm đến phải ghen tị: có quá nhiều du khách. Hòn đảo đón 21,3 triệu khách du lịch
 2025, một kỷ lục gây căng thẳng cho cơ sở hạ tầng, đe dọa các hệ sinh thái mỏng manh và gây ra một cuộc tranh luận gay gắt về tương lai của ngành du lịch trên đảo.
 

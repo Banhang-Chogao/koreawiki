@@ -1,17 +1,17 @@
 ---
-title: 'Chuyến lưu diễn vòng quanh thế giới ''Follow Again'' của Seventeen: Lớp học bậc thầy
-  về biểu diễn và sản xuất'
-description: Nhóm nhạc gồm 13 thành viên mang đến một màn trình diễn kéo dài ba tiếng rưỡi
-  nhằm khẳng định vị thế của họ với tư cách là buổi biểu diễn trực tiếp hàng đầu của K-pop
-  trong thời gian dừng chân ở Los Angeles cháy vé.
+title: 'Chuyến lưu diễn vòng quanh thế giới ''Follow Again'' của Seventeen: Lớp học
+  bậc thầy về biểu diễn và sản xuất'
+description: Nhóm nhạc gồm 13 thành viên mang đến một màn trình diễn kéo dài ba tiếng
+  rưỡi nhằm khẳng định vị thế của họ với tư cách là buổi biểu diễn trực tiếp hàng
+  đầu của K-pop trong thời gian dừng chân ở Los Angeles cháy vé.
 date: 2026-07-10
 draft: false
 author: Sarah Chen
 cover:
   image: images/sample/seventeen-world-tour-review.jpg
   alt: Seventeen biểu diễn tại sân vận động BMO ở Los Angeles
-  caption: Nhóm biểu diễn của Seventeen trong chuyến lưu diễn 'Follow Again' tại BMO Stadium
-    vào ngày 8/7
+  caption: Nhóm biểu diễn của Seventeen trong chuyến lưu diễn 'Follow Again' tại BMO
+    Stadium vào ngày 8/7
 tags:
 - seventeen
 - concert-review
@@ -26,26 +26,26 @@ keywords:
 - concert-review
 - world-tour
 - live-performance
-slug: seventeens-follow-again-world-tour-a-masterclass-in-performance-and-production
+slug: chuyen-luu-dien-vong-quanh-the-gioi-follow-again-cua-seventeen-lop-hoc-bac-thay-ve-bieu-dien-va-san-xuat
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Nhóm nhạc gồm 13 thành viên mang đến một màn trình diễn kéo dài ba tiếng rưỡi nhằm khẳng
-    định vị thế của họ với tư cách là buổi biểu diễn trực tiếp hàng đầu của K-pop trong thời
-    gian dừng chân ở Los Angeles cháy vé.
+  a: Nhóm nhạc gồm 13 thành viên mang đến một màn trình diễn kéo dài ba tiếng rưỡi
+    nhằm khẳng định vị thế của họ với tư cách là buổi biểu diễn trực tiếp hàng đầu
+    của K-pop trong thời gian dừng chân ở Los Angeles cháy vé.
 - q: Nội dung chính về «The Performance Unit Steals the Show» là gì?
-  a: Mặc dù toàn bộ nhóm đều đáng gờm nhưng chính phân cảnh của đơn vị biểu diễn đã gây ra
-    phản ứng lớn nhất. Dino, Hoshi và Jun đã trình diễn một đoạn múa đương đại dựa trên phiên
-    bản được sắp xếp lại của "Habit" khiến khán giả phải há hốc mồm.
+  a: Mặc dù toàn bộ nhóm đều đáng gờm nhưng chính phân cảnh của đơn vị biểu diễn đã
+    gây ra phản ứng lớn nhất. Dino, Hoshi và Jun đã trình diễn một đoạn múa đương
+    đại dựa trên phiên bản được sắp xếp lại của "Habit" khiến khán giả phải há hốc
+    mồm.
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: 'LOS ANGELES – Vào một buổi tối tháng 7 ấm áp tại Sân vận động BMO, Seventeen đã làm
-    được điều mà ít nghệ sĩ K-pop nào làm được: họ khiến 22.000 khán giả có cảm giác như đang
-    tham dự một buổi biểu diễn thân mật của câu lạc bộ. Chuyến lưu diễn "Follow Again" diễn
-    ra ở Los Angeles vào ngày 8 tháng 7 trong hai đêm, là chuyến đi chơi Bắc Mỹ lớn nhất của
-    nhóm cho đến nay và giá trị sản xuất…'
+  a: 'LOS ANGELES – Vào một buổi tối tháng 7 ấm áp tại Sân vận động BMO, Seventeen
+    đã làm được điều mà ít nghệ sĩ K-pop nào làm được: họ khiến 22.000 khán giả có
+    cảm giác như đang tham dự một buổi biểu diễn thân mật của câu lạc bộ. Chuyến lưu
+    diễn "Follow Again" diễn ra ở Los Angeles vào ngày 8 tháng 7 trong hai đêm, là
+    chuyến đi chơi Bắc Mỹ lớn nhất của nhóm cho đến nay và giá trị sản xuất…'
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 LOS ANGELES – Vào một buổi tối tháng 7 ấm áp tại sân vận động BMO, Seventeen đã làm một điều mà ít nghệ sĩ K-pop nào làm được: họ khiến đám đông 22.000 người có cảm giác như đang ở một buổi tiệc thân
 mật.
 chương trình câu lạc bộ. Chuyến lưu diễn "Follow Again", kết thúc ở Los Angeles vào ngày 8 tháng 7 trong hai đêm, là chuyến đi chơi Bắc Mỹ lớn nhất của nhóm cho đến nay và đồng thời là giá trị sản

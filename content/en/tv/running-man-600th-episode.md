@@ -1,15 +1,16 @@
 ---
-title: '''Running Man'' kỷ niệm 600 tập: Chương trình tạp kỹ không chấp nhận tuổi tác'
-description: Chương trình tạp kỹ dài nhất Hàn Quốc đạt được cột mốc lịch sử với tập đặc biệt
-  nhằm tôn vinh di sản của chương trình đồng thời hướng tới tương lai.
+title: '''Running Man'' kỷ niệm 600 tập: Chương trình tạp kỹ không chấp nhận tuổi
+  tác'
+description: Chương trình tạp kỹ dài nhất Hàn Quốc đạt được cột mốc lịch sử với tập
+  đặc biệt nhằm tôn vinh di sản của chương trình đồng thời hướng tới tương lai.
 date: 2026-07-13
 draft: false
 author: Hyun-Woo Lee
 cover:
   image: images/sample/running-man-600th-episode.jpg
   alt: Dàn diễn viên Running Man kỷ niệm tập thứ 600
-  caption: Dàn diễn viên Running Man cắt chiếc bánh có hình giống thẻ tên đặc trưng của chương
-    trình
+  caption: Dàn diễn viên Running Man cắt chiếc bánh có hình giống thẻ tên đặc trưng
+    của chương trình
 tags:
 - running-man
 - variety-show
@@ -24,25 +25,24 @@ keywords:
 - variety-show
 - sbs
 - 600th-episode
-slug: running-man-celebrates-600-episodes-the-variety-show-that-refuses-to-age
+slug: running-man-ky-niem-600-tap-chuong-trinh-tap-ky-khong-chap-nhan-tuoi-tac
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Chương trình tạp kỹ dài nhất Hàn Quốc đạt được cột mốc lịch sử với tập đặc biệt nhằm
-    tôn vinh di sản của chương trình đồng thời hướng tới tương lai.
+  a: Chương trình tạp kỹ dài nhất Hàn Quốc đạt được cột mốc lịch sử với tập đặc biệt
+    nhằm tôn vinh di sản của chương trình đồng thời hướng tới tương lai.
 - q: Nội dung chính về «Lời hấp dẫn bền bỉ» là gì?
-  a: 'Giáo sư truyền thông Kim Young-hoon tại Đại học Quốc gia Seoul cho biết: “Bí mật của
-    Running Man là nó từ chối coi trọng bản thân trong khi rất coi trọng khán giả”. “Các chương
-    trình tạp kỹ khác đều theo đuổi xu hướng.'
+  a: 'Giáo sư truyền thông Kim Young-hoon tại Đại học Quốc gia Seoul cho biết: “Bí
+    mật của Running Man là nó từ chối coi trọng bản thân trong khi rất coi trọng khán
+    giả”. “Các chương trình tạp kỹ khác đều theo đuổi xu hướng.'
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: 'Vào ngày 12 tháng 7, "Running Man" đã đạt được điều mà chưa chương trình tạp kỹ Hàn
-    Quốc nào làm được: 600 tập. Chương trình hàng đầu của SBS, được phát sóng lần đầu tiên
-    vào ngày 11 tháng 7 năm 2010, đã vượt qua những thay đổi về dàn diễn viên, sự phát triển
-    về định dạng, sự gia tăng của dịch vụ phát trực tuyến, đại dịch toàn cầu và tính chất
-    hay thay đổi của khán giả truyền hình Hàn Quốc.'
+  a: 'Vào ngày 12 tháng 7, "Running Man" đã đạt được điều mà chưa chương trình tạp
+    kỹ Hàn Quốc nào làm được: 600 tập. Chương trình hàng đầu của SBS, được phát sóng
+    lần đầu tiên vào ngày 11 tháng 7 năm 2010, đã vượt qua những thay đổi về dàn diễn
+    viên, sự phát triển về định dạng, sự gia tăng của dịch vụ phát trực tuyến, đại
+    dịch toàn cầu và tính chất hay thay đổi của khán giả truyền hình Hàn Quốc.'
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 Vào ngày 12 tháng 7, "Running Man" đã đạt được điều mà chưa chương trình tạp kỹ Hàn Quốc nào làm được: 600 tập. Chương trình chủ lực của đài SBS phát sóng lần đầu ngày 11/7/2010 đã sống sót
 thay đổi dàn diễn viên, phát triển định dạng, sự gia tăng của dịch vụ phát trực tuyến, đại dịch toàn cầu và tính chất hay thay đổi của khán giả truyền hình Hàn Quốc. Tuổi thọ của nó là minh chứng cho
 sức mạnh của một tiền đề đơn giản, xuất sắc được thực hiện bằng trái tim nhất quán và sự hài hước.

@@ -1,16 +1,16 @@
 ---
 title: Khi mọi thứ đều là tiếng Hàn, liệu có thứ gì vẫn là tiếng Hàn không?
-description: Khi văn hóa Hàn Quốc đạt được sự thâm nhập toàn cầu chưa từng có, chúng ta phải
-  tính đến những rủi ro đối với sự thành công của chính nó và sự căng thẳng giữa tính phổ
-  quát và bản sắc.
+description: Khi văn hóa Hàn Quốc đạt được sự thâm nhập toàn cầu chưa từng có, chúng
+  ta phải tính đến những rủi ro đối với sự thành công của chính nó và sự căng thẳng
+  giữa tính phổ quát và bản sắc.
 date: 2026-07-07
 draft: false
 author: Ji-Yeon Park
 cover:
   image: images/sample/globalization-of-korean-culture.jpg
   alt: Một bản dựng phim về văn hóa Hàn Quốc toàn cầu - từ K-pop, kim chi đến K-drama
-  caption: Sự lan rộng toàn cầu của văn hóa Hàn Quốc đặt ra những câu hỏi phức tạp về bản
-    sắc và tính xác thực
+  caption: Sự lan rộng toàn cầu của văn hóa Hàn Quốc đặt ra những câu hỏi phức tạp
+    về bản sắc và tính xác thực
 tags:
 - hallyu
 - globalization
@@ -25,27 +25,26 @@ keywords:
 - korean-culture
 - opinion
 - Opinion
-slug: when-everything-is-korean-is-anything-still-korean
+slug: khi-moi-thu-deu-la-tieng-han-lieu-co-thu-gi-van-la-tieng-han-khong
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Khi văn hóa Hàn Quốc đạt được sự thâm nhập toàn cầu chưa từng có, chúng ta phải tính
-    đến những rủi ro đối với sự thành công của chính nó và sự căng thẳng giữa tính phổ quát
-    và bản sắc.
+  a: Khi văn hóa Hàn Quốc đạt được sự thâm nhập toàn cầu chưa từng có, chúng ta phải
+    tính đến những rủi ro đối với sự thành công của chính nó và sự căng thẳng giữa
+    tính phổ quát và bản sắc.
 - q: Nội dung chính về «Câu hỏi về tính xác thực» là gì?
-  a: Khi Netflix đặt mua một bộ phim truyền hình Hàn Quốc, đó là phim truyền hình Hàn Quốc
-    hay sản phẩm toàn cầu được sản xuất tại Hàn Quốc? Khi HYBE ký hợp đồng với một nhóm nhạc
-    nữ đa quốc gia với các thành viên đến từ Việt Nam, Brazil và Thụy Điển, kết quả là K-pop
-    hay phiên bản nhạc pop toàn cầu do Hàn Quốc sản xuất?
+  a: Khi Netflix đặt mua một bộ phim truyền hình Hàn Quốc, đó là phim truyền hình
+    Hàn Quốc hay sản phẩm toàn cầu được sản xuất tại Hàn Quốc? Khi HYBE ký hợp đồng
+    với một nhóm nhạc nữ đa quốc gia với các thành viên đến từ Việt Nam, Brazil và
+    Thụy Điển, kết quả là K-pop hay phiên bản nhạc pop toàn cầu do Hàn Quốc sản xuất?
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: 'Người Hàn Quốc có câu tục ngữ: “Cây rễ sâu không sợ gió”. Khi văn hóa đại chúng Hàn
-    Quốc đang trải qua thời kỳ ảnh hưởng toàn cầu chưa từng có trong lịch sử quốc gia, câu
-    hỏi không còn là liệu cái cây có đủ khỏe để chống chọi với các tác động bên ngoài hay
-    không - mà là liệu rễ có còn kết nối với đất đã nuôi dưỡng chúng hay không. Sự thành công
-    của…'
+  a: 'Người Hàn Quốc có câu tục ngữ: “Cây rễ sâu không sợ gió”. Khi văn hóa đại chúng
+    Hàn Quốc đang trải qua thời kỳ ảnh hưởng toàn cầu chưa từng có trong lịch sử quốc
+    gia, câu hỏi không còn là liệu cái cây có đủ khỏe để chống chọi với các tác động
+    bên ngoài hay không - mà là liệu rễ có còn kết nối với đất đã nuôi dưỡng chúng
+    hay không. Sự thành công của…'
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 Người Hàn Quốc có câu tục ngữ: “Cây rễ sâu không sợ gió”. Khi văn hóa đại chúng Hàn Quốc trải qua một thời kỳ ảnh hưởng toàn cầu chưa từng có trong lịch sử quốc gia,
 Câu hỏi không còn là liệu cái cây có đủ khỏe để chịu được ngoại lực hay không - mà là liệu rễ có còn kết nối với lớp đất đã nuôi dưỡng chúng hay không.
 

@@ -1,9 +1,9 @@
 ---
-title: 'RIIZE Ascends: Nhóm nhạc nam trẻ nhất của SM đã trở thành nhân tố quyết định thế hệ
-  thứ tư của K-Pop như thế nào'
-description: Với album phòng thu đầu tiên ra mắt ở vị trí số một trên toàn cầu, RIIZE đã củng
-  cố vị trí nhóm nhạc nam hàng đầu trong thế hệ của mình thông qua sự kết hợp độc đáo giữa
-  tài năng và chiến lược.
+title: 'RIIZE Ascends: Nhóm nhạc nam trẻ nhất của SM đã trở thành nhân tố quyết định
+  thế hệ thứ tư của K-Pop như thế nào'
+description: Với album phòng thu đầu tiên ra mắt ở vị trí số một trên toàn cầu, RIIZE
+  đã củng cố vị trí nhóm nhạc nam hàng đầu trong thế hệ của mình thông qua sự kết
+  hợp độc đáo giữa tài năng và chiến lược.
 date: 2026-07-04
 draft: false
 author: Hyun-Woo Lee
@@ -25,27 +25,27 @@ keywords:
 - sm-entertainment
 - 4th-generation
 - boy-group
-slug: riize-ascends-how-sms-youngest-boy-group-became-the-defining-act-of-fourth-generation-k-pop
+slug: riize-ascends-nhom-nhac-nam-tre-nhat-cua-sm-da-tro-thanh-nhan-to-quyet-dinh-the-he-thu-tu-cua-k-pop-nhu-the-nao
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Với album phòng thu đầu tiên ra mắt ở vị trí số một trên toàn cầu, RIIZE đã củng cố vị
-    trí nhóm nhạc nam hàng đầu trong thế hệ của mình thông qua sự kết hợp độc đáo giữa tài
-    năng và chiến lược.
+  a: Với album phòng thu đầu tiên ra mắt ở vị trí số một trên toàn cầu, RIIZE đã củng
+    cố vị trí nhóm nhạc nam hàng đầu trong thế hệ của mình thông qua sự kết hợp độc
+    đáo giữa tài năng và chiến lược.
 - q: Nội dung chính về «The SM R&B Renaissance» là gì?
-  a: Các nhà phê bình âm nhạc đã nhanh chóng coi thành công của RIIZE là một phần trong sự
-    hồi sinh rộng rãi hơn của R&B trong hệ sinh thái K-pop. “Trong nhiều năm, SM Entertainment
-    đã xây dựng danh tiếng của mình dựa trên âm thanh bóng bẩy, mang tính tương lai,” nhà
-    phê bình âm nhạc Kim Yeon-ji lưu ý trong một chuyên mục gần đây cho The Hankyoreh.
+  a: Các nhà phê bình âm nhạc đã nhanh chóng coi thành công của RIIZE là một phần
+    trong sự hồi sinh rộng rãi hơn của R&B trong hệ sinh thái K-pop. “Trong nhiều
+    năm, SM Entertainment đã xây dựng danh tiếng của mình dựa trên âm thanh bóng bẩy,
+    mang tính tương lai,” nhà phê bình âm nhạc Kim Yeon-ji lưu ý trong một chuyên
+    mục gần đây cho The Hankyoreh.
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: Trong bối cảnh siêu cạnh tranh của K-pop thế hệ thứ tư, rất ít nhóm nhạc có thể vươn
-    lên nhanh chóng như RIIZE. Nhóm nhạc nam gồm bảy thành viên của SM Entertainment, ra mắt
-    vào tháng 9 năm 2023, vừa phát hành album phòng thu dài đầu tiên "Realize" trước sự hoan
-    nghênh của giới phê bình và thương mại, ra mắt ở vị trí số một trên Bảng xếp hạng Album
-    Vòng tròn và lọt vào…
+  a: Trong bối cảnh siêu cạnh tranh của K-pop thế hệ thứ tư, rất ít nhóm nhạc có thể
+    vươn lên nhanh chóng như RIIZE. Nhóm nhạc nam gồm bảy thành viên của SM Entertainment,
+    ra mắt vào tháng 9 năm 2023, vừa phát hành album phòng thu dài đầu tiên "Realize"
+    trước sự hoan nghênh của giới phê bình và thương mại, ra mắt ở vị trí số một trên
+    Bảng xếp hạng Album Vòng tròn và lọt vào…
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 Trong bối cảnh siêu cạnh tranh của K-pop thế hệ thứ tư, rất ít nhóm nhạc có thể vươn lên nhanh chóng như RIIZE. Nhóm nhạc nam gồm bảy thành viên của SM Entertainment, ra mắt vào năm
 Tháng 9 năm 2023, vừa phát hành album phòng thu dài đầu tiên "Realize" với sự hoan nghênh về mặt thương mại và phê bình, ra mắt ở vị trí số một trên Bảng xếp hạng Album vòng tròn và lọt vào danh sách
 Billboard 200 ở vị trí thứ 4 - vị trí xếp hạng cao nhất đối với bất kỳ nhóm nhạc nam thế hệ thứ tư nào trong lịch sử bảng xếp hạng.

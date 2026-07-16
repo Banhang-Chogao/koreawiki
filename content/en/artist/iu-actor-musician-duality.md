@@ -1,8 +1,9 @@
 ---
-title: 'IU ở tuổi 33: Nghệ sĩ solo hàng đầu Hàn Quốc về diễn xuất, tuổi tác và tự do nghệ
-  thuật'
-description: Lee Ji-eun suy ngẫm về sự nghiệp kéo dài hai thập kỷ của mình khi chuẩn bị cho
-  hai lần phát hành — một album mới và một vai chính trong một bộ phim ly kỳ của Netflix.
+title: 'IU ở tuổi 33: Nghệ sĩ solo hàng đầu Hàn Quốc về diễn xuất, tuổi tác và tự
+  do nghệ thuật'
+description: Lee Ji-eun suy ngẫm về sự nghiệp kéo dài hai thập kỷ của mình khi chuẩn
+  bị cho hai lần phát hành — một album mới và một vai chính trong một bộ phim ly kỳ
+  của Netflix.
 date: 2026-07-09
 draft: false
 author: Soo-Jin Choi
@@ -25,25 +26,25 @@ keywords:
 - profile
 - solo-artist
 - actress
-slug: iu-at-33-koreas-premier-solo-artist-on-acting-aging-and-artistic-freedom
+slug: iu-o-tuoi-33-nghe-si-solo-hang-dau-han-quoc-ve-dien-xuat-tuoi-tac-va-tu-do-nghe-thuat
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Lee Ji-eun suy ngẫm về sự nghiệp kéo dài hai thập kỷ của mình khi chuẩn bị cho hai lần
-    phát hành — một album mới và một vai chính trong một bộ phim ly kỳ của Netflix.
+  a: Lee Ji-eun suy ngẫm về sự nghiệp kéo dài hai thập kỷ của mình khi chuẩn bị cho
+    hai lần phát hành — một album mới và một vai chính trong một bộ phim ly kỳ của
+    Netflix.
 - q: Nội dung chính về «A New Acting Chapter» là gì?
-  a: Tháng 10 sẽ đưa IU trở lại màn ảnh trong một diện mạo mới đầy kịch tính. Cô đóng vai
-    chính trong The Silent Hour, một bộ phim tâm lý ly kỳ của Netflix của đạo diễn Na Hong-jin
-    ("The Wailing", "The Chase").
+  a: Tháng 10 sẽ đưa IU trở lại màn ảnh trong một diện mạo mới đầy kịch tính. Cô đóng
+    vai chính trong The Silent Hour, một bộ phim tâm lý ly kỳ của Netflix của đạo
+    diễn Na Hong-jin ("The Wailing", "The Chase").
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: Lee Ji-eun - IU đối với thế giới - đã trở thành một ngôi sao lâu đến mức người ta dễ
-    quên rằng cô chỉ mới 33. Cô ra mắt năm 15 tuổi, viết bản hit đầu tiên năm 17 và đến năm
-    21 tuổi đã được mệnh danh là "em gái quốc dân". Nhưng hai thập kỷ trong sự nghiệp trải
-    dài từ âm nhạc, truyền hình và điện ảnh, IU vẫn chưa có dấu hiệu nghỉ ngơi trên vòng nguyệt
-    quế của mình.
+  a: Lee Ji-eun - IU đối với thế giới - đã trở thành một ngôi sao lâu đến mức người
+    ta dễ quên rằng cô chỉ mới 33. Cô ra mắt năm 15 tuổi, viết bản hit đầu tiên năm
+    17 và đến năm 21 tuổi đã được mệnh danh là "em gái quốc dân". Nhưng hai thập kỷ
+    trong sự nghiệp trải dài từ âm nhạc, truyền hình và điện ảnh, IU vẫn chưa có dấu
+    hiệu nghỉ ngơi trên vòng nguyệt quế của mình.
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 Lee Ji-eun - IU của thế giới - đã trở thành một ngôi sao lâu đến mức người ta dễ quên rằng cô chỉ mới 33. Cô ra mắt năm 15 tuổi, viết bản hit đầu tiên năm 17 và đến năm 21 tuổi thì đã thành danh.
 được mệnh danh là “em gái quốc dân”. Nhưng hai thập kỷ trong sự nghiệp trải dài từ âm nhạc, truyền hình và điện ảnh, IU vẫn chưa có dấu hiệu nghỉ ngơi trên vòng nguyệt quế của mình. Trên thực tế, cô
 ấy có thể

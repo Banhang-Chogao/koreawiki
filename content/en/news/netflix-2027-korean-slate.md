@@ -1,16 +1,16 @@
 ---
 title: Netflix công bố kỷ lục 1,5 nghìn tỷ won nội dung Hàn Quốc cho năm 2027
-description: Gã khổng lồ phát trực tuyến công bố 28 tác phẩm mới của Hàn Quốc bao gồm Squid
-  Game Season 3, sử thi lãng mạn của Kim Eun-sook và phim kinh dị không gian kinh phí lớn
-  đầu tiên của Hàn Quốc.
+description: Gã khổng lồ phát trực tuyến công bố 28 tác phẩm mới của Hàn Quốc bao
+  gồm Squid Game Season 3, sử thi lãng mạn của Kim Eun-sook và phim kinh dị không
+  gian kinh phí lớn đầu tiên của Hàn Quốc.
 date: 2026-07-14
 draft: false
 author: Ji-Yeon Park
 cover:
   image: images/sample/netflix-2027-korean-slate.jpg
   alt: Trụ sở Netflix Hàn Quốc tại Jongno-gu, Seoul
-  caption: Giám đốc điều hành Netflix Hàn Quốc Kang Min-kyung công bố danh sách năm 2027 tại
-    một sự kiện báo chí ở Seoul
+  caption: Giám đốc điều hành Netflix Hàn Quốc Kang Min-kyung công bố danh sách năm
+    2027 tại một sự kiện báo chí ở Seoul
 tags:
 - netflix
 - streaming
@@ -26,26 +26,26 @@ keywords:
 - streaming
 - k-drama
 - investment
-slug: netflix-unveils-record-15-trillion-korean-content-slate-for-2027
+slug: netflix-cong-bo-ky-luc-15-nghin-ty-won-noi-dung-han-quoc-cho-nam-2027
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Gã khổng lồ phát trực tuyến công bố 28 tác phẩm mới của Hàn Quốc bao gồm Squid Game Season
-    3, sử thi lãng mạn của Kim Eun-sook và phim kinh dị không gian kinh phí lớn đầu tiên của
-    Hàn Quốc.
+  a: Gã khổng lồ phát trực tuyến công bố 28 tác phẩm mới của Hàn Quốc bao gồm Squid
+    Game Season 3, sử thi lãng mạn của Kim Eun-sook và phim kinh dị không gian kinh
+    phí lớn đầu tiên của Hàn Quốc.
 - q: Nội dung chính về «Đột phá mới của điện ảnh thể loại Hàn Quốc» là gì?
-  a: Có lẽ thông báo gây chú ý nhất là Last Orbit, được mô tả là phim kinh dị không gian kinh
-    phí lớn đầu tiên của Hàn Quốc. Bộ phim do Lee Sang-woo, cựu diễn viên "Train to Busan"
-    đạo diễn và Song Kang-ho đóng chính, sẽ có hiệu ứng hình ảnh của Weta Workshop.
+  a: Có lẽ thông báo gây chú ý nhất là Last Orbit, được mô tả là phim kinh dị không
+    gian kinh phí lớn đầu tiên của Hàn Quốc. Bộ phim do Lee Sang-woo, cựu diễn viên
+    "Train to Busan" đạo diễn và Song Kang-ho đóng chính, sẽ có hiệu ứng hình ảnh
+    của Weta Workshop.
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: Netflix Hàn Quốc đã công bố danh sách nội dung đầy tham vọng nhất của mình cho đến nay
-    vào thứ Ba, cam kết 1,5 nghìn tỷ Yên cho 28 tác phẩm gốc của Hàn Quốc dự kiến ​​phát hành
-    vào năm 2027. Thông báo này được đưa ra tại một sự kiện quy tụ nhiều ngôi sao tại Trung
-    tâm Hội nghị COEX ở Samseong-dong, định vị Hàn Quốc là thị trường đầu tư nội dung lớn
-    nhất của gã khổng lồ phát trực tuyến bên ngoài…
+  a: Netflix Hàn Quốc đã công bố danh sách nội dung đầy tham vọng nhất của mình cho
+    đến nay vào thứ Ba, cam kết 1,5 nghìn tỷ Yên cho 28 tác phẩm gốc của Hàn Quốc
+    dự kiến ​​phát hành vào năm 2027. Thông báo này được đưa ra tại một sự kiện quy
+    tụ nhiều ngôi sao tại Trung tâm Hội nghị COEX ở Samseong-dong, định vị Hàn Quốc
+    là thị trường đầu tư nội dung lớn nhất của gã khổng lồ phát trực tuyến bên ngoài…
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 Netflix Hàn Quốc đã công bố danh sách nội dung đầy tham vọng nhất của mình cho đến nay vào thứ Ba, cam kết 1,5 nghìn tỷ Yên cho 28 tác phẩm gốc của Hàn Quốc dự kiến phát hành vào năm 2027.
 thông báo được đưa ra tại một sự kiện quy tụ nhiều ngôi sao tại Trung tâm Hội nghị COEX ở Samseong-dong, định vị Hàn Quốc là thị trường đầu tư nội dung lớn nhất của gã khổng lồ phát trực tuyến
 bên ngoài Hoa Kỳ.

@@ -23,6 +23,12 @@
     "short": "ff76974",
     "unix": 1784169628
   },
+  "en/artist/kim-ho-joong-parole-release-june-2026.md": {
+    "hash": "05b9084f7a908f441811ebc2348d683683f42f6f",
+    "iso": "2026-07-16T12:34:43Z",
+    "short": "05b9084",
+    "unix": 1784205283
+  },
   "en/artist/lee-jong-suk-iu-breakup-2026.md": {
     "hash": "49ac4d59f9bd0f67cf2cc9536571b51c84c6e674",
     "iso": "2026-07-16T06:32:00Z",
@@ -203,11 +209,23 @@
     "short": "dc26e6d",
     "unix": 1784173097
   },
+  "en/kpop/yeonjun-z100-summer-bash-2026.md": {
+    "hash": "b38ee77a631c7a6ba4c96347d4ea848bfe395645",
+    "iso": "2026-07-16T12:39:07Z",
+    "short": "b38ee77",
+    "unix": 1784205547
+  },
   "en/movies/harbinger-review.md": {
     "hash": "ff76974583622e08a5b99a33b89fd98383c9fe76",
     "iso": "2026-07-16T02:40:28Z",
     "short": "ff76974",
     "unix": 1784169628
+  },
+  "en/movies/hope-movie-presale-500k-2026.md": {
+    "hash": "219e9792399c913b3a3c686c9fd66ff1e3cf1b2e",
+    "iso": "2026-07-16T12:35:53Z",
+    "short": "219e979",
+    "unix": 1784205353
   },
   "en/movies/hope-opening-day-box-office-2026.md": {
     "hash": "e34f941c096ef5ab2cc9e416799d6d20222b411f",
@@ -227,11 +245,29 @@
     "short": "ff76974",
     "unix": 1784169628
   },
+  "en/news/court-suspends-ftc-coupang-bom-kim-controller-2026.md": {
+    "hash": "54dd068d31a6cb17b69654d6faff210c24acc07f",
+    "iso": "2026-07-16T12:30:40Z",
+    "short": "54dd068",
+    "unix": 1784205040
+  },
   "en/news/hybe-second-quarter-earnings.md": {
     "hash": "ff76974583622e08a5b99a33b89fd98383c9fe76",
     "iso": "2026-07-16T02:40:28Z",
     "short": "ff76974",
     "unix": 1784169628
+  },
+  "en/news/kakao-kanana-o-original-series-2026.md": {
+    "hash": "fe1787120fa9a2e487799f87ce7fa67946b4465c",
+    "iso": "2026-07-16T12:42:10Z",
+    "short": "fe17871",
+    "unix": 1784205730
+  },
+  "en/news/kakaotalk-6th-update-chatgpt-pc-2026.md": {
+    "hash": "501a41e454cce6a78f4477ba094a35405b8a8e70",
+    "iso": "2026-07-16T12:40:54Z",
+    "short": "501a41e",
+    "unix": 1784205654
   },
   "en/news/korean-film-tax-credit-expansion.md": {
     "hash": "ff76974583622e08a5b99a33b89fd98383c9fe76",

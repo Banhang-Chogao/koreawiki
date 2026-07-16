@@ -1,16 +1,16 @@
 ---
-title: '''Street Woman Fighter'' Mùa 3: Mnet đặt cược lớn vào việc mở rộng toàn cầu với các
-  nhóm nhảy quốc tế'
-description: Chuỗi cuộc thi dance đình đám trở lại với format mới, đối thủ quốc tế và kinh
-  phí sản xuất cao nhất trong lịch sử tạp kỹ Hàn Quốc.
+title: '''Street Woman Fighter'' Mùa 3: Mnet đặt cược lớn vào việc mở rộng toàn cầu
+  với các nhóm nhảy quốc tế'
+description: Chuỗi cuộc thi dance đình đám trở lại với format mới, đối thủ quốc tế
+  và kinh phí sản xuất cao nhất trong lịch sử tạp kỹ Hàn Quốc.
 date: 2026-07-05
 draft: false
 author: Ji-Yeon Park
 cover:
   image: images/sample/mnet-street-woman-fighter-season-3.jpg
   alt: Các vũ công trên phim trường Street Woman Fighter mùa 3
-  caption: Bộ ảnh mới đồ sộ cho 'Street Woman Fighter' Season 3 tại cơ sở sản xuất của Mnet
-    ở Paju
+  caption: Bộ ảnh mới đồ sộ cho 'Street Woman Fighter' Season 3 tại cơ sở sản xuất
+    của Mnet ở Paju
 tags:
 - street-woman-fighter
 - mnet
@@ -25,25 +25,25 @@ keywords:
 - mnet
 - dance
 - competition
-slug: street-woman-fighter-season-3-mnet-bets-big-on-global-expansion-with-international-dance-crews
+slug: street-woman-fighter-mua-3-mnet-dat-cuoc-lon-vao-viec-mo-rong-toan-cau-voi-cac-nhom-nhay-quoc-te
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Chuỗi cuộc thi dance đình đám trở lại với format mới, đối thủ quốc tế và kinh phí sản
-    xuất cao nhất trong lịch sử tạp kỹ Hàn Quốc.
+  a: Chuỗi cuộc thi dance đình đám trở lại với format mới, đối thủ quốc tế và kinh
+    phí sản xuất cao nhất trong lịch sử tạp kỹ Hàn Quốc.
 - q: Nội dung chính về «Đối thủ quốc tế nâng cao cổ phần» là gì?
-  a: Sự tham gia của các thủy thủ đoàn quốc tế đã tạo thêm một lớp căng thẳng mới. Nhóm Nhật
-    Bản "Tokyo Renegades" đến với danh tiếng đã được tạo dựng trong làng khiêu vũ ngầm của
-    Nhật Bản, trong khi nhóm người Pháp "Les Royaux" mang đến nền tảng hip-hop khác biệt rõ
-    rệt với phong cách nhảy Hàn Quốc.
+  a: Sự tham gia của các thủy thủ đoàn quốc tế đã tạo thêm một lớp căng thẳng mới.
+    Nhóm Nhật Bản "Tokyo Renegades" đến với danh tiếng đã được tạo dựng trong làng
+    khiêu vũ ngầm của Nhật Bản, trong khi nhóm người Pháp "Les Royaux" mang đến nền
+    tảng hip-hop khác biệt rõ rệt với phong cách nhảy Hàn Quốc.
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: '"Street Woman Fighter" của Mnet sẽ quay trở lại mùa thứ ba vào ngày 25 tháng 7 với một
-    cuộc cải tổ về hình thức nhằm tận dụng sức hấp dẫn quốc tế ngày càng tăng của loạt phim.
-    Cuộc thi khiêu vũ ra mắt vào năm 2021 và trở thành một hiện tượng văn hóa, đã mở rộng
-    từ 8 đội Hàn Quốc lên 12 đội, trong đó có 3 đội quốc tế đến từ Nhật Bản, Pháp và…'
+  a: '"Street Woman Fighter" của Mnet sẽ quay trở lại mùa thứ ba vào ngày 25 tháng
+    7 với một cuộc cải tổ về hình thức nhằm tận dụng sức hấp dẫn quốc tế ngày càng
+    tăng của loạt phim. Cuộc thi khiêu vũ ra mắt vào năm 2021 và trở thành một hiện
+    tượng văn hóa, đã mở rộng từ 8 đội Hàn Quốc lên 12 đội, trong đó có 3 đội quốc
+    tế đến từ Nhật Bản, Pháp và…'
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 "Street Woman Fighter" của Mnet sẽ quay trở lại mùa thứ ba vào ngày 25 tháng 7 với một cuộc cải tổ về hình thức nhằm tận dụng sức hấp dẫn quốc tế ngày càng tăng của loạt phim. điệu nhảy
 Cuộc thi ra mắt vào năm 2021 và trở thành một hiện tượng văn hóa, đã mở rộng từ 8 đội Hàn Quốc lên 12 đội, trong đó có 3 đội quốc tế đến từ Nhật Bản, Pháp và
 Hoa Kỳ.

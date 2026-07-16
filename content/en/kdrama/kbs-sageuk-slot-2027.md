@@ -1,15 +1,16 @@
 ---
-title: KBS công bố đội hình Sageuk năm 2027 bao gồm 'Đô đốc cuối cùng' và 'Giấc mơ Goryeo'
-description: Đài truyền hình đại chúng đang tăng cường phát sóng phim cổ trang với ba tác
-  phẩm cổ trang đầy tham vọng dự kiến ​​ra mắt vào năm 2027.
+title: KBS công bố đội hình Sageuk năm 2027 bao gồm 'Đô đốc cuối cùng' và 'Giấc mơ
+  Goryeo'
+description: Đài truyền hình đại chúng đang tăng cường phát sóng phim cổ trang với
+  ba tác phẩm cổ trang đầy tham vọng dự kiến ​​ra mắt vào năm 2027.
 date: 2026-07-06
 draft: false
 author: Soo-Jin Choi
 cover:
   image: images/sample/kbs-sageuk-slot-2027.jpg
   alt: Thiết kế bối cảnh phim truyền hình cổ trang tại trụ sở KBS
-  caption: Đội ngũ thiết kế sản xuất của KBS tiết lộ concept art cho dòng phim cổ trang sắp
-    ra mắt
+  caption: Đội ngũ thiết kế sản xuất của KBS tiết lộ concept art cho dòng phim cổ
+    trang sắp ra mắt
 tags:
 - kbs
 - sageuk
@@ -24,26 +25,25 @@ keywords:
 - sageuk
 - historical-drama
 - k-drama
-slug: kbs-announces-2027-sageuk-lineup-including-the-last-admiral-and-goryeo-dreams
+slug: kbs-cong-bo-doi-hinh-sageuk-nam-2027-bao-gom-do-doc-cuoi-cung-va-giac-mo-goryeo
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Đài truyền hình đại chúng đang tăng cường phát sóng phim cổ trang với ba tác phẩm cổ
-    trang đầy tham vọng dự kiến ​​ra mắt vào năm 2027.
+  a: Đài truyền hình đại chúng đang tăng cường phát sóng phim cổ trang với ba tác
+    phẩm cổ trang đầy tham vọng dự kiến ​​ra mắt vào năm 2027.
 - q: Nội dung chính về «Đúc và sản xuất đầy tham vọng» là gì?
-  a: '"The Last Admiral" đã gây được tiếng vang lớn nhất, với nam diễn viên kỳ cựu Choi Min
-    Sik xác nhận sẽ đóng vai chỉ huy hải quân mang tính biểu tượng của Joseon. Bộ phim được
-    biên kịch Kim Young-hyun của "Six Flying Dragons" viết kịch bản, sẽ tập trung vào ba năm
-    cuối đời của Yi Sun-sin, lên đến đỉnh điểm là Trận chiến…'
+  a: '"The Last Admiral" đã gây được tiếng vang lớn nhất, với nam diễn viên kỳ cựu
+    Choi Min Sik xác nhận sẽ đóng vai chỉ huy hải quân mang tính biểu tượng của Joseon.
+    Bộ phim được biên kịch Kim Young-hyun của "Six Flying Dragons" viết kịch bản,
+    sẽ tập trung vào ba năm cuối đời của Yi Sun-sin, lên đến đỉnh điểm là Trận chiến…'
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: KBS đã công bố dòng phim cổ trang năm 2027 vào thứ Ba, xác nhận ba tác phẩm cổ trang
-    lớn mà đài truyền hình đại chúng hy vọng sẽ lấy lại di sản là ngôi nhà kể chuyện lịch
-    sử Hàn Quốc. Danh sách phim bao gồm The Last Admiral, bộ phim truyền hình dài 24 tập về
-    chiến dịch cuối cùng của Đô đốc Yi Sun-sin; "Những giấc mơ Goryeo", một câu chuyện lãng
-    mạn lấy bối cảnh thời Goryeo…
+  a: KBS đã công bố dòng phim cổ trang năm 2027 vào thứ Ba, xác nhận ba tác phẩm cổ
+    trang lớn mà đài truyền hình đại chúng hy vọng sẽ lấy lại di sản là ngôi nhà kể
+    chuyện lịch sử Hàn Quốc. Danh sách phim bao gồm The Last Admiral, bộ phim truyền
+    hình dài 24 tập về chiến dịch cuối cùng của Đô đốc Yi Sun-sin; "Những giấc mơ
+    Goryeo", một câu chuyện lãng mạn lấy bối cảnh thời Goryeo…
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 KBS đã công bố dòng phim cổ trang năm 2027 vào thứ Ba, xác nhận ba tác phẩm cổ trang lớn mà đài truyền hình đại chúng hy vọng sẽ lấy lại di sản là quê hương của
 Kể chuyện lịch sử Hàn Quốc. Danh sách phim bao gồm The Last Admiral, bộ phim truyền hình dài 24 tập về chiến dịch cuối cùng của Đô đốc Yi Sun-sin; "Giấc mơ Goryeo", một câu chuyện tình lãng mạn lấy
 bối cảnh thời kỳ

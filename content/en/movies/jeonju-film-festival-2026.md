@@ -1,7 +1,8 @@
 ---
-title: 'Liên hoan phim quốc tế Jeonju 2026: Điện ảnh độc lập Hàn Quốc chiếm vị trí trung tâm'
-description: Liên hoan phim độc lập hàng đầu Hàn Quốc lần thứ 27 giới thiệu số lượng tác phẩm
-  trong nước kỷ lục và ra mắt phần thi mới tập trung vào AI.
+title: 'Liên hoan phim quốc tế Jeonju 2026: Điện ảnh độc lập Hàn Quốc chiếm vị trí
+  trung tâm'
+description: Liên hoan phim độc lập hàng đầu Hàn Quốc lần thứ 27 giới thiệu số lượng
+  tác phẩm trong nước kỷ lục và ra mắt phần thi mới tập trung vào AI.
 date: 2026-07-05
 draft: false
 author: Hyun-Woo Lee
@@ -23,25 +24,25 @@ keywords:
 - independent-cinema
 - korean-film
 - festival
-slug: jeonju-international-film-festival-2026-independent-korean-cinema-takes-center-stage
+slug: lien-hoan-phim-quoc-te-jeonju-2026-dien-anh-doc-lap-han-quoc-chiem-vi-tri-trung-tam
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Liên hoan phim độc lập hàng đầu Hàn Quốc lần thứ 27 giới thiệu số lượng tác phẩm trong
-    nước kỷ lục và ra mắt phần thi mới tập trung vào AI.
+  a: Liên hoan phim độc lập hàng đầu Hàn Quốc lần thứ 27 giới thiệu số lượng tác phẩm
+    trong nước kỷ lục và ra mắt phần thi mới tập trung vào AI.
 - q: Nội dung chính về «Phim đột phá và giọng ca mới nổi» là gì?
-  a: Phần Cuộc thi Hàn Quốc đã mang lại một số khám phá. Concrete Heart, bộ phim đầu tay của
-    đạo diễn 28 tuổi Kim Su Bin, đã nổi lên như một bộ phim thành công đột phá tại liên hoan
-    phim, giành được Giải thưởng Khán giả sau khi bán hết vé buổi chiếu ra mắt.
+  a: Phần Cuộc thi Hàn Quốc đã mang lại một số khám phá. Concrete Heart, bộ phim đầu
+    tay của đạo diễn 28 tuổi Kim Su Bin, đã nổi lên như một bộ phim thành công đột
+    phá tại liên hoan phim, giành được Giải thưởng Khán giả sau khi bán hết vé buổi
+    chiếu ra mắt.
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: Liên hoan phim quốc tế Jeonju lần thứ 27 (JIFF) đã khai mạc vào ngày 2/7 với kỷ lục 147
-    phim độc lập Hàn Quốc tham gia chương trình, báo hiệu sự phục hồi mạnh mẽ của lĩnh vực
-    phim độc lập nước này sau nhiều năm đầy thử thách. Lễ hội kéo dài 10 ngày, được tổ chức
-    khắp các địa điểm ở thủ đô văn hóa Jeonju của Hàn Quốc, đã thu hút hơn 80.000 người tham
-    dự trong…
+  a: Liên hoan phim quốc tế Jeonju lần thứ 27 (JIFF) đã khai mạc vào ngày 2/7 với
+    kỷ lục 147 phim độc lập Hàn Quốc tham gia chương trình, báo hiệu sự phục hồi mạnh
+    mẽ của lĩnh vực phim độc lập nước này sau nhiều năm đầy thử thách. Lễ hội kéo
+    dài 10 ngày, được tổ chức khắp các địa điểm ở thủ đô văn hóa Jeonju của Hàn Quốc,
+    đã thu hút hơn 80.000 người tham dự trong…
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 Liên hoan phim quốc tế Jeonju lần thứ 27 (JIFF) đã khai mạc vào ngày 2 tháng 7 với kỷ lục 147 phim độc lập Hàn Quốc tham gia chương trình, báo hiệu sự phục hồi mạnh mẽ của nền kinh tế đất nước.
 lĩnh vực điện ảnh độc lập sau nhiều năm đầy thử thách. Lễ hội kéo dài 10 ngày, được tổ chức ở nhiều địa điểm ở thủ đô văn hóa Jeonju của Hàn Quốc, đã thu hút hơn 80.000 người tham dự.
 tuần đầu tiên, vượt quá số lượng người tham dự trước đại dịch.

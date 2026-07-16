@@ -1,16 +1,17 @@
 ---
-title: 'Seongsu-dong: Làm thế nào vùng đất hoang công nghiệp của Seoul trở thành khu phố thú
-  vị nhất châu Á'
-description: Việc chuyển đổi Seongsu-dong từ một quận sản xuất giày xuống cấp thành trung
-  tâm tạo ra xu hướng toàn cầu là một trường hợp điển hình về tái tạo đô thị hữu cơ.
+title: 'Seongsu-dong: Làm thế nào vùng đất hoang công nghiệp của Seoul trở thành khu
+  phố thú vị nhất châu Á'
+description: Việc chuyển đổi Seongsu-dong từ một quận sản xuất giày xuống cấp thành
+  trung tâm tạo ra xu hướng toàn cầu là một trường hợp điển hình về tái tạo đô thị
+  hữu cơ.
 date: 2026-07-08
 draft: false
 author: Ji-Yeon Park
 cover:
   image: images/sample/seongsu-dong-transformation.jpg
   alt: Quang cảnh đường phố chính của Seongsu-dong
-  caption: Con phố chính Seongsu-dong, nơi có các nhà máy được chuyển đổi thành trụ sở của
-    một số thương hiệu sáng tạo nhất Seoul
+  caption: Con phố chính Seongsu-dong, nơi có các nhà máy được chuyển đổi thành trụ
+    sở của một số thương hiệu sáng tạo nhất Seoul
 tags:
 - seongsu-dong
 - seoul
@@ -26,24 +27,24 @@ keywords:
 - seoul
 - urban-regeneration
 - lifestyle
-slug: seongsu-dong-how-seouls-industrial-wasteland-became-the-coolest-neighborhood-in-asia
+slug: seongsu-dong-lam-the-nao-vung-dat-hoang-cong-nghiep-cua-seoul-tro-thanh-khu-pho-thu-vi-nhat-chau-a
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Việc chuyển đổi Seongsu-dong từ một quận sản xuất giày xuống cấp thành trung tâm tạo
-    ra xu hướng toàn cầu là một trường hợp điển hình về tái tạo đô thị hữu cơ.
+  a: Việc chuyển đổi Seongsu-dong từ một quận sản xuất giày xuống cấp thành trung
+    tâm tạo ra xu hướng toàn cầu là một trường hợp điển hình về tái tạo đô thị hữu
+    cơ.
 - q: Nội dung chính về «Phục hưng do nghệ sĩ lãnh đạo» là gì?
-  a: Quá trình chuyển đổi bắt đầu một cách lặng lẽ vào cuối những năm 2010, khi các nghệ sĩ
-    và các phòng trưng bày nhỏ bắt đầu chuyển đến những không gian nhà xưởng rộng rãi, rẻ
-    tiền. Theo sau họ là các nhà thiết kế độc lập, các nhà rang xay cà phê đặc biệt và các
-    nhà hàng thử nghiệm.
+  a: Quá trình chuyển đổi bắt đầu một cách lặng lẽ vào cuối những năm 2010, khi các
+    nghệ sĩ và các phòng trưng bày nhỏ bắt đầu chuyển đến những không gian nhà xưởng
+    rộng rãi, rẻ tiền. Theo sau họ là các nhà thiết kế độc lập, các nhà rang xay cà
+    phê đặc biệt và các nhà hàng thử nghiệm.
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: Đi bộ qua Seongsu-dong vào chiều thứ bảy và bạn sẽ bắt gặp một phiên bản Seoul chưa từng
-    tồn tại cách đây một thập kỷ. Những người trẻ xếp hàng bên ngoài một tiệm bánh nằm trong
-    một nhà máy sản xuất lốp xe đã được cải tạo.
+  a: Đi bộ qua Seongsu-dong vào chiều thứ bảy và bạn sẽ bắt gặp một phiên bản Seoul
+    chưa từng tồn tại cách đây một thập kỷ. Những người trẻ xếp hàng bên ngoài một
+    tiệm bánh nằm trong một nhà máy sản xuất lốp xe đã được cải tạo.
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 Đi bộ qua Seongsu-dong vào chiều thứ bảy và bạn sẽ bắt gặp một phiên bản Seoul chưa từng tồn tại cách đây một thập kỷ. Những người trẻ xếp hàng bên ngoài một tiệm bánh nằm trong một tòa nhà
 chuyển đổi nhà máy sản xuất lốp xe Một du khách người Pháp chụp ảnh bức tường gạch lộ ra của một phòng trưng bày từng là xưởng giày. Mùi cà phê đặc sản hòa quyện với mùi công nghiệp
 bóng ma của keo và da. Đây là khu phố mà các nhà quy hoạch đô thị trên khắp thế giới đang nghiên cứu như một mô hình tái tạo hữu cơ do nghệ sĩ lãnh đạo.

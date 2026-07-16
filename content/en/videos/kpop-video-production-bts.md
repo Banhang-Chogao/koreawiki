@@ -1,14 +1,16 @@
 ---
 title: 'Ngoài video âm nhạc: Nghệ thuật và khoa học sản xuất video K-Pop'
-description: Tìm hiểu bên trong ngành công nghiệp sản xuất video trị giá hàng triệu đô la
-  đã khiến các video âm nhạc K-pop trở thành tham vọng về mặt hình ảnh nhất trên thế giới.
+description: Tìm hiểu bên trong ngành công nghiệp sản xuất video trị giá hàng triệu
+  đô la đã khiến các video âm nhạc K-pop trở thành tham vọng về mặt hình ảnh nhất
+  trên thế giới.
 date: 2026-07-12
 draft: false
 author: Hyun-Woo Lee
 cover:
   image: images/sample/kpop-video-production-bts.jpg
   alt: Hậu trường sản xuất video âm nhạc K-pop
-  caption: Cuộc họp sản xuất tại trường quay MV mới nhất của LE SSERAFIM tại studio ở Paju
+  caption: Cuộc họp sản xuất tại trường quay MV mới nhất của LE SSERAFIM tại studio
+    ở Paju
 tags:
 - music-video
 - production
@@ -23,26 +25,27 @@ keywords:
 - production
 - k-pop
 - behind-the-scenes
-slug: beyond-the-music-video-the-art-and-science-of-k-pop-video-production
+slug: ngoai-video-am-nhac-nghe-thuat-va-khoa-hoc-san-xuat-video-k-pop
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Tìm hiểu bên trong ngành công nghiệp sản xuất video trị giá hàng triệu đô la đã khiến
-    các video âm nhạc K-pop trở thành tham vọng về mặt hình ảnh nhất trên thế giới.
+  a: Tìm hiểu bên trong ngành công nghiệp sản xuất video trị giá hàng triệu đô la
+    đã khiến các video âm nhạc K-pop trở thành tham vọng về mặt hình ảnh nhất trên
+    thế giới.
 - q: Nội dung chính về «Thế hệ giám đốc mới» là gì?
-  a: Dẫn đầu sự chuyển đổi này là thế hệ đạo diễn Hàn Quốc mới nổi tiếng như những nghệ sĩ
-    họ đóng phim. Rigend Film, studio đứng đằng sau các video cho BTS, BlackPink và aespa,
-    đã trở thành một thương hiệu toàn cầu theo đúng nghĩa của mình, với các đạo diễn kiếm
-    được lượt theo dõi trên mạng xã hội sánh ngang với các hãng tầm trung…
+  a: Dẫn đầu sự chuyển đổi này là thế hệ đạo diễn Hàn Quốc mới nổi tiếng như những
+    nghệ sĩ họ đóng phim. Rigend Film, studio đứng đằng sau các video cho BTS, BlackPink
+    và aespa, đã trở thành một thương hiệu toàn cầu theo đúng nghĩa của mình, với
+    các đạo diễn kiếm được lượt theo dõi trên mạng xã hội sánh ngang với các hãng
+    tầm trung…
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: Khi LE SSERAFIM phát hành video âm nhạc cho đĩa đơn tháng 6 "Firefly", nó đã được xem
-    78 triệu lần trong tuần đầu tiên. Video, một tác phẩm điện ảnh dài bốn phút liên quan
-    đến Seoul hậu tận thế, vũ đạo công phu trong bối cảnh đầy nước và các sinh vật CGI được
-    thực hiện bởi cùng một studio từng làm việc cho "The Host", tiêu tốn 2,3 tỷ Yên để sản
-    xuất.
+  a: Khi LE SSERAFIM phát hành video âm nhạc cho đĩa đơn tháng 6 "Firefly", nó đã
+    được xem 78 triệu lần trong tuần đầu tiên. Video, một tác phẩm điện ảnh dài bốn
+    phút liên quan đến Seoul hậu tận thế, vũ đạo công phu trong bối cảnh đầy nước
+    và các sinh vật CGI được thực hiện bởi cùng một studio từng làm việc cho "The
+    Host", tiêu tốn 2,3 tỷ Yên để sản xuất.
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 Khi LE SSERAFIM phát hành video âm nhạc cho đĩa đơn tháng 6 "Firefly", nó đã được xem 78 triệu lần trong tuần đầu tiên. Đoạn video này là một đoạn phim dài bốn phút liên quan đến một
 Seoul hậu tận thế, vũ đạo phức tạp trong bối cảnh đầy nước và các sinh vật CGI được thực hiện bởi cùng một studio từng làm phim "The Host", tiêu tốn 2,3 tỷ Yên để sản xuất. Đó là
 trong số những video âm nhạc đắt giá nhất trong lịch sử K-pop - nhưng nó không có nghĩa là ngoại lệ.

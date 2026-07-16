@@ -1,15 +1,16 @@
 ---
-title: 'Đánh giá ''Harbinger'': Bong Joon-ho trở lại với một kiệt tác đen tối sánh ngang với
-  ''Parasite'''
-description: Bộ phim mới nhất của đạo diễn từng đoạt giải Oscar là một bộ phim kinh dị khoa
-  học viễn tưởng gây nhức nhối về công lý khí hậu và đấu tranh giai cấp, giúp củng cố vị trí
-  của ông với tư cách là nhà làm phim thế hệ.
+title: 'Đánh giá ''Harbinger'': Bong Joon-ho trở lại với một kiệt tác đen tối sánh
+  ngang với ''Parasite'''
+description: Bộ phim mới nhất của đạo diễn từng đoạt giải Oscar là một bộ phim kinh
+  dị khoa học viễn tưởng gây nhức nhối về công lý khí hậu và đấu tranh giai cấp, giúp
+  củng cố vị trí của ông với tư cách là nhà làm phim thế hệ.
 date: 2026-07-15
 draft: false
 author: Sarah Chen
 cover:
   image: images/sample/harbinger-review.jpg
-  alt: Một cảnh trong Harbinger của Bong Joon-ho cho thấy đường chân trời Seoul ngập nước
+  alt: Một cảnh trong Harbinger của Bong Joon-ho cho thấy đường chân trời Seoul ngập
+    nước
   caption: Quảng trường Gwanghwamun ngập nước trong một khung cảnh ấn tượng từ 'Harbinger'
 tags:
 - bong-joon-ho
@@ -25,27 +26,27 @@ keywords:
 - harbinger
 - film-review
 - korean-cinema
-slug: harbinger-review-bong-joon-ho-returns-with-a-dystopian-masterpiece-that-rivals-parasite
+slug: danh-gia-harbinger-bong-joon-ho-tro-lai-voi-mot-kiet-tac-den-toi-sanh-ngang-voi-parasite
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Bộ phim mới nhất của đạo diễn từng đoạt giải Oscar là một bộ phim kinh dị khoa học viễn
-    tưởng gây nhức nhối về công lý khí hậu và đấu tranh giai cấp, giúp củng cố vị trí của
-    ông với tư cách là nhà làm phim thế hệ.
+  a: Bộ phim mới nhất của đạo diễn từng đoạt giải Oscar là một bộ phim kinh dị khoa
+    học viễn tưởng gây nhức nhối về công lý khí hậu và đấu tranh giai cấp, giúp củng
+    cố vị trí của ông với tư cách là nhà làm phim thế hệ.
 - q: Nội dung chính về «Bộ phim có hình ảnh tham vọng nhất của Bong» là gì?
-  a: Từ quan điểm thuần túy kỹ thuật, Harbinger đại diện cho một bước nhảy vọt về lượng tử
-    của điện ảnh Hàn Quốc. Cảnh trung tâm của bộ phim — một cảnh dài 25 phút trong đó Ha Neul
-    điều hướng những tàn tích ngập nước của một khu chợ ven biển — được quay trong sáu tuần
-    trong một bể chứa dưới nước được chế tạo có mục đích và yêu cầu Park…
+  a: Từ quan điểm thuần túy kỹ thuật, Harbinger đại diện cho một bước nhảy vọt về
+    lượng tử của điện ảnh Hàn Quốc. Cảnh trung tâm của bộ phim — một cảnh dài 25 phút
+    trong đó Ha Neul điều hướng những tàn tích ngập nước của một khu chợ ven biển
+    — được quay trong sáu tuần trong một bể chứa dưới nước được chế tạo có mục đích
+    và yêu cầu Park…
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: Bong Joon-ho đã làm được điều đó một lần nữa. Harbinger, bộ phim đầu tiên của đạo diễn
-    đoạt giải Cành cọ vàng và đoạt giải Oscar kể từ bộ phim lịch sử “Ký sinh trùng”, được
-    công chiếu lần đầu tại Liên hoan phim Cannes vào tháng 5 với sự hoan nghênh nhiệt liệt
-    kéo dài 12 phút, và sau khi xem bộ phim hoàn chỉnh tại buổi chiếu báo chí ở Seoul, thật
-    dễ hiểu tại sao.
+  a: Bong Joon-ho đã làm được điều đó một lần nữa. Harbinger, bộ phim đầu tiên của
+    đạo diễn đoạt giải Cành cọ vàng và đoạt giải Oscar kể từ bộ phim lịch sử “Ký sinh
+    trùng”, được công chiếu lần đầu tại Liên hoan phim Cannes vào tháng 5 với sự hoan
+    nghênh nhiệt liệt kéo dài 12 phút, và sau khi xem bộ phim hoàn chỉnh tại buổi
+    chiếu báo chí ở Seoul, thật dễ hiểu tại sao.
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 Bong Joon-ho đã làm được điều đó một lần nữa. “Harbinger,” bộ phim đầu tiên của đạo diễn đoạt Cành cọ vàng và đoạt giải Oscar kể từ bộ phim lịch sử “Parasite”, được công chiếu lần đầu tại Liên hoan
 phim Cannes vào tháng 5 tới.
 sau 12 phút hoan nghênh nhiệt liệt, và sau khi xem bộ phim hoàn chỉnh tại buổi chiếu báo chí ở Seoul, thật dễ hiểu tại sao. Đây là một nhà làm phim hoạt động hoàn toàn thành thạo

@@ -1,9 +1,9 @@
 ---
-title: 'Giọng Nói Phía Sau Màn Ảnh: Các diễn viên lồng tiếng Hàn Quốc trở thành ngôi sao toàn
-  cầu như thế nào'
-description: Nhu cầu bùng nổ về lồng tiếng và tường thuật bằng tiếng Hàn đã nâng tầm các diễn
-  viên lồng tiếng từ những nghệ nhân vô hình trở thành những nghệ sĩ nổi tiếng theo đúng nghĩa
-  của họ.
+title: 'Giọng Nói Phía Sau Màn Ảnh: Các diễn viên lồng tiếng Hàn Quốc trở thành ngôi
+  sao toàn cầu như thế nào'
+description: Nhu cầu bùng nổ về lồng tiếng và tường thuật bằng tiếng Hàn đã nâng tầm
+  các diễn viên lồng tiếng từ những nghệ nhân vô hình trở thành những nghệ sĩ nổi
+  tiếng theo đúng nghĩa của họ.
 date: 2026-07-02
 draft: false
 author: Hyun-Woo Lee
@@ -25,25 +25,26 @@ keywords:
 - dubbing
 - korean-content
 - entertainment-industry
-slug: the-voice-behind-the-screen-how-korean-voice-actors-became-global-stars
+slug: giong-noi-phia-sau-man-anh-cac-dien-vien-long-tieng-han-quoc-tro-thanh-ngoi-sao-toan-cau-nhu-the-nao
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Nhu cầu bùng nổ về lồng tiếng và tường thuật bằng tiếng Hàn đã nâng tầm các diễn viên
-    lồng tiếng từ những nghệ nhân vô hình trở thành những nghệ sĩ nổi tiếng theo đúng nghĩa
-    của họ.
+  a: Nhu cầu bùng nổ về lồng tiếng và tường thuật bằng tiếng Hàn đã nâng tầm các diễn
+    viên lồng tiếng từ những nghệ nhân vô hình trở thành những nghệ sĩ nổi tiếng theo
+    đúng nghĩa của họ.
 - q: Nội dung chính về «Kinh tế học mới của giọng nói» là gì?
-  a: Nút thắt cổ chai đã dẫn đến những thay đổi đáng kể trong cách thức hoạt động của ngành.
-    Các nền tảng phát trực tuyến lớn đã bắt đầu chiêu mộ diễn viên lồng tiếng từ các đài truyền
-    hình mặt đất, đưa ra mức lương không thể tưởng tượng được cách đây một thập kỷ.
+  a: Nút thắt cổ chai đã dẫn đến những thay đổi đáng kể trong cách thức hoạt động
+    của ngành. Các nền tảng phát trực tuyến lớn đã bắt đầu chiêu mộ diễn viên lồng
+    tiếng từ các đài truyền hình mặt đất, đưa ra mức lương không thể tưởng tượng được
+    cách đây một thập kỷ.
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: 'Khi khán giả toàn cầu xem nội dung tiếng Hàn trên Netflix, họ thường trải nghiệm nội
-    dung đó qua hai bản âm thanh riêng biệt: bản gốc tiếng Hàn và bản lồng tiếng Anh. Nhưng
-    bản thân phiên bản tiếng Hàn có thể có một diễn viên lồng tiếng mà hàng triệu người nghe
-    giọng nói của họ hoàn toàn không biết đến khuôn mặt của họ.'
+  a: 'Khi khán giả toàn cầu xem nội dung tiếng Hàn trên Netflix, họ thường trải nghiệm
+    nội dung đó qua hai bản âm thanh riêng biệt: bản gốc tiếng Hàn và bản lồng tiếng
+    Anh. Nhưng bản thân phiên bản tiếng Hàn có thể có một diễn viên lồng tiếng mà
+    hàng triệu người nghe giọng nói của họ hoàn toàn không biết đến khuôn mặt của
+    họ.'
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 Khi khán giả toàn cầu xem nội dung tiếng Hàn trên Netflix, họ thường trải nghiệm nội dung đó qua hai bản âm thanh riêng biệt: bản gốc tiếng Hàn và bản lồng tiếng Anh. Nhưng
 Bản thân phiên bản tiếng Hàn có thể có một diễn viên lồng tiếng mà hàng triệu người nghe giọng nói của họ hoàn toàn không biết đến khuôn mặt của họ. Điều đó đang thay đổi. Các diễn viên lồng tiếng
 đằng sau phim Hàn Quốc

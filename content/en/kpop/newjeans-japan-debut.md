@@ -1,17 +1,17 @@
 ---
-title: 'NewJeans chinh phục Nhật Bản: Album đầu tay ''Tokyo 404'' phá kỷ lục và bảng xếp hạng
-  khắp châu Á'
-description: Album tiếng Nhật dài đầu tiên của nhóm ngũ tấu ADOR đứng đầu bảng xếp hạng Oricon
-  và bán được 1,5 triệu bản trong tuần đầu tiên, xác định lại những gì một nghệ sĩ K-pop có
-  thể đạt được ở Nhật Bản.
+title: 'NewJeans chinh phục Nhật Bản: Album đầu tay ''Tokyo 404'' phá kỷ lục và bảng
+  xếp hạng khắp châu Á'
+description: Album tiếng Nhật dài đầu tiên của nhóm ngũ tấu ADOR đứng đầu bảng xếp
+  hạng Oricon và bán được 1,5 triệu bản trong tuần đầu tiên, xác định lại những gì
+  một nghệ sĩ K-pop có thể đạt được ở Nhật Bản.
 date: 2026-07-07
 draft: false
 author: Min-Jun Kim
 cover:
   image: images/sample/newjeans-japan-debut.jpg
   alt: Các thành viên NewJeans đến Tokyo để quảng bá cho lần ra mắt tại Nhật Bản
-  caption: NewJeans tại cuộc họp báo ở Shibuya, Tokyo, kỷ niệm lần ra mắt kỷ lục tại Nhật
-    Bản
+  caption: NewJeans tại cuộc họp báo ở Shibuya, Tokyo, kỷ niệm lần ra mắt kỷ lục tại
+    Nhật Bản
 tags:
 - newjeans
 - japan
@@ -26,27 +26,27 @@ keywords:
 - japan
 - ador
 - record-breaking
-slug: newjeans-conquers-japan-debut-album-tokyo-404-breaks-records-and-charts-across-asia
+slug: newjeans-chinh-phuc-nhat-ban-album-dau-tay-tokyo-404-pha-ky-luc-va-bang-xep-hang-khap-chau-a
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Album tiếng Nhật dài đầu tiên của nhóm ngũ tấu ADOR đứng đầu bảng xếp hạng Oricon và
-    bán được 1,5 triệu bản trong tuần đầu tiên, xác định lại những gì một nghệ sĩ K-pop có
-    thể đạt được ở Nhật Bản.
+  a: Album tiếng Nhật dài đầu tiên của nhóm ngũ tấu ADOR đứng đầu bảng xếp hạng Oricon
+    và bán được 1,5 triệu bản trong tuần đầu tiên, xác định lại những gì một nghệ
+    sĩ K-pop có thể đạt được ở Nhật Bản.
 - q: Nội dung chính về «Âm thanh phù hợp cho hai thị trường» là gì?
-  a: '"Tokyo 404" tạo ra sự cân bằng tinh tế giữa việc duy trì âm thanh lấy cảm hứng từ Y2K
-    đặc trưng của NewJeans và kết hợp các yếu tố gây được tiếng vang với khán giả Nhật Bản.
-    Ca khúc chủ đề có sự hợp tác với nhà sản xuất nổi tiếng Nhật Bản Yasutaka Nakata (được
-    biết đến với Perfume và Kyary Pamyu Pamyu),…'
+  a: '"Tokyo 404" tạo ra sự cân bằng tinh tế giữa việc duy trì âm thanh lấy cảm hứng
+    từ Y2K đặc trưng của NewJeans và kết hợp các yếu tố gây được tiếng vang với khán
+    giả Nhật Bản. Ca khúc chủ đề có sự hợp tác với nhà sản xuất nổi tiếng Nhật Bản
+    Yasutaka Nakata (được biết đến với Perfume và Kyary Pamyu Pamyu),…'
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: 'NewJeans đã làm được điều mà chưa một nhóm nhạc nữ K-pop nào làm được trước đây: ra
-    mắt ở vị trí số một trên Bảng xếp hạng Album hàng tuần của Oricon với 1,5 triệu bản được
-    bán ra trong bảy ngày đầu tiên. Album tiếng Nhật đầy đủ đầu tiên của họ, "Tokyo 404",
-    phát hành ngày 30 tháng 6 thông qua ADOR và Warner Music Japan, đã vượt qua mọi dự đoán
-    trong ngành và đưa nhóm ngũ tấu trở thành nhóm thống trị…'
+  a: 'NewJeans đã làm được điều mà chưa một nhóm nhạc nữ K-pop nào làm được trước
+    đây: ra mắt ở vị trí số một trên Bảng xếp hạng Album hàng tuần của Oricon với
+    1,5 triệu bản được bán ra trong bảy ngày đầu tiên. Album tiếng Nhật đầy đủ đầu
+    tiên của họ, "Tokyo 404", phát hành ngày 30 tháng 6 thông qua ADOR và Warner Music
+    Japan, đã vượt qua mọi dự đoán trong ngành và đưa nhóm ngũ tấu trở thành nhóm
+    thống trị…'
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 NewJeans đã làm được điều mà chưa một nhóm nhạc nữ K-pop nào làm được trước đây: ra mắt ở vị trí số một trên Bảng xếp hạng Album hàng tuần của Oricon với 1,5 triệu bản được bán ra trong bảy ngày đầu
 tiên. đầu tiên của họ
 Album tiếng Nhật đầy đủ, "Tokyo 404", phát hành ngày 30 tháng 6 thông qua ADOR và Warner Music Japan, đã vượt qua mọi dự đoán trong ngành và đưa nhóm ngũ tấu trở thành nhóm thống trị

@@ -1,17 +1,17 @@
 ---
-title: Samsung và những gã khổng lồ K-Pop đoàn kết tổ chức buổi hòa nhạc từ thiện lịch sử
-  ở Busan
-description: Samsung Electronics hợp tác với HYBE và SM Entertainment để tổ chức buổi hòa
-  nhạc từ thiện mang tính bước ngoặt tại Sân vận động Asiad Busan, với sự góp mặt của SUGA,
-  NCT 127 và Seventeen của BTS.
+title: Samsung và những gã khổng lồ K-Pop đoàn kết tổ chức buổi hòa nhạc từ thiện
+  lịch sử ở Busan
+description: Samsung Electronics hợp tác với HYBE và SM Entertainment để tổ chức buổi
+  hòa nhạc từ thiện mang tính bước ngoặt tại Sân vận động Asiad Busan, với sự góp
+  mặt của SUGA, NCT 127 và Seventeen của BTS.
 date: 2026-07-15
 draft: false
 author: Min-Jun Kim
 cover:
   image: images/sample/samsung-k-pop-concert.jpg
   alt: Sân vận động Busan Asiad được chiếu sáng cho buổi hòa nhạc từ thiện
-  caption: Sân vận động Asiad Busan trong buổi kiểm tra âm thanh trước buổi hòa nhạc Samsung
-    Hope lịch sử
+  caption: Sân vận động Asiad Busan trong buổi kiểm tra âm thanh trước buổi hòa nhạc
+    Samsung Hope lịch sử
 tags:
 - k-pop
 - samsung
@@ -27,27 +27,28 @@ keywords:
 - samsung
 - charity
 - busan
-slug: samsung-and-k-pop-giants-unite-for-historic-charity-concert-in-busan
+slug: samsung-va-nhung-ga-khong-lo-k-pop-doan-ket-to-chuc-buoi-hoa-nhac-tu-thien-lich-su-o-busan
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Samsung Electronics hợp tác với HYBE và SM Entertainment để tổ chức buổi hòa nhạc từ
-    thiện mang tính bước ngoặt tại Sân vận động Asiad Busan, với sự góp mặt của SUGA, NCT
-    127 và Seventeen của BTS.
-- q: Nội dung chính về «Mô hình mới cho sự hợp tác giữa doanh nghiệp và nghệ sĩ» là gì?
-  a: Các nhà phân tích trong ngành lưu ý rằng cấu trúc của Samsung Hope Concert khác biệt
-    đáng kể so với các hoạt động tài trợ truyền thống của công ty. Các nghệ sĩ sẽ giữ toàn
-    quyền kiểm soát sáng tạo đối với buổi biểu diễn của họ và một phần doanh số bán hàng hóa
-    sẽ được quyên góp cho các mục đích do mỗi nghệ sĩ lựa chọn.
+  a: Samsung Electronics hợp tác với HYBE và SM Entertainment để tổ chức buổi hòa
+    nhạc từ thiện mang tính bước ngoặt tại Sân vận động Asiad Busan, với sự góp mặt
+    của SUGA, NCT 127 và Seventeen của BTS.
+- q: Nội dung chính về «Mô hình mới cho sự hợp tác giữa doanh nghiệp và nghệ sĩ» là
+    gì?
+  a: Các nhà phân tích trong ngành lưu ý rằng cấu trúc của Samsung Hope Concert khác
+    biệt đáng kể so với các hoạt động tài trợ truyền thống của công ty. Các nghệ sĩ
+    sẽ giữ toàn quyền kiểm soát sáng tạo đối với buổi biểu diễn của họ và một phần
+    doanh số bán hàng hóa sẽ được quyên góp cho các mục đích do mỗi nghệ sĩ lựa chọn.
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: Samsung Electronics sẽ đồng tổ chức sự kiện mà những người trong ngành gọi là sự kiện
-    K-pop do công ty tài trợ lớn nhất trong lịch sử tại Sân vận động Busan Asiad vào ngày
-    15 tháng 8, Ngày Giải phóng Hàn Quốc. Buổi hòa nhạc Samsung Hope sẽ có sự góp mặt của
-    những người dẫn đầu bao gồm thành viên BTS SUGA, NCT 127, Seventeen và nhóm nhạc tân binh
-    đang lên RIIZE, với tất cả số tiền thu được sẽ mang lại lợi ích cho giáo dục giới trẻ…
+  a: Samsung Electronics sẽ đồng tổ chức sự kiện mà những người trong ngành gọi là
+    sự kiện K-pop do công ty tài trợ lớn nhất trong lịch sử tại Sân vận động Busan
+    Asiad vào ngày 15 tháng 8, Ngày Giải phóng Hàn Quốc. Buổi hòa nhạc Samsung Hope
+    sẽ có sự góp mặt của những người dẫn đầu bao gồm thành viên BTS SUGA, NCT 127,
+    Seventeen và nhóm nhạc tân binh đang lên RIIZE, với tất cả số tiền thu được sẽ
+    mang lại lợi ích cho giáo dục giới trẻ…
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 Samsung Electronics sẽ đồng tổ chức sự kiện K-pop do công ty tài trợ lớn nhất trong lịch sử tại Sân vận động Busan Asiad vào ngày 15 tháng 8, Giải phóng Hàn Quốc
 Ngày. Buổi hòa nhạc Samsung Hope sẽ có sự góp mặt của những người dẫn đầu bao gồm thành viên BTS SUGA, NCT 127, Seventeen và nhóm nhạc tân binh đang lên RIIZE, với tất cả số tiền thu được sẽ mang lại
 lợi ích cho giáo dục thanh thiếu niên

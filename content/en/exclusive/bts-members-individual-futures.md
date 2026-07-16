@@ -1,16 +1,17 @@
 ---
-title: 'Độc quyền: Các thành viên BTS cân nhắc về tương lai của nhóm - ''Chúng tôi sẽ quay
-  lại khi câu chuyện yêu cầu'''
-description: Trong một loạt các cuộc trò chuyện trực tiếp thẳng thắn, bảy thành viên của BTS
-  đã cởi mở về sự nghiệp solo, nghĩa vụ quân sự và sự tái hợp cuối cùng của ban nhạc.
+title: 'Độc quyền: Các thành viên BTS cân nhắc về tương lai của nhóm - ''Chúng tôi
+  sẽ quay lại khi câu chuyện yêu cầu'''
+description: Trong một loạt các cuộc trò chuyện trực tiếp thẳng thắn, bảy thành viên
+  của BTS đã cởi mở về sự nghiệp solo, nghĩa vụ quân sự và sự tái hợp cuối cùng của
+  ban nhạc.
 date: 2026-07-10
 draft: false
 author: Min-Jun Kim
 cover:
   image: images/sample/bts-members-individual-futures.jpg
   alt: Các thành viên BTS trong một bức ảnh nhóm từ sự kiện tái hợp năm 2025 của họ
-  caption: BTS tại lễ kỷ niệm 10 năm thành lập vào năm 2025 - lần cuối cùng cả bảy thành viên
-    được chụp ảnh cùng nhau
+  caption: BTS tại lễ kỷ niệm 10 năm thành lập vào năm 2025 - lần cuối cùng cả bảy
+    thành viên được chụp ảnh cùng nhau
 tags:
 - bts
 - exclusive
@@ -25,24 +26,25 @@ keywords:
 - interview
 - future
 - Exclusive
-slug: exclusive-bts-members-weigh-in-on-group-future-we-will-come-back-when-the-story-requires-it
+slug: doc-quyen-cac-thanh-vien-bts-can-nhac-ve-tuong-lai-cua-nhom-chung-toi-se-quay-lai-khi-cau-chuyen-yeu-cau
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Trong một loạt các cuộc trò chuyện trực tiếp thẳng thắn, bảy thành viên của BTS đã cởi
-    mở về sự nghiệp solo, nghĩa vụ quân sự và sự tái hợp cuối cùng của ban nhạc.
+  a: Trong một loạt các cuộc trò chuyện trực tiếp thẳng thắn, bảy thành viên của BTS
+    đã cởi mở về sự nghiệp solo, nghĩa vụ quân sự và sự tái hợp cuối cùng của ban
+    nhạc.
 - q: Nội dung chính về «On the Reunion» là gì?
-  a: '“Tôi được hỏi về điều này mỗi ngày,” RM nói, nói bằng tiếng Anh trong phần lớn cuộc
-    trò chuyện của chúng tôi. "Và câu trả lời trung thực nhất là: chúng tôi không có hẹn hò.'
+  a: '“Tôi được hỏi về điều này mỗi ngày,” RM nói, nói bằng tiếng Anh trong phần lớn
+    cuộc trò chuyện của chúng tôi. "Và câu trả lời trung thực nhất là: chúng tôi không
+    có hẹn hò.'
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: Trong suốt bốn tháng, KoreaWiki đã ngồi riêng với tất cả bảy thành viên của BTS – Jin,
-    SUGA, j-hope, RM, Jimin, V và Jung Kook – để trò chuyện về một loạt cuộc trò chuyện về
-    cuộc sống, hoạt động solo của họ và tương lai của nhóm nhạc đã thay đổi K-pop mãi mãi.
-    Những gì nổi lên là bức chân dung của bảy chàng trai trẻ đang bình yên với quá khứ của
-    mình và trầm ngâm về…
+  a: Trong suốt bốn tháng, KoreaWiki đã ngồi riêng với tất cả bảy thành viên của BTS
+    – Jin, SUGA, j-hope, RM, Jimin, V và Jung Kook – để trò chuyện về một loạt cuộc
+    trò chuyện về cuộc sống, hoạt động solo của họ và tương lai của nhóm nhạc đã thay
+    đổi K-pop mãi mãi. Những gì nổi lên là bức chân dung của bảy chàng trai trẻ đang
+    bình yên với quá khứ của mình và trầm ngâm về…
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 Trong suốt bốn tháng, KoreaWiki đã ngồi riêng với tất cả bảy thành viên của BTS – Jin, SUGA, j-hope, RM, Jimin, V và Jung Kook – để thảo luận một loạt cuộc trò chuyện
 về cuộc sống, công việc solo của họ và tương lai của nhóm nhạc đã thay đổi K-pop mãi mãi. Những gì nổi lên là bức chân dung của bảy chàng trai trẻ đang bình yên với quá khứ và trầm tư của mình.
 về những gì xảy ra tiếp theo.

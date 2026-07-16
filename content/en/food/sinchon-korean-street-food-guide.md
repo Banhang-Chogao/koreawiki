@@ -1,17 +1,17 @@
 ---
-title: 'Cuộc cách mạng ẩm thực đường phố ở Sinchon: Tại sao khu đại học của Seoul là nơi ăn
-  uống tốt nhất ở Hàn Quốc'
-description: Ngoài những địa điểm du lịch ở Myeongdong, những con hẻm ở Sinchon còn là nơi
-  có nền văn hóa ẩm thực đường phố thịnh vượng, tạo nên nét đặc sắc của ẩm thực bình dân Hàn
-  Quốc.
+title: 'Cuộc cách mạng ẩm thực đường phố ở Sinchon: Tại sao khu đại học của Seoul
+  là nơi ăn uống tốt nhất ở Hàn Quốc'
+description: Ngoài những địa điểm du lịch ở Myeongdong, những con hẻm ở Sinchon còn
+  là nơi có nền văn hóa ẩm thực đường phố thịnh vượng, tạo nên nét đặc sắc của ẩm
+  thực bình dân Hàn Quốc.
 date: 2026-07-02
 draft: false
 author: Hyun-Woo Lee
 cover:
   image: images/sample/sinchon-korean-street-food-guide.jpg
   alt: Những người bán thức ăn đường phố Sinchon chuẩn bị món ăn vào ban đêm
-  caption: Các quán ăn đường phố được chiếu sáng bằng đèn neon trong con hẻm chính của Sinchon
-    trở nên sống động sau khi mặt trời lặn
+  caption: Các quán ăn đường phố được chiếu sáng bằng đèn neon trong con hẻm chính
+    của Sinchon trở nên sống động sau khi mặt trời lặn
 tags:
 - sinchon
 - street-food
@@ -26,21 +26,21 @@ keywords:
 - street-food
 - seoul
 - food-guide
-slug: sinchons-street-food-revolution-why-seouls-university-district-is-the-best-place-to-eat-in-korea
+slug: cuoc-cach-mang-am-thuc-duong-pho-o-sinchon-tai-sao-khu-dai-hoc-cua-seoul-la-noi-an-uong-tot-nhat-o-han-quoc
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Ngoài những địa điểm du lịch ở Myeongdong, những con hẻm ở Sinchon còn là nơi có nền
-    văn hóa ẩm thực đường phố thịnh vượng, tạo nên nét đặc sắc của ẩm thực bình dân Hàn Quốc.
+  a: Ngoài những địa điểm du lịch ở Myeongdong, những con hẻm ở Sinchon còn là nơi
+    có nền văn hóa ẩm thực đường phố thịnh vượng, tạo nên nét đặc sắc của ẩm thực
+    bình dân Hàn Quốc.
 - q: Nội dung chính về «Sáng tạo chữ ký Sinchon» là gì?
-  a: Áp lực đổi mới này đã tạo ra những món ăn lan rộng khắp Hàn Quốc. Sinchon là nơi sản
-    sinh ra phiên bản ẩm thực đường phố "món hầm quân đội" (budae jjigae), tteokbokki phô
-    mai và hiện tượng "bánh rán xoắn" (kkwabaegi) nhồi kem khoai lang.
+  a: Áp lực đổi mới này đã tạo ra những món ăn lan rộng khắp Hàn Quốc. Sinchon là
+    nơi sản sinh ra phiên bản ẩm thực đường phố "món hầm quân đội" (budae jjigae),
+    tteokbokki phô mai và hiện tượng "bánh rán xoắn" (kkwabaegi) nhồi kem khoai lang.
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
   a: Myeongdong có danh tiếng. Chợ Gwangjang có lịch sử.
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 Myeongdong có danh tiếng. Chợ Gwangjang có lịch sử. Nhưng hãy hỏi bất cứ ai thực sự sống ở Seoul nơi có thể tìm được món ăn đường phố ngon nhất, và họ có thể sẽ chỉ cho bạn địa chỉ
 Sinchon, khu đại học nơi có Yonsei, Đại học Nữ sinh Ewha và Đại học Sogang. Với ba cơ sở chính nằm cách nhau một quãng đi bộ, Sinchon
 đã phát triển một nền văn hóa ẩm thực đường phố vô song về tính sáng tạo, khả năng chi trả và mật độ tuyệt đối.

@@ -1,16 +1,17 @@
 ---
-title: 'Ngoài Seoul: Tại sao Busan là điểm đến du lịch bị đánh giá thấp nhất ở Hàn Quốc'
-description: Từ vẻ đẹp nguyên sơ của Haedong Yonggungsa đến năng lượng điện của Liên hoan
-  phim quốc tế Busan, thành phố thứ hai của Hàn Quốc mang đến trải nghiệm sánh ngang với thủ
-  đô.
+title: 'Ngoài Seoul: Tại sao Busan là điểm đến du lịch bị đánh giá thấp nhất ở Hàn
+  Quốc'
+description: Từ vẻ đẹp nguyên sơ của Haedong Yonggungsa đến năng lượng điện của Liên
+  hoan phim quốc tế Busan, thành phố thứ hai của Hàn Quốc mang đến trải nghiệm sánh
+  ngang với thủ đô.
 date: 2026-07-10
 draft: false
 author: Min-Jun Kim
 cover:
   image: images/sample/beyond-seoul-busan-travel-guide.jpg
   alt: Cảnh hoàng hôn trên bờ biển Busan từ Làng văn hóa Gamcheon
-  caption: Những ngôi nhà đầy màu sắc mang tính biểu tượng của Làng văn hóa Gamcheon khi mặt
-    trời lặn trên Biển Nam
+  caption: Những ngôi nhà đầy màu sắc mang tính biểu tượng của Làng văn hóa Gamcheon
+    khi mặt trời lặn trên Biển Nam
 tags:
 - busan
 - travel
@@ -25,26 +26,26 @@ keywords:
 - korea
 - guide
 - Travel
-slug: beyond-seoul-why-busan-is-koreas-most-underrated-travel-destination
+slug: ngoai-seoul-tai-sao-busan-la-diem-den-du-lich-bi-danh-gia-thap-nhat-o-han-quoc
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Từ vẻ đẹp nguyên sơ của Haedong Yonggungsa đến năng lượng điện của Liên hoan phim quốc
-    tế Busan, thành phố thứ hai của Hàn Quốc mang đến trải nghiệm sánh ngang với thủ đô.
+  a: Từ vẻ đẹp nguyên sơ của Haedong Yonggungsa đến năng lượng điện của Liên hoan
+    phim quốc tế Busan, thành phố thứ hai của Hàn Quốc mang đến trải nghiệm sánh ngang
+    với thủ đô.
 - q: Nội dung chính về «Trải nghiệm tinh túy của Busan» là gì?
-  a: Bất kỳ chuyến thăm nào cũng nên bắt đầu tại Làng văn hóa Gamcheon, mê cung sườn đồi với
-    những ngôi nhà sơn màu rực rỡ đã trở thành địa điểm được chụp ảnh nhiều nhất ở Busan.
-    Nhưng không giống như nhiều điểm đến nổi tiếng trên Instagram, Gamcheon trao thưởng cho
-    những ai mạo hiểm vượt ra ngoài các địa điểm chụp ảnh chính.
+  a: Bất kỳ chuyến thăm nào cũng nên bắt đầu tại Làng văn hóa Gamcheon, mê cung sườn
+    đồi với những ngôi nhà sơn màu rực rỡ đã trở thành địa điểm được chụp ảnh nhiều
+    nhất ở Busan. Nhưng không giống như nhiều điểm đến nổi tiếng trên Instagram, Gamcheon
+    trao thưởng cho những ai mạo hiểm vượt ra ngoài các địa điểm chụp ảnh chính.
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: 'Trong nhiều thập kỷ, hành trình tiêu chuẩn dành cho du khách quốc tế đến Hàn Quốc đã
-    tuân theo một công thức có thể dự đoán được: bay đến Seoul, dành ba ngày ở Seoul, thực
-    hiện chuyến đi trong ngày đến DMZ và bay ra ngoài. Busan, thành phố lớn thứ hai của Hàn
-    Quốc và là đô thị ven biển hàng đầu của Hàn Quốc, được coi là một tiện ích bổ sung xứng
-    đáng nhưng không bắt buộc.'
+  a: 'Trong nhiều thập kỷ, hành trình tiêu chuẩn dành cho du khách quốc tế đến Hàn
+    Quốc đã tuân theo một công thức có thể dự đoán được: bay đến Seoul, dành ba ngày
+    ở Seoul, thực hiện chuyến đi trong ngày đến DMZ và bay ra ngoài. Busan, thành
+    phố lớn thứ hai của Hàn Quốc và là đô thị ven biển hàng đầu của Hàn Quốc, được
+    coi là một tiện ích bổ sung xứng đáng nhưng không bắt buộc.'
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 Trong nhiều thập kỷ, hành trình tiêu chuẩn dành cho du khách quốc tế đến Hàn Quốc đã tuân theo một công thức có thể dự đoán được: bay đến Seoul, dành ba ngày ở Seoul, thực hiện một chuyến đi trong
 ngày đến Seoul.
 DMZ và bay ra ngoài. Busan, thành phố lớn thứ hai của Hàn Quốc và là đô thị ven biển hàng đầu của Hàn Quốc, được coi là một tiện ích bổ sung xứng đáng nhưng không bắt buộc. Điều đó đang bắt đầu thay
