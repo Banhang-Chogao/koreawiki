@@ -7,7 +7,7 @@
     <article class="card">
       <a href="{{ $p.RelPermalink }}" class="card-link">
         {{ if $p.Params.cover.image }}
-        <img class="card-img" src="{{ $p.Params.cover.image }}" alt="{{ $p.Params.cover.alt | default $p.Title }}" loading="lazy" decoding="async">
+        <img class="card-img" src="{{ $p.Params.cover.image | relURL }}" alt="{{ $p.Params.cover.alt | default $p.Title }}" loading="lazy" decoding="async">
         {{ end }}
         <div class="card-body">
           <span class="card-cat">{{ $p.Section | humanize | title }}</span>

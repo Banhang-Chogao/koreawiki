@@ -11,7 +11,7 @@
         {{ if .Params.cover.image }}
         <div class="article-card-cover">
           <a href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
-            <img src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" loading="lazy" decoding="async" width="400" height="225" />
+            <img src="{{ .Params.cover.image | relURL }}" alt="{{ .Params.cover.alt | default .Title }}" loading="lazy" decoding="async" width="400" height="225" />
           </a>
         </div>
         {{ end }}

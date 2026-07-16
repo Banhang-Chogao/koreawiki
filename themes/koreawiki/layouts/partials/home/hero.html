@@ -6,7 +6,7 @@
     <article class="hero-main">
       <a href="{{ $heroPost.RelPermalink }}" class="hero-main-link">
         {{ if $heroPost.Params.cover.image }}
-        <img class="hero-main-img" src="{{ $heroPost.Params.cover.image }}" alt="{{ $heroPost.Params.cover.alt | default $heroPost.Title }}" loading="eager" decoding="async">
+        <img class="hero-main-img" src="{{ $heroPost.Params.cover.image | relURL }}" alt="{{ $heroPost.Params.cover.alt | default $heroPost.Title }}" loading="eager" decoding="async">
         {{ end }}
         <div class="hero-main-body">
           <span class="hero-main-cat">{{ $heroPost.Section | humanize | title }}</span>
@@ -27,7 +27,7 @@
       {{ range $sidePosts }}
       <a href="{{ .RelPermalink }}" class="hero-side-item">
         {{ if .Params.cover.image }}
-        <img class="hero-side-img" src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" loading="lazy" decoding="async">
+        <img class="hero-side-img" src="{{ .Params.cover.image | relURL }}" alt="{{ .Params.cover.alt | default .Title }}" loading="lazy" decoding="async">
         {{ end }}
         <div class="hero-side-body">
           <span class="hero-side-cat">{{ .Section | humanize | title }}</span>

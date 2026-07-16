@@ -9,7 +9,7 @@
     {{ range $latest }}
     <a href="{{ .RelPermalink }}" class="list-card">
       {{ if .Params.cover.image }}
-      <img class="list-card-img" src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" loading="lazy" decoding="async">
+      <img class="list-card-img" src="{{ .Params.cover.image | relURL }}" alt="{{ .Params.cover.alt | default .Title }}" loading="lazy" decoding="async">
       {{ end }}
       <div class="list-card-body">
         <h3 class="list-card-title">{{ .Title }}</h3>

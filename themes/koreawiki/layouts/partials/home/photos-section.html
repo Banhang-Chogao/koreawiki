@@ -10,7 +10,7 @@
     {{ range $photos }}
     <a href="{{ .RelPermalink }}" class="photo-card">
       {{ if .Params.cover.image }}
-      <img src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" loading="lazy" decoding="async">
+      <img src="{{ .Params.cover.image | relURL }}" alt="{{ .Params.cover.alt | default .Title }}" loading="lazy" decoding="async">
       {{ end }}
       <div class="photo-overlay">
         <span class="photo-overlay-title">{{ .Title }}</span>
