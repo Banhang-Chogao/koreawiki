@@ -1,0 +1,16 @@
+# Pagefind config for KoreaWiki Smart Search
+# Index is generated automatically after Hugo build (npm run build / CI).
+site: public
+# Prefer explicit data-pagefind-body on article pages only.
+# Glob covers multilingual output under en/, ko/, vi/.
+glob: "**/*.{html}"
+# Never index chrome / assets
+exclude_selectors:
+  - "[data-pagefind-ignore]"
+  - "nav"
+  - "header"
+  - "footer"
+  - ".skip-link"
+  - "script"
+  - "style"
+quiet: false

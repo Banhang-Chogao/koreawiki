@@ -1,0 +1,129 @@
+{{/* Pagefind metadata + filters for a single article page.
+
+     Multilingual layout: content/{lang}/{section}/page.md
+     Hugo .Section is often the language code, so derive section from File.Dir. */}}
+
+{{ $lang := .Lang | default "en" }}
+{{ $section := "" }}
+
+{{/* File.Dir is typically "en/news/" or "news/" depending on contentDir */}}
+{{ with .File }}
+  {{ $dir := strings.TrimSuffix "/" (strings.TrimPrefix "/" .Dir) }}
+  {{ if $dir }}
+    {{ $parts := split $dir "/" }}
+    {{ $last := index $parts (sub (len $parts) 1) }}
+    {{ if and $last (ne $last $lang) (ne $last ".") (ne $last "") }}
+      {{ $section = $last }}
+    {{ else if and (ge (len $parts) 2) (eq $last $lang) }}
+      {{/* unusual: last is lang — take previous */}}
+      {{ $section = index $parts (sub (len $parts) 2) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{/* Fallback from RelPermalink: /koreawiki/en/news/slug/ → news */}}
+{{ if not $section }}
+  {{ $base := strings.TrimSuffix "/" ("" | relURL) }}
+  {{ $url := strings.TrimSuffix "/" .RelPermalink }}
+  {{ if $base }}
+    {{ $url = strings.TrimPrefix $base $url }}
+  {{ end }}
+  {{ $url = strings.TrimPrefix "/" $url }}
+  {{ $parts := split $url "/" }}
+  {{ if ge (len $parts) 3 }}
+    {{/* lang / section / slug */}}
+    {{ if eq (index $parts 0) $lang }}
+      {{ $section = index $parts 1 }}
+    {{ else }}
+      {{ $section = index $parts 0 }}
+    {{ end }}
+  {{ else if ge (len $parts) 2 }}
+    {{ if eq (index $parts 0) $lang }}
+      {{ $section = index $parts 1 }}
+    {{ else }}
+      {{ $section = index $parts 0 }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if not $section }}
+  {{ $section = "article" }}
+{{ end }}
+
+{{ $author := .Params.author | default .Site.Params.author | default "KoreaWiki" }}
+{{ $year := .Date.Format "2006" }}
+{{ $dateISO := .Date.Format "2006-01-02" }}
+{{ $rt := .ReadingTime | default 1 }}
+{{ $weight := .Params.weight | default 0 }}
+{{ $pinned := cond (eq .Params.pinned true) "1" "0" }}
+{{ $popular := cond (or (eq .Params.popular true) (eq .Params.featured true)) "1" "0" }}
+{{ $img := "" }}
+{{ with .Params.cover.image }}
+  {{ if or (hasPrefix . "http://") (hasPrefix . "https://") }}
+    {{ $img = . }}
+  {{ else }}
+    {{ $img = . | absURL }}
+  {{ end }}
+{{ end }}
+{{ $keywords := .Params.keywords | default .Params.tags | default (slice) }}
+{{ $aliases := .Params.aliases | default (slice) }}
+{{ $searchKeywords := .Params.search_keywords | default (slice) }}
+
+<meta data-pagefind-meta="title:{{ .Title | plainify }}">
+<meta data-pagefind-meta="description:{{ .Description | default .Summary | plainify }}">
+<meta data-pagefind-meta="section:{{ $section }}">
+<meta data-pagefind-meta="lang:{{ $lang }}">
+<meta data-pagefind-meta="author:{{ $author | plainify }}">
+<meta data-pagefind-meta="date:{{ $dateISO }}">
+<meta data-pagefind-meta="year:{{ $year }}">
+<meta data-pagefind-meta="reading_time:{{ $rt }}">
+<meta data-pagefind-meta="weight:{{ $weight }}">
+<meta data-pagefind-meta="pinned:{{ $pinned }}">
+<meta data-pagefind-meta="popular:{{ $popular }}">
+{{ with $img }}<meta data-pagefind-meta="image:{{ . }}">{{ end }}
+{{ with .Params.tags }}
+<meta data-pagefind-meta="tags:{{ delimit . ", " | plainify }}">
+{{ end }}
+{{ with .Params.categories }}
+<meta data-pagefind-meta="categories:{{ delimit . ", " | plainify }}">
+{{ end }}
+
+<meta data-pagefind-filter="section:{{ $section }}">
+<meta data-pagefind-filter="year:{{ $year }}">
+<meta data-pagefind-filter="lang:{{ $lang }}">
+<meta data-pagefind-filter="author:{{ $author | plainify }}">
+{{ range .Params.tags }}
+<meta data-pagefind-filter="tag:{{ . | plainify }}">
+{{ end }}
+{{ range .Params.categories }}
+<meta data-pagefind-filter="category:{{ . | plainify }}">
+{{ end }}
+
+<meta data-pagefind-sort="date:{{ .Date.Unix }}">
+<meta data-pagefind-sort="weight:{{ $weight }}">
+
+<span class="pagefind-boost" data-pagefind-weight="10.0" hidden aria-hidden="true">{{ .Title }}</span>
+{{ range $aliases }}
+<span class="pagefind-boost" data-pagefind-weight="8.0" hidden aria-hidden="true">{{ . }}</span>
+{{ end }}
+{{ range $searchKeywords }}
+<span class="pagefind-boost" data-pagefind-weight="7.0" hidden aria-hidden="true">{{ . }}</span>
+{{ end }}
+{{ range $keywords }}
+<span class="pagefind-boost" data-pagefind-weight="6.0" hidden aria-hidden="true">{{ . }}</span>
+{{ end }}
+{{ range .Params.tags }}
+<span class="pagefind-boost" data-pagefind-weight="5.0" hidden aria-hidden="true">{{ . }}</span>
+{{ end }}
+{{ range .Params.categories }}
+<span class="pagefind-boost" data-pagefind-weight="4.0" hidden aria-hidden="true">{{ . }}</span>
+{{ end }}
+{{ with .Description }}
+<span class="pagefind-boost" data-pagefind-weight="3.0" hidden aria-hidden="true">{{ . | plainify }}</span>
+{{ end }}
+{{ with .Params.cover.caption }}
+<span class="pagefind-boost" data-pagefind-weight="1.5" hidden aria-hidden="true">{{ . | plainify }}</span>
+{{ end }}
+{{ with .Params.cover.alt }}
+<span class="pagefind-boost" data-pagefind-weight="1.2" hidden aria-hidden="true">{{ . | plainify }}</span>
+{{ end }}

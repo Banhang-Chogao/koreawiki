@@ -7,7 +7,33 @@ other = "기사 검색..."
 [close_search]
 other = "검색 닫기"
 [search_hint]
-other = "2자 이상 입력하세요."
+other = "검색어를 입력하세요..."
+[search_advanced_hint]
+other = "예: tag:topik · year:2026 · author:Kim · title:grammar"
+[suggestions]
+other = "추천"
+[autocomplete]
+other = "자동완성"
+[filter_by_section]
+other = "섹션 필터"
+[sort_results]
+other = "정렬"
+[sort_relevant]
+other = "관련도"
+[sort_newest]
+other = "최신"
+[sort_oldest]
+other = "오래된"
+[search_results]
+other = "검색 결과"
+[food]
+other = "음식"
+[travel]
+other = "여행"
+[tv]
+other = "TV"
+[fashion]
+other = "패션"
 [toggle_menu]
 other = "메뉴"
 [toggle_theme]
@@ -58,3 +84,35 @@ other = "포토"
 other = "동영상"
 [opinion]
 other = "오피니언"
+[recent_searches]
+other = "최근 검색"
+[clear_history]
+other = "기록 지우기"
+[clear]
+other = "지우기"
+[popular_searches]
+other = "인기 검색어"
+[no_results]
+other = "검색 결과가 없습니다"
+[no_results_hint]
+other = "다른 키워드로 검색하거나 카테고리를 찾아보세요"
+[powered_by]
+other = "제공"
+[all]
+other = "전체"
+[exclusive]
+other = "단독"
+[news]
+other = "뉴스"
+[feature]
+other = "특집"
+[artist]
+other = "아티스트"
+[kpop]
+other = "K-Pop"
+[movies]
+other = "영화"
+[kdrama]
+other = "K-드라마"
+[culture]
+other = "문화"

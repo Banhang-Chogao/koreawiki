@@ -1,8 +1,5 @@
 {{ $mainJS := resources.Get "js/main.js" | minify | fingerprint }}
 <script src="{{ $mainJS.RelPermalink }}" integrity="{{ $mainJS.Data.Integrity }}" crossorigin="anonymous" defer></script>
-{{ if .Site.Params.search }}
-{{ $fuseJS := resources.Get "js/fuse.js" | minify | fingerprint }}
-<script src="{{ $fuseJS.RelPermalink }}" integrity="{{ $fuseJS.Data.Integrity }}" crossorigin="anonymous" defer></script>
 {{ $searchJS := resources.Get "js/search.js" | minify | fingerprint }}
 <script src="{{ $searchJS.RelPermalink }}" integrity="{{ $searchJS.Data.Integrity }}" crossorigin="anonymous" defer></script>
-{{ end }}
+{{/* Pagefind is loaded lazily by search.js from {{ "" | relURL }}pagefind/pagefind.js — never link pagefind-ui (heavy, unused). */}}

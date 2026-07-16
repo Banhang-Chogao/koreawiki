@@ -1,0 +1,26 @@
+{
+  "name": "koreawiki",
+  "version": "1.0.0",
+  "description": "KoreaWiki — Korean Entertainment & Culture News",
+  "scripts": {
+    "build": "hugo --minify --gc && npx pagefind --site public",
+    "index": "npx pagefind --site public",
+    "dev": "hugo server -D",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Banhang-Chogao/koreawiki.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Banhang-Chogao/koreawiki/issues"
+  },
+  "homepage": "https://github.com/Banhang-Chogao/koreawiki#readme",
+  "dependencies": {
+    "pagefind": "^1.5.2"
+  }
+}

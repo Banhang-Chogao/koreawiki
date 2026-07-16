@@ -29,11 +29,13 @@ Mỗi mục nên ghi rõ:
 
 | Shortcut | Ngữ cảnh | Hành động | Logic | Trạng thái | File liên quan |
 |---|---|---|---|---|---|
-| `Ctrl+K` / `Meta+K` | Toàn site | Mở hộp tìm kiếm | `assets/js/main.js` bắt `keydown`, nếu `ctrlKey` hoặc `metaKey` và `key === 'k'` thì `preventDefault()` rồi click nút `[data-search-toggle]` đầu tiên | `implemented` | `assets/js/main.js`, `themes/koreawiki/layouts/partials/header.html`, `themes/koreawiki/layouts/partials/home/search-box.html` |
-| `Esc` | Toàn site, đặc biệt trong search overlay | Đóng hộp tìm kiếm | `assets/js/main.js` bắt `keydown`, nếu `key === 'Escape'` thì gọi `closeSearch()` | `implemented` | `assets/js/main.js`, `themes/koreawiki/layouts/partials/search-modal.html` |
-| `Enter` | Search overlay | Chọn kết quả | Hiện chỉ có hint trong UI; `assets/js/search.js` chưa có handler chọn kết quả bằng Enter | `declared` | `themes/koreawiki/layouts/partials/search-modal.html`, `assets/js/search.js` |
-| `↑` / `↓` | Search overlay | Di chuyển giữa các kết quả | Hiện chỉ có hint trong UI; `assets/js/search.js` chưa có logic điều hướng bằng phím mũi tên | `declared` | `themes/koreawiki/layouts/partials/search-modal.html`, `assets/js/search.js` |
-| `mm` | `opencode` command | Chạy workflow xuất bản bài news tiếng Hàn | File `.opencode/commands/mm.md` định nghĩa luồng: lấy URL hoặc text thô, dịch, viết lại, QA, build, commit, push | `implemented` | `.opencode/commands/mm.md`, `scientist.md` |
+| `Ctrl+K` / `Meta+K` | Toàn site | Mở/đóng command palette search | `assets/js/main.js` bắt `keydown` (ctrl/meta + k), gọi `openSearch()` / `closeSearch()`, focus trap trong modal | `implemented` | `assets/js/main.js`, `themes/koreawiki/layouts/partials/header.html`, `themes/koreawiki/layouts/partials/search-modal.html` |
+| `/` | Toàn site (không khi đang gõ trong input) | Mở search | `assets/js/main.js` nếu `key === '/'` và target không phải input/textarea/contenteditable thì `openSearch()` | `implemented` | `assets/js/main.js` |
+| `Esc` | Search overlay mở | Đóng search | `closeSearch()` + restore focus | `implemented` | `assets/js/main.js` |
+| `Enter` | Search overlay | Mở kết quả đang chọn (mặc định kết quả đầu) | `assets/js/search.js` `handleKeydown` → `window.location.href` | `implemented` | `assets/js/search.js` |
+| `↑` / `↓` | Search overlay | Di chuyển giữa kết quả | `selectedIndex` + class `selected` + `aria-activedescendant` | `implemented` | `assets/js/search.js` |
+| `Tab` | Search overlay | Autocomplete gợi ý / title | `autocompleteTab()` lấy suggestion đầu hoặc title kết quả đầu | `implemented` | `assets/js/search.js` |
+| `mm` | `opencode` command | Workflow xuất bản news tiếng Hàn | `.opencode/commands/mm.md` | `implemented` | `.opencode/commands/mm.md`, `scientist.md` |
 
 ## Recent `mm` Runs
 

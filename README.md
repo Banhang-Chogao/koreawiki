@@ -7,7 +7,7 @@ A production-ready static knowledge wiki for learning Korean language and cultur
 - **18 content sections**: Grammar, Vocabulary, TOPIK, Listening, Reading, Writing, Speaking, Culture, History, Society, Travel, Food, K-Drama, K-Pop, Hanja, News, Tools, Blog
 - **Custom Hugo theme**: Typography-first, documentation-style original design
 - **Dark mode**: Light, dark, and system-preference with persistence
-- **Offline search**: Fuse.js powered, instant, no backend (Ctrl+K)
+- **Smart search**: Pagefind full-text engine, command palette (Ctrl/Cmd+K or `/`), fuzzy + multilingual, offline, no backend
 - **Internationalization**: English, Korean (한국어), Vietnamese (Tiếng Việt)
 - **Full SEO**: robots.txt, sitemap.xml, RSS, JSON Feed, OpenGraph, Twitter Cards, Schema.org (Article, Organization, Breadcrumb, SearchAction)
 - **Performance**: Minified assets, lazy loading, responsive images, zero CLS design
@@ -21,7 +21,7 @@ A production-ready static knowledge wiki for learning Korean language and cultur
 - Python 3.12+
 - SCSS (modular architecture)
 - Vanilla JavaScript
-- [Fuse.js](https://fusejs.io/)
+- [Pagefind](https://pagefind.app/) (client-side full-text search)
 - GitHub Pages + Actions
 
 ## Quick Start
@@ -50,7 +50,7 @@ koreawiki/
 ├── archetypes/          # Content templates
 ├── assets/
 │   ├── scss/           # Modular SCSS files
-│   └── js/             # Vanilla JS + Fuse.js
+│   └── js/             # Vanilla JS + Pagefind smart search
 ├── config/             # Hugo configuration
 ├── content/            # Markdown content by section
 ├── i18n/               # Translation strings (en, ko, vi)

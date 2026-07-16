@@ -2,12 +2,15 @@
   {{ $pages := where .Site.RegularPages "Type" "not in" (slice "page" "photos" "videos") }}
   {{ $latestPages := $pages.ByDate.Reverse }}
 
+  <div data-pagefind-ignore="all">
   {{ partial "home/hero" (dict "Pages" $latestPages "Site" .Site) }}
 
   <div class="section-row" style="max-width:var(--max-w);margin:0 auto;padding:0 var(--space-4)">
     {{ partial "home/featured-grid" (dict "Pages" $latestPages "Site" .Site) }}
 
     {{ partial "home/latest-news" (dict "Pages" $latestPages "Site" .Site) }}
+
+    {{ partial "home/sections-grid" (dict "Pages" $latestPages "Site" .Site) }}
 
     {{ with where .Site.RegularPages "Section" "photos" }}
       {{ partial "home/photos-section" (dict "Pages" . "Site" $.Site) }}
@@ -20,5 +23,6 @@
     {{ with where .Site.RegularPages "Section" "opinion" }}
       {{ partial "home/opinion-section" (dict "Pages" . "Site" $.Site) }}
     {{ end }}
+  </div>
   </div>
 {{ end }}

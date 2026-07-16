@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode | default "en" }}" data-theme="auto">
+<html lang="{{ .Site.LanguageCode | default "en" }}" data-theme="auto" data-base="{{ "" | relURL }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,19 +13,24 @@
   {{ partial "head/feeds" . }}
   {{ block "headExtra" . }}{{ end }}
 </head>
-<body>
+{{ $indexable := and .IsPage (not .Draft) (ne .Params.robots "noindex") (ne .Params.hidden true) (ne .Params._build.render "never") }}
+<body{{ if not $indexable }} data-pagefind-ignore="all"{{ end }}>
   <a href="#main-content" class="skip-link">{{ T "skip_to_content" | default "Skip to content" }}</a>
-  {{ partial "header" . }}
-  {{ block "breadcrumb" . }}
-    {{ if and (not .IsHome) (.Params.breadcrumbs | default .Site.Params.breadcrumbs | default true) }}
-      {{ partial "breadcrumb" . }}
+  <div data-pagefind-ignore="all">
+    {{ partial "header" . }}
+    {{ block "breadcrumb" . }}
+      {{ if and (not .IsHome) (.Params.breadcrumbs | default .Site.Params.breadcrumbs | default true) }}
+        {{ partial "breadcrumb" . }}
+      {{ end }}
     {{ end }}
-  {{ end }}
+  </div>
   <main id="main-content" role="main">
     {{ block "main" . }}{{ end }}
   </main>
-  {{ partial "footer" . }}
-  {{ partial "search-modal" . }}
+  <div data-pagefind-ignore="all">
+    {{ partial "footer" . }}
+    {{ partial "search-modal" . }}
+  </div>
   {{ partial "scripts" . }}
 </body>
 </html>

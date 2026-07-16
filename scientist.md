@@ -180,6 +180,35 @@ git commit --allow-empty -m "redeploy article" && git push
 
 ---
 
+## Entry 012 — 2026-07-16: Smart Search Engine (Pagefind) rebuild
+
+**Change:** Hoàn thiện KoreaWiki Smart Search — thay skeleton Fuse/Pagefind dở bằng full client-side search trên Pagefind.
+
+**Architecture decisions:**
+1. **Pagefind primary** — full-text, fuzzy, prefix, multilingual, Web Worker built-in, zero backend, GitHub Pages + offline.
+2. **Không dùng Lunr** — yếu fuzzy/multilingual so với Pagefind.
+3. **Không MiniSearch song song** (v1) — dataset ~50–10k bài, Pagefind đủ; ranking/filter nâng cao làm client-side sau khi Pagefind trả kết quả.
+4. **Index tự động** — `hugo && npx pagefind --site public` (local `npm run build`, CI `build.yml`). Không maintain search.json thủ công.
+5. **Chỉ index article** — `data-pagefind-body` trên `<article>` single; home/list/taxonomy/header/footer `data-pagefind-ignore`.
+6. **Section slug** — không dùng `.Section` (bị = `en` do multilingual nesting); parse từ `File.Dir` / URL → `news`, `kpop`, …
+7. **Client layer** (`assets/js/search.js`) — synonym/romanization expand, advanced operators (`tag:`, `year:`, `author:`, …), re-rank (title > tags > body + recency/pin/weight), history/clicks, debounce 50ms, highlight + snippet ~160 chars.
+8. **Keyboard** — Ctrl/Cmd+K, `/`, Esc, ↑↓, Enter, Tab autocomplete, focus trap.
+9. **SEO** — `robots.txt` Disallow `/pagefind/`; không load pagefind-ui.css (nặng, không dùng).
+
+**Files:**
+- `assets/js/search.js`, `assets/js/main.js`, `assets/scss/_search.scss`
+- `themes/koreawiki/layouts/partials/pagefind-meta.html` (new)
+- `themes/koreawiki/layouts/_default/{baseof,single,list}.html`, `index.html`
+- `themes/koreawiki/layouts/partials/{search-modal,scripts,header}.html`
+- `layouts/robots.txt`, `pagefind.yml`, `package.json`, `.github/workflows/build.yml`
+- `i18n/{en,ko,vi}.toml`, `README.md`, `shortcuts.md`
+
+**Verify:** `hugo && npx pagefind --site public` → Indexed **50 pages** (= 50 articles), 6 filters, 2 sorts. Section filters: kpop, news, artist, …
+
+**Prevention:** Sau mỗi Hugo build luôn chạy Pagefind (script `build` + CI). Không gắn `data-pagefind-body` lên `<body>`.
+
+---
+
 To re-apply all known fixes to fresh content:
 
 ### Fix missing `draft` field

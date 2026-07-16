@@ -1,3 +1,8 @@
 User-agent: *
 Allow: /
+
+# Search index is for clients only — do not let crawlers index Pagefind bundles
+Disallow: /pagefind/
+Disallow: /*/pagefind/
+
 Sitemap: {{ "sitemap.xml" | absURL }}

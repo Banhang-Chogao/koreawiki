@@ -63,6 +63,16 @@ jobs:
       - name: Validate schema
         run: python scripts/generate_schema.py
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Build search index (Pagefind)
+        run: |
+          npm ci || npm install
+          npx pagefind --site public
+
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:

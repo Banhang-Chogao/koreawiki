@@ -1,6 +1,15 @@
 {{ define "main" }}
-<div class="progress-bar" data-progress-bar></div>
-<article class="article" itemscope itemtype="https://schema.org/Article">
+{{ $noindex := or (eq .Params.robots "noindex") (eq .Params.hidden true) .Draft }}
+<div class="progress-bar" data-progress-bar data-pagefind-ignore></div>
+<article
+  class="article"
+  itemscope
+  itemtype="https://schema.org/Article"
+  {{ if not $noindex }}data-pagefind-body{{ end }}
+>
+  {{ if not $noindex }}
+    {{ partial "pagefind-meta" . }}
+  {{ end }}
   <meta itemprop="identifier" content="{{ .Permalink }}">
   <meta itemprop="url" content="{{ .Permalink }}">
   <meta itemprop="name" content="{{ .Title }}">
@@ -12,11 +21,11 @@
   <meta itemprop="wordCount" content="{{ .WordCount }}">
   <header class="article-header">
     <span class="article-cat">{{ .CurrentSection.Title }}</span>
-    <h1 class="article-title">{{ .Title }}</h1>
+    <h1 class="article-title" data-pagefind-meta="title" data-pagefind-weight="10.0">{{ .Title }}</h1>
     {{ if .Description }}
-    <p class="article-desc">{{ .Description }}</p>
+    <p class="article-desc" data-pagefind-weight="3.0">{{ .Description }}</p>
     {{ end }}
-    <div class="article-meta">
+    <div class="article-meta" data-pagefind-ignore>
       {{ if .Params.author }}
       <span>
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="12" r="4"/></svg>
@@ -50,18 +59,20 @@
     {{ if .Params.tags }}
     <div class="article-tags">
       {{ range .Params.tags }}
-      <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/" class="tag">{{ . }}</a>
+      <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/" class="tag" data-pagefind-filter="tag:{{ . | plainify | htmlEscape }}" data-pagefind-weight="5.0">{{ . }}</a>
       {{ end }}
     </div>
     {{ end }}
-    {{ partial "share" . }}
-    {{ if .Site.Params.relatedPosts }}
-      {{ partial "related-posts" . }}
-    {{ end }}
-    {{ partial "prev-next" . }}
-    {{ if .Site.Params.comments }}
-      {{ partial "comments" . }}
-    {{ end }}
+    <div data-pagefind-ignore>
+      {{ partial "share" . }}
+      {{ if .Site.Params.relatedPosts }}
+        {{ partial "related-posts" . }}
+      {{ end }}
+      {{ partial "prev-next" . }}
+      {{ if .Site.Params.comments }}
+        {{ partial "comments" . }}
+      {{ end }}
+    </div>
   </footer>
 </article>
 {{ end }}
