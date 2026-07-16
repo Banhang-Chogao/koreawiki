@@ -1,7 +1,7 @@
 {
   "version": 1,
   "language_pair": "ko-vi",
-  "updated": "2026-07-16T13:10:38+00:00",
+  "updated": "2026-07-16T13:27:01+00:00",
   "entries": [
     {
       "id": "67ad9b0e792b",
@@ -17,6 +17,24 @@
       "last_seen": "2026-07-16",
       "frequency": 2,
       "tags": [],
+      "category": "other"
+    },
+    {
+      "id": "79d0d6ca9bf2",
+      "korean": "멀티모달",
+      "vietnamese": "multimodal / đa phương thức",
+      "romanization": "meol-ti-mo-dal",
+      "pos": "adjective",
+      "meaning": "xử lý nhiều loại dữ liệu (text, audio, image)",
+      "context": "AI",
+      "example": "멀티모달 언어모델",
+      "source_url": "https://www.kakaocorp.com/page/detail/12083",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 2,
+      "tags": [
+        "ai"
+      ],
       "category": "other"
     },
     {
@@ -383,6 +401,24 @@
         "media"
       ],
       "category": "adjective"
+    },
+    {
+      "id": "7f27ded54462",
+      "korean": "공유 메모리",
+      "vietnamese": "shared memory / bộ nhớ dùng chung",
+      "romanization": "gong-yu me-mo-ri",
+      "pos": "other",
+      "meaning": "Vùng nhớ process dùng chung để zero-copy",
+      "context": "Kanana-Omni Server IPC",
+      "example": "",
+      "source_url": "https://tech.kakao.com/posts/821",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "systems"
+      ],
+      "category": "other"
     },
     {
       "id": "50d99cbf0bc2",
@@ -841,6 +877,24 @@
       "category": "noun"
     },
     {
+      "id": "33be94504007",
+      "korean": "동시 접속",
+      "vietnamese": "đồng thời / concurrent users",
+      "romanization": "dong-si jeop-sok",
+      "pos": "other",
+      "meaning": "Nhiều người dùng truy cập cùng lúc",
+      "context": "benchmark 64 users",
+      "example": "",
+      "source_url": "https://tech.kakao.com/posts/821",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "systems"
+      ],
+      "category": "other"
+    },
+    {
       "id": "d930f8906c5a",
       "korean": "동일인",
       "vietnamese": "người kiểm soát / controller",
@@ -981,24 +1035,6 @@
       "last_seen": "2026-07-16",
       "frequency": 1,
       "tags": [],
-      "category": "other"
-    },
-    {
-      "id": "79d0d6ca9bf2",
-      "korean": "멀티모달",
-      "vietnamese": "multimodal / đa phương thức",
-      "romanization": "meol-ti-mo-dal",
-      "pos": "adjective",
-      "meaning": "xử lý nhiều loại dữ liệu (text, audio, image)",
-      "context": "AI",
-      "example": "멀티모달 언어모델",
-      "source_url": "https://www.kakaocorp.com/page/detail/12083",
-      "first_seen": "2026-07-16",
-      "last_seen": "2026-07-16",
-      "frequency": 1,
-      "tags": [
-        "ai"
-      ],
       "category": "other"
     },
     {
@@ -1255,6 +1291,24 @@
       "category": "organization"
     },
     {
+      "id": "cb6acf2ff94d",
+      "korean": "베타테스트",
+      "vietnamese": "beta test / thử nghiệm beta",
+      "romanization": "be-ta-te-seu-teu",
+      "pos": "other",
+      "meaning": "Giai đoạn thử nghiệm trước ra mắt rộng",
+      "context": "Kanana-O status",
+      "example": "",
+      "source_url": "https://tech.kakao.com/posts/821",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "product"
+      ],
+      "category": "other"
+    },
+    {
       "id": "b2522f6cb474",
       "korean": "벽돌",
       "vietnamese": "gạch (xây)",
@@ -1268,6 +1322,24 @@
       "last_seen": "2026-07-16",
       "frequency": 1,
       "tags": [],
+      "category": "other"
+    },
+    {
+      "id": "7671bd417a0b",
+      "korean": "병목",
+      "vietnamese": "bottleneck / nút thắt",
+      "romanization": "byeong-mok",
+      "pos": "noun",
+      "meaning": "Điểm hạn chế throughput hoặc latency",
+      "context": "tối ưu serving",
+      "example": "",
+      "source_url": "https://tech.kakao.com/posts/821",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "systems"
+      ],
       "category": "other"
     },
     {
@@ -1534,6 +1606,24 @@
       "frequency": 1,
       "tags": [
         "concert"
+      ],
+      "category": "other"
+    },
+    {
+      "id": "a9a053efeec7",
+      "korean": "서빙",
+      "vietnamese": "serving (phục vụ model / inference serving)",
+      "romanization": "seo-bing",
+      "pos": "other",
+      "meaning": "Đưa model AI vào môi trường phục vụ request người dùng",
+      "context": "MLOps / production AI",
+      "example": "",
+      "source_url": "https://tech.kakao.com/posts/821",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "mlops"
       ],
       "category": "other"
     },
@@ -2312,6 +2402,42 @@
       "category": "organization"
     },
     {
+      "id": "a5b6cf78e3d9",
+      "korean": "워밍업",
+      "vietnamese": "warm-up / làm nóng model",
+      "romanization": "wo-ming-eop",
+      "pos": "other",
+      "meaning": "Chạy inference giả lúc start để bỏ cold start",
+      "context": "server start VoiceBox",
+      "example": "",
+      "source_url": "https://tech.kakao.com/posts/821",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "mlops"
+      ],
+      "category": "other"
+    },
+    {
+      "id": "c4535eaf5ae1",
+      "korean": "워터마킹",
+      "vietnamese": "watermarking / gắn watermark",
+      "romanization": "wo-teo-ma-king",
+      "pos": "other",
+      "meaning": "Chèn dấu nhận diện vào audio AI sinh ra",
+      "context": "Kanana-Omni Server ethical AI",
+      "example": "",
+      "source_url": "https://tech.kakao.com/posts/821",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "ai"
+      ],
+      "category": "other"
+    },
+    {
       "id": "acc142694191",
       "korean": "월드 프리미어",
       "vietnamese": "world premiere / ra mắt thế giới",
@@ -2346,6 +2472,44 @@
         "comedian"
       ],
       "category": "celebrity"
+    },
+    {
+      "id": "b2c17a5f5be1",
+      "korean": "음성 대화",
+      "vietnamese": "hội thoại giọng nói / voice dialogue",
+      "romanization": "eum-seong dae-hwa",
+      "pos": "other",
+      "meaning": "Tương tác realtime bằng giọng",
+      "context": "Kanana-O serving scope",
+      "example": "",
+      "source_url": "https://tech.kakao.com/posts/821",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "ai",
+        "speech"
+      ],
+      "category": "other"
+    },
+    {
+      "id": "066798072386",
+      "korean": "음성 토큰",
+      "vietnamese": "token giọng / speech token",
+      "romanization": "eum-seong to-keun",
+      "pos": "other",
+      "meaning": "Đơn vị rời rạc trung gian trước khi synthesize waveform",
+      "context": "Kanana-O Talker → VoiceBox",
+      "example": "",
+      "source_url": "https://tech.kakao.com/posts/821",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "ai",
+        "tts"
+      ],
+      "category": "other"
     },
     {
       "id": "5362a56b7642",
@@ -2454,6 +2618,24 @@
         "media"
       ],
       "category": "noun"
+    },
+    {
+      "id": "a3394787ccb3",
+      "korean": "임베딩",
+      "vietnamese": "embedding",
+      "romanization": "im-be-ding",
+      "pos": "other",
+      "meaning": "Vector biểu diễn ẩn (hidden state) truyền giữa stage model",
+      "context": "Thinker → Talker",
+      "example": "",
+      "source_url": "https://tech.kakao.com/posts/821",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "ai"
+      ],
+      "category": "other"
     },
     {
       "id": "bd3208440fb3",
@@ -2903,6 +3085,26 @@
       "category": "other"
     },
     {
+      "id": "06422c7221fe",
+      "korean": "카나나-오",
+      "vietnamese": "Kanana-o / Kanana-O",
+      "romanization": "ka-na-na-o",
+      "pos": "other",
+      "meaning": "Mô hình AI omni/multimodal của Kakao (text, ảnh, audio → text + giọng)",
+      "context": "serving production, voice dialogue",
+      "example": "",
+      "source_url": "https://tech.kakao.com/posts/821",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "kakao",
+        "ai",
+        "kanana"
+      ],
+      "category": "other"
+    },
+    {
       "id": "5bcf865e3453",
       "korean": "카카오",
       "vietnamese": "Kakao",
@@ -2919,6 +3121,25 @@
         "tech"
       ],
       "category": "organization"
+    },
+    {
+      "id": "ddbc862125c0",
+      "korean": "카카오테크",
+      "vietnamese": "Kakao Tech",
+      "romanization": "ka-ka-o-te-keu",
+      "pos": "organization",
+      "meaning": "Blog kỹ thuật chính thức của Kakao",
+      "context": "tech.kakao.com",
+      "example": "",
+      "source_url": "https://tech.kakao.com/posts/821",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "kakao",
+        "tech"
+      ],
+      "category": "other"
     },
     {
       "id": "81e6733e155d",
@@ -3064,6 +3285,24 @@
         "event"
       ],
       "category": "noun"
+    },
+    {
+      "id": "fe8811382cea",
+      "korean": "콜드 스타트",
+      "vietnamese": "cold start",
+      "romanization": "kol-deu seu-ta-teu",
+      "pos": "other",
+      "meaning": "Lần inference đầu chậm do compile/alloc",
+      "context": "PyTorch GPU serving",
+      "example": "",
+      "source_url": "https://tech.kakao.com/posts/821",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "mlops"
+      ],
+      "category": "other"
     },
     {
       "id": "43352905fc79",
@@ -3297,6 +3536,24 @@
         "actor"
       ],
       "category": "celebrity"
+    },
+    {
+      "id": "057561c218f4",
+      "korean": "프로덕션",
+      "vietnamese": "production / môi trường production",
+      "romanization": "peu-ro-deok-syeon",
+      "pos": "other",
+      "meaning": "Môi trường dịch vụ thật (không phải lab/nghiên cứu)",
+      "context": "triển khai AI",
+      "example": "",
+      "source_url": "https://tech.kakao.com/posts/821",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "mlops"
+      ],
+      "category": "other"
     },
     {
       "id": "76720dfd4f39",

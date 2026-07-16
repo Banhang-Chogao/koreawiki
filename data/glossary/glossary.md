@@ -1,11 +1,12 @@
 # KoreaWiki Translation Memory (Korean → Vietnamese)
 
-> Private linguistic asset. Updated: 2026-07-16T13:10:38+00:00
-> Entries: 199
+> Private linguistic asset. Updated: 2026-07-16T13:27:01+00:00
+> Entries: 213
 
 | Korean | Vietnamese | Context | Category | Source | Updated |
 |--------|------------|---------|----------|--------|---------|
 | 건축 | kiến trúc | architecture | other | https://www.archdaily.com/975033/our-lady-of-victoria-monastery-localworks | 2026-07-16 |
+| 멀티모달 | multimodal / đa phương thức | AI | other | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
 | 배우 | diễn viên | ngành giải trí | noun | https://example.com/test | 2026-07-16 |
 | AI로 만들기 | Tạo bằng AI | KakaoTalk / AI | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
 | ~에 따르면 | theo… | báo chí | grammar |  | 2026-07-16 |
@@ -26,6 +27,7 @@
 | 공개 | công bố / công khai | truyền thông | verb |  | 2026-07-16 |
 | 공시 | công bố thông tin / disclosure | tài chính / quản trị | noun | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 공식 | chính thức | thông cáo | adjective |  | 2026-07-16 |
+| 공유 메모리 | shared memory / bộ nhớ dùng chung | Kanana-Omni Server IPC | other | https://tech.kakao.com/posts/821 | 2026-07-16 |
 | 공정거래위원회 | Ủy ban Thương mại Công bằng (FTC) | pháp lý / chính sách | organization | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 곽범 | Kwak Beom | giải trí | celebrity | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
 | 관계자 | người liên quan / nguồn tin | báo chí | noun |  | 2026-07-16 |
@@ -51,6 +53,7 @@
 | 대표이사 | CEO / đại diện pháp lý công ty | doanh nghiệp | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
 | 대화 요약 | tóm tắt hội thoại | KakaoTalk / AI | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
 | 데뷔 | ra mắt / debut | sự nghiệp | noun |  | 2026-07-16 |
+| 동시 접속 | đồng thời / concurrent users | benchmark 64 users | other | https://tech.kakao.com/posts/821 | 2026-07-16 |
 | 동일인 | người kiểm soát / controller | luật cạnh tranh / công bố tập đoàn | noun | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 드라마 | phim truyền hình / drama | truyền hình | drama |  | 2026-07-16 |
 | 디바이스경험 | Device Experience (DX) | Samsung DX | organization | https://n.news.naver.com/mnews/article/021/0002805238 | 2026-07-16 |
@@ -59,7 +62,6 @@
 | 라인업 | lineup / danh sách nghệ sĩ | sự kiện | other | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 만기 출소 | xuất ngục đúng hạn / hết hạn chấp hành | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 말복 | Malbok / phục cuối | last dog day | other | https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667 | 2026-07-16 |
-| 멀티모달 | multimodal / đa phương thức | AI | other | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
 | 멀티턴 | multi-turn (hội thoại nhiều lượt) | AI | other | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
 | 메모리 | Memory / bộ nhớ (bán dẫn) | Samsung DS | other | https://n.news.naver.com/mnews/article/021/0002805238 | 2026-07-16 |
 | 메이커스 | Makers (Kakao) | Kakao Makers | other | https://www.kakaocorp.com/page/detail/12080 | 2026-07-16 |
@@ -74,7 +76,9 @@
 | 벅스 | Bugs | âm nhạc / chart | organization | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 범죄도시 | The Roundup / Crime City | điện ảnh | movie | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 법무부 | Bộ Tư pháp | chính phủ | organization | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
+| 베타테스트 | beta test / thử nghiệm beta | Kanana-O status | other | https://tech.kakao.com/posts/821 | 2026-07-16 |
 | 벽돌 | gạch (xây) | brick | other | https://www.archdaily.com/975033/our-lady-of-victoria-monastery-localworks | 2026-07-16 |
+| 병목 | bottleneck / nút thắt | tối ưu serving | other | https://tech.kakao.com/posts/821 | 2026-07-16 |
 | 보도 | đưa tin / báo cáo | báo chí | noun |  | 2026-07-16 |
 | 보도자료 | thông cáo báo chí / press release | báo chí / PR | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
 | 보호관찰 | giám sát bảo hộ / quản chế | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
@@ -90,6 +94,7 @@
 | 삼성전자 | Samsung Electronics | doanh nghiệp / bán dẫn | organization | https://n.news.naver.com/mnews/article/021/0002805238 | 2026-07-16 |
 | 삼성전자지부 | chi nhánh Samsung Electronics (công đoàn) | 초기업노조 | organization | https://n.news.naver.com/mnews/article/021/0002805238 | 2026-07-16 |
 | 서머배시 | Summer Bash | sự kiện / Mỹ | other | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
+| 서빙 | serving (phục vụ model / inference serving) | MLOps / production AI | other | https://tech.kakao.com/posts/821 | 2026-07-16 |
 | 서울 | Seoul | địa danh | location |  | 2026-07-16 |
 | 서울고등법원 | Tòa thượng thẩm Seoul | tư pháp | organization | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 서울구치소 | trại giam Seoul | tư pháp | location | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
@@ -133,14 +138,19 @@
 | 오픈채팅 | open chat / phòng chat mở | KakaoTalk | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
 | 옴니 | omni / omni-modal | AI | other | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
 | 와이쥐 | YG Entertainment | công ty | organization |  | 2026-07-16 |
+| 워밍업 | warm-up / làm nóng model | server start VoiceBox | other | https://tech.kakao.com/posts/821 | 2026-07-16 |
+| 워터마킹 | watermarking / gắn watermark | Kanana-Omni Server ethical AI | other | https://tech.kakao.com/posts/821 | 2026-07-16 |
 | 월드 프리미어 | world premiere / ra mắt thế giới | điện ảnh / LHP | other | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 유병재 | Yoo Byung-jae | giải trí | celebrity | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
+| 음성 대화 | hội thoại giọng nói / voice dialogue | Kanana-O serving scope | other | https://tech.kakao.com/posts/821 | 2026-07-16 |
+| 음성 토큰 | token giọng / speech token | Kanana-O Talker → VoiceBox | other | https://tech.kakao.com/posts/821 | 2026-07-16 |
 | 음원 | nhạc số / digital track | âm nhạc | noun |  | 2026-07-16 |
 | 음주운전 | lái xe khi say rượu | pháp lý / giao thông | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 이감 | chuyển trại / chuyển giam | tư pháp / cải tạo | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 이직 | nghỉ việc / chuyển việc / turnover | nhân sự | other | https://n.news.naver.com/mnews/article/021/0002805238 | 2026-07-16 |
 | 이직 의향 | ý định nghỉ việc / intent to leave | khảo sát công đoàn | other | https://n.news.naver.com/mnews/article/021/0002805238 | 2026-07-16 |
 | 인터뷰 | phỏng vấn | báo chí | noun |  | 2026-07-16 |
+| 임베딩 | embedding | Thinker → Talker | other | https://tech.kakao.com/posts/821 | 2026-07-16 |
 | 입장 | lập trường / tuyên bố | truyền thông | noun |  | 2026-07-16 |
 | 자사주 | cổ phiếu tự doanh / treasury/company stock grant | thưởng Samsung | other | https://n.news.naver.com/mnews/article/021/0002805238 | 2026-07-16 |
 | 정기 업데이트 | cập nhật định kỳ | phần mềm | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
@@ -166,7 +176,9 @@
 | 출연 | tham gia / đóng vai | giải trí | noun |  | 2026-07-16 |
 | 카나나 오리지널 | Kanana-original | marketing / AI | other | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
 | 카나나-오 | Kanana-o | AI / công nghệ | other | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
+| 카나나-오 | Kanana-o / Kanana-O | serving production, voice dialogue | other | https://tech.kakao.com/posts/821 | 2026-07-16 |
 | 카카오 | Kakao | công nghệ / doanh nghiệp | organization | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
+| 카카오테크 | Kakao Tech | tech.kakao.com | other | https://tech.kakao.com/posts/821 | 2026-07-16 |
 | 카카오톡 | KakaoTalk | công nghệ | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
 | 카카오톡 채널 | KakaoTalk Channel | KakaoTalk | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
 | 칸국제영화제 | Liên hoan phim Cannes | điện ảnh | organization | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
@@ -175,6 +187,7 @@
 | 케이드라마 | K-drama | truyền hình | noun |  | 2026-07-16 |
 | 케이팝 | K-pop | âm nhạc | noun |  | 2026-07-16 |
 | 콘서트 | buổi hòa nhạc / concert | sự kiện | noun |  | 2026-07-16 |
+| 콜드 스타트 | cold start | PyTorch GPU serving | other | https://tech.kakao.com/posts/821 | 2026-07-16 |
 | 쿠팡 | Coupang | doanh nghiệp / thương mại điện tử | organization | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 타이틀곡 | bài chủ đề / title track | âm nhạc | noun |  | 2026-07-16 |
 | 톡딜 | Talk Deal (Kakao commerce) | Kakao commerce | other | https://www.kakaocorp.com/page/detail/12080 | 2026-07-16 |
@@ -188,6 +201,7 @@
 | 팬 | fan | fandom | noun |  | 2026-07-16 |
 | 팬미팅 | fan meeting | sự kiện | noun |  | 2026-07-16 |
 | 표예진 | Pyo Ye-jin | diễn viên | celebrity | https://www.dispatch.co.kr/2344420 | 2026-07-16 |
+| 프로덕션 | production / môi trường production | triển khai AI | other | https://tech.kakao.com/posts/821 | 2026-07-16 |
 | 프로젝트 단골 | Project Dangol / dự án khách quen (Kakao SME) | Kakao small business | other | https://www.kakaocorp.com/page/detail/12080 | 2026-07-16 |
 | 플러스엠 엔터테인먼트 | Plus M Entertainment | ngành điện ảnh | organization | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 하이브 | HYBE | công ty | organization |  | 2026-07-16 |
