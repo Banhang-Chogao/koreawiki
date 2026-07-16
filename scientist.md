@@ -209,6 +209,20 @@ git commit --allow-empty -m "redeploy article" && git push
 
 ---
 
+## Entry 026 — 2026-07-16: mm must fetch ALL images (not cover-only)
+
+**Change:** `mm` Step 6 downloads **every usable photo** from the original article, not
+just the first cover. Cover still goes to front matter; additional images are saved as
+`<slug>-01`, `-02`, … and **embedded in the Markdown body**.
+
+**Helper:** `python3 scripts/fetch_cover.py --page URL --slug … --all` → JSON
+`{cover, count, images[]}`. Also improves extraction (lazy attrs, srcset, JSON-LD,
+CDN URL harvest, content-hash dedup, browser UA, story-folder filter).
+
+**Why:** Cover-only left multi-photo Dispatch/Kakao pieces looking empty mid-article.
+
+---
+
 ## Entry 025 — 2026-07-16: Localize EN scaffold posts → Vietnamese
 
 **Fact:** ~40 posts from initial blog scaffold were **demo English** content with
@@ -230,6 +244,7 @@ git commit --allow-empty -m "redeploy article" && git push
 original Korean article, download into `static/images/YYYY/MM/`, set `cover.image`.
 
 **Helper:** `python3 scripts/fetch_cover.py --page URL --slug …` (or `--image URL`).
+**Superseded in part by Entry 026** (`--all` gallery).
 
 **QA:** `scripts/optimize_images.py` also checks front-matter `cover.image` exists under
 `static/` and rejects remote-only covers.

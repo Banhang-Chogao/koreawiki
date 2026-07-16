@@ -1,5 +1,5 @@
 ---
-description: Publish a Korean news article to KoreaWiki with full workflow (fetch → translate → rewrite → TM extract → Hugo build → QA → deploy).
+description: Publish a Korean news article to KoreaWiki with full workflow (fetch → translate → rewrite → fetch ALL source images → TM extract → Hugo build → QA → deploy).
 agent: general
 ---
 
@@ -35,7 +35,7 @@ Fetch the webpage. Extract:
 - category
 - tags
 - canonical URL
-- **featured / lead image URL(s)** (required attempt — see Step 6)
+- **all article image URL(s)** (required attempt — see Step 6; not just the lead photo)
 
 Ignore ads, comments, recommendations, scripts, navigation.
 
@@ -43,7 +43,7 @@ Ignore ads, comments, recommendations, scripts, navigation.
 - Use the pasted text as article body
 - Use newspaper name provided by user as source
 - Use provided date/author if available
-- **Ask user for an image URL** if they have one; still try to locate the original article URL to fetch a cover (Step 6)
+- **Ask user for image URL(s)** if they have any; still try to locate the original article URL to fetch **all** images (Step 6)
 
 ## Step 3 — Consult Translation Memory (required)
 
@@ -76,54 +76,80 @@ Original wording, objective tone, professional news writing. Do not closely mirr
 
 Include: title, description, slug, keywords, summary, categories, tags.
 
-## Step 6 — Cover image from original source (**MANDATORY effort**)
+## Step 6 — **ALL images** from original source (**MANDATORY effort**)
 
-**Policy:** Every `mm` post **must try hard** to ship with a real cover image taken from
-the **original Korean article** (or a known original-page URL). Empty `cover` is a last
-resort only after documented failed attempts — not the default.
+**Policy:** Every `mm` post **must try hard** to pull **every usable photo** from the
+**original Korean article** (or a known original-page URL) — **not only one cover**.
+
+| Role | How it ships |
+|------|----------------|
+| **Best / lead image** | Front matter `cover.image` + usually also first figure in body if useful |
+| **Every other article photo** | Hosted under `static/images/…` and **embedded in the Markdown body** between related sections |
+| Empty gallery | Last resort only after documented failed attempts |
+
+**Do not** stop after the first successful download. **Do not** leave body photos only on the remote CDN.
 
 ### 6a — Locate candidates (try all that apply)
 
 | Priority | Source | How |
 |----------|--------|-----|
-| 1 | User pasted a **URL** | Extract from that page |
-| 2 | User pasted **raw text** only | Search original by title + author/publisher (Hankyoreh, Dispatch, Dailian, Korea Times, …) → open matching page |
+| 1 | User pasted a **URL** | Extract **all** images from that page |
+| 2 | User pasted **raw text** only | Search original by title + author/publisher → open matching page |
 | 3 | Syndicated / Daum / Naver copy | Follow to publisher canonical if present |
-| 4 | User provides a direct image URL | Use as `--image` |
+| 4 | User provides direct image URL(s) | Pass each as `--image` (repeatable) |
 
-**Extraction targets (in order):**
+**Extraction targets (script collects all, then filters junk):**
 
 1. `og:image` / `og:image:secure_url`
 2. `twitter:image` / `twitter:image:src`
-3. First large in-article `<img>` (skip logos, icons, avatars, 1×1 pixels, share buttons)
+3. In-article `<img>` / `srcset` / lazy `data-src` / `data-original` (skip logos, icons, avatars, 1×1, share buttons, related-rail thumbs, YouTube sidebar)
 4. `link rel="image_src"` / thumbnail meta
+5. JSON-LD / inline script image URLs + CDN URL harvest in HTML
 
-### 6b — Download into the repo (required when a candidate exists)
+### 6b — Download **all** into the repo (required)
 
-Prefer the helper (handles UA, scoring, magic-byte check):
+**Always use `--all` for `mm`** (JSON stdout lists every saved file):
 
 ```bash
-# From original article page (preferred)
-python3 scripts/fetch_cover.py --page "https://SOURCE_ARTICLE_URL" --slug "your-article-slug"
+# Preferred: every image on the original article page
+python3 scripts/fetch_cover.py --page "https://SOURCE_ARTICLE_URL" --slug "your-article-slug" --all
 
-# Or direct image URL
-python3 scripts/fetch_cover.py --image "https://CDN/.../photo.jpg" --slug "your-article-slug"
+# Extra direct URLs (merge + download all)
+python3 scripts/fetch_cover.py --page "https://SOURCE" --slug "slug" --all \
+  --image "https://CDN/.../extra1.jpg" --image "https://CDN/.../extra2.jpg"
 
-# Inspect only
+# Inspect candidates only
 python3 scripts/fetch_cover.py --page "https://..." --slug "your-article-slug" --dry-run
+```
+
+Stdout (with `--all`) is JSON:
+
+```json
+{
+  "cover": "images/YYYY/MM/<slug>-cover.jpg",
+  "count": 3,
+  "images": [
+    {"path": "images/YYYY/MM/<slug>-cover.jpg", "source_url": "...", "role": "cover"},
+    {"path": "images/YYYY/MM/<slug>-01.jpg", "source_url": "...", "role": "body"},
+    {"path": "images/YYYY/MM/<slug>-02.jpg", "source_url": "...", "role": "body"}
+  ]
+}
 ```
 
 Rules:
 
 - Save under `static/images/YYYY/MM/` (script default uses current UTC year/month)
-- Filename: `<slug>-cover.jpg` (or `.png` / `.webp`)
-- Front matter path is **relative to `static/`**, e.g. `images/2026/07/my-slug-cover.jpg`
-- Retry up to several candidates if the first download fails (hotlink block, 403, tiny file)
-- If helper fails, fall back to `curl -L -A "Mozilla/5.0 ..." -o static/images/...`
-- **Never** leave only a remote `https://...` URL in `cover.image` — always host under `static/`
+- Filenames: `<slug>-cover.<ext>`, then `<slug>-01.<ext>`, `<slug>-02.<ext>`, …
+- Paths in front matter / Markdown are **relative to `static/`** (no leading domain)
+- Dedup by URL identity + content hash; skip tracking pixels / logos automatically
+- If one URL 403s, continue with the rest — do not abort the whole gallery
+- Fallback: `curl -L -A "Mozilla/5.0 ..." -o static/images/...` for any remaining known CDN URLs
+- **Never** leave remote-only `https://...` in `cover.image` or body `![](https://...)`
 - **Never fabricate** photo credits; attribute publisher / photographer only when known
 
-### 6c — Wire front matter
+### 6c — Wire front matter (cover) **and** body (gallery)
+
+**Cover (required when Step 6 saved ≥1 image):**
 
 ```yaml
 cover:
@@ -132,16 +158,37 @@ cover:
   caption: "Nguồn ảnh: [Tên báo / phóng viên] — không bịa"
 ```
 
-### 6d — When you may ship without cover
+**Body (required for every additional `role: body` image — and recommended for cover too if it is a story photo):**
+
+Place figures near the related paragraph/heading (not all dumped only at the end unless the source is a pure photo gallery):
+
+```markdown
+![Mô tả ảnh 1](/images/YYYY/MM/<slug>-cover.jpg)
+*Nguồn ảnh: Dispatch / Plus M — không bịa*
+
+## Tiêu đề mục tiếp
+
+Nội dung…
+
+![Mô tả ảnh 2](/images/YYYY/MM/<slug>-01.jpg)
+*Chú thích ngắn nếu có trên bài gốc*
+```
+
+- Use site-root paths `/images/...` in Markdown so Hugo resolves static assets
+- Keep caption factual (credit from source page only)
+- If the source has **N** content photos, the published post should host **N** (minus true duplicates / junk)
+
+### 6d — When you may ship without images
 
 Only if **all** of the following are true:
 
 1. No usable `og:image` / body image on the source (or source is text-only paywall)
 2. Search for the original article found no matching page with photos
-3. User did not provide an image URL
-4. You report in the success summary: `image: none (reason: …)`
+3. User did not provide any image URL
+4. You report in the success summary: `images: none (reason: …)`
 
 Do **not** skip Step 6 because “optional” or “can add later.”
+Do **not** ship only the cover when the source page clearly has more article photos.
 
 ## Step 7 — Generate Hugo front matter
 
@@ -285,13 +332,13 @@ Only if every QA check passes. If any validation fails, STOP, display errors, do
 ## Pipeline summary
 
 ```
-URL/text → fetch (+ image candidates) → consult TM → translate → rewrite
-  → fetch_cover.py (mandatory effort) → Hugo article with cover
+URL/text → fetch (+ ALL image candidates) → consult TM → translate → rewrite
+  → fetch_cover.py --all (cover + every body photo) → Hugo article with gallery
   → extract TM → upsert glossary → sync public glossary page
   → scientist.md QA → Hugo build → deploy
 ```
 
-No manual glossary work required on the happy path. Cover image is part of the happy path.
+No manual glossary work required on the happy path. **Full image gallery from source** is part of the happy path (not cover-only).
 
 ## Rules
 
@@ -300,7 +347,7 @@ No manual glossary work required on the happy path. Cover image is part of the h
 - Produce original Vietnamese article, not a close translation
 - Prefer Translation Memory terminology for consistency
 - Luôn dẫn nguồn ở cuối bài: nếu là URL → ghi dạng `Nguồn: [Tên báo] — [URL]`; nếu là text thô → ghi `Nguồn: [Tên báo gốc]`
-- **Cover image:** **must attempt** fetch from original source (Step 6 + `scripts/fetch_cover.py`). Host under `static/images/…`. Remote-only covers are not allowed.
+- **Images:** **must attempt** `python3 scripts/fetch_cover.py --page URL --slug … --all`. Host **every** usable source photo under `static/images/…`. Set `cover` from the best image; **embed the rest in the body**. Remote-only image URLs are not allowed.
 - **Never ship without** front-matter `faq:` (≥2) **and** `{{< article-footer >}}` (CI rejects). If unsure, run `python3 scripts/apply_article_footer.py --apply` then `python3 scripts/qa.py`
 - Follow every rule in scientist.md and AGENTS.md
 - Never push failing code
@@ -309,4 +356,4 @@ No manual glossary work required on the happy path. Cover image is part of the h
 - Never publish without successful validation
 - Never expose raw TM database files on the public site
 
-Return a success summary: title, category, slug, **image status** (`path` + source URL, or `none` + reason), TM entries added/merged, QA result, build result, git commit hash, deployment status.
+Return a success summary: title, category, slug, **image status** (`cover` + list of body paths + source URLs, or `none` + reason), TM entries added/merged, QA result, build result, git commit hash, deployment status.
