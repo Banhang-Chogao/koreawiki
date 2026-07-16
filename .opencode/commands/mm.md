@@ -88,19 +88,28 @@ If no reusable image: use no image.
 
 ## Step 7 — Generate Hugo front matter
 
-```toml
-+++
-title=""
-description=""
-date=""
-updated=""
-slug=""
-categories=[]
-tags=[]
-draft=false
-cover=""
-+++
+```yaml
+---
+title: ""
+description: ""
+# CRITICAL for homepage: date = when the post goes live on KoreaWiki (usually today).
+# Do NOT use the source newspaper's old date alone — that buries the post under older feed pages.
+date: 2026-07-16
+lastmod: 2026-07-16
+source_date: 2026-06-24   # optional: original publish date of the Korean source
+slug: ""
+categories: []
+tags: []
+draft: false
+cover:
+  image: ""
+  alt: ""
+faq: []   # required
+---
 ```
+
+**Homepage sort:** `layouts/index.html` uses `.Site.RegularPages.ByDate.Reverse` then paginates.
+Only the newest `date` values appear on page 1 (hero + grid). Source date goes in body (`Nguồn:`) and optional `source_date`, not as the sole `date` if it is older than current site posts.
 
 ## Step 8 — Generate Markdown article
 

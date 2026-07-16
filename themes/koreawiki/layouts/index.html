@@ -1,6 +1,11 @@
 {{ define "main" }}
 {{/*
   Classic newsroom homepage: one global chronological feed (newest first).
+  Sort key = page .Date (front matter `date`), then lastmod as tie-break.
+  mm must set `date` to KoreaWiki publish time (usually today), NOT only the
+  original newspaper date — otherwise new posts with old source dates sink
+  to later pagination pages and look "missing" from the homepage.
+  Optional front matter `source_date` is for attribution only (not used here).
   No per-category blocks, no latest-per-section queries, no duplicate cards.
 */}}
 {{ $pages := where .Site.RegularPages "Type" "ne" "page" }}

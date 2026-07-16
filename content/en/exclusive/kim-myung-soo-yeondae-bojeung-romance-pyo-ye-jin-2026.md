@@ -1,7 +1,10 @@
 ---
 title: "Kim Myung-soo đóng chính romance 'Yeondae Bojeung Romance' cùng Pyo Ye-jin"
 description: "Nam diễn viên Kim Myung-soo xác nhận vai chính drama romance 12 tập; Pyo Ye-jin được cho là nữ chính. Dự án quay nhiều cảnh tại Singapore, dự kiến bấm máy hè 2026."
-date: 2026-06-24
+date: 2026-07-16
+lastmod: 2026-07-16
+# Original Dispatch publish time (for attribution only — homepage sorts by date)
+source_date: 2026-06-24
 draft: false
 author: KoreaWiki Newsroom
 cover:

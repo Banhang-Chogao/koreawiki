@@ -209,6 +209,21 @@ git commit --allow-empty -m "redeploy article" && git push
 
 ---
 
+## Entry 021 — 2026-07-16: Homepage missing new post (date = source date too old)
+
+**Error:** Bài mm mới (Dispatch Kim Myung-soo) không thấy trên trang chủ dù đã deploy.
+
+**Root cause:** Homepage `ByDate.Reverse` + pagination. Front matter `date` bị set = ngày báo gốc (2026-06-24) trong khi feed đang đầy bài 2026-07-14…16 → bài mới rơi **page 5**.
+
+**Fix:**
+- `date` / `lastmod` = ngày đăng KoreaWiki (thường là hôm nay)
+- `source_date` = ngày bài gốc (hiển thị phụ, không dùng sort)
+- Document in `mm.md` + comment in `layouts/index.html`
+
+**Prevention:** mm Step 7 never uses only source date for `date` when it is older than current homepage window.
+
+---
+
 ## Entry 020 — 2026-07-16: Enforce article-footer + faq on every post
 
 **Rule:** Mọi bài (mm / tay / AI / import) **bắt buộc** có:
