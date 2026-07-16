@@ -7,6 +7,10 @@ description: Phó phòng truyền thông Sa Jun-seo chia sẻ về hành trình 
 date: 2026-07-16
 draft: false
 author: Song Jeong-hoon (OhmyNews)
+cover:
+  image: images/2026/07/incheon-independent-film-festival-2026.jpg
+  alt: "Sa Jun-seo, Phó phòng Truyền thông Liên hoan phim độc lập Incheon lần thứ 13"
+  caption: "Sa Jun-seo — Ảnh: Song Jeong-hoon / OhmyNews"
 tags:
 - incheon
 - independent-film
