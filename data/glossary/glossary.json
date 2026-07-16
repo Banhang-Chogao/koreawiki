@@ -1,7 +1,7 @@
 {
   "version": 1,
   "language_pair": "ko-vi",
-  "updated": "2026-07-16T13:04:20+00:00",
+  "updated": "2026-07-16T13:06:05+00:00",
   "entries": [
     {
       "id": "ed0f4da4b180",
@@ -770,6 +770,22 @@
       "category": "noun"
     },
     {
+      "id": "1a23459e2d05",
+      "korean": "단골가게",
+      "vietnamese": "Cửa hàng quen / Dangolgage",
+      "romanization": "dan-gol-ga-ge",
+      "pos": "",
+      "meaning": "",
+      "context": "Kakao shop support",
+      "example": "",
+      "source_url": "https://www.kakaocorp.com/page/detail/12080",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [],
+      "category": "other"
+    },
+    {
       "id": "03aac291c95c",
       "korean": "대표이사",
       "vietnamese": "CEO / đại diện pháp lý công ty",
@@ -965,6 +981,22 @@
       "tags": [
         "ai"
       ],
+      "category": "other"
+    },
+    {
+      "id": "b6e3caa85ba6",
+      "korean": "메이커스",
+      "vietnamese": "Makers (Kakao)",
+      "romanization": "me-i-keo-seu",
+      "pos": "",
+      "meaning": "",
+      "context": "Kakao Makers",
+      "example": "",
+      "source_url": "https://www.kakaocorp.com/page/detail/12080",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [],
       "category": "other"
     },
     {
@@ -1467,6 +1499,22 @@
         "prison"
       ],
       "category": "location"
+    },
+    {
+      "id": "edc049b25785",
+      "korean": "소상공인",
+      "vietnamese": "tiểu thương / SME nhỏ",
+      "romanization": "so-sang-gong-in",
+      "pos": "",
+      "meaning": "",
+      "context": "small merchants",
+      "example": "",
+      "source_url": "https://www.kakaocorp.com/page/detail/12080",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [],
+      "category": "other"
     },
     {
       "id": "2608d47c84a3",
@@ -2747,6 +2795,38 @@
       "category": "noun"
     },
     {
+      "id": "52cf4d09715a",
+      "korean": "톡딜",
+      "vietnamese": "Talk Deal (Kakao commerce)",
+      "romanization": "tok-dil",
+      "pos": "",
+      "meaning": "",
+      "context": "Kakao commerce",
+      "example": "",
+      "source_url": "https://www.kakaocorp.com/page/detail/12080",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [],
+      "category": "other"
+    },
+    {
+      "id": "3912353a25e0",
+      "korean": "톡채널",
+      "vietnamese": "Talk Channel / kênh KakaoTalk",
+      "romanization": "tok-chae-neol",
+      "pos": "",
+      "meaning": "",
+      "context": "KakaoTalk channel",
+      "example": "",
+      "source_url": "https://www.kakaocorp.com/page/detail/12080",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [],
+      "category": "other"
+    },
+    {
       "id": "3ae1ab0e7668",
       "korean": "통화 긴축",
       "vietnamese": "thắt chặt tiền tệ / monetary tightening",
@@ -2872,6 +2952,22 @@
         "actor"
       ],
       "category": "celebrity"
+    },
+    {
+      "id": "76720dfd4f39",
+      "korean": "프로젝트 단골",
+      "vietnamese": "Project Dangol / dự án khách quen (Kakao SME)",
+      "romanization": "peu-ro-jek-teu dan-gol",
+      "pos": "",
+      "meaning": "",
+      "context": "Kakao small business",
+      "example": "",
+      "source_url": "https://www.kakaocorp.com/page/detail/12080",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [],
+      "category": "other"
     },
     {
       "id": "4893f0acef18",

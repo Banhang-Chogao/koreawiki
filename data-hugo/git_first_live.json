@@ -53,6 +53,12 @@
     "short": "e8faecc",
     "unix": 1784174076
   },
+  "en/culture/boknal-sam-phuc-mua-he-han-quoc.md": {
+    "hash": "d51d1bf316446b52bee63dffae73e0df9e6249f8",
+    "iso": "2026-07-16T13:02:55Z",
+    "short": "d51d1bf",
+    "unix": 1784206975
+  },
   "en/culture/hanbok-modern-revival.md": {
     "hash": "ff76974583622e08a5b99a33b89fd98383c9fe76",
     "iso": "2026-07-16T02:40:28Z",
@@ -250,6 +256,12 @@
     "iso": "2026-07-16T02:40:28Z",
     "short": "ff76974",
     "unix": 1784169628
+  },
+  "en/news/bok-raises-base-rate-0-25-july-2026.md": {
+    "hash": "d2e887bee3a3578e169cbb4d0660c0f33c147a06",
+    "iso": "2026-07-16T13:04:20Z",
+    "short": "d2e887b",
+    "unix": 1784207060
   },
   "en/news/court-suspends-ftc-coupang-bom-kim-controller-2026.md": {
     "hash": "54dd068d31a6cb17b69654d6faff210c24acc07f",

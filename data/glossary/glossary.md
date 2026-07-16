@@ -1,7 +1,7 @@
 # KoreaWiki Translation Memory (Korean → Vietnamese)
 
-> Private linguistic asset. Updated: 2026-07-16T13:04:20+00:00
-> Entries: 174
+> Private linguistic asset. Updated: 2026-07-16T13:06:05+00:00
+> Entries: 180
 
 | Korean | Vietnamese | Context | Category | Source | Updated |
 |--------|------------|---------|----------|--------|---------|
@@ -47,6 +47,7 @@
 | 넷플릭스 | Netflix | streaming | organization |  | 2026-07-16 |
 | 노 레이블스: 파트 02 | No Labels: Part 02 | âm nhạc | other | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 논란 | tranh cãi / scandal | truyền thông | noun |  | 2026-07-16 |
+| 단골가게 | Cửa hàng quen / Dangolgage | Kakao shop support | other | https://www.kakaocorp.com/page/detail/12080 | 2026-07-16 |
 | 대표이사 | CEO / đại diện pháp lý công ty | doanh nghiệp | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
 | 대화 요약 | tóm tắt hội thoại | KakaoTalk / AI | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
 | 데뷔 | ra mắt / debut | sự nghiệp | noun |  | 2026-07-16 |
@@ -58,6 +59,7 @@
 | 말복 | Malbok / phục cuối | last dog day | other | https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667 | 2026-07-16 |
 | 멀티모달 | multimodal / đa phương thức | AI | other | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
 | 멀티턴 | multi-turn (hội thoại nhiều lượt) | AI | other | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
+| 메이커스 | Makers (Kakao) | Kakao Makers | other | https://www.kakaocorp.com/page/detail/12080 | 2026-07-16 |
 | 뮤직비디오 | MV / video ca nhạc | âm nhạc | noun |  | 2026-07-16 |
 | 미니 | mini album | âm nhạc | other | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 민음사 | Minumsa | xuất bản | organization | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
@@ -86,6 +88,7 @@
 | 서울고등법원 | Tòa thượng thẩm Seoul | tư pháp | organization | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 서울구치소 | trại giam Seoul | tư pháp | location | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 소망교도소 | nhà tù Somang | tư pháp / địa điểm | location | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
+| 소상공인 | tiểu thương / SME nhỏ | small merchants | other | https://www.kakaocorp.com/page/detail/12080 | 2026-07-16 |
 | 소속사 | công ty quản lý / agency | ngành | noun |  | 2026-07-16 |
 | 솔로 | solo | âm nhạc | noun |  | 2026-07-16 |
 | 수감 | bị giam / chấp hành án tù | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
@@ -157,6 +160,8 @@
 | 콘서트 | buổi hòa nhạc / concert | sự kiện | noun |  | 2026-07-16 |
 | 쿠팡 | Coupang | doanh nghiệp / thương mại điện tử | organization | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 타이틀곡 | bài chủ đề / title track | âm nhạc | noun |  | 2026-07-16 |
+| 톡딜 | Talk Deal (Kakao commerce) | Kakao commerce | other | https://www.kakaocorp.com/page/detail/12080 | 2026-07-16 |
+| 톡채널 | Talk Channel / kênh KakaoTalk | KakaoTalk channel | other | https://www.kakaocorp.com/page/detail/12080 | 2026-07-16 |
 | 통화 긴축 | thắt chặt tiền tệ / monetary tightening | chính sách tiền tệ | other | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
 | 투모로우바이투게더 | TOMORROW X TOGETHER / TXT | K-pop | celebrity | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 투어 | tour / chuyến lưu diễn | sự kiện | noun |  | 2026-07-16 |
@@ -164,6 +169,7 @@
 | 팬 | fan | fandom | noun |  | 2026-07-16 |
 | 팬미팅 | fan meeting | sự kiện | noun |  | 2026-07-16 |
 | 표예진 | Pyo Ye-jin | diễn viên | celebrity | https://www.dispatch.co.kr/2344420 | 2026-07-16 |
+| 프로젝트 단골 | Project Dangol / dự án khách quen (Kakao SME) | Kakao small business | other | https://www.kakaocorp.com/page/detail/12080 | 2026-07-16 |
 | 플러스엠 엔터테인먼트 | Plus M Entertainment | ngành điện ảnh | organization | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 하이브 | HYBE | công ty | organization |  | 2026-07-16 |
 | 한국은행 | Ngân hàng Trung ương Hàn Quốc / Bank of Korea (BOK) | chính sách tiền tệ | organization | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
