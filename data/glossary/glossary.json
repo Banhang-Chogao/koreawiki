@@ -1,7 +1,7 @@
 {
   "version": 1,
   "language_pair": "ko-vi",
-  "updated": "2026-07-16T13:01:59+00:00",
+  "updated": "2026-07-16T13:04:20+00:00",
   "entries": [
     {
       "id": "ed0f4da4b180",
@@ -256,6 +256,44 @@
       "category": "noun"
     },
     {
+      "id": "0f6c596b2660",
+      "korean": "고물가",
+      "vietnamese": "lạm phát cao / high inflation",
+      "romanization": "go-mul-ga",
+      "pos": "noun",
+      "meaning": "Mức giá tiêu dùng tăng mạnh",
+      "context": "kinh tế vĩ mô",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/437/0000501443",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "economy",
+        "inflation"
+      ],
+      "category": "other"
+    },
+    {
+      "id": "9ce72b639710",
+      "korean": "고환율",
+      "vietnamese": "tỷ giá cao / high exchange rate",
+      "romanization": "go-hwan-yul",
+      "pos": "noun",
+      "meaning": "Đồng won yếu / tỷ giá USD/KRW cao",
+      "context": "tỷ giá",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/437/0000501443",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "economy",
+        "fx"
+      ],
+      "category": "other"
+    },
+    {
       "id": "5eeae9eb8d96",
       "korean": "곡성",
       "vietnamese": "The Wailing",
@@ -456,6 +494,44 @@
       "category": "noun"
     },
     {
+      "id": "78e23b146020",
+      "korean": "금리 인상",
+      "vietnamese": "tăng lãi suất / rate hike",
+      "romanization": "geum-ri in-sang",
+      "pos": "phrase",
+      "meaning": "Quyết định nâng lãi suất chính sách",
+      "context": "BOK / Fed",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/437/0000501443",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "economy",
+        "rates"
+      ],
+      "category": "other"
+    },
+    {
+      "id": "2944c4b8095b",
+      "korean": "금융통화위원회",
+      "vietnamese": "Ủy ban Chính sách Tiền tệ (MPC)",
+      "romanization": "geum-yung-tong-hwa-wi-won-hoe",
+      "pos": "organization",
+      "meaning": "Cơ quan quyết định lãi suất tại BOK",
+      "context": "họp lãi suất BOK",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/437/0000501443",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "economy",
+        "bok"
+      ],
+      "category": "organization"
+    },
+    {
       "id": "8e5413b64ad0",
       "korean": "기업집단",
       "vietnamese": "tập đoàn doanh nghiệp",
@@ -473,6 +549,43 @@
         "regulation"
       ],
       "category": "noun"
+    },
+    {
+      "id": "e78040107289",
+      "korean": "기준금리",
+      "vietnamese": "lãi suất cơ sở / base rate",
+      "romanization": "gi-jun-geum-ri",
+      "pos": "noun",
+      "meaning": "Lãi suất chính sách của ngân hàng trung ương",
+      "context": "chính sách tiền tệ",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/437/0000501443",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "economy",
+        "rates"
+      ],
+      "category": "other"
+    },
+    {
+      "id": "03cfd6bdaa3e",
+      "korean": "긴축",
+      "vietnamese": "thắt chặt (tiền tệ) / tightening",
+      "romanization": "gin-chuk",
+      "pos": "noun",
+      "meaning": "Chính sách tiền tệ thắt chặt",
+      "context": "lãi suất / lạm phát",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/437/0000501443",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "economy"
+      ],
+      "category": "other"
     },
     {
       "id": "8c6d017a1977",
@@ -909,6 +1022,25 @@
       "category": "organization"
     },
     {
+      "id": "2d50017779dc",
+      "korean": "반도체",
+      "vietnamese": "bán dẫn / semiconductor",
+      "romanization": "ban-do-che",
+      "pos": "noun",
+      "meaning": "Ngành chip / linh kiện bán dẫn",
+      "context": "tăng trưởng kinh tế",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/437/0000501443",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "economy",
+        "tech"
+      ],
+      "category": "other"
+    },
+    {
       "id": "799f6213e055",
       "korean": "발표",
       "vietnamese": "công bố / announcement",
@@ -1196,6 +1328,24 @@
       "category": "other"
     },
     {
+      "id": "af9a19df4fd2",
+      "korean": "사진공동취재단",
+      "vietnamese": "đoàn phóng viên ảnh chung / joint press corps",
+      "romanization": "sa-jin-gong-dong-chwi-jae-dan",
+      "pos": "organization",
+      "meaning": "Pool ảnh báo chí chung",
+      "context": "credit ảnh tin tức",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/437/0000501443",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "media"
+      ],
+      "category": "organization"
+    },
+    {
       "id": "880a1fbced85",
       "korean": "삼계탕",
       "vietnamese": "samgyetang / canh gà nhân sâm",
@@ -1373,6 +1523,24 @@
       "category": "other"
     },
     {
+      "id": "20bc3ee094d9",
+      "korean": "수도권",
+      "vietnamese": "khu vực thủ đô / Seoul capital area",
+      "romanization": "su-do-gwon",
+      "pos": "location",
+      "meaning": "Vùng đô thị Seoul và lân cận",
+      "context": "giá nhà",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/437/0000501443",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "real-estate"
+      ],
+      "category": "location"
+    },
+    {
       "id": "c8e3450180a0",
       "korean": "수도원",
       "vietnamese": "tu viện / monastery",
@@ -1459,6 +1627,25 @@
         "awards"
       ],
       "category": "noun"
+    },
+    {
+      "id": "55b306f4ce6a",
+      "korean": "신현송",
+      "vietnamese": "Shin Hyun-song",
+      "romanization": "sin-hyeon-song",
+      "pos": "proper_noun",
+      "meaning": "Thống đốc Ngân hàng Trung ương Hàn Quốc",
+      "context": "BOK governor",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/437/0000501443",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "economy",
+        "bok"
+      ],
+      "category": "celebrity"
     },
     {
       "id": "68a09e615ed6",
@@ -2268,6 +2455,24 @@
       "category": "other"
     },
     {
+      "id": "9da67986ae56",
+      "korean": "총재",
+      "vietnamese": "thống đốc / governor",
+      "romanization": "chong-jae",
+      "pos": "noun",
+      "meaning": "Người đứng đầu ngân hàng trung ương",
+      "context": "BOK governor",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/437/0000501443",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "economy"
+      ],
+      "category": "other"
+    },
+    {
       "id": "a8d3b986f191",
       "korean": "출소",
       "vietnamese": "xuất ngục / ra tù",
@@ -2542,6 +2747,24 @@
       "category": "noun"
     },
     {
+      "id": "3ae1ab0e7668",
+      "korean": "통화 긴축",
+      "vietnamese": "thắt chặt tiền tệ / monetary tightening",
+      "romanization": "tong-hwa gin-chuk",
+      "pos": "phrase",
+      "meaning": "Giai đoạn nâng lãi suất, thu hẹp thanh khoản",
+      "context": "chính sách tiền tệ",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/437/0000501443",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "economy"
+      ],
+      "category": "other"
+    },
+    {
       "id": "097a1dca1ca1",
       "korean": "투모로우바이투게더",
       "vietnamese": "TOMORROW X TOGETHER / TXT",
@@ -2687,6 +2910,25 @@
       "category": "organization"
     },
     {
+      "id": "4313bec19b69",
+      "korean": "한국은행",
+      "vietnamese": "Ngân hàng Trung ương Hàn Quốc / Bank of Korea (BOK)",
+      "romanization": "han-guk-eun-haeng",
+      "pos": "organization",
+      "meaning": "Ngân hàng trung ương Hàn Quốc",
+      "context": "chính sách tiền tệ",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/437/0000501443",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "economy",
+        "bok"
+      ],
+      "category": "organization"
+    },
+    {
       "id": "9d7b9d87a4f1",
       "korean": "한류",
       "vietnamese": "Hallyu / làn sóng Hàn",
@@ -2721,6 +2963,25 @@
         "culture"
       ],
       "category": "noun"
+    },
+    {
+      "id": "c4cca612a0c3",
+      "korean": "한은",
+      "vietnamese": "BOK / Ngân hàng Trung ương Hàn Quốc (viết tắt)",
+      "romanization": "han-eun",
+      "pos": "organization",
+      "meaning": "Viết tắt của 한국은행",
+      "context": "báo chí kinh tế",
+      "example": "",
+      "source_url": "https://n.news.naver.com/mnews/article/437/0000501443",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "economy",
+        "bok"
+      ],
+      "category": "organization"
     },
     {
       "id": "57095c43634f",

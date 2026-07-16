@@ -1,7 +1,7 @@
 # KoreaWiki Translation Memory (Korean → Vietnamese)
 
-> Private linguistic asset. Updated: 2026-07-16T13:01:59+00:00
-> Entries: 160
+> Private linguistic asset. Updated: 2026-07-16T13:04:20+00:00
+> Entries: 174
 
 | Korean | Vietnamese | Context | Category | Source | Updated |
 |--------|------------|---------|----------|--------|---------|
@@ -19,6 +19,8 @@
 | 건축 | kiến trúc | architecture | other | https://www.archdaily.com/975033/our-lady-of-victoria-monastery-localworks | 2026-07-16 |
 | 결별 | chia tay | showbiz | noun |  | 2026-07-16 |
 | 결혼 | kết hôn | đời tư | noun |  | 2026-07-16 |
+| 고물가 | lạm phát cao / high inflation | kinh tế vĩ mô | other | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
+| 고환율 | tỷ giá cao / high exchange rate | tỷ giá | other | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
 | 곡성 | The Wailing | điện ảnh | movie | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 공감세포 | Gonggam Sepo | tên drama | drama | https://www.dispatch.co.kr/2344420 | 2026-07-16 |
 | 공개 | công bố / công khai | truyền thông | verb |  | 2026-07-16 |
@@ -30,7 +32,11 @@
 | 관심을 받다 | nhận được sự quan tâm | truyền thông | phrase |  | 2026-07-16 |
 | 굿모닝 아메리카 | Good Morning America | truyền hình Mỹ | organization | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 그룹 | nhóm nhạc | K-pop | noun |  | 2026-07-16 |
+| 금리 인상 | tăng lãi suất / rate hike | BOK / Fed | other | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
+| 금융통화위원회 | Ủy ban Chính sách Tiền tệ (MPC) | họp lãi suất BOK | organization | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
 | 기업집단 | tập đoàn doanh nghiệp | luật cạnh tranh | noun | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
+| 기준금리 | lãi suất cơ sở / base rate | chính sách tiền tệ | other | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
+| 긴축 | thắt chặt (tiền tệ) / tightening | lãi suất / lạm phát | other | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
 | 김명수 | Kim Myung-soo | diễn viên | celebrity | https://www.dispatch.co.kr/2344420 | 2026-07-16 |
 | 김범석 | Kim Bom-suk / Bom Kim | doanh nhân | celebrity | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 김유석 | Kim Yoo-seok | doanh nghiệp / Coupang | proper_noun | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
@@ -55,6 +61,7 @@
 | 뮤직비디오 | MV / video ca nhạc | âm nhạc | noun |  | 2026-07-16 |
 | 미니 | mini album | âm nhạc | other | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 민음사 | Minumsa | xuất bản | organization | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
+| 반도체 | bán dẫn / semiconductor | tăng trưởng kinh tế | other | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
 | 발표 | công bố / announcement | truyền thông | noun |  | 2026-07-16 |
 | 방송 | phát sóng / chương trình | truyền hình | noun |  | 2026-07-16 |
 | 방탄소년단 | BTS | K-pop | celebrity |  | 2026-07-16 |
@@ -71,6 +78,7 @@
 | 브이로그 | vlog | nội dung số | other | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
 | 블랙핑크 | BLACKPINK | K-pop | celebrity |  | 2026-07-16 |
 | 사전 예매 | đặt vé trước / pre-sale | phòng vé | other | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
+| 사진공동취재단 | đoàn phóng viên ảnh chung / joint press corps | credit ảnh tin tức | organization | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
 | 삼계탕 | samgyetang / canh gà nhân sâm | boknal food | other | https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667 | 2026-07-16 |
 | 삼복 | Sam-bok / ba ngày phục | chobok jungbok malbok | other | https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667 | 2026-07-16 |
 | 서머배시 | Summer Bash | sự kiện / Mỹ | other | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
@@ -81,11 +89,13 @@
 | 소속사 | công ty quản lý / agency | ngành | noun |  | 2026-07-16 |
 | 솔로 | solo | âm nhạc | noun |  | 2026-07-16 |
 | 수감 | bị giam / chấp hành án tù | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
+| 수도권 | khu vực thủ đô / Seoul capital area | giá nhà | location | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
 | 수도원 | tu viện / monastery | monastery | other | https://www.archdaily.com/975033/our-lady-of-victoria-monastery-localworks | 2026-07-16 |
 | 수상 | nhận giải | giải thưởng | noun |  | 2026-07-16 |
 | 스포티파이 | Spotify | âm nhạc | organization | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 시사회 | buổi công chiếu thử / premiere | điện ảnh | noun |  | 2026-07-16 |
 | 시상식 | lễ trao giải | giải thưởng | noun |  | 2026-07-16 |
+| 신현송 | Shin Hyun-song | BOK governor | celebrity | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
 | 싱가포르 | Singapore | địa danh | location | https://www.dispatch.co.kr/2344420 | 2026-07-16 |
 | 싱글 | single | âm nhạc | noun |  | 2026-07-16 |
 | 아이돌 | idol | K-pop | noun |  | 2026-07-16 |
@@ -131,6 +141,7 @@
 | 차트 | bảng xếp hạng | âm nhạc | noun |  | 2026-07-16 |
 | 챗봇 | chatbot | AI / messaging | other | https://www.kakaocorp.com/page/detail/12082 | 2026-07-16 |
 | 초복 | Chobok / phục đầu | first dog day | other | https://terms.naver.com/entry.naver?docId=6731546&cid=43667&categoryId=43667 | 2026-07-16 |
+| 총재 | thống đốc / governor | BOK governor | other | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
 | 출소 | xuất ngục / ra tù | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 출연 | tham gia / đóng vai | giải trí | noun |  | 2026-07-16 |
 | 카나나 오리지널 | Kanana-original | marketing / AI | other | https://www.kakaocorp.com/page/detail/12083 | 2026-07-16 |
@@ -146,6 +157,7 @@
 | 콘서트 | buổi hòa nhạc / concert | sự kiện | noun |  | 2026-07-16 |
 | 쿠팡 | Coupang | doanh nghiệp / thương mại điện tử | organization | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 타이틀곡 | bài chủ đề / title track | âm nhạc | noun |  | 2026-07-16 |
+| 통화 긴축 | thắt chặt tiền tệ / monetary tightening | chính sách tiền tệ | other | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
 | 투모로우바이투게더 | TOMORROW X TOGETHER / TXT | K-pop | celebrity | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 투어 | tour / chuyến lưu diễn | sự kiện | noun |  | 2026-07-16 |
 | 패션 | thời trang | thời trang | noun |  | 2026-07-16 |
@@ -154,8 +166,10 @@
 | 표예진 | Pyo Ye-jin | diễn viên | celebrity | https://www.dispatch.co.kr/2344420 | 2026-07-16 |
 | 플러스엠 엔터테인먼트 | Plus M Entertainment | ngành điện ảnh | organization | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 하이브 | HYBE | công ty | organization |  | 2026-07-16 |
+| 한국은행 | Ngân hàng Trung ương Hàn Quốc / Bank of Korea (BOK) | chính sách tiền tệ | organization | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
 | 한류 | Hallyu / làn sóng Hàn | văn hóa | noun |  | 2026-07-16 |
 | 한복 | hanbok | văn hóa | noun |  | 2026-07-16 |
+| 한은 | BOK / Ngân hàng Trung ương Hàn Quốc (viết tắt) | báo chí kinh tế | organization | https://n.news.naver.com/mnews/article/437/0000501443 | 2026-07-16 |
 | 허드슨 야드 | Hudson Yards | địa danh | location | https://www.dispatch.co.kr/2345227 | 2026-07-16 |
 | 호프 | Hope | điện ảnh | movie | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 홍대 | Hongdae | địa danh | location |  | 2026-07-16 |
