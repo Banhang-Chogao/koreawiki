@@ -327,29 +327,24 @@ hugo --minify --gc
 **Image baseURL smoke test (mandatory when the post embeds body photos):**
 
 ```bash
-# Replace with the built article path under public/
-ARTICLE=$(find public -path '*YOUR-SLUG*' -name index.html | head -1)
-# Must be 0 — bare /images/ without baseURL is a ship blocker
-python3 - <<'PY'
+# After hugo — must exit 0. Bare src=/images/ (no /koreawiki/) is a ship blocker.
+python3 -c "
 from pathlib import Path
 import re, sys
-p = Path("""'"$ARTICLE"'""")
-# fallback: scan all new article if ARTICLE empty
-paths = [p] if p.exists() else list(Path("public").rglob("**/index.html"))
-bad = []
-for html in paths:
-    t = html.read_text(encoding="utf-8", errors="ignore")
-    # body/content images only: src=/images/... (not /koreawiki/images/)
-    if re.search(r'src=["\']?/images/', t):
+bad=[]
+for html in Path('public').rglob('**/index.html'):
+    t=html.read_text(encoding='utf-8', errors='ignore')
+    if re.search(r'src=[\"\\']?/images/', t):
         bad.append(str(html))
 if bad:
-    print("FAIL: bare /images/ without baseURL in:", *bad[:20], sep="\n  ")
+    print('FAIL: bare /images/ without baseURL in:'); [print(' ',b) for b in bad[:20]]
     sys.exit(1)
-print("OK: no bare /images/ src (baseURL-safe)")
-PY
+print('OK: no bare /images/ src (baseURL-safe for nn/mm galleries)')
+"
 ```
 
-If this fails, do **not** push — fix Markdown paths and ensure `render-image.html` is present in the theme.
+If this fails, do **not** push — fix Markdown paths and ensure  
+`themes/koreawiki/layouts/_default/_markup/render-image.html` is present.
 
 ---
 
