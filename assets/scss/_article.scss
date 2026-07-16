@@ -2,6 +2,7 @@
   max-width:var(--max-w-article);
   margin:0 auto;
   padding:var(--space-8) var(--space-4) var(--space-16);
+  font-family:var(--font-sans);
 }
 
 .article-header{margin-bottom:var(--space-8)}
@@ -21,6 +22,7 @@
 
 /* Article title: 32 → 40 → 48px fluid */
 .article-title{
+  font-family:var(--font-sans);
   font-size:var(--fs-display);
   font-weight:700;
   line-height:var(--lh-tight);

@@ -1,17 +1,27 @@
 /* ============================================================================
-   KoreaWiki Native Typography System
-   Zero external fonts · system-ui first · :lang(ko) native Korean stacks
+   KoreaWiki Native Typography — site-wide
+   One system font stack for body, headings, UI, cards, footer, nav.
    ============================================================================ */
 
 html {
-  font-size: 100%; /* 16px root; body uses fluid --fs-base */
+  font-size: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
 
-body {
+/* Apply the same face to every text surface (forms included) */
+html,
+body,
+button,
+input,
+select,
+textarea,
+optgroup {
   font-family: var(--font-sans);
-  font-size: var(--fs-base); /* 16–18px fluid */
+}
+
+body {
+  font-size: var(--fs-base);
   font-weight: 400;
   line-height: var(--lh-body);
   letter-spacing: normal;
@@ -21,16 +31,34 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Korean (and Hangul-heavy content): prefer OS-installed Korean UI fonts only */
+/* Explicit Korean lang still uses the unified stack */
 :lang(ko),
 :lang(ko-KR),
 .lang-ko {
-  font-family: var(--font-ko), var(--font-sans);
+  font-family: var(--font-sans);
+}
+
+/* All UI chrome inherits — never reintroduce a second display font */
+.site-header,
+.site-footer,
+.header-nav,
+.header-nav-link,
+.nav-more,
+.mobile-nav,
+.card,
+.list-card,
+.article,
+.hero,
+.glossary-page,
+.search-modal,
+.btn,
+.pagination {
+  font-family: var(--font-sans);
 }
 
 /* ---------- Headings ---------- */
 h1, h2, h3, h4, h5, h6 {
-  font-family: inherit;
+  font-family: var(--font-sans);
   font-weight: 700;
   line-height: var(--lh-tight);
   letter-spacing: -0.015em;
@@ -44,36 +72,36 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: var(--fs-5xl); /* ~32–42px */
+  font-size: var(--fs-5xl);
   margin-bottom: var(--space-4);
 }
 
 h2 {
-  font-size: var(--fs-4xl); /* ~28–34px */
+  font-size: var(--fs-4xl);
   margin-top: var(--space-8);
   margin-bottom: var(--space-3);
 }
 
 h3 {
-  font-size: var(--fs-3xl); /* ~24–28px */
+  font-size: var(--fs-3xl);
   margin-top: var(--space-6);
   margin-bottom: var(--space-2);
 }
 
 h4 {
-  font-size: var(--fs-2xl); /* ~20–24px */
+  font-size: var(--fs-2xl);
   margin-top: var(--space-4);
   margin-bottom: var(--space-2);
 }
 
 h5 {
-  font-size: var(--fs-xl); /* ~18–20px */
+  font-size: var(--fs-xl);
   margin-top: var(--space-4);
   margin-bottom: var(--space-2);
 }
 
 h6 {
-  font-size: var(--fs-base); /* ~16–18px */
+  font-size: var(--fs-base);
   margin-top: var(--space-3);
   margin-bottom: var(--space-2);
   letter-spacing: 0.01em;
@@ -84,18 +112,21 @@ p {
   margin-bottom: var(--space-4);
   color: var(--color-text-secondary);
   max-width: var(--measure);
+  font-family: var(--font-sans);
 }
 
 .prose,
 .article-body {
   max-width: var(--measure);
+  font-family: var(--font-sans);
 }
 
 /* ---------- Captions / meta ---------- */
 .caption,
 figcaption,
 .article-caption {
-  font-size: 0.9375rem; /* 15px */
+  font-family: var(--font-sans);
+  font-size: 0.9375rem;
   font-weight: 400;
   font-style: italic;
   line-height: var(--lh-snug);
@@ -104,7 +135,8 @@ figcaption,
 
 .meta,
 .article-meta {
-  font-size: 0.875rem; /* 14px */
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
   font-weight: 500;
   color: var(--color-text-tertiary);
 }
@@ -117,6 +149,7 @@ blockquote {
   border-left: 4px solid var(--color-primary);
   background: var(--color-bg-alt);
   border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+  font-family: var(--font-sans);
 
   &::before {
     content: "“";
@@ -135,6 +168,7 @@ blockquote {
   p {
     margin: 0;
     max-width: none;
+    font-family: var(--font-sans);
     font-size: var(--fs-lg);
     font-style: italic;
     line-height: var(--lh-relaxed);
@@ -151,7 +185,7 @@ blockquote {
   }
 }
 
-/* ---------- Code ---------- */
+/* ---------- Code (only place that is not the UI sans stack) ---------- */
 code, kbd, samp {
   font-family: var(--font-mono);
   font-size: 0.9em;
