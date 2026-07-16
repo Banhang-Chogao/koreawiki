@@ -8,8 +8,9 @@ draft: false
 author: Ha Byeon-gil (Hankyoreh)
 cover:
   image: images/2026/07/youth-financial-independence-counseling-2026.jpg
-  alt: "Lee Jae-won, chuyên viên tư vấn Trung tâm Đồng hành cùng Thanh niên Seoul"
-  caption: "Lee Jae-won (Trung tâm Đồng hành cùng Thanh niên) — Ảnh: Ha Byeon-gil / Hankyoreh · Seoul&"
+  alt: Lee Jae-won, chuyên viên tư vấn Trung tâm Đồng hành cùng Thanh niên Seoul
+  caption: 'Lee Jae-won (Trung tâm Đồng hành cùng Thanh niên) — Ảnh: Ha Byeon-gil
+    / Hankyoreh · Seoul&'
 tags:
 - finance
 - youth
@@ -47,6 +48,7 @@ faq:
     và cảm giác thiếu thốn tương đối. Đây cũng chính là lý do Trung tâm Tư vấn Phúc
     lợi Tài chính Seoul (thuộc Quỹ Phúc…'
 ---
+
 
 
 
@@ -124,8 +126,8 @@ copyright: >
   quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn
   nguồn khi trích dẫn.
 internal:
-  - title: "Hallyu 2.0: How Korean Culture Evolved from Niche Export to Global Dominance"
+  - title: "Hallyu 2.0: Văn hóa Hàn Quốc phát triển như thế nào từ xuất khẩu thị trường ngách sang thống trị toàn cầu"
     url: "en/feature/hallyu-20-korean-culture-global-wave/"
-  - title: "The Voice Behind the Screen: How Korean Voice Actors Became Global Stars"
+  - title: "Giọng Nói Phía Sau Màn Ảnh: Các diễn viên lồng tiếng Hàn Quốc trở thành ngôi sao toàn cầu như thế nào"
     url: "en/feature/korean-voice-actors-rise/"
 {{< /article-footer >}}

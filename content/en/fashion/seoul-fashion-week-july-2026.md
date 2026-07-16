@@ -1,17 +1,17 @@
 ---
-title: 'Tuần lễ thời trang Seoul Thu Đông 2026: Truyền thống, Công nghệ và Tham vọng Toàn
-  cầu Mới'
-description: Sự kiện được tổ chức hai năm một lần này giới thiệu một ngành công nghiệp thời
-  trang Hàn Quốc đang trên đà phát triển, với các nhà thiết kế kết hợp giữa nghề thủ công
-  truyền thống với công nghệ tiên tiến.
+title: 'Tuần lễ thời trang Seoul Thu Đông 2026: Truyền thống, Công nghệ và Tham vọng
+  Toàn cầu Mới'
+description: Sự kiện được tổ chức hai năm một lần này giới thiệu một ngành công nghiệp
+  thời trang Hàn Quốc đang trên đà phát triển, với các nhà thiết kế kết hợp giữa nghề
+  thủ công truyền thống với công nghệ tiên tiến.
 date: 2026-07-11
 draft: false
 author: Soo-Jin Choi
 cover:
   image: images/sample/seoul-fashion-week-july-2026.jpg
   alt: Sàn diễn tại Tuần lễ thời trang Seoul Thu Đông 2026
-  caption: Một người mẫu bước trên sàn diễn tại địa điểm chính của Tuần lễ thời trang Seoul
-    ở Dongdaemun Design Plaza
+  caption: Một người mẫu bước trên sàn diễn tại địa điểm chính của Tuần lễ thời trang
+    Seoul ở Dongdaemun Design Plaza
 tags:
 - seoul-fashion-week
 - korean-fashion
@@ -26,25 +26,25 @@ keywords:
 - korean-fashion
 - runway
 - design
-slug: seoul-fashion-week-fallwinter-2026-tradition-tech-and-a-new-global-ambition
+slug: tuan-le-thoi-trang-seoul-thu-dong-2026-truyen-thong-cong-nghe-va-tham-vong-toan-cau-moi
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Sự kiện được tổ chức hai năm một lần này giới thiệu một ngành công nghiệp thời trang
-    Hàn Quốc đang trên đà phát triển, với các nhà thiết kế kết hợp giữa nghề thủ công truyền
-    thống với công nghệ tiên tiến.
+  a: Sự kiện được tổ chức hai năm một lần này giới thiệu một ngành công nghiệp thời
+    trang Hàn Quốc đang trên đà phát triển, với các nhà thiết kế kết hợp giữa nghề
+    thủ công truyền thống với công nghệ tiên tiến.
 - q: Nội dung chính về «Thẩm mỹ Seoul tìm được người mua toàn cầu» là gì?
-  a: 'Nhà phê bình thời trang Hwang Min-hee cho biết: “Đây là mùa mạnh mẽ nhất mà tôi có thể
-    nhớ được”. “Các nhà thiết kế đã ngừng cố gắng bắt chước Paris hay Milan.'
+  a: 'Nhà phê bình thời trang Hwang Min-hee cho biết: “Đây là mùa mạnh mẽ nhất mà
+    tôi có thể nhớ được”. “Các nhà thiết kế đã ngừng cố gắng bắt chước Paris hay Milan.'
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: Tuần lễ thời trang Seoul quay trở lại Dongdaemun Design Plaza mang tính biểu tượng từ
-    ngày 3 tháng 7 đến ngày 8 tháng 7, giới thiệu các bộ sưu tập Thu/Đông 2026 từ 64 nhà thiết
-    kế Hàn Quốc và lần đầu tiên có tám nhà thiết kế khách mời quốc tế đến từ Tokyo, Thượng
-    Hải và Milan. Sự kiện này đã trải qua một sự chuyển đổi thầm lặng trong những mùa giải
-    gần đây, phát triển từ một buổi giới thiệu khu vực thành một…
+  a: Tuần lễ thời trang Seoul quay trở lại Dongdaemun Design Plaza mang tính biểu
+    tượng từ ngày 3 tháng 7 đến ngày 8 tháng 7, giới thiệu các bộ sưu tập Thu/Đông
+    2026 từ 64 nhà thiết kế Hàn Quốc và lần đầu tiên có tám nhà thiết kế khách mời
+    quốc tế đến từ Tokyo, Thượng Hải và Milan. Sự kiện này đã trải qua một sự chuyển
+    đổi thầm lặng trong những mùa giải gần đây, phát triển từ một buổi giới thiệu
+    khu vực thành một…
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 Tuần lễ thời trang Seoul quay trở lại Dongdaemun Design Plaza mang tính biểu tượng từ ngày 3 tháng 7 đến ngày 8 tháng 7, giới thiệu các bộ sưu tập Thu/Đông 2026 của 64 nhà thiết kế Hàn Quốc và lần đầu
 tiên
 cùng lúc có tám nhà thiết kế khách quốc tế đến từ Tokyo, Thượng Hải và Milan. Sự kiện này đã trải qua một sự chuyển đổi thầm lặng trong những mùa giải gần đây, phát triển từ một chương trình giới
@@ -71,16 +71,14 @@ các tập đoàn, được thiết kế để cung cấp hỗ trợ tài chính
 là ở đây”.
 tại sự kiện ra mắt. "Điều còn thiếu là cơ sở hạ tầng để đưa thời trang Hàn Quốc ra thế giới. Điều đó hiện đang thay đổi."
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Soo-Jin Choi** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "When K-Beauty Met Fashion: How Korean Cosmetics Brands Are Redefining Luxury Retail"
+  - title: "Khi K-Beauty gặp gỡ thời trang: Các thương hiệu mỹ phẩm Hàn Quốc đang định nghĩa lại hoạt động bán lẻ xa xỉ như thế nào"
     url: "en/fashion/k-beauty-fashion-convergence/"
-  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+  - title: "Kỷ nguyên solo của SUGA: Min Yoon-gi đã định nghĩa lại ý nghĩa của việc trở thành một nghệ sĩ K-Pop như thế nào"
     url: "en/artist/bts-suga-solo-artist-profile/"
 {{< /article-footer >}}

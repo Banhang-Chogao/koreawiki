@@ -1,9 +1,10 @@
 ---
-title: "Tòa Hàn Quốc đình chỉ lệnh FTC xác định Bom Kim là người kiểm soát Coupang"
-description: >
-  Tòa thượng thẩm Seoul tạm dừng quyết định của Ủy ban Thương mại Công bằng (FTC)
-  chỉ định nhà sáng lập Coupang Kim Bom-suk (Bom Kim) là người kiểm soát pháp lý,
-  kèm yêu cầu nộp tài liệu liên quan.
+title: Tòa Hàn Quốc đình chỉ lệnh FTC xác định Bom Kim là người kiểm soát Coupang
+description: 'Tòa thượng thẩm Seoul tạm dừng quyết định của Ủy ban Thương mại Công
+  bằng (FTC) chỉ định nhà sáng lập Coupang Kim Bom-suk (Bom Kim) là người kiểm soát
+  pháp lý, kèm yêu cầu nộp tài liệu liên quan.
+
+  '
 date: 2026-07-16
 lastmod: 2026-07-16
 source_date: 2026-07-14
@@ -11,48 +12,53 @@ draft: false
 author: KoreaWiki Newsroom
 cover:
   image: images/2026/07/coupang-bom-kim-controller-ftc-2026.jpg
-  alt: "Nhà sáng lập Coupang Kim Bom-suk (Bom Kim)"
-  caption: "Kim Bom-suk (Bom Kim) — Ảnh: Korea Times file"
+  alt: Nhà sáng lập Coupang Kim Bom-suk (Bom Kim)
+  caption: 'Kim Bom-suk (Bom Kim) — Ảnh: Korea Times file'
 tags:
-  - coupang
-  - bom-kim
-  - ftc
-  - court
-  - business
-  - regulation
+- coupang
+- bom-kim
+- ftc
+- court
+- business
+- regulation
 categories:
-  - News
-  - Business
-  - Policy
+- News
+- Business
+- Policy
 keywords:
-  - coupang
-  - bom kim
-  - kim bom-suk
-  - ftc
-  - tòa thượng thẩm seoul
-  - người kiểm soát
-  - doanh nghiệp công bố
+- coupang
+- bom kim
+- kim bom-suk
+- ftc
+- tòa thượng thẩm seoul
+- người kiểm soát
+- doanh nghiệp công bố
 slug: toa-han-quoc-dinh-chi-lenh-ftc-xac-dinh-bom-kim-la-nguoi-kiem-soat-coupang
 faq:
-  - q: "Tòa đã ra quyết định gì đối với Coupang và Bom Kim?"
-    a: >
-      Tòa thượng thẩm Seoul **đình chỉ một phần** quyết định của FTC chỉ định
-      **Kim Bom-suk (Bom Kim)** là người kiểm soát pháp lý của Coupang, kèm yêu
-      cầu nộp tài liệu liên quan.
-  - q: "FTC chỉ định Bom Kim là controller từ khi nào?"
-    a: >
-      Quyết định chuyển tư cách controller từ **Coupang** sang **Kim** được FTC
-      ban hành ngày **1 tháng 5**; yêu cầu nộp tài liệu liên quan ngày **8 tháng 4**.
-  - q: "Việc đình chỉ kéo dài đến khi nào?"
-    a: >
-      Theo tòa, quyết định và yêu cầu tài liệu bị tạm dừng **cho đến 30 ngày sau
-      phán quyết** trong vụ chính.
-  - q: "Vì sao FTC muốn chỉ định cá nhân Bom Kim?"
-    a: >
-      FTC cho rằng Coupang **không đủ điều kiện ngoại lệ** để coi công ty là chủ
-      thể kiểm soát, vì em trai của Kim là **Kim Yoo-seok** có ảnh hưởng đáng kể
-      tới quản trị các công ty liên kết trong nước.
+- q: Tòa đã ra quyết định gì đối với Coupang và Bom Kim?
+  a: 'Tòa thượng thẩm Seoul **đình chỉ một phần** quyết định của FTC chỉ định **Kim
+    Bom-suk (Bom Kim)** là người kiểm soát pháp lý của Coupang, kèm yêu cầu nộp tài
+    liệu liên quan.
+
+    '
+- q: FTC chỉ định Bom Kim là controller từ khi nào?
+  a: 'Quyết định chuyển tư cách controller từ **Coupang** sang **Kim** được FTC ban
+    hành ngày **1 tháng 5**; yêu cầu nộp tài liệu liên quan ngày **8 tháng 4**.
+
+    '
+- q: Việc đình chỉ kéo dài đến khi nào?
+  a: 'Theo tòa, quyết định và yêu cầu tài liệu bị tạm dừng **cho đến 30 ngày sau phán
+    quyết** trong vụ chính.
+
+    '
+- q: Vì sao FTC muốn chỉ định cá nhân Bom Kim?
+  a: 'FTC cho rằng Coupang **không đủ điều kiện ngoại lệ** để coi công ty là chủ thể
+    kiểm soát, vì em trai của Kim là **Kim Yoo-seok** có ảnh hưởng đáng kể tới quản
+    trị các công ty liên kết trong nước.
+
+    '
 ---
+
 
 Tòa thượng thẩm Seoul hôm **thứ Ba (14/7)** đã **đình chỉ** quyết định của Ủy
 ban Thương mại Công bằng (FTC) chỉ định nhà sáng lập Coupang **Kim Bom-suk** —
@@ -102,17 +108,17 @@ https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-orde
 source: "The Korea Times"
 source_url: "https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller"
 copyright: >
-  Một phần thông tin trong bài được tham khảo từ
-  [The Korea Times](https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller)
-  (Park Ung, 14/7/2026). Ảnh: Korea Times file / chủ sở hữu tương ứng.
-  Bài viết trên KoreaWiki chỉ tổng hợp và biên tập phục vụ độc giả — không thay
-  thế thông cáo hay tài liệu chính thức của FTC hay tòa án.
+  Một phần thông tin trong bài được tham khảo từ [The Korea
+  Times](https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller).
+  Mọi thương hiệu, hình ảnh và tài liệu gốc thuộc quyền sở hữu của chủ sở hữu tương ứng.
+  Bài viết trên KoreaWiki chỉ tổng hợp, biên tập và phân tích phục vụ độc giả — không thay
+  thế thông cáo hay tài liệu chính thức.
 external:
-  - title: "The Korea Times — Court suspends FTC order on Coupang founder Bom Kim"
+  - title: "The Korea Times"
     url: "https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller"
 internal:
-  - title: "HYBE Reports Record Q2 Revenue of ₩620 Billion"
+  - title: "Báo cáo của HYBE ghi nhận doanh thu quý 2 là 620 tỷ Yên nhờ hoạt động lưu diễn toàn cầu và tăng trưởng Weverse"
     url: "en/news/hybe-second-quarter-earnings/"
-  - title: "South Korea Expands Film Tax Credit Program"
-    url: "en/news/korean-film-tax-credit-expansion/"
+  - title: "Kakao ra mắt series 'Kanana-original' giới thiệu AI omni 'Kanana-o'"
+    url: "en/news/kakao-kanana-o-original-series-2026/"
 {{< /article-footer >}}

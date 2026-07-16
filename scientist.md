@@ -454,6 +454,26 @@ skipped images even when the source had a lead photo.
 
 ---
 
+## Entry AUTO — 2026-07-16: Self-healing recovery
+
+**Trigger:** CI/CD failure (workflow run `29499559983`)
+
+**Root causes:**
+- build	Check links & slugs	2026-07-16T12:48:11.2932457Z Slugs need updating for 40 files:
+- build	Check links & slugs	2026-07-16T12:48:11.3003025Z ##[error]Process completed with exit code 1.
+
+**Categories:** hugo, markdown, python_qa, seo, frontmatter, links, images, slug, workflow, dependency
+
+**Auto-fixes applied:** article_features, slugs
+
+**Validation:** GREEN
+
+**Report:** `reports/self-healing/20260716T124829Z-29499559983`
+
+**Prevention:** Self-healing workflow re-runs on next failure (max 5 rounds).
+
+---
+
 To re-apply all known fixes to fresh content:
 
 ### Fix missing `draft` field

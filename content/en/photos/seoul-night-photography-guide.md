@@ -1,15 +1,16 @@
 ---
 title: 'Seoul After Dark: Một bài luận ảnh về thành phố không bao giờ ngủ'
-description: Từ Gangnam được thắp đèn neon cho đến những con hẻm yên tĩnh ở Bukchon, các nhiếp
-  ảnh gia của KoreaWiki đã ghi lại những tâm trạng tương phản của cảnh quan về đêm của Seoul.
+description: Từ Gangnam được thắp đèn neon cho đến những con hẻm yên tĩnh ở Bukchon,
+  các nhiếp ảnh gia của KoreaWiki đã ghi lại những tâm trạng tương phản của cảnh quan
+  về đêm của Seoul.
 date: 2026-07-05
 draft: false
 author: KoreaWiki Photography Team
 cover:
   image: images/sample/seoul-night-photography-guide.jpg
   alt: Cảnh đêm của đường chân trời Seoul từ Tháp Namsan
-  caption: Cảnh quan thành phố rộng lớn của Seoul được chiếu sáng dưới bầu trời đêm, nhìn
-    từ Tháp Namsan Seoul
+  caption: Cảnh quan thành phố rộng lớn của Seoul được chiếu sáng dưới bầu trời đêm,
+    nhìn từ Tháp Namsan Seoul
 tags:
 - seoul
 - night-photography
@@ -24,24 +25,25 @@ keywords:
 - night-photography
 - travel
 - photo-essay
-slug: seoul-after-dark-a-photo-essay-on-the-city-that-never-sleeps
+slug: seoul-after-dark-mot-bai-luan-anh-ve-thanh-pho-khong-bao-gio-ngu
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Từ Gangnam được thắp đèn neon cho đến những con hẻm yên tĩnh ở Bukchon, các nhiếp ảnh
-    gia của KoreaWiki đã ghi lại những tâm trạng tương phản của cảnh quan về đêm của Seoul.
+  a: Từ Gangnam được thắp đèn neon cho đến những con hẻm yên tĩnh ở Bukchon, các nhiếp
+    ảnh gia của KoreaWiki đã ghi lại những tâm trạng tương phản của cảnh quan về đêm
+    của Seoul.
 - q: 'Nội dung chính về «Gangnam: The Electric District» là gì?'
-  a: Cảnh đêm Gangnam được xác định bằng ánh sáng - cụ thể là các biển quảng cáo kỹ thuật
-    số khổng lồ dọc theo Gangnam-daero, một trong những biển lớn nhất ở châu Á. Các nhiếp
-    ảnh gia của chúng tôi đã dành một đêm để ghi lại sự tương tác giữa các nguồn sáng thương
-    mại này và hoạt động của con người bên dưới chúng.
+  a: Cảnh đêm Gangnam được xác định bằng ánh sáng - cụ thể là các biển quảng cáo kỹ
+    thuật số khổng lồ dọc theo Gangnam-daero, một trong những biển lớn nhất ở châu
+    Á. Các nhiếp ảnh gia của chúng tôi đã dành một đêm để ghi lại sự tương tác giữa
+    các nguồn sáng thương mại này và hoạt động của con người bên dưới chúng.
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: Seoul về đêm là một thành phố của sự tương phản. Ở Gangnam, ánh đèn neon của các biển
-    quảng cáo K-pop và mặt tiền cửa hàng sang trọng phản chiếu lên các tòa tháp kính của trụ
-    sở công ty, tạo nên một viễn cảnh về sự thịnh vượng siêu hiện đại.
+  a: Seoul về đêm là một thành phố của sự tương phản. Ở Gangnam, ánh đèn neon của
+    các biển quảng cáo K-pop và mặt tiền cửa hàng sang trọng phản chiếu lên các tòa
+    tháp kính của trụ sở công ty, tạo nên một viễn cảnh về sự thịnh vượng siêu hiện
+    đại.
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 Seoul về đêm là một thành phố của sự tương phản. Ở Gangnam, ánh đèn neon của các biển quảng cáo K-pop và mặt tiền cửa hàng sang trọng phản chiếu lên các tòa tháp kính của trụ sở công ty, tạo nên một
 không gian
 tầm nhìn về sự thịnh vượng siêu hiện đại. Ở Bukchon, những con hẻm chật hẹp chỉ được chiếu sáng bởi ánh sáng ấm áp của các nhà nghỉ hanok và thỉnh thoảng có ánh đèn đường, mang lại cảm giác về một
@@ -72,16 +74,14 @@ Bài tiểu luận chụp ảnh ban đêm kết thúc ở Bukchon, nơi sự thi
 được chiếu sáng - bóng tối của mái nhà hanok tương phản với bầu trời sáng hơn một chút, ngọn đèn duy nhất trên cửa sổ truyền thống, bóng dài của người đi bộ cuối cùng
 về nhà qua những con hẻm lát đá cuội. Đó là một lời nhắc nhở rằng ngay cả ở một trong những thành phố năng động nhất thế giới, những vùng tĩnh lặng sâu sắc vẫn tồn tại.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **KoreaWiki Photography Team** / KoreaWiki biên soạn. Hình ảnh (nếu có)
   thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui
   lòng dẫn nguồn khi trích dẫn.
 internal:
-  - title: "Busan After Dark: A Photo Essay of Korea's Coastal City When the Sun Goes Down"
+  - title: "Busan After Dark: Một bài luận ảnh về thành phố ven biển của Hàn Quốc khi mặt trời lặn"
     url: "en/photos/busan-night-photography-essay/"
-  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+  - title: "Kỷ nguyên solo của SUGA: Min Yoon-gi đã định nghĩa lại ý nghĩa của việc trở thành một nghệ sĩ K-Pop như thế nào"
     url: "en/artist/bts-suga-solo-artist-profile/"
 {{< /article-footer >}}

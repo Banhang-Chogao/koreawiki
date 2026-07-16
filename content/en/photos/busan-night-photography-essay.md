@@ -1,9 +1,9 @@
 ---
-title: 'Busan After Dark: Một bài luận ảnh về thành phố ven biển của Hàn Quốc khi mặt trời
-  lặn'
-description: Nhiếp ảnh gia Lee Sung-min đã ghi lại được linh hồn của ánh đèn neon của Busan
-  sau nửa đêm, từ những người bán hàng cuối cùng ở chợ Jagalchi cho đến những ngôi đền yên
-  tĩnh nhìn ra biển.
+title: 'Busan After Dark: Một bài luận ảnh về thành phố ven biển của Hàn Quốc khi
+  mặt trời lặn'
+description: Nhiếp ảnh gia Lee Sung-min đã ghi lại được linh hồn của ánh đèn neon
+  của Busan sau nửa đêm, từ những người bán hàng cuối cùng ở chợ Jagalchi cho đến
+  những ngôi đền yên tĩnh nhìn ra biển.
 date: 2026-07-10
 draft: false
 author: KoreaWiki Photo Desk
@@ -25,25 +25,24 @@ keywords:
 - photography
 - night
 - photo-essay
-slug: busan-after-dark-a-photo-essay-of-koreas-coastal-city-when-the-sun-goes-down
+slug: busan-after-dark-mot-bai-luan-anh-ve-thanh-pho-ven-bien-cua-han-quoc-khi-mat-troi-lan
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Nhiếp ảnh gia Lee Sung-min đã ghi lại được linh hồn của ánh đèn neon của Busan sau nửa
-    đêm, từ những người bán hàng cuối cùng ở chợ Jagalchi cho đến những ngôi đền yên tĩnh
-    nhìn ra biển.
+  a: Nhiếp ảnh gia Lee Sung-min đã ghi lại được linh hồn của ánh đèn neon của Busan
+    sau nửa đêm, từ những người bán hàng cuối cùng ở chợ Jagalchi cho đến những ngôi
+    đền yên tĩnh nhìn ra biển.
 - q: Nội dung chính về «Hình ảnh chọn lọc trong bộ truyện» là gì?
-  a: Hình ảnh đầu tiên chụp Chợ Jagalchi lúc 2 giờ sáng, khi sản phẩm đánh bắt cuối cùng trong
-    ngày đang được bán với giá giảm mạnh. Một haenyeo lớn tuổi (nữ thợ lặn) đứng giữa hơi
-    nước bốc lên từ gian hàng nhỏ của mình, khuôn mặt của bà bị phong hóa sau nhiều thập kỷ
-    lặn dưới biển lạnh.
+  a: Hình ảnh đầu tiên chụp Chợ Jagalchi lúc 2 giờ sáng, khi sản phẩm đánh bắt cuối
+    cùng trong ngày đang được bán với giá giảm mạnh. Một haenyeo lớn tuổi (nữ thợ
+    lặn) đứng giữa hơi nước bốc lên từ gian hàng nhỏ của mình, khuôn mặt của bà bị
+    phong hóa sau nhiều thập kỷ lặn dưới biển lạnh.
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: Nhiếp ảnh gia kỳ cựu Lee Sung-min đã dành ba tuần để chụp ảnh Busan sau khi trời tối,
-    từ phiên đấu giá cá cuối cùng ở chợ Jagalchi lúc 3 giờ sáng cho đến buổi cầu nguyện đầu
-    tiên của các nhà sư tại chùa Beomeosa lúc 4 giờ sáng.
+  a: Nhiếp ảnh gia kỳ cựu Lee Sung-min đã dành ba tuần để chụp ảnh Busan sau khi trời
+    tối, từ phiên đấu giá cá cuối cùng ở chợ Jagalchi lúc 3 giờ sáng cho đến buổi
+    cầu nguyện đầu tiên của các nhà sư tại chùa Beomeosa lúc 4 giờ sáng.
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 Nhiếp ảnh gia kỳ cựu Lee Sung-min đã dành ba tuần để chụp ảnh Busan sau khi trời tối, từ phiên đấu giá cá cuối cùng ở chợ Jagalchi lúc 3 giờ sáng cho đến buổi cầu nguyện đầu tiên của các nhà sư ở
 Beomeosa
 Ngôi chùa lúc 4 giờ sáng. Bộ sưu tập thành quả, "Busan Noir," là một bức thư tình gửi đến cuộc sống về đêm của thành phố.
@@ -62,16 +61,14 @@ Loạt phim này cũng ghi lại Làng văn hóa Gamcheon vào một giờ xanh 
 
 Tác phẩm của Lee nhắc nhở chúng ta rằng vẻ đẹp của Busan không cần đến ánh nắng. Tâm hồn của thành phố có lẽ hiện rõ nhất vào những giờ mà hầu hết du khách đang say ngủ.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **KoreaWiki Photo Desk** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc
   quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn
   nguồn khi trích dẫn.
 internal:
-  - title: "Seoul After Dark: A Photo Essay on the City That Never Sleeps"
+  - title: "Seoul After Dark: Một bài luận ảnh về thành phố không bao giờ ngủ"
     url: "en/photos/seoul-night-photography-guide/"
-  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+  - title: "Kỷ nguyên solo của SUGA: Min Yoon-gi đã định nghĩa lại ý nghĩa của việc trở thành một nghệ sĩ K-Pop như thế nào"
     url: "en/artist/bts-suga-solo-artist-profile/"
 {{< /article-footer >}}

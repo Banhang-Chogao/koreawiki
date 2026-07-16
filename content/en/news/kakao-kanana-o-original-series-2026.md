@@ -1,50 +1,51 @@
 ---
-title: "Kakao ra mắt series 'Kanana-original' giới thiệu AI omni 'Kanana-o'"
-description: "Ngày 16/7/2026, Kakao phát series YouTube 3 tập Kanana-original (talk
+title: Kakao ra mắt series 'Kanana-original' giới thiệu AI omni 'Kanana-o'
+description: Ngày 16/7/2026, Kakao phát series YouTube 3 tập Kanana-original (talk
   show, văn học, K-travel) để giới thiệu mô hình AI omni tự phát triển Kanana-o —
-  hiểu text, giọng nói và ảnh theo thời gian thực."
+  hiểu text, giọng nói và ảnh theo thời gian thực.
 date: 2026-07-16
 lastmod: 2026-07-16
 source_date: 2026-07-16
 draft: false
-author: "KoreaWiki Newsroom"
+author: KoreaWiki Newsroom
 cover:
   image: images/2026/07/kakao-kanana-o-original-series-2026-cover.png
-  alt: "Series video Kanana-original giới thiệu AI Kanana-o của Kakao"
-  caption: "Kanana-original — Ảnh: Kakao Corp"
+  alt: Series video Kanana-original giới thiệu AI Kanana-o của Kakao
+  caption: 'Kanana-original — Ảnh: Kakao Corp'
 tags:
-  - kakao
-  - kanana
-  - ai
-  - tech
-  - youtube
+- kakao
+- kanana
+- ai
+- tech
+- youtube
 categories:
-  - News
-  - Digital
+- News
+- Digital
 keywords:
-  - kakao
-  - kanana-o
-  - kanana-original
-  - omni ai
-  - multimodal
-  - 카나나
+- kakao
+- kanana-o
+- kanana-original
+- omni ai
+- multimodal
+- 카나나
 slug: kakao-ra-mat-series-kanana-original-gioi-thieu-ai-omni-kanana-o
 faq:
-  - q: "Kanana-original là gì?"
-    a: "Series video **3 tập** trên YouTube chính thức của Kakao, dùng format **talk
-      show**, **buổi đọc thơ/văn** và **vlog** để giới thiệu AI **Kanana-o** một cách
-      gần gũi."
-  - q: "Kanana-o khác gì?"
-    a: "Mô hình **omni-modal** do Kakao **tự phát triển** (công bố tháng **5 năm trước**):
-      hiểu đồng thời **text, giọng nói, ảnh** và trả lời **thời gian thực**, mạnh về
-      **ngữ cảnh tiếng Hàn**."
-  - q: "Ba tập video có ai tham gia?"
-    a: "**찐친편**: rapper **Nucksal**, comedian **Kwak Beom**. **문학편**: **Yoo Byung-jae**
-      và biên tập viên **Kim Min-kyung** (Minumsa). **K-여행편**: MC **Jonathan**."
-  - q: "Xem series ở đâu?"
-    a: "Trên YouTube Kakao: [찐친편](https://youtu.be/GFctw3P2Hso), [문학편](https://youtu.be/sy4lWx5zc6E),
-      [K-여행편](https://youtu.be/qsmF1-PSuTc)."
+- q: Kanana-original là gì?
+  a: Series video **3 tập** trên YouTube chính thức của Kakao, dùng format **talk
+    show**, **buổi đọc thơ/văn** và **vlog** để giới thiệu AI **Kanana-o** một cách
+    gần gũi.
+- q: Kanana-o khác gì?
+  a: 'Mô hình **omni-modal** do Kakao **tự phát triển** (công bố tháng **5 năm trước**):
+    hiểu đồng thời **text, giọng nói, ảnh** và trả lời **thời gian thực**, mạnh về
+    **ngữ cảnh tiếng Hàn**.'
+- q: Ba tập video có ai tham gia?
+  a: '**찐친편**: rapper **Nucksal**, comedian **Kwak Beom**. **문학편**: **Yoo Byung-jae**
+    và biên tập viên **Kim Min-kyung** (Minumsa). **K-여행편**: MC **Jonathan**.'
+- q: Xem series ở đâu?
+  a: 'Trên YouTube Kakao: [찐친편](https://youtu.be/GFctw3P2Hso), [문학편](https://youtu.be/sy4lWx5zc6E),
+    [K-여행편](https://youtu.be/qsmF1-PSuTc).'
 ---
+
 
 **Kakao** (대표이사 **Jung Shin-a** / 정신아) ngày **16 tháng 7 năm 2026** công bố series
 video **'Kanana-original' (카나나 오리지널)** trên kênh YouTube chính thức,
@@ -110,23 +111,23 @@ Nguồn: Kakao Corp — https://www.kakaocorp.com/page/detail/12083
 source: "Kakao Corp"
 source_url: "https://www.kakaocorp.com/page/detail/12083"
 copyright: >
-  Một phần thông tin trong bài được tham khảo từ
-  [thông cáo Kakao Corp](https://www.kakaocorp.com/page/detail/12083) (16/7/2026).
-  Ảnh / thương hiệu / video thuộc Kakao và chủ sở hữu tương ứng.
-  Bài viết trên KoreaWiki chỉ tổng hợp và biên tập phục vụ độc giả — không thay
-  thế thông cáo hay tài liệu chính thức của Kakao.
+  Một phần thông tin trong bài được tham khảo từ [Kakao
+  Corp](https://www.kakaocorp.com/page/detail/12083). Mọi thương hiệu, hình ảnh và tài
+  liệu gốc thuộc quyền sở hữu của chủ sở hữu tương ứng. Bài viết trên KoreaWiki chỉ tổng
+  hợp, biên tập và phân tích phục vụ độc giả — không thay thế thông cáo hay tài liệu chính
+  thức.
 external:
-  - title: "Kakao 보도자료 — Kanana-original"
+  - title: "thông cáo Kakao Corp"
     url: "https://www.kakaocorp.com/page/detail/12083"
-  - title: "YouTube — 찐친편"
+  - title: "youtu.be"
     url: "https://youtu.be/GFctw3P2Hso"
-  - title: "YouTube — 문학편"
+  - title: "youtu.be"
     url: "https://youtu.be/sy4lWx5zc6E"
-  - title: "YouTube — K-여행편"
+  - title: "youtu.be"
     url: "https://youtu.be/qsmF1-PSuTc"
 internal:
-  - title: "KakaoTalk bản cập nhật 6: tóm tắt tin nhắn, ChatGPT for Kakao trên PC"
-    url: "en/news/kakaotalk-6th-update-chatgpt-pc-2026/"
   - title: "Tòa Hàn Quốc đình chỉ lệnh FTC xác định Bom Kim là người kiểm soát Coupang"
     url: "en/news/court-suspends-ftc-coupang-bom-kim-controller-2026/"
+  - title: "Báo cáo của HYBE ghi nhận doanh thu quý 2 là 620 tỷ Yên nhờ hoạt động lưu diễn toàn cầu và tăng trưởng Weverse"
+    url: "en/news/hybe-second-quarter-earnings/"
 {{< /article-footer >}}

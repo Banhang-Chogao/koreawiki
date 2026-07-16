@@ -1,17 +1,17 @@
 ---
-title: Samsung và những gã khổng lồ K-Pop đoàn kết tổ chức buổi hòa nhạc từ thiện lịch sử
-  ở Busan
-description: Samsung Electronics hợp tác với HYBE và SM Entertainment để tổ chức buổi hòa
-  nhạc từ thiện mang tính bước ngoặt tại Sân vận động Asiad Busan, với sự góp mặt của SUGA,
-  NCT 127 và Seventeen của BTS.
+title: Samsung và những gã khổng lồ K-Pop đoàn kết tổ chức buổi hòa nhạc từ thiện
+  lịch sử ở Busan
+description: Samsung Electronics hợp tác với HYBE và SM Entertainment để tổ chức buổi
+  hòa nhạc từ thiện mang tính bước ngoặt tại Sân vận động Asiad Busan, với sự góp
+  mặt của SUGA, NCT 127 và Seventeen của BTS.
 date: 2026-07-15
 draft: false
 author: Min-Jun Kim
 cover:
   image: images/sample/samsung-k-pop-concert.jpg
   alt: Sân vận động Busan Asiad được chiếu sáng cho buổi hòa nhạc từ thiện
-  caption: Sân vận động Asiad Busan trong buổi kiểm tra âm thanh trước buổi hòa nhạc Samsung
-    Hope lịch sử
+  caption: Sân vận động Asiad Busan trong buổi kiểm tra âm thanh trước buổi hòa nhạc
+    Samsung Hope lịch sử
 tags:
 - k-pop
 - samsung
@@ -27,27 +27,28 @@ keywords:
 - samsung
 - charity
 - busan
-slug: samsung-and-k-pop-giants-unite-for-historic-charity-concert-in-busan
+slug: samsung-va-nhung-ga-khong-lo-k-pop-doan-ket-to-chuc-buoi-hoa-nhac-tu-thien-lich-su-o-busan
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Samsung Electronics hợp tác với HYBE và SM Entertainment để tổ chức buổi hòa nhạc từ
-    thiện mang tính bước ngoặt tại Sân vận động Asiad Busan, với sự góp mặt của SUGA, NCT
-    127 và Seventeen của BTS.
-- q: Nội dung chính về «Mô hình mới cho sự hợp tác giữa doanh nghiệp và nghệ sĩ» là gì?
-  a: Các nhà phân tích trong ngành lưu ý rằng cấu trúc của Samsung Hope Concert khác biệt
-    đáng kể so với các hoạt động tài trợ truyền thống của công ty. Các nghệ sĩ sẽ giữ toàn
-    quyền kiểm soát sáng tạo đối với buổi biểu diễn của họ và một phần doanh số bán hàng hóa
-    sẽ được quyên góp cho các mục đích do mỗi nghệ sĩ lựa chọn.
+  a: Samsung Electronics hợp tác với HYBE và SM Entertainment để tổ chức buổi hòa
+    nhạc từ thiện mang tính bước ngoặt tại Sân vận động Asiad Busan, với sự góp mặt
+    của SUGA, NCT 127 và Seventeen của BTS.
+- q: Nội dung chính về «Mô hình mới cho sự hợp tác giữa doanh nghiệp và nghệ sĩ» là
+    gì?
+  a: Các nhà phân tích trong ngành lưu ý rằng cấu trúc của Samsung Hope Concert khác
+    biệt đáng kể so với các hoạt động tài trợ truyền thống của công ty. Các nghệ sĩ
+    sẽ giữ toàn quyền kiểm soát sáng tạo đối với buổi biểu diễn của họ và một phần
+    doanh số bán hàng hóa sẽ được quyên góp cho các mục đích do mỗi nghệ sĩ lựa chọn.
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: Samsung Electronics sẽ đồng tổ chức sự kiện mà những người trong ngành gọi là sự kiện
-    K-pop do công ty tài trợ lớn nhất trong lịch sử tại Sân vận động Busan Asiad vào ngày
-    15 tháng 8, Ngày Giải phóng Hàn Quốc. Buổi hòa nhạc Samsung Hope sẽ có sự góp mặt của
-    những người dẫn đầu bao gồm thành viên BTS SUGA, NCT 127, Seventeen và nhóm nhạc tân binh
-    đang lên RIIZE, với tất cả số tiền thu được sẽ mang lại lợi ích cho giáo dục giới trẻ…
+  a: Samsung Electronics sẽ đồng tổ chức sự kiện mà những người trong ngành gọi là
+    sự kiện K-pop do công ty tài trợ lớn nhất trong lịch sử tại Sân vận động Busan
+    Asiad vào ngày 15 tháng 8, Ngày Giải phóng Hàn Quốc. Buổi hòa nhạc Samsung Hope
+    sẽ có sự góp mặt của những người dẫn đầu bao gồm thành viên BTS SUGA, NCT 127,
+    Seventeen và nhóm nhạc tân binh đang lên RIIZE, với tất cả số tiền thu được sẽ
+    mang lại lợi ích cho giáo dục giới trẻ…
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 Samsung Electronics sẽ đồng tổ chức sự kiện K-pop do công ty tài trợ lớn nhất trong lịch sử tại Sân vận động Busan Asiad vào ngày 15 tháng 8, Giải phóng Hàn Quốc
 Ngày. Buổi hòa nhạc Samsung Hope sẽ có sự góp mặt của những người dẫn đầu bao gồm thành viên BTS SUGA, NCT 127, Seventeen và nhóm nhạc tân binh đang lên RIIZE, với tất cả số tiền thu được sẽ mang lại
 lợi ích cho giáo dục thanh thiếu niên
@@ -74,16 +75,14 @@ phát sóng trên nền tảng phát trực tuyến của Samsung, có cung cấ
 Thành phố thủ đô Busan đã cam kết hỗ trợ bổ sung về an ninh và giao thông, dự kiến ​​sẽ có hàng chục nghìn du khách đến thành phố ven biển để tham dự sự kiện này. Khách sạn địa phương và
 các nhà nghỉ ở quận Haeundae đã báo cáo lượng đặt chỗ gần như đủ sức chứa cho tuần diễn ra buổi hòa nhạc.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Min-Jun Kim** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "HYBE Reports Record Q2 Revenue of ₩620 Billion Driven by Global Touring and Weverse Growth"
+  - title: "Tòa Hàn Quốc đình chỉ lệnh FTC xác định Bom Kim là người kiểm soát Coupang"
+    url: "en/news/court-suspends-ftc-coupang-bom-kim-controller-2026/"
+  - title: "Báo cáo của HYBE ghi nhận doanh thu quý 2 là 620 tỷ Yên nhờ hoạt động lưu diễn toàn cầu và tăng trưởng Weverse"
     url: "en/news/hybe-second-quarter-earnings/"
-  - title: "South Korea Expands Film Tax Credit Program to Lure International Productions"
-    url: "en/news/korean-film-tax-credit-expansion/"
 {{< /article-footer >}}

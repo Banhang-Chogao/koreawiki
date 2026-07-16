@@ -1,17 +1,18 @@
 ---
-title: 'Hallyu 2.0: Văn hóa Hàn Quốc phát triển như thế nào từ xuất khẩu thị trường ngách
-  sang thống trị toàn cầu'
-description: Cái nhìn toàn diện về làn sóng bùng nổ xuất khẩu văn hóa Hàn Quốc thứ hai, từ
-  thực phẩm Hàn Quốc đến văn học Hàn Quốc và ý nghĩa của nó trong thập kỷ tới.
+title: 'Hallyu 2.0: Văn hóa Hàn Quốc phát triển như thế nào từ xuất khẩu thị trường
+  ngách sang thống trị toàn cầu'
+description: Cái nhìn toàn diện về làn sóng bùng nổ xuất khẩu văn hóa Hàn Quốc thứ
+  hai, từ thực phẩm Hàn Quốc đến văn học Hàn Quốc và ý nghĩa của nó trong thập kỷ
+  tới.
 date: 2026-07-13
 draft: false
 author: Sarah Chen
 cover:
   image: images/sample/hallyu-20-korean-culture-global-wave.jpg
-  alt: Ảnh ghép về xuất khẩu văn hóa Hàn Quốc — Buổi hòa nhạc K-pop, món ăn Hàn Quốc, bối
-    cảnh K-drama
-  caption: Phạm vi tiếp cận toàn cầu của Hallyu 2.0 bao gồm âm nhạc, ẩm thực, thời trang và
-    văn học
+  alt: Ảnh ghép về xuất khẩu văn hóa Hàn Quốc — Buổi hòa nhạc K-pop, món ăn Hàn Quốc,
+    bối cảnh K-drama
+  caption: Phạm vi tiếp cận toàn cầu của Hallyu 2.0 bao gồm âm nhạc, ẩm thực, thời
+    trang và văn học
 tags:
 - hallyu
 - korean-wave
@@ -26,25 +27,25 @@ keywords:
 - korean-wave
 - cultural-export
 - global
-slug: hallyu-20-how-korean-culture-evolved-from-niche-export-to-global-dominance
+slug: hallyu-20-van-hoa-han-quoc-phat-trien-nhu-the-nao-tu-xuat-khau-thi-truong-ngach-sang-thong-tri-toan-cau
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Cái nhìn toàn diện về làn sóng bùng nổ xuất khẩu văn hóa Hàn Quốc thứ hai, từ thực phẩm
-    Hàn Quốc đến văn học Hàn Quốc và ý nghĩa của nó trong thập kỷ tới.
+  a: Cái nhìn toàn diện về làn sóng bùng nổ xuất khẩu văn hóa Hàn Quốc thứ hai, từ
+    thực phẩm Hàn Quốc đến văn học Hàn Quốc và ý nghĩa của nó trong thập kỷ tới.
 - q: Nội dung chính về «The Lifestyle Wave» là gì?
-  a: 'Kim Seong-ho, Giám đốc điều hành của Viện Xúc tiến Thực phẩm Hàn Quốc, cho biết: “Mười
-    năm trước, nếu bạn nói với ai đó rằng bạn đang mở một nhà hàng Hàn Quốc ở Paris hoặc New
-    York, thì bạn đang gặp rủi ro. "Ngày nay, các nhà hàng Hàn Quốc nằm trong số những hạng
-    mục ẩm thực được đánh giá cao nhất trên các nền tảng như Michelin Guide và…'
+  a: 'Kim Seong-ho, Giám đốc điều hành của Viện Xúc tiến Thực phẩm Hàn Quốc, cho biết:
+    “Mười năm trước, nếu bạn nói với ai đó rằng bạn đang mở một nhà hàng Hàn Quốc
+    ở Paris hoặc New York, thì bạn đang gặp rủi ro. "Ngày nay, các nhà hàng Hàn Quốc
+    nằm trong số những hạng mục ẩm thực được đánh giá cao nhất trên các nền tảng như
+    Michelin Guide và…'
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: Vào năm 2012, "Gangnam Style" của Psy là một hiện tượng toàn cầu được nhiều người coi
-    là một sự mới lạ - một tia sáng đầy màu sắc, bất kính đã nhanh chóng thu hút sự chú ý
-    của thế giới sang Hàn Quốc. Mười bốn năm sau, ý tưởng coi văn hóa Hàn Quốc như một thứ
-    mốt nhất thời có vẻ phi lý.
+  a: Vào năm 2012, "Gangnam Style" của Psy là một hiện tượng toàn cầu được nhiều người
+    coi là một sự mới lạ - một tia sáng đầy màu sắc, bất kính đã nhanh chóng thu hút
+    sự chú ý của thế giới sang Hàn Quốc. Mười bốn năm sau, ý tưởng coi văn hóa Hàn
+    Quốc như một thứ mốt nhất thời có vẻ phi lý.
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 Vào năm 2012, "Gangnam Style" của Psy là một hiện tượng toàn cầu được nhiều người coi là một điều mới lạ - một tia sáng đầy màu sắc, bất kính trong một thời gian ngắn đã khiến cả thế giới chú ý đến
 miền Nam.
 Hàn Quốc. Mười bốn năm sau, ý tưởng coi văn hóa Hàn Quốc như một thứ mốt nhất thời có vẻ phi lý. Làn sóng Hàn Quốc, hay Hallyu, đã phát triển từ một sở thích nhỏ thành một trụ cột mang tính cấu trúc
@@ -76,16 +77,14 @@ quỹ đạo tăng trưởng hiện tại được giữ vững. Đối với ph
 càng phát triển.
 sự phân mảnh.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "The Voice Behind the Screen: How Korean Voice Actors Became Global Stars"
+  - title: "Giọng Nói Phía Sau Màn Ảnh: Các diễn viên lồng tiếng Hàn Quốc trở thành ngôi sao toàn cầu như thế nào"
     url: "en/feature/korean-voice-actors-rise/"
-  - title: "Seongsu-dong: How Seoul's Industrial Wasteland Became the Coolest Neighborhood in Asia"
+  - title: "Seongsu-dong: Làm thế nào vùng đất hoang công nghiệp của Seoul trở thành khu phố thú vị nhất châu Á"
     url: "en/feature/seongsu-dong-transformation/"
 {{< /article-footer >}}

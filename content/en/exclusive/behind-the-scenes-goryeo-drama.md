@@ -1,15 +1,17 @@
 ---
-title: 'Độc quyền: Trên trường quay ''Goryeo Dreams'' — Bên trong bộ phim cổ trang đầy tham
-  vọng nhất của KBS'
-description: KoreaWiki dành hai ngày để quay bộ phim sử thi cổ trang sắp ra mắt của KBS, chứng
-  kiến ​​nỗ lực phi thường đằng sau việc đưa Goryeo thế kỷ 14 vào cuộc sống.
+title: 'Độc quyền: Trên trường quay ''Goryeo Dreams'' — Bên trong bộ phim cổ trang
+  đầy tham vọng nhất của KBS'
+description: KoreaWiki dành hai ngày để quay bộ phim sử thi cổ trang sắp ra mắt của
+  KBS, chứng kiến ​​nỗ lực phi thường đằng sau việc đưa Goryeo thế kỷ 14 vào cuộc
+  sống.
 date: 2026-07-04
 draft: false
 author: Soo-Jin Choi
 cover:
   image: images/sample/behind-the-scenes-goryeo-drama.jpg
   alt: Goryeo Dreams lấy bối cảnh tại cơ sở sản xuất của KBS
-  caption: Triều đại Goryeo rộng lớn lấy bối cảnh tại khu liên hợp sản xuất Suwon của KBS
+  caption: Triều đại Goryeo rộng lớn lấy bối cảnh tại khu liên hợp sản xuất Suwon
+    của KBS
 tags:
 - goryeo-dreams
 - kbs
@@ -24,24 +26,25 @@ keywords:
 - kbs
 - sageuk
 - behind-the-scenes
-slug: exclusive-on-set-with-goryeo-dreams-inside-kbss-most-ambitious-period-drama
+slug: doc-quyen-tren-truong-quay-goryeo-dreams-ben-trong-bo-phim-co-trang-day-tham-vong-nhat-cua-kbs
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: KoreaWiki dành hai ngày để quay bộ phim sử thi cổ trang sắp ra mắt của KBS, chứng kiến
-    ​​nỗ lực phi thường đằng sau việc đưa Goryeo thế kỷ 14 vào cuộc sống.
-- q: Nội dung chính về «Sự chính xác về lịch sử đáp ứng sự cần thiết kịch tính» là gì?
-  a: Cố vấn lịch sử, Tiến sĩ Bae Jae-sung, giáo sư lịch sử Hàn Quốc tại Đại học Hàn Quốc,
-    có mặt hàng ngày, thường cân nhắc giữa mong muốn tạo ra tác động kịch tính của nhà sản
-    xuất và cam kết của chính ông về tính chính xác.
+  a: KoreaWiki dành hai ngày để quay bộ phim sử thi cổ trang sắp ra mắt của KBS, chứng
+    kiến ​​nỗ lực phi thường đằng sau việc đưa Goryeo thế kỷ 14 vào cuộc sống.
+- q: Nội dung chính về «Sự chính xác về lịch sử đáp ứng sự cần thiết kịch tính» là
+    gì?
+  a: Cố vấn lịch sử, Tiến sĩ Bae Jae-sung, giáo sư lịch sử Hàn Quốc tại Đại học Hàn
+    Quốc, có mặt hàng ngày, thường cân nhắc giữa mong muốn tạo ra tác động kịch tính
+    của nhà sản xuất và cam kết của chính ông về tính chính xác.
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: MUNGYEONG, tỉnh Bắc Kyungsang — Điều đầu tiên bạn chú ý trên trường quay "Những giấc
-    mơ Goryeo" là mùi. Cây thông mới cắt, khói gỗ và mùi đất của hanji - loại giấy truyền
-    thống của Hàn Quốc - tràn ngập khung cảnh ngoài trời rộng lớn mà KBS đã xây dựng trên
-    khu đất rộng 40 mẫu Anh gần Mungyeong Saejae, một con đèo lịch sử từng nối liền tỉnh...
+  a: MUNGYEONG, tỉnh Bắc Kyungsang — Điều đầu tiên bạn chú ý trên trường quay "Những
+    giấc mơ Goryeo" là mùi. Cây thông mới cắt, khói gỗ và mùi đất của hanji - loại
+    giấy truyền thống của Hàn Quốc - tràn ngập khung cảnh ngoài trời rộng lớn mà KBS
+    đã xây dựng trên khu đất rộng 40 mẫu Anh gần Mungyeong Saejae, một con đèo lịch
+    sử từng nối liền tỉnh...
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 MUNGYEONG, tỉnh Bắc Kyungsang — Điều đầu tiên bạn chú ý trên trường quay "Những giấc mơ Goryeo" là mùi. Cây thông mới cắt, khói củi và mùi đất của hanji —
 Giấy truyền thống của Hàn Quốc — tràn ngập không gian ngoài trời rộng lớn mà KBS đã xây dựng trên khu đất rộng 40 mẫu Anh gần Mungyeong Saejae, một con đèo lịch sử từng nối liền
 Các tỉnh Gyeongsang và Chungcheong.
@@ -69,16 +72,14 @@ không có đường tắt cho kiểu chuẩn bị này."
 
 Goryeo Dreams dự kiến khởi chiếu trên KBS2 vào tháng 3 năm 2027.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Soo-Jin Choi** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "Exclusive: BTS Members Weigh In on Group Future — 'We Will Come Back When the Story Requires It'"
+  - title: "Độc quyền: Các thành viên BTS cân nhắc về tương lai của nhóm - 'Chúng tôi sẽ quay lại khi câu chuyện yêu cầu'"
     url: "en/exclusive/bts-members-individual-futures/"
-  - title: "Exclusive: Inside SM Entertainment's Next Girl Group — The Vision, The Members, The Strategy"
-    url: "en/exclusive/sm-entertainment-new-girl-group/"
+  - title: "Kim Myung-soo đóng chính romance 'Yeondae Bojeung Romance' cùng Pyo Ye-jin"
+    url: "en/exclusive/kim-myung-soo-yeondae-bojeung-romance-pyo-ye-jin-2026/"
 {{< /article-footer >}}

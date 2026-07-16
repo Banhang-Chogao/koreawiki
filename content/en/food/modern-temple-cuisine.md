@@ -1,16 +1,17 @@
 ---
-title: 'Ẩm thực chùa có sự thay đổi: Sự trỗi dậy toàn cầu của ẩm thực Phật giáo Hàn Quốc'
-description: Từng chỉ giới hạn ở các tu viện trên núi, ẩm thực chùa chiền Hàn Quốc — Seungsik
-  — đang tìm kiếm đối tượng mới tại các nhà hàng cao cấp và bếp ăn gia đình trên khắp thế
-  giới.
+title: 'Ẩm thực chùa có sự thay đổi: Sự trỗi dậy toàn cầu của ẩm thực Phật giáo Hàn
+  Quốc'
+description: Từng chỉ giới hạn ở các tu viện trên núi, ẩm thực chùa chiền Hàn Quốc
+  — Seungsik — đang tìm kiếm đối tượng mới tại các nhà hàng cao cấp và bếp ăn gia
+  đình trên khắp thế giới.
 date: 2026-07-09
 draft: false
 author: Ji-Yeon Park
 cover:
   image: images/sample/modern-temple-cuisine.jpg
   alt: Món ăn đền chùa được bày biện đầy nghệ thuật tại một nhà hàng ở Seoul
-  caption: Một cách thể hiện hiện đại về seungsik tại nhà hàng được gắn sao Michelin 'Balwoo'
-    ở Jongno-gu
+  caption: Một cách thể hiện hiện đại về seungsik tại nhà hàng được gắn sao Michelin
+    'Balwoo' ở Jongno-gu
 tags:
 - temple-food
 - korean-cuisine
@@ -25,24 +26,25 @@ keywords:
 - korean-cuisine
 - buddhist
 - fine-dining
-slug: temple-food-gets-a-makeover-the-global-rise-of-korean-buddhist-cuisine
+slug: am-thuc-chua-co-su-thay-doi-su-troi-day-toan-cau-cua-am-thuc-phat-giao-han-quoc
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Từng chỉ giới hạn ở các tu viện trên núi, ẩm thực chùa chiền Hàn Quốc — Seungsik — đang
-    tìm kiếm đối tượng mới tại các nhà hàng cao cấp và bếp ăn gia đình trên khắp thế giới.
+  a: Từng chỉ giới hạn ở các tu viện trên núi, ẩm thực chùa chiền Hàn Quốc — Seungsik
+    — đang tìm kiếm đối tượng mới tại các nhà hàng cao cấp và bếp ăn gia đình trên
+    khắp thế giới.
 - q: Nội dung chính về «Triết lý ẩm thực chùa» là gì?
-  a: Không giống như phong cách ăn chay của phương Tây hay thậm chí là các truyền thống ẩm
-    thực Phật giáo châu Á khác, ẩm thực chùa Hàn Quốc (seungsik) vận hành theo một triết lý
-    ẩm thực nghiêm ngặt vượt ra ngoài việc không có thịt. Nguyên tắc – cân bằng ngũ hành (ngọt,
-    chua, mặn, đắng, hăng), sử dụng…
+  a: Không giống như phong cách ăn chay của phương Tây hay thậm chí là các truyền
+    thống ẩm thực Phật giáo châu Á khác, ẩm thực chùa Hàn Quốc (seungsik) vận hành
+    theo một triết lý ẩm thực nghiêm ngặt vượt ra ngoài việc không có thịt. Nguyên
+    tắc – cân bằng ngũ hành (ngọt, chua, mặn, đắng, hăng), sử dụng…
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: Tại nhà hàng Balwoo được gắn sao Michelin ở Jongno-gu, Seoul, bữa tối là một trải nghiệm
-    thiền định. Thực đơn nếm thử 12 món không có thịt, không cá, không tỏi, không hành - năm
-    thành phần cay (ohshinchae) bị cấm trong cách nấu ăn của tu viện Phật giáo.
+  a: Tại nhà hàng Balwoo được gắn sao Michelin ở Jongno-gu, Seoul, bữa tối là một
+    trải nghiệm thiền định. Thực đơn nếm thử 12 món không có thịt, không cá, không
+    tỏi, không hành - năm thành phần cay (ohshinchae) bị cấm trong cách nấu ăn của
+    tu viện Phật giáo.
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 Tại nhà hàng Balwoo được gắn sao Michelin ở Jongno-gu, Seoul, bữa tối là một trải nghiệm thiền định. Thực đơn nếm thử 12 món không có thịt, không cá, không tỏi, không hành -
 năm thành phần cay (ohshinchae) bị cấm trong nấu ăn của tu viện Phật giáo. Những gì nó chứa đựng là sự tiết lộ về những gì ẩm thực Hàn Quốc có thể đạt được trong những giới hạn: tinh tế
 cháo củ sen, namul rau núi có hương vị nền rừng, beondegi (bột đậu nành lên men) đã ủ được bảy năm và món tráng miệng là món yakbap thơm quế
@@ -68,16 +70,14 @@ Xu hướng có chân thương mại. Seoul hiện tự hào có ít nhất 8 nh
 các nhà hàng đã mở ở New York, London và Tokyo, trong đó nhà hàng "Baru" ở Khu phố Hàn Quốc của Manhattan đã giành được Bib Gourmand từ Michelin vào năm 2025. Tổ chức Du lịch Hàn Quốc đã bổ sung thêm
 trải nghiệm ẩm thực chùa vào các hành trình du lịch chính thức, mang đến cho du khách cơ hội dùng bữa tại các tu viện trên núi như một phần của chương trình lưu trú tại chùa.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Ji-Yeon Park** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "Sinchon's Street Food Revolution: Why Seoul's University District Is the Best Place to Eat in Korea"
+  - title: "Cuộc cách mạng ẩm thực đường phố ở Sinchon: Tại sao khu đại học của Seoul là nơi ăn uống tốt nhất ở Hàn Quốc"
     url: "en/food/sinchon-korean-street-food-guide/"
-  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+  - title: "Kỷ nguyên solo của SUGA: Min Yoon-gi đã định nghĩa lại ý nghĩa của việc trở thành một nghệ sĩ K-Pop như thế nào"
     url: "en/artist/bts-suga-solo-artist-profile/"
 {{< /article-footer >}}

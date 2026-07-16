@@ -1,16 +1,16 @@
 ---
-title: 'Khi K-Beauty gặp gỡ thời trang: Các thương hiệu mỹ phẩm Hàn Quốc đang định nghĩa lại
-  hoạt động bán lẻ xa xỉ như thế nào'
-description: Từ trụ sở hàng đầu của Amorepacific ở Gangnam cho đến hợp tác với các hãng thời
-  trang toàn cầu, vẻ đẹp Hàn Quốc đang trải qua thời kỳ phục hưng xa hoa.
+title: 'Khi K-Beauty gặp gỡ thời trang: Các thương hiệu mỹ phẩm Hàn Quốc đang định
+  nghĩa lại hoạt động bán lẻ xa xỉ như thế nào'
+description: Từ trụ sở hàng đầu của Amorepacific ở Gangnam cho đến hợp tác với các
+  hãng thời trang toàn cầu, vẻ đẹp Hàn Quốc đang trải qua thời kỳ phục hưng xa hoa.
 date: 2026-07-06
 draft: false
 author: Sarah Chen
 cover:
   image: images/sample/k-beauty-fashion-convergence.jpg
   alt: Cửa hàng hàng đầu của Amorepacific ở Gangnam
-  caption: Cửa hàng hàng đầu của Amorepacific ở Gangnam, nơi kết hợp bán lẻ thời trang và
-    sắc đẹp
+  caption: Cửa hàng hàng đầu của Amorepacific ở Gangnam, nơi kết hợp bán lẻ thời trang
+    và sắc đẹp
 tags:
 - k-beauty
 - luxury
@@ -25,26 +25,25 @@ keywords:
 - luxury
 - cosmetics
 - retail
-slug: when-k-beauty-met-fashion-how-korean-cosmetics-brands-are-redefining-luxury-retail
+slug: khi-k-beauty-gap-go-thoi-trang-cac-thuong-hieu-my-pham-han-quoc-dang-dinh-nghia-lai-hoat-dong-ban-le-xa-xi-nhu-the-nao
 faq:
 - q: Bài viết này nói về chủ đề gì?
-  a: Từ trụ sở hàng đầu của Amorepacific ở Gangnam cho đến hợp tác với các hãng thời trang
-    toàn cầu, vẻ đẹp Hàn Quốc đang trải qua thời kỳ phục hưng xa hoa.
+  a: Từ trụ sở hàng đầu của Amorepacific ở Gangnam cho đến hợp tác với các hãng thời
+    trang toàn cầu, vẻ đẹp Hàn Quốc đang trải qua thời kỳ phục hưng xa hoa.
 - q: Nội dung chính về «Beyond the 10-Step Routine» là gì?
-  a: 'Nhà phân tích thời trang và sắc đẹp Park Eun-ji cho biết: “Trước đây, K-beauty gắn liền
-    với các sản phẩm dành cho thị trường đại chúng và các quy trình chăm sóc da phức tạp”.
-    "Nhưng thế hệ người tiêu dùng làm đẹp mới của Hàn Quốc đang tìm kiếm sự tinh tế chứ không
-    phải sự phức tạp.'
+  a: 'Nhà phân tích thời trang và sắc đẹp Park Eun-ji cho biết: “Trước đây, K-beauty
+    gắn liền với các sản phẩm dành cho thị trường đại chúng và các quy trình chăm
+    sóc da phức tạp”. "Nhưng thế hệ người tiêu dùng làm đẹp mới của Hàn Quốc đang
+    tìm kiếm sự tinh tế chứ không phải sự phức tạp.'
 - q: Điểm thông tin chính độc. Bạn nhớ là gì?
-  a: Trong khu vực sang trọng của Shinsegae Gangnam, cửa hàng bách hóa hàng đầu ở một trong
-    những quận giàu có nhất của Seoul, một mô hình bán lẻ mới đã thu hút rất đông người kể
-    từ khi khai trương vào tháng 4. Không gian này là sự hợp tác giữa dòng sản phẩm làm đẹp
-    cao cấp Sulwhasoo của Amorepacific và hãng thời trang Pháp Maison Margiela, không phải
-    là quầy làm đẹp hay thời trang…
+  a: Trong khu vực sang trọng của Shinsegae Gangnam, cửa hàng bách hóa hàng đầu ở
+    một trong những quận giàu có nhất của Seoul, một mô hình bán lẻ mới đã thu hút
+    rất đông người kể từ khi khai trương vào tháng 4. Không gian này là sự hợp tác
+    giữa dòng sản phẩm làm đẹp cao cấp Sulwhasoo của Amorepacific và hãng thời trang
+    Pháp Maison Margiela, không phải là quầy làm đẹp hay thời trang…
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
-
 Trong khu sang trọng của Shinsegae Gangnam, cửa hàng bách hóa hàng đầu ở một trong những quận giàu có nhất của Seoul, một mô hình bán lẻ mới đã thu hút đám đông kể từ tháng 4.
 khai mạc. Không gian này là sự hợp tác giữa dòng sản phẩm làm đẹp cao cấp Sulwhasoo của Amorepacific và hãng thời trang Pháp Maison Margiela, không phải là quầy làm đẹp hay thời trang
 cửa hàng - đó là cả hai. Khách hàng có thể được cố vấn sắc đẹp AI của Sulwhasoo phân tích làn da của mình, sau đó duyệt qua bộ sưu tập quần áo may sẵn của Maison Margiela trong khi chờ đợi.
@@ -71,16 +70,14 @@ hạng mục xuất khẩu văn hóa đằng sau giải trí và thực phẩm. 
 hơn.
 thị trường xa xỉ toàn cầu.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "Seoul Fashion Week Fall/Winter 2026: Tradition, Tech, and a New Global Ambition"
+  - title: "Tuần lễ thời trang Seoul Thu Đông 2026: Truyền thống, Công nghệ và Tham vọng Toàn cầu Mới"
     url: "en/fashion/seoul-fashion-week-july-2026/"
-  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+  - title: "Kỷ nguyên solo của SUGA: Min Yoon-gi đã định nghĩa lại ý nghĩa của việc trở thành một nghệ sĩ K-Pop như thế nào"
     url: "en/artist/bts-suga-solo-artist-profile/"
 {{< /article-footer >}}
