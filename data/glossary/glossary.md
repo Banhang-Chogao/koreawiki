@@ -1,7 +1,7 @@
 # KoreaWiki Translation Memory (Korean → Vietnamese)
 
-> Private linguistic asset. Updated: 2026-07-16T12:34:18+00:00
-> Entries: 103
+> Private linguistic asset. Updated: 2026-07-16T12:35:48+00:00
+> Entries: 117
 
 | Korean | Vietnamese | Context | Category | Source | Updated |
 |--------|------------|---------|----------|--------|---------|
@@ -17,6 +17,7 @@
 | 개봉 | công chiếu / ra rạp | điện ảnh | noun |  | 2026-07-16 |
 | 결별 | chia tay | showbiz | noun |  | 2026-07-16 |
 | 결혼 | kết hôn | đời tư | noun |  | 2026-07-16 |
+| 곡성 | The Wailing | điện ảnh | movie | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 공감세포 | Gonggam Sepo | tên drama | drama | https://www.dispatch.co.kr/2344420 | 2026-07-16 |
 | 공개 | công bố / công khai | truyền thông | verb |  | 2026-07-16 |
 | 공시 | công bố thông tin / disclosure | tài chính / quản trị | noun | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
@@ -30,6 +31,7 @@
 | 김범석 | Kim Bom-suk / Bom Kim | doanh nhân | celebrity | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 김유석 | Kim Yoo-seok | doanh nghiệp / Coupang | proper_noun | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 김호중 | Kim Ho-joong | giải trí / pháp lý | celebrity | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
+| 나홍진 | Na Hong-jin | điện ảnh | celebrity | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 남배우 | nam diễn viên | ngành giải trí | noun |  | 2026-07-16 |
 | 넷플릭스 | Netflix | streaming | organization |  | 2026-07-16 |
 | 논란 | tranh cãi / scandal | truyền thông | noun |  | 2026-07-16 |
@@ -42,12 +44,14 @@
 | 발표 | công bố / announcement | truyền thông | noun |  | 2026-07-16 |
 | 방송 | phát sóng / chương trình | truyền hình | noun |  | 2026-07-16 |
 | 방탄소년단 | BTS | K-pop | celebrity |  | 2026-07-16 |
+| 범죄도시 | The Roundup / Crime City | điện ảnh | movie | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 법무부 | Bộ Tư pháp | chính phủ | organization | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 보도 | đưa tin / báo cáo | báo chí | noun |  | 2026-07-16 |
 | 보호관찰 | giám sát bảo hộ / quản chế | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 부산 | Busan | địa danh | location |  | 2026-07-16 |
 | 뷰티 | làm đẹp / beauty | K-beauty | noun |  | 2026-07-16 |
 | 블랙핑크 | BLACKPINK | K-pop | celebrity |  | 2026-07-16 |
+| 사전 예매 | đặt vé trước / pre-sale | phòng vé | other | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 서울 | Seoul | địa danh | location |  | 2026-07-16 |
 | 서울고등법원 | Tòa thượng thẩm Seoul | tư pháp | organization | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 서울구치소 | trại giam Seoul | tư pháp | location | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
@@ -71,22 +75,29 @@
 | 연대보증 로맨스 | Yeondae Bojeung Romance | tên drama | drama | https://www.dispatch.co.kr/2344420 | 2026-07-16 |
 | 연습생 | thực tập sinh | K-pop | noun |  | 2026-07-16 |
 | 열애 | yêu đương / hẹn hò | showbiz | noun |  | 2026-07-16 |
+| 영진위 | Ủy ban Điện ảnh Hàn Quốc (KOFIC) | điện ảnh / chính sách | organization | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 영화 | phim điện ảnh | điện ảnh | movie |  | 2026-07-16 |
+| 영화관입장권 통합전산망 | mạng thống kê vé điện ảnh tích hợp | phòng vé | other | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 예능 | chương trình giải trí / variety | truyền hình | noun |  | 2026-07-16 |
+| 예매율 | tỷ lệ đặt vé | phòng vé | other | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 와이쥐 | YG Entertainment | công ty | organization |  | 2026-07-16 |
+| 월드 프리미어 | world premiere / ra mắt thế giới | điện ảnh / LHP | other | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 음원 | nhạc số / digital track | âm nhạc | noun |  | 2026-07-16 |
 | 음주운전 | lái xe khi say rượu | pháp lý / giao thông | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 이감 | chuyển trại / chuyển giam | tư pháp / cải tạo | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 인터뷰 | phỏng vấn | báo chí | noun |  | 2026-07-16 |
 | 입장 | lập trường / tuyên bố | truyền thông | noun |  | 2026-07-16 |
+| 정호연 | Jung Ho-yeon | điện ảnh | celebrity | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 제이와이드 | JYP Entertainment | công ty | organization |  | 2026-07-16 |
 | 제작 | sản xuất | truyền thông | noun |  | 2026-07-16 |
 | 제주 | Jeju | địa danh | location |  | 2026-07-16 |
+| 조인성 | Jo In-sung | điện ảnh | celebrity | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 주목받다 | được chú ý | truyền thông | verb |  | 2026-07-16 |
 | 징역 | án tù / hình phạt tù | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 차트 | bảng xếp hạng | âm nhạc | noun |  | 2026-07-16 |
 | 출소 | xuất ngục / ra tù | tư pháp | other | https://www.dispatch.co.kr/2344260 | 2026-07-16 |
 | 출연 | tham gia / đóng vai | giải trí | noun |  | 2026-07-16 |
+| 칸국제영화제 | Liên hoan phim Cannes | điện ảnh | organization | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 캐스팅 | casting | phim/drama | noun |  | 2026-07-16 |
 | 컴백 | comeback | K-pop | noun |  | 2026-07-16 |
 | 케이드라마 | K-drama | truyền hình | noun |  | 2026-07-16 |
@@ -99,12 +110,15 @@
 | 팬 | fan | fandom | noun |  | 2026-07-16 |
 | 팬미팅 | fan meeting | sự kiện | noun |  | 2026-07-16 |
 | 표예진 | Pyo Ye-jin | diễn viên | celebrity | https://www.dispatch.co.kr/2344420 | 2026-07-16 |
+| 플러스엠 엔터테인먼트 | Plus M Entertainment | ngành điện ảnh | organization | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 하이브 | HYBE | công ty | organization |  | 2026-07-16 |
 | 한류 | Hallyu / làn sóng Hàn | văn hóa | noun |  | 2026-07-16 |
 | 한복 | hanbok | văn hóa | noun |  | 2026-07-16 |
+| 호프 | Hope | điện ảnh | movie | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 홍대 | Hongdae | địa danh | location |  | 2026-07-16 |
 | 화보 | bộ ảnh / pictorial | thời trang | noun |  | 2026-07-16 |
 | 화제 | chủ đề nóng / viral | truyền thông | noun |  | 2026-07-16 |
 | 화제를 모으다 | gây chú ý / thu hút bàn tán | truyền thông | idiom |  | 2026-07-16 |
+| 황정민 | Hwang Jung-min | điện ảnh | celebrity | https://www.dispatch.co.kr/2345236 | 2026-07-16 |
 | 효력정지 | đình chỉ hiệu lực / suspension of effect | tố tụng hành chính | noun | https://www.koreatimes.co.kr/southkorea/society/20260714/court-suspends-ftc-order-naming-coupang-founder-bom-kim-as-controller | 2026-07-16 |
 | 흥행 | doanh thu / thành công phòng vé | điện ảnh | noun |  | 2026-07-16 |

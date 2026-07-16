@@ -1,7 +1,7 @@
 {
   "version": 1,
   "language_pair": "ko-vi",
-  "updated": "2026-07-16T12:34:18+00:00",
+  "updated": "2026-07-16T12:35:48+00:00",
   "entries": [
     {
       "id": "ed0f4da4b180",
@@ -219,6 +219,24 @@
         "life"
       ],
       "category": "noun"
+    },
+    {
+      "id": "5eeae9eb8d96",
+      "korean": "곡성",
+      "vietnamese": "The Wailing",
+      "romanization": "gok-seong",
+      "pos": "proper_noun",
+      "meaning": "phim của Na Hong-jin (2016)",
+      "context": "điện ảnh",
+      "example": "곡성 이후 10년 만에",
+      "source_url": "https://www.dispatch.co.kr/2345236",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "film"
+      ],
+      "category": "movie"
     },
     {
       "id": "4407e66d9343",
@@ -460,6 +478,24 @@
       "category": "celebrity"
     },
     {
+      "id": "65eaf6a23b1c",
+      "korean": "나홍진",
+      "vietnamese": "Na Hong-jin",
+      "romanization": "na-hong-jin",
+      "pos": "proper_noun",
+      "meaning": "đạo diễn điện ảnh Hàn Quốc",
+      "context": "điện ảnh",
+      "example": "나홍진 감독의 4번째 장편 영화",
+      "source_url": "https://www.dispatch.co.kr/2345236",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "director"
+      ],
+      "category": "celebrity"
+    },
+    {
       "id": "76bb3c3f25c6",
       "korean": "남배우",
       "vietnamese": "nam diễn viên",
@@ -678,6 +714,25 @@
       "category": "celebrity"
     },
     {
+      "id": "682459072e44",
+      "korean": "범죄도시",
+      "vietnamese": "The Roundup / Crime City",
+      "romanization": "beom-joe-do-si",
+      "pos": "proper_noun",
+      "meaning": "series phim hành động Hàn Quốc",
+      "context": "điện ảnh",
+      "example": "범죄도시 3와 범죄도시 4",
+      "source_url": "https://www.dispatch.co.kr/2345236",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "film",
+        "franchise"
+      ],
+      "category": "movie"
+    },
+    {
       "id": "d6ef9fb0273c",
       "korean": "법무부",
       "vietnamese": "Bộ Tư pháp",
@@ -785,6 +840,24 @@
         "kpop"
       ],
       "category": "celebrity"
+    },
+    {
+      "id": "6b119bf7bac6",
+      "korean": "사전 예매",
+      "vietnamese": "đặt vé trước / pre-sale",
+      "romanization": "sa-jeon ye-mae",
+      "pos": "noun",
+      "meaning": "mua vé trước ngày công chiếu",
+      "context": "phòng vé",
+      "example": "사전 예매 관객 수 50만 명",
+      "source_url": "https://www.dispatch.co.kr/2345236",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "box-office"
+      ],
+      "category": "other"
     },
     {
       "id": "74fdbe283795",
@@ -1202,6 +1275,24 @@
       "category": "noun"
     },
     {
+      "id": "931b247fb437",
+      "korean": "영진위",
+      "vietnamese": "Ủy ban Điện ảnh Hàn Quốc (KOFIC)",
+      "romanization": "yeong-jin-wi",
+      "pos": "proper_noun",
+      "meaning": "Korean Film Council",
+      "context": "điện ảnh / chính sách",
+      "example": "영진위 영화관입장권 통합전산망",
+      "source_url": "https://www.dispatch.co.kr/2345236",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "film"
+      ],
+      "category": "organization"
+    },
+    {
       "id": "9b39914e2b5a",
       "korean": "영화",
       "vietnamese": "phim điện ảnh",
@@ -1218,6 +1309,24 @@
         "film"
       ],
       "category": "movie"
+    },
+    {
+      "id": "a8b382894692",
+      "korean": "영화관입장권 통합전산망",
+      "vietnamese": "mạng thống kê vé điện ảnh tích hợp",
+      "romanization": "yeong-hwa-gwan-ip-jang-gwon tong-hap-jeon-san-mang",
+      "pos": "noun",
+      "meaning": "hệ thống KOFIC theo dõi vé rạp toàn quốc",
+      "context": "phòng vé",
+      "example": "영화관입장권 통합전산망에 따르면",
+      "source_url": "https://www.dispatch.co.kr/2345236",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "kofic"
+      ],
+      "category": "other"
     },
     {
       "id": "bbb9f4f22800",
@@ -1238,6 +1347,24 @@
       "category": "noun"
     },
     {
+      "id": "2d0305696fd2",
+      "korean": "예매율",
+      "vietnamese": "tỷ lệ đặt vé",
+      "romanization": "ye-mae-yul",
+      "pos": "noun",
+      "meaning": "tỷ lệ chỗ/suất đã được đặt trước",
+      "context": "phòng vé",
+      "example": "예매율은 65.7%",
+      "source_url": "https://www.dispatch.co.kr/2345236",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "box-office"
+      ],
+      "category": "other"
+    },
+    {
       "id": "8e24b1132e23",
       "korean": "와이쥐",
       "vietnamese": "YG Entertainment",
@@ -1254,6 +1381,24 @@
         "company"
       ],
       "category": "organization"
+    },
+    {
+      "id": "acc142694191",
+      "korean": "월드 프리미어",
+      "vietnamese": "world premiere / ra mắt thế giới",
+      "romanization": "wol-deu peu-ri-mi-eo",
+      "pos": "noun",
+      "meaning": "buổi chiếu lần đầu trên thế giới",
+      "context": "điện ảnh / LHP",
+      "example": "월드 프리미어를 통해 공개",
+      "source_url": "https://www.dispatch.co.kr/2345236",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "festival"
+      ],
+      "category": "other"
     },
     {
       "id": "5362a56b7642",
@@ -1346,6 +1491,24 @@
       "category": "noun"
     },
     {
+      "id": "2309d716f3a6",
+      "korean": "정호연",
+      "vietnamese": "Jung Ho-yeon",
+      "romanization": "jeong-ho-yeon",
+      "pos": "proper_noun",
+      "meaning": "nữ diễn viên / người mẫu Hàn Quốc",
+      "context": "điện ảnh",
+      "example": "정호연이 순경 성애 역",
+      "source_url": "https://www.dispatch.co.kr/2345236",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "actor"
+      ],
+      "category": "celebrity"
+    },
+    {
       "id": "91ce7e41aa14",
       "korean": "제이와이드",
       "vietnamese": "JYP Entertainment",
@@ -1398,6 +1561,24 @@
         "place"
       ],
       "category": "location"
+    },
+    {
+      "id": "4cad7da6e8bc",
+      "korean": "조인성",
+      "vietnamese": "Jo In-sung",
+      "romanization": "jo-in-seong",
+      "pos": "proper_noun",
+      "meaning": "nam diễn viên Hàn Quốc",
+      "context": "điện ảnh",
+      "example": "조인성은 마을 청년인 성기 역할",
+      "source_url": "https://www.dispatch.co.kr/2345236",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "actor"
+      ],
+      "category": "celebrity"
     },
     {
       "id": "f5a71ff61b12",
@@ -1488,6 +1669,24 @@
         "entertainment"
       ],
       "category": "noun"
+    },
+    {
+      "id": "37099c66658a",
+      "korean": "칸국제영화제",
+      "vietnamese": "Liên hoan phim Cannes",
+      "romanization": "kan-guk-je-yeong-hwa-je",
+      "pos": "proper_noun",
+      "meaning": "Festival de Cannes",
+      "context": "điện ảnh",
+      "example": "제79회 칸국제영화제 경쟁 부문",
+      "source_url": "https://www.dispatch.co.kr/2345236",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "festival"
+      ],
+      "category": "organization"
     },
     {
       "id": "8116d8b6f736",
@@ -1707,6 +1906,24 @@
       "category": "celebrity"
     },
     {
+      "id": "4893f0acef18",
+      "korean": "플러스엠 엔터테인먼트",
+      "vietnamese": "Plus M Entertainment",
+      "romanization": "peul-leo-seu-em en-teo-te-in-meon-teu",
+      "pos": "proper_noun",
+      "meaning": "công ty phát hành / giải trí điện ảnh Hàn",
+      "context": "ngành điện ảnh",
+      "example": "사진제공=플러스엠 엔터테인먼트",
+      "source_url": "https://www.dispatch.co.kr/2345236",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "distributor"
+      ],
+      "category": "organization"
+    },
+    {
       "id": "36f5832d3275",
       "korean": "하이브",
       "vietnamese": "HYBE",
@@ -1759,6 +1976,25 @@
         "culture"
       ],
       "category": "noun"
+    },
+    {
+      "id": "31f715891725",
+      "korean": "호프",
+      "vietnamese": "Hope",
+      "romanization": "ho-peu",
+      "pos": "proper_noun",
+      "meaning": "phim điện ảnh của đạo diễn Na Hong-jin (2026)",
+      "context": "điện ảnh",
+      "example": "영화 '호프' 사전 예매 50만 돌파",
+      "source_url": "https://www.dispatch.co.kr/2345236",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "film",
+        "2026"
+      ],
+      "category": "movie"
     },
     {
       "id": "022dc4a3c17c",
@@ -1831,6 +2067,24 @@
         "media"
       ],
       "category": "idiom"
+    },
+    {
+      "id": "b4308f81ed74",
+      "korean": "황정민",
+      "vietnamese": "Hwang Jung-min",
+      "romanization": "hwang-jeong-min",
+      "pos": "proper_noun",
+      "meaning": "nam diễn viên Hàn Quốc",
+      "context": "điện ảnh",
+      "example": "황정민이 호포항 출장소장 범석으로 분했다",
+      "source_url": "https://www.dispatch.co.kr/2345236",
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "frequency": 1,
+      "tags": [
+        "actor"
+      ],
+      "category": "celebrity"
     },
     {
       "id": "1b0b6ac6b407",
