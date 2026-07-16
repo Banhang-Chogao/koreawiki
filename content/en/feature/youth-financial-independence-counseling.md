@@ -6,6 +6,10 @@ description: Trung tâm Đồng hành cùng Thanh niên Seoul giúp hàng ngàn 
 date: 2026-07-16
 draft: false
 author: Ha Byeon-gil (Hankyoreh)
+cover:
+  image: images/2026/07/youth-financial-independence-counseling-2026.jpg
+  alt: "Lee Jae-won, chuyên viên tư vấn Trung tâm Đồng hành cùng Thanh niên Seoul"
+  caption: "Lee Jae-won (Trung tâm Đồng hành cùng Thanh niên) — Ảnh: Ha Byeon-gil / Hankyoreh · Seoul&"
 tags:
 - finance
 - youth
