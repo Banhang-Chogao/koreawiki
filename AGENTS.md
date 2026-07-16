@@ -129,13 +129,22 @@ If a fix is **not** in the playbook / `scientist.md`, stop after 5 rounds, write
 
 Both require full image gallery fetch (`scripts/fetch_cover.py --all`), `faq` + `article-footer`, QA, and Hugo build before push.
 
+**Images + baseURL (critical for `nn` ArchDaily galleries):**
+
+- Host files under `static/images/YYYY/MM/`
+- `cover.image`: `images/…` (no leading `/`) → templates use `relURL`
+- Body: `![alt](/images/…)` → **must** use Markdown image syntax so  
+  `themes/koreawiki/layouts/_default/_markup/render-image.html` emits  
+  `/koreawiki/images/…` (site `baseURL`). Bare browser path `/images/…` **404s**.
+- After `hugo`, built HTML must **not** contain `src="/images/` without `koreawiki`
+
 Shared steps:
 
 1. `python3 scripts/glossary.py consult` before translate  
 2. Write Vietnamese article (KO→VI for `mm`, EN→VI for `nn`)  
-3. Fetch **all** usable source images → `static/images/…` + body embeds  
+3. Fetch **all** usable source images → `static/images/…` + body Markdown embeds  
 4. Extract TM → `glossary.py upsert` → `sync` (lighter for pure EN when no KO terms)  
-5. Run scientist / QA validate  
+5. Run scientist / QA validate + baseURL image smoke test  
 6. Commit + push only when green  
 
 ## Commit style

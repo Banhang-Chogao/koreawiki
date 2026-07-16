@@ -129,6 +129,24 @@ Same bar as `mm`: **every usable photo**, not cover-only.
 | **Every other article photo** | Under `static/images/…` **and** embedded in Markdown near related text |
 | Empty gallery | Last resort only after documented failed attempts |
 
+### 6-baseURL — Image URL contract (shared with `mm`; **required for `nn`**)
+
+Site deploys under **`baseURL = https://banhang-chogao.github.io/koreawiki/`**.
+
+| Where | How to write | How it becomes valid HTML |
+|-------|----------------|---------------------------|
+| Front matter `cover.image` | `images/YYYY/MM/file.jpg` (**no** leading slash) | Template: `{{ cover.image \| relURL }}` → `/koreawiki/images/…` |
+| Body Markdown figures | `![alt](/images/YYYY/MM/file.jpg)` **or** `![alt](images/YYYY/MM/file.jpg)` | Hook: `themes/koreawiki/layouts/_default/_markup/render-image.html` → `TrimPrefix "/" \| relURL` → `/koreawiki/images/…` |
+
+**Never** assume `src="/images/…"` works in the browser — that path 404s on GitHub Pages project sites (missing `/koreawiki/`). The render hook is what makes body galleries work for **every** `nn` (and `mm`) post.
+
+**Forbidden in body Markdown:**
+
+- Remote-only embeds: `![](https://cdn…)` after you already host under `static/`
+- Invented absolute hosts: `https://banhang-chogao.github.io/images/…` (wrong — still missing `/koreawiki/` if mis-copied)
+
+**Required after Hugo build (Step 11):** open the built article HTML under `public/` and confirm **every** gallery `<img src=` contains `/koreawiki/images/` (or the configured base path). Zero matches of `src="/images/` without `koreawiki`.
+
 ### 6a — Locate candidates
 
 | Priority | Source | How |
@@ -306,6 +324,33 @@ hugo --minify --gc
 ! find public -iname '*glossary*.json' -o -iname '*glossary*.csv' -o -iname '*glossary*.sqlite' | grep -q .
 ```
 
+**Image baseURL smoke test (mandatory when the post embeds body photos):**
+
+```bash
+# Replace with the built article path under public/
+ARTICLE=$(find public -path '*YOUR-SLUG*' -name index.html | head -1)
+# Must be 0 — bare /images/ without baseURL is a ship blocker
+python3 - <<'PY'
+from pathlib import Path
+import re, sys
+p = Path("""'"$ARTICLE"'""")
+# fallback: scan all new article if ARTICLE empty
+paths = [p] if p.exists() else list(Path("public").rglob("**/index.html"))
+bad = []
+for html in paths:
+    t = html.read_text(encoding="utf-8", errors="ignore")
+    # body/content images only: src=/images/... (not /koreawiki/images/)
+    if re.search(r'src=["\']?/images/', t):
+        bad.append(str(html))
+if bad:
+    print("FAIL: bare /images/ without baseURL in:", *bad[:20], sep="\n  ")
+    sys.exit(1)
+print("OK: no bare /images/ src (baseURL-safe)")
+PY
+```
+
+If this fails, do **not** push — fix Markdown paths and ensure `render-image.html` is present in the theme.
+
 ---
 
 ## Step 12 — Commit
@@ -344,6 +389,7 @@ EN URL/text → fetch (+ ALL images) → consult TM → EN→VI rewrite
 - Prefer TM for shared terminology
 - Always attribute: `Nguồn: [Publisher] — [URL]`
 - **Images:** mandatory `fetch_cover.py --page … --all` effort; host everything usable under `static/images/…`
+- **baseURL:** body gallery **must** go through Markdown image syntax so `render-image.html` rewrites to `/koreawiki/images/…`. Cover uses front-matter + `relURL`. Run Step 11 smoke test before push.
 - **Never ship without** `faq:` (≥2) **and** `{{< article-footer >}}`
 - Follow scientist.md and AGENTS.md
 - Never push failing code; never bypass QA; never skip Hugo build

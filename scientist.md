@@ -236,6 +236,8 @@ Body `![…](/images/…)` rendered as `src="/images/…"` (site root of github.
 `strings.TrimPrefix "/" | relURL` for non-http destinations.
 
 **Prevention:** mm/nn docs note body images must go through the render hook.
+**nn:** Step **6-baseURL** + Step 11 smoke test (`src="/images/` without `koreawiki` = ship blocker).
+AGENTS.md publishing section documents the same contract for both shortcuts.
 
 ---
 
