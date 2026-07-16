@@ -1,21 +1,29 @@
 ---
-title: "Seoul After Dark: A Photo Essay on the City That Never Sleeps"
-description: "From neon-lit Gangnam to the quiet alleys of Bukchon, KoreaWiki's photographers capture the contrasting moods of Seoul's nighttime landscape."
+title: 'Seoul After Dark: A Photo Essay on the City That Never Sleeps'
+description: From neon-lit Gangnam to the quiet alleys of Bukchon, KoreaWiki's photographers
+  capture the contrasting moods of Seoul's nighttime landscape.
 date: 2026-07-05
 draft: false
-author: "KoreaWiki Photography Team"
+author: KoreaWiki Photography Team
 cover:
-  image: "https://picsum.photos/seed/photo2/1200/630"
-  alt: "Night view of Seoul skyline from Namsan Tower"
-  caption: "Seoul's sprawling cityscape illuminated under the night sky, viewed from Namsan Seoul Tower"
+  image: https://picsum.photos/seed/photo2/1200/630
+  alt: Night view of Seoul skyline from Namsan Tower
+  caption: Seoul's sprawling cityscape illuminated under the night sky, viewed from
+    Namsan Seoul Tower
 tags:
-  - seoul
-  - night-photography
-  - travel
-  - photo-essay
+- seoul
+- night-photography
+- travel
+- photo-essay
 categories:
-  - Photos
-  - Travel
+- Photos
+- Travel
+keywords:
+- photos
+- seoul
+- night-photography
+- travel
+- photo-essay
 ---
 Seoul at night is a city of contrasts. In Gangnam, the neon glow of K-pop billboards and luxury storefronts reflects off the glass towers of corporate headquarters, creating a vision of hyper-modern prosperity. In Bukchon, the narrow alleyways are lit only by the warm glow of hanok guesthouses and the occasional street lamp, preserving a sense of a Seoul that existed before the economic miracle.
 

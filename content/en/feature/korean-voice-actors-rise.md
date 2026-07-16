@@ -1,21 +1,28 @@
 ---
-title: "The Voice Behind the Screen: How Korean Voice Actors Became Global Stars"
-description: "The booming demand for Korean-language dubbing and narration has elevated voice actors from invisible craftspeople to celebrated artists in their own right."
+title: 'The Voice Behind the Screen: How Korean Voice Actors Became Global Stars'
+description: The booming demand for Korean-language dubbing and narration has elevated
+  voice actors from invisible craftspeople to celebrated artists in their own right.
 date: 2026-07-02
 draft: false
-author: "Hyun-Woo Lee"
+author: Hyun-Woo Lee
 cover:
-  image: "https://picsum.photos/seed/feature3/1200/630"
-  alt: "Voice actor in a recording studio in Seoul"
-  caption: "Voice actor Kim Yeon-ah at work in a recording studio in Gangnam"
+  image: https://picsum.photos/seed/feature3/1200/630
+  alt: Voice actor in a recording studio in Seoul
+  caption: Voice actor Kim Yeon-ah at work in a recording studio in Gangnam
 tags:
-  - voice-acting
-  - dubbing
-  - korean-content
-  - entertainment-industry
+- voice-acting
+- dubbing
+- korean-content
+- entertainment-industry
 categories:
-  - Feature
-  - Culture
+- Feature
+- Culture
+keywords:
+- feature
+- voice-acting
+- dubbing
+- korean-content
+- entertainment-industry
 ---
 When global audiences watch Korean content on Netflix, they are often experiencing it through two distinct audio tracks: the original Korean and an English dub. But the Korean-language version itself may feature a voice actor whose face is entirely unknown to the millions who hear their voice. That is changing. The voice actors behind Korea's most iconic characters and narrations are stepping out of the shadows and into the spotlight.
 

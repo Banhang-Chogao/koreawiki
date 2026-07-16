@@ -1,22 +1,30 @@
 ---
-title: "Netflix Unveils Record ₩1.5 Trillion Korean Content Slate for 2027"
-description: "The streaming giant announces 28 new Korean productions including Squid Game Season 3, a Kim Eun-sook romance epic, and Korea's first big-budget space thriller."
+title: Netflix Unveils Record ₩1.5 Trillion Korean Content Slate for 2027
+description: The streaming giant announces 28 new Korean productions including Squid
+  Game Season 3, a Kim Eun-sook romance epic, and Korea's first big-budget space thriller.
 date: 2026-07-14
 draft: false
-author: "Ji-Yeon Park"
+author: Ji-Yeon Park
 cover:
-  image: "https://picsum.photos/seed/news2/1200/630"
-  alt: "Netflix Korea headquarters in Jongno-gu, Seoul"
-  caption: "Netflix Korea CEO Kang Min-kyung announces the 2027 slate at a press event in Seoul"
+  image: https://picsum.photos/seed/news2/1200/630
+  alt: Netflix Korea headquarters in Jongno-gu, Seoul
+  caption: Netflix Korea CEO Kang Min-kyung announces the 2027 slate at a press event
+    in Seoul
 tags:
-  - netflix
-  - streaming
-  - k-drama
-  - investment
+- netflix
+- streaming
+- k-drama
+- investment
 categories:
-  - Streaming
-  - K-Drama
-  - Business
+- Streaming
+- K-Drama
+- Business
+keywords:
+- news
+- netflix
+- streaming
+- k-drama
+- investment
 ---
 Netflix Korea announced its most ambitious content slate to date on Tuesday, committing ₩1.5 trillion to 28 original Korean productions scheduled for release in 2027. The announcement, made at a star-studded event at the COEX Convention Center in Samseong-dong, positions Korea as the streaming giant's single largest content investment market outside of the United States.
 

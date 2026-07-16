@@ -1,21 +1,30 @@
 ---
-title: "Park Chan-wol: The Indie Director Who Refuses to Make the Same Film Twice"
-description: "The maverick filmmaker behind 'Busan at Dawn' and 'The Inbetween' talks about his creative process, rejection of the studio system, and his upcoming VR experiment."
+title: 'Park Chan-wol: The Indie Director Who Refuses to Make the Same Film Twice'
+description: The maverick filmmaker behind 'Busan at Dawn' and 'The Inbetween' talks
+  about his creative process, rejection of the studio system, and his upcoming VR
+  experiment.
 date: 2026-07-06
 draft: false
-author: "Hyun-Woo Lee"
+author: Hyun-Woo Lee
 cover:
-  image: "https://picsum.photos/seed/artist3/1200/630"
-  alt: "Park Chan-wol on set"
-  caption: "Director Park Chan-wol on location in Busan during the production of his latest project"
+  image: https://picsum.photos/seed/artist3/1200/630
+  alt: Park Chan-wol on set
+  caption: Director Park Chan-wol on location in Busan during the production of his
+    latest project
 tags:
-  - park-chan-wol
-  - independent-film
-  - director
-  - interview
+- park-chan-wol
+- independent-film
+- director
+- interview
 categories:
-  - Artist
-  - Film
+- Artist
+- Film
+keywords:
+- artist
+- park-chan-wol
+- independent-film
+- director
+- interview
 ---
 Park Chan-wol does not make films for people who want comfort. The 41-year-old director, whose five feature films have polarized critics and delighted festival programmers, is sitting across from me at a quiet coffee shop in Seoul's Hongdae district, nursing an americano and explaining why he has turned down every studio offer that has come his way.
 

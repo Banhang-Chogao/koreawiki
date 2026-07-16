@@ -1,21 +1,30 @@
 ---
-title: "Exclusive: BTS Members Weigh In on Group Future — 'We Will Come Back When the Story Requires It'"
-description: "In a series of candid one-on-one conversations, the seven members of BTS open up about solo careers, military service, and the band's eventual reunion."
+title: 'Exclusive: BTS Members Weigh In on Group Future — ''We Will Come Back When
+  the Story Requires It'''
+description: In a series of candid one-on-one conversations, the seven members of
+  BTS open up about solo careers, military service, and the band's eventual reunion.
 date: 2026-07-10
 draft: false
-author: "Min-Jun Kim"
+author: Min-Jun Kim
 cover:
-  image: "https://picsum.photos/seed/exclusive2/1200/630"
-  alt: "BTS members in a group photograph from their 2025 reunion event"
-  caption: "BTS at their 10th anniversary celebration in 2025 — the last time all seven members were photographed together"
+  image: https://picsum.photos/seed/exclusive2/1200/630
+  alt: BTS members in a group photograph from their 2025 reunion event
+  caption: BTS at their 10th anniversary celebration in 2025 — the last time all seven
+    members were photographed together
 tags:
-  - bts
-  - exclusive
-  - interview
-  - future
+- bts
+- exclusive
+- interview
+- future
 categories:
-  - Exclusive
-  - K-Pop
+- Exclusive
+- K-Pop
+keywords:
+- bts
+- exclusive
+- interview
+- future
+- Exclusive
 ---
 Over the course of four months, KoreaWiki sat down individually with all seven members of BTS — Jin, SUGA, j-hope, RM, Jimin, V, and Jung Kook — for a series of conversations about their lives, their solo work, and the future of the group that changed K-pop forever. What emerged is a portrait of seven young men at peace with their past and thoughtful about what comes next.
 

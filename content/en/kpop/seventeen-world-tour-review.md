@@ -1,21 +1,30 @@
 ---
-title: "Seventeen's 'Follow Again' World Tour: A Masterclass in Performance and Production"
-description: "The 13-member group delivers a three-and-a-half-hour spectacle that reaffirms their status as K-pop's premier live act during their sold-out Los Angeles stop."
+title: 'Seventeen''s ''Follow Again'' World Tour: A Masterclass in Performance and
+  Production'
+description: The 13-member group delivers a three-and-a-half-hour spectacle that reaffirms
+  their status as K-pop's premier live act during their sold-out Los Angeles stop.
 date: 2026-07-10
 draft: false
-author: "Sarah Chen"
+author: Sarah Chen
 cover:
-  image: "https://picsum.photos/seed/kpop2/1200/630"
-  alt: "Seventeen performing at BMO Stadium in Los Angeles"
-  caption: "Seventeen's performance unit during the 'Follow Again' tour at BMO Stadium on July 8"
+  image: https://picsum.photos/seed/kpop2/1200/630
+  alt: Seventeen performing at BMO Stadium in Los Angeles
+  caption: Seventeen's performance unit during the 'Follow Again' tour at BMO Stadium
+    on July 8
 tags:
-  - seventeen
-  - concert-review
-  - world-tour
-  - live-performance
+- seventeen
+- concert-review
+- world-tour
+- live-performance
 categories:
-  - K-Pop
-  - Concert Review
+- K-Pop
+- Concert Review
+keywords:
+- kpop
+- seventeen
+- concert-review
+- world-tour
+- live-performance
 ---
 LOS ANGELES — On a warm July evening at BMO Stadium, Seventeen did something that few K-pop acts have accomplished: they made a crowd of 22,000 feel like they were at an intimate club show. The "Follow Again" tour, which touched down in Los Angeles on July 8 for two nights, is the group's largest North American outing to date, and the production value reflects their status as one of the industry's most bankable live acts.
 

@@ -1,21 +1,29 @@
 ---
-title: "The Idol Industry's Mental Health Crisis: Have We Learned Nothing?"
-description: "Despite high-profile tragedies and public promises of reform, the K-pop industry continues to prioritize profit over the wellbeing of its artists."
+title: 'The Idol Industry''s Mental Health Crisis: Have We Learned Nothing?'
+description: Despite high-profile tragedies and public promises of reform, the K-pop
+  industry continues to prioritize profit over the wellbeing of its artists.
 date: 2026-07-14
 draft: false
-author: "Min-Jun Kim"
+author: Min-Jun Kim
 cover:
-  image: "https://picsum.photos/seed/opinion1/1200/630"
-  alt: "A solitary figure on a dark stage under a single spotlight"
-  caption: "The gap between the glamorous stage persona and the reality of idol life remains dangerously wide"
+  image: https://picsum.photos/seed/opinion1/1200/630
+  alt: A solitary figure on a dark stage under a single spotlight
+  caption: The gap between the glamorous stage persona and the reality of idol life
+    remains dangerously wide
 tags:
-  - mental-health
-  - k-pop
-  - industry-criticism
-  - opinion
+- mental-health
+- k-pop
+- industry-criticism
+- opinion
 categories:
-  - Opinion
-  - K-Pop
+- Opinion
+- K-Pop
+keywords:
+- mental-health
+- k-pop
+- industry-criticism
+- opinion
+- Opinion
 ---
 In 2019, when Sulli and Goo Hara died within weeks of each other, the K-pop industry promised change. Statements were issued. Mental health initiatives were announced. Agency executives held press conferences with solemn expressions and vowed to do better. Seven years later, the question is unavoidable: what actually changed?
 

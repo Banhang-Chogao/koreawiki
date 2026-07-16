@@ -1,20 +1,27 @@
 ---
-title: "Inside Korea's Creator Economy Boom"
-description: "The rise of Korean digital creators is reshaping the entertainment landscape as platforms invest billions in local content production."
+title: Inside Korea's Creator Economy Boom
+description: The rise of Korean digital creators is reshaping the entertainment landscape
+  as platforms invest billions in local content production.
 date: 2026-07-14
 draft: false
-author: "Sarah Chen"
+author: Sarah Chen
 cover:
-  image: "https://picsum.photos/seed/videos1/1200/630"
-  alt: "Korean creator filming content"
-  caption: "Korean digital creators are finding new avenues for success"
+  image: https://picsum.photos/seed/videos1/1200/630
+  alt: Korean creator filming content
+  caption: Korean digital creators are finding new avenues for success
 tags:
-  - digital creators
-  - korean entertainment
-  - platform economy
+- digital creators
+- korean entertainment
+- platform economy
 categories:
-  - Digital
-  - Entertainment
+- Digital
+- Entertainment
+keywords:
+- videos
+- digital creators
+- korean entertainment
+- platform economy
+- Digital
 ---
 South Korea's creator economy has exploded into a multi-billion dollar industry, with platforms from YouTube to TikTok investing heavily in Korean content creators. The ecosystem now supports over 200,000 active creators generating content across dozens of genres.
 

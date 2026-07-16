@@ -1,22 +1,31 @@
 ---
-title: "Seongsu-dong: How Seoul's Industrial Wasteland Became the Coolest Neighborhood in Asia"
-description: "The transformation of Seongsu-dong from a decrepit shoe-manufacturing district into a global trendsetting hub is a case study in organic urban regeneration."
+title: 'Seongsu-dong: How Seoul''s Industrial Wasteland Became the Coolest Neighborhood
+  in Asia'
+description: The transformation of Seongsu-dong from a decrepit shoe-manufacturing
+  district into a global trendsetting hub is a case study in organic urban regeneration.
 date: 2026-07-08
 draft: false
-author: "Ji-Yeon Park"
+author: Ji-Yeon Park
 cover:
-  image: "https://picsum.photos/seed/feature2/1200/630"
-  alt: "Street view of Seongsu-dong's main thoroughfare"
-  caption: "Seongsu-dong's main street, where converted factories house some of Seoul's most innovative brands"
+  image: https://picsum.photos/seed/feature2/1200/630
+  alt: Street view of Seongsu-dong's main thoroughfare
+  caption: Seongsu-dong's main street, where converted factories house some of Seoul's
+    most innovative brands
 tags:
-  - seongsu-dong
-  - seoul
-  - urban-regeneration
-  - lifestyle
+- seongsu-dong
+- seoul
+- urban-regeneration
+- lifestyle
 categories:
-  - Feature
-  - Travel
-  - Culture
+- Feature
+- Travel
+- Culture
+keywords:
+- feature
+- seongsu-dong
+- seoul
+- urban-regeneration
+- lifestyle
 ---
 Walk through Seongsu-dong on a Saturday afternoon and you will encounter a version of Seoul that did not exist a decade ago. Young people queue outside a bakery housed in a converted tire factory. A French tourist photographs the exposed brick wall of a gallery that was once a shoe workshop. The smell of specialty coffee mingles with the industrial ghost of glue and leather. This is the neighborhood that urban planners around the world are studying as a model of organic, artist-led regeneration.
 

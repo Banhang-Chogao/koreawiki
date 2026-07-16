@@ -1,21 +1,30 @@
 ---
-title: "'Harbinger' Review: Bong Joon-ho Returns with a Dystopian Masterpiece That Rivals 'Parasite'"
-description: "The Oscar-winning director's latest film is a searing sci-fi thriller about climate justice and class warfare that cements his place as a generational filmmaker."
+title: '''Harbinger'' Review: Bong Joon-ho Returns with a Dystopian Masterpiece That
+  Rivals ''Parasite'''
+description: The Oscar-winning director's latest film is a searing sci-fi thriller
+  about climate justice and class warfare that cements his place as a generational
+  filmmaker.
 date: 2026-07-15
 draft: false
-author: "Sarah Chen"
+author: Sarah Chen
 cover:
-  image: "https://picsum.photos/seed/movies1/1200/630"
-  alt: "A scene from Bong Joon-ho's Harbinger showing a flooded Seoul skyline"
-  caption: "The flooded Gwanghwamun Square in a visually stunning scene from 'Harbinger'"
+  image: https://picsum.photos/seed/movies1/1200/630
+  alt: A scene from Bong Joon-ho's Harbinger showing a flooded Seoul skyline
+  caption: The flooded Gwanghwamun Square in a visually stunning scene from 'Harbinger'
 tags:
-  - bong-joon-ho
-  - harbinger
-  - film-review
-  - korean-cinema
+- bong-joon-ho
+- harbinger
+- film-review
+- korean-cinema
 categories:
-  - Movies
-  - Review
+- Movies
+- Review
+keywords:
+- movies
+- bong-joon-ho
+- harbinger
+- film-review
+- korean-cinema
 ---
 Bong Joon-ho has done it again. "Harbinger," the Palme d'Or and Oscar-winning director's first film since the historic "Parasite," premiered at the Cannes Film Festival in May to a 12-minute standing ovation, and after seeing the finished film at a press screening in Seoul, it is easy to understand why. This is a filmmaker operating with complete mastery of his craft, delivering a dystopian sci-fi thriller that is as emotionally devastating as it is intellectually provocative.
 

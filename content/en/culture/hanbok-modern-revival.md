@@ -1,21 +1,31 @@
 ---
-title: "The Hanbok Renaissance: How Korea's Traditional Dress Found a New Generation of Wearers"
-description: "From red carpets to daily street style, the hanbok is experiencing a remarkable revival among young Koreans who are reimagining tradition for the modern era."
+title: 'The Hanbok Renaissance: How Korea''s Traditional Dress Found a New Generation
+  of Wearers'
+description: From red carpets to daily street style, the hanbok is experiencing a
+  remarkable revival among young Koreans who are reimagining tradition for the modern
+  era.
 date: 2026-07-11
 draft: false
-author: "Soo-Jin Choi"
+author: Soo-Jin Choi
 cover:
-  image: "https://picsum.photos/seed/culture1/1200/630"
-  alt: "Young Koreans wearing modern hanbok in Insa-dong"
-  caption: "Friends wearing contemporary hanbok designs while exploring Insa-dong's traditional streets"
+  image: https://picsum.photos/seed/culture1/1200/630
+  alt: Young Koreans wearing modern hanbok in Insa-dong
+  caption: Friends wearing contemporary hanbok designs while exploring Insa-dong's
+    traditional streets
 tags:
-  - hanbok
-  - tradition
-  - fashion
-  - korean-culture
+- hanbok
+- tradition
+- fashion
+- korean-culture
 categories:
-  - Culture
-  - Fashion
+- Culture
+- Fashion
+keywords:
+- culture
+- hanbok
+- tradition
+- fashion
+- korean-culture
 ---
 Walk through the streets of Bukchon on a weekend afternoon and you will see them everywhere: young Koreans in hanbok, the traditional Korean dress, posing for photographs, browsing galleries, and casually sipping iced americanos. But look closer. The hanbok they are wearing are not the heavily structured, formal garments of their grandparents' generation. These are lighter, more flexible, often customized versions — hanbok that breathe, move, and fit the rhythms of contemporary life.
 

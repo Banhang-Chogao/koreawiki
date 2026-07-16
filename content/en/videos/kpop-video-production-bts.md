@@ -1,21 +1,29 @@
 ---
-title: "Beyond the Music Video: The Art and Science of K-Pop Video Production"
-description: "A look inside the multi-million-dollar video production industry that has made K-pop music videos the most visually ambitious in the world."
+title: 'Beyond the Music Video: The Art and Science of K-Pop Video Production'
+description: A look inside the multi-million-dollar video production industry that
+  has made K-pop music videos the most visually ambitious in the world.
 date: 2026-07-12
 draft: false
-author: "Hyun-Woo Lee"
+author: Hyun-Woo Lee
 cover:
-  image: "https://picsum.photos/seed/video1/1200/630"
-  alt: "Behind the scenes of a K-pop music video production"
-  caption: "A production meeting on the set of LE SSERAFIM's latest music video shoot at a studio in Paju"
+  image: https://picsum.photos/seed/video1/1200/630
+  alt: Behind the scenes of a K-pop music video production
+  caption: A production meeting on the set of LE SSERAFIM's latest music video shoot
+    at a studio in Paju
 tags:
-  - music-video
-  - production
-  - k-pop
-  - behind-the-scenes
+- music-video
+- production
+- k-pop
+- behind-the-scenes
 categories:
-  - Videos
-  - K-Pop
+- Videos
+- K-Pop
+keywords:
+- videos
+- music-video
+- production
+- k-pop
+- behind-the-scenes
 ---
 When LE SSERAFIM released the music video for their June single "Firefly," it was viewed 78 million times in its first week. The video, a four-minute cinematic piece involving a post-apocalyptic Seoul, elaborate choreography in a water-filled set, and CGI creatures rendered by the same studio that worked on "The Host," cost ₩2.3 billion to produce. It is among the most expensive music videos in K-pop history — but it is by no means an outlier.
 

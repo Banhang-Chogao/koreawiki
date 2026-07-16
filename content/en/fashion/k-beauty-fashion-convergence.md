@@ -1,21 +1,30 @@
 ---
-title: "When K-Beauty Met Fashion: How Korean Cosmetics Brands Are Redefining Luxury Retail"
-description: "From Amorepacific's flagship in Gangnam to collaborations with global fashion houses, Korean beauty is experiencing a luxury renaissance."
+title: 'When K-Beauty Met Fashion: How Korean Cosmetics Brands Are Redefining Luxury
+  Retail'
+description: From Amorepacific's flagship in Gangnam to collaborations with global
+  fashion houses, Korean beauty is experiencing a luxury renaissance.
 date: 2026-07-06
 draft: false
-author: "Sarah Chen"
+author: Sarah Chen
 cover:
-  image: "https://picsum.photos/seed/fashion2/1200/630"
-  alt: "Amorepacific's flagship store in Gangnam"
-  caption: "The Amorepacific flagship store in Gangnam, which blends beauty and fashion retail"
+  image: https://picsum.photos/seed/fashion2/1200/630
+  alt: Amorepacific's flagship store in Gangnam
+  caption: The Amorepacific flagship store in Gangnam, which blends beauty and fashion
+    retail
 tags:
-  - k-beauty
-  - luxury
-  - cosmetics
-  - retail
+- k-beauty
+- luxury
+- cosmetics
+- retail
 categories:
-  - Fashion
-  - Beauty
+- Fashion
+- Beauty
+keywords:
+- fashion
+- k-beauty
+- luxury
+- cosmetics
+- retail
 ---
 In the luxury section of Shinsegae Gangnam, the flagship department store in one of Seoul's most affluent districts, a new retail concept has been drawing crowds since its April opening. The space, a collaboration between Amorepacific's premium beauty line Sulwhasoo and French fashion house Maison Margiela, is neither a beauty counter nor a fashion boutique — it is both. Customers can have their skin analyzed by Sulwhasoo's AI beauty advisor, then browse a curated selection of Maison Margiela ready-to-wear while waiting for their custom-blended serum.
 

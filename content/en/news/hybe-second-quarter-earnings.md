@@ -1,21 +1,30 @@
 ---
-title: "HYBE Reports Record Q2 Revenue of ₩620 Billion Driven by Global Touring and Weverse Growth"
-description: "The K-pop entertainment giant surpasses expectations with a 34% year-over-year increase, fueled by BTS solo tours, Seventeen's world tour, and platform expansion."
+title: HYBE Reports Record Q2 Revenue of ₩620 Billion Driven by Global Touring and
+  Weverse Growth
+description: The K-pop entertainment giant surpasses expectations with a 34% year-over-year
+  increase, fueled by BTS solo tours, Seventeen's world tour, and platform expansion.
 date: 2026-07-11
 draft: false
-author: "Min-Jun Kim"
+author: Min-Jun Kim
 cover:
-  image: "https://picsum.photos/seed/news3/1200/630"
-  alt: "HYBE headquarters in Yongsan-gu, Seoul"
-  caption: "HYBE's state-of-the-art headquarters in central Seoul, which opened in early 2025"
+  image: https://picsum.photos/seed/news3/1200/630
+  alt: HYBE headquarters in Yongsan-gu, Seoul
+  caption: HYBE's state-of-the-art headquarters in central Seoul, which opened in
+    early 2025
 tags:
-  - hybe
-  - earnings
-  - k-pop
-  - business
+- hybe
+- earnings
+- k-pop
+- business
 categories:
-  - Business
-  - K-Pop
+- Business
+- K-Pop
+keywords:
+- news
+- hybe
+- earnings
+- k-pop
+- business
 ---
 HYBE Corporation reported record second-quarter earnings of ₩620 billion on Friday, surpassing analysts' consensus estimates by 8% and sending shares up 5.3% in afternoon trading on the Korea Exchange. The conglomerate, home to BTS, Seventeen, and LE SSERAFIM, attributed the strong performance to a packed global touring schedule and accelerating commerce revenue from its Weverse platform.
 

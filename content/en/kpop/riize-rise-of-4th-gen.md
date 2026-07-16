@@ -1,21 +1,30 @@
 ---
-title: "RIIZE Ascends: How SM's Youngest Boy Group Became the Defining Act of Fourth-Generation K-Pop"
-description: "With their first studio album debuting at number one globally, RIIZE has cemented their position as the leading boy group of their generation through a unique blend of talent and strategy."
+title: 'RIIZE Ascends: How SM''s Youngest Boy Group Became the Defining Act of Fourth-Generation
+  K-Pop'
+description: With their first studio album debuting at number one globally, RIIZE
+  has cemented their position as the leading boy group of their generation through
+  a unique blend of talent and strategy.
 date: 2026-07-04
 draft: false
-author: "Hyun-Woo Lee"
+author: Hyun-Woo Lee
 cover:
-  image: "https://picsum.photos/seed/kpop4/1200/630"
-  alt: "RIIZE members Shotaro, Sungchan, Eunseok, Wonbin, Sohee, and Anton"
-  caption: "RIIZE posing after their showcase performance at Olympic Hall in Seoul"
+  image: https://picsum.photos/seed/kpop4/1200/630
+  alt: RIIZE members Shotaro, Sungchan, Eunseok, Wonbin, Sohee, and Anton
+  caption: RIIZE posing after their showcase performance at Olympic Hall in Seoul
 tags:
-  - riize
-  - sm-entertainment
-  - 4th-generation
-  - boy-group
+- riize
+- sm-entertainment
+- 4th-generation
+- boy-group
 categories:
-  - K-Pop
-  - Feature
+- K-Pop
+- Feature
+keywords:
+- kpop
+- riize
+- sm-entertainment
+- 4th-generation
+- boy-group
 ---
 In the hyper-competitive landscape of fourth-generation K-pop, few groups have risen as meteorically as RIIZE. SM Entertainment's seven-member boy group, which debuted in September 2023, has just released their first full-length studio album "Realize" to commercial and critical acclaim, debuting at number one on the Circle Album Chart and entering the Billboard 200 at number four — the highest charting position for any fourth-generation boy group in the chart's history.
 

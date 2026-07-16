@@ -1,21 +1,30 @@
 ---
-title: "Beyond Seoul: Why Busan Is Korea's Most Underrated Travel Destination"
-description: "From the raw beauty of Haedong Yonggungsa to the electric energy of Busan International Film Festival, Korea's second city offers an experience that rivals the capital."
+title: 'Beyond Seoul: Why Busan Is Korea''s Most Underrated Travel Destination'
+description: From the raw beauty of Haedong Yonggungsa to the electric energy of Busan
+  International Film Festival, Korea's second city offers an experience that rivals
+  the capital.
 date: 2026-07-10
 draft: false
-author: "Min-Jun Kim"
+author: Min-Jun Kim
 cover:
-  image: "https://picsum.photos/seed/travel1/1200/630"
-  alt: "Sunset view of Busan's coastline from Gamcheon Culture Village"
-  caption: "The iconic colorful houses of Gamcheon Culture Village as the sun sets over the South Sea"
+  image: https://picsum.photos/seed/travel1/1200/630
+  alt: Sunset view of Busan's coastline from Gamcheon Culture Village
+  caption: The iconic colorful houses of Gamcheon Culture Village as the sun sets
+    over the South Sea
 tags:
-  - busan
-  - travel
-  - korea
-  - guide
+- busan
+- travel
+- korea
+- guide
 categories:
-  - Travel
-  - Culture
+- Travel
+- Culture
+keywords:
+- busan
+- travel
+- korea
+- guide
+- Travel
 ---
 For decades, the standard itinerary for international visitors to Korea has followed a predictable formula: fly into Incheon, spend three days in Seoul, take a day trip to the DMZ, and fly out. Busan, Korea's second-largest city and its premier coastal metropolis, has been treated as a worthy but optional add-on. That is beginning to change, and for good reason.
 

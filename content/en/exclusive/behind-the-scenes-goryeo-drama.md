@@ -1,21 +1,29 @@
 ---
-title: "Exclusive: On Set With 'Goryeo Dreams' — Inside KBS's Most Ambitious Period Drama"
-description: "KoreaWiki spends two days on the set of KBS's upcoming sageuk epic, witnessing the extraordinary effort behind bringing 14th-century Goryeo to life."
+title: 'Exclusive: On Set With ''Goryeo Dreams'' — Inside KBS''s Most Ambitious Period
+  Drama'
+description: KoreaWiki spends two days on the set of KBS's upcoming sageuk epic, witnessing
+  the extraordinary effort behind bringing 14th-century Goryeo to life.
 date: 2026-07-04
 draft: false
-author: "Soo-Jin Choi"
+author: Soo-Jin Choi
 cover:
-  image: "https://picsum.photos/seed/exclusive3/1200/630"
-  alt: "Goryeo Dreams set at KBS production facility"
-  caption: "The sprawling Goryeo dynasty set at KBS's Suwon production complex"
+  image: https://picsum.photos/seed/exclusive3/1200/630
+  alt: Goryeo Dreams set at KBS production facility
+  caption: The sprawling Goryeo dynasty set at KBS's Suwon production complex
 tags:
-  - goryeo-dreams
-  - kbs
-  - sageuk
-  - behind-the-scenes
+- goryeo-dreams
+- kbs
+- sageuk
+- behind-the-scenes
 categories:
-  - Exclusive
-  - K-Drama
+- Exclusive
+- K-Drama
+keywords:
+- exclusive
+- goryeo-dreams
+- kbs
+- sageuk
+- behind-the-scenes
 ---
 MUNGYEONG, North Gyeongsang Province — The first thing you notice on the set of "Goryeo Dreams" is the smell. Freshly cut pine, wood smoke, and the earthy scent of hanji — traditional Korean paper — permeate the sprawling outdoor set that KBS has built on 40 acres of land near Mungyeong Saejae, a historic mountain pass that once connected the Gyeongsang and Chungcheong provinces.
 

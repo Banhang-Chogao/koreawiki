@@ -1,22 +1,30 @@
 ---
-title: "IU at 33: Korea's Premier Solo Artist on Acting, Aging, and Artistic Freedom"
-description: "Lee Ji-eun reflects on her two-decade career as she prepares for dual releases — a new album and a starring role in a Netflix thriller."
+title: 'IU at 33: Korea''s Premier Solo Artist on Acting, Aging, and Artistic Freedom'
+description: Lee Ji-eun reflects on her two-decade career as she prepares for dual
+  releases — a new album and a starring role in a Netflix thriller.
 date: 2026-07-09
 draft: false
-author: "Soo-Jin Choi"
+author: Soo-Jin Choi
 cover:
-  image: "https://picsum.photos/seed/artist2/1200/630"
-  alt: "IU in a studio portrait for her upcoming album promotion"
-  caption: "IU photographed at her management agency EDAM Entertainment's studio in Seongsu-dong"
+  image: https://picsum.photos/seed/artist2/1200/630
+  alt: IU in a studio portrait for her upcoming album promotion
+  caption: IU photographed at her management agency EDAM Entertainment's studio in
+    Seongsu-dong
 tags:
-  - iu
-  - profile
-  - solo-artist
-  - actress
+- iu
+- profile
+- solo-artist
+- actress
 categories:
-  - Artist
-  - K-Pop
-  - K-Drama
+- Artist
+- K-Pop
+- K-Drama
+keywords:
+- artist
+- iu
+- profile
+- solo-artist
+- actress
 ---
 Lee Ji-eun — IU to the world — has been a star for so long that it is easy to forget she is only 33. She debuted at 15, wrote her first hit at 17, and by 21 was already being called "the nation's little sister." But two decades into a career that spans music, television, and film, IU is showing no signs of resting on her laurels. In fact, she may be entering her most creatively ambitious phase yet.
 

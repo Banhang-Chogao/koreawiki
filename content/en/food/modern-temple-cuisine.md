@@ -1,21 +1,30 @@
 ---
-title: "Temple Food Gets a Makeover: The Global Rise of Korean Buddhist Cuisine"
-description: "Once confined to mountain monasteries, Korean temple cuisine — Seungsik — is finding new audiences in fine dining restaurants and home kitchens around the world."
+title: 'Temple Food Gets a Makeover: The Global Rise of Korean Buddhist Cuisine'
+description: Once confined to mountain monasteries, Korean temple cuisine — Seungsik
+  — is finding new audiences in fine dining restaurants and home kitchens around the
+  world.
 date: 2026-07-09
 draft: false
-author: "Ji-Yeon Park"
+author: Ji-Yeon Park
 cover:
-  image: "https://picsum.photos/seed/food1/1200/630"
-  alt: "An artfully plated temple cuisine dish at a Seoul restaurant"
-  caption: "A modern interpretation of seungsik at the Michelin-starred restaurant 'Balwoo' in Jongno-gu"
+  image: https://picsum.photos/seed/food1/1200/630
+  alt: An artfully plated temple cuisine dish at a Seoul restaurant
+  caption: A modern interpretation of seungsik at the Michelin-starred restaurant
+    'Balwoo' in Jongno-gu
 tags:
-  - temple-food
-  - korean-cuisine
-  - buddhist
-  - fine-dining
+- temple-food
+- korean-cuisine
+- buddhist
+- fine-dining
 categories:
-  - Food
-  - Culture
+- Food
+- Culture
+keywords:
+- food
+- temple-food
+- korean-cuisine
+- buddhist
+- fine-dining
 ---
 At the Michelin-starred restaurant Balwoo in Jongno-gu, Seoul, dinner is a meditative experience. The 12-course tasting menu contains no meat, no fish, no garlic, no onions — the five pungent ingredients (ohshinchae) banned in Buddhist monastic cooking. What it does contain is a revelation of what Korean cuisine can achieve within constraints: delicate lotus root porridge, mountain vegetable namul that tastes of the forest floor, beondegi (fermented soybean paste) aged for seven years, and a dessert of cinnamon-scented yakbap that redefines what rice cake can be.
 

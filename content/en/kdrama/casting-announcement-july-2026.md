@@ -1,21 +1,30 @@
 ---
-title: "Park Seo-joon and Jun Ji-hyun Confirmed for 'The Seoul Agency' — Netflix's Most Expensive Drama Series Ever"
-description: "The star-studded spy thriller, with a reported budget of ₩100 billion, begins production in August for a 2027 release."
+title: Park Seo-joon and Jun Ji-hyun Confirmed for 'The Seoul Agency' — Netflix's
+  Most Expensive Drama Series Ever
+description: The star-studded spy thriller, with a reported budget of ₩100 billion,
+  begins production in August for a 2027 release.
 date: 2026-07-12
 draft: false
-author: "Soo-Jin Choi"
+author: Soo-Jin Choi
 cover:
-  image: "https://picsum.photos/seed/kdrama2/1200/630"
-  alt: "Park Seo-joon and Jun Ji-hyun at a press conference"
-  caption: "Park Seo-joon and Jun Ji-hyun at the casting confirmation event in Gangnam, Seoul"
+  image: https://picsum.photos/seed/kdrama2/1200/630
+  alt: Park Seo-joon and Jun Ji-hyun at a press conference
+  caption: Park Seo-joon and Jun Ji-hyun at the casting confirmation event in Gangnam,
+    Seoul
 tags:
-  - park-seo-joon
-  - jun-ji-hyun
-  - netflix
-  - casting-news
+- park-seo-joon
+- jun-ji-hyun
+- netflix
+- casting-news
 categories:
-  - K-Drama
-  - News
+- K-Drama
+- News
+keywords:
+- kdrama
+- park-seo-joon
+- jun-ji-hyun
+- netflix
+- casting-news
 ---
 Netflix confirmed on Monday that Park Seo-joon and Jun Ji-hyun have been cast as the leads in "The Seoul Agency," a big-budget spy thriller that streaming executives are already calling "the Korean answer to Mission: Impossible." The series, created by "Kingdom" writer Kim Eun-hee, begins principal photography in August and carries a reported production budget of ₩100 billion, making it the most expensive drama series in Korean television history.
 

@@ -1,21 +1,28 @@
 ---
-title: "Hallyu 2.0: How Korean Culture Evolved from Niche Export to Global Dominance"
-description: "A comprehensive look at the second wave of the Korean cultural export boom, from K-food to K-literature, and what it means for the next decade."
+title: 'Hallyu 2.0: How Korean Culture Evolved from Niche Export to Global Dominance'
+description: A comprehensive look at the second wave of the Korean cultural export
+  boom, from K-food to K-literature, and what it means for the next decade.
 date: 2026-07-13
 draft: false
-author: "Sarah Chen"
+author: Sarah Chen
 cover:
-  image: "https://picsum.photos/seed/feature1/1200/630"
-  alt: "Collage of Korean cultural exports — K-pop concert, Korean food, K-drama scene"
-  caption: "The global reach of Hallyu 2.0 spans music, food, fashion, and literature"
+  image: https://picsum.photos/seed/feature1/1200/630
+  alt: Collage of Korean cultural exports — K-pop concert, Korean food, K-drama scene
+  caption: The global reach of Hallyu 2.0 spans music, food, fashion, and literature
 tags:
-  - hallyu
-  - korean-wave
-  - cultural-export
-  - global
+- hallyu
+- korean-wave
+- cultural-export
+- global
 categories:
-  - Feature
-  - Culture
+- Feature
+- Culture
+keywords:
+- feature
+- hallyu
+- korean-wave
+- cultural-export
+- global
 ---
 In 2012, Psy's "Gangnam Style" was a global phenomenon widely regarded as a novelty — a colorful, irreverent flash in the pan that briefly turned the world's attention to South Korea. Fourteen years later, the idea of Korean culture as a passing fad seems preposterous. The Korean Wave, or Hallyu, has evolved from a niche interest into a structural pillar of the global entertainment and cultural economy.
 

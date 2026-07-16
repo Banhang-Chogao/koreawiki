@@ -1,21 +1,29 @@
 ---
-title: "The New Korean Wedding: How Millennials and Gen Z Are Rewriting Centuries of Tradition"
-description: "From wedding halls to boutique venues, from matchmaking to self-choice, the Korean wedding industry is undergoing its most dramatic transformation in generations."
+title: 'The New Korean Wedding: How Millennials and Gen Z Are Rewriting Centuries
+  of Tradition'
+description: From wedding halls to boutique venues, from matchmaking to self-choice,
+  the Korean wedding industry is undergoing its most dramatic transformation in generations.
 date: 2026-07-04
 draft: false
-author: "Sarah Chen"
+author: Sarah Chen
 cover:
-  image: "https://picsum.photos/seed/culture2/1200/630"
-  alt: "A modern Korean wedding ceremony at a boutique venue in Seongsu-dong"
-  caption: "A couple exchanges vows at a converted factory wedding venue in Seongsu-dong"
+  image: https://picsum.photos/seed/culture2/1200/630
+  alt: A modern Korean wedding ceremony at a boutique venue in Seongsu-dong
+  caption: A couple exchanges vows at a converted factory wedding venue in Seongsu-dong
 tags:
-  - weddings
-  - korean-culture
-  - tradition
-  - gen-z
+- weddings
+- korean-culture
+- tradition
+- gen-z
 categories:
-  - Culture
-  - Lifestyle
+- Culture
+- Lifestyle
+keywords:
+- culture
+- weddings
+- korean-culture
+- tradition
+- gen-z
 ---
 The Korean wedding industrial complex — a sprawling ecosystem of wedding halls, matchmaking agencies, and formalized rituals — has long been one of the most rigid industries in the country. But changing social values, economic pressures, and the influence of global culture are reshaping how young Koreans approach marriage, creating new opportunities and tensions in one of society's most tradition-bound institutions.
 

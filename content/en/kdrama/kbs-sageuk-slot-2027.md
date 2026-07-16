@@ -1,21 +1,29 @@
 ---
-title: "KBS Announces 2027 Sageuk Lineup Including 'The Last Admiral' and 'Goryeo Dreams'"
-description: "The public broadcaster is doubling down on historical drama with three ambitious period productions scheduled for the 2027 calendar year."
+title: KBS Announces 2027 Sageuk Lineup Including 'The Last Admiral' and 'Goryeo Dreams'
+description: The public broadcaster is doubling down on historical drama with three
+  ambitious period productions scheduled for the 2027 calendar year.
 date: 2026-07-06
 draft: false
-author: "Soo-Jin Choi"
+author: Soo-Jin Choi
 cover:
-  image: "https://picsum.photos/seed/kdrama4/1200/630"
-  alt: "Period drama set design at KBS headquarters"
-  caption: "KBS's production design team unveils concept art for the upcoming sageuk lineup"
+  image: https://picsum.photos/seed/kdrama4/1200/630
+  alt: Period drama set design at KBS headquarters
+  caption: KBS's production design team unveils concept art for the upcoming sageuk
+    lineup
 tags:
-  - kbs
-  - sageuk
-  - historical-drama
-  - k-drama
+- kbs
+- sageuk
+- historical-drama
+- k-drama
 categories:
-  - K-Drama
-  - News
+- K-Drama
+- News
+keywords:
+- kdrama
+- kbs
+- sageuk
+- historical-drama
+- k-drama
 ---
 KBS announced its 2027 historical drama lineup on Tuesday, confirming three major sageuk productions that the public broadcaster hopes will reclaim its legacy as the home of Korean historical storytelling. The slate includes "The Last Admiral," a 24-episode drama about Admiral Yi Sun-sin's final campaign; "Goryeo Dreams," a romance set during the Goryeo dynasty; and "The Secret Annals," a court intrigue thriller centered on the Joseon royal archives.
 

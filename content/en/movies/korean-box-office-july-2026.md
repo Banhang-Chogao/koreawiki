@@ -1,21 +1,30 @@
 ---
-title: "Korean Box Office: Local Titles Dominate July as 'Harbinger' Pre-Sales Break Records"
-description: "Domestic films claim six of the top ten spots at the Korean box office, with Bong Joon-ho's latest driving unprecedented pre-sale numbers."
+title: 'Korean Box Office: Local Titles Dominate July as ''Harbinger'' Pre-Sales Break
+  Records'
+description: Domestic films claim six of the top ten spots at the Korean box office,
+  with Bong Joon-ho's latest driving unprecedented pre-sale numbers.
 date: 2026-07-03
 draft: false
-author: "Min-Jun Kim"
+author: Min-Jun Kim
 cover:
-  image: "https://picsum.photos/seed/movies3/1200/630"
-  alt: "Movie theater marquee in Myeongdong showing Korean films"
-  caption: "CGV Myeongdong's box office displays dominated by Korean titles in July 2026"
+  image: https://picsum.photos/seed/movies3/1200/630
+  alt: Movie theater marquee in Myeongdong showing Korean films
+  caption: CGV Myeongdong's box office displays dominated by Korean titles in July
+    2026
 tags:
-  - box-office
-  - korean-film
-  - harbinger
-  - cgv
+- box-office
+- korean-film
+- harbinger
+- cgv
 categories:
-  - Movies
-  - Industry News
+- Movies
+- Industry News
+keywords:
+- movies
+- box-office
+- korean-film
+- harbinger
+- cgv
 ---
 Korean cinema is enjoying a remarkable summer at the domestic box office, with local titles claiming six of the top ten positions in July's first weekend. The trend underscores what industry analysts describe as a sustained "Korean film renaissance" that has seen domestic market share hover above 55% for the first half of 2026, the highest figure since the post-"Parasite" boom of 2020.
 

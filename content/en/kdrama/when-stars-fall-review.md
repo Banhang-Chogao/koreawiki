@@ -1,21 +1,30 @@
 ---
-title: "'When Stars Fall' Review: Kim Tae-ri Delivers a Career-Defining Performance in This Heart-Wrenching Sageuk"
-description: "The 16-episode historical drama from Studio Dragon combines political intrigue with a deeply personal love story, anchored by Kim Tae-ri's tour-de-force portrayal." 
+title: '''When Stars Fall'' Review: Kim Tae-ri Delivers a Career-Defining Performance
+  in This Heart-Wrenching Sageuk'
+description: The 16-episode historical drama from Studio Dragon combines political
+  intrigue with a deeply personal love story, anchored by Kim Tae-ri's tour-de-force
+  portrayal.
 date: 2026-07-14
 draft: false
-author: "Ji-Yeon Park"
+author: Ji-Yeon Park
 cover:
-  image: "https://picsum.photos/seed/kdrama1/1200/630"
-  alt: "Kim Tae-ri in costume as Lady Hong in When Stars Fall"
-  caption: "Kim Tae-ri as Lady Hong in Studio Dragon's 'When Stars Fall'"
+  image: https://picsum.photos/seed/kdrama1/1200/630
+  alt: Kim Tae-ri in costume as Lady Hong in When Stars Fall
+  caption: Kim Tae-ri as Lady Hong in Studio Dragon's 'When Stars Fall'
 tags:
-  - kim-tae-ri
-  - sageuk
-  - drama-review
-  - studio-dragon
+- kim-tae-ri
+- sageuk
+- drama-review
+- studio-dragon
 categories:
-  - K-Drama
-  - Review
+- K-Drama
+- Review
+keywords:
+- kdrama
+- kim-tae-ri
+- sageuk
+- drama-review
+- studio-dragon
 ---
 Studio Dragon's latest sageuk, "When Stars Fall," premiered on tvN on July 5 to the highest ratings for any Friday-Saturday drama in 2026, and after four episodes, it is clear why. This is historical drama at its most ambitious — a 16-episode epic that intertwines the fall of the Joseon dynasty's astronomy bureau with a forbidden romance between a royal astronomer and a noblewoman disguised as a servant.
 

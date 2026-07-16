@@ -1,21 +1,30 @@
 ---
-title: "'Street Woman Fighter' Season 3: Mnet Bets Big on Global Expansion with International Dance Crews"
-description: "The hit dance competition series returns with a new format, international competitors, and the highest production budget in Korean variety history."
+title: '''Street Woman Fighter'' Season 3: Mnet Bets Big on Global Expansion with
+  International Dance Crews'
+description: The hit dance competition series returns with a new format, international
+  competitors, and the highest production budget in Korean variety history.
 date: 2026-07-05
 draft: false
-author: "Ji-Yeon Park"
+author: Ji-Yeon Park
 cover:
-  image: "https://picsum.photos/seed/tv2/1200/630"
-  alt: "Dance crews on the set of Street Woman Fighter Season 3"
-  caption: "The massive new set for 'Street Woman Fighter' Season 3 at Mnet's production facility in Paju"
+  image: https://picsum.photos/seed/tv2/1200/630
+  alt: Dance crews on the set of Street Woman Fighter Season 3
+  caption: The massive new set for 'Street Woman Fighter' Season 3 at Mnet's production
+    facility in Paju
 tags:
-  - street-woman-fighter
-  - mnet
-  - dance
-  - competition
+- street-woman-fighter
+- mnet
+- dance
+- competition
 categories:
-  - TV
-  - Variety
+- TV
+- Variety
+keywords:
+- tv
+- street-woman-fighter
+- mnet
+- dance
+- competition
 ---
 Mnet's "Street Woman Fighter" returns for its third season on July 25 with a format overhaul designed to capitalize on the franchise's growing international appeal. The dance competition, which launched in 2021 and became a cultural phenomenon, has expanded from eight Korean crews to 12, including three international crews from Japan, France, and the United States.
 

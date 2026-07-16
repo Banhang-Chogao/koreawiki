@@ -1,21 +1,29 @@
 ---
-title: "'Lovely Runner' Episode 8: Time-Slip Thriller Takes a Devastating Turn as the Past Begins to Rewrite Itself"
-description: "tvN's hit drama delivers its most shocking episode yet as Sun-jae's actions in the past threaten to unravel the timeline entirely."
+title: '''Lovely Runner'' Episode 8: Time-Slip Thriller Takes a Devastating Turn as
+  the Past Begins to Rewrite Itself'
+description: tvN's hit drama delivers its most shocking episode yet as Sun-jae's actions
+  in the past threaten to unravel the timeline entirely.
 date: 2026-07-09
 draft: false
-author: "Hyun-Woo Lee"
+author: Hyun-Woo Lee
 cover:
-  image: "https://picsum.photos/seed/kdrama3/1200/630"
-  alt: "Kim Hye-yoon as Im Sol in Lovely Runner"
-  caption: "Kim Hye-yoon in a pivotal scene from Episode 8 of 'Lovely Runner'"
+  image: https://picsum.photos/seed/kdrama3/1200/630
+  alt: Kim Hye-yoon as Im Sol in Lovely Runner
+  caption: Kim Hye-yoon in a pivotal scene from Episode 8 of 'Lovely Runner'
 tags:
-  - lovely-runner
-  - recap
-  - tvN
-  - time-slip
+- lovely-runner
+- recap
+- tvN
+- time-slip
 categories:
-  - K-Drama
-  - Recap
+- K-Drama
+- Recap
+keywords:
+- kdrama
+- lovely-runner
+- recap
+- tvN
+- time-slip
 ---
 WARNING: This recap contains spoilers for "Lovely Runner" Episode 8.
 

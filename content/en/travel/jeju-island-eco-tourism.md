@@ -1,22 +1,31 @@
 ---
-title: "Jeju's Eco-Tourism Revolution: How Korea's Island Paradise Is Balancing Development and Conservation"
-description: "As tourist numbers surge past 20 million annually, Jeju Island grapples with the challenge of preserving its unique natural heritage while accommodating visitors."
+title: 'Jeju''s Eco-Tourism Revolution: How Korea''s Island Paradise Is Balancing
+  Development and Conservation'
+description: As tourist numbers surge past 20 million annually, Jeju Island grapples
+  with the challenge of preserving its unique natural heritage while accommodating
+  visitors.
 date: 2026-07-03
 draft: false
-author: "Sarah Chen"
+author: Sarah Chen
 cover:
-  image: "https://picsum.photos/seed/travel2/1200/630"
-  alt: "Hallasan Mountain viewed from Jeju's Olle Trail"
-  caption: "The majestic Hallasan Mountain towers over Jeju's iconic Olle coastal trail"
+  image: https://picsum.photos/seed/travel2/1200/630
+  alt: Hallasan Mountain viewed from Jeju's Olle Trail
+  caption: The majestic Hallasan Mountain towers over Jeju's iconic Olle coastal trail
 tags:
-  - jeju
-  - eco-tourism
-  - travel
-  - sustainability
+- jeju
+- eco-tourism
+- travel
+- sustainability
 categories:
-  - Travel
-  - Culture
-  - Environment
+- Travel
+- Culture
+- Environment
+keywords:
+- jeju
+- eco-tourism
+- travel
+- sustainability
+- Travel
 ---
 Jeju Island, the volcanic paradise off Korea's southern coast, has a problem that many destinations would envy: too many visitors. The island welcomed 21.3 million tourists in 2025, a record that strains infrastructure, threatens delicate ecosystems, and has sparked a contentious debate about the future of tourism on the island.
 

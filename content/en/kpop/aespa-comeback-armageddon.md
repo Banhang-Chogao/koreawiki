@@ -1,21 +1,31 @@
 ---
-title: "aespa Returns with 'Armageddon': A Futuristic Sonic Evolution That Redefines Their Narrative"
-description: "The quartet's third studio album arrives with a bold new sonic direction, intricate lore expansion, and the most ambitious music video production of their career."
+title: 'aespa Returns with ''Armageddon'': A Futuristic Sonic Evolution That Redefines
+  Their Narrative'
+description: The quartet's third studio album arrives with a bold new sonic direction,
+  intricate lore expansion, and the most ambitious music video production of their
+  career.
 date: 2026-07-13
 draft: false
-author: "Ji-Yeon Park"
+author: Ji-Yeon Park
 cover:
-  image: "https://picsum.photos/seed/kpop1/1200/630"
-  alt: "aespa members Karina, Winter, Giselle, and Ningning in concept photos for Armageddon"
-  caption: "aespa's concept imagery for 'Armageddon' blends cyberpunk aesthetics with traditional Korean motifs"
+  image: https://picsum.photos/seed/kpop1/1200/630
+  alt: aespa members Karina, Winter, Giselle, and Ningning in concept photos for Armageddon
+  caption: aespa's concept imagery for 'Armageddon' blends cyberpunk aesthetics with
+    traditional Korean motifs
 tags:
-  - aespa
-  - comeback
-  - sm-entertainment
-  - album-review
+- aespa
+- comeback
+- sm-entertainment
+- album-review
 categories:
-  - K-Pop
-  - Album Review
+- K-Pop
+- Album Review
+keywords:
+- kpop
+- aespa
+- comeback
+- sm-entertainment
+- album-review
 ---
 aespa has returned with "Armageddon," a sprawling 12-track album that marks the most significant artistic departure in the group's six-year career. Released on July 10 through SM Entertainment, the project finds the quartet abandoning the hyper-polished futurism of their early work in favor of a grittier, more textured sound that incorporates industrial rock, orchestral pop, and experimental hip-hop.
 

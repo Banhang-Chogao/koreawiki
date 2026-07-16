@@ -1,22 +1,30 @@
 ---
-title: "South Korea Expands Film Tax Credit Program to Lure International Productions"
-description: "The Ministry of Culture, Sports and Tourism announces a revamped incentive scheme offering up to 40% tax credits for international productions filming in Korea."
+title: South Korea Expands Film Tax Credit Program to Lure International Productions
+description: The Ministry of Culture, Sports and Tourism announces a revamped incentive
+  scheme offering up to 40% tax credits for international productions filming in Korea.
 date: 2026-07-08
 draft: false
-author: "Sarah Chen"
+author: Sarah Chen
 cover:
-  image: "https://picsum.photos/seed/news4/1200/630"
-  alt: "Film crew on set in Bukchon Hanok Village"
-  caption: "An international film crew shooting in Bukchon Hanok Village, Seoul's historic district"
+  image: https://picsum.photos/seed/news4/1200/630
+  alt: Film crew on set in Bukchon Hanok Village
+  caption: An international film crew shooting in Bukchon Hanok Village, Seoul's historic
+    district
 tags:
-  - film
-  - tax credits
-  - korean cinema
-  - production
+- film
+- tax credits
+- korean cinema
+- production
 categories:
-  - Film Industry
-  - Business
-  - Policy
+- Film Industry
+- Business
+- Policy
+keywords:
+- news
+- film
+- tax credits
+- korean cinema
+- production
 ---
 The Korean Ministry of Culture, Sports and Tourism unveiled a significantly expanded tax credit program on Wednesday designed to attract major international film and television productions to the peninsula. The revised Korean Film and Television Production Incentive increases the maximum rebate to 40% of qualifying local expenditures, up from the previous 25%, and removes the cap on eligible production budgets.
 

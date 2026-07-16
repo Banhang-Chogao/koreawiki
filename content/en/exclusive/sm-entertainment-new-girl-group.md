@@ -1,21 +1,30 @@
 ---
-title: "Exclusive: Inside SM Entertainment's Next Girl Group — The Vision, The Members, The Strategy"
-description: "KoreaWiki gains unprecedented access to SM's training facility as the company prepares to launch its first new girl group in six years."
+title: 'Exclusive: Inside SM Entertainment''s Next Girl Group — The Vision, The Members,
+  The Strategy'
+description: KoreaWiki gains unprecedented access to SM's training facility as the
+  company prepares to launch its first new girl group in six years.
 date: 2026-07-14
 draft: false
-author: "Ji-Yeon Park"
+author: Ji-Yeon Park
 cover:
-  image: "https://picsum.photos/seed/exclusive1/1200/630"
-  alt: "SM Entertainment's new state-of-the-art training facility"
-  caption: "Exclusive behind-the-scenes look at SM's newly built training center in Seongnam"
+  image: https://picsum.photos/seed/exclusive1/1200/630
+  alt: SM Entertainment's new state-of-the-art training facility
+  caption: Exclusive behind-the-scenes look at SM's newly built training center in
+    Seongnam
 tags:
-  - sm-entertainment
-  - girl-group
-  - exclusive
-  - debut
+- sm-entertainment
+- girl-group
+- exclusive
+- debut
 categories:
-  - Exclusive
-  - K-Pop
+- Exclusive
+- K-Pop
+keywords:
+- sm-entertainment
+- girl-group
+- exclusive
+- debut
+- Exclusive
 ---
 SEOUL — Behind the unmarked glass doors of a nondescript building in Seongnam, 20 minutes south of Seoul, the next generation of K-pop is being assembled with military precision. KoreaWiki was granted exclusive access to SM Entertainment's newly completed "NEO Training Center," a ₩50 billion facility where the company's next girl group — currently code-named "Project Iris" — has been training for the past 18 months.
 

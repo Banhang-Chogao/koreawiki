@@ -1,21 +1,30 @@
 ---
-title: "Jeonju International Film Festival 2026: Independent Korean Cinema Takes Center Stage"
-description: "The 27th edition of Korea's premier independent film festival showcases a record number of domestic productions and launches a new AI-focused competition section."
+title: 'Jeonju International Film Festival 2026: Independent Korean Cinema Takes Center
+  Stage'
+description: The 27th edition of Korea's premier independent film festival showcases
+  a record number of domestic productions and launches a new AI-focused competition
+  section.
 date: 2026-07-05
 draft: false
-author: "Hyun-Woo Lee"
+author: Hyun-Woo Lee
 cover:
-  image: "https://picsum.photos/seed/movies2/1200/630"
-  alt: "Jeonju Film Festival opening ceremony at Jeonju Stadium"
-  caption: "The opening ceremony of the 27th Jeonju International Film Festival"
+  image: https://picsum.photos/seed/movies2/1200/630
+  alt: Jeonju Film Festival opening ceremony at Jeonju Stadium
+  caption: The opening ceremony of the 27th Jeonju International Film Festival
 tags:
-  - jeonju-film-festival
-  - independent-cinema
-  - korean-film
-  - festival
+- jeonju-film-festival
+- independent-cinema
+- korean-film
+- festival
 categories:
-  - Movies
-  - Festival
+- Movies
+- Festival
+keywords:
+- movies
+- jeonju-film-festival
+- independent-cinema
+- korean-film
+- festival
 ---
 The 27th Jeonju International Film Festival (JIFF) opened on July 2 with a record 147 Korean independent films in its program, signaling a robust recovery for the country's independent film sector after several challenging years. The 10-day festival, held across venues in Korea's cultural capital of Jeonju, has drawn over 80,000 attendees in its first week, exceeding pre-pandemic attendance figures.
 

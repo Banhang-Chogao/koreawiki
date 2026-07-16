@@ -1,21 +1,29 @@
 ---
-title: "Busan After Dark: A Photo Essay of Korea's Coastal City When the Sun Goes Down"
-description: "Photographer Lee Sung-min captures the neon-lit soul of Busan after midnight, from Jagalchi Market's last sellers to the quiet temples overlooking the sea."
+title: 'Busan After Dark: A Photo Essay of Korea''s Coastal City When the Sun Goes
+  Down'
+description: Photographer Lee Sung-min captures the neon-lit soul of Busan after midnight,
+  from Jagalchi Market's last sellers to the quiet temples overlooking the sea.
 date: 2026-07-10
 draft: false
-author: "KoreaWiki Photo Desk"
+author: KoreaWiki Photo Desk
 cover:
-  image: "https://picsum.photos/seed/photo1/1200/630"
-  alt: "Busan's Gwangan Bridge illuminated at night"
-  caption: "Gwangan Bridge at midnight, reflected in the calm waters of Suyeong Bay"
+  image: https://picsum.photos/seed/photo1/1200/630
+  alt: Busan's Gwangan Bridge illuminated at night
+  caption: Gwangan Bridge at midnight, reflected in the calm waters of Suyeong Bay
 tags:
-  - busan
-  - photography
-  - night
-  - photo-essay
+- busan
+- photography
+- night
+- photo-essay
 categories:
-  - Photos
-  - Travel
+- Photos
+- Travel
+keywords:
+- photos
+- busan
+- photography
+- night
+- photo-essay
 ---
 Veteran photographer Lee Sung-min spent three weeks capturing Busan after dark, from the last fish auctions at Jagalchi Market at 3 a.m. to the first monks' prayers at Beomeosa Temple at 4 a.m. The resulting collection, "Busan Noir," is a love letter to the city's nocturnal life.
 

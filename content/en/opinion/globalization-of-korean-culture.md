@@ -1,21 +1,30 @@
 ---
-title: "When Everything Is Korean, Is Anything Still Korean?"
-description: "As Korean culture achieves unprecedented global penetration, we must reckon with the risks of its own success and the tension between universality and identity."
+title: When Everything Is Korean, Is Anything Still Korean?
+description: As Korean culture achieves unprecedented global penetration, we must
+  reckon with the risks of its own success and the tension between universality and
+  identity.
 date: 2026-07-07
 draft: false
-author: "Ji-Yeon Park"
+author: Ji-Yeon Park
 cover:
-  image: "https://picsum.photos/seed/opinion2/1200/630"
-  alt: "A montage of global Korean culture — from K-pop to kimchi to K-dramas"
-  caption: "The global spread of Korean culture raises complex questions about identity and authenticity"
+  image: https://picsum.photos/seed/opinion2/1200/630
+  alt: A montage of global Korean culture — from K-pop to kimchi to K-dramas
+  caption: The global spread of Korean culture raises complex questions about identity
+    and authenticity
 tags:
-  - hallyu
-  - globalization
-  - korean-culture
-  - opinion
+- hallyu
+- globalization
+- korean-culture
+- opinion
 categories:
-  - Opinion
-  - Culture
+- Opinion
+- Culture
+keywords:
+- hallyu
+- globalization
+- korean-culture
+- opinion
+- Opinion
 ---
 There is a Korean proverb: "A tree with deep roots does not fear the wind." As Korean popular culture enjoys a period of global influence unprecedented in the nation's history, the question is no longer whether the tree is strong enough to withstand external forces — it is whether the roots remain connected to the soil that nourished them.
 

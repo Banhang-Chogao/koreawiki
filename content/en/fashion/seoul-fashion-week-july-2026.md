@@ -1,21 +1,29 @@
 ---
-title: "Seoul Fashion Week Fall/Winter 2026: Tradition, Tech, and a New Global Ambition"
-description: "The bi-annual event showcased a Korean fashion industry coming into its own, with designers blending heritage craftsmanship with cutting-edge technology."
+title: 'Seoul Fashion Week Fall/Winter 2026: Tradition, Tech, and a New Global Ambition'
+description: The bi-annual event showcased a Korean fashion industry coming into its
+  own, with designers blending heritage craftsmanship with cutting-edge technology.
 date: 2026-07-11
 draft: false
-author: "Soo-Jin Choi"
+author: Soo-Jin Choi
 cover:
-  image: "https://picsum.photos/seed/fashion1/1200/630"
-  alt: "Runway at Seoul Fashion Week Fall/Winter 2026"
-  caption: "A model walks the runway at Seoul Fashion Week's main venue in Dongdaemun Design Plaza"
+  image: https://picsum.photos/seed/fashion1/1200/630
+  alt: Runway at Seoul Fashion Week Fall/Winter 2026
+  caption: A model walks the runway at Seoul Fashion Week's main venue in Dongdaemun
+    Design Plaza
 tags:
-  - seoul-fashion-week
-  - korean-fashion
-  - runway
-  - design
+- seoul-fashion-week
+- korean-fashion
+- runway
+- design
 categories:
-  - Fashion
-  - Events
+- Fashion
+- Events
+keywords:
+- fashion
+- seoul-fashion-week
+- korean-fashion
+- runway
+- design
 ---
 Seoul Fashion Week returned to the iconic Dongdaemun Design Plaza from July 3 to July 8, presenting the Fall/Winter 2026 collections from 64 Korean designers and, for the first time, eight international guest designers from Tokyo, Shanghai, and Milan. The event has undergone a quiet transformation in recent seasons, evolving from a regional showcase into a legitimate fixture on the global fashion calendar.
 

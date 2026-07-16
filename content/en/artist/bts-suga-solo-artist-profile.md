@@ -1,21 +1,28 @@
 ---
-title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
-description: "An in-depth profile of BTS's Min SUGA as he completes his first solo stadium tour and releases his most personal work to date."
+title: 'SUGA''s Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist'
+description: An in-depth profile of BTS's Min SUGA as he completes his first solo
+  stadium tour and releases his most personal work to date.
 date: 2026-07-12
 draft: false
-author: "Ji-Yeon Park"
+author: Ji-Yeon Park
 cover:
-  image: "https://picsum.photos/seed/artist1/1200/630"
-  alt: "SUGA performing at Seoul Olympic Stadium"
-  caption: "SUGA during his 'D-Day' world tour finale at Seoul Olympic Stadium"
+  image: https://picsum.photos/seed/artist1/1200/630
+  alt: SUGA performing at Seoul Olympic Stadium
+  caption: SUGA during his 'D-Day' world tour finale at Seoul Olympic Stadium
 tags:
-  - bts
-  - suga
-  - profile
-  - solo
+- bts
+- suga
+- profile
+- solo
 categories:
-  - Artist
-  - K-Pop
+- Artist
+- K-Pop
+keywords:
+- artist
+- bts
+- suga
+- profile
+- solo
 ---
 Min Yoon-gi, known to the world as SUGA, has spent the past 13 years dismantling every expectation placed upon him. The BTS rapper, producer, and now solo stadium headliner completed the Asian leg of his "D-Day" world tour on July 3 with a three-night stand at Seoul Olympic Stadium, drawing 135,000 fans across the weekend. It was the triumphant culmination of a chapter that has fundamentally altered the landscape of K-pop solo careers.
 

@@ -1,22 +1,30 @@
 ---
-title: "Samsung and K-Pop Giants Unite for Historic Charity Concert in Busan"
-description: "Samsung Electronics partners with HYBE and SM Entertainment for a landmark charity concert at Busan Asiad Stadium, featuring BTS's Suga, NCT 127, and Seventeen."
+title: Samsung and K-Pop Giants Unite for Historic Charity Concert in Busan
+description: Samsung Electronics partners with HYBE and SM Entertainment for a landmark
+  charity concert at Busan Asiad Stadium, featuring BTS's Suga, NCT 127, and Seventeen.
 date: 2026-07-15
 draft: false
-author: "Min-Jun Kim"
+author: Min-Jun Kim
 cover:
-  image: "https://picsum.photos/seed/news1/1200/630"
-  alt: "Busan Asiad Stadium illuminated for the charity concert"
-  caption: "Busan Asiad Stadium during soundcheck ahead of the historic Samsung Hope Concert"
+  image: https://picsum.photos/seed/news1/1200/630
+  alt: Busan Asiad Stadium illuminated for the charity concert
+  caption: Busan Asiad Stadium during soundcheck ahead of the historic Samsung Hope
+    Concert
 tags:
-  - k-pop
-  - samsung
-  - charity
-  - busan
+- k-pop
+- samsung
+- charity
+- busan
 categories:
-  - K-Pop
-  - Events
-  - Business
+- K-Pop
+- Events
+- Business
+keywords:
+- news
+- k-pop
+- samsung
+- charity
+- busan
 ---
 Samsung Electronics will co-host what industry insiders are calling the largest corporate-sponsored K-pop event in history at Busan Asiad Stadium on August 15, Korea's Liberation Day. The Samsung Hope Concert will feature headliners including BTS member SUGA, NCT 127, Seventeen, and rising rookie group RIIZE, with all proceeds benefiting youth education programs in underserved communities across Gyeongsangnam-do.
 
