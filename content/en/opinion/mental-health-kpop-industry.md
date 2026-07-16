@@ -42,6 +42,7 @@ faq:
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
 Năm 2019, khi Sulli và Goo Hara qua đời chỉ cách nhau vài tuần, ngành công nghiệp K-pop hứa hẹn sẽ có sự thay đổi. Các tuyên bố đã được đưa ra. Các sáng kiến ​​​​về sức khỏe tâm thần đã được công bố.
 đại lý
 các nhà điều hành đã tổ chức họp báo với vẻ mặt trang trọng và thề sẽ làm tốt hơn nữa. Bảy năm sau, câu hỏi không thể tránh khỏi: Điều gì thực sự đã thay đổi?
@@ -75,16 +76,14 @@ Sự thay đổi thực sự sẽ đòi hỏi nhiều hơn những tuyên bố c
 pháp lý về việc làm
 giờ dành cho học viên vị thành niên và sự thay đổi văn hóa coi trọng phúc lợi của nghệ sĩ hơn là sản lượng nội dung. Cho đến lúc đó, mọi lời hứa cải cách chỉ là một thông cáo báo chí khác.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Min-Jun Kim** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "When Everything Is Korean, Is Anything Still Korean?"
+  - title: "Khi mọi thứ đều là tiếng Hàn, liệu có thứ gì vẫn là tiếng Hàn không?"
     url: "en/opinion/globalization-of-korean-culture/"
-  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+  - title: "Kỷ nguyên solo của SUGA: Min Yoon-gi đã định nghĩa lại ý nghĩa của việc trở thành một nghệ sĩ K-Pop như thế nào"
     url: "en/artist/bts-suga-solo-artist-profile/"
 {{< /article-footer >}}

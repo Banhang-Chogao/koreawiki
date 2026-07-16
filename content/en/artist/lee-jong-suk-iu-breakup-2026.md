@@ -41,6 +41,7 @@ faq:
 
 
 
+
 Nam diễn viên Lee Jong-suk và nữ ca sĩ IU đã chính thức kết thúc mối quan hệ
 tình cảm kéo dài 4 năm. Cả hai quyết định rẽ theo hai hướng riêng sau quãng thời
 gian dài gắn bó.
@@ -86,7 +87,7 @@ external:
   - title: "Dispatch"
     url: "https://www.dispatch.co.kr/2345087"
 internal:
-  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+  - title: "Kỷ nguyên solo của SUGA: Min Yoon-gi đã định nghĩa lại ý nghĩa của việc trở thành một nghệ sĩ K-Pop như thế nào"
     url: "en/artist/bts-suga-solo-artist-profile/"
   - title: "Choi Siwon (Super Junior) được tòa Mỹ cho phép truy xuất danh tính 10 anti-fan"
     url: "en/artist/choi-siwon-us-court-identity-disclosure-2026/"

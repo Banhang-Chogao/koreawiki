@@ -44,6 +44,7 @@ faq:
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
 Seoul về đêm là một thành phố của sự tương phản. Ở Gangnam, ánh đèn neon của các biển quảng cáo K-pop và mặt tiền cửa hàng sang trọng phản chiếu lên các tòa tháp kính của trụ sở công ty, tạo nên một
 không gian
 tầm nhìn về sự thịnh vượng siêu hiện đại. Ở Bukchon, những con hẻm chật hẹp chỉ được chiếu sáng bởi ánh sáng ấm áp của các nhà nghỉ hanok và thỉnh thoảng có ánh đèn đường, mang lại cảm giác về một
@@ -74,16 +75,14 @@ Bài tiểu luận chụp ảnh ban đêm kết thúc ở Bukchon, nơi sự thi
 được chiếu sáng - bóng tối của mái nhà hanok tương phản với bầu trời sáng hơn một chút, ngọn đèn duy nhất trên cửa sổ truyền thống, bóng dài của người đi bộ cuối cùng
 về nhà qua những con hẻm lát đá cuội. Đó là một lời nhắc nhở rằng ngay cả ở một trong những thành phố năng động nhất thế giới, những vùng tĩnh lặng sâu sắc vẫn tồn tại.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **KoreaWiki Photography Team** / KoreaWiki biên soạn. Hình ảnh (nếu có)
   thuộc quyền sở hữu của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui
   lòng dẫn nguồn khi trích dẫn.
 internal:
-  - title: "Busan After Dark: A Photo Essay of Korea's Coastal City When the Sun Goes Down"
+  - title: "Busan After Dark: Một bài luận ảnh về thành phố ven biển của Hàn Quốc khi mặt trời lặn"
     url: "en/photos/busan-night-photography-essay/"
-  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+  - title: "Kỷ nguyên solo của SUGA: Min Yoon-gi đã định nghĩa lại ý nghĩa của việc trở thành một nghệ sĩ K-Pop như thế nào"
     url: "en/artist/bts-suga-solo-artist-profile/"
 {{< /article-footer >}}

@@ -45,6 +45,7 @@ faq:
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
 Khu phức hợp công nghiệp đám cưới Hàn Quốc - một hệ sinh thái rộng lớn bao gồm các sảnh cưới, cơ quan mai mối và các nghi lễ chính thức - từ lâu đã là một trong những ngành công nghiệp cứng nhắc nhất
 ở Hàn Quốc.
 đất nước. Nhưng việc thay đổi các giá trị xã hội, áp lực kinh tế và ảnh hưởng của văn hóa toàn cầu đang định hình lại cách giới trẻ Hàn Quốc tiếp cận hôn nhân, tạo ra những cơ hội và cơ hội mới.
@@ -72,8 +73,6 @@ sự lựa chọn hơn là một nghĩa vụ xã hội."
 Tuy nhiên, truyền thống vẫn có sức hút. Hầu hết các cặp đôi vẫn kết hợp pyebaek (lễ cúi đầu trang trọng) và mặc hanbok trong ít nhất một phần lễ kỷ niệm của họ. Sự khác biệt là
 rằng bây giờ họ làm điều đó theo cách riêng của họ.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
@@ -82,6 +81,6 @@ copyright: >
 internal:
   - title: "Anne's Library — Nhà xuất bản Hàn Quốc hạ thấp rào cản tiếp cận văn học cổ điển và nghệ thuật"
     url: "en/culture/annes-library-publishing-house-profile/"
-  - title: "The Hanbok Renaissance: How Korea's Traditional Dress Found a New Generation of Wearers"
-    url: "en/culture/hanbok-modern-revival/"
+  - title: "Boknal (복날): ba ngày 'phục' giữa mùa hè Hàn Quốc"
+    url: "en/culture/boknal-sam-phuc-mua-he-han-quoc/"
 {{< /article-footer >}}

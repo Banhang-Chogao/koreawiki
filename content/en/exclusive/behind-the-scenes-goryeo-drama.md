@@ -45,6 +45,7 @@ faq:
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
 MUNGYEONG, tỉnh Bắc Kyungsang — Điều đầu tiên bạn chú ý trên trường quay "Những giấc mơ Goryeo" là mùi. Cây thông mới cắt, khói củi và mùi đất của hanji —
 Giấy truyền thống của Hàn Quốc — tràn ngập không gian ngoài trời rộng lớn mà KBS đã xây dựng trên khu đất rộng 40 mẫu Anh gần Mungyeong Saejae, một con đèo lịch sử từng nối liền
 Các tỉnh Gyeongsang và Chungcheong.
@@ -72,16 +73,14 @@ không có đường tắt cho kiểu chuẩn bị này."
 
 Goryeo Dreams dự kiến khởi chiếu trên KBS2 vào tháng 3 năm 2027.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Soo-Jin Choi** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "Exclusive: BTS Members Weigh In on Group Future — 'We Will Come Back When the Story Requires It'"
+  - title: "Độc quyền: Các thành viên BTS cân nhắc về tương lai của nhóm - 'Chúng tôi sẽ quay lại khi câu chuyện yêu cầu'"
     url: "en/exclusive/bts-members-individual-futures/"
-  - title: "Exclusive: Inside SM Entertainment's Next Girl Group — The Vision, The Members, The Strategy"
-    url: "en/exclusive/sm-entertainment-new-girl-group/"
+  - title: "Kim Myung-soo đóng chính romance 'Yeondae Bojeung Romance' cùng Pyo Ye-jin"
+    url: "en/exclusive/kim-myung-soo-yeondae-bojeung-romance-pyo-ye-jin-2026/"
 {{< /article-footer >}}

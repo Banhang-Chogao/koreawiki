@@ -1,51 +1,52 @@
 ---
-title: "KakaoTalk bản cập nhật 6: tóm tắt tin nhắn, ChatGPT for Kakao trên PC"
-description: "Kakao phát hành KakaoTalk v26.6.0 (15/7/2026): tóm tắt tin trong từng
+title: 'KakaoTalk bản cập nhật 6: tóm tắt tin nhắn, ChatGPT for Kakao trên PC'
+description: 'Kakao phát hành KakaoTalk v26.6.0 (15/7/2026): tóm tắt tin trong từng
   phòng chat, mở rộng ChatGPT for Kakao sang PC, template ảnh AI, chatbot open chat
-  (beta) và xóa tin kênh trong 24 giờ."
+  (beta) và xóa tin kênh trong 24 giờ.'
 date: 2026-07-16
 lastmod: 2026-07-16
 source_date: 2026-07-15
 draft: false
-author: "KoreaWiki Newsroom"
+author: KoreaWiki Newsroom
 cover:
   image: images/2026/07/kakaotalk-6th-update-chatgpt-pc-2026-cover.png
-  alt: "KakaoTalk cập nhật định kỳ lần 6 — trải nghiệm AI trên PC"
-  caption: "KakaoTalk 6th update — Ảnh: Kakao Corp"
+  alt: KakaoTalk cập nhật định kỳ lần 6 — trải nghiệm AI trên PC
+  caption: 'KakaoTalk 6th update — Ảnh: Kakao Corp'
 tags:
-  - kakao
-  - kakaotalk
-  - chatgpt
-  - ai
-  - tech
-  - update
+- kakao
+- kakaotalk
+- chatgpt
+- ai
+- tech
+- update
 categories:
-  - News
-  - Digital
+- News
+- Digital
 keywords:
-  - kakaotalk
-  - kakao
-  - chatgpt for kakao
-  - cập nhật kakaotalk
-  - v26.6.0
-  - tóm tắt tin nhắn
-  - open chat chatbot
+- kakaotalk
+- kakao
+- chatgpt for kakao
+- cập nhật kakaotalk
+- v26.6.0
+- tóm tắt tin nhắn
+- open chat chatbot
 slug: kakaotalk-ban-cap-nhat-6-tom-tat-tin-nhan-chatgpt-for-kakao-tren-pc
 faq:
-  - q: "KakaoTalk cập nhật gì trong lần 6?"
-    a: "Bản **v26.6.0** thêm **tóm tắt tin trong phòng chat**, **ChatGPT for Kakao trên
-      PC**, tạo ảnh bằng template AI, **chatbot open chat (beta)** và **xóa tin kênh
-      trong 24 giờ** sau khi gửi."
-  - q: "Tóm tắt tin nhắn hoạt động thế nào?"
-    a: "Trong từng phòng chat, bấm **'대화 요약' (tóm tắt hội thoại)** để xem **nội dung
-      cốt lõi** của tin còn dồn — hữu ích khi lâu không vào phòng."
-  - q: "ChatGPT for Kakao trên PC khác gì bản mobile?"
-    a: "Phạm vi dùng mở rộng sang **KakaoTalk PC**; **không cần nhập lại cài đặt hay
-      lặp câu hỏi** — luồng dùng từ mobile **tiếp tục trên PC**. Vào qua chip **ChatGPT**
-      trên tab chat."
-  - q: "Phiên bản tối thiểu là bao nhiêu?"
-    a: "Các tính năng mới áp dụng từ **KakaoTalk v26.6.0 trở lên**."
+- q: KakaoTalk cập nhật gì trong lần 6?
+  a: Bản **v26.6.0** thêm **tóm tắt tin trong phòng chat**, **ChatGPT for Kakao trên
+    PC**, tạo ảnh bằng template AI, **chatbot open chat (beta)** và **xóa tin kênh
+    trong 24 giờ** sau khi gửi.
+- q: Tóm tắt tin nhắn hoạt động thế nào?
+  a: Trong từng phòng chat, bấm **'대화 요약' (tóm tắt hội thoại)** để xem **nội dung
+    cốt lõi** của tin còn dồn — hữu ích khi lâu không vào phòng.
+- q: ChatGPT for Kakao trên PC khác gì bản mobile?
+  a: Phạm vi dùng mở rộng sang **KakaoTalk PC**; **không cần nhập lại cài đặt hay
+    lặp câu hỏi** — luồng dùng từ mobile **tiếp tục trên PC**. Vào qua chip **ChatGPT**
+    trên tab chat.
+- q: Phiên bản tối thiểu là bao nhiêu?
+  a: Các tính năng mới áp dụng từ **KakaoTalk v26.6.0 trở lên**.
 ---
+
 
 **Kakao** (대표이사 **Jung Shin-a** / 정신아) công bố ngày **15 tháng 7 năm 2026**
 đã triển khai **cập nhật định kỳ lần 6** của **KakaoTalk** (**v26.6.0**),
@@ -90,17 +91,17 @@ Nguồn: Kakao Corp — https://www.kakaocorp.com/page/detail/12082
 source: "Kakao Corp"
 source_url: "https://www.kakaocorp.com/page/detail/12082"
 copyright: >
-  Một phần thông tin trong bài được tham khảo từ
-  [thông cáo Kakao Corp](https://www.kakaocorp.com/page/detail/12082) (15/7/2026).
-  Ảnh / thương hiệu thuộc Kakao và chủ sở hữu tương ứng.
-  Bài viết trên KoreaWiki chỉ tổng hợp và biên tập phục vụ độc giả — không thay
-  thế thông cáo hay tài liệu chính thức của Kakao.
+  Một phần thông tin trong bài được tham khảo từ [Kakao
+  Corp](https://www.kakaocorp.com/page/detail/12082). Mọi thương hiệu, hình ảnh và tài
+  liệu gốc thuộc quyền sở hữu của chủ sở hữu tương ứng. Bài viết trên KoreaWiki chỉ tổng
+  hợp, biên tập và phân tích phục vụ độc giả — không thay thế thông cáo hay tài liệu chính
+  thức.
 external:
-  - title: "Kakao 보도자료 — 카카오톡 6차 정기 업데이트"
+  - title: "thông cáo Kakao Corp"
     url: "https://www.kakaocorp.com/page/detail/12082"
 internal:
+  - title: "Ngân hàng Trung ương Hàn Quốc tăng lãi suất cơ sở 0,25 điểm phần trăm — thắt chặt sau 3 năm 6 tháng"
+    url: "en/news/bok-raises-base-rate-0-25-july-2026/"
   - title: "Tòa Hàn Quốc đình chỉ lệnh FTC xác định Bom Kim là người kiểm soát Coupang"
     url: "en/news/court-suspends-ftc-coupang-bom-kim-controller-2026/"
-  - title: "Netflix 2027 Korean slate"
-    url: "en/news/netflix-2027-korean-slate/"
 {{< /article-footer >}}

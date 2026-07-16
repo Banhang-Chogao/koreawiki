@@ -46,6 +46,7 @@ faq:
   a: Anh phải chịu **giám sát bảo hộ (보호관찰)**. Đổi nơi cư trú hoặc xuất cảnh cần **xin
     phép** cơ quan chức năng.
 ---
+
 Ca sĩ **Kim Ho-joong** (김호중, 35 tuổi) vừa được phê duyệt **tha trước thời hạn** (가석방).
 Theo tin độc quyền của **Dispatch**, anh **dự kiến xuất ngục ngày 30 tháng 6 năm 2026** — khoảng **767 ngày** sau khi bị bắt giam vào tháng 5 năm 2024.
 
@@ -83,16 +84,16 @@ source: "Dispatch"
 source_url: "https://www.dispatch.co.kr/2344260"
 copyright: >
   Một phần thông tin trong bài được tham khảo từ
-  [Dispatch](https://www.dispatch.co.kr/2344260) (김소정 기자, 23/6/2026).
-  Ảnh thuộc Dispatch DB / chủ sở hữu tương ứng.
-  Bài viết trên KoreaWiki chỉ tổng hợp và biên tập phục vụ độc giả — không thay
-  thế thông cáo hay tài liệu chính thức.
+  [Dispatch](https://www.dispatch.co.kr/2344260). Mọi thương hiệu, hình ảnh và tài liệu
+  gốc thuộc quyền sở hữu của chủ sở hữu tương ứng. Bài viết trên KoreaWiki chỉ tổng hợp,
+  biên tập và phân tích phục vụ độc giả — không thay thế thông cáo hay tài liệu chính
+  thức.
 external:
-  - title: "Dispatch gốc — 김호중 가석방 허가"
+  - title: "Dispatch"
     url: "https://www.dispatch.co.kr/2344260"
 internal:
+  - title: "Kỷ nguyên solo của SUGA: Min Yoon-gi đã định nghĩa lại ý nghĩa của việc trở thành một nghệ sĩ K-Pop như thế nào"
+    url: "en/artist/bts-suga-solo-artist-profile/"
   - title: "Choi Siwon (Super Junior) được tòa Mỹ cho phép truy xuất danh tính 10 anti-fan"
     url: "en/artist/choi-siwon-us-court-identity-disclosure-2026/"
-  - title: "Yoo Ah-in xuất hiện tại buổi ra mắt phim 'Hope' giữa đồn đoán tái xuất"
-    url: "en/artist/yoo-ah-in-hope-premiere-comeback-speculation/"
 {{< /article-footer >}}

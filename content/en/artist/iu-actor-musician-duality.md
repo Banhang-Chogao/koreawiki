@@ -45,6 +45,7 @@ faq:
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
 Lee Ji-eun - IU của thế giới - đã trở thành một ngôi sao lâu đến mức người ta dễ quên rằng cô chỉ mới 33. Cô ra mắt năm 15 tuổi, viết bản hit đầu tiên năm 17 và đến năm 21 tuổi thì đã thành danh.
 được mệnh danh là “em gái quốc dân”. Nhưng hai thập kỷ trong sự nghiệp trải dài từ âm nhạc, truyền hình và điện ảnh, IU vẫn chưa có dấu hiệu nghỉ ngơi trên vòng nguyệt quế của mình. Trên thực tế, cô
 ấy có thể
@@ -72,15 +73,13 @@ các giải thưởng diễn xuất bao gồm Baeksang và Blue Dragon Film Awar
 được.
 theo dõi.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Soo-Jin Choi** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+  - title: "Kỷ nguyên solo của SUGA: Min Yoon-gi đã định nghĩa lại ý nghĩa của việc trở thành một nghệ sĩ K-Pop như thế nào"
     url: "en/artist/bts-suga-solo-artist-profile/"
   - title: "Choi Siwon (Super Junior) được tòa Mỹ cho phép truy xuất danh tính 10 anti-fan"
     url: "en/artist/choi-siwon-us-court-identity-disclosure-2026/"

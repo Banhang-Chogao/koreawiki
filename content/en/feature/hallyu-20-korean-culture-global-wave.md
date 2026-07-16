@@ -46,6 +46,7 @@ faq:
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
 Vào năm 2012, "Gangnam Style" của Psy là một hiện tượng toàn cầu được nhiều người coi là một điều mới lạ - một tia sáng đầy màu sắc, bất kính trong một thời gian ngắn đã khiến cả thế giới chú ý đến
 miền Nam.
 Hàn Quốc. Mười bốn năm sau, ý tưởng coi văn hóa Hàn Quốc như một thứ mốt nhất thời có vẻ phi lý. Làn sóng Hàn Quốc, hay Hallyu, đã phát triển từ một sở thích nhỏ thành một trụ cột mang tính cấu trúc
@@ -77,16 +78,14 @@ quỹ đạo tăng trưởng hiện tại được giữ vững. Đối với ph
 càng phát triển.
 sự phân mảnh.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Sarah Chen** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "The Voice Behind the Screen: How Korean Voice Actors Became Global Stars"
+  - title: "Từ sinh viên đến kỹ sư Kakao: Hành trình học DB, bảo mật và AI qua chương trình onboarding cho tân binh"
+    url: "en/feature/kakao-new-krew-onboarding-2026/"
+  - title: "Giọng Nói Phía Sau Màn Ảnh: Các diễn viên lồng tiếng Hàn Quốc trở thành ngôi sao toàn cầu như thế nào"
     url: "en/feature/korean-voice-actors-rise/"
-  - title: "Seongsu-dong: How Seoul's Industrial Wasteland Became the Coolest Neighborhood in Asia"
-    url: "en/feature/seongsu-dong-transformation/"
 {{< /article-footer >}}

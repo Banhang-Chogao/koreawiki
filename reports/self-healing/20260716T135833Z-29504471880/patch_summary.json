@@ -1,0 +1,14 @@
+{
+  "fixes": {
+    "article_features": [
+      "content/** (faq + article-footer via apply_article_footer.py)"
+    ],
+    "markdown_format": [
+      "content/en/feature/kakao-new-krew-onboarding-2026.md"
+    ]
+  },
+  "files_touched": [
+    "content/** (faq + article-footer via apply_article_footer.py)",
+    "content/en/feature/kakao-new-krew-onboarding-2026.md"
+  ]
+}

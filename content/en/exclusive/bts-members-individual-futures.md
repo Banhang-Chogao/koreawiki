@@ -45,6 +45,7 @@ faq:
 sample_origin: scaffold
 lang_note: vi-localized-from-en-scaffold
 ---
+
 Trong suốt bốn tháng, KoreaWiki đã ngồi riêng với tất cả bảy thành viên của BTS – Jin, SUGA, j-hope, RM, Jimin, V và Jung Kook – để thảo luận một loạt cuộc trò chuyện
 về cuộc sống, công việc solo của họ và tương lai của nhóm nhạc đã thay đổi K-pop mãi mãi. Những gì nổi lên là bức chân dung của bảy chàng trai trẻ đang bình yên với quá khứ và trầm tư của mình.
 về những gì xảy ra tiếp theo.
@@ -75,16 +76,14 @@ bây giờ chỉ là BTS ở một hình dạng khác mà thôi."
 
 Không có ngày nào được công bố cho cuộc tái hợp nhóm, nhưng nhiều thành viên gợi ý về “các cuộc trò chuyện quan trọng” được lên kế hoạch vào đầu năm 2027.
 
-
-
 {{< article-footer >}}
 copyright: >
   Bài viết do **Min-Jun Kim** / KoreaWiki biên soạn. Hình ảnh (nếu có) thuộc quyền sở hữu
   của chủ sở hữu tương ứng và được dùng với mục đích thông tin. Vui lòng dẫn nguồn khi
   trích dẫn.
 internal:
-  - title: "Exclusive: On Set With 'Goryeo Dreams' — Inside KBS's Most Ambitious Period Drama"
+  - title: "Độc quyền: Trên trường quay 'Goryeo Dreams' — Bên trong bộ phim cổ trang đầy tham vọng nhất của KBS"
     url: "en/exclusive/behind-the-scenes-goryeo-drama/"
-  - title: "Exclusive: Inside SM Entertainment's Next Girl Group — The Vision, The Members, The Strategy"
-    url: "en/exclusive/sm-entertainment-new-girl-group/"
+  - title: "Kim Myung-soo đóng chính romance 'Yeondae Bojeung Romance' cùng Pyo Ye-jin"
+    url: "en/exclusive/kim-myung-soo-yeondae-bojeung-romance-pyo-ye-jin-2026/"
 {{< /article-footer >}}

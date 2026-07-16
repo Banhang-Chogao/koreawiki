@@ -45,6 +45,7 @@ faq:
 
 
 
+
 Thành viên Super Junior Choi Siwon đang đẩy nhanh cuộc chiến pháp lý chống lại
 các anti-fan. Tòa án liên bang Mỹ vừa cho phép tiết lộ thông tin định danh của
 10 tài khoản ẩn danh từng đăng nội dung xúc phạm trên X và YouTube.
@@ -120,7 +121,7 @@ external:
   - title: "Dispatch"
     url: "https://www.dispatch.co.kr/2344867"
 internal:
-  - title: "SUGA's Solo Era: How Min Yoon-gi Redefined What It Means to Be a K-Pop Artist"
+  - title: "Kỷ nguyên solo của SUGA: Min Yoon-gi đã định nghĩa lại ý nghĩa của việc trở thành một nghệ sĩ K-Pop như thế nào"
     url: "en/artist/bts-suga-solo-artist-profile/"
   - title: "Gong Yoo tổ chức tour fan meeting châu Á đầu tiên sau 25 năm sự nghiệp"
     url: "en/artist/gong-yoo-asia-tour-2026/"
