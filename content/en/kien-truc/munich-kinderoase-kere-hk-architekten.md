@@ -20,7 +20,7 @@ tags:
 - timber
 - education
 categories:
-- Culture
+- Kien-truc
 - Feature
 keywords:
 - kinderoase
@@ -133,18 +133,18 @@ với hệ sinh thái sinh viên và nhân viên đại học.
 
 ## Ghi chú biên tập
 
-Bài KoreaWiki **viết lại** bằng tiếng Việt dựa trên hồ sơ
-**TU Munich Kinderoase Daycare / Kéré Architecture + HK Architekten** trên ArchDaily.
-Giữ đủ specs và ý đồ xã hội/vật liệu từ nguồn; không thêm số liệu ngoài hồ sơ công khai.
-Ảnh © **Iwan Baan** (và Erik-Jan Ouwerkerk cho một số hình kỹ thuật/model trên gallery gốc).
+Bài của **KoreaWiki Culture Desk**. Thông tin kỹ thuật và ý đồ xã hội/vật liệu theo
+**hồ sơ dự án công khai** của Kéré Architecture + HK Architekten (đăng trên ArchDaily).
+Specs bám nguồn đã dẫn; không bổ sung số liệu ngoài hồ sơ. Ảnh © **Iwan Baan**
+(một số hình kỹ thuật/model: Erik-Jan Ouwerkerk, theo credit gallery gốc).
 
 {{< article-footer >}}
 source: "ArchDaily — TU Munich Kinderoase Daycare / Kéré Architecture + HK Architekten"
 source_url: "https://www.archdaily.com/1054059/munich-kinderoase-kindergarten-kere-architecture-plus-hk-architekten-hermann-kaufmann-plus-partner-zt"
 copyright: >
-  Viết lại / Việt hóa bởi **KoreaWiki Culture Desk** dựa trên hồ sơ dự án trên ArchDaily.
-  Ảnh: **Iwan Baan** (và các tác giả hình kỹ thuật theo credit gốc). Bản quyền thuộc chủ
-  sở hữu tương ứng; dùng với mục đích thông tin.
+  Bài **KoreaWiki Culture Desk**. Tham khảo hồ sơ dự án công khai trên ArchDaily.
+  Ảnh: **Iwan Baan** (và credit kỹ thuật theo nguồn). Bản quyền hình ảnh thuộc chủ sở hữu;
+  dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
 external:
   - title: "TU Munich Kinderoase Daycare — ArchDaily"
     url: "https://www.archdaily.com/1054059/munich-kinderoase-kindergarten-kere-architecture-plus-hk-architekten-hermann-kaufmann-plus-partner-zt"

@@ -27,6 +27,14 @@
   <main id="main-content" role="main">
     {{ block "main" . }}{{ end }}
   </main>
+  <div class="nav-buttons">
+    <button class="nav-btn nav-btn-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top" title="Lên đầu trang">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
+    </button>
+    <button class="nav-btn nav-btn-bottom" onclick="document.querySelector('.site-footer').scrollIntoView({behavior:'smooth'})" aria-label="Back to footer" title="Xuống cuối trang">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+    </button>
+  </div>
   <div data-pagefind-ignore="all">
     {{ partial "footer" . }}
     {{ partial "search-modal" . }}

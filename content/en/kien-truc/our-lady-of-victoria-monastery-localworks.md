@@ -18,7 +18,7 @@ tags:
 - brick
 - religious-architecture
 categories:
-- Culture
+- Kien-truc
 - Feature
 keywords:
 - our lady of victoria monastery
@@ -124,17 +124,17 @@ có thể lớn lên theo thời gian.
 
 ## Ghi chú biên tập
 
-Bài trên KoreaWiki tóm lược và Việt hóa hồ sơ dự án do **Localworks** cung cấp, đăng trên
-**ArchDaily** (curated by Hana Abdel). Không bổ sung số liệu ngoài nguồn đã dẫn. Ảnh thuộc quyền
-Will Boase / ArchDaily, dùng với mục đích thông tin.
+Bài của **KoreaWiki Culture Desk**. Thông tin kỹ thuật theo **hồ sơ dự án công khai** do
+**Localworks** cung cấp (đăng trên ArchDaily, curated by Hana Abdel). Không bổ sung số liệu
+ngoài nguồn đã dẫn. Ảnh © **Will Boase**; dùng với mục đích thông tin.
 
 {{< article-footer >}}
 source: "ArchDaily — Our Lady of Victoria Monastery / Localworks"
 source_url: "https://www.archdaily.com/975033/our-lady-of-victoria-monastery-localworks"
 copyright: >
-  Tóm lược / Việt hóa bởi **KoreaWiki Culture Desk** dựa trên hồ sơ dự án Localworks
-  đăng trên ArchDaily. Ảnh: **Will Boase**. Bản quyền hình ảnh và nội dung gốc thuộc
-  chủ sở hữu tương ứng; dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
+  Bài **KoreaWiki Culture Desk**. Tham khảo hồ sơ dự án công khai của Localworks trên
+  ArchDaily. Ảnh: **Will Boase**. Bản quyền hình ảnh thuộc chủ sở hữu; dùng với mục đích
+  thông tin. Vui lòng dẫn nguồn khi trích dẫn.
 external:
   - title: "Our Lady of Victoria Monastery / Localworks — ArchDaily"
     url: "https://www.archdaily.com/975033/our-lady-of-victoria-monastery-localworks"

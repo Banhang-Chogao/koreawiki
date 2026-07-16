@@ -16,22 +16,12 @@
     <div class="header-nav-inner">
       {{ $currentPage := . }}
       {{/* Content lives under content/en/ → public URLs are /koreawiki/en/<section>/ */}}
-      {{ $navItems := slice "exclusive" "feature" "news" "photos" "videos" "fashion" "artist" "glossary" }}
-      {{ $moreItems := slice "kdrama" "kpop" "movies" "tv" "culture" "travel" "food" "opinion" }}
+      {{ $navItems := slice "exclusive" "feature" "news" "photos" "videos" "fashion" "artist" "kien-truc" "glossary" "kdrama" "kpop" "movies" "tv" "culture" "travel" "food" "opinion" }}
       {{ range $navItems }}
         {{ $section := . }}
         {{ $href := printf "en/%s/" $section | relURL }}
-        <a href="{{ $href }}" class="header-nav-link{{ if or (eq $currentPage.Type $section) (eq $currentPage.Section $section) }} active{{ end }}">{{ if eq $section "glossary" }}{{ T "glossary" | default "Glossary" | upper }}{{ else }}{{ $section | humanize | upper }}{{ end }}</a>
+        <a href="{{ $href }}" class="header-nav-link{{ if or (eq $currentPage.Type $section) (eq $currentPage.Section $section) }} active{{ end }}">{{ if eq $section "glossary" }}{{ T "glossary" | default "Glossary" | upper }}{{ else if eq $section "kien-truc" }}KIẾN TRÚC{{ else }}{{ $section | humanize | upper }}{{ end }}</a>
       {{ end }}
-      <div class="nav-more" tabindex="0" role="button" aria-haspopup="true" aria-label="More sections">
-        MORE <span class="nav-more-arrow">▾</span>
-        <div class="nav-more-dropdown">
-          {{ range $moreItems }}
-            {{ $section := . }}
-            <a href="{{ printf "en/%s/" $section | relURL }}">{{ $section | humanize | title }}</a>
-          {{ end }}
-        </div>
-      </div>
     </div>
   </nav>
 </header>

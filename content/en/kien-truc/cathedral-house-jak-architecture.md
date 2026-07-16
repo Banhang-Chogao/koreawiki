@@ -19,7 +19,7 @@ tags:
 - cathedral-house
 - thornton
 categories:
-- Culture
+- Kien-truc
 - Feature
 keywords:
 - cathedral house
@@ -117,17 +117,18 @@ nhịp sống weekend retreat: tập trung, tiếp khách, nhưng vẫn mở ra 
 
 ## Ghi chú biên tập
 
-Bài KoreaWiki tóm lược / Việt hóa hồ sơ **Cathedral House / JAK Architecture** trên
-**ArchDaily** (published 15 Jul 2026). Mô tả công năng bám text do kiến trúc sư cung cấp;
-không suy diễn số liệu ngoài bảng specs công khai. Ảnh © **Tasha Tylee**.
+Bài của **KoreaWiki Culture Desk**. Thông tin công trình theo **hồ sơ dự án công khai**
+**Cathedral House / JAK Architecture** (đăng trên ArchDaily, 15 Jul 2026). Mô tả công năng
+bám text do kiến trúc sư cung cấp; không suy diễn số liệu ngoài bảng specs công khai.
+Ảnh © **Tasha Tylee**.
 
 {{< article-footer >}}
 source: "ArchDaily — Cathedral House / JAK Architecture"
 source_url: "https://www.archdaily.com/1092490/cathedral-house-jak-architecture"
 copyright: >
-  Tóm lược / Việt hóa bởi **KoreaWiki Culture Desk** dựa trên hồ sơ dự án JAK Architecture
-  đăng trên ArchDaily. Ảnh: **Tasha Tylee**. Bản quyền hình ảnh và nội dung gốc thuộc chủ
-  sở hữu tương ứng; dùng với mục đích thông tin.
+  Bài **KoreaWiki Culture Desk**. Tham khảo hồ sơ dự án công khai của JAK Architecture
+  trên ArchDaily. Ảnh: **Tasha Tylee**. Bản quyền hình ảnh thuộc chủ sở hữu;
+  dùng với mục đích thông tin. Vui lòng dẫn nguồn khi trích dẫn.
 external:
   - title: "Cathedral House / JAK Architecture — ArchDaily"
     url: "https://www.archdaily.com/1092490/cathedral-house-jak-architecture"

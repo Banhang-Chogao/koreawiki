@@ -1,49 +1,68 @@
 ---
-title: "Từ sinh viên đến kỹ sư Kakao: Hành trình học DB, bảo mật và AI qua chương trình onboarding cho tân binh"
-description: "40 tân binh Kakao tốt nghiệp chương trình onboarding kỹ thuật, học cách thiết kế database chịu tải, bảo mật ở cấp độ production, và biến AI thành hệ thống có thể vận hành — thay vì chỉ chạy theo đáp án đúng trong sách vở."
+title: 'Từ sinh viên đến kỹ sư Kakao: Hành trình học DB, bảo mật và AI qua chương
+  trình onboarding cho tân binh'
+description: 40 tân binh Kakao tốt nghiệp chương trình onboarding kỹ thuật, học cách
+  thiết kế database chịu tải, bảo mật ở cấp độ production, và biến AI thành hệ thống
+  có thể vận hành — thay vì chỉ chạy theo đáp án đúng trong sách vở.
 date: 2026-07-16
 lastmod: 2026-07-16
 source_date: 2026-03-13
-slug: "kakao-new-krew-onboarding-2026"
+slug: tu-sinh-vien-den-ky-su-kakao-hanh-trinh-hoc-db-bao-mat-va-ai-qua-chuong-trinh-onboarding-cho-tan-binh
 categories:
-  - tech
-  - feature
+- tech
+- feature
 tags:
-  - Kakao
-  - onboarding
-  - database
-  - security
-  - AI
-  - new-krew
-  - career
-  - engineering
+- Kakao
+- onboarding
+- database
+- security
+- AI
+- new-krew
+- career
+- engineering
 draft: false
 keywords:
-  - Kakao technical onboarding
-  - New Krew
-  - database production
-  - AI agent architecture
-  - security engineering
-  - RAG MCP
-  - Hàn Quốc
-author: "zephy.r, mint.pearl, theo.cha, rowan.ko (Kakao Tech)"
+- Kakao technical onboarding
+- New Krew
+- database production
+- AI agent architecture
+- security engineering
+- RAG MCP
+- Hàn Quốc
+author: zephy.r, mint.pearl, theo.cha, rowan.ko (Kakao Tech)
 cover:
   image: images/2026/07/kakao-new-krew-onboarding-2026-cover.jpg
-  alt: "Bốn tác giả bài viết hồi tưởng quá trình onboarding tại Kakao: zephy.r, mint.pearl, theo.cha và rowan.ko"
-  caption: "Ảnh: Kakao Tech — bốn thành viên đội ngũ tân binh Krew viết bài hồi tưởng"
+  alt: 'Bốn tác giả bài viết hồi tưởng quá trình onboarding tại Kakao: zephy.r, mint.pearl,
+    theo.cha và rowan.ko'
+  caption: 'Ảnh: Kakao Tech — bốn thành viên đội ngũ tân binh Krew viết bài hồi tưởng'
 faq:
-  - q: "Chương trình onboarding kỹ thuật của Kakao kéo dài bao lâu và có những nội dung gì?"
-    a: "Bài viết là hồi tưởng của bốn tân binh Krew (đợt tuyển dụng mới nhất của Kakao) sau khi hoàn thành chương trình technical onboarding. Nội dung gồm ba mảng chính: Database (thiết kế schema, index, replication), Security & IT (bảo mật API, DDoS, CERT) và AI (agent architecture, RAG, MCP). Tổng cộng 40 tân binh tham gia."
-  - q: "Tại sao Kakao không dùng物理 Foreign Key trong môi trường production?"
-    a: "Theo chia sẻ của đội ngũ Krew, physical FK gây ra vấn đề về Lock, hiệu năng và tính linh hoạt trong môi trường có traffic lớn và thay đổi thường xuyên. Thay vào đó, Kakao chuyển trách nhiệm đảm bảo toàn vẹn dữ liệu lên tầng Application, kèm theo test và logic bù chặt chẽ hơn."
-  - q: "Kakao dạy gì về AI cho lập trình viên mới?"
-    a: "Tân binh được học rằng AI Agent là 'design chứ không phải model'. Họ thực hành Prompt Chaining, Few-shot, Routing, Multi-Agent architecture, RAG (Retrieval-Augmented Generation) và MCP (Model Context Protocol). Trọng tâm là kiểm soát đầu ra xác suất của LLM bằng thiết kế hệ thống thay vì cầu may."
-  - q: "Bài học lớn nhất mà các tân binh Kakao rút ra từ khóa onboarding là gì?"
-    a: "Sự chuyển đổi tư duy từ 'sinh viên đi tìm đáp án đúng' sang 'kỹ sư cân bằng giữa lý thuyết và vận hành thực tế'. Họ học được rằng thiết kế hoàn hảo trên lý thuyết chưa chắc đã là thiết kế tốt trong môi trường production — điều quan trọng là khả năng chịu tải, chi phí vận hành và an toàn bảo mật."
-  - q: "Bảo mật được dạy như thế nào trong chương trình?"
-    a: "Bảo mật không chỉ là lý thuyết. Tân binh thực hành trực tiếp các cuộc tấn công API để hiểu góc nhìn của hacker, tìm hiểu về phòng thủ DDoS, Rate Limit, và nhấn mạnh rằng bảo mật không phải việc 'làm một lần rồi thôi' mà phải là giá trị mặc định xuyên suốt vòng đời phát triển."
+- q: Chương trình onboarding kỹ thuật của Kakao kéo dài bao lâu và có những nội dung
+    gì?
+  a: 'Bài viết là hồi tưởng của bốn tân binh Krew (đợt tuyển dụng mới nhất của Kakao)
+    sau khi hoàn thành chương trình technical onboarding. Nội dung gồm ba mảng chính:
+    Database (thiết kế schema, index, replication), Security & IT (bảo mật API, DDoS,
+    CERT) và AI (agent architecture, RAG, MCP). Tổng cộng 40 tân binh tham gia.'
+- q: Tại sao Kakao không dùng物理 Foreign Key trong môi trường production?
+  a: Theo chia sẻ của đội ngũ Krew, physical FK gây ra vấn đề về Lock, hiệu năng và
+    tính linh hoạt trong môi trường có traffic lớn và thay đổi thường xuyên. Thay
+    vào đó, Kakao chuyển trách nhiệm đảm bảo toàn vẹn dữ liệu lên tầng Application,
+    kèm theo test và logic bù chặt chẽ hơn.
+- q: Kakao dạy gì về AI cho lập trình viên mới?
+  a: Tân binh được học rằng AI Agent là 'design chứ không phải model'. Họ thực hành
+    Prompt Chaining, Few-shot, Routing, Multi-Agent architecture, RAG (Retrieval-Augmented
+    Generation) và MCP (Model Context Protocol). Trọng tâm là kiểm soát đầu ra xác
+    suất của LLM bằng thiết kế hệ thống thay vì cầu may.
+- q: Bài học lớn nhất mà các tân binh Kakao rút ra từ khóa onboarding là gì?
+  a: Sự chuyển đổi tư duy từ 'sinh viên đi tìm đáp án đúng' sang 'kỹ sư cân bằng giữa
+    lý thuyết và vận hành thực tế'. Họ học được rằng thiết kế hoàn hảo trên lý thuyết
+    chưa chắc đã là thiết kế tốt trong môi trường production — điều quan trọng là
+    khả năng chịu tải, chi phí vận hành và an toàn bảo mật.
+- q: Bảo mật được dạy như thế nào trong chương trình?
+  a: Bảo mật không chỉ là lý thuyết. Tân binh thực hành trực tiếp các cuộc tấn công
+    API để hiểu góc nhìn của hacker, tìm hiểu về phòng thủ DDoS, Rate Limit, và nhấn
+    mạnh rằng bảo mật không phải việc 'làm một lần rồi thôi' mà phải là giá trị mặc
+    định xuyên suốt vòng đời phát triển.
 ---
-
 Khi còn ngồi trên ghế đại học, bạn được dạy rằng Foreign Key phải được ràng buộc chặt, rằng chuẩn hóa dữ liệu là đức hạnh, và rằng code chạy đúng là đủ. Nhưng khi bước vào môi trường production với hàng triệu người dùng, những chân lý ấy bắt đầu lung lay.
 
 40 tân binh vừa trúng tuyển kỳ tuyển dụng tập trung của **Kakao** — được gọi là *New Krew* — đã hoàn thành chương trình technical onboarding kéo dài, bao gồm ba chủ đề lớn: Database, Security & IT, và AI. Bốn thành viên trong số họ — **zephy.r** (biên tập dữ liệu), **mint.pearl** (nền tảng DB), **theo.cha** (dữ liệu bản đồ-giao thông) và **rowan.ko** (phát triển KakaoTalk iOS) — đã cùng viết bài hồi tưởng về hành trình từ "sinh viên đi tìm đáp án đúng" thành "kỹ sư biết cân bằng giữa lý thuyết và thực tế vận hành."

@@ -129,37 +129,41 @@ defaultContentLanguageInSubdir = false
   url = "/glossary/"
   weight = 8
 [[menu.main]]
+  name = "Kiến trúc"
+  url = "/kien-truc/"
+  weight = 9
+[[menu.main]]
   name = "K-Drama"
   url = "/kdrama/"
-  weight = 9
+  weight = 10
 [[menu.main]]
   name = "K-Pop"
   url = "/kpop/"
-  weight = 10
+  weight = 11
 [[menu.main]]
   name = "Movies"
   url = "/movies/"
-  weight = 11
+  weight = 12
 [[menu.main]]
   name = "TV"
   url = "/tv/"
-  weight = 12
+  weight = 13
 [[menu.main]]
   name = "Culture"
   url = "/culture/"
-  weight = 13
+  weight = 14
 [[menu.main]]
   name = "Travel"
   url = "/travel/"
-  weight = 14
+  weight = 15
 [[menu.main]]
   name = "Food"
   url = "/food/"
-  weight = 15
+  weight = 16
 [[menu.main]]
   name = "Opinion"
   url = "/opinion/"
-  weight = 16
+  weight = 17
 
 [security]
   [security.funcs]

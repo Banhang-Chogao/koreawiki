@@ -22,7 +22,7 @@ tags:
   - research
   - sustainability
 categories:
-  - Culture
+  - Kien-truc
   - Feature
 keywords:
   - mercat del peix
@@ -58,11 +58,10 @@ faq:
     a: >
       Theo ArchDaily: dự kiến **vận hành vào cuối năm 2025**, là hub trao đổi tri
       thức mở cho nhà nghiên cứu địa phương.
-  - q: "Bài KoreaWiki dựa trên nguồn nào?"
+  - q: "Mercat del Peix Research Center dựa trên nguồn nào?"
     a: >
-      Tổng hợp/biên tập tiếng Việt từ bài **Agustina Iñiguez** trên **ArchDaily**
-      (trang EN, hiển thị published **7/7/2026**; schema ghi datePublished
-      **16/1/2023**). Ảnh render **© ZGF**. Không thay thế bản gốc.
+      Tham khảo bài **Agustina Iñiguez** trên **ArchDaily** (published
+      **7/7/2026**; schema ghi datePublished **16/1/2023**). Ảnh render **© ZGF**.
 ---
 
 
@@ -359,9 +358,8 @@ source_url: "https://www.archdaily.com/1135879/zgf-architects-mirag-and-double-t
 copyright: >
   Một phần nội dung tham khảo từ bài Agustina Iñiguez trên
   [ArchDaily](https://www.archdaily.com/1135879/zgf-architects-mirag-and-double-twist-design-the-mercat-del-peix-research-center-in-barcelona)
-  (trang EN; schema datePublished 16/1/2023, dateModified / published display
-  7/7/2026). Ảnh render © ZGF theo credit ArchDaily. Bài KoreaWiki chỉ tổng hợp
-  và biên tập tiếng Việt — không thay thế bản gốc hay tài liệu dự án chính thức.
+   (trang EN; schema datePublished 16/1/2023, dateModified / published display
+   7/7/2026). Ảnh render © ZGF theo credit ArchDaily.
 external:
   - title: "ArchDaily — Mercat del Peix Research Center (ZGF / MIRAG / Double Twist)"
     url: "https://www.archdaily.com/1135879/zgf-architects-mirag-and-double-twist-design-the-mercat-del-peix-research-center-in-barcelona"
