@@ -59,10 +59,9 @@ trong **hai năm tới** — mức cao gấp **hơn hai lần** so với **Memor
 *문화일보* (Munhwa Ilbo) ngày **16 tháng 7 năm 2026** dẫn khảo sát công đoàn gắn
 chênh lệch này với **thưởng thành tích đặc biệt** lệch mạnh theo đơn vị.
 
-<figure>
-<img src="/images/2026/07/samsung-foundry-turnover-intent-2026-cover.png" alt="Trụ sở Samsung Electronics tại Suwon, Gyeonggi">
-<figcaption>Trụ sở Samsung Electronics (Suwon, Gyeonggi) — Ảnh: Yonhap / 문화일보</figcaption>
-</figure>
+![Trụ sở Samsung Electronics tại Suwon, Gyeonggi](/images/2026/07/samsung-foundry-turnover-intent-2026-cover.png)
+
+*Trụ sở Samsung Electronics (Suwon, Gyeonggi) — Ảnh: Yonhap / 문화일보*
 
 ## 81,5% Foundry: ý định nghỉ việc “cao” hoặc “rất cao”
 
