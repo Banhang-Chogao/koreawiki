@@ -5,6 +5,10 @@ description: Nam diễn viên Yoo Ah-in lần đầu xuất hiện trước côn
 date: 2026-07-14
 draft: false
 author: Xportsnews
+cover:
+  image: images/2026/07/yoo-ah-in-hope-premiere-2026.jpg
+  alt: "Yoo Ah-in tại buổi ra mắt phim Hope"
+  caption: "Yoo Ah-in — Ảnh: The Korea Times"
 tags:
 - yoo-ah-in
 - hope
