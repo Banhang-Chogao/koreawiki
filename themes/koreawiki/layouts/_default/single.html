@@ -90,11 +90,6 @@
         {{ end }}
       </footer>
     </div>
-    <aside class="article-sidebar">
-      {{ if and .Params.showToc (ne .Params.showToc false) }}
-        {{ partial "toc" . }}
-      {{ end }}
-    </aside>
   </div>
 </article>
 {{ end }}

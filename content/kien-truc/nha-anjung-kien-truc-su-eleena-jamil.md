@@ -15,7 +15,6 @@ tags:
   - "vật liệu địa phương"
 categories:
   - "KIẾN TRÚC"
-showToc: true
 readingTime: true
 slug: nha-anjung-kien-truc-su-eleena-jamil-khong-gian-song-gan-gui-thien-nhien-tai-malaysia
 summaries:

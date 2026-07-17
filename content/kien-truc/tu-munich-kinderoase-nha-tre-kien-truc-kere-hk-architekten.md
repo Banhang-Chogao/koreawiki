@@ -14,7 +14,6 @@ tags:
   - "archdaily"
 categories:
 - "KIẾN TRÚC"
-showToc: true
 readingTime: true
 slug: tu-munich-kinderoase-nha-tre-kien-truc-kere-hk-architekten
 summaries:

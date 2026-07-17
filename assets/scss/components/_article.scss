@@ -3,9 +3,8 @@
   padding:var(--space-8) var(--space-6) var(--space-16);
 }
 .article-layout{
-  display:grid;
-  grid-template-columns:1fr 300px;
-  gap:var(--space-10);
+  max-width:var(--max-w-article);
+  margin:0 auto;
 }
 .article-main{
   max-width:var(--max-w-article);

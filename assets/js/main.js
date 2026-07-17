@@ -22,8 +22,4 @@ document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener
 // Heading Anchor Links
 document.querySelectorAll('.article-body h2,.article-body h3,.article-body h4').forEach(function(h){if(!h.id)return;var l=document.createElement('a');l.className='anchor-link';l.href='#'+h.id;l.setAttribute('aria-label','Link to this section');l.innerHTML='<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>';h.appendChild(l);});
 
-// TOC Active State
-var tocLinks=document.querySelectorAll('.toc a');
-if(tocLinks.length>0){var headings=document.querySelectorAll('.article-body h2,.article-body h3,.article-body h4');var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){tocLinks.forEach(function(l){l.classList.remove('active');if(l.getAttribute('href')==='#'+e.target.id)l.classList.add('active');});}});},{rootMargin:'-80px 0px -80% 0px'});headings.forEach(function(h){obs.observe(h);});}
-
 })();
