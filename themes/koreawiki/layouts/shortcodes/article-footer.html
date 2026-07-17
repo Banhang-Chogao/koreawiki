@@ -1,0 +1,122 @@
+{{/*
+  Article footer macro — copyright/source, internal links, external links, FAQ.
+
+  Usage (YAML body):
+
+  {{< article-footer >}}
+  source: "Dispatch"
+  source_url: "https://..."
+  copyright: "Bài viết tham khảo nguồn …"
+  external:
+    - title: "How to study Korean"
+      url: "https://www.howtostudykorean.com/"
+  internal:
+    - title: "Bài liên quan"
+      url: "en/kpop/some-slug/"
+  faq:
+    - q: "Câu hỏi?"
+      a: "Trả lời."
+  {{< /article-footer >}}
+*/}}
+{{- $data := dict -}}
+{{- $inner := trim .Inner " \n\r\t" -}}
+{{- if $inner -}}
+  {{- $data = transform.Unmarshal $inner -}}
+{{- end -}}
+
+{{- $source := .Get "source" | default (index $data "source" | default "") -}}
+{{- $sourceURL := .Get "source_url" | default (index $data "source_url" | default "") -}}
+{{- $copyright := .Get "copyright" | default (index $data "copyright" | default "") -}}
+{{- $external := index $data "external" | default (slice) -}}
+{{- $internal := index $data "internal" | default (slice) -}}
+{{- $faq := index $data "faq" | default (slice) -}}
+
+{{- $tExt := .Get "title_external" | default "Liên kết bên ngoài được sử dụng trong bài viết" -}}
+{{- $tInt := .Get "title_internal" | default "Liên kết nội bộ liên quan" -}}
+{{- $tCopy := .Get "title_copyright" | default "Bản quyền & Ghi nguồn" -}}
+{{- $tFaq := .Get "title_faq" | default "FAQ - Câu hỏi thường gặp" -}}
+
+{{- $extLen := 0 -}}{{- with $external }}{{ $extLen = len . }}{{ end -}}
+{{- $intLen := 0 -}}{{- with $internal }}{{ $intLen = len . }}{{ end -}}
+{{- $faqLen := 0 -}}{{- with $faq }}{{ $faqLen = len . }}{{ end -}}
+{{- $hasAny := or $copyright $source (gt $extLen 0) (gt $intLen 0) (gt $faqLen 0) -}}
+
+{{- if $hasAny -}}
+<aside class="af" data-article-footer aria-label="Article footer blocks">
+
+  {{- if gt $extLen 0 -}}
+  <section class="af-block af-external">
+    <h2 class="af-heading">{{ $tExt }}</h2>
+    <ul class="af-list">
+      {{- range $external -}}
+      {{- $title := index . "title" | default (index . "name" | default (index . "url")) -}}
+      {{- $url := index . "url" | default (index . "href" | default "") -}}
+      {{- if $url -}}
+      <li><a href="{{ $url }}" rel="noopener noreferrer" target="_blank">{{ $title }}</a></li>
+      {{- end -}}
+      {{- end -}}
+    </ul>
+  </section>
+  {{- end -}}
+
+  {{- if gt $intLen 0 -}}
+  <section class="af-block af-internal">
+    <h2 class="af-heading">{{ $tInt }}</h2>
+    <ul class="af-list">
+      {{- range $internal -}}
+      {{- $title := index . "title" | default (index . "name" | default (index . "url")) -}}
+      {{- $url := index . "url" | default (index . "href" | default "") -}}
+      {{- if $url -}}
+      {{- $href := $url -}}
+      {{- if not (or (hasPrefix $url "http://") (hasPrefix $url "https://") (hasPrefix $url "//")) -}}
+        {{- $href = $url | relURL -}}
+      {{- end -}}
+      <li><a href="{{ $href }}">{{ $title }}</a></li>
+      {{- end -}}
+      {{- end -}}
+    </ul>
+  </section>
+  {{- end -}}
+
+  {{- if or $copyright $source -}}
+  <section class="af-block af-copyright">
+    <h2 class="af-heading">{{ $tCopy }}</h2>
+    <blockquote class="af-source-note">
+      {{- if $copyright -}}
+        <div class="af-source-body">{{ $copyright | markdownify }}</div>
+      {{- else if $source -}}
+        <p>
+          Một phần nội dung trong bài được tham khảo từ
+          {{- if $sourceURL }}
+          <a href="{{ $sourceURL }}" rel="noopener noreferrer" target="_blank">{{ $source }}</a>.
+          {{- else }}
+          <strong>{{ $source }}</strong>.
+          {{- end }}
+          Mọi thương hiệu và tài liệu gốc thuộc quyền sở hữu của chủ sở hữu tương ứng.
+          Bài viết chỉ trích dẫn, tổng hợp và phân tích — không thay thế tài liệu chính thức.
+        </p>
+      {{- end -}}
+    </blockquote>
+  </section>
+  {{- end -}}
+
+  {{- if gt $faqLen 0 -}}
+  <section class="af-block af-faq">
+    <h2 class="af-heading">{{ $tFaq }}</h2>
+    <div class="af-faq-list">
+      {{- range $i, $item := $faq -}}
+      {{- $q := index $item "q" | default (index $item "question" | default "") -}}
+      {{- $a := index $item "a" | default (index $item "answer" | default "") -}}
+      {{- if and $q $a -}}
+      <details class="af-faq-item"{{ if eq $i 0 }} open{{ end }}>
+        <summary class="af-faq-q">{{ $q }}</summary>
+        <div class="af-faq-a">{{ $a | markdownify }}</div>
+      </details>
+      {{- end -}}
+      {{- end -}}
+    </div>
+  </section>
+  {{- end -}}
+
+</aside>
+{{- end -}}
