@@ -60,6 +60,37 @@
       {{ end }}
       <div class="article-body">
         {{ .Content }}
+        {{/* === AF macro — auto for all posts === */}}
+        <div class="af">
+          {{ if .Params.source_url }}
+          <blockquote class="af-source-note">
+            <p><strong>Nguồn:</strong> <a href="{{ .Params.source_url | safeURL }}" rel="nofollow noopener" target="_blank">{{ .Params.source_label | default "Bài viết gốc" }}</a></p>
+          </blockquote>
+          {{ end }}
+          {{ if .Params.faq }}
+          <div class="af-block">
+            <h2 class="af-heading">FAQ - Câu hỏi thường gặp</h2>
+            <div class="af-faq-list">
+              {{ range .Params.faq }}
+              <details class="af-faq-item">
+                <summary class="af-faq-q">{{ .q }}</summary>
+                <div class="af-faq-a"><p>{{ .a | safeHTML }}</p></div>
+              </details>
+              {{ end }}
+            </div>
+          </div>
+          {{ end }}
+          {{ if .Params.references }}
+          <div class="af-block">
+            <h2 class="af-heading">Tham khảo</h2>
+            <ul class="af-list">
+              {{ range .Params.references }}
+              <li><a href="{{ . }}" rel="nofollow noopener" target="_blank">{{ . }}</a></li>
+              {{ end }}
+            </ul>
+          </div>
+          {{ end }}
+        </div>
       </div>
       <div hidden>
         <span data-pagefind-meta="date:{{ .Date.Unix }}"></span>

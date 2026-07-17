@@ -22,6 +22,8 @@ summaries:
 cover:
   image: "images/2026-07-17/mm-7d472ae268c4.webp"
   alt: "Nhà Anjung — Eleena Jamil Architect"
+source_url: "https://www.archdaily.com/1018049/anjung-house-eleena-jamil-architect"
+source_label: "ArchDaily"
 ---
 
 ## Giới thiệu

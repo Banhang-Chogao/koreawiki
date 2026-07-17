@@ -18,7 +18,8 @@ ATTR_PATTERN = re.compile(
 PARAM_REF = re.compile(r'\.Params\.\w+(?:\.\w+)*')
 
 # Check if relURL or absURL is already applied
-HAS_FILTER = re.compile(r'\|\s*(?:relURL|absURL|relLangURL|absLangURL)')
+HAS_FILTER = re.compile(r'\|\s*(?:relURL|absURL|relLangURL|absLangURL|safeURL)')
+EXTERNAL_PARAMS = {'source_url', 'source_label', 'image_source_url', 'image_creator_url'}
 
 # Also check raw variable assignments from .Params
 VAR_PATTERN = re.compile(r'\{\{\s*\$(\w+)\s*:=\s*\.Params\.')
@@ -50,6 +51,9 @@ def run():
 
                 # Check if it uses .Params directly
                 for pm in PARAM_REF.finditer(inner):
+                    param_name = pm.group().split('.')[-1]
+                    if param_name in EXTERNAL_PARAMS:
+                        continue
                     if not HAS_FILTER.search(inner):
                         rel = fp.relative_to(TEMPLATES)
                         issues.append(
