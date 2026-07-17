@@ -818,6 +818,57 @@
     }
   }
 
+  /* ── Open / Close overlay ─────────────────────────────────── */
+
+  var searchToggle = document.querySelectorAll('[data-search-toggle]');
+  var searchClose = document.querySelector('[data-search-close]');
+
+  function openSearch() {
+    overlay.classList.add('open');
+    overlay.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+    window.__koreaSearch();
+  }
+
+  function closeSearch() {
+    overlay.classList.remove('open');
+    overlay.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+    if (si) si.blur();
+  }
+
+  if (searchToggle.length) {
+    Array.from(searchToggle).forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        if (overlay.classList.contains('open')) { closeSearch(); }
+        else { openSearch(); }
+      });
+    });
+  }
+
+  if (searchClose) {
+    searchClose.addEventListener('click', closeSearch);
+  }
+
+  if (overlay) {
+    overlay.addEventListener('click', function (e) {
+      if (e.target === this) closeSearch();
+    });
+  }
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeSearch();
+    if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+      e.preventDefault();
+      if (overlay.classList.contains('open')) closeSearch();
+      else openSearch();
+    }
+    if (e.key === '/' && !['INPUT', 'TEXTAREA', 'SELECT'].includes(e.target.tagName)) {
+      e.preventDefault();
+      openSearch();
+    }
+  });
+
   /* ── Init ──────────────────────────────────────────────────── */
 
   function init() {
