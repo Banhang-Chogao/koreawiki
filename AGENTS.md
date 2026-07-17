@@ -63,6 +63,17 @@ scripts/       → Python: qa.py, seo.py, compress_images.py, etc.
 static/        → Static assets (images, fonts, favicon)
 ```
 
+## Agent Rules (Auto-Deploy)
+
+- Viết/modify bài xong → commit + push thẳng lên `main` **ngay lập tức**, không đợi duyệt
+- Trước khi commit: chạy `python3 scripts/pre_deploy.py` đảm bảo không lỗi
+- Nếu `pre_deploy.py` báo lỗi → fix triệt để, chạy lại đến khi pass mới push
+- Sau build (nếu có Hugo change): chạy `python3 scripts/pre_deploy.py --postbuild` để check output
+- Không bao giờ để bug lọt lên production — tự sửa, tự fix, tự push
+- Nếu CI workflow fail → check logs, fix ngay, commit + push lại
+- Nếu self-heal fix file (slug/long lines) → commit riêng, push, workflow mới sẽ xử lý
+- `scripts/pre_deploy.py` là gatekeeper cuối cùng — không bypass
+
 ## Rules
 
 - System fonts only — no `@font-face`, no Google Fonts
