@@ -67,12 +67,14 @@ static/        → Static assets (images, fonts, favicon)
 
 - Viết/modify bài xong → commit + push thẳng lên `main` **ngay lập tức**, không đợi duyệt
 - Trước khi commit: chạy `python3 scripts/pre_deploy.py` đảm bảo không lỗi
+- ML Learning Engine luôn chạy đầu tiên — phải xác nhận dòng `✔ ML LEARNED: X commits, Y patterns, Z new checks` trên terminal trước khi deploy
 - Nếu `pre_deploy.py` báo lỗi → fix triệt để, chạy lại đến khi pass mới push
 - Sau build (nếu có Hugo change): chạy `python3 scripts/pre_deploy.py --postbuild` để check output
 - Không bao giờ để bug lọt lên production — tự sửa, tự fix, tự push
 - Nếu CI workflow fail → check logs, fix ngay, commit + push lại
 - Nếu self-heal fix file (slug/long lines) → commit riêng, push, workflow mới sẽ xử lý
 - `scripts/pre_deploy.py` là gatekeeper cuối cùng — không bypass
+- Luôn check `Hệ thống máy học đã học` message — nếu 0 patterns thì chạy lại `python3 scripts/learn.py`
 
 ## Rules
 

@@ -4,10 +4,10 @@
 Usage:
   python scripts/pre_deploy.py              # standard checks
   python scripts/pre_deploy.py --postbuild   # also run post-build checks
-  python scripts/pre_deploy.py --learn       # run ML learning first, then checks
+   python scripts/pre_deploy.py               # ML learning always runs first
 """
 
-import importlib, pkgutil, sys, subprocess, yaml, time
+import importlib, pkgutil, sys, subprocess, yaml, time, re
 from pathlib import Path
 
 SCRIPTS = Path("scripts")
@@ -91,35 +91,60 @@ def run_external():
 def main():
     args = set(sys.argv[1:])
     do_postbuild = "--postbuild" in args or "-p" in args
-    do_learn = "--learn" in args or "-l" in args
+
+    print(f"\n{'='*55}")
+    print(f"  KOREAWIKI PRE-DEPLOY ORCHESTRATOR")
+    print(f"{'='*55}\n")
+
+    # ──────────────────────────────────────────────────
+    # PHASE 0: MACHINE LEARNING — always run
+    # ──────────────────────────────────────────────────
+    print("─── Phase 0: [ML Learning Engine] ───────────────────────")
+    print("     Analyzing git history for fix patterns...\n")
+    r = subprocess.run([PYTHON, "scripts/learn.py"], capture_output=True, text=True)
+
+    # Parse learn.py output for a clean summary
+    learn_lines = r.stdout.strip().splitlines()
+    pattern_count = 0
+    generated_count = 0
+    analyzed_count = 0
+    kb_updated = False
+
+    for line in learn_lines:
+        print(f"  {line}")
+        if "knowledge_base" in line and "updated" in line:
+            kb_updated = True
+            m = re.search(r'(\d+) total', line)
+            if m: pattern_count = int(m.group(1))
+        if "Found" in line and "fix commits" in line:
+            m = re.search(r'Found (\d+)', line)
+            if m: analyzed_count = int(m.group(1))
+        if "generated" in line and ".py" in line:
+            generated_count += 1
+        if "No new checks" in line:
+            pass
+
+    if r.returncode != 0:
+        print(f"\n  ⚠  [ML Learn] completed with warnings — continuing anyway\n")
+
+    print(f"\n  ✓ Hệ thống máy học đã học: {analyzed_count} commit phân tích,"
+          f" {pattern_count} patterns trong knowledge_base,"
+          f" {generated_count} check mới tạo/hôm nay")
+    print(f"  ────────────────────────────────────────────────────────\n")
 
     kb = load_knowledge_base()
-    pattern_count = len(kb.get("patterns", {}))
-    print(f"\nKoreaWiki Pre-Deploy Check\n")
-    print(f"Knowledge base: {pattern_count} known patterns\n")
-
     all_issues = []
     failed = False
 
-    # Phase 1: ML learning (optional)
-    if do_learn:
-        print("--- Phase 0: ML Learning ---")
-        r = subprocess.run([PYTHON, "scripts/learn.py"], capture_output=True, text=True)
-        print(r.stdout)
-        if r.stderr.strip():
-            print(r.stderr, file=sys.stderr)
-        if r.returncode != 0:
-            print("  [ML Learn] completed (new checks may have been generated)")
-
-    # Phase 2: External scripts
-    print("--- Phase 1: External Checks ---")
+    # Phase 1: External scripts
+    print("─── Phase 1: External Checks ────────────────────────────")
     ext_issues = run_external()
     all_issues.extend(ext_issues)
     if ext_issues:
         print(f"\n  → {len(ext_issues)} external check(s) failed\n")
 
-    # Phase 3: Module checks (template patterns)
-    print("--- Phase 2: Template Pattern Checks ---")
+    # Phase 2: Module checks (template patterns)
+    print("─── Phase 2: Template Pattern Checks ────────────────────")
     mod_issues = run_module_checks()
     all_issues.extend(mod_issues)
     if mod_issues:
@@ -127,16 +152,17 @@ def main():
     else:
         print("  (no template pattern issues)\n")
 
-    # Phase 4: Learned checks (advisory only — do NOT block deploy)
+    # Phase 3: Learned checks (advisory only — do NOT block deploy)
+    print("─── Phase 3: Learned Checks (ML-generated) ──────────────")
     learned_issues = run_learned_checks()
     if learned_issues:
         print(f"\n  → {len(learned_issues)} learned check issue(s) found (advisory)")
     else:
         print("  (no learned check issues)\n")
 
-    # Phase 5: Post-build checks
+    # Phase 4: Post-build checks
     if do_postbuild:
-        print("--- Phase 3: Post-Build Checks ---")
+        print("─── Phase 4: Post-Build Checks ─────────────────────────")
         pb_issues = []
         try:
             mod = importlib.import_module("checks._check_relative_asset")
@@ -156,20 +182,17 @@ def main():
 
     # Report — only hard checks block deploy
     hard_total = len(all_issues)
+    print(f"\n{'='*55}")
     if hard_total:
-        print(f"\n{'='*50}")
-        print(f"RESULT: {hard_total} issue(s) found — DEPLOY BLOCKED")
-        print(f"{'='*50}\n")
+        print(f"  ✖ DEPLOY BLOCKED: {hard_total} hard issue(s) found")
+        print(f"{'='*55}\n")
         sys.exit(1)
     else:
+        print(f"  ✔ ML LEARNED: {analyzed_count} commits, {pattern_count} patterns, {generated_count} new checks")
         if learned_issues:
-            print(f"\n{'='*50}")
-            print(f"RESULT: {len(learned_issues)} advisory warning(s) — deploy OK")
-            print(f"{'='*50}\n")
-        else:
-            print(f"\n{'='*50}")
-            print("RESULT: All checks passed — ready to deploy")
-            print(f"{'='*50}\n")
+            print(f"  ✔ ADVISORY: {len(learned_issues)} warning(s) — non-blocking")
+        print(f"  ✔ READY TO DEPLOY")
+        print(f"{'='*55}\n")
         sys.exit(0)
 
 if __name__ == "__main__":
