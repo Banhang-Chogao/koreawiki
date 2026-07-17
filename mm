@@ -192,10 +192,6 @@ def extract_images(html, base_url):
     if gal:
         sources.append(gal.group(0))
 
-    # 3. Also picture elements inside <article> (lazy-load with data-src fallback)
-    pics = re.findall(r'<picture[^>]*>.*?</picture>', body_html or html, re.DOTALL)
-    sources.extend(pics)
-
     if not sources:
         og_img = meta_content(html, "og:image") or meta_content(html, "twitter:image")
         if og_img:
