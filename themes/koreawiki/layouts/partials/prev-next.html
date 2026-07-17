@@ -1,20 +1,20 @@
-<nav class="prev-next-nav" aria-label="Previous and next articles">
-  <div class="prev-next-container">
-    <div class="prev-next-prev">
-      {{ if .PrevInSection }}
-      <a href="{{ .PrevInSection.RelPermalink }}" rel="prev">
-        <span class="prev-next-label">{{ T "previous" | default "Previous" }}</span>
-        <span class="prev-next-title">{{ .PrevInSection.Title }}</span>
-      </a>
-      {{ end }}
-    </div>
-    <div class="prev-next-next">
-      {{ if .NextInSection }}
-      <a href="{{ .NextInSection.RelPermalink }}" rel="next">
-        <span class="prev-next-label">{{ T "next" | default "Next" }}</span>
-        <span class="prev-next-title">{{ .NextInSection.Title }}</span>
-      </a>
-      {{ end }}
-    </div>
-  </div>
+<nav class="pnn" aria-label="Previous and next articles">
+  {{ if .PrevInSection }}
+  <a href="{{ .PrevInSection.RelPermalink }}" rel="prev" class="pnn-link pnn-prev">
+    <span class="pnn-arrow">←</span>
+    <span class="pnn-body">
+      <span class="pnn-label">{{ T "previous" | default "Bài trước" }}</span>
+      <span class="pnn-title">{{ .PrevInSection.Title }}</span>
+    </span>
+  </a>
+  {{ end }}
+  {{ if .NextInSection }}
+  <a href="{{ .NextInSection.RelPermalink }}" rel="next" class="pnn-link pnn-next">
+    <span class="pnn-body pnn-body-right">
+      <span class="pnn-label">{{ T "next" | default "Bài tiếp" }}</span>
+      <span class="pnn-title">{{ .NextInSection.Title }}</span>
+    </span>
+    <span class="pnn-arrow">→</span>
+  </a>
+  {{ end }}
 </nav>

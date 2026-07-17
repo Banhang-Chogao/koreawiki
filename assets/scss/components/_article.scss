@@ -1,6 +1,6 @@
 .article-page{
   max-width:var(--max-w);margin:0 auto;
-  padding:var(--space-8) var(--space-6) var(--space-16);
+  padding:var(--space-10) var(--space-6) var(--space-16);
 }
 .article-layout{
   max-width:var(--max-w-article);
@@ -13,7 +13,10 @@
 .article-category{
   display:inline-block;
   font-size:var(--fs-xs);font-weight:700;text-transform:uppercase;
-  letter-spacing:.08em;color:var(--color-accent);
+  letter-spacing:.05em;color:var(--color-accent);
+  background:var(--color-accent-light);
+  padding:var(--space-1) var(--space-3);
+  border-radius:var(--radius-sm);
   margin-bottom:var(--space-4);
 }
 .article-title{
@@ -30,13 +33,14 @@
 .article-commit{
   font-family:var(--font-mono);
   font-size:var(--fs-xs);
-  color:var(--color-commit);
+  color:var(--color-text-tertiary);
 }
 .article-author{font-weight:600;color:var(--color-text)}
 .article-cover{
   margin:var(--space-6) 0 var(--space-8);
   border-radius:var(--radius);
   overflow:hidden;
+  box-shadow:var(--shadow-md);
 }
 .article-cover img{width:100%;aspect-ratio:16/9;object-fit:cover;object-position:center top}
 .article-cover figcaption{
@@ -44,8 +48,8 @@
   color:var(--color-text-tertiary);font-style:italic;
 }
 .ai-summary{
-  background:var(--color-accent-light);
-  border:1px solid var(--color-border);
+  background:var(--color-primary-light);
+  border:1.5px solid var(--color-primary);
   border-radius:var(--radius);
   margin-bottom:var(--space-8);
   overflow:hidden;
@@ -63,11 +67,11 @@
 }
 .ai-summary__title{
   font-size:var(--fs-base);font-weight:700;
-  color:var(--color-accent);
+  color:var(--color-primary);
 }
 .ai-summary__toggle{
   font-size:var(--fs-xs);font-weight:600;
-  color:var(--color-accent);
+  color:var(--color-primary);
 }
 .ai-summary[open] .ai-summary__toggle::before{
   content:attr(data-open);
@@ -85,49 +89,23 @@
   li:last-child{margin-bottom:0}
 }
 .article-body{
-  font-size:var(--fs-base);
+  font-size:var(--fs-lg);
   line-height:var(--lh-body);
-  h2{margin-top:var(--space-10);margin-bottom:var(--space-4);font-size:var(--fs-2xl)}
-  h3{margin-top:var(--space-8);margin-bottom:var(--space-3);font-size:var(--fs-xl)}
-  h4{margin-top:var(--space-6);margin-bottom:var(--space-2);font-size:var(--fs-lg)}
-  p{margin-bottom:var(--space-4);line-height:var(--lh-relaxed)}
-  ul,ol{margin-bottom:var(--space-4)}
+  h2{margin-top:var(--space-12);margin-bottom:var(--space-4);font-size:var(--fs-3xl)}
+  h3{margin-top:var(--space-10);margin-bottom:var(--space-3);font-size:var(--fs-2xl)}
+  h4{margin-top:var(--space-8);margin-bottom:var(--space-2);font-size:var(--fs-xl)}
+  p{margin-bottom:var(--space-5);line-height:var(--lh-relaxed);font-size:var(--fs-lg)}
+  ul,ol{margin-bottom:var(--space-5)}
   li{margin-bottom:var(--space-2)}
-  a{color:var(--color-accent);&:hover{text-decoration:underline}}
-  img{margin:var(--space-6) 0;border-radius:var(--radius)}
+  a{color:var(--color-accent);font-weight:500;&:hover{text-decoration:underline}}
+  img{margin:var(--space-8) 0;border-radius:var(--radius);box-shadow:var(--shadow-md)}
 }
-.article-footer{
-  margin-top:var(--space-12);
-  padding-top:var(--space-8);
-  border-top:1px solid var(--color-border);
-}
-.article-tags{
-  display:flex;flex-wrap:wrap;align-items:center;
-  gap:var(--space-2);margin-bottom:var(--space-6);
-}
-.tags-label{font-size:var(--fs-sm);font-weight:600;color:var(--color-text-secondary)}
-.tag{
-  display:inline-block;padding:var(--space-1) var(--space-3);
-  font-size:var(--fs-xs);font-weight:600;
-  color:var(--color-text-secondary);
-  background:var(--color-bg-alt);
-  border-radius:var(--radius-sm);
-
-  &:hover{color:var(--color-accent);background:var(--color-accent-light)}
-}
-
-.anchor-link{
-  opacity:0;margin-left:var(--space-2);
-  vertical-align:middle;color:var(--color-primary);
-
-}
-h2:hover .anchor-link,h3:hover .anchor-link,h4:hover .anchor-link{opacity:1}
 
 @media(max-width:1024px){
-  .article-layout{grid-template-columns:1fr}
   .article-title{font-size:var(--fs-3xl)}
 }
 @media(max-width:768px){
   .article-title{font-size:var(--fs-2xl)}
+  .article-body{font-size:var(--fs-base);p{font-size:var(--fs-base)}}
   .article-page{padding:var(--space-4) var(--space-4) var(--space-10)}
 }

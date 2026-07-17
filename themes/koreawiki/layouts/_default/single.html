@@ -80,11 +80,15 @@
           {{ end }}
         </div>
         {{ end }}
-        {{ partial "share" . }}
         {{ if .Site.Params.relatedPosts }}
+          <div class="section-divider">{{ T "related" | default "Bài viết liên quan" }}</div>
           {{ partial "related-posts" . }}
         {{ end }}
-        {{ partial "prev-next" . }}
+        {{ if or .PrevInSection .NextInSection }}
+          <div class="section-divider">{{ T "continue_reading" | default "Đọc tiếp" }}</div>
+          {{ partial "prev-next" . }}
+        {{ end }}
+        {{ partial "share" . }}
         {{ if .Site.Params.comments }}
           {{ partial "comments" . }}
         {{ end }}

@@ -1,18 +1,17 @@
 {{ $related := .Site.RegularPages.Related . | first 4 }}
 {{ if $related }}
 <section class="related-articles">
-  <h2 class="related-title">{{ T "related_articles" | default "Related Articles" }}</h2>
   <div class="related-grid">
     {{ range $related }}
-    <article class="related-card">
+    <article class="card related-card">
       {{ if .Params.cover.image }}
-      <a href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
-        <img src="{{ .Params.cover.image | relURL }}" alt="{{ .Params.cover.alt | default .Title }}" class="related-card-img" width="300" height="169" loading="lazy" />
+      <a href="{{ .RelPermalink }}" aria-label="{{ .Title }}" class="card-img-wrap">
+        <img src="{{ .Params.cover.image | relURL }}" alt="{{ .Params.cover.alt | default .Title }}" class="card-img" width="300" height="169" loading="lazy" />
       </a>
       {{ end }}
-      <div class="related-card-body">
-        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "ngày 2 tháng 1 năm 2006" }}</time>
-        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <div class="card-body">
+        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" class="card-meta">{{ .Date.Format "ngày 2 tháng 1 năm 2006" }}</time>
+        <h3 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
       </div>
     </article>
     {{ end }}

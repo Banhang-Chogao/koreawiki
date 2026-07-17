@@ -1,27 +1,59 @@
-.prev-next-nav{margin-bottom:var(--space-8)}
-.prev-next-grid{
+.prev-next-nav{display:none}
+
+.pnn{
   display:grid;
   grid-template-columns:1fr 1fr;
   gap:var(--space-4);
+  margin-bottom:var(--space-8);
 }
-.prev-next-block{
-  display:flex;flex-direction:column;
-  padding:var(--space-4);
-  border:1px solid var(--color-border);
+.pnn-link{
+  display:flex;
+  align-items:center;
+  gap:var(--space-4);
+  padding:var(--space-5) var(--space-6);
   border-radius:var(--radius);
+  background:var(--color-bg-card);
+  border:1.5px solid var(--color-border);
+  transition:all .2s;
+  text-decoration:none;
+}
+.pnn-link:hover{
+  border-color:var(--color-primary);
+  box-shadow:var(--shadow-md);
+  transform:translateY(-2px);
+}
+.pnn-prev:hover{border-color:var(--color-secondary)}
+.pnn-next:hover{border-color:var(--color-accent)}
+.pnn-arrow{
+  font-size:var(--fs-2xl);
+  font-weight:300;
+  color:var(--color-text-tertiary);
+  flex-shrink:0;
+  line-height:1;
+  transition:all .2s;
+}
+.pnn-prev:hover .pnn-arrow{color:var(--color-secondary);transform:translateX(-3px)}
+.pnn-next:hover .pnn-arrow{color:var(--color-accent);transform:translateX(3px)}
+.pnn-body{flex:1;min-width:0}
+.pnn-body-right{text-align:right}
+.pnn-label{
+  display:block;
+  font-size:var(--fs-xs);
+  font-weight:600;
+  text-transform:uppercase;
+  letter-spacing:.05em;
+  color:var(--color-text-tertiary);
+  margin-bottom:var(--space-1);
+}
+.pnn-title{
+  display:block;
+  font-size:var(--fs-sm);
+  font-weight:700;
+  line-height:var(--lh-snug);
+  color:var(--color-text);
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+}
 
-  &:hover{border-color:var(--color-accent);background:var(--color-accent-light)}
-}
-.prev-next-label{
-  font-size:var(--fs-xs);font-weight:700;text-transform:uppercase;
-  letter-spacing:.08em;color:var(--color-text-tertiary);
-  margin-bottom:var(--space-2);
-}
-.prev-next-title{
-  font-size:var(--fs-sm);font-weight:600;line-height:var(--lh-snug);
-}
-.prev-next-next{text-align:right}
-
-@media(max-width:480px){
-  .prev-next-grid{grid-template-columns:1fr}
+@media(max-width:640px){
+  .pnn{grid-template-columns:1fr}
 }

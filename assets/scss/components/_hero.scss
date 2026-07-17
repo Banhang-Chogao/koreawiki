@@ -1,5 +1,5 @@
 .featured-story{
-  padding:var(--space-8) 0 var(--space-10);
+  padding:var(--space-10) 0 var(--space-12);
 }
 .featured-grid{
   display:grid;
@@ -10,28 +10,33 @@
 }
 .featured-main{
   position:relative;
-  border-radius:var(--radius);
+  border-radius:var(--radius-lg);
   overflow:hidden;
   background:var(--color-bg-alt);
+  transition:box-shadow .2s;
 }
+.featured-main:hover{box-shadow:var(--shadow-xl)}
 .featured-main-link{display:block;position:relative;width:100%}
 .featured-main-img{
   width:100%;aspect-ratio:16/9;object-fit:cover;object-position:center top;
+  transition:transform .3s;
 }
+.featured-main:hover .featured-main-img{transform:scale(1.02)}
 .featured-main-overlay{
   position:absolute;bottom:0;left:0;right:0;
-  padding:var(--space-8);
-  background:linear-gradient(transparent,rgba(0,0,0,.7));
+  padding:var(--space-10);
+  background:linear-gradient(transparent 20%,rgba(0,0,0,.75));
 }
 .featured-main-cat{
   display:inline-block;
   font-size:var(--fs-xs);font-weight:700;text-transform:uppercase;
-  letter-spacing:.08em;color:var(--color-accent);
-  background:var(--color-bg);padding:var(--space-1) var(--space-3);
+  letter-spacing:.05em;color:var(--color-accent);
+  background:rgba(0,0,0,.5);padding:var(--space-1) var(--space-3);
   border-radius:var(--radius-sm);margin-bottom:var(--space-3);
+  backdrop-filter:blur(4px);
 }
 .featured-main-title{
-  font-size:var(--fs-3xl);font-weight:700;color:#fff;
+  font-size:var(--fs-3xl);font-weight:800;color:#fff;
   line-height:var(--lh-tight);margin-bottom:var(--space-3);
   letter-spacing:-.02em;
 }
@@ -45,7 +50,10 @@
 .featured-side-card{
   display:flex;gap:var(--space-4);
   border-radius:var(--radius);
+  padding:var(--space-3);
+  transition:all .2s;
 }
+.featured-side-card:hover{background:var(--color-bg-alt)}
 .featured-side-img-wrap{
   flex-shrink:0;width:120px;
 }
@@ -56,7 +64,7 @@
 .featured-side-body{flex:1;min-width:0}
 .featured-side-cat{
   font-size:var(--fs-xs);font-weight:700;text-transform:uppercase;
-  letter-spacing:.08em;color:var(--color-accent);
+  letter-spacing:.05em;color:var(--color-accent);
   display:block;margin-bottom:var(--space-1);
 }
 .featured-side-title{

@@ -1,6 +1,7 @@
 .site-header{
   position:sticky;top:0;z-index:100;
   background:var(--color-nav-bg);
+  box-shadow:0 1px 3px rgba(0,0,0,.1);
 }
 .header-inner{
   display:flex;align-items:center;justify-content:space-between;
@@ -9,10 +10,12 @@
 }
 .header-brand{
   text-decoration:none;color:var(--color-nav-text);
-  font-size:var(--fs-xl);font-weight:800;
+  font-size:var(--fs-lg);font-weight:800;
   letter-spacing:-.03em;
   flex-shrink:0;
+  display:flex;align-items:center;gap:var(--space-2);
 }
+.header-brand-icon{color:var(--color-accent)}
 .header-center{
   display:flex;align-items:center;gap:var(--space-1);
 }
@@ -23,11 +26,12 @@
 .header-nav-link{
   display:block;
   padding:var(--space-2) var(--space-3);
-  font-size:var(--fs-base);font-weight:800;
-  text-transform:uppercase;letter-spacing:.08em;
+  font-size:var(--fs-sm);font-weight:700;
+  text-transform:uppercase;letter-spacing:.06em;
   color:var(--color-nav-text);
   border-radius:var(--radius-sm);
   white-space:nowrap;
+  transition:background .15s;
   &:hover{background:var(--color-nav-hover);color:var(--color-nav-text-hover)}
   &.active{background:var(--color-nav-hover);color:var(--color-nav-text-active)}
 }
@@ -40,7 +44,8 @@
   width:36px;height:36px;border:none;background:none;
   color:var(--color-nav-text);cursor:pointer;
   border-radius:var(--radius-sm);
-  &:hover{color:var(--color-nav-text-hover)}
+  transition:background .15s;
+  &:hover{background:var(--color-nav-hover);color:var(--color-nav-text-hover)}
 }
 .header-nav-toggle{
   display:none;border:none;background:none;cursor:pointer;
@@ -54,7 +59,8 @@
     display:flex;flex-direction:column;
     position:absolute;top:var(--header-h);left:0;right:0;
     background:var(--color-nav-bg);
-    padding:var(--space-3);gap:var(--space-1);
+    padding:var(--space-3) var(--space-4);gap:var(--space-1);
+    box-shadow:var(--shadow-lg);
     a{padding:var(--space-3);font-size:var(--fs-base)}
   }
 }
