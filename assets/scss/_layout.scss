@@ -15,6 +15,7 @@
 @media(max-width:768px){.grid-3,.grid-2{grid-template-columns:1fr}.section{padding:var(--space-8) 0}}
 
 .blog-subsection{margin-top:var(--space-10)}
+.blog-subsection:first-child{margin-top:0}
 .blog-subsection-header{display:flex;align-items:center;gap:var(--space-3);margin-bottom:var(--space-6)}
 .blog-subsection-title{font-size:var(--fs-lg);font-weight:700;display:flex;align-items:center;gap:var(--space-2);letter-spacing:-.01em}
 .blog-section-icon{color:var(--color-accent);flex-shrink:0}
