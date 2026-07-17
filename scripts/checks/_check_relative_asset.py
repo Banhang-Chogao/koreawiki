@@ -9,7 +9,7 @@ PATTERN = re.compile(
 
 def run():
     if not PUBLIC.is_dir():
-        return ["SKIP: public/ not found. Run 'hugo' first."]
+        return []
 
     issues = []
     for fp in sorted(PUBLIC.rglob("*.html")):

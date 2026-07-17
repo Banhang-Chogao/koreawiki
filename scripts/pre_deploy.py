@@ -138,7 +138,7 @@ def main():
         print("--- Phase 3: Post-Build Checks ---")
         pb_issues = []
         try:
-            mod = importlib.import_module("checks.check_relative_asset")
+            mod = importlib.import_module("checks._check_relative_asset")
             result = mod.run()
             if result:
                 pb_issues.extend(result)
