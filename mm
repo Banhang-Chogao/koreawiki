@@ -9,7 +9,7 @@ Usage:
   ./mm <url> -h                       # help
 """
 
-import sys, re, json, os, time
+import sys, re, json, os, time, textwrap
 from datetime import datetime
 from pathlib import Path
 from urllib.parse import urlparse, urljoin
@@ -40,11 +40,7 @@ SECTIONS = {
 }
 
 UA = "Mozilla/5.0 (compatible; KoreaWikiBot/1.0)"
-LIBRE_MIRRORS = [
-    "https://libretranslate.com/translate",
-    "https://translate.terraprint.co/translate",
-    "https://translate.api.skit.ai/translate",
-]
+LIBRE_MIRRORS = []
 
 SECTION_HINTS = {
     "blog": [],
@@ -127,6 +123,10 @@ def extract_body_text(html):
     if not m:
         m2 = re.search(r'<main[^>]*>(.*?)</main>', html, re.DOTALL)
         if m2: body = m2.group(1)
+    # try content class divs
+    if not m and not m2:
+        m3 = re.search(r'<div[^>]*class=["\'][^"\']*(?:post-content|entry-content|article-body|article-content|story-body)[^"\']*["\'][^>]*>(.*?)</div>', html, re.DOTALL)
+        if m3: body = m3.group(1)
     text = re.sub(r'<script[^>]*>.*?</script>', '', body, flags=re.DOTALL)
     text = re.sub(r'<style[^>]*>.*?</style>', '', text, flags=re.DOTALL)
     text = re.sub(r'<header[^>]*>.*?</header>', '', text, flags=re.DOTALL)
@@ -137,7 +137,16 @@ def extract_body_text(html):
     text = re.sub(r'<[^>]+>', '\n', text)
     text = re.sub(r'\n\s*\n', '\n', text)
     lines = [l.strip() for l in text.split('\n') if len(l.strip()) > 50]
-    return '\n\n'.join(lines)
+    result = '\n\n'.join(lines[:50])
+
+    # If too thin, fall back to meta description
+    if len(result.split()) < 50:
+        desc = (meta_content(html, "description") or
+                meta_content(html, "og:description") or "")
+        if desc:
+            result = desc + '\n\n' + result
+
+    return result
 
 def extract_images(html, base_url):
     imgs = re.findall(r'<img[^>]+src\s*=\s*["\']([^"\'\s]+)["\']', html, re.I)
@@ -190,52 +199,39 @@ def download_webp(img_url, date_dir):
 
 # ---------- translation ----------
 
-def translate(text, src="en", dest="vi", max_retry=2):
+def translate(text, src="en", dest="vi"):
     if not text or len(text.strip()) < 3:
         return text
-    payload = {"q": text, "source": src, "target": dest, "format": "text"}
-    for attempt in range(max_retry + 1):
-        for mirror in LIBRE_MIRRORS:
-            try:
-                r = requests.post(mirror, json=payload, timeout=20)
-                if r.ok:
-                    t = r.json().get("translatedText", text)
-                    # re-apply any lost Unicode
-                    return t
-            except Exception:
-                continue
-        if attempt < max_retry:
-            time.sleep(1.5)
-    print("   ⚠️  Hết mirror, giữ nguyên bản gốc.")
-    return text
+    # MyMemory limit: 500 chars per request
+    chunks = [text[i:i+480] for i in range(0, len(text), 480)]
+    translated_chunks = []
+    for chunk in chunks:
+        try:
+            params = {"q": chunk, "langpair": f"{src}|{dest}"}
+            r = requests.get("https://api.mymemory.translated.net/get", params=params, timeout=8)
+            if r.ok:
+                t = r.json().get("responseData", {}).get("translatedText", chunk)
+                translated_chunks.append(t if t else chunk)
+            else:
+                translated_chunks.append(chunk)
+        except Exception:
+            translated_chunks.append(chunk)
+    return ' '.join(translated_chunks)
 
 def batch_translate(paragraphs, no_translate=False):
     if no_translate:
         return paragraphs
     out = []
     total = len(paragraphs)
-    # merge short paras for efficiency
-    merged = []
-    buf = []
-    for p in paragraphs:
-        stripped = p.strip()
-        if len(stripped) < 15:
-            if buf:
-                merged.append(' '.join(buf))
-                buf = []
-            merged.append(stripped)
-        else:
-            buf.append(stripped)
-    if buf:
-        merged.append(' '.join(buf))
-    for i, para in enumerate(merged):
-        if len(para) < 15:
-            out.append(para)
+    for i, para in enumerate(paragraphs):
+        stripped = para.strip()
+        if len(stripped) < 20:
+            out.append(stripped)
             continue
-        sys.stdout.write(f"\r   🌐 Đang dịch {i+1}/{len(merged)}...")
+        sys.stdout.write(f"\r   🌐 Đang dịch {i+1}/{total}...")
         sys.stdout.flush()
-        out.append(translate(para))
-        time.sleep(0.25)
+        out.append(translate(stripped))
+        time.sleep(0.1)
     print()
     return out
 
@@ -443,7 +439,7 @@ def main():
     translated_paras = batch_translate(paras, no_translate)
 
     # Keep only substantial paragraphs
-    translated_paras = [p for p in translated_paras if vi_word_count(p) > 10]
+    translated_paras = [p for p in translated_paras if vi_word_count(p) > 5]
 
     if not translated_paras:
         print("❌ Không đủ nội dung sau khi dịch.")
