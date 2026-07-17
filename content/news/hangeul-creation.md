@@ -21,7 +21,7 @@ tags:
 - Korean writing
 - linguistics
 categories:
-- History
+- News
 showToc: true
 readingTime: true
 weight: 1
