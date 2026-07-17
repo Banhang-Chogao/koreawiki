@@ -1,0 +1,159 @@
+{{ define "main" }}
+<section class="section">
+  <div class="wrapper">
+    <header class="section-header">
+      <h1 class="section-title">{{ .Title }}</h1>
+    </header>
+
+    {{- $allPages := .RegularPages -}}
+    {{- $total := len $allPages -}}
+
+    {{- /* LATEST NEWS: by git commit time */ -}}
+    {{- $latestCount := 3 -}}
+    {{- if lt $total 4 }}{{ $latestCount = 1 }}{{ end -}}
+    {{- $latestNews := first $latestCount (sort $allPages ".Lastmod" "desc") -}}
+
+    {{- /* Build exclusion paths */ -}}
+    {{- $excludedPaths := slice -}}
+    {{- range $latestNews -}}
+      {{- $excludedPaths = $excludedPaths | append .File.Path -}}
+    {{- end -}}
+
+    {{- /* Remaining after LATEST */ -}}
+    {{- $remaining := slice -}}
+    {{- range $allPages -}}
+      {{- if not (in $excludedPaths .File.Path) -}}
+        {{- $remaining = $remaining | append . -}}
+      {{- end -}}
+    {{- end -}}
+
+    {{- /* RANDOM POSTS: shuffle remaining */ -}}
+    {{- $randomCount := 3 -}}
+    {{- $randomPosts := first $randomCount (shuffle $remaining) -}}
+
+    {{- /* Add random paths to exclusion */ -}}
+    {{- range $randomPosts -}}
+      {{- $excludedPaths = $excludedPaths | append .File.Path -}}
+    {{- end -}}
+
+    {{- /* ALL POSTS: everything left */ -}}
+    {{- $allRemaining := slice -}}
+    {{- range $remaining -}}
+      {{- if not (in $excludedPaths .File.Path) -}}
+        {{- $allRemaining = $allRemaining | append . -}}
+      {{- end -}}
+    {{- end -}}
+
+    {{/* === LATEST NEWS === */}}
+    {{- if $latestNews -}}
+    <section class="blog-subsection">
+      <div class="blog-subsection-header">
+        <h2 class="blog-subsection-title">
+          <svg class="blog-section-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          LATEST NEWS
+        </h2>
+        <p class="blog-subsection-subtitle">Bài viết mới nhất theo thời gian phát hành</p>
+      </div>
+      <div class="grid-3">
+        {{- range $latestNews -}}
+        <article class="card">
+          <div class="card-img-wrap">
+            <a href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
+              {{- if .Params.cover.image -}}
+              <img src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" class="card-img" width="400" height="auto" loading="eager" />
+              {{- end -}}
+            </a>
+          </div>
+          <div class="card-body">
+            {{- with .Params.categories }}{{ range first 1 . }}<span class="card-cat">{{ . }}</span>{{ end }}{{ end -}}
+            <h3 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            {{- if .Description }}<p class="card-summary">{{ .Description }}</p>{{ end -}}
+            <div class="card-meta">
+              <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Lastmod.Format "02/01/2006" }}</time>
+              <span class="card-meta-sep">·</span>
+              <span>{{ .ReadingTime }} {{ T "min_read" | default "min read" }}</span>
+            </div>
+          </div>
+        </article>
+        {{- end -}}
+      </div>
+    </section>
+    {{- end -}}
+
+    {{/* === RANDOM POSTS === */}}
+    {{- if $randomPosts -}}
+    <section class="blog-subsection">
+      <div class="blog-subsection-header">
+        <h2 class="blog-subsection-title">
+          <svg class="blog-section-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3h5v5M4 20L21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/></svg>
+          RANDOM POSTS
+        </h2>
+        <p class="blog-subsection-subtitle">Bài viết ngẫu nhiên</p>
+      </div>
+      <div class="grid-3">
+        {{- range $randomPosts -}}
+        <article class="card">
+          <div class="card-img-wrap">
+            <a href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
+              {{- if .Params.cover.image -}}
+              <img src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" class="card-img" width="400" height="auto" loading="lazy" />
+              {{- end -}}
+            </a>
+          </div>
+          <div class="card-body">
+            {{- with .Params.categories }}{{ range first 1 . }}<span class="card-cat">{{ . }}</span>{{ end }}{{ end -}}
+            <h3 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            {{- if .Description }}<p class="card-summary">{{ .Description }}</p>{{ end -}}
+            <div class="card-meta">
+              <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Lastmod.Format "02/01/2006" }}</time>
+              <span class="card-meta-sep">·</span>
+              <span>{{ .ReadingTime }} {{ T "min_read" | default "min read" }}</span>
+            </div>
+          </div>
+        </article>
+        {{- end -}}
+      </div>
+    </section>
+    {{- end -}}
+
+    {{/* === ALL POSTS === */}}
+    <section class="blog-subsection">
+      <div class="blog-subsection-header">
+        <h2 class="blog-subsection-title">
+          <svg class="blog-section-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="9" y1="9" x2="15" y2="9"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="13" y2="17"/></svg>
+          ALL POSTS
+        </h2>
+        <p class="blog-subsection-subtitle">Tất cả bài viết</p>
+      </div>
+      {{- if $allRemaining -}}
+      <div class="grid-3">
+        {{- range $allRemaining -}}
+        <article class="card">
+          <div class="card-img-wrap">
+            <a href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
+              {{- if .Params.cover.image -}}
+              <img src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" class="card-img" width="400" height="auto" loading="lazy" />
+              {{- end -}}
+            </a>
+          </div>
+          <div class="card-body">
+            {{- with .Params.categories }}{{ range first 1 . }}<span class="card-cat">{{ . }}</span>{{ end }}{{ end -}}
+            <h3 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            {{- if .Description }}<p class="card-summary">{{ .Description }}</p>{{ end -}}
+            <div class="card-meta">
+              <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Lastmod.Format "02/01/2006" }}</time>
+              <span class="card-meta-sep">·</span>
+              <span>{{ .ReadingTime }} {{ T "min_read" | default "min read" }}</span>
+            </div>
+          </div>
+        </article>
+        {{- end -}}
+      </div>
+      {{- else -}}
+      <p class="blog-empty">Tất cả bài viết đã được hiển thị ở các mục trên.</p>
+      {{- end -}}
+    </section>
+
+  </div>
+</section>
+{{ end }}
