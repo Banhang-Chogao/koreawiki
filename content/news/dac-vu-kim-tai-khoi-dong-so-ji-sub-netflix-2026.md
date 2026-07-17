@@ -35,6 +35,12 @@ summaries:
 sources:
 - name: VOV
   url: https://vov.vn/van-hoa/dac-vu-kim-tai-khoi-dong-vuon-so-1-netflix-toan-cau-sau-chua-day-2-tuan-post1313459.vov
+cover:
+  image: images/2026-07/mm-bf67f172b0db.webp
+  alt: "So Ji-sub trong phim Đặc vụ Kim tái khởi động"
+  caption: "Ảnh: VOV"
+image_credits:
+  - platform: VOV
 internal_links:
 - title: Jo In-sung kể về những cảnh hành động trong Hope
   url: /blog/jo-in-sung-ke-ve-nhung-canh-hanh-dong-trong-hope-chuan-bi-tinh-than-quay-100-lan/
@@ -59,9 +65,6 @@ faq:
 - q: Đặc vụ Kim tái khởi động có thành tích gì trên Netflix?
   a: Phim đạt 10,5 triệu lượt xem trong tuần từ ngày 29/6 đến 5/7 và đứng đầu bảng
     xếp hạng chương trình truyền hình không nói tiếng Anh của Netflix.
-image:
-  status: not-used
-  reason: Không có ảnh có license rõ ràng được xác minh trong nguồn nghiên cứu.
 ---
 ## Đặc vụ Kim tái khởi động vươn lên dẫn đầu Netflix
 
