@@ -117,17 +117,19 @@ def extract_date(html):
     return None
 
 def extract_body_text(html):
-    # try <article> first
+    # Always get meta description first as a baseline
+    desc = (meta_content(html, "description") or
+            meta_content(html, "og:description") or "")
+
     m = re.search(r'<article[^>]*>(.*?)</article>', html, re.DOTALL)
     body = m.group(1) if m else html
-    # try <main> if no article
     if not m:
         m2 = re.search(r'<main[^>]*>(.*?)</main>', html, re.DOTALL)
         if m2: body = m2.group(1)
-    # try content class divs
     if not m and not m2:
         m3 = re.search(r'<div[^>]*class=["\'][^"\']*(?:post-content|entry-content|article-body|article-content|story-body)[^"\']*["\'][^>]*>(.*?)</div>', html, re.DOTALL)
         if m3: body = m3.group(1)
+
     text = re.sub(r'<script[^>]*>.*?</script>', '', body, flags=re.DOTALL)
     text = re.sub(r'<style[^>]*>.*?</style>', '', text, flags=re.DOTALL)
     text = re.sub(r'<header[^>]*>.*?</header>', '', text, flags=re.DOTALL)
@@ -140,38 +142,96 @@ def extract_body_text(html):
     lines = [l.strip() for l in text.split('\n') if len(l.strip()) > 50]
     result = '\n\n'.join(lines[:50])
 
-    # If too thin, fall back to meta description
-    if len(result.split()) < 50:
-        desc = (meta_content(html, "description") or
-                meta_content(html, "og:description") or "")
-        if desc:
-            result = desc + '\n\n' + result
+    # Prepend meta description for quality content
+    if desc:
+        result = desc + '\n\n' + result
+
+    # If too thin, also include JSON-LD articleBody if present
+    if len(result.split()) < 100:
+        jd = re.search(r'"articleBody"\s*:\s*"([^"]+)"', html)
+        if jd:
+            result += '\n\n' + jd.group(1)
 
     return result
 
 def extract_body_html(html):
-    """Get article body HTML (same logic as extract_body_text, keeps tags)."""
+    """Get article body HTML only — never fall back to full page HTML."""
+    # Try article tag with archdaily-specific class first
+    m = re.search(r'<article[^>]*class=["\'][^"\']*afd-post-content[^"\']*["\'][^>]*>(.*?)</article>', html, re.DOTALL)
+    if m: return m.group(1)
+
     m = re.search(r'<article[^>]*>(.*?)</article>', html, re.DOTALL)
-    body = m.group(1) if m else html
-    if not m:
-        m2 = re.search(r'<main[^>]*>(.*?)</main>', html, re.DOTALL)
-        if m2: body = m2.group(1)
-    if not m and not m2:
-        m3 = re.search(r'<div[^>]*class=["\'][^"\']*(?:post-content|entry-content|article-body|article-content|story-body)[^"\']*["\'][^>]*>(.*?)</div>', html, re.DOTALL)
-        if m3: body = m3.group(1)
-    return body
+    if m: return m.group(1)
+
+    m = re.search(r'<main[^>]*>(.*?)</main>', html, re.DOTALL)
+    if m: return m.group(1)
+
+    content_classes = [
+        'afd-main-content',
+        'post-content', 'entry-content', 'article-body',
+        'article-content', 'story-body', 'post-body',
+        'content-body', 'article__content', 'article-text',
+    ]
+    for cls in content_classes:
+        m = re.search(rf'<div[^>]*class=["\'][^"\']*{cls}[^"\']*["\'][^>]*>(.*?)</div>', html, re.DOTALL)
+        if m: return m.group(1)
+
+    return ""  # NEVER fall back to full page HTML
 
 def extract_images(html, base_url):
-    """Extract images from article body HTML only."""
+    """Extract images from article body only. Never from related articles."""
+    sources = []
+
+    # 1. Article body HTML (article, main, content div)
     body_html = extract_body_html(html)
-    imgs = re.findall(r'<img[^>]+src\s*=\s*["\']([^"\'\s]+)["\']', body_html, re.I)
-    imgs += re.findall(r'<img[^>]+src\s*=\s*([^\s>"\']+)', body_html)
+    if body_html:
+        sources.append(body_html)
+
+    # 2. ArchDaily gallery-thumbs (actual project images outside <article>)
+    gal = re.search(r'<ul[^>]*class=["\'][^"\']*gallery-thumbs[^"\']*["\'][^>]*>.*?</ul>', html, re.DOTALL)
+    if gal:
+        sources.append(gal.group(0))
+
+    # 3. Also picture elements inside <article> (lazy-load with data-src fallback)
+    pics = re.findall(r'<picture[^>]*>.*?</picture>', body_html or html, re.DOTALL)
+    sources.extend(pics)
+
+    if not sources:
+        og_img = meta_content(html, "og:image") or meta_content(html, "twitter:image")
+        if og_img:
+            return [urljoin(base_url, og_img)]
+        return []
+
+    combined = '\n'.join(sources)
+
+    # Remove known related-article / recommended / sidebar sections
+    remove_patterns = [
+        r'<section[^>]*class=["\'][^"\']*related[^"\']*["\'][^>]*>.*?</section>',
+        r'<div[^>]*class=["\'][^"\']*related[^"\']*["\'][^>]*>.*?</div>',
+        r'<div[^>]*class=["\'][^"\']*recommended[^"\']*["\'][^>]*>.*?</div>',
+        r'<div[^>]*class=["\'][^"\']*afd-recommended[^"\']*["\'][^>]*>.*?</div>',
+        r'<div[^>]*class=["\'][^"\']*afd-bottom-widget[^"\']*["\'][^>]*>.*?</div>',
+        r'<div[^>]*class=["\'][^"\']*afd-sidebar-widget[^"\']*["\'][^>]*>.*?</div>',
+        r'<div[^>]*class=["\'][^"\']*sidebar[^"\']*["\'][^>]*>.*?</div>',
+        r'<aside[^>]*>.*?</aside>',
+    ]
+    for pat in remove_patterns:
+        combined = re.sub(pat, '', combined, flags=re.DOTALL)
+
+    # Extract <img> src attributes, including lazy-loaded (data-src)
+    imgs = re.findall(r'<img[^>]+src\s*=\s*["\']([^"\'\s]+)["\']', combined, re.I)
+    imgs += re.findall(r'<img[^>]+src\s*=\s*([^\s>"\']+)', combined)
+    # Also get data-src for lazy-loaded images
+    lazy_imgs = re.findall(r'data-src\s*=\s*["\']([^"\'\s]+(?:jpg|jpeg|png|webp)[^"\'\s]*)["\']', combined, re.I)
+    imgs.extend(lazy_imgs)
+
     seen = set()
     urls = []
     skip_keywords = ['logo', 'icon', 'banner', 'avatar', 'button', 'spacer',
                      'pixel', 'tracking', 'advert',
                      'loader', 'spinner', 'placeholder', 'menu', 'search',
-                     'btn', 'gnb', 'lnb', 'top_banner', 'footer']
+                     'btn', 'gnb', 'lnb', 'top_banner', 'footer',
+                     'thumbnail', 'thumb', 'loader-blue']
     for src in imgs:
         src = src.strip().rsplit('?', 1)[0]
         if not src or src.startswith('data:'):
@@ -360,7 +420,7 @@ def strip_byline(text):
     cleaned = BYLINE_RE.sub('', text, count=1).strip()
     return cleaned if cleaned else text
 
-def generate_body(title, section, paragraphs, image_refs, author, pub_date, source_url=None):
+def generate_body(title, section, paragraphs, image_refs, author, pub_date, source_url=None, cover_rel=None):
     sec = SECTIONS.get(section, section.title())
     lines = []
     paragraphs = [strip_byline(p) for p in paragraphs]
@@ -377,7 +437,9 @@ def generate_body(title, section, paragraphs, image_refs, author, pub_date, sour
         f"",
     ]
 
-    if image_refs:
+    # If cover is set, skip the first image in body (avoid duplication)
+    body_img_start = 0 if not cover_rel else 1
+    if image_refs and not cover_rel:
         cap = (title[:40] + "...") if len(title) > 40 else title
         lines += [
             f"{{{{< figure src=\"{image_refs[0]}\" alt=\"{cap}\" caption=\"Ảnh minh họa\" >}}}}",
@@ -397,7 +459,7 @@ def generate_body(title, section, paragraphs, image_refs, author, pub_date, sour
         content_paras = [lead]
 
     para_count = 0
-    img_idx = 1
+    img_idx = body_img_start
     for i, para in enumerate(content_paras):
         p = para.strip()
         if len(p) < 20:
@@ -412,14 +474,6 @@ def generate_body(title, section, paragraphs, image_refs, author, pub_date, sour
                 f"",
             ]
             img_idx += 1
-
-    # any leftover images
-    while img_idx < len(image_refs):
-        lines += [
-            f"{{{{< figure src=\"{image_refs[img_idx]}\" alt=\"Hình ảnh\" caption=\"Hình ảnh minh họa\" >}}}}",
-            f"",
-        ]
-        img_idx += 1
 
     lines += [
         f"---",
@@ -594,7 +648,7 @@ def main():
     summary_points = generate_summary_points(translated_paras)
 
     frontmatter = generate_frontmatter(title_dest, section, tags, summary, slug, cover_rel, author, pub_date, summary_list=summary_points)
-    body = generate_body(title_dest, section, translated_paras, local_images, author, pub_date, source_url=url)
+    body = generate_body(title_dest, section, translated_paras, local_images, author, pub_date, source_url=url, cover_rel=cover_rel)
     content = frontmatter + '\n' + body
 
     wc = vi_word_count(body)
