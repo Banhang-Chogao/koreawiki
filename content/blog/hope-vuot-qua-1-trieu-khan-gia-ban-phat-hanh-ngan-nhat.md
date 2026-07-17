@@ -23,7 +23,7 @@ showToc: true
 readingTime: true
 slug: hope-cua-na-hong-jin-vuot-1-trieu-khan-gia-sau-3-ngay-ky-luc-phong-ve-2026
 cover:
-  image: "images/2026-07-17/mm-792f0e967a56.webp"
+  image: "images/2026-07-17/mm-b3a3bbc5a955.webp"
   alt: "Poster phim Hope (2026) của đạo diễn Na Hong-jin"
 ---
 
@@ -38,7 +38,7 @@ Thành tích này đánh dấu một cột mốc quan trọng không chỉ cho r
 trường hậu đại dịch. "Hope" không chỉ là bộ phim đắt nhất lịch sử Hàn Quốc với kinh phí sản xuất lên đến **70 tỷ won (khoảng 46 triệu USD)**, mà còn là minh chứng cho thấy tham
 vọng vươn tầm Hollywood của các nhà làm phim xứ kim chi.
 
-{{< figure src="images/2026-07-17/mm-792f0e967a56.webp" alt="Poster chính thức của phim Hope" caption="Poster chính thức của 'Hope' — tác phẩm đắt nhất lịch sử điện ảnh Hàn Quốc" >}}
+{{< figure src="images/2026-07-17/mm-b3a3bbc5a955.webp" alt="Poster chính thức của phim Hope" caption="Poster chính thức của 'Hope' — tác phẩm đắt nhất lịch sử điện ảnh Hàn Quốc" >}}
 
 ---
 
@@ -115,7 +115,6 @@ làng chài thực hiện các pha hành động mạo hiểm không cần CG. *
 và biểu cảm khuôn mặt của họ được ánh xạ lên hình dạng sinh vật CG, tạo nên những quái vật có chiều sâu cảm xúc. Phim còn có sự góp mặt của ngôi sao đang lên Taylor Russell và
 Cameron Britton.
 
-{{< figure src="images/2026-07-17/mm-51bf29152b72.webp" alt="Phân cảnh trong phim Hope" caption="Một cảnh quay hành động trong 'Hope' — sự kết hợp giữa kỹ xảo CG và diễn xuất thực tế" >}}
 
 ### Cốt truyện và bối cảnh
 
@@ -191,8 +190,6 @@ và tầm nhìn táo bạo, các nhà làm phim Hàn hoàn toàn có thể sánh
 
 Với kỷ lục 1 triệu khán giả trong 3 ngày, tỷ lệ đặt vé trước 70%, dàn diễn viên Hollywood, kinh phí kỷ lục 70 tỷ won cùng công nghệ virtual production, "Hope" đã khẳng định vị thế
 của mình như một cột mốc quan trọng trong lịch sử điện ảnh Hàn Quốc.
-
-{{< figure src="images/2026-07-17/mm-e94ac498457f.webp" alt="Phân cảnh hành động trong phim Hope" caption="Phân cảnh truy đuổi mãn nhãn với sự tham gia của Zo In-sung và Jung Ho-yeon" >}}
 
 Sự thành công của "Hope" mở ra một chương mới cho điện ảnh Hàn Quốc, nơi các nhà làm phim không còn ngại thử sức với những thể loại từng là lãnh địa riêng của Hollywood. Nếu duy
 trì được phong độ hiện tại, "Hope" hoàn toàn có thể trở thành một trong những phim Hàn Quốc có doanh thu cao nhất mọi thời đại.
