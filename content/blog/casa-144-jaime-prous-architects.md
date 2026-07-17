@@ -22,7 +22,7 @@ categories:
 - Blog
 showToc: true
 readingTime: true
-slug: casa-144º-jaime-prous-architects
+slug: casa-144-jaime-prous-architects
 cover:
   image: images/2026-07-17/mm-874ae7823af1.webp
   alt: Casa 144º / Jaime Prous Architects

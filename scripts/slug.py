@@ -8,8 +8,23 @@ CONTENT = Path("content")
 SEP = "---"
 
 def slugify(text):
-    text = re.sub(r'[^\w\s-]', '', text.lower().strip())
-    return re.sub(r'-+', '-', re.sub(r'[\s_]+', '-', text)).strip('-')
+    text = text.lower().strip()
+    maps = [
+        (r'[àáảãạâầấẩẫậăằắẳẵặ]', 'a'),
+        (r'[èéẻẽẹêềếểễệ]', 'e'),
+        (r'[ìíỉĩị]', 'i'),
+        (r'[òóỏõọôồốổỗộơờớởỡợ]', 'o'),
+        (r'[ùúủũụưừứửữự]', 'u'),
+        (r'[ỳýỷỹỵ]', 'y'),
+        (r'[đ]', 'd'),
+        (r'[ºª]', ''),
+    ]
+    for pattern, repl in maps:
+        text = re.sub(pattern, repl, text)
+    text = re.sub(r'[^a-z0-9\s-]', '', text)
+    text = re.sub(r'[\s_]+', '-', text)
+    text = re.sub(r'-+', '-', text)
+    return text.strip('-')
 
 def normalize(fp):
     c = fp.read_text("utf-8")

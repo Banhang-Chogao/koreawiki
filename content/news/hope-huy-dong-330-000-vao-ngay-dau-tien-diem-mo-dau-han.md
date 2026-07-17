@@ -23,7 +23,7 @@ categories:
 - News
 showToc: true
 readingTime: true
-slug: hope-huy-động-330000-vào-ngày-đầu-tiên-điểm-mở-đầu-hàng-đầu-của-năm-công-văn-tin-tức-là-sự-thật
+slug: hope-huy-dong-330000-vao-ngay-dau-tien-diem-mo-dau-hang-dau-cua-nam-cong-van-tin-tuc-la-su-that
 cover:
   image: images/2026-07-17/mm-792f0e967a56.webp
   alt: Hope huy động 330.000 vào ngày đầu tiên… Điểm mở đầu hàng đầu của năm | Công
