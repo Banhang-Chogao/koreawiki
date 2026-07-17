@@ -78,6 +78,7 @@ jobs:
           python scripts/markdown_lint.py --fix || rc=1
           python scripts/slug.py --check || rc=1
           python scripts/check_links.py || rc=1
+          python scripts/check_image_paths.py || rc=1
           exit $rc
 
       - name: Validate images
@@ -97,6 +98,10 @@ jobs:
       - name: Build Hugo site
         if: steps.self-heal.outputs.fixed != 'true'
         run: hugo --minify --gc
+
+      - name: Post-build QA — check for broken relative paths
+        if: steps.self-heal.outputs.fixed != 'true'
+        run: python scripts/postbuild_check.py
 
       - name: Generate Pagefind search index
         if: steps.self-heal.outputs.fixed != 'true'
