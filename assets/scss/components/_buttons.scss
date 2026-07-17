@@ -4,7 +4,7 @@
   font-size:var(--fs-sm);font-weight:600;
   border-radius:var(--radius-sm);
   cursor:pointer;border:1px solid transparent;
-  transition:color var(--transition),background var(--transition),border-color var(--transition);
+
 }
 .btn-primary{
   background:var(--color-primary);color:#fff;border-color:var(--color-primary);
@@ -23,6 +23,6 @@
   border-radius:var(--radius);
   background:var(--color-bg-alt);
   cursor:pointer;width:100%;
-  transition:color var(--transition),background var(--transition),border-color var(--transition);
+
   &:hover{color:var(--color-accent);border-color:var(--color-accent);background:var(--color-accent-light)}
 }

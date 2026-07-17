@@ -15,7 +15,7 @@
   font-size:var(--fs-sm);color:var(--color-text-secondary);
   border-left:2px solid transparent;
   padding-left:var(--space-3);
-  transition:color var(--transition),border-color var(--transition);
+
 }
 .toc nav li a:hover{color:var(--color-text);border-color:var(--color-accent)}
 .toc nav li a.active{color:var(--color-text);font-weight:600;border-color:var(--color-accent)}

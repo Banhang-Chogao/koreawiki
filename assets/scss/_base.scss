@@ -1,8 +1,8 @@
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{font-size:16px;scroll-behavior:smooth;-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-padding-top:calc(var(--header-h) + var(--nav-h) + 1rem)}
-body{font-family:var(--font-sans);font-size:var(--fs-base);line-height:var(--lh-body);color:var(--color-text);background:var(--color-bg);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;transition:background var(--transition),color var(--transition)}
+body{font-family:var(--font-sans);font-size:var(--fs-base);line-height:var(--lh-body);color:var(--color-text);background:var(--color-bg);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background:var(--color-bg);color:var(--color-text)}
 img,svg,video,canvas{display:block;max-width:100%;height:auto}
-a{color:var(--color-text);text-decoration:none;transition:color var(--transition)}
+a{color:var(--color-text);text-decoration:none}
 a:hover{color:var(--color-accent)}
 h1,h2,h3,h4,h5,h6{line-height:var(--lh-tight);font-weight:700;color:var(--color-text)}
 h1{font-size:var(--fs-4xl)}

@@ -2,8 +2,6 @@
   display:flex;flex-direction:column;
   border-radius:var(--radius);
   overflow:hidden;
-  transition:background var(--transition);
-  &:hover{background:var(--color-bg-alt)}
 }
 .card-img-wrap{
   position:relative;overflow:hidden;
@@ -13,9 +11,7 @@
 }
 .card-img{
   width:100%;height:100%;object-fit:cover;
-  transition:transform .4s ease;
 }
-.card:hover .card-img{transform:scale(1.03)}
 .card-body{padding:var(--space-4) 0}
 .card-cat{
   display:inline-block;

@@ -67,14 +67,14 @@
   color:var(--color-text-secondary);
   background:var(--color-bg-alt);
   border-radius:var(--radius-sm);
-  transition:color var(--transition),background var(--transition);
+
   &:hover{color:var(--color-accent);background:var(--color-accent-light)}
 }
 
 .anchor-link{
   opacity:0;margin-left:var(--space-2);
   vertical-align:middle;color:var(--color-primary);
-  transition:opacity var(--transition);
+
 }
 h2:hover .anchor-link,h3:hover .anchor-link,h4:hover .anchor-link{opacity:1}
 
