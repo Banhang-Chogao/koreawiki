@@ -60,11 +60,16 @@
       {{ end }}
       <div class="article-body">
         {{ .Content }}
-        {{/* === AF macro — auto for all posts === */}}
+        {{/* === AF macro — auto for all posts (skip if content already has .af) === */}}
+        {{ if not (in (string .Content) "af-source-note") }}
         <div class="af">
           {{ if .Params.source_url }}
           <blockquote class="af-source-note">
             <p><strong>Nguồn:</strong> <a href="{{ .Params.source_url | safeURL }}" rel="nofollow noopener" target="_blank">{{ .Params.source_label | default "Bài viết gốc" }}</a></p>
+          </blockquote>
+          {{ else }}
+          <blockquote class="af-source-note">
+            <p>© {{ now.Format "2006" }} KoreaWiki. Bản quyền thuộc về KoreaWiki.</p>
           </blockquote>
           {{ end }}
           {{ if .Params.faq }}
@@ -91,6 +96,7 @@
           </div>
           {{ end }}
         </div>
+        {{ end }}
       </div>
       <div hidden>
         <span data-pagefind-meta="date:{{ .Date.Unix }}"></span>
