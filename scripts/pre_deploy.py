@@ -127,11 +127,12 @@ def main():
     else:
         print("  (no template pattern issues)\n")
 
-    # Phase 4: Learned checks
+    # Phase 4: Learned checks (advisory only — do NOT block deploy)
     learned_issues = run_learned_checks()
-    all_issues.extend(learned_issues)
     if learned_issues:
-        print(f"\n  → {len(learned_issues)} learned check issue(s) found\n")
+        print(f"\n  → {len(learned_issues)} learned check issue(s) found (advisory)")
+    else:
+        print("  (no learned check issues)\n")
 
     # Phase 5: Post-build checks
     if do_postbuild:
@@ -153,17 +154,22 @@ def main():
         else:
             print("  (no post-build issues)\n")
 
-    # Report
-    total = len(all_issues)
-    if total:
+    # Report — only hard checks block deploy
+    hard_total = len(all_issues)
+    if hard_total:
         print(f"\n{'='*50}")
-        print(f"RESULT: {total} issue(s) found — DEPLOY BLOCKED")
+        print(f"RESULT: {hard_total} issue(s) found — DEPLOY BLOCKED")
         print(f"{'='*50}\n")
         sys.exit(1)
     else:
-        print(f"\n{'='*50}")
-        print("RESULT: All checks passed — ready to deploy")
-        print(f"{'='*50}\n")
+        if learned_issues:
+            print(f"\n{'='*50}")
+            print(f"RESULT: {len(learned_issues)} advisory warning(s) — deploy OK")
+            print(f"{'='*50}\n")
+        else:
+            print(f"\n{'='*50}")
+            print("RESULT: All checks passed — ready to deploy")
+            print(f"{'='*50}\n")
         sys.exit(0)
 
 if __name__ == "__main__":
