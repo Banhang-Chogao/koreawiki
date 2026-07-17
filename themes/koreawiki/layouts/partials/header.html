@@ -8,13 +8,7 @@
       <nav class="header-nav" role="navigation" aria-label="Main navigation">
         <ul class="header-nav-list">
           {{ range .Site.Menus.main }}
-          {{- $icon := "" -}}
-          {{- if eq .Identifier "news" }}{{ $icon = "📰 " }}{{ end -}}
-          {{- if eq .Identifier "culture" }}{{ $icon = "🎭 " }}{{ end -}}
-          {{- if eq .Identifier "travel" }}{{ $icon = "✈️ " }}{{ end -}}
-          {{- if eq .Identifier "food" }}{{ $icon = "🍜 " }}{{ end -}}
-          {{- if eq .Identifier "kien-truc" }}{{ $icon = "🏛️ " }}{{ end -}}
-          <li><a href="{{ .URL | relLangURL }}" class="header-nav-link{{ if $.IsMenuCurrent "main" . }} active{{ end }}">{{ $icon }}{{ .Name }}</a></li>
+          <li><a href="{{ .URL | relLangURL }}" class="header-nav-link{{ if $.IsMenuCurrent "main" . }} active{{ end }}">{{ .Name }}</a></li>
           {{ end }}
         </ul>
       </nav>
