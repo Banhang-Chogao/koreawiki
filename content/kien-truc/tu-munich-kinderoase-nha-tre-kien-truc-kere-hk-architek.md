@@ -42,7 +42,8 @@ vận hành bởi Studierendenwerk München (Hội sinh viên Munich).
 
 Bài viết này thuộc chuyên mục **KIẾN TRÚC** của KoreaWiki, được biên dịch và biên tập lại nhằm mang đến góc nhìn mới mẻ và hữu ích cho độc giả.
 
-{{< figure src="images/2026-07-17/mm-ac01335dd1b5.webp" alt="TU Munich Kinderoase Nhà trẻ /Kiến trúc Kéré + HK Architekten" caption="Kinderoase an der TUM — công trình đầu tiên của Francis Kéré tại châu Âu" >}}
+{{< figure src="images/2026-07-17/mm-ac01335dd1b5.webp" alt="TU Munich Kinderoase Nhà trẻ /Kiến trúc Kéré + HK Architekten" caption="Kinderoase an der TUM — công trình đầu tiên của Francis Kéré tại
+châu Âu" >}}
 
 ## Bối cảnh và ý nghĩa dự án
 
