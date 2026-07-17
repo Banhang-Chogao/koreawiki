@@ -16,7 +16,7 @@
 }
 .featured-main-link{display:block;position:relative;width:100%}
 .featured-main-img{
-  width:100%;aspect-ratio:16/9;object-fit:cover;
+  width:100%;height:auto;display:block;
 }
 .featured-main-overlay{
   position:absolute;bottom:0;left:0;right:0;
@@ -50,7 +50,7 @@
   flex-shrink:0;width:120px;
 }
 .featured-side-img{
-  width:100%;aspect-ratio:16/9;object-fit:cover;
+  width:100%;height:auto;display:block;
   border-radius:var(--radius-sm);
 }
 .featured-side-body{flex:1;min-width:0}
