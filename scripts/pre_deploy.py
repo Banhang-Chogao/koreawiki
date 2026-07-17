@@ -25,6 +25,7 @@ EXTERNAL_CHECKS = [
     ("Markdown Lint", [PYTHON, "scripts/markdown_lint.py", "--fix"]),
     ("Slug Check", [PYTHON, "scripts/slug.py", "--check"]),
     ("Link Check", [PYTHON, "scripts/check_links.py"]),
+    ("Article Footer", [PYTHON, "scripts/check_article_footer.py"]),
 ]
 
 def load_knowledge_base():
@@ -164,6 +165,19 @@ def main():
     if do_postbuild:
         print("─── Phase 4: Post-Build Checks ─────────────────────────")
         pb_issues = []
+        footer_result = subprocess.run(
+            [PYTHON, "scripts/check_article_footer.py", "--postbuild"],
+            capture_output=True, text=True,
+        )
+        if footer_result.returncode != 0:
+            pb_issues.append("[Article Footer] FAILED")
+            if footer_result.stdout.strip():
+                for line in footer_result.stdout.strip().splitlines():
+                    print(f"  {line}")
+            if footer_result.stderr.strip():
+                print(footer_result.stderr, file=sys.stderr)
+        else:
+            print("  [Article Footer] passed")
         try:
             mod = importlib.import_module("checks._check_relative_asset")
             result = mod.run()

@@ -38,6 +38,27 @@ slug: yeonjun-txt-dat-738000-ban-tuan-dau-ky-luc-solo-moi-cho-nam-2026
 cover:
   image: images/2026-07-17/mm-d754c1142224.webp
   alt: 'Yeonjun (TXT) — NO LABELS: PART 02 album cover'
+sources:
+  - name: "Dispatch (디스패치)"
+    url: "https://www.dispatch.co.kr/2345352"
+external_links:
+  - title: "Hanteo Chart"
+    url: "https://www.hanteochart.com/"
+  - title: "Soompi — Yeonjun kỷ lục solo"
+    url: "https://www.soompi.com/article/1855350wpp/txts-yeonjun-achieves-highest-1st-week-sales-of-any-korean-soloist-in-2026-with-no-labels-part-02"
+  - title: "The Korea Herald — Yeonjun solo push"
+    url: "https://www.koreaherald.com/article/10799864"
+  - title: "Hanteo News — Yeonjun Q&A"
+    url: "https://www.hanteonews.com/en/article/93088"
+faq:
+  - q: "Yeonjun đạt doanh số bao nhiêu tuần đầu?"
+    a: "738.072 bản — cao nhất nghệ sĩ solo Hàn 2026, tăng 50% so với album trước."
+  - q: "'Ice Cream' thuộc thể loại gì?"
+    a: "Funk rock, kết hợp trống vintage, bass và riff guitar. Đoạn cuối có âm thanh Tây Ban Nha."
+  - q: "Album có bao nhiêu ca khúc?"
+    a: "6 ca khúc. Yeonjun viết lời 2 bài, tạo vũ đạo cho ca khúc chủ đề."
+  - q: "Lịch diễn Mỹ khi nào?"
+    a: "7/8/2026 tại Good Morning America (ABC) — solo K-pop thứ hai sau Jungkook."
 ---
 
 ## Tổng quan: Cơn sốt Yeonjun mùa hè 2026
@@ -179,32 +200,3 @@ Yeonjun đã chứng minh anh không chỉ là thành viên tài năng của TXT
 Cream" gây sốt toàn cầu, cùng lịch trình GMA đầy hứa hẹn, Yeonjun đang khẳng định vị thế dẫn đầu trong thế hệ nghệ sĩ solo K-pop thứ 4.
 
 Như Yeonjun từng nói: "Thay vì đặt mục tiêu lớn lao, tôi hy vọng có thể tiến thêm một bước. Tôi muốn trở nên trung thực hơn với chính mình."
-
-{{< article-footer >}}
-source: "Dispatch (디스패치)"
-source_url: "https://www.dispatch.co.kr/2345352"
-copyright: >
-  Bài của **KoreaWiki Newsroom**. Tham khảo thông cáo báo chí công khai của **Dispatch** và số liệu từ **Hanteo Chart**.
-  Ảnh thuộc Big Hit Music; sử dụng với mục đích thông tin.
-external:
-  - title: "Bài gốc — Dispatch"
-    url: "https://www.dispatch.co.kr/2345352"
-  - title: "Hanteo Chart"
-    url: "https://www.hanteochart.com/"
-  - title: "Soompi — Yeonjun kỷ lục solo"
-    url: "https://www.soompi.com/article/1855350wpp/txts-yeonjun-achieves-highest-1st-week-sales-of-any-korean-soloist-in-2026-with-no-labels-part-02"
-  - title: "The Korea Herald — Yeonjun solo push"
-    url: "https://www.koreaherald.com/article/10799864"
-  - title: "Hanteo News — Yeonjun Q&A"
-    url: "https://www.hanteonews.com/en/article/93088"
-internal: []
-faq:
-  - q: "Yeonjun đạt doanh số bao nhiêu tuần đầu?"
-    a: "738.072 bản — cao nhất nghệ sĩ solo Hàn 2026, tăng 50% so với album trước."
-  - q: "'Ice Cream' thuộc thể loại gì?"
-    a: "Funk rock, kết hợp trống vintage, bass và riff guitar. Đoạn cuối có âm thanh Tây Ban Nha."
-  - q: "Album có bao nhiêu ca khúc?"
-    a: "6 ca khúc. Yeonjun viết lời 2 bài, tạo vũ đạo cho ca khúc chủ đề."
-  - q: "Lịch diễn Mỹ khi nào?"
-    a: "7/8/2026 tại Good Morning America (ABC) — solo K-pop thứ hai sau Jungkook."
-{{< /article-footer >}}

@@ -1,60 +1,46 @@
-# Article Footer Macro
+# Article footer
 
-Shortcode `article-footer` thêm khối cuối bài (kiểu SEOMONEY):
+Mỗi bài viết tự động gọi `themes/koreawiki/layouts/partials/article-footer.html` sau `.Content`. Partial dùng chung render theo thứ tự:
 
-1. **Liên kết ngoài** (nếu có)  
-2. **Liên kết nội bộ** (nếu có)  
-3. **Bản quyền & ghi nguồn**  
-4. **FAQ** (accordion)
+1. Liên kết nội bộ (nếu có).
+2. Liên kết bên ngoài (nếu có).
+3. FAQ (nếu có).
+4. `Bản quyền & Ghi nguồn` — luôn có, kể cả khi bài không có nguồn ngoài.
 
-## Cách dùng
+Không chèn shortcode hoặc heading nguồn/bản quyền vào Markdown. Dữ liệu chỉ đặt trong front matter.
 
-Cuối file Markdown của bài:
+## Nguồn tham khảo
 
-````markdown
-{{</* article-footer */>}}
-source: "Dispatch"
-source_url: "https://example.com/article"
-copyright: >
-  Một phần dữ liệu tham khảo từ Dispatch.
-  Bài viết chỉ tổng hợp / phân tích.
-external:
-  - title: "Nguồn gốc"
-    url: "https://example.com/"
-internal:
-  - title: "Bài liên quan trên KoreaWiki"
-    url: "en/kpop/some-slug/"
-faq:
-  - q: "Câu hỏi 1?"
-    a: "Trả lời **markdown** được."
-  - q: "Câu hỏi 2?"
-    a: "Trả lời 2."
-{{</* /article-footer */>}}
-````
+Chuẩn hiện tại là danh sách có tên và URL:
 
-## Trường YAML
+```yaml
+sources:
+  - name: "Tên nguồn"
+    url: "https://example.org/bai-goc"
+```
 
-| Field | Type | Mô tả |
-|-------|------|--------|
-| `source` | string | Tên nguồn (dùng nếu không có `copyright`) |
-| `source_url` | string | URL nguồn |
-| `copyright` | string | Đoạn bản quyền / ghi nguồn (markdown) |
-| `external` | list `{title, url}` | Link ngoài |
-| `internal` | list `{title, url}` | Link trong site (`en/section/slug/`) |
-| `faq` | list `{q, a}` | FAQ; `a` hỗ trợ markdown |
+Các bài cũ dùng `source`/`source_label`/`source_url` vẫn được partial đọc tương thích, nhưng bài mới phải dùng `sources`. URL phải là HTTP(S), tên và URL không được rỗng, `null`, `unknown` hoặc placeholder.
 
-Chỉ render block nào có dữ liệu. FAQ dùng `<details>` (mở câu đầu).
+## Credit ảnh
 
-## mm workflow
+Chỉ khai báo khi đã xác minh dữ liệu:
 
-Khi publish bài với `mm`, nên điền:
+```yaml
+image_credits:
+  - platform: "Nền tảng"
+    photographer: "Tác giả/photographer"
+    author_url: "https://example.org/author"
+    license: "Tên license"
+```
 
-- Nguồn báo gốc → `source` / `source_url` / `copyright`
-- 1–3 internal links cùng chuyên mục
-- External links thực sự dùng trong bài
-- 3–5 FAQ ngắn (không bịa sự kiện)
+Partial bỏ qua trường thiếu và không tự suy đoán credit từ caption, nội dung bài hoặc tên file ảnh.
 
-## File kỹ thuật
+## Kiểm tra
 
-- Shortcode: `themes/koreawiki/layouts/shortcodes/article-footer.html`
-- Styles: `assets/scss/_article-footer.scss`
+`python3 scripts/check_article_footer.py` kiểm tra front matter, URL, dữ liệu placeholder và block Markdown thủ công. Sau production build, chạy thêm:
+
+```bash
+python3 scripts/check_article_footer.py --postbuild
+```
+
+Styles dùng chung nằm ở `assets/scss/_article-footer.scss`.

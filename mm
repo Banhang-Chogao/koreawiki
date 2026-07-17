@@ -371,7 +371,7 @@ def generate_summary_points(paragraphs, n=5):
             break
     return points
 
-def generate_frontmatter(title, section, tags, summary, slug, cover, author, pub_date, summary_list=None):
+def generate_frontmatter(title, section, tags, summary, slug, cover, author, pub_date, summary_list=None, source_url=None):
     d = pub_date if pub_date else datetime.now().strftime("%Y-%m-%d")
     # truncate summary for markdown lint (<200 chars per line)
     max_desc = 120
@@ -399,6 +399,10 @@ slug: {slug}
     if cover:
         cap = title.replace('"', "'")
         fm += f'cover:\n  image: "{cover}"\n  alt: "{cap}"\n'
+    if source_url:
+        source_name = urlparse(source_url).netloc.replace("www.", "")
+        if source_name:
+            fm += f'sources:\n  - name: "{source_name}"\n    url: "{source_url}"\n'
     return fm + '---\n'
 
 # Dispatch / wire-style bylines: [Outlet = Author], [Outlet=Author], etc.
@@ -482,14 +486,6 @@ def generate_body(title, section, paragraphs, image_refs, author, pub_date, sour
         f"",
     ]
 
-    # Source link at bottom — never as a wire byline in the lead
-    if source_url:
-        lines += [
-            f"---",
-            f"",
-            f"[Đọc bài ở link gốc]({source_url})",
-            f"",
-        ]
     return '\n'.join(lines)
 
 def update_glossary(original_text, translated_paras, url):
@@ -643,7 +639,7 @@ def main():
 
     summary_points = generate_summary_points(translated_paras)
 
-    frontmatter = generate_frontmatter(title_dest, section, tags, summary, slug, cover_rel, author, pub_date, summary_list=summary_points)
+    frontmatter = generate_frontmatter(title_dest, section, tags, summary, slug, cover_rel, author, pub_date, summary_list=summary_points, source_url=url)
     body = generate_body(title_dest, section, translated_paras, local_images, author, pub_date, source_url=url, cover_rel=cover_rel)
     content = frontmatter + '\n' + body
 

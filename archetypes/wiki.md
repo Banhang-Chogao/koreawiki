@@ -30,7 +30,3 @@ weight: null
 ## See Also
 
 {{< /related links >}}
-
-## References
-
-{{< /sources >}}

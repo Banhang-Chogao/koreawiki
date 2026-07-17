@@ -48,6 +48,7 @@ copyright = "Copyright © {currentYear} KoreaWiki. All rights reserved."
 [params]
   description = "Your ultimate source for Korean entertainment — News, Culture, Travel, Food, KIẾN TRÚC."
   author = "KoreaWiki Team"
+  contactEmail = "292648126+Banhang-Chogao@users.noreply.github.com"
   keywords = ["K-drama", "K-pop", "Korean entertainment", "Korea news", "Korean culture", "Hallyu", "dispatch"]
   images = ["/images/og-default.png"]
 

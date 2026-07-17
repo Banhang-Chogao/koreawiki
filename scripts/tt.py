@@ -560,8 +560,9 @@ def make_article(article: dict[str, Any], candidate: Candidate, section: str | N
         "readingTime: true",
         f"slug: {yaml_scalar(slug)}",
         "summaries:", *[f"  - {yaml_scalar(x)}" for x in summaries],
-        f"source_url: {yaml_scalar(primary.url)}",
-        f"source_label: {yaml_scalar(primary.publisher or domain(primary.url))}",
+        "sources:",
+        f"  - name: {yaml_scalar(primary.publisher or domain(primary.url))}",
+        f"    url: {yaml_scalar(primary.url)}",
         "internal_links:",
     ]
     for link in internal_links(candidate, category):

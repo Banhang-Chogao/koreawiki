@@ -26,8 +26,9 @@ summaries:
 cover:
   image: "images/2026-07-18/mm-ac01335dd1b5.webp"
   alt: "TU Munich Kinderoase Nhà trẻ /Kiến trúc Kéré + HK Architekten"
-source_url: "https://www.archdaily.com/en/1054059/munich-kinderoase-kindergarten-kere-architecture-plus-hk-architekten-hermann-kaufmann-plus-partner-zt"
-source_label: "ArchDaily"
+sources:
+  - name: "ArchDaily"
+    url: "https://www.archdaily.com/en/1054059/munich-kinderoase-kindergarten-kere-architecture-plus-hk-architekten-hermann-kaufmann-plus-partner-zt"
 internal_links:
   - title: "Nhà Anjung – Kiến trúc sư Eleena Jamil"
     url: "/kien-truc/nha-anjung-kien-truc-su-eleena-jamil/"
@@ -79,4 +80,3 @@ Hoàn thành vào năm 2026 tại Munich, Đức. Hình ảnh của Erik Jan Ouw
 Đón đọc thêm nhiều bài viết thú vị khác tại KoreaWiki.
 
 ---
-

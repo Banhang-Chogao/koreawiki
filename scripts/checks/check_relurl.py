@@ -19,7 +19,10 @@ PARAM_REF = re.compile(r'\.Params\.\w+(?:\.\w+)*')
 
 # Check if relURL or absURL is already applied
 HAS_FILTER = re.compile(r'\|\s*(?:relURL|absURL|relLangURL|absLangURL|safeURL)')
-EXTERNAL_PARAMS = {'source_url', 'source_label', 'image_source_url', 'image_creator_url'}
+EXTERNAL_PARAMS = {
+    'source_url', 'source_label', 'image_source_url', 'image_creator_url',
+    'author_url', 'photographer_url', 'creator_url',
+}
 
 # Also check raw variable assignments from .Params
 VAR_PATTERN = re.compile(r'\{\{\s*\$(\w+)\s*:=\s*\.Params\.')

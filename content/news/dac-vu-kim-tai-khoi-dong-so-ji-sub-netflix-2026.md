@@ -32,8 +32,9 @@ summaries:
   để tìm con gái.
 - Bộ phim đồng thời tạo thành tích nổi bật trên sóng SBS, giúp dòng phim hành động
   và báo thù Hàn Quốc tiếp tục được chú ý.
-source_url: https://vov.vn/van-hoa/dac-vu-kim-tai-khoi-dong-vuon-so-1-netflix-toan-cau-sau-chua-day-2-tuan-post1313459.vov
-source_label: VOV
+sources:
+- name: VOV
+  url: https://vov.vn/van-hoa/dac-vu-kim-tai-khoi-dong-vuon-so-1-netflix-toan-cau-sau-chua-day-2-tuan-post1313459.vov
 internal_links:
 - title: Jo In-sung kể về những cảnh hành động trong Hope
   url: /blog/jo-in-sung-ke-ve-nhung-canh-hanh-dong-trong-hope-chuan-bi-tinh-than-quay-100-lan/

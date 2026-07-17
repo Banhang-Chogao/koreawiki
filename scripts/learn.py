@@ -65,7 +65,7 @@ KNOWN_PATTERN_REGEX = {
     "image_path": r'\.(?:Params|Page)\.\w+\.(?:image|img|src|thumbnail|cover)',
     "publish_state": r'\bdraft\s*[:=]\s*true\b',
     "hardcoded_link": r'href\s*=\s*"(?:https?://(?!fonts\.googleapis|cdnjs\.cloudflare))[^"]*\.(?:com|org|net)"',
-    "faq_pattern": r'\{\{<\s*article-footer',
+    "faq_pattern": r'partial\s+"article-footer\.html"',
     "seo_pattern": r'meta\s+name="(?:description|keywords|author)"',
     "tag_pattern": r'\.Params\.tags',
     "category_pattern": r'\.Params\.categories',
@@ -99,7 +99,7 @@ PATTERN_DESCRIPTION = {
     "image_path": "Direct image path reference without proper handling",
     "publish_state": "Draft or publish state flag found",
     "hardcoded_link": "Hardcoded external link without relURL or absURL",
-    "faq_pattern": "FAQ article-footer shortcode pattern",
+    "faq_pattern": "Universal article-footer partial pattern",
     "seo_pattern": "SEO meta tags in templates",
     "tag_pattern": "Tags usage in templates",
     "category_pattern": "Categories usage in templates",
@@ -116,7 +116,7 @@ PATTERN_FIX = {
     "image_path": "Use | relURL filter or partial/cover-img helper",
     "publish_state": "Set draft: false or remove draft flag for published articles",
     "hardcoded_link": "Use relURL or absURL for internal links",
-    "faq_pattern": "Use {{< article-footer >}} shortcode for FAQ and source attribution",
+    "faq_pattern": "Render FAQ and source attribution through the article-footer partial",
     "seo_pattern": "Ensure meta description, keywords, author tags are present",
     "tag_pattern": "Verify tags are properly referenced in templates",
     "category_pattern": "Verify categories are properly referenced in templates",
@@ -214,9 +214,9 @@ def generate_check_from_pattern(keyword_name, count, msg_sample):
     content_checks = {
         "source_url": {
             "target": "content",
-            "pattern": r"source_url:\s",
+            "pattern": r"^sources:\s*$",
             "invert": True,
-            "desc": "Article missing source_url in front matter",
+            "desc": "Article missing sources in front matter",
         },
         "faq": {
             "target": "content",

@@ -1,0 +1,202 @@
+{{- $params := .Params -}}
+{{- $externalCandidates := index $params "external_links" | default (slice) -}}
+{{- $sourceCandidates := index $params "sources" | default (slice) -}}
+{{- $sourceFromExternal := false -}}
+
+{{/* Keep the legacy source/source_label pair readable while content is migrated. */}}
+{{- if not $sourceCandidates -}}
+  {{- $legacyName := index $params "source_label" | default (index $params "source" | default "") -}}
+  {{- $legacyURL := index $params "source_url" | default "" -}}
+  {{- if and $legacyName $legacyURL -}}
+    {{- $sourceCandidates = slice (dict "name" $legacyName "url" $legacyURL) -}}
+  {{- else if $externalCandidates -}}
+    {{- $sourceCandidates = $externalCandidates -}}
+    {{- $sourceFromExternal = true -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $sources := slice -}}
+{{- $sourceURLs := slice -}}
+{{- range $sourceCandidates -}}
+  {{- $name := index . "name" | default (index . "label" | default (index . "title" | default "")) -}}
+  {{- $url := index . "url" | default (index . "href" | default "") -}}
+  {{- $name = trim (printf "%v" $name) " \n\r\t" -}}
+  {{- $url = trim (printf "%v" $url) " \n\r\t" -}}
+  {{- $nameKey := lower $name -}}
+  {{- $urlKey := lower $url -}}
+  {{- $validURL := or (hasPrefix $url "https://") (hasPrefix $url "http://") -}}
+  {{- $placeholder := in (slice "" "null" "unknown" "none") $nameKey -}}
+  {{- if and $name $url $validURL (not $placeholder) (not (in $sourceURLs $urlKey)) -}}
+    {{- $sources = $sources | append (dict "name" $name "url" $url) -}}
+    {{- $sourceURLs = $sourceURLs | append $urlKey -}}
+  {{- end -}}
+{{- end -}}
+
+{{/* If a malformed primary source was supplied, use only valid named external references. */}}
+{{- if and (eq (len $sources) 0) (not $sourceFromExternal) $externalCandidates -}}
+  {{- $sourceFromExternal = true -}}
+  {{- range $externalCandidates -}}
+    {{- $name := index . "title" | default (index . "name" | default "") -}}
+    {{- $url := index . "url" | default (index . "href" | default "") -}}
+    {{- $name = trim (printf "%v" $name) " \n\r\t" -}}
+    {{- $url = trim (printf "%v" $url) " \n\r\t" -}}
+    {{- $nameKey := lower $name -}}
+    {{- $urlKey := lower $url -}}
+    {{- $validURL := or (hasPrefix $url "https://") (hasPrefix $url "http://") -}}
+    {{- $placeholder := in (slice "" "null" "unknown" "none") $nameKey -}}
+    {{- if and $name $url $validURL (not $placeholder) (not (in $sourceURLs $urlKey)) -}}
+      {{- $sources = $sources | append (dict "name" $name "url" $url) -}}
+      {{- $sourceURLs = $sourceURLs | append $urlKey -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $internal := slice -}}
+{{- $internalURLs := slice -}}
+{{- range (index $params "internal_links" | default (slice)) -}}
+  {{- $title := index . "title" | default (index . "name" | default "") -}}
+  {{- $url := index . "url" | default (index . "href" | default "") -}}
+  {{- $title = trim (printf "%v" $title) " \n\r\t" -}}
+  {{- $url = trim (printf "%v" $url) " \n\r\t" -}}
+  {{- $key := lower $url -}}
+  {{- if and $title $url (not (in (slice "null" "unknown" "none") (lower $title))) (not (in $internalURLs $key)) -}}
+    {{- $internal = $internal | append (dict "title" $title "url" $url) -}}
+    {{- $internalURLs = $internalURLs | append $key -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $external := slice -}}
+{{- $externalURLs := slice -}}
+{{- if not $sourceFromExternal -}}
+  {{- range $externalCandidates -}}
+    {{- $title := index . "title" | default (index . "name" | default "") -}}
+    {{- $url := index . "url" | default (index . "href" | default "") -}}
+    {{- $title = trim (printf "%v" $title) " \n\r\t" -}}
+    {{- $url = trim (printf "%v" $url) " \n\r\t" -}}
+    {{- $key := lower $url -}}
+    {{- $validURL := or (hasPrefix $url "https://") (hasPrefix $url "http://") -}}
+    {{- if and $title $url $validURL (not (in (slice "null" "unknown" "none") (lower $title))) (not (in $sourceURLs $key)) (not (in $externalURLs $key)) -}}
+      {{- $external = $external | append (dict "title" $title "url" $url) -}}
+      {{- $externalURLs = $externalURLs | append $key -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $faq := slice -}}
+{{- range (index $params "faq" | default (slice)) -}}
+  {{- $question := index . "q" | default (index . "question" | default "") -}}
+  {{- $answer := index . "a" | default (index . "answer" | default "") -}}
+  {{- $question = trim (printf "%v" $question) " \n\r\t" -}}
+  {{- $answer = trim (printf "%v" $answer) " \n\r\t" -}}
+  {{- if and $question $answer (not (in (slice "null" "unknown" "none") (lower $question))) -}}
+    {{- $faq = $faq | append (dict "q" $question "a" $answer) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $creditCandidates := index $params "image_credits" | default (slice) -}}
+{{- if not $creditCandidates -}}
+  {{- with (index $params "image_credit") -}}
+    {{- $creditCandidates = slice . -}}
+  {{- end -}}
+{{- end -}}
+{{- $credits := slice -}}
+{{- $creditKeys := slice -}}
+{{- range $creditCandidates -}}
+  {{- $platform := index . "platform" | default (index . "source" | default "") -}}
+  {{- $photographer := index . "photographer" | default (index . "author" | default (index . "creator" | default "")) -}}
+  {{- $authorURL := index . "author_url" | default (index . "photographer_url" | default (index . "creator_url" | default "")) -}}
+  {{- $license := index . "license" | default "" -}}
+  {{- $platform = trim (printf "%v" $platform) " \n\r\t" -}}
+  {{- $photographer = trim (printf "%v" $photographer) " \n\r\t" -}}
+  {{- $authorURL = trim (printf "%v" $authorURL) " \n\r\t" -}}
+  {{- $license = trim (printf "%v" $license) " \n\r\t" -}}
+  {{- if in (slice "" "null" "unknown" "none") (lower $platform) -}}{{- $platform = "" -}}{{- end -}}
+  {{- if in (slice "" "null" "unknown" "none") (lower $photographer) -}}{{- $photographer = "" -}}{{- end -}}
+  {{- if in (slice "" "null" "unknown" "none") (lower $license) -}}{{- $license = "" -}}{{- end -}}
+  {{- $validAuthorURL := or (hasPrefix $authorURL "https://") (hasPrefix $authorURL "http://") -}}
+  {{- if not $validAuthorURL -}}{{- $authorURL = "" -}}{{- end -}}
+  {{- $key := printf "%s|%s|%s|%s" (lower $platform) (lower $photographer) (lower $authorURL) (lower $license) -}}
+  {{- $hasCredit := or $platform $photographer $authorURL $license -}}
+  {{- if and $hasCredit (not (in $creditKeys $key)) -}}
+    {{- $credits = $credits | append (dict "platform" $platform "photographer" $photographer "authorURL" $authorURL "license" $license) -}}
+    {{- $creditKeys = $creditKeys | append $key -}}
+  {{- end -}}
+{{- end -}}
+
+<aside class="af" data-article-footer aria-label="Article footer blocks">
+  {{- if gt (len $internal) 0 -}}
+  <section class="af-block af-internal">
+    <h2 class="af-heading">Liên kết nội bộ được sử dụng trong bài viết</h2>
+    <ul class="af-list">
+      {{- range $internal -}}
+      {{- $href := .url -}}
+      {{- if not (or (hasPrefix .url "http://") (hasPrefix .url "https://") (hasPrefix .url "//")) -}}
+        {{- $href = .url | relURL -}}
+      {{- end -}}
+      <li><a href="{{ $href }}">{{ .title }}</a></li>
+      {{- end -}}
+    </ul>
+  </section>
+  {{- end -}}
+
+  {{- if gt (len $external) 0 -}}
+  <section class="af-block af-external">
+    <h2 class="af-heading">Liên kết bên ngoài được sử dụng trong bài viết</h2>
+    <ul class="af-list">
+      {{- range $external -}}
+      <li><a href="{{ .url | safeURL }}" rel="noopener noreferrer" target="_blank">{{ .title }}</a></li>
+      {{- end -}}
+    </ul>
+  </section>
+  {{- end -}}
+
+  {{- if gt (len $faq) 0 -}}
+  <section class="af-block af-faq">
+    <h2 class="af-heading">FAQ - Câu hỏi thường gặp</h2>
+    <div class="af-faq-list">
+      {{- range $i, $item := $faq -}}
+      <details class="af-faq-item"{{ if eq $i 0 }} open{{ end }}>
+        <summary class="af-faq-q">{{ $item.q }}</summary>
+        <div class="af-faq-a">{{ $item.a | markdownify }}</div>
+      </details>
+      {{- end -}}
+    </div>
+  </section>
+  {{- end -}}
+
+  <section class="af-block af-copyright" data-article-footer-copyright>
+    <h2 class="af-heading">Bản quyền &amp; Ghi nguồn</h2>
+    <div class="af-source-note">
+      <p>Nội dung trên KoreaWiki thuộc bản quyền của website và không được sao chép toàn bộ khi chưa được KoreaWiki cho phép. Nếu cần trích dẫn hoặc sử dụng lại, vui lòng liên hệ <a href="mailto:{{ .Site.Params.contactEmail }}">{{ .Site.Params.contactEmail }}</a>.</p>
+
+      {{- if gt (len $sources) 0 -}}
+      <div class="af-attribution-group">
+        <strong>Nguồn tham khảo</strong>
+        <ul class="af-list">
+          {{- range $sources -}}
+          <li><a href="{{ .url | safeURL }}" rel="noopener noreferrer" target="_blank">{{ .name }}</a></li>
+          {{- end -}}
+        </ul>
+      </div>
+      {{- else -}}
+      <p>Không có nguồn ngoài; nội dung do ban biên tập KoreaWiki tổng hợp và biên soạn.</p>
+      {{- end -}}
+
+      {{- if gt (len $credits) 0 -}}
+      <div class="af-attribution-group">
+        <strong>Credit ảnh</strong>
+        <ul class="af-list af-credit-list">
+          {{- range $credits -}}
+          <li>
+            {{- with .platform }}<span>{{ . }}</span>{{ end -}}
+            {{- with .photographer }}<span> — {{ . }}</span>{{ end -}}
+            {{- with .authorURL }}<span> — <a href="{{ . | safeURL }}" rel="noopener noreferrer" target="_blank">URL tác giả</a></span>{{ end -}}
+            {{- with .license }}<span> — {{ . }}</span>{{ end -}}
+          </li>
+          {{- end -}}
+        </ul>
+      </div>
+      {{- end -}}
+    </div>
+  </section>
+</aside>

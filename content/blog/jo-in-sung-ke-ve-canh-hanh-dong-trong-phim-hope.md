@@ -31,8 +31,9 @@ summaries:
   điều kiện quay phức tạp.
 - Trong Hope, anh đảm nhận vai Seong-gi, một người dẫn nhóm thanh niên trong làng
   đi săn và câu cá.
-source_url: https://www.dispatch.co.kr/2345355
-source_label: Dispatch
+sources:
+- name: Dispatch
+  url: https://www.dispatch.co.kr/2345355
 internal_links:
 - title: Phim Hope của Na Hong-jin vượt mốc một triệu khán giả sau ba ngày
   url: /news/hope-cua-na-hong-jin-vuot-1-trieu-khan-gia-sau-3-ngay-ky-luc-phong-ve-2026/
