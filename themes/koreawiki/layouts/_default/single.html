@@ -63,18 +63,40 @@
         {{/* === AF macro — auto for all posts (skip if content already has .af) === */}}
         {{ if not (in (string .Content) "af-source-note") }}
         <div class="af">
-          {{ if .Params.source_url }}
-          <blockquote class="af-source-note">
-            <p><strong>Nguồn:</strong> <a href="{{ .Params.source_url | safeURL }}" rel="nofollow noopener" target="_blank">{{ .Params.source_label | default "Bài viết gốc" }}</a></p>
-          </blockquote>
-          {{ else }}
-          <blockquote class="af-source-note">
-            <p>© {{ now.Format "2006" }} KoreaWiki. Bản quyền thuộc về KoreaWiki.</p>
-          </blockquote>
+          {{ if .Params.internal_links }}
+          <div class="af-block">
+            <h2 class="af-heading">Liên kết nội bộ được sử dụng trong bài viết</h2>
+            <ul class="af-list">
+              {{ range .Params.internal_links }}
+              <li><a href="{{ .url | relURL }}">{{ .title }}</a></li>
+              {{ end }}
+            </ul>
+          </div>
           {{ end }}
-          {{ if .Params.faq }}
+          {{ if .Params.external_links }}
+          <div class="af-block">
+            <h2 class="af-heading">Liên kết bên ngoài được sử dụng trong bài viết</h2>
+            <ul class="af-list">
+              {{ range .Params.external_links }}
+              <li><a href="{{ .url | safeURL }}" rel="nofollow noopener" target="_blank">{{ .title }}</a></li>
+              {{ end }}
+            </ul>
+          </div>
+          {{ end }}
+          <div class="af-block">
+            {{ if .Params.source_url }}
+            <blockquote class="af-source-note">
+              <p><strong>Nguồn:</strong> <a href="{{ .Params.source_url | safeURL }}" rel="nofollow noopener" target="_blank">{{ .Params.source_label | default "Bài viết gốc" }}</a></p>
+            </blockquote>
+            {{ else }}
+            <blockquote class="af-source-note">
+              <p>© {{ now.Format "2006" }} KoreaWiki. Bản quyền thuộc về KoreaWiki.</p>
+            </blockquote>
+            {{ end }}
+          </div>
           <div class="af-block">
             <h2 class="af-heading">FAQ - Câu hỏi thường gặp</h2>
+            {{ if .Params.faq }}
             <div class="af-faq-list">
               {{ range .Params.faq }}
               <details class="af-faq-item">
@@ -83,18 +105,10 @@
               </details>
               {{ end }}
             </div>
+            {{ else }}
+            <p style="color:var(--color-text-tertiary);font-size:var(--fs-sm);font-style:italic">Hiện chưa có câu hỏi nào.</p>
+            {{ end }}
           </div>
-          {{ end }}
-          {{ if .Params.references }}
-          <div class="af-block">
-            <h2 class="af-heading">Tham khảo</h2>
-            <ul class="af-list">
-              {{ range .Params.references }}
-              <li><a href="{{ . }}" rel="nofollow noopener" target="_blank">{{ . }}</a></li>
-              {{ end }}
-            </ul>
-          </div>
-          {{ end }}
         </div>
         {{ end }}
       </div>

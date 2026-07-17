@@ -24,6 +24,19 @@ cover:
   alt: "Nhà Anjung — Eleena Jamil Architect"
 source_url: "https://www.archdaily.com/1018049/anjung-house-eleena-jamil-architect"
 source_label: "ArchDaily"
+internal_links:
+  - title: "TU Munich Kinderoase Nhà trẻ — Kéré + HK Architekten"
+    url: "/kien-truc/tu-munich-kinderoase-nha-tre-kien-truc-kere-hk-architekten/"
+external_links:
+  - title: "ArchDaily — Anjung House / Eleena Jamil Architect"
+    url: "https://www.archdaily.com/1018049/anjung-house-eleena-jamil-architect"
+  - title: "Eleena Jamil Architect — Official"
+    url: "https://www.eleenajamilarchitect.com/"
+faq:
+  - q: "Anjung có nghĩa là gì?"
+    a: "Anjung trong tiếng Mã Lai có nghĩa là 'hiên' hay 'hàng hiên' — không gian chuyển tiếp gắn liền với ngôi nhà chính."
+  - q: "Vật liệu chính được sử dụng trong công trình?"
+    a: "Tre, gạch nén đất (CEB), thép sơn xanh và tấm lợp tái chế từ bao bì."
 ---
 
 ## Giới thiệu
