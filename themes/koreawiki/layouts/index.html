@@ -57,7 +57,7 @@
           <div class="card-img-wrap">
             <a href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
               {{- if .Params.cover.image -}}
-              <img src="{{ .Params.cover.image | relURL }}" alt="{{ .Params.cover.alt | default .Title }}" class="card-img" width="400" height="225" loading="eager" />
+              <img src="{{ .Params.cover.image | relURL }}" alt="{{ .Params.cover.alt | default .Title }}" class="card-img" width="400" height="225" loading="eager" decoding="async" />
               {{- end -}}
             </a>
           </div>
@@ -93,7 +93,7 @@
           <div class="card-img-wrap">
             <a href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
               {{- if .Params.cover.image -}}
-              <img src="{{ .Params.cover.image | relURL }}" alt="{{ .Params.cover.alt | default .Title }}" class="card-img" width="400" height="225" loading="lazy" />
+              <img src="{{ .Params.cover.image | relURL }}" alt="{{ .Params.cover.alt | default .Title }}" class="card-img" width="400" height="225" loading="lazy" decoding="async" />
               {{- end -}}
             </a>
           </div>
@@ -129,7 +129,7 @@
           <div class="card-img-wrap">
             <a href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
               {{- if .Params.cover.image -}}
-              <img src="{{ .Params.cover.image | relURL }}" alt="{{ .Params.cover.alt | default .Title }}" class="card-img" width="400" height="225" loading="lazy" />
+              <img src="{{ .Params.cover.image | relURL }}" alt="{{ .Params.cover.alt | default .Title }}" class="card-img" width="400" height="225" loading="lazy" decoding="async" />
               {{- end -}}
             </a>
           </div>

@@ -1,7 +1,8 @@
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{font-size:16px;scroll-behavior:smooth;-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-padding-top:calc(var(--header-h) + var(--nav-h) + 1rem)}
 body{font-family:var(--font-sans);font-size:var(--fs-base);line-height:var(--lh-body);color:var(--color-text);background:var(--color-bg);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
-img,svg,video,canvas{display:block;max-width:100%;height:auto}
+img{display:block;max-width:100%;height:auto;animation:imgFadeIn .3s ease}
+svg,video,canvas{display:block;max-width:100%;height:auto}
 a{color:var(--color-text);text-decoration:none;transition:color .15s}
 a:hover{color:var(--color-accent)}
 a:focus-visible{outline:3px solid rgba(37,99,235,.35);outline-offset:2px;border-radius:var(--radius-sm)}
@@ -25,4 +26,6 @@ kbd{display:inline-flex;align-items:center;padding:2px 6px;font-family:var(--fon
 :focus-visible{outline:3px solid rgba(37,99,235,.35);outline-offset:2px;border-radius:var(--radius-sm)}
 button:focus-visible{outline:3px solid rgba(37,99,235,.35);outline-offset:2px}
 
+@keyframes imgFadeIn{from{opacity:0}to{opacity:1}}
+@keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}

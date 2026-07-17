@@ -12,7 +12,9 @@
   position:relative;
   border-radius:var(--radius);
   overflow:hidden;
-  background:var(--color-bg-alt);
+  background:linear-gradient(90deg,var(--color-bg-alt) 25%,var(--color-border-light) 50%,var(--color-bg-alt) 75%);
+  background-size:200% 100%;
+  animation:shimmer 1.5s ease-in-out infinite;
   box-shadow:var(--shadow-card);
   transition:box-shadow .2s var(--ease-out), transform .2s var(--ease-out);
 }
