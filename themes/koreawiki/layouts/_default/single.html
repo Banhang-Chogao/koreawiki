@@ -38,7 +38,7 @@
       </header>
       {{ if .Params.cover.image }}
       <figure class="article-cover">
-        <img src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" loading="eager" decoding="async" width="800" height="450" />
+        <img src="{{ .Params.cover.image | relURL }}" alt="{{ .Params.cover.alt | default .Title }}" loading="eager" decoding="async" width="800" height="450" />
         {{ if .Params.cover.caption }}
         <figcaption>{{ .Params.cover.caption }}</figcaption>
         {{ end }}

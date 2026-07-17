@@ -1,4 +1,4 @@
 <figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
-  <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}"{{ with .Get "width" }} width="{{ . }}"{{ end }}{{ with .Get "height" }} height="{{ . }}"{{ end }} loading="lazy" decoding="async" />
+  <img src="{{ (.Get "src") | relURL }}" alt="{{ .Get "alt" }}"{{ with .Get "width" }} width="{{ . }}"{{ end }}{{ with .Get "height" }} height="{{ . }}"{{ end }} loading="lazy" decoding="async" />
   {{ if .Get "caption" }}<figcaption>{{ .Get "caption" }}</figcaption>{{ end }}
 </figure>
