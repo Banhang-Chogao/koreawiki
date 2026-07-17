@@ -360,6 +360,43 @@ def generate_body(title, section, paragraphs, image_refs, author, pub_date):
     ]
     return '\n'.join(lines)
 
+def update_glossary(original_text, translated_paras, url):
+    """Auto-extract Korean→Vietnamese glossary entries from translated article."""
+    import subprocess, json as _json
+    gloss_script = ROOT / "scripts" / "glossary.py"
+
+    # Detect Hangul in original text
+    hangul = re.findall(r'[\uac00-\ud7af\u1100-\u11ff\u3130-\u318f]+', original_text)
+    if not hangul:
+        return 0  # no Korean text
+
+    unique_kr = sorted(set(hangul), key=len, reverse=True)[:50]
+    count = 0
+    for kw in unique_kr:
+        kw = kw.strip()
+        if len(kw) < 2:
+            continue
+        try:
+            subprocess.run(
+                [sys.executable, str(gloss_script), "add", kw, f"[{kw}]",
+                 "--source", url or "mm", "--context", "entertainment",
+                 "--category", "auto", "--meaning", "Tự động trích xuất"],
+                capture_output=True, text=True, timeout=10
+            )
+            count += 1
+        except Exception:
+            continue
+
+    # Regenerate public data
+    try:
+        subprocess.run(
+            [sys.executable, str(gloss_script), "public"],
+            capture_output=True, timeout=10
+        )
+    except Exception:
+        pass
+    return count
+
 # ---------- main ----------
 
 def main():
@@ -484,6 +521,11 @@ def main():
 
     filepath.write_text(content, encoding='utf-8')
     print(f"✅ Đã lưu: {filepath}")
+
+    # Update Translation Memory
+    gloss_count = update_glossary(body_text, translated_paras, url)
+    if gloss_count:
+        print(f"📖 Glossary: {gloss_count} Korean entries updated in Translation Memory")
 
     if wc < MIN_WORDS:
         print(f"⚠️  Cảnh báo: ~{wc} từ (yêu cầu ≥{MIN_WORDS}). Cần bổ sung thêm nội dung.")

@@ -1,0 +1,173 @@
+{{ define "main" }}
+{{ $entries := hugo.Data.glossary.public | default slice }}
+{{ $total := len $entries }}
+<section class="glossary-page">
+  <div class="wrapper">
+    <header class="glossary-header">
+      <h1 class="glossary-title">{{ .Title }}</h1>
+      <p class="glossary-desc">{{ .Description }}</p>
+      <p class="glossary-count">{{ $total }} entries in Translation Memory</p>
+    </header>
+
+    <div class="glossary-controls">
+      <div class="glossary-search-wrap">
+        <svg class="glossary-search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <input type="text" id="glossarySearch" class="glossary-search" placeholder="Search Hangul, Vietnamese, English..." autocomplete="off" />
+      </div>
+      <div class="glossary-filters">
+        <select id="catFilter" class="glossary-select">
+          <option value="">All Categories</option>
+          <option value="noun">Noun</option>
+          <option value="verb">Verb</option>
+          <option value="adjective">Adjective</option>
+          <option value="expression">Expression</option>
+          <option value="slang">Slang</option>
+          <option value="idiom">Idiom</option>
+          <option value="grammar">Grammar</option>
+          <option value="name">Name</option>
+          <option value="person">Person</option>
+          <option value="place">Place</option>
+          <option value="title">Title</option>
+          <option value="food">Food</option>
+          <option value="other">Other</option>
+        </select>
+        <select id="ctxFilter" class="glossary-select">
+          <option value="">All Contexts</option>
+          <option value="kdrama">K-Drama</option>
+          <option value="kpop">K-Pop</option>
+          <option value="entertainment">Entertainment</option>
+          <option value="news">News</option>
+          <option value="culture">Culture</option>
+          <option value="daily">Daily</option>
+          <option value="food">Food</option>
+          <option value="travel">Travel</option>
+          <option value="history">History</option>
+          <option value="society">Society</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="glossary-table-wrap">
+      <table class="glossary-table" id="glossaryTable">
+        <thead>
+          <tr>
+            <th data-sort="korean">Korean <span class="sort-arrow"></span></th>
+            <th data-sort="vietnamese">Vietnamese <span class="sort-arrow"></span></th>
+            <th data-sort="romanization">Romaja</th>
+            <th data-sort="pos">POS</th>
+            <th data-sort="category">Category</th>
+            <th data-sort="context">Context</th>
+          </tr>
+        </thead>
+        <tbody id="glossaryBody">
+          {{ range $entries }}
+          <tr>
+            <td class="glossary-cell-kr">{{ .korean }}</td>
+            <td class="glossary-cell-vi">{{ .vietnamese }}</td>
+            <td class="glossary-cell-ro">{{ .romanization }}</td>
+            <td><span class="glossary-tag">{{ .pos }}</span></td>
+            <td><span class="glossary-tag">{{ .category }}</span></td>
+            <td><span class="glossary-ctx">{{ .context }}</span></td>
+          </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
+
+    <div class="glossary-pagination" id="glossaryPagination"></div>
+
+    <p class="glossary-footnote">The raw Translation Memory database remains private to the repository. Only curated entries are displayed here.</p>
+  </div>
+</section>
+
+<script>
+(function(){
+  var entries = {{ $entries | jsonify | safeJS }};
+  var PER_PAGE = 25;
+  var currentPage = 1;
+  var filtered = entries;
+
+  var searchInput = document.getElementById('glossarySearch');
+  var catFilter = document.getElementById('catFilter');
+  var ctxFilter = document.getElementById('ctxFilter');
+  var tbody = document.getElementById('glossaryBody');
+  var pagination = document.getElementById('glossaryPagination');
+
+  function render() {
+    var q = searchInput.value.toLowerCase().trim();
+    var cat = catFilter.value;
+    var ctx = ctxFilter.value;
+
+    filtered = entries.filter(function(e) {
+      if (cat && e.category !== cat) return false;
+      if (ctx && e.context !== ctx) return false;
+      if (!q) return true;
+      var text = (e.korean + ' ' + e.vietnamese + ' ' + (e.romanization||'') + ' ' + (e.meaning||'')).toLowerCase();
+      // typo-tolerant: check if chars appear in order
+      var qi = 0;
+      for (var i = 0; i < text.length && qi < q.length; i++) {
+        if (text[i] === q[qi]) qi++;
+      }
+      return qi === q.length;
+    });
+
+    var totalPages = Math.ceil(filtered.length / PER_PAGE) || 1;
+    if (currentPage > totalPages) currentPage = totalPages;
+    var start = (currentPage - 1) * PER_PAGE;
+    var page = filtered.slice(start, start + PER_PAGE);
+
+    // Render rows
+    var html = '';
+    page.forEach(function(e) {
+      html += '<tr>' +
+        '<td class="glossary-cell-kr">' + esc(e.korean) + '</td>' +
+        '<td class="glossary-cell-vi">' + esc(e.vietnamese) + '</td>' +
+        '<td class="glossary-cell-ro">' + esc(e.romanization||'') + '</td>' +
+        '<td><span class="glossary-tag">' + esc(e.pos||'') + '</span></td>' +
+        '<td><span class="glossary-tag">' + esc(e.category||'') + '</span></td>' +
+        '<td><span class="glossary-ctx">' + esc(e.context||'') + '</span></td>' +
+        '</tr>';
+    });
+    tbody.innerHTML = html;
+
+    // Pagination
+    var phtml = '';
+    if (totalPages > 1) {
+      phtml += '<button class="glossary-page-btn" data-page="' + (currentPage-1) + '" ' + (currentPage<=1?'disabled':'') + '>‹</button>';
+      for (var i = 1; i <= totalPages; i++) {
+        if (i === 1 || i === totalPages || Math.abs(i - currentPage) <= 2) {
+          phtml += '<button class="glossary-page-btn' + (i===currentPage?' active':'') + '" data-page="' + i + '">' + i + '</button>';
+        } else if (phtml.slice(-12) !== '<span>…</span>') {
+          phtml += '<span>…</span>';
+        }
+      }
+      phtml += '<button class="glossary-page-btn" data-page="' + (currentPage+1) + '" ' + (currentPage>=totalPages?'disabled':'') + '>›</button>';
+    }
+    pagination.innerHTML = phtml;
+
+    // Count
+    var countEl = document.querySelector('.glossary-count');
+    if (countEl) countEl.textContent = filtered.length + ' entries' + (q||cat||ctx?' (filtered from ' + entries.length + ')':'') + ' — Translation Memory';
+  }
+
+  function esc(s) {
+    if (!s) return '';
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  searchInput.addEventListener('input', function() { currentPage = 1; render(); });
+  catFilter.addEventListener('change', function() { currentPage = 1; render(); });
+  ctxFilter.addEventListener('change', function() { currentPage = 1; render(); });
+  pagination.addEventListener('click', function(e) {
+    var btn = e.target.closest('.glossary-page-btn');
+    if (btn && !btn.disabled) {
+      currentPage = parseInt(btn.dataset.page);
+      render();
+      window.scrollTo({top: document.querySelector('.glossary-controls').offsetTop - 100, behavior: 'smooth'});
+    }
+  });
+
+  render();
+})();
+</script>
+{{ end }}

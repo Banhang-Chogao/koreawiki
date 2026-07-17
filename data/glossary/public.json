@@ -1,0 +1,122 @@
+[
+  {
+    "korean": "배우",
+    "vietnamese": "diễn viên",
+    "romanization": "",
+    "pos": "",
+    "meaning": "",
+    "context": "kdrama",
+    "example_kr": "",
+    "example_vi": "",
+    "category": "noun",
+    "tags": []
+  },
+  {
+    "korean": "한국",
+    "vietnamese": "Hàn Quốc",
+    "romanization": "",
+    "pos": "",
+    "meaning": "",
+    "context": "culture",
+    "example_kr": "",
+    "example_vi": "",
+    "category": "noun",
+    "tags": []
+  },
+  {
+    "korean": "사랑",
+    "vietnamese": "tình yêu",
+    "romanization": "",
+    "pos": "",
+    "meaning": "",
+    "context": "daily",
+    "example_kr": "",
+    "example_vi": "",
+    "category": "noun",
+    "tags": []
+  },
+  {
+    "korean": "감사합니다",
+    "vietnamese": "cảm ơn",
+    "romanization": "",
+    "pos": "",
+    "meaning": "",
+    "context": "daily",
+    "example_kr": "",
+    "example_vi": "",
+    "category": "expression",
+    "tags": []
+  },
+  {
+    "korean": "드라마",
+    "vietnamese": "phim truyền hình",
+    "romanization": "",
+    "pos": "",
+    "meaning": "",
+    "context": "kdrama",
+    "example_kr": "",
+    "example_vi": "",
+    "category": "noun",
+    "tags": []
+  },
+  {
+    "korean": "가수",
+    "vietnamese": "ca sĩ",
+    "romanization": "",
+    "pos": "",
+    "meaning": "",
+    "context": "kpop",
+    "example_kr": "",
+    "example_vi": "",
+    "category": "noun",
+    "tags": []
+  },
+  {
+    "korean": "BTS",
+    "vietnamese": "BTS",
+    "romanization": "",
+    "pos": "",
+    "meaning": "",
+    "context": "kpop",
+    "example_kr": "",
+    "example_vi": "",
+    "category": "name",
+    "tags": []
+  },
+  {
+    "korean": "김치",
+    "vietnamese": "kim chi",
+    "romanization": "",
+    "pos": "",
+    "meaning": "",
+    "context": "food",
+    "example_kr": "",
+    "example_vi": "",
+    "category": "noun",
+    "tags": []
+  },
+  {
+    "korean": "안녕하세요",
+    "vietnamese": "xin chào",
+    "romanization": "",
+    "pos": "",
+    "meaning": "",
+    "context": "daily",
+    "example_kr": "",
+    "example_vi": "",
+    "category": "expression",
+    "tags": []
+  },
+  {
+    "korean": "대박",
+    "vietnamese": "tuyệt vời",
+    "romanization": "",
+    "pos": "",
+    "meaning": "",
+    "context": "entertainment",
+    "example_kr": "",
+    "example_vi": "",
+    "category": "slang",
+    "tags": []
+  }
+]
