@@ -52,17 +52,25 @@ jobs:
       - name: Install dependencies
         run: pip install pyyaml Pillow
 
+      - name: Self-heal — auto-wrap long lines
+        run: |
+          python scripts/markdown_lint.py --fix
+          if ! git diff --quiet; then
+            git config user.name "korea-wiki-self-heal[bot]"
+            git config user.email "292648126+Banhang-Chogao@users.noreply.github.com"
+            git add -A
+            git commit -m "fix(self-heal): auto-wrap long lines [skip ci]"
+            git push
+          fi
+
       - name: Run QA
         run: |
           python scripts/qa.py
           python scripts/seo.py
           python scripts/frontmatter_check.py
           python scripts/markdown_lint.py
-
-      - name: Check links & slugs
-        run: |
-          python scripts/check_links.py
           python scripts/slug.py --check
+          python scripts/check_links.py
 
       - name: Validate images
         run: python scripts/optimize_images.py
