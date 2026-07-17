@@ -22,8 +22,11 @@ def check(meta):
     for f, t in REQUIRED.items():
         if f not in meta: errors.append(f"Missing: '{f}'")
         elif not isinstance(meta[f], t) and meta[f] is not None: errors.append(f"'{f}' wrong type")
-    if meta.get("date") and meta.get("lastmod") and meta["lastmod"] < meta["date"]:
-        errors.append("lastmod before date")
+    if meta.get("date") and meta.get("lastmod"):
+        d = meta["date"] if not isinstance(meta["date"], datetime) else meta["date"].date()
+        l = meta["lastmod"] if not isinstance(meta["lastmod"], datetime) else meta["lastmod"].date()
+        if l < d:
+            errors.append("lastmod before date")
     if not meta.get("title") or len(str(meta.get("title",""))) > 120:
         errors.append("Title missing or >120 chars")
     desc = meta.get("description","")
