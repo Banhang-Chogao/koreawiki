@@ -30,6 +30,10 @@
           {{ end }}
           <span class="article-meta-sep">·</span>
           <span>{{ .ReadingTime }} {{ T "min_read" | default "min read" }}</span>
+          {{ with .GitInfo }}
+          <span class="article-meta-sep">·</span>
+          <span class="article-commit" title="{{ .AbbreviatedHash }} — {{ .AuthorDate.Format "Jan 2, 2006 15:04" }}">commit {{ .AbbreviatedHash }}</span>
+          {{ end }}
         </div>
       </header>
       {{ if .Params.cover.image }}

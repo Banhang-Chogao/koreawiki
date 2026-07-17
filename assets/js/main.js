@@ -1,16 +1,5 @@
 (function(){'use strict';
 
-// Reading Progress
-var progressBar=document.getElementById('readingProgress');
-if(progressBar){
-  window.addEventListener('scroll',function(){
-    var scrollTop=window.scrollY;
-    var docHeight=document.documentElement.scrollHeight-window.innerHeight;
-    var progress=docHeight>0?(scrollTop/docHeight)*100:0;
-    progressBar.style.width=progress+'%';
-  },{passive:true});
-}
-
 // Dark Mode
 var themeToggle=document.querySelector('.theme-toggle');
 var html=document.documentElement;

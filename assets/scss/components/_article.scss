@@ -28,6 +28,11 @@
   font-size:var(--fs-sm);color:var(--color-text-secondary);
 }
 .article-meta-sep{color:var(--color-border)}
+.article-commit{
+  font-family:var(--font-mono);
+  font-size:var(--fs-xs);
+  color:var(--color-text-tertiary);
+}
 .article-author{font-weight:600;color:var(--color-text)}
 .article-cover{
   margin:var(--space-6) 0 var(--space-8);
@@ -77,12 +82,6 @@
 
 }
 h2:hover .anchor-link,h3:hover .anchor-link,h4:hover .anchor-link{opacity:1}
-
-.reading-progress{
-  position:fixed;top:0;left:0;width:0;height:3px;
-  background:var(--color-accent);z-index:200;
-  transition:width .1s linear;
-}
 
 @media(max-width:1024px){
   .article-layout{grid-template-columns:1fr}

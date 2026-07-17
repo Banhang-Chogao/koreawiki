@@ -16,7 +16,6 @@
 </head>
 <body>
   <a href="#main-content" class="skip-link">{{ T "skip_to_content" | default "Skip to content" }}</a>
-  <div class="reading-progress" id="readingProgress"></div>
   {{ partial "header" . }}
   {{ block "breadcrumb" . }}
     {{ if and .Params.breadcrumbs (ne .Params.breadcrumbs false) | default .Site.Params.breadcrumbs | default true }}
