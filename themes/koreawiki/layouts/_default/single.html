@@ -23,10 +23,10 @@
           <span class="article-author">{{ .Params.author }}</span>
           <span class="article-meta-sep">·</span>
           {{ end }}
-          <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+          <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "ngày 2 tháng 1 năm 2006 | 15 giờ 4 phút" }}</time>
           {{ if ne .Lastmod .Date }}
           <span class="article-meta-sep">·</span>
-          <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">{{ T "updated" | default "Updated" }} {{ .Lastmod.Format "Jan 2, 2006" }}</time>
+          <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">{{ T "updated" | default "Cập nhật" }} {{ .Lastmod.Format "ngày 2 tháng 1 năm 2006 | 15 giờ 4 phút" }}</time>
           {{ end }}
           <span class="article-meta-sep">·</span>
           <span>{{ .ReadingTime }} {{ T "min_read" | default "min read" }}</span>

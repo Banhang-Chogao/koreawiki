@@ -8,7 +8,7 @@
     {{ range first 5 $all.ByDate.Reverse }}
     <li class="sidebar-item">
       <a href="{{ .RelPermalink }}" class="sidebar-link">{{ .Title }}</a>
-      <span class="sidebar-meta">{{ .Date.Format "Jan 2, 2006" }}</span>
+      <span class="sidebar-meta">{{ .Date.Format "ngày 2 tháng 1 năm 2006" }}</span>
     </li>
     {{ end }}
   </ul>
