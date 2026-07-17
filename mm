@@ -155,7 +155,8 @@ def extract_images(html, base_url):
     urls = []
     skip_keywords = ['logo', 'icon', 'banner', 'avatar', 'button', 'spacer',
                      'pixel', 'tracking', 'advertising', 'ads/', 'banner',
-                     'loader', 'spinner', 'placeholder']
+                     'loader', 'spinner', 'placeholder', 'menu', 'search',
+                     'btn', 'gnb', 'lnb', 'top_banner', 'footer']
     for src in imgs:
         src = src.strip().rsplit('?', 1)[0]
         if not src or src.startswith('data:'):
@@ -176,7 +177,7 @@ def download_webp(img_url, date_dir):
         r = requests.get(img_url, headers={"User-Agent": UA}, timeout=20)
         r.raise_for_status()
         data = r.content
-        if len(data) < 1000:
+        if len(data) < 5000:
             return None
         img = Image.open(BytesIO(data))
         h = hashlib.md5(img_url.encode()).hexdigest()[:12]
@@ -199,10 +200,20 @@ def download_webp(img_url, date_dir):
 
 # ---------- translation ----------
 
-def translate(text, src="en", dest="vi"):
+def detect_source_lang(text):
+    """Detect source language from text content."""
+    if re.search(r'[\uac00-\ud7af]', text):
+        return "ko"
+    if re.search(r'[\u4e00-\u9fff]', text):
+        return "zh"
+    if re.search(r'[\u3040-\u309f\u30a0-\u30ff]', text):
+        return "ja"
+    return "en"
+
+def translate(text, dest="vi"):
     if not text or len(text.strip()) < 3:
         return text
-    # MyMemory limit: 500 chars per request
+    src = detect_source_lang(text)
     chunks = [text[i:i+480] for i in range(0, len(text), 480)]
     translated_chunks = []
     for chunk in chunks:
@@ -446,7 +457,6 @@ def main():
     if section not in SECTIONS:
         section = DEFAULT_SECTION
 
-    slug = vi_slug(title)
     date_str = datetime.now().strftime("%Y-%m-%d")
     date_dir = STATIC_IMG_DIR / date_str
     date_dir.mkdir(parents=True, exist_ok=True)
@@ -474,6 +484,13 @@ def main():
     title_dest = title if no_translate else translate(title)
     paras = [p for p in body_text.split('\n\n') if p.strip()]
     translated_paras = batch_translate(paras, no_translate)
+
+    # Slug from translated title (clean site suffixes first)
+    slug_source = re.sub(r'\s*[|│•\-–—].*$', '', title_dest).strip()
+    slug = vi_slug(slug_source) if len(slug_source) > 2 else vi_slug(title_dest)
+    if len(slug) < 3:
+        # fallback: use hash of title
+        slug = hashlib.md5(title.encode()).hexdigest()[:8]
 
     # Keep only substantial paragraphs
     translated_paras = [p for p in translated_paras if vi_word_count(p) > 5]
