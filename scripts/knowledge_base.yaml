@@ -59,62 +59,62 @@ patterns:
     check_after: links
     fix: Update or remove the broken link
   image:
-    seen_in_history: 61
+    seen_in_history: 62
     severity: warning
   accessibility:
-    seen_in_history: 57
+    seen_in_history: 58
     severity: warning
   seo:
-    seen_in_history: 51
+    seen_in_history: 52
     severity: warning
   theme:
-    seen_in_history: 45
+    seen_in_history: 46
     severity: warning
   date:
-    seen_in_history: 41
+    seen_in_history: 42
     severity: warning
   link:
-    seen_in_history: 37
+    seen_in_history: 38
     severity: warning
   tag:
-    seen_in_history: 30
+    seen_in_history: 31
     severity: warning
   slug:
-    seen_in_history: 29
+    seen_in_history: 30
     severity: warning
   lang:
-    seen_in_history: 26
+    seen_in_history: 27
     severity: warning
   draft:
-    seen_in_history: 18
+    seen_in_history: 19
     severity: warning
   faq:
-    seen_in_history: 14
+    seen_in_history: 15
     severity: warning
   relurl:
-    seen_in_history: 14
+    seen_in_history: 15
     severity: warning
   performance:
-    seen_in_history: 14
+    seen_in_history: 15
     severity: warning
   search:
-    seen_in_history: 13
+    seen_in_history: 14
     severity: warning
   category:
-    seen_in_history: 12
+    seen_in_history: 13
     severity: warning
   source_url:
-    seen_in_history: 8
+    seen_in_history: 9
     severity: warning
   compress:
-    seen_in_history: 8
+    seen_in_history: 9
     severity: warning
   schema:
-    seen_in_history: 5
+    seen_in_history: 6
     severity: warning
   _meta:
     last_learned: '2026-07-18'
-    total_commits_analyzed: 483
+    total_commits_analyzed: 501
 seo:
   missing_alt_text:
     description: Image missing alt text

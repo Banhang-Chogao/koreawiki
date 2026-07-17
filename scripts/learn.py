@@ -82,6 +82,12 @@ PATTERN_SEVERITY = {
     "image_path": "warning",
     "publish_state": "warning",
     "hardcoded_link": "warning",
+    "faq_pattern": "info",
+    "seo_pattern": "warning",
+    "tag_pattern": "info",
+    "category_pattern": "info",
+    "lang_pattern": "info",
+    "source_url_pattern": "info",
 }
 
 PATTERN_DESCRIPTION = {
@@ -93,6 +99,12 @@ PATTERN_DESCRIPTION = {
     "image_path": "Direct image path reference without proper handling",
     "publish_state": "Draft or publish state flag found",
     "hardcoded_link": "Hardcoded external link without relURL or absURL",
+    "faq_pattern": "FAQ article-footer shortcode pattern",
+    "seo_pattern": "SEO meta tags in templates",
+    "tag_pattern": "Tags usage in templates",
+    "category_pattern": "Categories usage in templates",
+    "lang_pattern": "Language/multilingual handling in templates",
+    "source_url_pattern": "Source URL attribution pattern",
 }
 
 PATTERN_FIX = {
@@ -104,6 +116,12 @@ PATTERN_FIX = {
     "image_path": "Use | relURL filter or partial/cover-img helper",
     "publish_state": "Set draft: false or remove draft flag for published articles",
     "hardcoded_link": "Use relURL or absURL for internal links",
+    "faq_pattern": "Use {{< article-footer >}} shortcode for FAQ and source attribution",
+    "seo_pattern": "Ensure meta description, keywords, author tags are present",
+    "tag_pattern": "Verify tags are properly referenced in templates",
+    "category_pattern": "Verify categories are properly referenced in templates",
+    "lang_pattern": "Ensure .Site.LanguageCode is properly used",
+    "source_url_pattern": "Verify source_url param is used for attribution",
 }
 
 
@@ -186,9 +204,10 @@ def analyze_commits(commits):
     return keyword_counts, file_ext_counts, commit_samples
 
 
-def generate_check_from_pattern(pattern_name, count, msg_sample):
+def generate_check_from_pattern(keyword_name, count, msg_sample):
     """Generate a targeted Python check script from a discovered pattern."""
-    regex = KNOWN_PATTERN_REGEX.get(pattern_name, "")
+    pattern_name = KEYWORD_TO_PATTERN.get(keyword_name, keyword_name)
+    regex = KNOWN_PATTERN_REGEX.get(pattern_name, KNOWN_PATTERN_REGEX.get(keyword_name, ""))
     if not regex:
         return None
 
@@ -304,26 +323,25 @@ def main():
         print("  [learn]   Install: pip install scikit-learn numpy")
 
     generated = 0
-    for pattern_name, count in keyword_counts.most_common():
+    for keyword_name, count in keyword_counts.most_common():
         if count < 3:
             continue
-        if pattern_name in ["compress", "accessibility", "performance", "search", "schema"]:
+        if keyword_name in ["compress", "accessibility", "performance", "search", "schema", "theme"]:
             continue
-        code = generate_check_from_pattern(pattern_name, count, commit_samples.get(pattern_name, ""))
+        code = generate_check_from_pattern(keyword_name, count, commit_samples.get(keyword_name, ""))
         if not code:
             continue
-        existing_path = LEARNED_DIR / f"check_learned_{pattern_name}.py"
+        fname = f"check_learned_{keyword_name}.py"
+        existing_path = LEARNED_DIR / fname
         if existing_path.exists():
             existing_content = existing_path.read_text()
-            if f"(seen {count}x)" in existing_content:
-                existing_path.write_text(existing_content.replace(
-                    re.search(r'\(seen \d+x\)', existing_content).group(),
-                    f"(seen {count}x)"
-                ))
+            m = re.search(r'\(seen \d+x\)', existing_content)
+            if m:
+                existing_path.write_text(existing_content.replace(m.group(), f"(seen {count}x)"))
                 continue
         existing_path.write_text(code)
         generated += 1
-        print(f"  [learn] generated: check_learned_{pattern_name}.py (seen {count}x)")
+        print(f"  [learn] generated: {fname} (seen {count}x)")
 
     if generated > 0:
         print(f"  [learn] Generated {generated} new check(s) in scripts/learned_checks/")
