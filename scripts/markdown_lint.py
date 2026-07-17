@@ -15,15 +15,15 @@ MAX_LINE = 200
 def wrap_long_lines(text):
     """Wrap lines >MAX_LINE chars, skipping front matter YAML and tables."""
     lines = text.split("\n")
-    in_fm = False
+    fm_count = 0
     new = []
     for line in lines:
         stripped = line.strip()
-        if stripped == "---":
-            in_fm = not in_fm
+        if stripped == "---" and fm_count < 2:
+            fm_count += 1
             new.append(line)
             continue
-        if in_fm or stripped.startswith("|"):
+        if fm_count < 2 or stripped.startswith("|"):
             new.append(line)
             continue
         if len(line) > MAX_LINE:
