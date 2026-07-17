@@ -18,7 +18,9 @@ categories:
 readingTime: true
 slug: nha-anjung-kien-truc-su-eleena-jamil-khong-gian-song-gan-gui-thien-nhien-tai-malaysia
 summaries:
-  - "Anjung là dự án kết hợp nhà nghỉ dưỡng và studio của Eleena Jamil Architect tại Selangor, Malaysia. Công trình sử dụng vật liệu địa phương như tre, gạch nén đất, mái tái chế — mang đậm tính bản địa và bền vững."
+  - >-
+    Anjung là dự án kết hợp nhà nghỉ dưỡng và studio của Eleena Jamil Architect tại Selangor, Malaysia.
+    Công trình sử dụng vật liệu địa phương như tre, gạch nén đất, mái tái chế — mang đậm tính bản địa và bền vững.
 cover:
   image: "images/2026-07-17/mm-7d472ae268c4.webp"
   alt: "Nhà Anjung — Eleena Jamil Architect"
@@ -207,4 +209,3 @@ Anjung là lời nhắc nhở rằng kiến trúc tốt nhất đến từ sự 
 *Đón đọc thêm nhiều bài viết phân tích kiến trúc chuyên sâu khác tại KoreaWiki.*
 
 ---
-

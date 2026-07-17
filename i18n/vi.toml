@@ -72,6 +72,8 @@ other = "Ảnh"
 other = "Video"
 [opinion]
 other = "Ý kiến"
+[build_version]
+other = "Phiên bản dịch vụ"
 [toggle_menu]
 other = "Chuyển menu"
 [toggle_theme]

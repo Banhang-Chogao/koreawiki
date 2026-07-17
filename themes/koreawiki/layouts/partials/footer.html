@@ -32,6 +32,13 @@
     </div>
     <div class="footer-bottom">
       <span>{{ replace .Site.Copyright "{currentYear}" (now.Format "2006") }}</span>
+      <div class="footer-version">{{ T "build_version" | default "Phiên bản dịch vụ" }}:
+        {{ with .Site.Data.build }}
+        {{ .time }} | {{ .timezone }} | commit <a href="https://github.com/Banhang-Chogao/koreawiki/commit/{{ .commit }}" target="_blank" rel="noopener">{{ slicestr .commit 0 7 }}</a>
+        {{ else }}
+        {{ now.Format "02-01-2006 | 15:04:05" }} | GMT+7 | commit local-dev
+        {{ end }}
+      </div>
       <div class="footer-social">
         <a href="{{ "index.xml" | absURL }}" class="sdna-icon sdna-icon--sm" aria-label="RSS Feed" target="_blank" rel="noopener">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><circle cx="6" cy="18" r="3"/><path d="M4 4a16 16 0 0 1 16 16h-4A12 12 0 0 0 4 8V4zm0 8a8 8 0 0 1 8 8H8a4 4 0 0 0-4-4v-4z"/></svg>

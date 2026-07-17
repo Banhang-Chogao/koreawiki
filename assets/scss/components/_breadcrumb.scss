@@ -8,8 +8,10 @@
   list-style:none;padding:0;margin:0;
 }
 .breadcrumb-item{
-  font-size:var(--fs-sm);color:var(--color-text-tertiary);
-  &+&::before{content:"/";margin-right:var(--space-2);color:var(--color-border);font-size:var(--fs-xs)}
-  a{color:var(--color-text-secondary);&:hover{color:var(--color-accent)}}
-  &.active{color:var(--color-text);font-weight:600}
+  font-size:var(--fs-base);color:var(--color-text);
+  &+&::before{content:"›";margin-right:var(--space-2);color:var(--color-accent);font-size:var(--fs-lg);font-weight:700}
+  a{color:var(--color-accent);font-weight:600;
+    &:hover{color:var(--color-text);text-decoration:underline;text-underline-offset:3px}
+  }
+  &.active{color:var(--color-text);font-weight:700}
 }

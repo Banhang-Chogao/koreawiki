@@ -72,6 +72,8 @@ other = "Photos"
 other = "Videos"
 [opinion]
 other = "Opinion"
+[build_version]
+other = "Service version"
 [toggle_menu]
 other = "Toggle menu"
 [toggle_theme]

@@ -103,6 +103,17 @@ jobs:
       - name: Generate WebP images
         run: python scripts/compress_images.py
 
+      - name: Write build info (commit + timestamp)
+        run: |
+          build_time=$(TZ='Asia/Ho_Chi_Minh' date '+%d-%m-%Y | %H:%M:%S')
+          cat > data/build.json << EOF
+          {
+            "commit": "${{ github.sha }}",
+            "time": "$build_time",
+            "timezone": "GMT+7"
+          }
+          EOF
+
       - name: Build Hugo site
         run: hugo --minify --gc
 
