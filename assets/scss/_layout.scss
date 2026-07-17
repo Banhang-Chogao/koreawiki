@@ -1,24 +1,23 @@
-.article-footer {
-  margin-top: var(--space-16);
-  padding-top: var(--space-10);
-  border-top: 2px solid var(--color-border);
-}
+.wrapper{max-width:var(--max-w);margin:0 auto;padding:0 var(--space-6)}
 
-.section-divider {
-  display: flex;
-  align-items: center;
-  gap: var(--space-4);
-  margin-bottom: var(--space-8);
-  font-size: var(--fs-sm);
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: .05em;
-  color: var(--color-text-tertiary);
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-6)}
+.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:var(--space-6)}
 
-  &::after {
-    content: '';
-    flex: 1;
-    height: 1px;
-    background: var(--color-border);
-  }
-}
+.section{padding:var(--space-12) 0}
+.section-header{margin-bottom:var(--space-8)}
+.section-title{font-size:var(--fs-2xl);font-weight:800;letter-spacing:-.02em}
+.section-title-wrap{display:flex;align-items:center;justify-content:space-between;margin-bottom:var(--space-6)}
+.section-link{font-size:var(--fs-sm);font-weight:600;color:var(--color-accent);text-transform:uppercase;letter-spacing:.05em;&:hover{color:var(--color-accent-hover)}}
+
+.section-divider{display:flex;align-items:center;gap:var(--space-4);margin-bottom:var(--space-8);font-size:var(--fs-sm);font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--color-text-tertiary);&::after{content:'';flex:1;height:1px;background:var(--color-border)}}
+
+@media(max-width:1024px){.grid-3{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:768px){.grid-3,.grid-2{grid-template-columns:1fr}.section{padding:var(--space-8) 0}}
+
+.blog-subsection{margin-top:var(--space-10)}
+.blog-subsection:first-child{margin-top:0}
+.blog-subsection-header{display:flex;align-items:center;gap:var(--space-3);margin-bottom:var(--space-6)}
+.blog-subsection-title{font-size:var(--fs-lg);font-weight:700;display:flex;align-items:center;gap:var(--space-2);letter-spacing:-.01em}
+.blog-section-icon{color:var(--color-accent);flex-shrink:0}
+.blog-subsection-subtitle{font-size:var(--fs-xs);color:var(--color-text-tertiary);margin:0}
+.blog-empty{padding:var(--space-8) 0;text-align:center;color:var(--color-text-tertiary);font-size:var(--fs-sm)}
