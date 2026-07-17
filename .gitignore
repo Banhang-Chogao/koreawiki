@@ -8,7 +8,5 @@ __pycache__/
 .idea/
 *.log
 .hugo_build.lock
-static/images/**/*.webp
-static/images/**/*.webp
 scripts/glossary_export/
 scripts/glossary.sqlite

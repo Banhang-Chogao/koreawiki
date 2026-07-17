@@ -61,7 +61,7 @@ static/        → Static assets (images, fonts, favicon)
 | "Fetching artifact metadata failed" | Re-run workflow (transient GH API issue) |
 | Build OK but deploy fails | Check permissions block has `pages: write` + `id-token: write` |
 | `languageCode` deprecation warning | Change to `locale` in hugo.toml |
-| WebP files not served | Run `compress_images.py` before `hugo` in CI |
+| WebP files not served | Ensure WebP is committed (not gitignored); `mm` writes WebP-only. `compress_images.py` only converts JPEG/PNG → WebP |
 
 ## Color Reference
 
