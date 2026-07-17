@@ -1,5 +1,5 @@
 {{ define "main" }}
-<article class="article-page" itemscope itemtype="https://schema.org/Article">
+<article class="article-page" itemscope itemtype="https://schema.org/Article" data-pagefind-body>
   <meta itemprop="identifier" content="{{ .Permalink }}">
   <meta itemprop="url" content="{{ .Permalink }}">
   <meta itemprop="name" content="{{ .Title }}">
@@ -46,6 +46,15 @@
       {{ end }}
       <div class="article-body">
         {{ .Content }}
+      </div>
+      <div hidden>
+        <span data-pagefind-meta="date:{{ .Date.Unix }}"></span>
+        <span data-pagefind-meta="reading_time:{{ .ReadingTime }}"></span>
+        <span data-pagefind-meta="author:{{ .Params.author | default .Site.Params.author }}"></span>
+        <span data-pagefind-meta="weight:{{ .Params.weight | default 0 }}"></span>
+        {{ with .Params.categories }}{{ range . }}<span data-pagefind-filter="category:{{ . }}"></span>{{ end }}{{ end }}
+        {{ with .Params.tags }}<span data-pagefind-filter="tags:{{ delimit . " " }}"></span>{{ end }}
+        <span data-pagefind-sort="date:{{ .Date.Unix }}"></span>
       </div>
       <footer class="article-footer">
         {{ if .Params.tags }}

@@ -1,25 +1,66 @@
-<div class="search-overlay" data-search-overlay role="dialog" aria-modal="true" aria-label="{{ T "search" | default "Search" }}">
+<div class="search-overlay" data-search-overlay role="dialog" aria-modal="true" aria-label="{{ T "search" | default "Search" }}" data-pagefind-ignore>
   <div class="search-modal">
     <div class="search-header">
-      <form class="search-form" role="search">
+      <form class="search-form" role="search" action="/" method="get">
         <svg class="search-form-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
         </svg>
         <label for="search-input" class="sr-only">{{ T "search" | default "Search" }}</label>
-        <input type="search" id="search-input" class="search-form-input" placeholder="{{ T "search_placeholder" | default "Search articles..." }}" autocomplete="off" autocorrect="off" spellcheck="false" />
+        <input type="search" id="search-input" class="search-form-input"
+          placeholder="{{ T "search_placeholder" | default "Search articles... (category:news, tag:topik, year:2026)" }}"
+          autocomplete="off" autocorrect="off" spellcheck="false"
+          aria-controls="search-results" aria-activedescendant=""
+          data-search-input />
         <button type="button" class="search-close-btn" data-search-close aria-label="{{ T "close_search" | default "Close search" }}">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
         </button>
       </form>
+      <div class="search-filters-mobile">
+        <button type="button" class="search-filter-btn" data-filter-toggle>Filters <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
+        <select class="search-filter-select" data-filter="category">
+          <option value="">All categories</option>
+          {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+          <option value="{{ $name | urlize }}">{{ $name | humanize }}</option>
+          {{ end }}
+        </select>
+        <select class="search-filter-select" data-filter="sort">
+          <option value="relevance">Relevance</option>
+          <option value="newest">Newest</option>
+          <option value="oldest">Oldest</option>
+        </select>
+      </div>
     </div>
-    <div class="search-body" data-search-results>
+    <div class="search-body" data-search-results id="search-results" role="listbox" aria-label="Search results">
       <div class="search-hint">
-        <p>{{ T "search_hint" | default "Type at least 2 characters to search..." }}</p>
+        <p>{{ T "search_hint" | default "Type to search across all articles..." }}</p>
         <div class="search-shortcuts">
           <span><kbd>↑</kbd><kbd>↓</kbd> {{ T "navigate" | default "Navigate" }}</span>
           <span><kbd>Enter</kbd> {{ T "select" | default "Select" }}</span>
+          <span><kbd>Tab</kbd> {{ T "autocomplete" | default "Autocomplete" }}</span>
           <span><kbd>Esc</kbd> {{ T "close" | default "Close" }}</span>
         </div>
+      </div>
+    </div>
+    <div class="search-footer">
+      <div class="search-filter-desktop">
+        <select class="search-select" data-filter="category">
+          <option value="">Category: All</option>
+          {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+          <option value="{{ $name | urlize }}">{{ $name | humanize }}</option>
+          {{ end }}
+        </select>
+        <select class="search-select" data-filter="year">
+          <option value="">Year: All</option>
+          {{ range .Site.Pages.GroupByDate "2006" }}
+          <option value="{{ .Key }}">{{ .Key }}</option>
+          {{ end }}
+        </select>
+        <select class="search-select" data-filter="sort">
+          <option value="relevance">Sort: Relevance</option>
+          <option value="newest">Sort: Newest</option>
+          <option value="oldest">Sort: Oldest</option>
+        </select>
+        <button type="button" class="search-clear-btn" data-history-clear aria-label="Clear history">Clear history</button>
       </div>
     </div>
   </div>

@@ -41,16 +41,9 @@ copyright = "Copyright © {currentYear} KoreaWiki. All rights reserved."
     noClasses = false
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS"]
   section = ["HTML", "RSS"]
   page = ["HTML"]
-
-[outputFormats]
-  [outputFormats.JSON]
-    mediaType = "application/json"
-    baseName = "index"
-    isPlainText = true
-    notAlternative = true
 
 [params]
   description = "Your ultimate source for Korean entertainment — K-Drama, K-Pop, celebrity news, culture, and lifestyle."

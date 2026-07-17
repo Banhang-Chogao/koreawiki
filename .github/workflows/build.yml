@@ -35,6 +35,15 @@ jobs:
           hugo-version: ${{ env.HUGO_VERSION }}
           extended: true
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install Node.js dependencies
+        run: npm ci
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -61,8 +70,16 @@ jobs:
       - name: Generate WebP images
         run: python scripts/compress_images.py
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
       - name: Build Hugo site
         run: hugo --minify --gc
+
+      - name: Generate Pagefind search index
+        run: npx pagefind --site public
 
       - name: Validate schema
         run: python scripts/generate_schema.py

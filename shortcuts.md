@@ -131,6 +131,21 @@ Requirements:
 - Valid Markdown
 - Hugo compatible
 
+**Source attribution (required):**
+
+- **Never** put wire bylines in the lead, e.g. `[Dispatch = Lee Myung-joo]`, `[디스패치=…]`, `[Outlet = Author]`.
+- Strip any such prefixes from translated body text.
+- Put the source **once at the bottom** of the article, after a `---` separator:
+
+```markdown
+---
+
+[Đọc bài ở link gốc](https://example.com/original-article)
+```
+
+- Link text must be exactly: `Đọc bài ở link gốc`
+- Use the canonical/original article URL.
+
 #### Step 8 — QA
 
 Execute all validations:
@@ -180,7 +195,7 @@ If any validation fails, STOP. Display the errors. Do not push.
 - Never fabricate facts, dates, quotes, or image credits.
 - Preserve factual accuracy.
 - Produce an original Vietnamese article, not a close translation.
-- Cite the original article URL in the Sources section.
+- Cite the original article only at the bottom: `[Đọc bài ở link gốc](url)` — never as a byline in the lead.
 - Never push failing code.
 - Never bypass QA.
 - Never skip Hugo build.

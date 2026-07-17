@@ -24,13 +24,15 @@ categories:
 showToc: true
 readingTime: true
 slug: phim-hope-cua-na-hong-jin-thu-hut-330000-khan-gia-ngay-dau-cong-chieu-mo-man-an-tuong-nhat-nam-2026
+aliases:
+- /news/hope-huy-dong-330000-vao-ngay-dau-tien-diem-mo-dau-hang-dau-cua-nam-cong-van-tin-tuc-la-su-that/
 cover:
   image: images/2026-07-17/mm-792f0e967a56.webp
   alt: Poster phim Hope (2026) của đạo diễn Na Hong-jin
 ---
 ## Khởi đầu ngoạn mục
 
-[Dispatch = Lee Myung-joo] **'Hope' — tác phẩm mới nhất của đạo diễn Na Hong-jin
+**'Hope' — tác phẩm mới nhất của đạo diễn Na Hong-jin
 đã chính thức ra mắt với cú nổ lớn tại phòng vé ngay ngày đầu công chiếu.**
 
 Theo Hệ thống thống kê vé tích hợp của Ủy ban Điện ảnh Hàn Quốc (KOFIC),
@@ -69,4 +71,8 @@ trong 'The Wailing' (2016).
 Việc 'Hope' được chọn tranh giải tại hạng mục **Cạnh tranh chính thức của
 Liên hoan phim Cannes lần thứ 79** càng khẳng định đẳng cấp của tác phẩm.
 Phim đã được bán trước cho hơn 200 quốc gia và vùng lãnh thổ trên toàn thế giới.
+
+---
+
+[Đọc bài ở link gốc](https://www.dispatch.co.kr/2345296)
 

@@ -16,17 +16,6 @@ if(navToggle&&navList){navToggle.addEventListener('click',function(){var e=this.
 var copyBtn=document.querySelector('[data-copy-url]');
 if(copyBtn){copyBtn.addEventListener('click',function(){var u=this.getAttribute('data-copy-url');if(navigator.clipboard){navigator.clipboard.writeText(u).then(function(){var o=copyBtn.innerHTML;copyBtn.innerHTML='<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>';setTimeout(function(){copyBtn.innerHTML=o;},2000);});}});}
 
-// Search Overlay
-var searchToggle=document.querySelectorAll('[data-search-toggle]');
-var searchOverlay=document.querySelector('[data-search-overlay]');
-var searchClose=document.querySelector('[data-search-close]');
-var searchInput=document.getElementById('search-input');
-if(searchToggle.length&&searchOverlay){Array.from(searchToggle).forEach(function(st){st.addEventListener('click',function(){searchOverlay.classList.add('open');if(searchInput)setTimeout(function(){searchInput.focus();},100);document.body.style.overflow='hidden';});});}
-function closeSearch(){if(searchOverlay){searchOverlay.classList.remove('open');document.body.style.overflow='';}}
-if(searchClose){searchClose.addEventListener('click',closeSearch);}
-if(searchOverlay){searchOverlay.addEventListener('click',function(e){if(e.target===this)closeSearch();});}
-document.addEventListener('keydown',function(e){if(e.key==='Escape')closeSearch();if((e.ctrlKey||e.metaKey)&&e.key==='k'){e.preventDefault();if(searchToggle.length)searchToggle[0].click();}});
-
 // Smooth Scroll Anchors
 document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(e){var t=document.querySelector(this.getAttribute('href'));if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth'});}});});
 

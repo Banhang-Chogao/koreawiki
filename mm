@@ -303,9 +303,25 @@ slug: {slug}
         fm += f'cover:\n  image: "{cover}"\n  alt: "{cap}"\n'
     return fm + '---\n'
 
-def generate_body(title, section, paragraphs, image_refs, author, pub_date):
+# Dispatch / wire-style bylines: [Outlet = Author], [Outlet=Author], etc.
+BYLINE_RE = re.compile(
+    r'^\s*\[(?:Dispatch|디스패치|AP|Reuters|Yonhap|연합|OSEN|스포츠조선|스포츠서울|'
+    r'스포츠동아|뉴스1|뉴시스|한경|조선|중앙|동아|MBC|SBS|KBS|JTBC|'
+    r'[A-Za-z가-힣][A-Za-z가-힣0-9 .&-]{0,30})\s*=\s*[^\]]+\]\s*',
+    re.I,
+)
+
+def strip_byline(text):
+    """Remove wire-style [Outlet = Author] prefixes from paragraph starts."""
+    if not text:
+        return text
+    cleaned = BYLINE_RE.sub('', text, count=1).strip()
+    return cleaned if cleaned else text
+
+def generate_body(title, section, paragraphs, image_refs, author, pub_date, source_url=None):
     sec = SECTIONS.get(section, section.title())
     lines = []
+    paragraphs = [strip_byline(p) for p in paragraphs]
 
     # lead
     first_paras = [p for p in paragraphs if len(p.strip()) > 40]
@@ -373,6 +389,15 @@ def generate_body(title, section, paragraphs, image_refs, author, pub_date):
         f"Đón đọc thêm nhiều bài viết thú vị khác tại KoreaWiki.",
         f"",
     ]
+
+    # Source link at bottom — never as a wire byline in the lead
+    if source_url:
+        lines += [
+            f"---",
+            f"",
+            f"[Đọc bài ở link gốc]({source_url})",
+            f"",
+        ]
     return '\n'.join(lines)
 
 def update_glossary(original_text, translated_paras, url):
@@ -522,7 +547,7 @@ def main():
         summary = f"{title_dest} — tin tức giải trí Hàn Quốc mới nhất trên KoreaWiki. Biên dịch sang tiếng Việt, chuẩn SEO và Google Adsense."
 
     frontmatter = generate_frontmatter(title_dest, section, tags, summary, slug, cover_rel, author, pub_date)
-    body = generate_body(title_dest, section, translated_paras, local_images, author, pub_date)
+    body = generate_body(title_dest, section, translated_paras, local_images, author, pub_date, source_url=url)
     content = frontmatter + '\n' + body
 
     wc = vi_word_count(body)
