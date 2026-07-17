@@ -1,6 +1,11 @@
 <nav class="toc" aria-label="Table of contents">
   <div class="toc-sticky">
     <h2 class="toc-title">{{ T "on_this_page" | default "On This Page" }}</h2>
+    {{ if .Description }}
+    <ul class="toc-list">
+      <li><a href="#tom-tat-bai-viet">Tóm tắt bài viết</a></li>
+    </ul>
+    {{ end }}
     {{ .TableOfContents }}
   </div>
 </nav>

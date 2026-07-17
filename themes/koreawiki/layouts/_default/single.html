@@ -44,6 +44,21 @@
         {{ end }}
       </figure>
       {{ end }}
+      {{ if .Description }}
+      <h2 id="tom-tat-bai-viet" class="visually-hidden">Tóm tắt bài viết</h2>
+      <details class="ai-summary" open>
+        <summary class="ai-summary__header">
+          <span class="ai-summary__title">Tóm tắt bài viết</span>
+          <span class="ai-summary__toggle" data-open="Thu gọn" data-close="Mở rộng"></span>
+        </summary>
+        <ul class="ai-summary__list">
+          {{ $sentences := split .Description ". " }}
+          {{ range first 5 $sentences }}
+          <li>{{ . | safeHTML }}{{ if not (or (hasSuffix . ".") (hasSuffix . "!")) }}.{{ end }}</li>
+          {{ end }}
+        </ul>
+      </details>
+      {{ end }}
       <div class="article-body">
         {{ .Content }}
       </div>
