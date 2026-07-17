@@ -28,15 +28,15 @@ def slugify(text):
 
 def normalize(fp):
     c = fp.read_text("utf-8")
-    parts = c.split(SEP)
-    if len(parts) < 3: return False
-    try: meta = yaml.safe_load(parts[1])
+    match = re.match(r"\A---\s*\n(.*?)\n---\s*\n?(.*)\Z", c, re.DOTALL)
+    if not match: return False
+    try: meta = yaml.safe_load(match.group(1))
     except: return False
     if not meta: return False
     expected = slugify(meta.get("title",""))
     if meta.get("slug","") == expected: return False
     meta["slug"] = expected
-    fp.write_text(f"{SEP}\n{yaml.dump(meta, default_flow_style=False, allow_unicode=True, sort_keys=False)}{SEP}\n{parts[2].lstrip()}", "utf-8")
+    fp.write_text(f"{SEP}\n{yaml.dump(meta, default_flow_style=False, allow_unicode=True, sort_keys=False)}{SEP}\n{match.group(2).lstrip()}", "utf-8")
     return True
 
 def main():
