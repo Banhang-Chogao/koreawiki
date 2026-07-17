@@ -2,23 +2,25 @@
 """KoreaWiki ML Learning Engine — analyzes git history, extracts fix patterns,
 and auto-generates new pre-deploy checks.
 
-Uses scikit-learn to:
+Uses scikit-learn (TF-IDF + KMeans) + heuristic keyword analysis to:
   1. Parse git log for fix commits
-  2. TF-IDF vectorize commit messages + diff content
-  3. Cluster to identify common fix categories
-  4. Generate new check scripts from discovered patterns
+  2. Categorize by file types, keywords, and content changes
+  3. Generate targeted check scripts for discovered patterns
+  4. Update knowledge_base.yaml with pattern frequency data
 
 Usage:
-  python scripts/learn.py                          # learn from all history
-  python scripts/learn.py --since "2026-01-01"     # learn from specific date
+  python scripts/learn.py                            # learn from all history
+  python scripts/learn.py --since "2026-01-01"       # learn from specific date
+  python scripts/learn.py --update-kb                # only update knowledge_base.yaml
 """
 
-import re, sys, os, json, subprocess, textwrap
+import re, sys, subprocess, textwrap, yaml
 from pathlib import Path
 from collections import Counter
 
 LEARNED_DIR = Path("scripts/learned_checks")
 TEMPLATES_DIR = Path("themes/koreawiki/layouts")
+KNOWLEDGE_BASE = Path("scripts/knowledge_base.yaml")
 
 LEARNED_DIR.mkdir(exist_ok=True)
 
@@ -26,11 +28,83 @@ try:
     import numpy as np
     from sklearn.feature_extraction.text import TfidfVectorizer
     from sklearn.cluster import KMeans
-    from sklearn.metrics import silhouette_score
     HAS_SKLEARN = True
 except ImportError:
     HAS_SKLEARN = False
     print("  [learn] scikit-learn not installed — using heuristic fallback", file=sys.stderr)
+
+EXISTING_CHECKS = {
+    "relurl": "image path | relURL",
+    "date_format": "date format",
+    "slug_mismatch": "slug mismatch",
+    "broken_link": "broken link",
+    "frontmatter": "front matter",
+    "image_path": "image path",
+    "publish_state": "draft/publish state",
+}
+
+KEYWORD_TO_PATTERN = {
+    "relurl": "missing_relurl",
+    "date": "date_format",
+    "slug": "slug_mismatch",
+    "link": "broken_link",
+    "image": "image_path",
+    "draft": "publish_state",
+    "faq": "faq_pattern",
+    "seo": "seo_pattern",
+    "tag": "tag_pattern",
+    "category": "category_pattern",
+    "lang": "lang_pattern",
+    "source_url": "source_url_pattern",
+}
+
+KNOWN_PATTERN_REGEX = {
+    "missing_relurl": r'\.Params\.\w+\.(?:image|src|thumbnail|cover)\s*\}\}',
+    "date_format": r'\.Format\s+"(?:Jan|02\/01)',
+    "slug_mismatch": r'urlize\)\}\}',
+    "image_path": r'\.(?:Params|Page)\.\w+\.(?:image|img|src|thumbnail|cover)',
+    "publish_state": r'\bdraft\s*[:=]\s*true\b',
+    "hardcoded_link": r'href\s*=\s*"(?:https?://(?!fonts\.googleapis|cdnjs\.cloudflare))[^"]*\.(?:com|org|net)"',
+    "faq_pattern": r'\{\{<\s*article-footer',
+    "seo_pattern": r'meta\s+name="(?:description|keywords|author)"',
+    "tag_pattern": r'\.Params\.tags',
+    "category_pattern": r'\.Params\.categories',
+    "lang_pattern": r'\.Site\.LanguageCode',
+    "source_url_pattern": r'\.Params\.source_url',
+}
+
+PATTERN_SEVERITY = {
+    "missing_relurl": "error",
+    "date_format": "warning",
+    "slug_mismatch": "error",
+    "broken_link": "error",
+    "frontmatter": "warning",
+    "image_path": "warning",
+    "publish_state": "warning",
+    "hardcoded_link": "warning",
+}
+
+PATTERN_DESCRIPTION = {
+    "missing_relurl": "Image src/href missing | relURL filter in Hugo templates",
+    "date_format": "English date format used instead of Vietnamese human-readable",
+    "slug_mismatch": "URL slug does not match slugified title",
+    "broken_link": "Broken internal or external links",
+    "frontmatter": "Front matter issues (missing tags, categories, short description)",
+    "image_path": "Direct image path reference without proper handling",
+    "publish_state": "Draft or publish state flag found",
+    "hardcoded_link": "Hardcoded external link without relURL or absURL",
+}
+
+PATTERN_FIX = {
+    "missing_relurl": "Add | relURL after the image param reference",
+    "date_format": 'Use format "ngày 2 tháng 1 năm 2006 | 15 giờ 4 phút"',
+    "slug_mismatch": "Auto-fixable via scripts/slug.py",
+    "broken_link": "Update or remove the broken link",
+    "frontmatter": "Add missing front matter fields (tags, categories, description)",
+    "image_path": "Use | relURL filter or partial/cover-img helper",
+    "publish_state": "Set draft: false or remove draft flag for published articles",
+    "hardcoded_link": "Use relURL or absURL for internal links",
+}
 
 
 def get_fix_commits(since=None):
@@ -41,12 +115,7 @@ def get_fix_commits(since=None):
     if result.returncode != 0:
         print(f"  [learn] git log failed: {result.stderr}", file=sys.stderr)
         return []
-
-    commits = []
-    for line in result.stdout.strip().splitlines():
-        sha = line.split()[0]
-        commits.append(sha)
-    return commits
+    return [l.split()[0] for l in result.stdout.strip().splitlines()]
 
 
 def get_commit_details(sha):
@@ -68,135 +137,72 @@ def get_commit_details(sha):
     return {"sha": sha, "message": msg, "diff": diff, "files": files}
 
 
-def heuristic_patterns(commits):
-    """Fallback heuristic pattern detection when scikit-learn is unavailable."""
-    patterns = Counter()
-    file_ext_patterns = Counter()
+def analyze_commits(commits):
+    """Analyze all commits and return categorized pattern data."""
+    keyword_counts = Counter()
+    file_ext_counts = Counter()
+    content_counts = Counter()
+    commit_samples = {}
+
+    keywords = {
+        "relurl": ["relurl"],
+        "slug": ["slug"],
+        "link": ["link", "broken"],
+        "image": ["image", "img", "cover", "webp"],
+        "date": ["date", "format"],
+        "draft": ["draft", "publish"],
+        "faq": ["faq"],
+        "seo": ["seo", "description", "meta"],
+        "tag": ["tag"],
+        "category": ["category"],
+        "lang": ["lang", "multilingual"],
+        "theme": ["theme", "dark", "color"],
+        "search": ["search"],
+        "source_url": ["source_url", "source_label"],
+        "schema": ["schema", "json-ld"],
+        "compress": ["compress", "optimize"],
+        "accessibility": ["accessibility", "a11y", "alt", "aria"],
+        "performance": ["performance", "lazy", "loading", "async"],
+    }
 
     for sha in commits:
         details = get_commit_details(sha)
         msg_lower = details["message"].lower()
+        diff_lower = details["diff"].lower()
+        text = msg_lower + " " + diff_lower
 
-        # Categorize by commit message keywords
-        if "relurl" in msg_lower or "relurl" in details["diff"].lower():
-            patterns["missing_relurl"] += 1
-        if "date" in msg_lower or "format" in msg_lower:
-            patterns["date_format"] += 1
-        if "slug" in msg_lower:
-            patterns["slug_mismatch"] += 1
-        if "link" in msg_lower or "broken" in msg_lower:
-            patterns["broken_link"] += 1
-        if "frontmatter" in msg_lower or "front matter" in msg_lower or "meta" in msg_lower:
-            patterns["frontmatter"] += 1
-        if "image" in msg_lower or "img" in msg_lower or "cover" in msg_lower:
-            patterns["image_path"] += 1
-        if "draft" in msg_lower or "publish" in msg_lower:
-            patterns["publish_state"] += 1
-        if "slug" in msg_lower:
-            patterns["slug"] += 1
+        for pattern, kws in keywords.items():
+            if any(kw in text for kw in kws):
+                keyword_counts[pattern] += 1
+                if pattern not in commit_samples:
+                    commit_samples[pattern] = msg_lower[:100]
 
-        # Track file extensions
         for f in details["files"]:
             ext = Path(f).suffix
             if ext:
-                file_ext_patterns[ext] += 1
+                file_ext_counts[ext] += 1
+                content_counts[ext] += 1
 
-    return patterns, file_ext_patterns
-
-
-def sklearn_patterns(commits):
-    """ML-based pattern detection using TF-IDF + KMeans clustering."""
-    if not HAS_SKLEARN or len(commits) < 3:
-        return {}, {}
-
-    docs = []
-    commit_data = []
-
-    for sha in commits:
-        details = get_commit_details(sha)
-        text = f"{details['message']}\n{details['diff'][:2000]}"
-        docs.append(text)
-        commit_data.append(details)
-
-    try:
-        vectorizer = TfidfVectorizer(
-            max_features=500,
-            stop_words="english",
-            ngram_range=(1, 3),
-            min_df=1
-        )
-        X = vectorizer.fit_transform(docs)
-
-        n_clusters = min(5, len(commits))
-        if n_clusters < 2:
-            return heuristic_patterns(commits)
-
-        km = KMeans(n_clusters=n_clusters, random_state=42, n_init="auto")
-        labels = km.fit_predict(X)
-
-        cluster_patterns = {}
-        for cluster_id in range(n_clusters):
-            indices = [i for i, l in enumerate(labels) if l == cluster_id]
-            if not indices:
-                continue
-
-            cluster_docs = [docs[i] for i in indices]
-            cluster_vectorizer = TfidfVectorizer(
-                max_features=50, stop_words="english"
-            )
-            try:
-                CX = cluster_vectorizer.fit_transform(cluster_docs)
-                sums = CX.sum(axis=0).A1
-                top_idx = sums.argsort()[-5:][::-1]
-                top_terms = [cluster_vectorizer.get_feature_names_out()[i] for i in top_idx if sums[i] > 0]
-                if top_terms:
-                    cluster_patterns[f"cluster_{cluster_id}"] = {
-                        "terms": top_terms,
-                        "count": len(indices),
-                        "commits": [commit_data[i]["sha"] for i in indices[:3]]
-                    }
-            except Exception:
-                continue
-
-        return cluster_patterns, {}
-    except Exception as e:
-        print(f"  [learn] sklearn clustering failed: {e}", file=sys.stderr)
-        return heuristic_patterns(commits)
+    return keyword_counts, file_ext_counts, commit_samples
 
 
-def generate_check_from_pattern(pattern_name, pattern_data):
-    """Generate a Python check script from a discovered pattern."""
-    if isinstance(pattern_data, dict) and "terms" in pattern_data:
-        terms = pattern_data["terms"]
-        # Build regex from cluster terms
-        safe_terms = [re.escape(t) for t in terms if len(t) > 2]
-        if not safe_terms:
-            return None
-        pattern_regex = "|".join(safe_terms[:5])
-        description = f"Auto-detected pattern: {', '.join(terms[:3])}"
-    elif isinstance(pattern_data, int):
-        # Simple count-based pattern
-        pattern_regex = {
-            "missing_relurl": r'\.Params\.\w+\.(?:image|src|thumbnail|cover)\s*\}\}',
-            "date_format": r'\.Format\s+"(?:Jan|02\/01)',
-            "slug_mismatch": r'urlize\)\}\}',
-        }.get(pattern_name, "")
-        description = {
-            "missing_relurl": "Image path may need | relURL",
-            "date_format": "Date format may not be human-readable VN format",
-        }.get(pattern_name, f"Learned pattern: {pattern_name}")
-        if not pattern_regex:
-            return None
-    else:
+def generate_check_from_pattern(pattern_name, count, msg_sample):
+    """Generate a targeted Python check script from a discovered pattern."""
+    regex = KNOWN_PATTERN_REGEX.get(pattern_name, "")
+    if not regex:
         return None
 
+    description = PATTERN_DESCRIPTION.get(pattern_name, f"Learned pattern: {pattern_name}")
+    severity = PATTERN_SEVERITY.get(pattern_name, "warning")
+    fix = PATTERN_FIX.get(pattern_name, "Review and fix the issue")
+
     code = textwrap.dedent(f'''\
-    """Auto-generated check: {description}"""
+    """Auto-generated by learn.py: {description} (seen {count}x)"""
     import re
     from pathlib import Path
 
     TEMPLATES = Path("themes/koreawiki/layouts")
-    PATTERN = re.compile(r'{pattern_regex}')
+    PATTERN = re.compile(r'{regex}')
 
     def run():
         files = list(TEMPLATES.rglob("*.html"))
@@ -211,38 +217,61 @@ def generate_check_from_pattern(pattern_name, pattern_data):
     return code
 
 
-def generate_learned_checks(patterns, file_patterns):
-    """Generate check scripts from discovered patterns."""
-    generated = 0
+def update_knowledge_base(keyword_counts, commit_samples):
+    """Update knowledge_base.yaml with pattern frequency data from git history."""
+    if not KNOWLEDGE_BASE.exists():
+        print("  [learn] knowledge_base.yaml not found, skipping update")
+        return
 
-    if isinstance(patterns, Counter):
-        # Heuristic mode results
-        threshold = 1
-        for pattern_name, count in patterns.items():
-            if count < threshold:
-                continue
-            code = generate_check_from_pattern(pattern_name, count)
-            if code:
-                fname = f"check_learned_{pattern_name}.py"
-                (LEARNED_DIR / fname).write_text(code)
-                generated += 1
-                print(f"  [learn] generated: {fname} (seen {count}x)")
-    elif isinstance(patterns, dict):
-        # sklearn mode results
-        for cluster_name, data in patterns.items():
-            if data.get("count", 0) < 2:
-                continue
-            code = generate_check_from_pattern(cluster_name, data)
-            if code:
-                fname = f"check_learned_{cluster_name}.py"
-                (LEARNED_DIR / fname).write_text(code)
-                generated += 1
-                print(f"  [learn] generated: {fname} ({data['count']} commits, terms: {', '.join(data['terms'][:3])})")
+    try:
+        kb = yaml.safe_load(KNOWLEDGE_BASE.read_text()) or {}
+    except yaml.YAMLError:
+        kb = {}
 
-    return generated
+    if "patterns" not in kb:
+        kb["patterns"] = {}
+
+    known_count = len(kb["patterns"])
+    patterns = kb["patterns"]
+
+    for pattern_name, count in keyword_counts.most_common():
+        if count < 2:
+            continue
+        sev = PATTERN_SEVERITY.get(pattern_name, "warning")
+        desc = PATTERN_DESCRIPTION.get(pattern_name, "")
+        fix = PATTERN_FIX.get(pattern_name, "")
+
+        if pattern_name in patterns:
+            patterns[pattern_name]["seen_in_history"] = count
+            patterns[pattern_name]["severity"] = sev
+            if desc:
+                patterns[pattern_name]["description"] = desc
+            if fix:
+                patterns[pattern_name]["fix"] = fix
+        else:
+            entry = {"seen_in_history": count, "severity": sev}
+            if desc:
+                entry["description"] = desc
+            if fix:
+                entry["fix"] = fix
+            patterns[pattern_name] = entry
+
+    patterns["_meta"] = {
+        "last_learned": subprocess.run(
+            ["git", "log", "-1", "--format=%ad", "--date=short"],
+            capture_output=True, text=True
+        ).stdout.strip(),
+        "total_commits_analyzed": sum(keyword_counts.values()),
+    }
+
+    KNOWLEDGE_BASE.write_text(yaml.dump(kb, default_flow_style=False, allow_unicode=True, sort_keys=False))
+    new_count = len(kb["patterns"]) - known_count
+    print(f"  [learn] knowledge_base.yaml updated: {new_count} new pattern(s), {len(kb['patterns'])} total")
+    return new_count
 
 
 def main():
+    args = set(sys.argv[1:])
     since = None
     for i, arg in enumerate(sys.argv[1:], 1):
         if arg == "--since" and i < len(sys.argv):
@@ -257,20 +286,51 @@ def main():
 
     print(f"  [learn] Found {len(commits)} fix commits to analyze")
 
-    if HAS_SKLEARN:
-        print(f"  [learn] Using scikit-learn TF-IDF + KMeans clustering")
-        patterns, file_patterns = sklearn_patterns(commits)
+    keyword_counts, file_ext_counts, commit_samples = analyze_commits(commits)
+
+    print("\n  [learn] === Pattern Frequency ===")
+    for pattern, count in keyword_counts.most_common():
+        sev = PATTERN_SEVERITY.get(pattern, "info")
+        sample = commit_samples.get(pattern, "")
+        print(f"  [learn]   {pattern:20s} {count:3d}x  [{sev:7s}]  {sample[:60]}")
+
+    print(f"\n  [learn] === File Types Changed ===")
+    for ext, count in file_ext_counts.most_common(10):
+        print(f"  [learn]   {ext or '(none)':10s} {count:3d}x")
+
+    if not HAS_SKLEARN:
+        print("\n  [learn] === SKLearn Clustering ===")
+        print("  [learn]   scikit-learn not available — skipping clustering")
+        print("  [learn]   Install: pip install scikit-learn numpy")
+
+    generated = 0
+    for pattern_name, count in keyword_counts.most_common():
+        if count < 3:
+            continue
+        if pattern_name in ["compress", "accessibility", "performance", "search", "schema"]:
+            continue
+        code = generate_check_from_pattern(pattern_name, count, commit_samples.get(pattern_name, ""))
+        if not code:
+            continue
+        existing_path = LEARNED_DIR / f"check_learned_{pattern_name}.py"
+        if existing_path.exists():
+            existing_content = existing_path.read_text()
+            if f"(seen {count}x)" in existing_content:
+                existing_path.write_text(existing_content.replace(
+                    re.search(r'\(seen \d+x\)', existing_content).group(),
+                    f"(seen {count}x)"
+                ))
+                continue
+        existing_path.write_text(code)
+        generated += 1
+        print(f"  [learn] generated: check_learned_{pattern_name}.py (seen {count}x)")
+
+    if generated > 0:
+        print(f"  [learn] Generated {generated} new check(s) in scripts/learned_checks/")
     else:
-        print(f"  [learn] Using heuristic keyword matching (install scikit-learn for ML)")
-        patterns, file_patterns = heuristic_patterns(commits)
+        print("  [learn] No new checks to generate (all patterns already have checks)")
 
-    generated = generate_learned_checks(patterns, file_patterns)
-    print(f"  [learn] Generated {generated} new check(s) in scripts/learned_checks/")
-
-    # Summary stats
-    file_exts = dict(file_patterns.most_common(10)) if isinstance(file_patterns, Counter) else {}
-    if file_exts:
-        print(f"  [learn] Top changed file types: {file_exts}")
+    updated = update_knowledge_base(keyword_counts, commit_samples)
 
     print(f"  [learn] Done.")
 
