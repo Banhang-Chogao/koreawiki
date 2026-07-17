@@ -563,7 +563,6 @@ def main():
     # Slug from translated title (clean site suffixes first)
     slug_source = re.sub(r'\s*[|│•\-–—].*$', '', title_dest).strip()
     slug = vi_slug(slug_source) if len(slug_source) > 2 else vi_slug(title_dest)
-    slug = slug[:55].rstrip('-') if len(slug) > 55 else slug
     if len(slug) < 3:
         slug = hashlib.md5(title.encode()).hexdigest()[:8]
 

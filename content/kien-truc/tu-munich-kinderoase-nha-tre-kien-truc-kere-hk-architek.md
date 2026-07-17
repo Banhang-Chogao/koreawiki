@@ -24,7 +24,7 @@ categories:
 - "KIẾN TRÚC"
 showToc: true
 readingTime: true
-slug: tu-munich-kinderoase-nha-tre-kien-truc-kere-hk-architek
+slug: tu-munich-kinderoase-nha-tre-kien-truc-kere-hk-architekten
 cover:
   image: "images/2026-07-17/mm-ac01335dd1b5.webp"
   alt: "TU Munich Kinderoase Nhà trẻ /Kiến trúc Kéré + HK Architekten"
