@@ -23,7 +23,7 @@ def wrap_long_lines(text):
             fm_count += 1
             new.append(line)
             continue
-        if fm_count < 2 or stripped.startswith("|"):
+        if fm_count < 2 or stripped.startswith("|") or stripped.startswith("{{<"):
             new.append(line)
             continue
         if len(line) > MAX_LINE:
