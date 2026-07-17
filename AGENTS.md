@@ -20,7 +20,27 @@ python3 scripts/compress_images.py  # Generate WebP
 
 CI runs on push to `main` via `.github/workflows/build.yml`.
 
-If deploy fails:
+### 1 change = 1 deploy
+
+- Mỗi commit deploy độc lập — không gộp nhiều thay đổi vào 1 deploy
+- **Self-heal** (auto-fix linter/slug) tự commit + push, tạo 1 workflow riêng
+- Nếu self-heal có sửa file → workflow hiện tại **bỏ qua deploy** (set `fixed=true`), fix commit sẽ trigger workflow mới → QA + deploy sạch
+- Nếu không có gì để fix → QA + deploy bình thường
+- Tuyệt đối KHÔNG dùng `[skip ci]` trong self-heal commit để đảm bảo fix commit luôn được deploy
+
+### CI pipeline flow
+
+```
+push → Self-heal (fix linter/slug) → nếu có thay đổi:
+  ├─ commit + push (trigger workflow mới)
+  └─ skip deploy (fixed=true)
+→ nếu không thay đổi:
+  ├─ QA → Validate images → WebP → Build → Pagefind → Schema
+  └─ Deploy to GitHub Pages
+```
+
+### If deploy fails
+
 1. Check run logs: `gh run list --limit 3`
 2. View failure: `gh run view <id> --log`
 3. Common causes:
@@ -29,6 +49,9 @@ If deploy fails:
    - Missing `actions/configure-pages@v5` + `actions/deploy-pages@v4` steps
    - Node 20 deprecation warnings (safe to ignore)
    - `languageCode` deprecated → use `locale`
+   - **QA fail do slug mismatch** → `python scripts/slug.py` tự fix, self-heal push commit mới
+   - **QA fail do long lines** → `markdown_lint.py --fix` tự wrap, self-heal push commit mới
+   - **Workflow fail dính chùm** → kiểm tra self-heal có set `fixed=true` không; nếu có thì deploy của commit đó đã bị skip, fix commit đã trigger workflow riêng
 
 ## Structure
 
