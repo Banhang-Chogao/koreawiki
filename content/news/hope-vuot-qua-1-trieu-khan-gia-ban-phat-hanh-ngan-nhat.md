@@ -2,6 +2,12 @@
 
 title: "'Hope' của Na Hong-jin vượt 1 triệu khán giả sau 3 ngày — Kỷ lục phòng vé 2026"
 description: "Phim 'Hope' (đạo diễn Na Hong-jin) đạt 1.003.960 khán giả chỉ sau 3 ngày công chiếu, phá kỷ lục tốc độ nhanh nhất năm 2026, vượt mặt 'Colony' của Yeon Sang-ho."
+summaries:
+  - "'Hope' của Na Hong-jin vượt mốc 1 triệu vé chỉ sau 3 ngày công chiếu — nhanh nhất mọi phim Hàn năm 2026, bỏ xa 'Colony' của Yeon Sang-ho."
+  - "Phim có kinh phí 70 tỷ won (~46 triệu USD), là phim Hàn đắt nhất lịch sử, với dàn sao Hollywood Michael Fassbender và Alicia Vikander tham gia motion capture."
+  - "Tác phẩm khoa học viễn tưởng kinh dị này được tuyển chọn vào hạng mục Official Competition tại Liên hoan phim Cannes 2026, đánh dấu bước tiến mới cho điện ảnh Hàn."
+  - "Bộ phim sử dụng công nghệ virtual production tiên tiến và đã bán trước bản quyền cho khoảng 200 quốc gia trên toàn thế giới."
+  - "Đạo diễn Na Hong-jin ('The Chaser', 'The Wailing') trở lại sau gần 10 năm vắng bóng, khẳng định vị thế của dòng phim kinh dị Hàn trên bản đồ điện ảnh toàn cầu."
 keywords: ["Na Hong-jin", "Hope", "box office", "1 triệu khán giả", "phim Hàn Quốc", "KOFIC", "Cannes", "Hwang Jung-min", "Zo In-sung", "kỷ lục phòng vé"]
 date: 2026-07-17T04:30:10Z
 lastmod: 2026-07-17

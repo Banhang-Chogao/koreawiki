@@ -44,7 +44,8 @@
         {{ end }}
       </figure>
       {{ end }}
-      {{ if .Description }}
+      {{ $points := .Params.summaries | default (slice .Description) }}
+      {{ if $points }}
       <h2 id="tom-tat-bai-viet" class="visually-hidden">Tóm tắt bài viết</h2>
       <details class="ai-summary" open>
         <summary class="ai-summary__header">
@@ -52,9 +53,8 @@
           <span class="ai-summary__toggle" data-open="Thu gọn" data-close="Mở rộng"></span>
         </summary>
         <ul class="ai-summary__list">
-          {{ $sentences := split .Description ". " }}
-          {{ range first 5 $sentences }}
-          <li>{{ . | safeHTML }}{{ if not (or (hasSuffix . ".") (hasSuffix . "!")) }}.{{ end }}</li>
+          {{ range $points }}
+          <li>{{ . | safeHTML }}</li>
           {{ end }}
         </ul>
       </details>

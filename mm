@@ -291,7 +291,31 @@ def extract_keywords(title, paragraphs, n=5):
     sorted_words = sorted(freq.items(), key=lambda x: -x[1])
     return [w for w, c in sorted_words[:n]]
 
-def generate_frontmatter(title, section, tags, summary, slug, cover, author, pub_date):
+def generate_summary_points(paragraphs, n=5):
+    """Extract bullet-point summary from translated paragraphs."""
+    points = []
+    skip_phrases = [
+        "bài viết này", "đón đọc thêm", "theo dõi", "đừng quên",
+        "hãy cùng", "cùng tìm hiểu", "trong bài viết này",
+    ]
+    for para in paragraphs:
+        para = para.strip()
+        if len(para) < 40:
+            continue
+        # Take first sentence
+        sent = re.split(r'(?<=[.!?])\s+', para)[0].strip()
+        sent = sent.strip('"\'"''"''"')
+        if len(sent) < 20:
+            continue
+        if any(p in sent.lower() for p in skip_phrases):
+            continue
+        if sent not in points:
+            points.append(sent)
+        if len(points) >= n:
+            break
+    return points
+
+def generate_frontmatter(title, section, tags, summary, slug, cover, author, pub_date, summary_list=None):
     d = pub_date if pub_date else datetime.now().strftime("%Y-%m-%d")
     # truncate summary for markdown lint (<200 chars per line)
     max_desc = 120
@@ -313,6 +337,9 @@ showToc: true
 readingTime: true
 slug: {slug}
 '''
+    if summary_list:
+        sum_yaml = '\n'.join(f'  - "{s.strip().replace(chr(34), chr(39))}"' for s in summary_list if s.strip())
+        fm += f'summaries:\n{sum_yaml}\n'
     if cover:
         cap = title.replace('"', "'")
         fm += f'cover:\n  image: "{cover}"\n  alt: "{cap}"\n'
@@ -565,7 +592,9 @@ def main():
     if section in ("kdrama", "kpop", "culture", "news"):
         summary = f"{title_dest} — tin tức giải trí Hàn Quốc mới nhất trên KoreaWiki. Biên dịch sang tiếng Việt, chuẩn SEO và Google Adsense."
 
-    frontmatter = generate_frontmatter(title_dest, section, tags, summary, slug, cover_rel, author, pub_date)
+    summary_points = generate_summary_points(translated_paras)
+
+    frontmatter = generate_frontmatter(title_dest, section, tags, summary, slug, cover_rel, author, pub_date, summary_list=summary_points)
     body = generate_body(title_dest, section, translated_paras, local_images, author, pub_date, source_url=url)
     content = frontmatter + '\n' + body
 

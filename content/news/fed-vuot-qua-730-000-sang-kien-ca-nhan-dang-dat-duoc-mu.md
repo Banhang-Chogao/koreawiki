@@ -1,6 +1,12 @@
 ---
 title: Yeonjun (TXT) đạt 738.000 bản tuần đầu — Kỷ lục solo mới cho năm 2026
 description: 'Yeonjun (TXT) lập kỷ lục solo với mini album thứ hai ''NO LABELS: PART 02'' — 738.072 bản tuần đầu, áp đảo mọi nghệ sĩ solo Hàn Quốc năm 2026.'
+summaries:
+  - "Yeonjun (TXT) thiết lập kỷ lục solo mới năm 2026 với 738.072 bản bán ra trong tuần đầu (Hanteo) — tăng 50% so với album trước."
+  - "Ca khúc chủ đề 'Ice Cream' theo thể loại funk-rock đạt hơn 20 triệu lượt xem YouTube sau 6 ngày, gây sốt trên các nền tảng mạng xã hội."
+  - "Mini album thứ hai 'NO LABELS: PART 02' gồm 6 ca khúc, Yeonjun trực tiếp tham gia biên đạo và viết lời, khẳng định màu sắc nghệ thuật cá nhân."
+  - "Từ 'GGUM' (2024) đến 'NO LABELS: PART 01' (2025) và PART 02 (2026) — hành trình solo của Yeonjun ghi nhận sự tăng trưởng vượt bậc qua từng sản phẩm."
+  - "Yeonjun sẽ biểu diễn trên chương trình Good Morning America (ABC) ngày 7/8/2026 — nghệ sĩ solo K-pop thứ hai sau Jungkook xuất hiện trên show này."
 keywords:
 - Yeonjun
 - TXT
