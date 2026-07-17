@@ -87,16 +87,9 @@ static/        → Static assets (images, fonts, favicon)
 
 ### mm — Vietnamese Blog Generator
 
-Rewrites any article from any language into a Vietnamese Hugo blog post with:
-- Full frontmatter (title, description, tags, categories, slug, date)
-- SEO-optimized structure (H2 content sections)
-- Google Adsense compliant formatting
-- Auto-detects section from content keywords
-- Translates via MyMemory API (free, en→vi)
-- Downloads all images → converts to WebP
-- Auto-extracts Korean→Vietnamese into Translation Memory
+See `shortcuts.md` for the complete agent-agnostic workflow.
 
-**Requires:** `pip install requests`
+**Requires:** `pip install requests Pillow`
 
 ### Glossary — Translation Memory
 
