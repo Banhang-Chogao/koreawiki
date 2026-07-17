@@ -1,7 +1,4 @@
 {{ $mainJS := resources.Get "js/main.js" | minify | fingerprint }}
 <script src="{{ $mainJS.RelPermalink }}" integrity="{{ $mainJS.Data.Integrity }}" crossorigin="anonymous" defer></script>
-{{ if .Site.Params.search }}
-<script src="{{ "pagefind/pagefind.js" | relURL }}" defer></script>
 {{ $searchJS := resources.Get "js/search.js" | minify | fingerprint }}
 <script src="{{ $searchJS.RelPermalink }}" integrity="{{ $searchJS.Data.Integrity }}" crossorigin="anonymous" defer></script>
-{{ end }}

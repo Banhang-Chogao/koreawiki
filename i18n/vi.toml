@@ -7,7 +7,71 @@ other = "Tìm kiếm KoreaWiki..."
 [close_search]
 other = "Đóng tìm kiếm"
 [search_hint]
-other = "Nhập từ khóa để tìm kiếm."
+other = "Gõ để tìm bài viết..."
+[search_advanced_hint]
+other = "Thử: tag:topik · year:2026 · author:Kim · title:grammar"
+[suggestions]
+other = "Gợi ý"
+[autocomplete]
+other = "Hoàn thành"
+[filter_by_section]
+other = "Lọc theo mục"
+[sort_results]
+other = "Sắp xếp"
+[sort_relevant]
+other = "Liên quan"
+[sort_newest]
+other = "Mới nhất"
+[sort_oldest]
+other = "Cũ nhất"
+[search_results]
+other = "Kết quả tìm kiếm"
+[recent_searches]
+other = "Tìm kiếm gần đây"
+[clear_history]
+other = "Xóa lịch sử"
+[clear]
+other = "Xóa"
+[popular_searches]
+other = "Tìm kiếm phổ biến"
+[no_results]
+other = "Không tìm thấy kết quả"
+[no_results_hint]
+other = "Thử từ khóa khác hoặc duyệt danh mục bên trên"
+[powered_by]
+other = "Cung cấp bởi"
+[all]
+other = "Tất cả"
+[food]
+other = "Ẩm thực"
+[travel]
+other = "Du lịch"
+[tv]
+other = "TV"
+[fashion]
+other = "Thời trang"
+[exclusive]
+other = "Độc quyền"
+[news]
+other = "Tin tức"
+[feature]
+other = "Bài đặc sắc"
+[artist]
+other = "Nghệ sĩ"
+[kpop]
+other = "K-Pop"
+[movies]
+other = "Phim ảnh"
+[kdrama]
+other = "K-Drama"
+[culture]
+other = "Văn hóa"
+[photos]
+other = "Ảnh"
+[videos]
+other = "Video"
+[opinion]
+other = "Ý kiến"
 [toggle_menu]
 other = "Chuyển menu"
 [toggle_theme]

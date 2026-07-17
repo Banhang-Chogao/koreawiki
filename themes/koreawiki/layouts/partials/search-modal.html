@@ -1,67 +1,93 @@
-<div class="search-overlay" data-search-overlay role="dialog" aria-modal="true" aria-label="{{ T "search" | default "Search" }}" data-pagefind-ignore>
+<div class="search-overlay" data-search-overlay role="dialog" aria-modal="true" aria-hidden="true" aria-label="{{ T "search" | default "Search" }}">
   <div class="search-modal">
     <div class="search-header">
-      <form class="search-form" role="search" action="/" method="get">
-        <svg class="search-form-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-        </svg>
-        <label for="search-input" class="sr-only">{{ T "search" | default "Search" }}</label>
-        <input type="search" id="search-input" class="search-form-input"
-          placeholder="{{ T "search_placeholder" | default "Search articles... (category:news, tag:topik, year:2026)" }}"
-          autocomplete="off" autocorrect="off" spellcheck="false"
-          aria-controls="search-results" aria-activedescendant=""
-          data-search-input />
-        <button type="button" class="search-close-btn" data-search-close aria-label="{{ T "close_search" | default "Close search" }}">
+      <div class="search-form" role="search">
+        <svg class="search-form-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <input
+          type="search"
+          id="search-input"
+          class="search-input"
+          placeholder="{{ T "search_placeholder" | default "Search KoreaWiki..." }}"
+          autocomplete="off"
+          autocorrect="off"
+          autocapitalize="off"
+          spellcheck="false"
+          enterkeyhint="search"
+          aria-controls="search-results-list"
+          aria-autocomplete="list"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          role="combobox"
+        >
+        <button type="button" class="search-close" data-search-close aria-label="{{ T "close_search" | default "Close search" }}">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
         </button>
-      </form>
-      <div class="search-filters-mobile">
-        <button type="button" class="search-filter-btn" data-filter-toggle>Filters <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
-        <select class="search-filter-select" data-filter="category">
-          <option value="">All categories</option>
-          {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-          <option value="{{ $name | urlize }}">{{ $name | humanize }}</option>
-          {{ end }}
-        </select>
-        <select class="search-filter-select" data-filter="sort">
-          <option value="relevance">Relevance</option>
-          <option value="newest">Newest</option>
-          <option value="oldest">Oldest</option>
-        </select>
       </div>
+      <div class="search-suggest" data-search-suggest hidden role="listbox" aria-label="{{ T "suggestions" | default "Suggestions" }}"></div>
     </div>
-    <div class="search-body" data-search-results id="search-results" role="listbox" aria-label="Search results">
-      <div class="search-hint">
-        <p>{{ T "search_hint" | default "Type to search across all articles..." }}</p>
-        <div class="search-shortcuts">
-          <span><kbd>↑</kbd><kbd>↓</kbd> {{ T "navigate" | default "Navigate" }}</span>
-          <span><kbd>Enter</kbd> {{ T "select" | default "Select" }}</span>
-          <span><kbd>Tab</kbd> {{ T "autocomplete" | default "Autocomplete" }}</span>
-          <span><kbd>Esc</kbd> {{ T "close" | default "Close" }}</span>
+    <div class="search-body" data-search-results>
+      <div class="search-empty-state" data-search-empty>
+        <div class="search-recent" data-search-recent>
+          <div class="search-recent-header">
+            <span>{{ T "recent_searches" | default "Recent searches" }}</span>
+            <button type="button" class="search-clear-btn" data-search-clear aria-label="{{ T "clear_history" | default "Clear history" }}">{{ T "clear" | default "Clear" }}</button>
+          </div>
+          <div class="search-recent-list" data-search-recent-list></div>
+        </div>
+        <div class="search-popular" data-search-popular>
+          <div class="search-recent-header">
+            <span>{{ T "popular_searches" | default "Popular searches" }}</span>
+          </div>
+          <div class="search-recent-list" data-search-popular-list></div>
+        </div>
+        <div class="search-hint">
+          <p>{{ T "search_hint" | default "Type to search articles..." }}</p>
+          <div class="search-shortcuts">
+            <span><kbd>&uarr;</kbd><kbd>&darr;</kbd> {{ T "navigate" | default "Navigate" }}</span>
+            <span><kbd>Enter</kbd> {{ T "select" | default "Select" }}</span>
+            <span><kbd>Tab</kbd> {{ T "autocomplete" | default "Complete" }}</span>
+            <span><kbd>Esc</kbd> {{ T "close" | default "Close" }}</span>
+          </div>
+          <p class="search-advanced-hint">{{ T "search_advanced_hint" | default "Try: tag:topik · year:2026 · author:Kim · title:grammar" }}</p>
         </div>
       </div>
-    </div>
-    <div class="search-footer">
-      <div class="search-filter-desktop">
-        <select class="search-select" data-filter="category">
-          <option value="">Category: All</option>
-          {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-          <option value="{{ $name | urlize }}">{{ $name | humanize }}</option>
-          {{ end }}
-        </select>
-        <select class="search-select" data-filter="year">
-          <option value="">Year: All</option>
-          {{ range .Site.Pages.GroupByDate "2006" }}
-          <option value="{{ .Key }}">{{ .Key }}</option>
-          {{ end }}
-        </select>
-        <select class="search-select" data-filter="sort">
-          <option value="relevance">Sort: Relevance</option>
-          <option value="newest">Sort: Newest</option>
-          <option value="oldest">Sort: Oldest</option>
-        </select>
-        <button type="button" class="search-clear-btn" data-history-clear aria-label="Clear history">Clear history</button>
+      <div class="search-toolbar">
+        <div class="search-filters" data-search-filters role="toolbar" aria-label="{{ T "filter_by_section" | default "Filter by section" }}">
+          <button type="button" class="search-filter-btn active" data-filter="all">{{ T "all" | default "All" }}</button>
+          <button type="button" class="search-filter-btn" data-filter="exclusive">{{ T "exclusive" | default "Exclusive" }}</button>
+          <button type="button" class="search-filter-btn" data-filter="news">{{ T "news" | default "News" }}</button>
+          <button type="button" class="search-filter-btn" data-filter="feature">{{ T "feature" | default "Feature" }}</button>
+          <button type="button" class="search-filter-btn" data-filter="artist">{{ T "artist" | default "Artist" }}</button>
+          <button type="button" class="search-filter-btn" data-filter="kpop">{{ T "kpop" | default "K-Pop" }}</button>
+          <button type="button" class="search-filter-btn" data-filter="kdrama">{{ T "kdrama" | default "K-Drama" }}</button>
+          <button type="button" class="search-filter-btn" data-filter="movies">{{ T "movies" | default "Movies" }}</button>
+          <button type="button" class="search-filter-btn" data-filter="culture">{{ T "culture" | default "Culture" }}</button>
+          <button type="button" class="search-filter-btn" data-filter="food">{{ T "food" | default "Food" }}</button>
+          <button type="button" class="search-filter-btn" data-filter="travel">{{ T "travel" | default "Travel" }}</button>
+          <button type="button" class="search-filter-btn" data-filter="tv">{{ T "tv" | default "TV" }}</button>
+          <button type="button" class="search-filter-btn" data-filter="opinion">{{ T "opinion" | default "Opinion" }}</button>
+          <button type="button" class="search-filter-btn" data-filter="fashion">{{ T "fashion" | default "Fashion" }}</button>
+          <button type="button" class="search-filter-btn" data-filter="photos">{{ T "photos" | default "Photos" }}</button>
+          <button type="button" class="search-filter-btn" data-filter="videos">{{ T "videos" | default "Videos" }}</button>
+        </div>
+        <div class="search-sort" data-search-sort role="toolbar" aria-label="{{ T "sort_results" | default "Sort results" }}">
+          <button type="button" class="search-filter-btn active" data-sort="relevant">{{ T "sort_relevant" | default "Relevant" }}</button>
+          <button type="button" class="search-filter-btn" data-sort="newest">{{ T "sort_newest" | default "Newest" }}</button>
+          <button type="button" class="search-filter-btn" data-sort="oldest">{{ T "sort_oldest" | default "Oldest" }}</button>
+        </div>
       </div>
+      <div class="search-results-list" id="search-results-list" data-search-results-list role="listbox" aria-label="{{ T "search_results" | default "Search results" }}"></div>
+      <div class="search-no-results" data-search-no-results hidden>
+        <p>{{ T "no_results" | default "No results found" }}</p>
+        <p class="search-no-results-hint">{{ T "no_results_hint" | default "Try different keywords or browse categories above" }}</p>
+      </div>
+    </div>
+    <div class="search-footer" data-search-footer>
+      <span class="search-footer-item"><kbd>&uarr;&darr;</kbd> {{ T "navigate" | default "Navigate" }}</span>
+      <span class="search-footer-item"><kbd>Enter</kbd> {{ T "select" | default "Select" }}</span>
+      <span class="search-footer-item"><kbd>Tab</kbd> {{ T "autocomplete" | default "Complete" }}</span>
+      <span class="search-footer-item"><kbd>Esc</kbd> {{ T "close" | default "Close" }}</span>
+      <span class="search-footer-item search-footer-powered">{{ T "powered_by" | default "Powered by" }} Pagefind</span>
     </div>
   </div>
 </div>

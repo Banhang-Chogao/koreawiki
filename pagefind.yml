@@ -1,0 +1,11 @@
+site: public
+glob: "**/*.{html}"
+exclude_selectors:
+  - "[data-pagefind-ignore]"
+  - "nav"
+  - "header"
+  - "footer"
+  - ".skip-link"
+  - "script"
+  - "style"
+quiet: false

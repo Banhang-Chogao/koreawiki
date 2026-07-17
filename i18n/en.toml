@@ -7,7 +7,71 @@ other = "Search KoreaWiki..."
 [close_search]
 other = "Close search"
 [search_hint]
-other = "Type to search..."
+other = "Type to search articles..."
+[search_advanced_hint]
+other = "Try: tag:topik · year:2026 · author:Kim · title:grammar"
+[suggestions]
+other = "Suggestions"
+[autocomplete]
+other = "Complete"
+[filter_by_section]
+other = "Filter by section"
+[sort_results]
+other = "Sort results"
+[sort_relevant]
+other = "Relevant"
+[sort_newest]
+other = "Newest"
+[sort_oldest]
+other = "Oldest"
+[search_results]
+other = "Search results"
+[recent_searches]
+other = "Recent searches"
+[clear_history]
+other = "Clear history"
+[clear]
+other = "Clear"
+[popular_searches]
+other = "Popular searches"
+[no_results]
+other = "No results found"
+[no_results_hint]
+other = "Try different keywords or browse categories above"
+[powered_by]
+other = "Powered by"
+[all]
+other = "All"
+[food]
+other = "Food"
+[travel]
+other = "Travel"
+[tv]
+other = "TV"
+[fashion]
+other = "Fashion"
+[exclusive]
+other = "Exclusive"
+[news]
+other = "News"
+[feature]
+other = "Feature"
+[artist]
+other = "Artist"
+[kpop]
+other = "K-Pop"
+[movies]
+other = "Movies"
+[kdrama]
+other = "K-Drama"
+[culture]
+other = "Culture"
+[photos]
+other = "Photos"
+[videos]
+other = "Videos"
+[opinion]
+other = "Opinion"
 [toggle_menu]
 other = "Toggle menu"
 [toggle_theme]
