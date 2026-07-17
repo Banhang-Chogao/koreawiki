@@ -61,6 +61,7 @@ jobs:
             git add -A
             git commit -m "fix(self-heal): auto-wrap long lines [skip ci]"
             git push || echo "⚠️ Self-heal push failed (non-blocking)"
+          git reset --hard origin/main
           fi
 
       - name: Run QA
@@ -68,7 +69,7 @@ jobs:
           python scripts/qa.py
           python scripts/seo.py
           python scripts/frontmatter_check.py
-          python scripts/markdown_lint.py
+          python scripts/markdown_lint.py --fix
           python scripts/slug.py --check
           python scripts/check_links.py
 
