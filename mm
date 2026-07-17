@@ -172,7 +172,7 @@ def extract_images(html, base_url):
             urls.append(abs_src)
     return urls[:MAX_IMG]
 
-def download_webp(img_url, date_dir):
+def download_webp(img_url, date_dir, salt=""):
     try:
         r = requests.get(img_url, headers={"User-Agent": UA}, timeout=20)
         r.raise_for_status()
@@ -180,7 +180,7 @@ def download_webp(img_url, date_dir):
         if len(data) < 5000:
             return None
         img = Image.open(BytesIO(data))
-        h = hashlib.md5(img_url.encode()).hexdigest()[:12]
+        h = hashlib.md5((salt + img_url).encode()).hexdigest()[:12]
         path = date_dir / f"mm-{h}.webp"
         if path.exists():
             return path
@@ -497,7 +497,7 @@ def main():
         for img_url in img_urls:
             sys.stdout.write(f"   ↓ {Path(img_url).name[:40]:40s} ")
             sys.stdout.flush()
-            path = download_webp(img_url, date_dir)
+            path = download_webp(img_url, date_dir, salt=title)
             if path:
                 rel = path.relative_to(ROOT / "static")
                 local_images.append(str(rel))
