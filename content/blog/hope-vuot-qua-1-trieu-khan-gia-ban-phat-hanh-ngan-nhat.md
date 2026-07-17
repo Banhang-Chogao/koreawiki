@@ -215,9 +215,7 @@ external:
     url: "https://www.screendaily.com/news/na-hong-jins-hope-opens-strongly-in-south-korea-after-breaking-pre-sale-records/5218675.article"
   - title: "The Korea Times — Record-budget sci-fi Hope"
     url: "https://www.koreatimes.co.kr/entertainment/films/20260706/record-budget-sci-fi-hope-gears-up-for-local-theaters-after-cannes"
-internal:
-  - title: "Phim 'Hope' thu hút 330.000 khán giả ngày đầu công chiếu"
-    url: "news/hope-huy-dong-330000-vao-ngay-dau-tien-diem-mo-dau-hang-dau-cua-nam-cong-van-tin-tuc-la-su-that/"
+internal: []
 faq:
   - q: "Phim 'Hope' đạt 1 triệu khán giả trong bao lâu?"
     a: "Phim đạt 1.003.960 khán giả sau 3 ngày công chiếu (tính đến 12 giờ trưa ngày 17/7/2026), nhanh nhất trong số các phim phát hành năm 2026."
