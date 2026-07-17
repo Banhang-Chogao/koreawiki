@@ -35,8 +35,9 @@ MAX_IMG = 10
 
 SECTIONS = {
     "blog": "Blog", "kdrama": "K-Drama", "kpop": "K-Pop",
-    "news": "News", "culture": "Culture", "history": "History",
+    "news": "News", "culture": "Culture",
     "society": "Society", "travel": "Travel", "food": "Food",
+    "kien-truc": "KIẾN TRÚC",
 }
 
 UA = "Mozilla/5.0 (compatible; KoreaWikiBot/1.0)"
@@ -494,6 +495,10 @@ def main():
         pub_date = None
     else:
         print("❌ Cần URL hoặc --text"); sys.exit(1)
+
+    # Auto-detect: archdaily.com → KIẾN TRÚC
+    if url and "archdaily.com" in url.lower():
+        section = "kien-truc"
 
     if not section:
         section = auto_detect_section(title, body_text)
