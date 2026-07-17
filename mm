@@ -278,10 +278,13 @@ def extract_keywords(title, paragraphs, n=5):
 
 def generate_frontmatter(title, section, tags, summary, slug, cover, author, pub_date):
     d = pub_date if pub_date else datetime.now().strftime("%Y-%m-%d")
+    # truncate summary for markdown lint (<200 chars per line)
+    max_desc = 120
+    desc = (summary[:max_desc-3] + "...") if len(summary) > max_desc else summary
     tags_yaml = '\n'.join(f'  - "{t}"' for t in tags)
     fm = f'''---
 title: "{title}"
-description: "{summary}"
+description: "{desc}"
 keywords: [{', '.join(f'"{t}"' for t in tags)}]
 date: {d}
 lastmod: {datetime.now().strftime("%Y-%m-%d")}
@@ -317,8 +320,9 @@ def generate_body(title, section, paragraphs, image_refs, author, pub_date):
     ]
 
     if image_refs:
+        cap = (title[:40] + "...") if len(title) > 40 else title
         lines += [
-            f"{{{{< figure src=\"{image_refs[0]}\" alt=\"{title}\" caption=\"Ảnh minh họa: {title}\" >}}}}",
+            f"{{{{< figure src=\"{image_refs[0]}\" alt=\"{cap}\" caption=\"Ảnh minh họa\" >}}}}",
             f"",
         ]
 
@@ -340,7 +344,7 @@ def generate_body(title, section, paragraphs, image_refs, author, pub_date):
         p = para.strip()
         if len(p) < 20:
             continue
-        lines.append(textwrap.fill(p, width=180, break_long_words=False) if len(p) > 190 else p)
+        lines.append(textwrap.fill(p, width=140, break_long_words=False) if len(p) > 150 else p)
         lines.append("")
         para_count += 1
         # embed an image every 3 paragraphs if we have more
@@ -488,8 +492,8 @@ def main():
     # Slug from translated title (clean site suffixes first)
     slug_source = re.sub(r'\s*[|│•\-–—].*$', '', title_dest).strip()
     slug = vi_slug(slug_source) if len(slug_source) > 2 else vi_slug(title_dest)
+    slug = slug[:55].rstrip('-') if len(slug) > 55 else slug
     if len(slug) < 3:
-        # fallback: use hash of title
         slug = hashlib.md5(title.encode()).hexdigest()[:8]
 
     # Keep only substantial paragraphs
