@@ -34,12 +34,10 @@ DEFAULT_SECTION = "blog"
 MIN_WORDS = 2000
 
 SECTIONS = {
-    "blog": "Blog", "kdrama": "K-Drama", "kpop": "K-Pop",
-    "news": "News", "culture": "Culture", "history": "History",
+    "news": "News", "kdrama": "K-Drama", "kpop": "K-Pop",
+    "culture": "Culture", "history": "History",
     "society": "Society", "travel": "Travel", "food": "Food",
-    "grammar": "Grammar", "vocabulary": "Vocabulary", "topik": "TOPIK",
-    "listening": "Listening", "reading": "Reading", "speaking": "Speaking",
-    "writing": "Writing", "tools": "Tools", "hanja": "Hanja",
+    "blog": "Blog",
 }
 
 UA = "Mozilla/5.0 (compatible; KoreaWikiBot/1.0)"

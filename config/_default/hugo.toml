@@ -1,6 +1,6 @@
 baseURL = "https://banhang-chogao.github.io/koreawiki"
 languageCode = "en"
-title = "KoreaWiki — Learn Korean Language & Culture"
+title = "KoreaWiki — Korean Entertainment & Culture Hub"
 theme = "koreawiki"
 enableRobotsTXT = true
 enableGitInfo = true
@@ -53,9 +53,9 @@ copyright = "Copyright © {currentYear} KoreaWiki. All rights reserved."
     notAlternative = true
 
 [params]
-  description = "Your comprehensive wiki for learning Korean language, grammar, vocabulary, TOPIK, and culture."
+  description = "Your ultimate source for Korean entertainment — K-Drama, K-Pop, celebrity news, culture, and lifestyle."
   author = "KoreaWiki Team"
-  keywords = ["Korean", "language", "learn Korean", "TOPIK", "K-drama", "K-pop", "Korean grammar", "Korean vocabulary", "한국어"]
+  keywords = ["K-drama", "K-pop", "Korean entertainment", "Korea news", "Korean culture", "Hallyu", "dispatch"]
   images = ["/images/og-default.png"]
 
   twitter = "@koreawiki"
@@ -82,41 +82,41 @@ copyright = "Copyright © {currentYear} KoreaWiki. All rights reserved."
     languageCode = "en"
     languageName = "English"
     weight = 1
-    title = "KoreaWiki — Learn Korean Language & Culture"
+    title = "KoreaWiki — Korean Entertainment & Culture Hub"
     [languages.en.params]
-      description = "Your comprehensive wiki for learning Korean language, grammar, vocabulary, TOPIK, and culture."
+      description = "Your ultimate source for Korean entertainment — K-Drama, K-Pop, celebrity news, culture, and lifestyle."
 
   [languages.ko]
     languageCode = "ko"
     languageName = "한국어"
     weight = 2
-    title = "KoreaWiki — 한국어와 한국 문화 배우기"
+    title = "KoreaWiki — 한국 연예 & 문화 허브"
     [languages.ko.params]
-      description = "한국어, 문법, 어휘, 문화를 배우는 종합 위키입니다."
+      description = "K-드라마, K-팝, 연예 뉴스, 문화, 라이프스타일 — 한국 콘텐츠의 모든 것."
 
   [languages.vi]
     languageCode = "vi"
     languageName = "Tiếng Việt"
     weight = 3
-    title = "KoreaWiki — Học Tiếng Hàn & Văn Hóa Hàn Quốc"
+    title = "KoreaWiki — K-Lifestyle & Giải Trí Hàn Quốc"
     [languages.vi.params]
-      description = "Wiki toàn diện học tiếng Hàn, ngữ pháp, từ vựng và văn hóa Hàn Quốc."
+      description = "Tin tức giải trí Hàn Quốc — K-Drama, K-Pop, tin tức sao, văn hóa, ẩm thực và phong cách sống."
 
 [menu]
   [[menu.main]]
-    identifier = "grammar"
-    name = "Grammar"
-    url = "/grammar/"
+    identifier = "kdrama"
+    name = "K-Drama"
+    url = "/kdrama/"
     weight = 1
   [[menu.main]]
-    identifier = "vocabulary"
-    name = "Vocabulary"
-    url = "/vocabulary/"
+    identifier = "kpop"
+    name = "K-Pop"
+    url = "/kpop/"
     weight = 2
   [[menu.main]]
-    identifier = "topik"
-    name = "TOPIK"
-    url = "/topik/"
+    identifier = "news"
+    name = "News"
+    url = "/news/"
     weight = 3
   [[menu.main]]
     identifier = "culture"
@@ -134,15 +134,20 @@ copyright = "Copyright © {currentYear} KoreaWiki. All rights reserved."
     url = "/food/"
     weight = 6
   [[menu.main]]
-    identifier = "kdrama"
-    name = "K-Drama"
-    url = "/kdrama/"
-    weight = 7
-  [[menu.main]]
     identifier = "history"
     name = "History"
     url = "/history/"
+    weight = 7
+  [[menu.main]]
+    identifier = "society"
+    name = "Society"
+    url = "/society/"
     weight = 8
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 9
 
   [[menu.footer]]
     identifier = "about"

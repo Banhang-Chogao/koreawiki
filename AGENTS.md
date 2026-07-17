@@ -2,7 +2,7 @@
 
 ## Project
 
-Hugo static site on GitHub Pages.
+Hugo static site on GitHub Pages — Korean entertainment & culture hub (K-Drama, K-Pop, celebrity news, lifestyle).
 BaseURL: `https://banhang-chogao.github.io/koreawiki`
 Theme: `themes/koreawiki/` (custom)
 
