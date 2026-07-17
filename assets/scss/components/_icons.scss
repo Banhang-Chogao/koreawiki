@@ -1,0 +1,38 @@
+.sdna-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1.5px solid;
+  flex: none;
+  line-height: 1;
+  transition: transform .25s var(--ease-out), box-shadow .2s ease, background .2s ease, border-color .2s ease;
+}
+
+.sdna-icon--blue   { color: var(--color-primary); }
+.sdna-icon--purple { color: var(--color-secondary); }
+.sdna-icon--amber  { color: var(--color-gold); }
+.sdna-icon--red    { color: var(--color-accent); }
+.sdna-icon--green  { color: var(--color-success); }
+
+.sdna-icon--lg { width: 40px; height: 40px; }
+.sdna-icon--sm { width: 24px; height: 24px; }
+.sdna-icon--xs { width: 18px; height: 18px; }
+
+.sdna-icon-wrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  line-height: 1;
+}
+
+.footer-tagline-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1em;
+  line-height: 1;
+}

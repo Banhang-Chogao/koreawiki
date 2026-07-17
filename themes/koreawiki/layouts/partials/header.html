@@ -1,6 +1,14 @@
 <header class="site-header" role="banner" data-pagefind-ignore>
   <div class="header-inner">
-    <a href="{{ "" | relLangURL }}" class="header-brand">KoreaWiki</a>
+    <a href="{{ "" | relLangURL }}" class="header-brand">
+      <span class="header-brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="30" height="30" fill="none" role="img">
+          <rect x="1" y="1" width="30" height="30" rx="7" fill="#2563eb"/>
+          <text x="16" y="21" text-anchor="middle" fill="#fff" font-family="system-ui" font-weight="800" font-size="17">K</text>
+        </svg>
+      </span>
+      <span class="header-brand-text">KoreaWiki</span>
+    </a>
     <div class="header-center">
       <button class="header-nav-toggle" aria-label="{{ T "toggle_menu" | default "Toggle menu" }}" aria-expanded="false">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>

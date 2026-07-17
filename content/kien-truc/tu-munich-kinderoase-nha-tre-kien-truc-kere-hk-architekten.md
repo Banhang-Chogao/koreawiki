@@ -26,6 +26,23 @@ summaries:
 cover:
   image: "images/2026-07-18/mm-ac01335dd1b5.webp"
   alt: "TU Munich Kinderoase Nhà trẻ /Kiến trúc Kéré + HK Architekten"
+source_url: "https://www.archdaily.com/en/1054059/munich-kinderoase-kindergarten-kere-architecture-plus-hk-architekten-hermann-kaufmann-plus-partner-zt"
+source_label: "ArchDaily"
+internal_links:
+  - title: "Nhà Anjung – Kiến trúc sư Eleena Jamil"
+    url: "/kien-truc/nha-anjung-kien-truc-su-eleena-jamil/"
+external_links:
+  - title: "ArchDaily — TU Munich Kinderoase / Kéré Architecture + HK Architekten"
+    url: "https://www.archdaily.com/en/1054059/munich-kinderoase-kindergarten-kere-architecture-plus-hk-architekten-hermann-kaufmann-plus-partner-zt"
+  - title: "TUM — First permanent Kéré building in Europe"
+    url: "https://www.tum.de/en/news-and-events/all-news/press-releases/details/first-permanent-building-in-europe-by-star-architect-and-tum-professor-francis-kere"
+faq:
+  - q: "Kinderoase có nghĩa là gì?"
+    a: "Kinderoase trong tiếng Đức có nghĩa là 'ốc đảo trẻ thơ' — một trung tâm giữ trẻ trong khuôn viên Đại học Kỹ thuật Munich (TUM)."
+  - q: "Ai là kiến trúc sư của công trình?"
+    a: "Công trình do Kéré Architecture (Diébédo Francis Kéré) thiết kế, phối hợp với HK Architekten (Hermann Kaufmann) về thi công gỗ."
+  - q: "Công trình có quy mô thế nào?"
+    a: "Tòa nhà 5 tầng, diện tích 1540 m², phục vụ 60 trẻ em, được xây dựng gần như hoàn toàn bằng gỗ."
 ---
 
 ## Tổng quan
