@@ -148,13 +148,27 @@ def extract_body_text(html):
 
     return result
 
+def extract_body_html(html):
+    """Get article body HTML (same logic as extract_body_text, keeps tags)."""
+    m = re.search(r'<article[^>]*>(.*?)</article>', html, re.DOTALL)
+    body = m.group(1) if m else html
+    if not m:
+        m2 = re.search(r'<main[^>]*>(.*?)</main>', html, re.DOTALL)
+        if m2: body = m2.group(1)
+    if not m and not m2:
+        m3 = re.search(r'<div[^>]*class=["\'][^"\']*(?:post-content|entry-content|article-body|article-content|story-body)[^"\']*["\'][^>]*>(.*?)</div>', html, re.DOTALL)
+        if m3: body = m3.group(1)
+    return body
+
 def extract_images(html, base_url):
-    imgs = re.findall(r'<img[^>]+src\s*=\s*["\']([^"\'\s]+)["\']', html, re.I)
-    imgs += re.findall(r'<img[^>]+src\s*=\s*([^\s>"\']+)', html)
+    """Extract images from article body HTML only."""
+    body_html = extract_body_html(html)
+    imgs = re.findall(r'<img[^>]+src\s*=\s*["\']([^"\'\s]+)["\']', body_html, re.I)
+    imgs += re.findall(r'<img[^>]+src\s*=\s*([^\s>"\']+)', body_html)
     seen = set()
     urls = []
     skip_keywords = ['logo', 'icon', 'banner', 'avatar', 'button', 'spacer',
-                     'pixel', 'tracking', 'advertising', 'ads/', 'banner',
+                     'pixel', 'tracking', 'advert',
                      'loader', 'spinner', 'placeholder', 'menu', 'search',
                      'btn', 'gnb', 'lnb', 'top_banner', 'footer']
     for src in imgs:
