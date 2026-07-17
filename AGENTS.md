@@ -77,14 +77,37 @@ static/        → Static assets (images, fonts, favicon)
 | `./mm <url>` | Rewrite article → Vietnamese blog (SEO, Adsense, ≥2000 words) |
 | `./mm <url> --section kdrama` | Specify content section |
 | `./mm <url> -h` | Help |
+| `python3 scripts/glossary.py add <kr> <vi>` | Add glossary entry |
+| `python3 scripts/glossary.py search <q>` | Search TM |
+| `python3 scripts/glossary.py merge` | Merge duplicates |
+| `python3 scripts/glossary.py validate` | Quality check |
+| `python3 scripts/glossary.py export --format csv` | Export to CSV |
+| `python3 scripts/glossary.py import <file>` | Import entries |
+| `python3 scripts/glossary.py stats` | TM statistics |
 
 ### mm — Vietnamese Blog Generator
 
 Rewrites any article from any language into a Vietnamese Hugo blog post with:
 - Full frontmatter (title, description, tags, categories, slug, date)
-- SEO-optimized structure (H2 → H3 → FAQ)
+- SEO-optimized structure (H2 content sections)
 - Google Adsense compliant formatting
-- 2000+ word target
-- Saves to `content/<section>/<slug>.md`
+- Auto-detects section from content keywords
+- Translates via MyMemory API (free, en→vi)
+- Downloads all images → converts to WebP
+- Auto-extracts Korean→Vietnamese into Translation Memory
 
 **Requires:** `pip install requests`
+
+### Glossary — Translation Memory
+
+KoreaWiki's private Korean→Vietnamese TM lives in `data/glossary/glossary.json`.
+
+| File | Purpose | Private |
+|------|---------|---------|
+| `data/glossary/glossary.json` | Master TM (all fields) | ✅ |
+| `data/glossary/public.json` | Sanitized subset for Hugo | ❌ (read by Hugo) |
+| `scripts/glossary_export/` | CSV/MD/SQLite exports | ✅ (gitignored) |
+
+**Public glossary page:** `/glossary/` — searchable table with Hangul/Vi/En search, category filter, pagination, dark mode.
+
+**Privacy:** Raw TM (frequency, source URLs, timestamps) stays in `glossary.json` — NOT exposed on public site. Hugo only reads `public.json` which contains sanitized fields.
