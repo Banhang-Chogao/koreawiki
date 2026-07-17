@@ -69,3 +69,22 @@ static/        → Static assets (images, fonts, favicon)
 - Text: `#111827`
 - Accent: `#dc2626`
 - Primary: `#1e3a5f`
+
+## Shortcuts
+
+| Command | Description |
+|---------|-------------|
+| `./mm <url>` | Rewrite article → Vietnamese blog (SEO, Adsense, ≥2000 words) |
+| `./mm <url> --section kdrama` | Specify content section |
+| `./mm <url> -h` | Help |
+
+### mm — Vietnamese Blog Generator
+
+Rewrites any article from any language into a Vietnamese Hugo blog post with:
+- Full frontmatter (title, description, tags, categories, slug, date)
+- SEO-optimized structure (H2 → H3 → FAQ)
+- Google Adsense compliant formatting
+- 2000+ word target
+- Saves to `content/<section>/<slug>.md`
+
+**Requires:** `pip install requests`
