@@ -7,7 +7,7 @@
     <article class="related-card">
       {{ if .Params.cover.image }}
       <a href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
-        <img src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" class="related-card-img" width="300" height="169" loading="lazy" />
+        <img src="{{ .Params.cover.image | relURL }}" alt="{{ .Params.cover.alt | default .Title }}" class="related-card-img" width="300" height="169" loading="lazy" />
       </a>
       {{ end }}
       <div class="related-card-body">
