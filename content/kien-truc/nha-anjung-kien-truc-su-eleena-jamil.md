@@ -195,4 +195,3 @@ Anjung là lời nhắc nhở rằng kiến trúc tốt nhất đến từ sự 
 
 ---
 
-[Đọc bài ở link gốc](https://www.archdaily.com/1042816/anjung-house-eleena-jamil-architect?ad_content=1042816&ad_medium=widget&ad_name=featured_loop_main)

@@ -63,4 +63,3 @@ Hoàn thành vào năm 2026 tại Munich, Đức. Hình ảnh của Erik Jan Ouw
 
 ---
 
-[Đọc bài ở link gốc](https://www.archdaily.com/1054059/munich-kinderoase-kindergarten-kere-architecture-plus-hk-architekten-hermann-kaufmann-plus-partner-zt)
