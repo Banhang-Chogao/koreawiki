@@ -18,7 +18,7 @@
           </a>
         </div>
         <div class="card-body">
-          {{ with .Params.categories }}{{ range first 1 . }}<span class="card-cat">{{ . }}</span>{{ end }}{{ end }}
+          {{ with .Params.categories }}{{ range first 1 . }}<span class="card-cat">{{ partial "category-icon" . }}{{ . }}</span>{{ end }}{{ end }}
           <h2 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
           {{ if .Description }}<p class="card-summary">{{ .Description }}</p>{{ end }}
           <div class="card-meta">

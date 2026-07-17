@@ -1,0 +1,15 @@
+{{- $cat := lower . -}}
+{{- $emoji := "" -}}
+{{- if in $cat "kdrama" }}{{ $emoji = "🎬 " }}{{ end -}}
+{{- if in $cat "kpop" }}{{ $emoji = "🎤 " }}{{ end -}}
+{{- if in $cat "news" }}{{ $emoji = "📰 " }}{{ end -}}
+{{- if in $cat "kiến trúc" }}{{ $emoji = "🏛️ " }}{{ end -}}
+{{- if in $cat "đời sống" }}{{ $emoji = "🌿 " }}{{ end -}}
+{{- if in $cat "travel" }}{{ $emoji = "✈️ " }}{{ end -}}
+{{- if in $cat "food" }}{{ $emoji = "🍜 " }}{{ end -}}
+{{- if in $cat "culture" }}{{ $emoji = "🎭 " }}{{ end -}}
+{{- if in $cat "lifestyle" }}{{ $emoji = "🧘 " }}{{ end -}}
+{{- if in $cat "grammar" }}{{ $emoji = "📖 " }}{{ end -}}
+{{- if in $cat "vocabulary" }}{{ $emoji = "📖 " }}{{ end -}}
+{{- if in $cat "review" }}{{ $emoji = "⭐ " }}{{ end -}}
+{{ $emoji -}}
