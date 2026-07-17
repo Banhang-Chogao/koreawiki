@@ -22,7 +22,7 @@
   <h3 class="sidebar-title">{{ T "tags" | default "Tags" }}</h3>
   <div class="sidebar-tags">
     {{ range $name, $taxonomy := first 10 $tags.ByCount }}
-    <a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}/" class="sidebar-tag">{{ $name }}</a>
+    <a href="{{ "tags/" | relLangURL }}{{ $name | urlize }}/" class="sidebar-tag">{{ $name }}</a>
     {{ end }}
   </div>
 </div>

@@ -5,10 +5,11 @@
 {{- $loading := .loading | default "lazy" -}}
 {{- $fetchpriority := .fetchpriority -}}
 {{- $class := .class -}}
-{{- $webpSrc := replaceRE "\\.(jpe?g|png)$" ".webp" $src -}}
+{{- $cleanSrc := trim $src "/" -}}
+{{- $webpSrc := replaceRE "\\.(jpe?g|png)$" ".webp" $cleanSrc -}}
 {{- $staticPath := printf "static/%s" $webpSrc -}}
 {{- $hasWebp := fileExists $staticPath -}}
-{{- $attrs := printf "src=%q alt=%q width=%q height=%q loading=%q decoding=%q" $src $alt $width $height $loading "async" -}}
+{{- $attrs := printf "src=%q alt=%q width=%q height=%q loading=%q decoding=%q" ($cleanSrc | relURL) $alt $width $height $loading "async" -}}
 {{- if $class -}}{{- $attrs = printf "%s class=%q" $attrs $class -}}{{- end -}}
 {{- if $fetchpriority -}}{{- $attrs = printf "%s fetchpriority=%q" $attrs $fetchpriority -}}{{- end -}}
 {{- if $hasWebp -}}

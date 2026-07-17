@@ -27,14 +27,13 @@
           {{ range .Site.Menus.footer }}
           <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
           {{ end }}
-          <li><a href="{{ "/glossary/" | relLangURL }}">Glossary</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
       <span>{{ replace .Site.Copyright "{currentYear}" (now.Format "2006") }}</span>
       <div class="footer-social">
-        <a href="{{ "/index.xml" | relURL }}" aria-label="RSS Feed" target="_blank" rel="noopener">
+        <a href="{{ "index.xml" | absURL }}" aria-label="RSS Feed" target="_blank" rel="noopener">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><circle cx="6" cy="18" r="3"/><path d="M4 4a16 16 0 0 1 16 16h-4A12 12 0 0 0 4 8V4zm0 8a8 8 0 0 1 8 8H8a4 4 0 0 0-4-4v-4z"/></svg>
         </a>
         <a href="https://github.com/Banhang-Chogao/koreawiki" aria-label="GitHub" target="_blank" rel="noopener">

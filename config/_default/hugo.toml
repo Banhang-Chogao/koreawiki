@@ -164,3 +164,8 @@ copyright = "Copyright © {currentYear} KoreaWiki. All rights reserved."
     name = "Privacy Policy"
     url = "/privacy/"
     weight = 3
+  [[menu.footer]]
+    identifier = "glossary"
+    name = "Glossary"
+    url = "/glossary/"
+    weight = 4

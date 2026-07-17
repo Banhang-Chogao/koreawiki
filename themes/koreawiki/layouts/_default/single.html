@@ -14,7 +14,7 @@
       <header class="article-header">
         {{ if .Params.categories }}
         {{ with .Params.categories }}{{ range first 1 . }}
-        <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}/" class="article-category">{{ . }}</a>
+        <a href="{{ "categories/" | relLangURL }}{{ . | urlize }}/" class="article-category">{{ . }}</a>
         {{ end }}{{ end }}
         {{ end }}
         <h1 class="article-title">{{ .Title }}</h1>
@@ -52,7 +52,7 @@
         <div class="article-tags">
           <span class="tags-label">{{ T "tags" | default "Tags" }}:</span>
           {{ range .Params.tags }}
-          <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/" class="tag">{{ . }}</a>
+          <a href="{{ "tags/" | relLangURL }}{{ . | urlize }}/" class="tag">{{ . }}</a>
           {{ end }}
         </div>
         {{ end }}
