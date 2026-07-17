@@ -47,7 +47,7 @@ static/        → Static assets (images, fonts, favicon)
 - No CSS transitions or animations (performance)
 - All images: `loading="lazy"` (except hero: `loading="eager" fetchpriority="high"`)
 - Cards: 16:9 aspect-ratio, 8px border-radius
-- Navbar: red background (`#e53e3e`), white text, uppercase bold
+- Navbar: Tibetan sky blue background (`#1565c0`), white text, uppercase bold
 - Maintain all URLs, SEO, RSS, sitemap, search index
 - Never break multilingual (en/ko/vi)
 - Dark mode via `data-theme="dark"` on `<html>`
@@ -65,7 +65,7 @@ static/        → Static assets (images, fonts, favicon)
 
 ## Color Reference
 
-- Navbar bg: `#e53e3e` (light), `#991b1b` (dark)
+- Navbar bg: `#1565c0` (light), `#0d47a1` (dark), hover: `#0d47a1` (light) / `#1565c0` (dark)
 - Text: `#111827`
 - Accent: `#dc2626`
 - Primary: `#1e3a5f`
