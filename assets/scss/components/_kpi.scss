@@ -1,6 +1,6 @@
 .sdna-kpi-strip {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   margin: 0 0 clamp(1.5rem, 4vw, 2.25rem);
 }
