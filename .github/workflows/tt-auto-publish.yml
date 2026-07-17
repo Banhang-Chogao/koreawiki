@@ -1,0 +1,170 @@
+name: TT Auto Publisher
+
+on:
+  schedule:
+    - cron: "0 13,15,17,19,21 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Run mode"
+        required: true
+        default: publish
+        type: choice
+        options:
+          - publish
+          - dry-run
+          - research-only
+      topic:
+        description: "Optional Vietnamese/Korean topic or Korean news URL"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: koreawiki-tt-publisher
+  cancel-in-progress: false
+
+env:
+  HUGO_VERSION: 0.126.0
+  PYTHON_VERSION: "3.12"
+  TT_OPENAI_API_KEY: ${{ secrets.TT_OPENAI_API_KEY }}
+  TT_OPENAI_MODEL: ${{ secrets.TT_OPENAI_MODEL }}
+  TT_OPENAI_BASE_URL: ${{ secrets.TT_OPENAI_BASE_URL }}
+  TT_ANTHROPIC_API_KEY: ${{ secrets.TT_ANTHROPIC_API_KEY }}
+  TT_ANTHROPIC_MODEL: ${{ secrets.TT_ANTHROPIC_MODEL }}
+  TT_GEMINI_API_KEY: ${{ secrets.TT_GEMINI_API_KEY }}
+  TT_GEMINI_MODEL: ${{ secrets.TT_GEMINI_MODEL }}
+  TT_PROVIDER: ${{ secrets.TT_PROVIDER }}
+  TT_GSC_QUERIES_JSON: ${{ secrets.TT_GSC_QUERIES_JSON }}
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout default branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: recursive
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Setup Hugo Extended
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: ${{ env.HUGO_VERSION }}
+          extended: true
+
+      - name: Install dependencies
+        run: |
+          python -m pip install pyyaml Pillow
+          npm ci
+
+      - name: Research and generate at most one article
+        id: tt
+        env:
+          TT_MODE: ${{ inputs.mode || 'publish' }}
+          TT_TOPIC: ${{ inputs.topic || '' }}
+        shell: bash
+        run: |
+          set +e
+          if [[ "$TT_MODE" == "dry-run" ]]; then
+            python3 scripts/tt.py --dry-run 2>&1 | tee /tmp/tt.log
+          elif [[ "$TT_MODE" == "research-only" ]]; then
+            python3 scripts/tt.py --research-only 2>&1 | tee /tmp/tt.log
+          elif [[ -n "$TT_TOPIC" ]]; then
+            python3 scripts/tt.py "$TT_TOPIC" 2>&1 | tee /tmp/tt.log
+          else
+            python3 scripts/tt.py 2>&1 | tee /tmp/tt.log
+          fi
+          rc=${PIPESTATUS[0]}
+          status=$(sed -n 's/^TT_STATUS=//p' /tmp/tt.log | tail -n 1)
+          slug=$(sed -n 's/^TT_SLUG=//p' /tmp/tt.log | tail -n 1)
+          article=$(sed -n 's/^TT_ARTICLE=//p' /tmp/tt.log | tail -n 1)
+          report=$(sed -n 's/^TT_REPORT=//p' /tmp/tt.log | tail -n 1)
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+          echo "slug=$slug" >> "$GITHUB_OUTPUT"
+          echo "article=$article" >> "$GITHUB_OUTPUT"
+          echo "report=$report" >> "$GITHUB_OUTPUT"
+          echo "exit_code=$rc" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Stop on research failure
+        if: steps.tt.outputs.status == 'failed' || steps.tt.outputs.exit_code != '0'
+        run: exit 1
+
+      - name: Full pre-deploy gate (ML first)
+        if: steps.tt.outputs.status == 'published'
+        run: python3 scripts/pre_deploy.py
+
+      - name: Production Hugo build
+        if: steps.tt.outputs.status == 'published'
+        run: hugo --minify --gc
+
+      - name: Post-build QA, search index and schema
+        if: steps.tt.outputs.status == 'published'
+        run: |
+          python3 scripts/pre_deploy.py --postbuild
+          npx pagefind --site public
+          python3 scripts/generate_schema.py
+
+      - name: Verify TT changed only its article and report
+        if: steps.tt.outputs.status == 'published'
+        env:
+          TT_ARTICLE: ${{ steps.tt.outputs.article }}
+          TT_REPORT: ${{ steps.tt.outputs.report }}
+        run: |
+          changed=$(git status --short | awk '{print $2}')
+          while IFS= read -r path; do
+            [[ -z "$path" ]] && continue
+            [[ "$path" == "$TT_ARTICLE" || "$path" == "$TT_REPORT" ]] || { echo "Unexpected changed file: $path"; exit 1; }
+          done <<< "$changed"
+
+      - name: Commit and safely rebase before push
+        if: steps.tt.outputs.status == 'published'
+        env:
+          TT_ARTICLE: ${{ steps.tt.outputs.article }}
+          TT_REPORT: ${{ steps.tt.outputs.report }}
+          TT_SLUG: ${{ steps.tt.outputs.slug }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "koreawiki-tt[bot]"
+          git config user.email "292648126+Banhang-Chogao@users.noreply.github.com"
+          git add -- "$TT_ARTICLE" "$TT_REPORT"
+          git diff --cached --check
+          git commit -m "feat(content): publish $TT_SLUG via tt"
+          git pull --rebase origin main
+          if git push origin HEAD:main; then
+            echo "Direct push to default branch succeeded."
+          else
+            branch="tt/$TT_SLUG-${GITHUB_RUN_ID}"
+            git switch -c "$branch"
+            git push --set-upstream origin "$branch"
+            gh pr create --base main --head "$branch" --title "feat(content): publish $TT_SLUG via tt" --body "Automated tt publication. Required QA, Hugo production build, Pagefind and schema checks passed in workflow run $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID."
+            gh pr merge --auto --squash "$branch"
+          fi
+      - name: Persist successful skip report
+        if: steps.tt.outputs.status == 'skipped'
+        env:
+          TT_REPORT: ${{ steps.tt.outputs.report }}
+        run: |
+          git config user.name "koreawiki-tt[bot]"
+          git config user.email "292648126+Banhang-Chogao@users.noreply.github.com"
+          git add -- "$TT_REPORT"
+          git diff --cached --check
+          git commit -m "chore(tt): record skip report"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Upload TT report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tt-report-${{ github.run_id }}
+          path: reports/tt/
+          if-no-files-found: ignore
