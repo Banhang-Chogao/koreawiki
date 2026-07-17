@@ -11,3 +11,4 @@ __pycache__/
 .hugo_build.lock
 scripts/glossary_export/
 scripts/glossary.sqlite
+scripts/learned_checks/

@@ -21,8 +21,53 @@ env:
   PYTHON_VERSION: "3.12"
 
 jobs:
+  pre-deploy-qa:
+    runs-on: ubuntu-latest
+    outputs:
+      fixed: ${{ steps.self-heal.outputs.fixed }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 50
+          submodules: recursive
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install dependencies
+        run: pip install pyyaml Pillow scikit-learn
+
+      - name: Self-heal — auto-fix long lines & slugs
+        id: self-heal
+        run: |
+          python scripts/markdown_lint.py --fix
+          python scripts/slug.py
+          if ! git diff --quiet; then
+            git config user.name "korea-wiki-self-heal[bot]"
+            git config user.email "292648126+Banhang-Chogao@users.noreply.github.com"
+            git add -A
+            git commit -m "fix(self-heal): auto-fix markdown/slug issues"
+            git push
+            echo "fixed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "fixed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run ML learning — discover new fix patterns from history
+        if: steps.self-heal.outputs.fixed != 'true'
+        run: |
+          python scripts/learn.py --since "2026-01-01" || true
+
+      - name: Run pre-deploy checks
+        if: steps.self-heal.outputs.fixed != 'true'
+        run: python scripts/pre_deploy.py
+
   build:
     runs-on: ubuntu-latest
+    needs: pre-deploy-qa
+    if: needs.pre-deploy-qa.outputs.fixed != 'true'
     steps:
       - uses: actions/checkout@v4
         with:
@@ -52,76 +97,33 @@ jobs:
       - name: Install dependencies
         run: pip install pyyaml Pillow
 
-      - name: Self-heal — auto-fix long lines & slugs
-        id: self-heal
-        run: |
-          python scripts/markdown_lint.py --fix
-          python scripts/slug.py
-          if ! git diff --quiet; then
-            git config user.name "korea-wiki-self-heal[bot]"
-            git config user.email "292648126+Banhang-Chogao@users.noreply.github.com"
-            git add -A
-            git commit -m "fix(self-heal): auto-fix markdown/slug issues"
-            git push
-            echo "fixed=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "fixed=false" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Run QA
-        if: steps.self-heal.outputs.fixed != 'true'
-        run: |
-          rc=0
-          python scripts/qa.py || rc=1
-          python scripts/seo.py || rc=1
-          python scripts/frontmatter_check.py || rc=1
-          python scripts/markdown_lint.py --fix || rc=1
-          python scripts/slug.py --check || rc=1
-          python scripts/check_links.py || rc=1
-          python scripts/check_image_paths.py || rc=1
-          exit $rc
-
       - name: Validate images
-        if: steps.self-heal.outputs.fixed != 'true'
         run: python scripts/optimize_images.py
 
       - name: Generate WebP images
-        if: steps.self-heal.outputs.fixed != 'true'
         run: python scripts/compress_images.py
 
-      - name: Setup Node.js
-        if: steps.self-heal.outputs.fixed != 'true'
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-
       - name: Build Hugo site
-        if: steps.self-heal.outputs.fixed != 'true'
         run: hugo --minify --gc
 
       - name: Post-build QA — check for broken relative paths
-        if: steps.self-heal.outputs.fixed != 'true'
-        run: python scripts/postbuild_check.py
+        run: python scripts/pre_deploy.py --postbuild
 
       - name: Generate Pagefind search index
-        if: steps.self-heal.outputs.fixed != 'true'
         run: npx pagefind --site public
 
       - name: Validate schema
-        if: steps.self-heal.outputs.fixed != 'true'
         run: python scripts/generate_schema.py
 
       - name: Upload Pages Artifact
-        if: steps.self-heal.outputs.fixed != 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
       - name: Setup Pages
-        if: steps.self-heal.outputs.fixed != 'true'
         uses: actions/configure-pages@v5
 
       - name: Deploy to GitHub Pages
-        if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && steps.self-heal.outputs.fixed != 'true'
+        if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
         id: deployment
         uses: actions/deploy-pages@v4

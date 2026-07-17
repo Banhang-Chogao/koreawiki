@@ -1,0 +1,79 @@
+# KoreaWiki Pre-Deploy Knowledge Base
+# Auto-updated by learn.py — stores known issue patterns from git history
+
+patterns:
+  relurl_image:
+    description: Image src/href missing | relURL filter in Hugo templates
+    severity: error
+    regex_template: '\{\{\s*\.Params\.\w+\.(?:image|src|thumbnail|cover)\s*\}\}'
+    check_after: relurl
+    fix: Add | relURL after the image param reference
+    examples:
+      - '{{ .Params.cover.image }} → {{ .Params.cover.image | relURL }}'
+
+  relative_asset_path:
+    description: Relative asset path in built HTML (missing /koreawiki/ prefix)
+    severity: error
+    regex_template: '(?:src|href)\s*=\s*"(?!https?://|/|#|data:|mailto:)([^"]+)"'
+    check_after: postbuild
+    fix: Use | relURL filter in the Hugo template that generates this path
+    examples:
+      - 'src="images/foo.webp" → src="/koreawiki/images/foo.webp"'
+
+  date_format_english:
+    description: English date format used instead of Vietnamese human-readable
+    severity: warning
+    regex_template: '\.Format "Jan 2, 2006"|\.Format "02/01/2006"'
+    check_after: template
+    fix: Use format "ngày 2 tháng 1 năm 2006 | 15 giờ 4 phút"
+    examples:
+      - '{ .Date.Format "Jan 2, 2006" } → { .Date.Format "ngày 2 tháng 1 năm 2006" }'
+
+  short_description:
+    description: Front matter description too short (< 50 chars)
+    severity: error
+    check_after: frontmatter
+    fix: Expand the description to 50-320 characters
+
+  missing_tags:
+    description: Front matter missing tags array
+    severity: warning
+    check_after: frontmatter
+    fix: 'Add tags: [...] to front matter'
+
+  missing_categories:
+    description: Front matter missing categories array
+    severity: warning
+    check_after: frontmatter
+    fix: 'Add categories: [...] to front matter'
+
+  lastmod_before_date:
+    description: lastmod is earlier than date in front matter
+    severity: error
+    check_after: frontmatter
+    fix: Ensure lastmod >= date
+
+  long_lines:
+    description: Markdown lines exceeding 120 chars
+    severity: warning
+    check_after: markdown
+    fix: Wrap long lines (auto-fixable via scripts/markdown_lint.py --fix)
+
+  slug_mismatch:
+    description: URL slug does not match slugified title
+    severity: error
+    check_after: slug
+    fix: Auto-fixable via scripts/slug.py
+
+  broken_link:
+    description: Broken internal or external links
+    severity: error
+    check_after: links
+    fix: Update or remove the broken link
+
+seo:
+  missing_alt_text:
+    description: Image missing alt text
+    severity: warning
+    check_after: seo
+    fix: Add alt attribute to all img tags
