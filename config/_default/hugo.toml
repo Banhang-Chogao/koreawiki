@@ -136,12 +136,6 @@ copyright = "Copyright © {currentYear} KoreaWiki. All rights reserved."
     name = "Society"
     url = "/society/"
     weight = 8
-  [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog/"
-    weight = 9
-
   [[menu.footer]]
     identifier = "about"
     name = "About"

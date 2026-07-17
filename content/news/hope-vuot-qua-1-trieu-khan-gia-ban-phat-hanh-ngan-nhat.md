@@ -18,7 +18,7 @@ tags:
   - "Hwang Jung-min"
   - "Zo In-sung"
 categories:
-- "Blog"
+- News
 showToc: true
 readingTime: true
 slug: hope-cua-na-hong-jin-vuot-1-trieu-khan-gia-sau-3-ngay-ky-luc-phong-ve-2026

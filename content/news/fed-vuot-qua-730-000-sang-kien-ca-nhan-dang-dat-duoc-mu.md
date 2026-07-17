@@ -26,7 +26,7 @@ tags:
 - Hanteo
 - solo
 categories:
-- Blog
+- News
 showToc: true
 readingTime: true
 slug: yeonjun-txt-dat-738000-ban-tuan-dau-ky-luc-solo-moi-cho-nam-2026

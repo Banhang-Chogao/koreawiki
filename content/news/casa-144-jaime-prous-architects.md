@@ -19,7 +19,7 @@ tags:
 - định
 - archdaily
 categories:
-- Blog
+- News
 showToc: true
 readingTime: true
 slug: casa-144-jaime-prous-architects
