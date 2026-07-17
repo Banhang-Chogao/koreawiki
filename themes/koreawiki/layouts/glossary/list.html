@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $entries := hugo.Data.glossary.public | default slice }}
+{{ $entries := .Site.Data.glossary.public | default slice }}
 {{ $total := len $entries }}
 <section class="glossary-page">
   <div class="wrapper">
