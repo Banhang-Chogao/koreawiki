@@ -59,37 +59,37 @@ patterns:
     check_after: links
     fix: Update or remove the broken link
   image:
-    seen_in_history: 67
+    seen_in_history: 68
     severity: warning
   accessibility:
-    seen_in_history: 62
+    seen_in_history: 63
     severity: warning
   seo:
-    seen_in_history: 56
+    seen_in_history: 57
     severity: warning
   theme:
-    seen_in_history: 52
+    seen_in_history: 53
     severity: warning
   date:
-    seen_in_history: 47
+    seen_in_history: 48
     severity: warning
   link:
-    seen_in_history: 42
+    seen_in_history: 43
     severity: warning
   tag:
-    seen_in_history: 35
+    seen_in_history: 36
     severity: warning
   slug:
-    seen_in_history: 33
+    seen_in_history: 34
     severity: warning
   lang:
-    seen_in_history: 30
+    seen_in_history: 31
     severity: warning
   draft:
-    seen_in_history: 22
+    seen_in_history: 23
     severity: warning
   faq:
-    seen_in_history: 18
+    seen_in_history: 19
     severity: warning
   relurl:
     seen_in_history: 17
@@ -104,7 +104,7 @@ patterns:
     seen_in_history: 18
     severity: warning
   source_url:
-    seen_in_history: 12
+    seen_in_history: 13
     severity: warning
   compress:
     seen_in_history: 11
@@ -114,7 +114,7 @@ patterns:
     severity: warning
   _meta:
     last_learned: '2026-07-18'
-    total_commits_analyzed: 566
+    total_commits_analyzed: 578
 seo:
   missing_alt_text:
     description: Image missing alt text

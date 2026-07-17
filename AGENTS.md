@@ -135,7 +135,7 @@ tt --research-only         # chỉ nghiên cứu và ghi report; không gọi AI
 
 Quy trình bắt buộc của `tt`:
 
-- Ưu tiên dữ liệu Google Search Console qua `TT_GSC_QUERIES_JSON` hoặc `TT_GSC_QUERIES_FILE`; fallback là Google News/Google Trends RSS và tín hiệu Naver. Candidate phải có ít nhất hai publisher đáng tin cậy độc lập, nếu có thể.
+- `tt` nhận bất kỳ chủ đề nào, không giới hạn K-pop/K-drama/Hàn Quốc. Ưu tiên dữ liệu Google Search Console qua `TT_GSC_QUERIES_JSON` hoặc `TT_GSC_QUERIES_FILE`; nếu không có, lấy topic đang hot từ Google Trends (`TT_TRENDS_GEO`, mặc định `VN`) rồi đối chiếu Google News/Naver và ít nhất hai publisher độc lập ở bất kỳ domain nào khi có thể.
 - Đọc toàn bộ `content/` và lịch sử `reports/tt/` để kiểm tra title, slug, description, tags, keywords, nội dung, intent và keyword cannibalization. Không đủ evidence hoặc bị trùng thì skip thành công.
 - Mỗi lần tối đa một bài. Không bịa dữ kiện, ngày, trích dẫn, tên, số liệu, nguồn hoặc attribution ảnh. Ảnh mặc định không dùng nếu chưa xác minh license, tác giả/photographer và creator URL.
 - Bài dùng đúng cấu trúc Hugo hiện tại: front matter `description`, ISO datetime có `+07:00`, section hiện hữu, internal/external links và `faq`; template tự render footer nên không chèn shortcode/footer block cuối bài.

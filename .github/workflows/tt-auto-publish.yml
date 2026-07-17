@@ -15,7 +15,7 @@ on:
           - dry-run
           - research-only
       topic:
-        description: "Optional Vietnamese/Korean topic or Korean news URL"
+        description: "Optional topic from any field or source URL"
         required: false
         type: string
 

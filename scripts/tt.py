@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""tt — research, select and publish at most one Korea topic.
+"""tt — research, select and publish at most one high-demand topic.
 
 The command is deliberately conservative.  It can research without an AI key,
 but it will not publish unless it has multiple attributable sources, a clean
@@ -8,7 +8,7 @@ topic/intent check, valid generated front matter and a green site gate.
 Usage:
   python3 scripts/tt.py
   python3 scripts/tt.py "chủ đề"
-  python3 scripts/tt.py https://korean-news.example/article
+  python3 scripts/tt.py https://example.com/article
   python3 scripts/tt.py --dry-run
   python3 scripts/tt.py --research-only
 """
@@ -43,6 +43,7 @@ VN_TZ = timezone(timedelta(hours=7))
 UA = "KoreaWiki-tt/1.0"
 MAX_FETCH = 180_000
 MIN_WORDS = int(os.getenv("TT_MIN_WORDS", "900"))
+TRENDS_GEO = os.getenv("TT_TRENDS_GEO", "VN")
 ALLOWED_SECTIONS = {
     "blog": "Blog",
     "news": "News",
@@ -53,11 +54,8 @@ ALLOWED_SECTIONS = {
     "kpop": "K-Pop",
     "society": "Society",
 }
-TRUSTED_DOMAINS = {
-    "yna.co.kr", "yonhapnews.co.kr", "kbs.co.kr", "sbs.co.kr", "imbc.com",
-    "mbc.co.kr", "jtbc.co.kr", "khan.co.kr", "joongang.co.kr", "donga.com",
-    "chosun.com", "koreaherald.com", "koreatimes.co.kr", "korea.net",
-    "korea.kr", "mcst.go.kr", "visitkorea.or.kr", "soompi.com",
+AGGREGATOR_DOMAINS = {
+    "news.google.com", "trends.google.com", "google.com", "search.naver.com",
 }
 INTENT_WORDS = {
     "guide": {"cách", "hướng dẫn", "kinh nghiệm", "guide", "how"},
@@ -85,6 +83,7 @@ class Candidate:
     query: str
     sources: list[Source]
     gsc: dict[str, Any]
+    trend: dict[str, Any] | None = None
     score: float = 0.0
     duplicate: str = ""
     evidence: list[str] | None = None
@@ -108,7 +107,7 @@ def clean_text(value: str) -> str:
 
 
 def fetch(url: str, timeout: int = 20) -> tuple[str, str]:
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "ko,en;q=0.8,vi;q=0.6"})
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "vi,en;q=0.8,ko;q=0.6"})
     with urllib.request.urlopen(req, timeout=timeout) as response:
         data = response.read(MAX_FETCH)
         charset = response.headers.get_content_charset() or "utf-8"
@@ -120,9 +119,10 @@ def domain(url: str) -> str:
     return host[4:] if host.startswith("www.") else host
 
 
-def trusted(url: str) -> bool:
+def usable_source(url: str) -> bool:
     host = domain(url)
-    return any(host == d or host.endswith("." + d) for d in TRUSTED_DOMAINS)
+    parsed = urllib.parse.urlparse(url)
+    return parsed.scheme in {"http", "https"} and host not in AGGREGATOR_DOMAINS
 
 
 def slugify(value: str) -> str:
@@ -181,7 +181,7 @@ def source_from_url(url: str) -> Source | None:
         title, description, published, body = html_metadata(raw)
         if not title:
             return None
-        return Source(title, final_url, domain(final_url), published, description, body, trusted(final_url))
+        return Source(title, final_url, domain(final_url), published, description, body, usable_source(final_url))
     except Exception as exc:
         print(f"TT source fetch skipped: {url} ({exc})", file=sys.stderr)
         return None
@@ -204,15 +204,15 @@ def rss_sources(url: str, limit: int = 12) -> list[Source]:
         publisher = clean_text(source_node.text if source_node is not None else domain(link))
         source_url = source_node.get("url", link) if source_node is not None else link
         if title and link:
-            results.append(Source(title, source_url or link, publisher, published, description, description, trusted(source_url or link)))
+            results.append(Source(title, source_url or link, publisher, published, description, description, usable_source(source_url or link)))
     return results
 
 
 def search_sources(query: str, limit: int = 10) -> list[Source]:
     encoded = urllib.parse.quote_plus(query)
     feeds = [
-        f"https://news.google.com/rss/search?q={encoded}&hl=ko&gl=KR&ceid=KR:ko",
-        f"https://trends.google.com/trending/rss?geo=KR&q={encoded}",
+        f"https://news.google.com/rss/search?q={encoded}&hl=vi&gl=VN&ceid=VN:vi",
+        f"https://news.google.com/rss/search?q={encoded}&hl=en&gl=US&ceid=US:en",
     ]
     found: list[Source] = []
     seen: set[str] = set()
@@ -222,21 +222,40 @@ def search_sources(query: str, limit: int = 10) -> list[Source]:
             if key not in seen:
                 seen.add(key)
                 found.append(item)
-    # Naver news is a useful fallback for Korean-language demand signals.  The
-    # page is evidence only; article facts still require attributable sources.
+    # Naver remains a supplemental source discovery endpoint.  It is not used
+    # as a trend score and facts still come only from the linked publisher.
     try:
         naver_url = "https://search.naver.com/search.naver?where=news&query=" + encoded
         raw, final_url = fetch(naver_url, timeout=12)
         for title, link in re.findall(r'<a[^>]+href=["\'](https?://[^"\']+)["\'][^>]*>(.*?)</a>', raw, re.I | re.S):
             title = clean_text(title)
-            if len(title) > 15 and ("news.naver.com" in link or trusted(link)):
+            if len(title) > 15 and usable_source(link):
                 key = re.sub(r"\W", "", title.lower())
                 if key not in seen:
                     seen.add(key)
-                    found.append(Source(title, link, domain(link), "", "Naver news result", "Naver news result", trusted(link)))
+                    found.append(Source(title, link, domain(link), "", "Naver news result", "Naver news result", usable_source(link)))
     except Exception as exc:
         print(f"TT Naver signal skipped: {exc}", file=sys.stderr)
     return found[:limit]
+
+
+def google_trends_topics(geo: str = "VN", limit: int = 20) -> list[dict[str, Any]]:
+    """Return current Google Trends topics as demand signals, not fact sources."""
+    url = f"https://trends.google.com/trending/rss?geo={urllib.parse.quote(geo)}"
+    try:
+        raw, _ = fetch(url, timeout=20)
+        root = ET.fromstring(raw)
+    except Exception as exc:
+        print(f"TT Google Trends skipped: {exc}", file=sys.stderr)
+        return []
+    topics: list[dict[str, Any]] = []
+    for item in root.findall(".//item")[:limit]:
+        title = clean_text(item.findtext("title", ""))
+        traffic = clean_text(item.findtext("{https://trends.google.com/trending/rss}approx_traffic", ""))
+        published = clean_text(item.findtext("pubDate", ""))
+        if title:
+            topics.append({"title": title, "traffic": traffic, "published": published, "geo": geo})
+    return topics
 
 
 def load_gsc() -> list[dict[str, Any]]:
@@ -312,6 +331,17 @@ def candidate_score(candidate: Candidate) -> float:
     unique_publishers = {domain(source.url) for source in candidate.sources if source.trusted}
     score = min(len(unique_publishers), 4) * 20
     score += min(len(candidate.sources), 6) * 4
+    if candidate.trend:
+        traffic = str(candidate.trend.get("traffic", "")).lower().replace(",", "").replace("+", "")
+        multiplier = 1
+        if traffic.endswith("k"):
+            multiplier, traffic = 1_000, traffic[:-1]
+        elif traffic.endswith("m"):
+            multiplier, traffic = 1_000_000, traffic[:-1]
+        try:
+            score += min(float(traffic) * multiplier / 10_000, 40)
+        except ValueError:
+            score += 5
     if candidate.gsc:
         try:
             score += min(float(candidate.gsc.get("impressions", 0)) / 100, 25)
@@ -334,15 +364,21 @@ def research(input_text: str, records: list[dict[str, Any]]) -> tuple[list[Candi
         sources = [primary] + [s for s in related if domain(s.url) != domain(primary.url)][:7]
         candidates.append(Candidate(primary.title, primary.title, sources, gsc_match(primary.title, gsc_rows)))
     else:
+        trend_topics = [] if input_text else google_trends_topics(TRENDS_GEO, 20)
         queries = [input_text] if input_text else [
-            "한국 엔터테인먼트 최신 뉴스",
-            "K-pop comeback 한국 가수",
-            "한국 드라마 OTT 공개",
-            "한국 문화 여행 축제",
+            "xu hướng đang được quan tâm tại Việt Nam",
+            "tin tức nổi bật hôm nay Việt Nam",
+            "trending latest news worldwide",
         ]
         all_sources: list[Source] = []
-        for query in queries:
-            all_sources.extend(search_sources(query, 10))
+        if trend_topics:
+            for trend in trend_topics:
+                sources = search_sources(str(trend["title"]), 10)
+                if sources:
+                    candidates.append(Candidate(str(trend["title"]), str(trend["title"]), sources, gsc_match(str(trend["title"]), gsc_rows), trend=trend))
+        else:
+            for query in queries:
+                all_sources.extend(search_sources(query, 10))
         seen: set[str] = set()
         for source in all_sources:
             key = re.sub(r"\W", "", source.title.lower())
@@ -354,13 +390,15 @@ def research(input_text: str, records: list[dict[str, Any]]) -> tuple[list[Candi
             candidates.append(Candidate(source.title, input_text or source.title, sources, gsc_match(source.title, gsc_rows)))
     for candidate in candidates:
         candidate.duplicate = duplicate_reason(candidate.topic, records)
-        candidate.evidence = [f"{len({domain(s.url) for s in candidate.sources if s.trusted})} trusted publisher domain(s)", f"{len(candidate.sources)} fetched source(s)"]
+        candidate.evidence = [f"{len({domain(s.url) for s in candidate.sources if s.trusted})} independent source domain(s)", f"{len(candidate.sources)} fetched source(s)"]
+        if candidate.trend:
+            candidate.evidence.append(f"Google Trends {candidate.trend.get('geo', 'VN')}: {candidate.trend.get('traffic') or 'current topic'}")
         if candidate.gsc:
             candidate.evidence.append(f"GSC query {candidate.gsc.get('query')} — {candidate.gsc.get('impressions', 0)} impressions")
         candidate_score(candidate)
     candidates.sort(key=lambda c: c.score, reverse=True)
     if not gsc_rows:
-        notes.append("Không có dữ liệu GSC; dùng Google News/Google Trends RSS và tín hiệu Naver làm fallback.")
+        notes.append("Không có dữ liệu GSC; ưu tiên Google Trends Việt Nam, sau đó đối chiếu Google News/Naver với nguồn publisher ở bất kỳ domain nào.")
     else:
         notes.append(f"Đã dùng {len(gsc_rows)} dòng dữ liệu GSC được cấp qua GitHub Secret.")
     return candidates, notes
@@ -368,8 +406,8 @@ def research(input_text: str, records: list[dict[str, Any]]) -> tuple[list[Candi
 
 def pick(candidates: list[Candidate]) -> Candidate | None:
     for candidate in candidates:
-        trusted_domains = {domain(s.url) for s in candidate.sources if s.trusted}
-        if len(trusted_domains) < 2:
+        source_domains = {domain(s.url) for s in candidate.sources if s.trusted}
+        if len(source_domains) < 2:
             continue
         if candidate.duplicate:
             continue
@@ -391,7 +429,7 @@ def prompt_for(candidate: Candidate, section: str | None) -> str:
     for source in candidate.sources[:6]:
         source_context.append(json.dumps({"title": source.title, "publisher": source.publisher, "url": source.url, "published": source.published, "description": source.description[:900], "extract": source.text[:1800]}, ensure_ascii=False))
     allowed = ", ".join(ALLOWED_SECTIONS.values())
-    return f"""Bạn là biên tập viên KoreaWiki. Viết một bài tiếng Việt nguyên bản, khách quan về chủ đề đã được nghiên cứu.
+    return f"""Bạn là biên tập viên KoreaWiki. Viết một bài tiếng Việt nguyên bản, khách quan về bất kỳ chủ đề đang có nhu cầu tìm kiếm cao.
 
 Chủ đề: {candidate.topic}
 Chuyên mục được ưu tiên: {section or 'tự chọn trong danh sách'}
@@ -590,15 +628,15 @@ def write_report(path: Path, *, status: str, trigger: str, candidates: list[Cand
         f"# TT report — {status}", "", f"- Thời gian GMT+7: `{now_vn().isoformat()}`", f"- Trigger: `{trigger}`", f"- Topic đã chọn: {selected_topic or 'Không có'}", f"- Đường dẫn bài: `{article_path or 'Không xuất bản'}`", f"- Trạng thái ảnh: `{image}`", f"- Scientist: `{scientist_gate()}`", "", "## Topic candidates", "",
     ]
     if candidates:
-        lines.extend(["| Chủ đề | Điểm organic | Nguồn tin cậy | Trùng/cannibalization |", "|---|---:|---:|---|"])
+        lines.extend(["| Chủ đề | Điểm organic | Nguồn độc lập | Trùng/cannibalization |", "|---|---:|---:|---|"])
         for item in candidates[:20]:
             lines.append(f"| {item.topic.replace('|', ' ')} | {item.score} | {len({domain(s.url) for s in item.sources if s.trusted})} | {item.duplicate or 'Không phát hiện'} |")
     else:
         lines.append("Không thu được candidate từ nguồn nghiên cứu.")
-    lines.extend(["", "## Organic evidence", "", *[f"- {note}" for note in notes], "- GSC: ưu tiên nếu có `TT_GSC_QUERIES_JSON`/`TT_GSC_QUERIES_FILE`; nếu không dùng Google News/Google Trends RSS và tín hiệu Naver.", "", "## Sources", ""])
+    lines.extend(["", "## Organic evidence", "", *[f"- {note}" for note in notes], "- Thứ tự tín hiệu: GSC nếu có, Google Trends Việt Nam, rồi đối chiếu Google News/Naver và publisher domain độc lập.", "", "## Sources", ""])
     if selected:
         for source in selected.sources[:8]:
-            lines.append(f"- [{source.title}]({source.url}) — {source.publisher}; published: {source.published or 'không xác định'}; trusted: `{source.trusted}`")
+            lines.append(f"- [{source.title}]({source.url}) — {source.publisher}; published: {source.published or 'không xác định'}; usable publisher source: `{source.trusted}`")
     else:
         lines.append("Không có nguồn được chọn.")
     lines.extend(["", "## Duplicate/intent check", "", f"- Kết quả: `{duplicate or 'passed / no collision'}`", "", "## QA / build / delivery", "", f"- QA: `{('passed' if qa == [] else 'failed' if qa else 'not-run')}`"])
@@ -619,8 +657,8 @@ def preflight(dry_run: bool) -> tuple[str, list[str]]:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(prog="tt", description="Research and publish one KoreaWiki topic.")
-    parser.add_argument("topic", nargs="*", help="topic or one Korean news URL")
+    parser = argparse.ArgumentParser(prog="tt", description="Research and publish one high-demand topic.")
+    parser.add_argument("topic", nargs="*", help="any topic or source URL")
     parser.add_argument("--dry-run", action="store_true", help="research and report only")
     parser.add_argument("--research-only", action="store_true", help="research and report only, without article generation")
     parser.add_argument("--section", choices=sorted(ALLOWED_SECTIONS), help="force Hugo section")
