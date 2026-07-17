@@ -1,6 +1,6 @@
 ---
 title: "TU Munich Kinderoase Nhà trẻ /Kiến trúc Kéré + HK Architekten"
-description: "Khám phá Kinderoase an der TUM — công trình thường trực đầu tiên của Francis Kéré tại châu Âu. Nhà trẻ 5 tầng bằng gỗ, thiết kế sân chơi thẳng đứng với cầu trượt, mái hiên và tầm nhìn panorama Munich."
+description: "Kinderoase an der TUM — công trình đầu tiên của Francis Kéré tại châu Âu. Nhà trẻ 5 tầng bằng gỗ, sân chơi thẳng đứng với cầu trượt và panorama Munich."
 summaries:
   - "Kinderoase an der TUM là công trình thường trực đầu tiên của kiến trúc sư đoạt giải Pritzker Francis Kéré tại châu Âu, tọa lạc trong khuôn viên Đại học Kỹ thuật Munich."
   - "Tòa nhà 5 tầng được xây gần như hoàn toàn bằng gỗ, thiết kế như một 'sân chơi thẳng đứng' với cầu trượt xuyên tầng và cầu thang xoắn, khuyến khích trẻ vận động và khám phá."
