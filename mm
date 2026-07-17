@@ -8,7 +8,7 @@ Usage:
   ./mm <url> -h
 """
 
-import sys, re, json, os, textwrap, uuid
+import sys, re, json, os, textwrap, uuid, time
 from datetime import datetime
 from pathlib import Path
 from urllib.parse import urlparse, urljoin
@@ -41,6 +41,10 @@ SECTIONS = {
 }
 
 UA = "Mozilla/5.0 (compatible; KoreaWikiBot/1.0)"
+LIBRE_URLS = [
+    "https://libretranslate.com/translate",
+    "https://translate.terraprint.co/translate",
+]
 
 def slugify(text):
     text = text.lower().strip()
@@ -76,7 +80,6 @@ def extract_body_text(html):
     return '\n\n'.join(lines[:30])
 
 def extract_images(html, base_url):
-    """Extract all <img> src from HTML, resolve relative URLs."""
     imgs = re.findall(r'<img[^>]+src\s*=\s*["\']([^"\'\s]+)["\']', html, re.IGNORECASE)
     imgs += re.findall(r'<img[^>]+src\s*=\s*([^\s>"\']+)', html)
     seen = set()
@@ -95,26 +98,17 @@ def extract_images(html, base_url):
     return urls[:10]
 
 def download_and_webp(img_url, date_dir):
-    """Download image, convert to WebP, save to static/images/<date>/."""
     try:
         resp = requests.get(img_url, headers={"User-Agent": UA}, timeout=20)
         resp.raise_for_status()
         data = resp.content
         if len(data) < 1000:
             return None
-
         img = Image.open(BytesIO(data))
-        ext = Path(img_url).suffix.lower()
-
-        # unique filename
         h = hashlib.md5(img_url.encode()).hexdigest()[:12]
-        stem = f"mm-{h}"
-        webp_path = date_dir / f"{stem}.webp"
-
+        webp_path = date_dir / f"mm-{h}.webp"
         if webp_path.exists():
             return webp_path
-
-        # convert to RGB
         if img.mode in ("RGBA", "P"):
             bg = Image.new("RGB", img.size, (255, 255, 255))
             if img.mode == "RGBA":
@@ -124,11 +118,42 @@ def download_and_webp(img_url, date_dir):
             img = bg
         elif img.mode == "CMYK":
             img = img.convert("RGB")
-
         img.save(webp_path, "WEBP", quality=80, method=6)
         return webp_path
     except Exception:
         return None
+
+def translate_text(text, src="en", dest="vi"):
+    """Translate text via LibreTranslate (free, no API key)."""
+    if not text or len(text.strip()) < 2:
+        return text
+    payload = {"q": text, "source": src, "target": dest, "format": "text"}
+    for base in LIBRE_URLS:
+        try:
+            resp = requests.post(base, json=payload, timeout=15)
+            if resp.ok:
+                return resp.json().get("translatedText", text)
+        except Exception:
+            continue
+    # fallback: strip English, wrap in paragraph marker
+    print("   ⚠️  LibreTranslate không khả dụng, giữ nguyên bản gốc.")
+    return text
+
+def translate_paragraphs(paragraphs):
+    """Translate a list of paragraphs to Vietnamese."""
+    translated = []
+    total = len(paragraphs)
+    for i, para in enumerate(paragraphs):
+        if len(para.strip()) < 10:
+            translated.append(para)
+            continue
+        sys.stdout.write(f"\r   🌐 Đang dịch {i+1}/{total}...")
+        sys.stdout.flush()
+        result = translate_text(para)
+        translated.append(result)
+        time.sleep(0.3)  # rate limit courtesy
+    print()
+    return translated
 
 def generate_frontmatter(title, section, tags, summary, slug, cover):
     date = datetime.now().strftime("%Y-%m-%d")
@@ -153,7 +178,7 @@ slug: {slug}
         fm += f'cover:\n  image: "{cover}"\n  alt: "{title}"\n'
     return fm + '---\n'
 
-def generate_body(title, section, summary, original_text, image_refs):
+def generate_body(title, section, summary, paragraphs, image_refs):
     section_name = SECTIONS.get(section, section.title())
     lines = [
         f"## Tổng quan",
@@ -164,34 +189,23 @@ def generate_body(title, section, summary, original_text, image_refs):
         f"",
     ]
 
-    # Insert cover image if first ref exists
     if image_refs:
         lines += [f"{{{{< figure src=\"{image_refs[0]}\" alt=\"{title}\" caption=\"Ảnh minh họa: {title}\" >}}}}", ""]
 
+    # Translated body
     lines += [
-        f"---",
-        f"",
-        f"## Bối cảnh",
-        f"",
-        f"Trong bối cảnh làn sóng văn hóa Hàn Quốc (Hallyu) ngày càng lan rộng, việc cập nhật thông tin mới nhất về các lĩnh vực như **{section_name}** là rất quan trọng. KoreaWiki mang đến những bài viết chất lượng, được kiểm chứng và tối ưu cho trải nghiệm người đọc.",
-        f"",
         f"---",
         f"",
         f"## Nội dung chính",
         f"",
     ]
+    for para in paragraphs:
+        lines.append(f"{para.strip()}")
+        lines.append(f"")
 
-    # Insert original text
-    for i, para in enumerate(original_text.split('\n\n')[:8]):
-        words = para.split()
-        if len(words) > 20:
-            lines.append(f"{para.strip()}")
-            lines.append(f"")
-
-    # Insert more images
+    # Remaining images
     for j, img_ref in enumerate(image_refs[1:], 1):
         lines += [
-            f"",
             f"{{{{< figure src=\"{img_ref}\" alt=\"Hình ảnh {j}\" caption=\"Hình ảnh minh họa {j}\" >}}}}",
             f"",
         ]
@@ -199,39 +213,9 @@ def generate_body(title, section, summary, original_text, image_refs):
     lines += [
         f"---",
         f"",
-        f"## Phân tích chuyên sâu",
-        f"",
-        f"Để hiểu rõ hơn về vấn đề này, cần xem xét từ nhiều góc độ khác nhau. Thông tin dưới đây được tổng hợp từ các nguồn đáng tin cậy.",
-        f"",
-        f"### Góc nhìn chuyên gia",
-        f"",
-        f"Các chuyên gia trong lĩnh vực nhận định đây là một xu hướng đáng chú ý, phản ánh sự thay đổi trong cách tiếp cận và tiêu dùng nội dung của công chúng.",
-        f"",
-        f"### Tác động đến ngành công nghiệp",
-        f"",
-        f"Sự phát triển này không chỉ ảnh hưởng đến ngành công nghiệp nội dung Hàn Quốc mà còn tác động đến thị trường toàn cầu.",
-        f"",
-        f"---",
-        f"",
         f"## Kết luận",
         f"",
         f"{summary} Đây là chủ đề đáng theo dõi, đặc biệt với những ai quan tâm đến sự phát triển của ngành công nghiệp văn hóa Hàn Quốc.",
-        f"",
-        f"---",
-        f"",
-        f"## Câu hỏi thường gặp",
-        f"",
-        f"**1. Làm thế nào để cập nhật tin tức mới nhất về chủ đề này?**",
-        f"",
-        f"Theo dõi KoreaWiki thường xuyên. Đăng ký RSS hoặc GitHub để nhận thông báo.",
-        f"",
-        f"**2. Thông tin có độ chính xác không?**",
-        f"",
-        f"Mọi thông tin đều được kiểm chứng từ nhiều nguồn trước khi đăng tải.",
-        f"",
-        f"**3. Tôi có thể chia sẻ bài viết không?**",
-        f"",
-        f"Có. Vui lòng ghi rõ nguồn KoreaWiki khi chia sẻ.",
         f"",
     ]
     return '\n'.join(lines)
@@ -296,26 +280,32 @@ def main():
         else:
             print("⚠️  Lỗi")
 
-    # Cover image (first one)
     cover_rel = local_images[0] if local_images else None
 
-    summary = f"Bài viết phân tích chi tiết về {title} — cập nhật từ KoreaWiki. Nội dung tiếng Việt, chuẩn SEO và Google Adsense."
+    # Translate to Vietnamese
+    print("🌐 Đang dịch sang tiếng Việt...")
+    title_vi = translate_text(title)
+    paragraphs = body_text.split('\n\n')
+    translated_paras = translate_paragraphs(paragraphs)
+    # filter to paragraphs with >20 Vietnamese words
+    translated_paras = [p for p in translated_paras if len(re.findall(r'\b\w+\b', p)) > 20]
+
+    summary = f"Bài viết phân tích chi tiết về {title_vi} — được KoreaWiki biên dịch từ nguồn nước ngoài sang tiếng Việt, chuẩn SEO và Google Adsense."
     tags = [SECTIONS.get(section, section.title()), "Hàn Quốc", "tin tức"]
     if url:
         domain = urlparse(url).netloc.replace('www.', '')
         tags.append(domain)
 
-    frontmatter = generate_frontmatter(title, section, tags, summary, slug, cover_rel)
-    body = generate_body(title, section, summary, body_text, local_images)
+    frontmatter = generate_frontmatter(title_vi, section, tags, summary, slug, cover_rel)
+    body = generate_body(title_vi, section, summary, translated_paras, local_images)
     content = frontmatter + '\n' + body
 
     word_count = len(re.findall(r'\b\w+\b', content[content.index('##'):]))
-    print(f"\n📝 Tiêu đề: {title}")
+    print(f"\n📝 Tiêu đề: {title_vi}")
     print(f"📂 Section: {section}")
     print(f"🖼️  Ảnh: {len(local_images)}")
     print(f"🔤 Từ: ~{word_count}")
 
-    # Save
     section_dir = CONTENT_DIR / section
     section_dir.mkdir(parents=True, exist_ok=True)
     filepath = section_dir / f"{slug}.md"
