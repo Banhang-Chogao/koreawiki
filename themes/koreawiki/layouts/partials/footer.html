@@ -25,7 +25,9 @@
         <h4 class="footer-title">{{ T "about" | default "About" }}</h4>
         <ul class="footer-list">
           {{ range .Site.Menus.footer }}
+          {{ if and (ne .Identifier "ai-travel-planner") (ne .Identifier "expense-management") (ne (.Name | lower) "ai travel planner") (ne (.Name | lower) "expense management") }}
           <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+          {{ end }}
           {{ end }}
         </ul>
       </div>
