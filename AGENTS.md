@@ -121,30 +121,6 @@ static/        → Static assets (images, fonts, favicon)
 | `python3 scripts/glossary.py import <file>` | Import entries |
 | `python3 scripts/glossary.py stats` | TM statistics |
 
-### `tt` — Autonomous Topic Publisher (Codex / Claude / Gemini / OpenCode)
-
-`AGENTS.md` là nguồn chính sách duy nhất cho `tt`; [docs/ai/tt.md](docs/ai/tt.md) chỉ là entrypoint ngắn. Chạy `./tt` (hoặc `python3 scripts/tt.py`) để:
-
-```text
-tt                         # tự nghiên cứu và xuất bản tối đa 1 bài
-tt <chủ đề>                # nghiên cứu chủ đề chỉ định rồi xuất bản nếu đủ tốt
-tt <URL báo Hàn>           # nghiên cứu URL và đối chiếu thêm nguồn độc lập
-tt --dry-run               # nghiên cứu, chấm điểm, ghi report; không viết bài
-tt --research-only         # chỉ nghiên cứu và ghi report; không gọi AI/không xuất bản
-```
-
-Quy trình bắt buộc của `tt`:
-
-- `tt` nhận bất kỳ chủ đề nào, không giới hạn K-pop/K-drama/Hàn Quốc. Ưu tiên dữ liệu Google Search Console qua `TT_GSC_QUERIES_JSON` hoặc `TT_GSC_QUERIES_FILE`; nếu không có, lấy topic đang hot từ Google Trends (`TT_TRENDS_GEO`, mặc định `VN`) rồi đối chiếu Google News/Naver và ít nhất hai publisher độc lập ở bất kỳ domain nào khi có thể.
-- Đọc toàn bộ `content/` và lịch sử `reports/tt/` để kiểm tra title, slug, description, tags, keywords, nội dung, intent và keyword cannibalization. Không đủ evidence hoặc bị trùng thì skip thành công.
-- Mỗi lần tối đa một bài. Không bịa dữ kiện, ngày, trích dẫn, tên, số liệu, nguồn hoặc attribution ảnh. Ảnh mặc định không dùng nếu chưa xác minh license, tác giả/photographer và creator URL.
-- Bài dùng đúng cấu trúc Hugo hiện tại: front matter `description`, ISO datetime có `+07:00`, section hiện hữu, internal/external links và `faq`; template tự render footer nên không chèn shortcode/footer block cuối bài.
-- Khi xuất bản, `tt` chạy scientist checklist, front matter/SEO/Markdown/slug/link/image/schema QA; workflow tiếp tục chạy `pre_deploy.py`, Hugo production build, post-build QA, Pagefind search index và schema. Self-heal an toàn tối đa 3 vòng; lỗi sau đó dừng và không push.
-- Báo cáo nằm tại `reports/tt/YYYY/MM/`. Workflow dùng `concurrency.group: koreawiki-tt-publisher` và `cancel-in-progress: false`, commit riêng `feat(content): publish <slug> via tt`, rebase an toàn rồi push default branch; không force-push/bypass protection. Nếu không push trực tiếp được, workflow tạo branch + PR và bật auto-merge để GitHub chỉ merge khi required checks xanh.
-- AI secrets chỉ được cấp qua GitHub Actions Secrets (`TT_OPENAI_API_KEY`, `TT_ANTHROPIC_API_KEY`, `TT_GEMINI_API_KEY`, model tương ứng); không commit key và không đưa key ra frontend.
-
-Không chạy `tt` publish trên working tree bẩn hoặc sai default branch. Thay đổi không liên quan phải được giữ nguyên.
-
 ### mm — Vietnamese Blog Generator
 
 See `shortcuts.md` for the complete agent-agnostic workflow.
