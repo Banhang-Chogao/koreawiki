@@ -23,6 +23,9 @@ categories:
 - Blog
 showToc: true
 readingTime: true
+cover:
+  image: "images/2026-07-19/mm-a20d45b5672c.webp"
+  alt: "Jo In-sung trong phim Hope (2026) của đạo diễn Na Hong-jin — cảnh anh cầm súng trong rừng"
 slug: jo-in-sung-ke-ve-nhung-canh-hanh-dong-trong-hope-chuan-bi-tinh-than-quay-100-lan
 summaries:
 - Jo In-sung nói anh bước vào phim trường với tâm thế sẵn sàng thực hiện một cảnh
@@ -56,6 +59,8 @@ thực hiện rất nhiều lần. Vì đã lựa chọn nhận vai, anh muốn 
 Jo In-sung nhận xét sự kiên trì là một phần quan trọng trong phong cách làm phim của Na Hong-jin. Từ các tác phẩm trước của đạo diễn, anh đã hiểu rằng năng lượng và áp lực trên trường quay có thể được
 đẩy lên rất cao. Với **Hope**, anh bước vào dự án trong tâm thế chuẩn bị cho những cảnh quay kéo dài, đồng thời xem quá trình đó như một thử thách nghề nghiệp.
 
+{{< figure src="images/2026-07-19/mm-7fede3593b5b.webp" alt="Jo In-sung trong buổi phỏng vấn với Dispatch" caption="Jo In-sung chia sẻ về quá trình tham gia Hope với Dispatch" >}}
+
 Theo chia sẻ của nam diễn viên, điều khiến anh yên tâm không phải là việc các cảnh quay luôn diễn ra thuận lợi, mà là sự nhất quán trong yêu cầu sáng tạo của đạo diễn. Nếu ê-kíp thay đổi cách thực
 hiện chỉ để rút ngắn quá trình, kết quả có thể làm nảy sinh thêm bất an. Vì vậy, Jo In-sung chọn tập trung vào cảnh quay trước mắt và cố gắng hoàn thành nó ở mức thuyết phục nhất.
 
@@ -83,6 +88,8 @@ Jo In-sung cũng kể về một cảnh nhân vật phải bám vào xe trong kh
 trực tiếp đối mặt với thử thách sau khi đã chuẩn bị đủ. Nam diễn viên thừa nhận các cảnh này nguy hiểm, nhưng sự hỗ trợ của nhân viên và việc kiểm soát tình trạng thể chất giúp anh tiếp tục hoàn thành
 công việc.
 
+{{< figure src="images/2026-07-19/mm-ecd77a7df6d1.webp" alt="Hwang Jung-min trong phim Hope" caption="Hwang Jung-min vào vai Bum-seok, người đứng đầu chi nhánh tại cảng Hopo" >}}
+
 ## Sự khắt khe tạo nên cảm giác sinh tồn
 
 Một cảnh khác được Jo In-sung nhắc tới là lúc Seong-gi phải thể hiện trạng thái tuyệt vọng trong cuộc đối đầu với Mabeyo, nhân vật do Michael Fassbender thủ vai. Na Hong-jin liên tục yêu cầu diễn viên
@@ -94,6 +101,10 @@ duy trì cảm xúc và sự căng thẳng qua nhiều lần quay hay không. Đ
 ## Dàn diễn viên quốc tế và kỳ vọng với Hope
 
 **Hope** quy tụ Jo In-sung cùng các diễn viên quốc tế như Michael Fassbender, Alicia Vikander, Taylor Russell và Cameron Britton. Khi nói về bộ phim, Jo In-sung liên tưởng hoàn cảnh của tác phẩm với
+
+{{< figure src="images/2026-07-19/mm-48327e174dcf.webp" alt="Cảnh trong phim Hope (2026)" caption="Một cảnh trong Hope — tác phẩm do Na Hong-jin đạo diễn, quy tụ dàn diễn viên quốc tế" >}}
+
+một loài hoa nở trong mùa mưa bão. Cách ví von này thể hiện mong muốn rằng bộ phim vẫn có thể tìm được đường đến với khán giả dù điện ảnh Hàn Quốc đang trải qua một giai đoạn nhiều biến động.
 một loài hoa nở trong mùa mưa bão. Cách ví von này thể hiện mong muốn rằng bộ phim vẫn có thể tìm được đường đến với khán giả dù điện ảnh Hàn Quốc đang trải qua một giai đoạn nhiều biến động.
 
 Nam diễn viên cũng thận trọng khi được hỏi về khả năng có phần tiếp theo. Anh cho rằng nếu bộ phim đạt kết quả tốt và đạo diễn vẫn còn câu chuyện muốn kể, việc tiếp tục mở rộng thế giới của **Hope**
