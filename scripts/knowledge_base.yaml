@@ -59,34 +59,34 @@ patterns:
     check_after: links
     fix: Update or remove the broken link
   image:
-    seen_in_history: 77
+    seen_in_history: 78
     severity: warning
   accessibility:
-    seen_in_history: 69
+    seen_in_history: 70
     severity: warning
   seo:
-    seen_in_history: 65
+    seen_in_history: 66
     severity: warning
   theme:
     seen_in_history: 55
     severity: warning
   date:
-    seen_in_history: 55
+    seen_in_history: 56
     severity: warning
   link:
     seen_in_history: 49
     severity: warning
   tag:
-    seen_in_history: 44
+    seen_in_history: 45
     severity: warning
   slug:
-    seen_in_history: 42
+    seen_in_history: 43
     severity: warning
   lang:
     seen_in_history: 38
     severity: warning
   draft:
-    seen_in_history: 30
+    seen_in_history: 31
     severity: warning
   faq:
     seen_in_history: 24
@@ -114,7 +114,7 @@ patterns:
     severity: warning
   _meta:
     last_learned: '2026-07-19'
-    total_commits_analyzed: 664
+    total_commits_analyzed: 671
 seo:
   missing_alt_text:
     description: Image missing alt text
