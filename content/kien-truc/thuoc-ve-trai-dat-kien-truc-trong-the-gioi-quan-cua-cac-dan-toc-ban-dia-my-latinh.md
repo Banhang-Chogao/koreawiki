@@ -5,7 +5,10 @@ keywords: ["KIẾN TRÚC", "quan", "kiến", "trúc", "archdaily"]
 date: 2026-07-18T07:30:00+00:00
 lastmod: 2026-07-19
 draft: false
-author: "Camilla Ghisleni"
+author: "KoreaWiki Team"
+author_id: "koreawiki-team"
+source_authors: ["Camilla Ghisleni"]
+verification_status: "Có nguồn dẫn công khai"
 tags:
   - "KIẾN TRÚC"
   - "quan"

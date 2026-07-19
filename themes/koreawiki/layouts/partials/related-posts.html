@@ -1,12 +1,36 @@
-{{ $related := .Site.RegularPages.Related . | first 4 }}
-{{ if $related }}
+{{- $entityRelated := slice -}}
+{{- $intentRelated := slice -}}
+{{- $fallbackRelated := .Site.RegularPages.Related . -}}
+{{- $seen := slice .Permalink -}}
+{{- $currentEntities := .Params.entities | default (slice) -}}
+{{- $currentIntent := .Params.search_intent | default "" -}}
+{{- range .Site.RegularPages.ByDate.Reverse -}}
+  {{- if and (ne .Permalink $.Permalink) (not .Draft) -}}
+    {{- $pageEntities := .Params.entities | default (slice) -}}
+    {{- if and $currentEntities (gt (len (intersect $currentEntities $pageEntities)) 0) -}}
+      {{- $entityRelated = $entityRelated | append . -}}
+    {{- else if and $currentIntent (eq $currentIntent (.Params.search_intent | default "")) -}}
+      {{- $intentRelated = $intentRelated | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $finalRelated := slice -}}
+{{- range (slice $entityRelated $intentRelated $fallbackRelated) -}}
+  {{- range . -}}
+    {{- if and (lt (len $finalRelated) 4) (not (in $seen .Permalink)) -}}
+      {{- $finalRelated = $finalRelated | append . -}}
+      {{- $seen = $seen | append .Permalink -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{ if $finalRelated }}
 <section class="related-articles">
   <div class="related-grid">
-    {{ range $related }}
+    {{ range $finalRelated }}
     <article class="card related-card">
       {{ if .Params.cover.image }}
       <a href="{{ .RelPermalink }}" aria-label="{{ .Title }}" class="card-img-wrap">
-        <img src="{{ .Params.cover.image | relURL }}" alt="{{ .Params.cover.alt | default .Title }}" class="card-img" width="300" height="169" loading="lazy" decoding="async" />
+        {{ partial "cover-img.html" (dict "src" .Params.cover.image "alt" (.Params.cover.alt | default .Title) "width" 300 "height" 169 "loading" "lazy" "class" "card-img") }}
       </a>
       {{ end }}
       <div class="card-body">

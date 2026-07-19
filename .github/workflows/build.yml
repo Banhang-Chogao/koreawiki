@@ -8,133 +8,112 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
 concurrency:
-  group: pages
+  group: koreawiki-pages-${{ github.ref }}
   cancel-in-progress: true
 
 env:
-  HUGO_VERSION: 0.126.0
+  HUGO_VERSION: 0.163.1
   PYTHON_VERSION: "3.12"
 
 jobs:
-  pre-deploy-qa:
+  self-heal:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     outputs:
-      fixed: ${{ steps.self-heal.outputs.fixed }}
+      fixed: ${{ steps.fix.outputs.fixed }}
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 50
-          submodules: recursive
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
+          fetch-depth: 10
+      - uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-
-      - name: Install dependencies
-        run: pip install pyyaml Pillow scikit-learn
-
-      - name: Self-heal — auto-fix long lines & slugs
-        id: self-heal
+      - name: Install lint dependency
+        run: pip install pyyaml
+      - name: Self-heal one safe round only
+        id: fix
         run: |
-          python scripts/markdown_lint.py --fix
-          python scripts/slug.py
-          if ! git diff --quiet; then
-            git config user.name "korea-wiki-self-heal[bot]"
-            git config user.email "292648126+Banhang-Chogao@users.noreply.github.com"
-            git add -A
-            git commit -m "fix(self-heal): auto-fix markdown/slug issues"
-            git push
-            echo "fixed=true" >> "$GITHUB_OUTPUT"
-          else
+          python3 scripts/markdown_lint.py --fix
+          python3 scripts/slug.py
+          if git diff --quiet; then
             echo "fixed=false" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
+          loops=$(git log -3 --format=%s | grep -c '^fix(self-heal):' || true)
+          if [ "$loops" -ge 3 ]; then
+            echo "Auto-fix stopped after three consecutive rounds." >&2
+            exit 1
+          fi
+          git config user.name "koreawiki-self-heal[bot]"
+          git config user.email "292648126+Banhang-Chogao@users.noreply.github.com"
+          git add content
+          git commit -m "fix(self-heal): normalize markdown and slugs"
+          git push
+          echo "fixed=true" >> "$GITHUB_OUTPUT"
 
-      - name: Run ML learning — discover new fix patterns from history
-        if: steps.self-heal.outputs.fixed != 'true'
-        run: |
-          python scripts/learn.py --since "2026-01-01" || true
-
-      - name: Run pre-deploy checks
-        if: steps.self-heal.outputs.fixed != 'true'
-        run: python scripts/pre_deploy.py
-
-  build:
+  qa:
+    needs: self-heal
+    if: always() && (needs.self-heal.result == 'skipped' || needs.self-heal.outputs.fixed != 'true')
     runs-on: ubuntu-latest
-    needs: pre-deploy-qa
-    if: needs.pre-deploy-qa.outputs.fixed != 'true'
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          submodules: recursive
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      - name: Install Python dependencies
+        run: pip install pyyaml pillow scikit-learn
+      - name: Run pre-deploy gate
+        run: python3 scripts/pre_deploy.py
 
-      - name: Setup Hugo Extended
-        uses: peaceiris/actions-hugo@v3
+  build:
+    needs: qa
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: ${{ env.HUGO_VERSION }}
           extended: true
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: npm
-
-      - name: Install Node.js dependencies
-        run: npm ci
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-
-      - name: Install dependencies
-        run: pip install pyyaml Pillow
-
-      - name: Validate images
-        run: python scripts/optimize_images.py
-
-      - name: Generate WebP images
-        run: python scripts/compress_images.py
-
-      - name: Write build info (commit + timestamp)
+      - name: Install Python dependencies
+        run: pip install pyyaml pillow scikit-learn
+      - name: Build production site
+        run: hugo --minify --gc --environment production
+      - name: Build Pagefind index
+        run: npx -y pagefind --site public --output-subdir pagefind
+      - name: Run post-build SEO gate
         run: |
-          build_time=$(TZ='Asia/Ho_Chi_Minh' date '+%d-%m-%Y | %H:%M:%S')
-          cat > data/build.json << EOF
-          {
-            "commit": "${{ github.sha }}",
-            "time": "$build_time",
-            "timezone": "GMT+7"
-          }
-          EOF
-
-      - name: Build Hugo site
-        run: hugo --minify --gc
-
-      - name: Post-build QA — check for broken relative paths
-        run: python scripts/pre_deploy.py --postbuild
-
-      - name: Generate Pagefind search index
-        run: npx pagefind --site public
-
-      - name: Validate schema
-        run: python scripts/generate_schema.py
-
-      - name: Upload Pages Artifact
+          python3 scripts/pre_deploy.py --postbuild
+          python3 scripts/check_build_seo.py
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: public
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
-      - name: Deploy to GitHub Pages
-        if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
-        id: deployment
+  deploy:
+    needs: build
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - id: deployment
         uses: actions/deploy-pages@v4

@@ -1,0 +1,50 @@
+# Only entities with a corresponding, sourced profile page are listed here.
+# Article `entities` values must resolve to one of these stable IDs.
+bts:
+  name: BTS
+  type: music_group
+  schema_type: MusicGroup
+  url: /entities/bts/
+  source_url: https://bts.ibighit.com/eng/profile/
+cortis:
+  name: CORTIS
+  type: music_group
+  schema_type: MusicGroup
+  url: /entities/cortis/
+  source_url: https://www.dispatch.co.kr/2345369
+andable:
+  name: ANDABLE
+  type: music_group
+  schema_type: MusicGroup
+  url: /entities/andable/
+  source_url: https://www.dispatch.co.kr/2345374
+jo-in-sung:
+  name: Jo In-sung
+  type: person
+  schema_type: Person
+  url: /entities/jo-in-sung/
+  source_url: https://www.dispatch.co.kr/2345355
+so-ji-sub:
+  name: So Ji-sub
+  type: person
+  schema_type: Person
+  url: /entities/so-ji-sub/
+  source_url: https://vov.vn/van-hoa/dac-vu-kim-tai-khoi-dong-vuon-so-1-netflix-toan-cau-sau-chua-day-2-tuan-post1313459.vov
+na-hong-jin:
+  name: Na Hong-jin
+  type: person
+  schema_type: Person
+  url: /entities/na-hong-jin/
+  source_url: https://www.dispatch.co.kr/2345355
+hope-2026:
+  name: Hope
+  type: film
+  schema_type: Movie
+  url: /entities/hope-2026/
+  source_url: https://www.dispatch.co.kr/2345355
+yeonjun:
+  name: Yeonjun
+  type: person
+  schema_type: Person
+  url: /entities/yeonjun/
+  source_url: https://www.dispatch.co.kr/2345352

@@ -1,0 +1,72 @@
+{{ define "headExtra" }}
+  {{- $events := slice -}}
+  {{- range (readDir "data/calendar") -}}
+    {{- if hasSuffix .Name ".json" -}}
+      {{- $events = $events | append ((index (unmarshal (readFile (printf "data/calendar/%s" .Name))) "events") | default (slice)) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $eventSchemas := slice -}}
+  {{- range $events -}}
+    {{- $event := dict "@type" "Event" "name" .title "startDate" .date "eventStatus" "https://schema.org/EventScheduled" "eventAttendanceMode" "https://schema.org/OfflineEventAttendanceMode" "description" .description "url" (.url | absURL) -}}
+    {{- with .location -}}{{- $event = merge $event (dict "location" (dict "@type" "Place" "name" .name "address" .address)) -}}{{- end -}}
+    {{- $eventSchemas = $eventSchemas | append $event -}}
+  {{- end -}}
+  {{- $schema := dict "@context" "https://schema.org" "@type" "ItemList" "name" .Title "itemListElement" $eventSchemas -}}
+  <script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
+{{ end }}
+
+{{ define "main" }}
+<section class="section calendar-page" data-pagefind-body>
+  <div class="wrapper">
+    <header class="section-header">
+      <h1 class="section-title">{{ .Title }}</h1>
+      {{ if .Description }}
+      <p style="color:var(--color-text-secondary);margin-top:var(--space-2);max-width:600px">{{ .Description }}</p>
+      {{ end }}
+    </header>
+    <div class="calendar-controls">
+      <div class="calendar-filters">
+        <button class="cal-filter active" data-filter="all" aria-pressed="true">Tất cả</button>
+        <button class="cal-filter" data-filter="comeback" aria-pressed="false">Comeback</button>
+        <button class="cal-filter" data-filter="concert" aria-pressed="false">Concert</button>
+        <button class="cal-filter" data-filter="fanmeeting" aria-pressed="false">Fan meeting</button>
+        <button class="cal-filter" data-filter="award" aria-pressed="false">Lễ trao giải</button>
+        <button class="cal-filter" data-filter="drama" aria-pressed="false">Phim Hàn</button>
+      </div>
+    </div>
+    <div class="calendar-list">
+      {{ $events := slice }}
+      {{ range (readDir "data/calendar") }}
+        {{ if hasSuffix .Name ".json" }}
+        {{ $yearFile := .Name }}
+        {{ $yearData := index (unmarshal (readFile (printf "data/calendar/%s" $yearFile))) "events" }}
+        {{ $events = $events | append $yearData }}
+        {{ end }}
+      {{ end }}
+      {{ $sorted := sort $events "date" "desc" }}
+      {{ range $sorted }}
+      <article class="cal-event" data-type="{{ .type }}" data-date="{{ .date }}" data-artist="{{ .artist }}">
+        <div class="cal-event-date">
+          <span class="cal-day">{{ dateFormat "02" .date }}</span>
+          <span class="cal-month">{{ dateFormat "Jan" .date }}</span>
+        </div>
+        <div class="cal-event-body">
+          <div class="cal-event-meta">
+            <span class="cal-event-type badge badge-{{ .type }}">{{ .type }}</span>
+            {{ with .artist }}<span class="cal-event-artist">{{ . }}</span>{{ end }}
+          </div>
+          <h3 class="cal-event-title">
+            {{ if .url }}<a href="{{ .url }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}
+          </h3>
+          {{ with .description }}<p class="cal-event-desc">{{ . }}</p>{{ end }}
+          {{ with .source }}<p class="cal-event-source">Nguồn: <a href="{{ .url | safeURL }}" rel="noopener noreferrer" target="_blank">{{ .name }}</a></p>{{ end }}
+        </div>
+      </article>
+      {{ end }}
+    </div>
+    <div class="calendar-empty" style="display:none">
+      <p>Không có sự kiện nào trong bộ lọc này.</p>
+    </div>
+  </div>
+</section>
+{{ end }}

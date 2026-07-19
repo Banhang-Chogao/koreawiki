@@ -1,0 +1,136 @@
+#!/usr/bin/env python3
+"""Research-first KoreaWiki topic tracker.
+
+tt never invents a story from a query. Research saves at most one ranked candidate per
+day. Publishing is attempted only for an explicit URL after the normal source, entity,
+date, image-rights and deploy gates all pass.
+"""
+
+import json
+import re
+import subprocess
+import sys
+from datetime import datetime, timezone
+from pathlib import Path
+from urllib.parse import urlparse
+
+import yaml
+
+ROOT = Path(__file__).resolve().parent
+REPORTS = ROOT / "reports/seo/candidates"
+CONTENT = ROOT / "content"
+RELIABLE_DOMAINS = {"dispatch.co.kr", "yna.co.kr", "kbs.co.kr", "mbc.co.kr", "sbs.co.kr", "kobis.or.kr", "hanteochart.com", "circlechart.kr", "netflix.com", "ibighit.com", "weverse.io", "archdaily.com", "koreatimes.co.kr", "koreaherald.com", "soompi.com", "vov.vn"}
+
+
+def run(command):
+    return subprocess.run(command, cwd=ROOT, text=True, capture_output=True)
+
+
+def source_is_reliable(url):
+    host = urlparse(str(url or "")).netloc.casefold().removeprefix("www.")
+    return any(host == domain or host.endswith("." + domain) for domain in RELIABLE_DOMAINS)
+
+
+def saved_candidates():
+    summaries = sorted((ROOT / "reports/seo").glob("summary-*.json"), reverse=True)
+    if not summaries:
+        return []
+    data = json.loads(summaries[0].read_text("utf-8"))
+    choices = []
+    for row in data.get("position_4_15", []):
+        choices.append({"topic": row["query"], "reason": "GSC position 4–15", "score": row["impressions"]})
+    for row in data.get("high_impression_low_ctr", []):
+        choices.append({"topic": row["query"], "reason": "GSC high impressions / low CTR", "score": row["impressions"] * 0.8})
+    return sorted(choices, key=lambda item: item["score"], reverse=True)
+
+
+def research(topic=None):
+    choices = saved_candidates()
+    candidate = {"generated_at": datetime.now(timezone.utc).isoformat(), "status": "research-only", "topic": topic or (choices[0]["topic"] if choices else None), "reason": "explicit topic" if topic else (choices[0]["reason"] if choices else "No GSC opportunity available"), "requires": ["reliable source", "non-duplicate intent", "source and image rights", "entity links", "real date", "green pre-deploy gate"]}
+    REPORTS.mkdir(parents=True, exist_ok=True)
+    path = REPORTS / f"{datetime.now(timezone.utc).date().isoformat()}.json"
+    path.write_text(json.dumps(candidate, ensure_ascii=False, indent=2), "utf-8")
+    print(f"[TT] candidate saved: {path}")
+    print("[TT] no article was published in research mode")
+    return 0
+
+
+def changed_articles(before):
+    changed = run(["git", "diff", "--name-only", before, "--", "content"]).stdout.splitlines()
+    return [ROOT / path for path in changed if path.endswith(".md") and not path.endswith("_index.md")]
+
+
+def validate_candidate(paths):
+    errors = []
+    now = datetime.now(timezone.utc)
+    for path in paths:
+        parts = path.read_text("utf-8").split("---", 2)
+        meta = yaml.safe_load(parts[1]) or {} if len(parts) >= 3 else {}
+        sources = meta.get("sources") or []
+        if not any(source_is_reliable(source.get("url")) for source in sources if isinstance(source, dict)):
+            errors.append(f"{path.relative_to(ROOT)}: no reliable source")
+        if not meta.get("entities"):
+            errors.append(f"{path.relative_to(ROOT)}: missing entity link")
+        if not meta.get("verification_status"):
+            errors.append(f"{path.relative_to(ROOT)}: missing verification status")
+        cover = meta.get("cover") or {}
+        credits = meta.get("image_credits") or []
+        if cover.get("image") and not credits:
+            errors.append(f"{path.relative_to(ROOT)}: image rights are unclear")
+        try:
+            value = meta.get("date")
+            published = value if isinstance(value, datetime) else datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+            published = published.replace(tzinfo=timezone.utc) if published.tzinfo is None else published.astimezone(timezone.utc)
+            if published > now:
+                errors.append(f"{path.relative_to(ROOT)}: future publication date")
+        except (TypeError, ValueError):
+            errors.append(f"{path.relative_to(ROOT)}: invalid publication date")
+    return errors
+
+
+def publish(url, topic):
+    if run(["git", "status", "--porcelain"]).stdout.strip():
+        print("[TT] refused: working tree is dirty")
+        return 1
+    today = datetime.now(timezone.utc).date().isoformat()
+    if run(["git", "log", f"--since={today}T00:00:00Z", "--format=%s"]).stdout.count("publish via tt") >= 1:
+        print("[TT] refused: daily publication limit reached")
+        return 1
+    before = run(["git", "rev-parse", "HEAD"]).stdout.strip()
+    result = run(["./mm", url])
+    if result.returncode:
+        print(result.stdout + result.stderr)
+        print("[TT] mm failed; no commit created")
+        return 1
+    paths = changed_articles(before)
+    errors = validate_candidate(paths)
+    gate = run([sys.executable, "scripts/pre_deploy.py"])
+    if gate.returncode:
+        errors.append("pre_deploy.py failed")
+    if errors:
+        for error in errors:
+            print(f"[TT] blocked: {error}")
+        return 1
+    run(["git", "add", "content", "static/images"])
+    commit = run(["git", "commit", "-m", f"feat(news): publish via tt — {topic[:72]}"])
+    if commit.returncode:
+        print(commit.stderr)
+        return 1
+    pushed = run(["git", "push"])
+    print(pushed.stdout + pushed.stderr)
+    return pushed.returncode
+
+
+def main(argv):
+    research_only = "--research-only" in argv or "--dry-run" in argv
+    tokens = [item for item in argv if not item.startswith("--")]
+    subject = tokens[0] if tokens else None
+    if research_only or not subject:
+        return research(subject)
+    if re.match(r"https?://", subject):
+        return publish(subject, subject)
+    return research(subject)
+
+
+if __name__ == "__main__":
+    raise SystemExit(main(sys.argv[1:]))

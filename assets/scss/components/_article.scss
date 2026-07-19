@@ -38,6 +38,21 @@
   color:var(--color-text-tertiary);
 }
 .article-author{font-weight:600;color:var(--color-text)}
+.article-source-badge{
+  display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-3);
+  margin-top:var(--space-3);font-size:var(--fs-sm);
+  .source-label{font-weight:600;color:var(--color-text-secondary)}
+  .source-link{color:var(--color-accent);font-weight:500;
+    &:hover{text-decoration:underline}
+  }
+  .verification-badge{
+    display:inline-flex;align-items:center;gap:4px;
+    padding:2px 8px;border-radius:999px;
+    font-size:var(--fs-xs);font-weight:600;
+    color:#059669;background:#ecfdf5;
+    svg{stroke:#059669}
+  }
+}
 .article-cover{
   margin:var(--space-6) 0 var(--space-8);
   border-radius:var(--radius);

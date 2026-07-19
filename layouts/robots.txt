@@ -1,3 +1,10 @@
 User-agent: *
 Allow: /
+Disallow: /search/
+Disallow: /*?s=
+Disallow: /*?q=
+Disallow: /tags/
+Disallow: */page/
+
 Sitemap: {{ "sitemap.xml" | absURL }}
+Sitemap: {{ "news.xml" | absURL }}

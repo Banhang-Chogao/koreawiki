@@ -21,6 +21,9 @@ date: 2026-07-17 01:49:41+00:00
 lastmod: 2026-07-17
 draft: false
 author: KoreaWiki Team
+author_id: koreawiki-team
+verification_status: "Có nguồn dẫn công khai"
+entities: ["yeonjun"]
 tags:
 - Yeonjun
 - TXT

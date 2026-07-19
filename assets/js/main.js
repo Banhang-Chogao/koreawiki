@@ -22,4 +22,52 @@ document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener
 // Heading Anchor Links
 document.querySelectorAll('.article-body h2,.article-body h3,.article-body h4').forEach(function(h){if(!h.id)return;var l=document.createElement('a');l.className='anchor-link';l.href='#'+h.id;l.setAttribute('aria-label','Link to this section');l.innerHTML='<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>';h.appendChild(l);});
 
+// Calendar Filtering
+(function(){
+  var filters=document.querySelectorAll('.cal-filter');
+  var events=document.querySelectorAll('.cal-event');
+  var empty=document.querySelector('.calendar-empty');
+  if(!filters.length||!events.length)return;
+  filters.forEach(function(btn){
+    btn.addEventListener('click',function(){
+      filters.forEach(function(b){b.classList.remove('active');});
+      filters.forEach(function(b){b.setAttribute('aria-pressed','false');});
+      this.classList.add('active');
+      this.setAttribute('aria-pressed','true');
+      var type=this.getAttribute('data-filter');
+      var visible=0;
+      events.forEach(function(ev){
+        if(type==='all'||ev.getAttribute('data-type')===type){
+          ev.style.display='flex';visible++;
+        } else {
+          ev.style.display='none';
+        }
+      });
+      if(empty)empty.style.display=visible?'none':'block';
+    });
+  });
+})();
+
+// Artist Tracker (localStorage)
+(function(){
+  var trackBtns=document.querySelectorAll('[data-track-artist]');
+  trackBtns.forEach(function(btn){
+    var artist=btn.getAttribute('data-track-artist');
+    var key='kw-tracked-'+artist;
+    function updateBtn(){
+      var tracked=localStorage.getItem(key)==='1';
+      btn.innerHTML=tracked?'★ Theo dõi':'☆ Theo dõi';
+      btn.classList.toggle('tracking',tracked);
+      btn.setAttribute('aria-pressed',tracked?'true':'false');
+    }
+    updateBtn();
+    btn.addEventListener('click',function(){
+      var tracked=localStorage.getItem(key)==='1';
+      if(tracked){localStorage.removeItem(key);}
+      else{localStorage.setItem(key,'1');}
+      updateBtn();
+    });
+  });
+})();
+
 })();

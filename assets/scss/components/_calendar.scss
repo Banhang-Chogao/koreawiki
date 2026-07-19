@@ -1,0 +1,72 @@
+.calendar-page{padding:var(--space-10) var(--space-6)}
+
+.calendar-controls{margin-bottom:var(--space-8)}
+
+.calendar-filters{
+  display:flex;flex-wrap:wrap;gap:var(--space-2);
+}
+
+.cal-filter{
+  padding:var(--space-2) var(--space-4);
+  border:1px solid var(--color-border);
+  border-radius:999px;
+  background:var(--color-bg);
+  color:var(--color-text-secondary);
+  font-size:var(--fs-sm);
+  font-weight:500;
+  cursor:pointer;
+  &:hover{border-color:var(--color-primary);color:var(--color-primary)}
+  &.active{background:var(--color-primary);color:#fff;border-color:var(--color-primary)}
+}
+
+.calendar-list{
+  display:flex;flex-direction:column;gap:var(--space-4);
+}
+
+.cal-event{
+  display:flex;gap:var(--space-5);
+  padding:var(--space-5);
+  background:var(--color-bg-card);
+  border:1px solid var(--color-border-light);
+  border-radius:var(--radius);
+  &:hover{box-shadow:var(--shadow-card-hover)}
+}
+
+.cal-event-date{
+  display:flex;flex-direction:column;align-items:center;
+  min-width:56px;
+  .cal-day{font-size:var(--fs-2xl);font-weight:800;line-height:1;color:var(--color-text)}
+  .cal-month{font-size:var(--fs-xs);font-weight:600;text-transform:uppercase;color:var(--color-text-tertiary)}
+}
+
+.cal-event-body{flex:1}
+.cal-event-meta{display:flex;flex-wrap:wrap;gap:var(--space-2);margin-bottom:var(--space-2)}
+.cal-event-artist{font-size:var(--fs-sm);font-weight:600;color:var(--color-secondary)}
+.cal-event-title{
+  font-size:var(--fs-lg);font-weight:700;margin-bottom:var(--space-1);
+  a{color:var(--color-text);&:hover{color:var(--color-accent)}}
+}
+.cal-event-desc{font-size:var(--fs-sm);color:var(--color-text-tertiary);line-height:var(--lh-relaxed)}
+
+.calendar-empty{
+  text-align:center;padding:var(--space-16) 0;
+  p{color:var(--color-text-tertiary)}
+}
+
+.badge{
+  display:inline-flex;align-items:center;
+  padding:2px 8px;border-radius:999px;
+  font-size:var(--fs-xs);font-weight:600;
+  text-transform:capitalize;
+}
+.badge-concert{background:var(--chip-purple);color:var(--color-secondary)}
+.badge-comeback{background:var(--chip-blue);color:var(--color-primary)}
+.badge-fanmeeting{background:var(--chip-green);color:var(--color-success)}
+.badge-award{background:var(--chip-amber);color:var(--color-gold)}
+.badge-photoshoot{background:var(--chip-red);color:var(--color-accent)}
+.badge-achievement{background:var(--chip-green);color:var(--color-success)}
+
+@media(max-width:480px){
+  .cal-event{flex-direction:column;gap:var(--space-3)}
+  .cal-event-date{flex-direction:row;gap:var(--space-2);min-width:auto}
+}

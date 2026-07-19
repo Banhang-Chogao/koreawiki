@@ -13,6 +13,9 @@ date: 2026-07-17T04:30:10Z
 lastmod: 2026-07-17
 draft: false
 author: "KoreaWiki Team"
+author_id: "koreawiki-team"
+verification_status: "Có nguồn dẫn công khai"
+entities: ["hope-2026", "na-hong-jin"]
 tags:
   - "Na Hong-jin"
   - "Hope"

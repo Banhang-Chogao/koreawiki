@@ -1,55 +1,48 @@
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "{{ if .IsPage }}Article{{ else }}WebSite{{ end }}",
-  "@id": "{{ .Permalink }}#{{ if .IsPage }}article{{ else }}website{{ end }}",
-  "url": "{{ .Permalink }}",
-  "name": "{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}",
-  {{ if not .IsPage }}
-  "description": "{{ .Site.Params.description }}",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": {
-      "@type": "EntryPoint",
-      "urlTemplate": "{{ "" | absURL }}?s={search_term_string}"
-    },
-    "query-input": "required name=search_term_string"
-  },
-  {{ end }}
-  {{ if .IsPage }}
-  "headline": "{{ .Title }}",
-  "description": "{{ .Description }}",
-  "wordCount": "{{ .WordCount }}",
-  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
-  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
-  "author": {
-    "@type": "Person",
-    "name": "{{ .Params.author | default .Site.Params.author }}"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "{{ .Permalink }}"
-  },
-  {{ end }}
-  "publisher": {
-    "@type": "Organization",
-    "name": "KoreaWiki",
-    "url": "{{ .Site.BaseURL }}"
-  }
-}
-</script>
-{{ if .IsHome }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "KoreaWiki",
-  "url": "{{ .Permalink }}",
-  "logo": "{{ "images/favicon.svg" | absURL }}",
-  "description": "{{ .Site.Params.description }}",
-  "sameAs": [
-    "https://github.com/Banhang-Chogao/koreawiki"
-  ]
-}
-</script>
-{{ end }}
+{{- $context := "https://schema.org" -}}
+{{- $publisher := dict "@type" "Organization" "name" "KoreaWiki" "url" .Site.Home.Permalink "logo" (dict "@type" "ImageObject" "url" ("images/favicon.svg" | absURL)) -}}
+{{- if .IsHome -}}
+  {{- $website := dict "@context" $context "@type" "WebSite" "@id" (printf "%s#website" .Permalink) "url" .Permalink "name" .Site.Title "description" .Site.Params.description "publisher" $publisher "potentialAction" (dict "@type" "SearchAction" "target" (dict "@type" "EntryPoint" "urlTemplate" (printf "%ssearch/?q={search_term_string}" .Site.Home.Permalink)) "query-input" "required name=search_term_string") -}}
+<script type="application/ld+json">{{ $website | jsonify | safeJS }}</script>
+  {{- $organization := dict "@context" $context "@type" "Organization" "@id" (printf "%s#organization" .Site.Home.Permalink) "name" "KoreaWiki" "url" .Site.Home.Permalink "logo" ("images/favicon.svg" | absURL) "email" .Site.Params.contactEmail "sameAs" (slice "https://github.com/Banhang-Chogao/koreawiki") -}}
+<script type="application/ld+json">{{ $organization | jsonify | safeJS }}</script>
+{{- else if .IsPage -}}
+  {{- $type := "Article" -}}
+  {{- if eq .Section "news" -}}{{- $type = "NewsArticle" -}}{{- end -}}
+  {{- if eq .Section "entities" -}}{{- $type = .Params.entity.schema_type | default "Thing" -}}{{- end -}}
+  {{- $authorName := .Params.author | default .Site.Params.author -}}
+  {{- $author := dict "@type" "Person" "name" $authorName -}}
+  {{- with .Params.author_id -}}
+    {{- with $.Site.GetPage (printf "/authors/%s" .) -}}
+      {{- $author = merge $author (dict "url" .Permalink) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $mainEntity := dict "@type" "WebPage" "@id" .Permalink -}}
+  {{- $schema := dict "@context" $context "@type" $type "@id" (printf "%s#%s" .Permalink (lower $type)) "url" .Permalink "name" .Title "description" (.Description | default .Site.Params.description) "mainEntityOfPage" $mainEntity "publisher" $publisher -}}
+  {{- if eq $type "NewsArticle" -}}
+    {{- $schema = merge $schema (dict "headline" .Title "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00") "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00") "author" $author) -}}
+    {{- with .Params.cover.image -}}{{- $schema = merge $schema (dict "image" (slice (. | absURL))) -}}{{- end -}}
+  {{- else if eq .Section "entities" -}}
+    {{- $schema = merge $schema (dict "identifier" (.Params.entity.id | default .File.ContentBaseName)) -}}
+  {{- else -}}
+    {{- $schema = merge $schema (dict "headline" .Title "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00") "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00") "author" $author "wordCount" .WordCount) -}}
+    {{- with .Params.cover.image -}}{{- $schema = merge $schema (dict "image" (slice (. | absURL))) -}}{{- end -}}
+  {{- end -}}
+<script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
+{{- end -}}
+
+{{- if and (not .IsHome) .Site.Params.breadcrumbs -}}
+  {{- $items := slice (dict "@type" "ListItem" "position" 1 "name" (T "home" | default "Home") "item" .Site.Home.Permalink) -}}
+  {{- $position := 1 -}}
+  {{- if .Section -}}
+    {{- with .Site.GetPage "section" .Section -}}
+      {{- $position = add $position 1 -}}
+      {{- $items = $items | append (dict "@type" "ListItem" "position" $position "name" .Title "item" .Permalink) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if .IsPage -}}
+    {{- $position = add $position 1 -}}
+    {{- $items = $items | append (dict "@type" "ListItem" "position" $position "name" .Title "item" .Permalink) -}}
+  {{- end -}}
+  {{- $breadcrumb := dict "@context" $context "@type" "BreadcrumbList" "@id" (printf "%s#breadcrumb" .Permalink) "itemListElement" $items -}}
+<script type="application/ld+json">{{ $breadcrumb | jsonify | safeJS }}</script>
+{{- end -}}

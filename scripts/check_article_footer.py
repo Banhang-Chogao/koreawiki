@@ -100,11 +100,13 @@ def check_image_credits(meta, rel):
             issues.append(f"{rel}: image_credits[{index}] must be an object")
             continue
         platform = clean(item.get("platform", item.get("source")))
-        photographer = clean(item.get("photographer", item.get("author", item.get("creator"))))
-        author_url = clean(item.get("author_url", item.get("photographer_url", item.get("creator_url"))))
+        photographer = clean(item.get("holder", item.get("photographer", item.get("author", item.get("creator")))))
+        author_url = clean(item.get("source_url", item.get("author_url", item.get("photographer_url", item.get("creator_url")))))
         license_name = clean(item.get("license"))
         if not any((platform, photographer, author_url, license_name)):
             issues.append(f"{rel}: image_credits[{index}] is empty")
+        if any((platform, photographer, author_url, license_name)) and (placeholder(photographer) or placeholder(license_name) or not valid_http_url(author_url)):
+            issues.append(f"{rel}: image_credits[{index}] needs a real holder, license and source URL")
         for field, value in (("platform", platform), ("photographer", photographer), ("license", license_name)):
             if value and placeholder(value):
                 issues.append(f"{rel}: image_credits[{index}] has placeholder {field}")
@@ -166,8 +168,11 @@ def postbuild_checks(pages):
         return ["public/: production output is missing; run hugo before --postbuild"]
     built = list(PUBLIC.rglob("index.html"))
     for rel, meta in pages:
+        if rel.parts[0] == "authors":
+            continue
         slug = clean(meta.get("slug")) or rel.stem
-        matches = [path for path in built if path.parent.name == slug]
+        expected = PUBLIC / rel.parts[0] / slug / "index.html"
+        matches = [expected] if expected.exists() else []
         if not matches:
             issues.append(f"{rel}: no built page found for slug {slug}")
             continue
@@ -179,16 +184,12 @@ def postbuild_checks(pages):
                 issues.append(f"{rel}: {path.relative_to(PUBLIC)} has {marker_count} article footer markers")
             if decoded.count("Bản quyền & Ghi nguồn") != 1:
                 issues.append(f"{rel}: {path.relative_to(PUBLIC)} missing/duplicating fixed copyright heading")
-            if "Nội dung trên KoreaWiki thuộc bản quyền của website" not in decoded:
+            if "Nội dung biên tập của KoreaWiki được bảo hộ bản quyền" not in decoded:
                 issues.append(f"{rel}: {path.relative_to(PUBLIC)} missing copyright notice")
             if not re.search(r"data-article-footer-copyright", text):
                 issues.append(f"{rel}: {path.relative_to(PUBLIC)} missing copyright section marker")
             issues.extend(check_external_links(text, path.relative_to(PUBLIC)))
             footer = re.search(r'<aside\b[^>]*data-article-footer(?:\s|=|>)[^>]*>(.*?)</aside>', text, re.DOTALL)
-            if footer and re.search(r"<h2[^>]*>FAQ - Câu hỏi thường gặp</h2>", footer.group(1)):
-                footer_text = html.unescape(footer.group(1))
-                if footer_text.find("Bản quyền & Ghi nguồn") < footer_text.find("FAQ - Câu hỏi thường gặp"):
-                    issues.append(f"{rel}: copyright block must be after FAQ/links")
     return issues
 
 

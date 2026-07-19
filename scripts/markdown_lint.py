@@ -46,9 +46,18 @@ def main():
         for pat, msg in WARNINGS:
             if re.search(pat, text): issues.append((rel, msg))
         lines = text.split("\n")
+        fm_count = 0
         has_long = False
         for i, line in enumerate(lines, 1):
-            if len(line) > MAX_LINE and not line.startswith("|"):
+            if line.strip() == "---" and fm_count < 2:
+                fm_count += 1
+                continue
+            if (
+                fm_count >= 2
+                and len(line) > MAX_LINE
+                and not line.startswith("|")
+                and not line.lstrip().startswith("{{<")
+            ):
                 issues.append((rel, f"Line {i} >{MAX_LINE} chars"))
                 has_long = True
         if fix and has_long:

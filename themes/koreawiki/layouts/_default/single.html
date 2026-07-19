@@ -1,14 +1,19 @@
 {{ define "main" }}
+{{- $authorName := .Params.author | default .Site.Params.author -}}
+{{- $verification := .Params.verification_status | default "Nguồn được liệt kê" -}}
 <article class="article-page" itemscope itemtype="https://schema.org/Article" data-pagefind-body>
   <meta itemprop="identifier" content="{{ .Permalink }}">
   <meta itemprop="url" content="{{ .Permalink }}">
   <meta itemprop="name" content="{{ .Title }}">
   <meta itemprop="headline" content="{{ .Title }}">
   <meta itemprop="description" content="{{ .Description }}">
-  <meta itemprop="author" content="{{ .Params.author | default .Site.Params.author }}">
+  <meta itemprop="author" content="{{ $authorName }}">
   <meta itemprop="datePublished" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
   <meta itemprop="dateModified" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
   <meta itemprop="wordCount" content="{{ .WordCount }}">
+  {{ if .Params.cover.image }}
+  <meta itemprop="image" content="{{ .Params.cover.image | absURL }}">
+  {{ end }}
   <div class="article-layout">
     <div class="article-main">
       <header class="article-header">
@@ -19,14 +24,16 @@
         {{ end }}
         <h1 class="article-title">{{ .Title }}</h1>
         <div class="article-meta">
-          {{ if .Params.author }}
-          <span class="article-author">{{ .Params.author }}</span>
+          {{ if $authorName }}
+          {{ with .Params.author_id }}{{ with $.Site.GetPage (printf "/authors/%s" .) }}
+          <a class="article-author" itemprop="author" href="{{ .RelPermalink }}">{{ $authorName }}</a>
+          {{ else }}<span class="article-author" itemprop="author">{{ $authorName }}</span>{{ end }}{{ else }}<span class="article-author" itemprop="author">{{ $authorName }}</span>{{ end }}
           <span class="article-meta-sep">·</span>
           {{ end }}
-          <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "ngày 2 tháng 1 năm 2006 | 15 giờ 4 phút" }}</time>
+          <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" itemprop="datePublished">{{ .Date.Format "ngày 2 tháng 1 năm 2006 | 15 giờ 4 phút" }}</time>
           {{ if ne .Lastmod .Date }}
           <span class="article-meta-sep">·</span>
-          <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">{{ T "updated" | default "Cập nhật" }} {{ .Lastmod.Format "ngày 2 tháng 1 năm 2006 | 15 giờ 4 phút" }}</time>
+          <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}" itemprop="dateModified">{{ T "updated" | default "Cập nhật" }} {{ .Lastmod.Format "ngày 2 tháng 1 năm 2006 | 15 giờ 4 phút" }}</time>
           {{ end }}
           <span class="article-meta-sep">·</span>
           <span>{{ .ReadingTime }} {{ T "min_read" | default "min read" }}</span>
@@ -35,10 +42,19 @@
           <span class="article-commit" title="{{ .AbbreviatedHash }} — {{ .AuthorDate.Format "Jan 2, 2006 15:04" }}">commit {{ .AbbreviatedHash }}</span>
           {{ end }}
         </div>
+        {{ if .Params.sources }}
+        <div class="article-source-badge">
+          <span class="source-label">Trạng thái:</span>
+          <span class="verification-badge">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            {{ $verification }}
+          </span>
+        </div>
+        {{ end }}
       </header>
       {{ if .Params.cover.image }}
       <figure class="article-cover">
-        <img src="{{ .Params.cover.image | relURL }}" alt="{{ .Params.cover.alt | default .Title }}" loading="eager" decoding="async" width="800" height="450" />
+        {{ partial "cover-img.html" (dict "src" .Params.cover.image "alt" (.Params.cover.alt | default .Title) "width" (.Params.cover.width | default 1200) "height" (.Params.cover.height | default 675) "loading" "eager" "fetchpriority" "high" "class" "article-cover-image") }}
         {{ if .Params.cover.caption }}
         <figcaption>{{ .Params.cover.caption }}</figcaption>
         {{ end }}
@@ -60,6 +76,7 @@
       {{ end }}
       <div class="article-body">
         {{ .Content }}
+        {{ partial "entity-links.html" . }}
         {{ partial "article-footer.html" . }}
       </div>
       <div hidden>

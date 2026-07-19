@@ -1,0 +1,22 @@
+{{- $newsPages := where (where .Site.RegularPages "Section" "news") "Date" "ge" (now.AddDate 0 0 -2) -}}
+{{- $newsPages = where $newsPages "Params.draft" "ne" true -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+{{- range $newsPages -}}
+{{- $pubDate := .Date.Format "2006-01-02T15:04:05Z07:00" -}}
+{{- $lang := .Site.Language.Locale | default "en" -}}
+  <url>
+    <loc>{{ .Permalink }}</loc>
+    <news:news>
+      <news:publication>
+        <news:name>{{ .Site.Title }}</news:name>
+        <news:language>{{ $lang }}</news:language>
+      </news:publication>
+      <news:publication_date>{{ $pubDate }}</news:publication_date>
+      <news:title>{{ .Title }}</news:title>
+      {{- with .Params.tags }}{{ range first 3 . }}<news:keywords>{{ . }}</news:keywords>{{ end }}{{ end -}}
+    </news:news>
+  </url>
+{{- end -}}
+</urlset>

@@ -1,0 +1,45 @@
+name: Nightly Research
+
+on:
+  schedule:
+    # Every 2 hours during night hours GMT+7: 20:00, 22:00, 00:00, 02:00, 04:00 UTC
+    - cron: '0 13,15,17,19,21 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: koreawiki-research
+  cancel-in-progress: false
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install deps
+        run: pip install pyyaml requests google-api-python-client google-auth
+      - name: Run research
+        env:
+          GSC_CLIENT_EMAIL: ${{ secrets.GSC_CLIENT_EMAIL }}
+          GSC_PRIVATE_KEY: ${{ secrets.GSC_PRIVATE_KEY }}
+          GSC_SITE_URL: ${{ secrets.GSC_SITE_URL }}
+        run: |
+          python3 scripts/search_console.py
+          python3 tt --research-only "auto-research"
+      - name: Check content gaps
+        run: |
+          python3 scripts/seo_audit.py
+          echo "Research complete — review reports/seo/ for candidates"
+      - name: Upload private research artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: seo-research-${{ github.run_id }}
+          path: reports/seo/
+          if-no-files-found: warn

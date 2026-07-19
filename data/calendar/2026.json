@@ -1,0 +1,64 @@
+{
+  "year": 2026,
+  "events": [
+    {
+      "id": "bts-arirang-2026-07",
+      "title": "BTS đạt chứng nhận ARIRANG UK Official Charts",
+      "date": "2026-07-15",
+      "type": "achievement",
+      "artist": "BTS",
+      "description": "BTS đạt album thành công nhất năm 2026 trên UK Official Charts",
+      "url": "/kpop/bang-xep-hang-chinh-thuc-cua-bts-album-thanh-cong-nhat-nam/",
+      "status": "reported",
+      "source": {
+        "name": "Dispatch — BTS và UK Official Charts",
+        "url": "https://www.dispatch.co.kr/2345377"
+      }
+    },
+    {
+      "id": "cortis-tour-2026-07",
+      "title": "CORTIS khởi động world tour 'Put Your Phone Down'",
+      "date": "2026-07-20",
+      "type": "concert",
+      "artist": "CORTIS",
+      "description": "CORTIS bắt đầu chuyến lưu diễn vòng quanh thế giới",
+      "url": "/kpop/cortis-ra-mat-chuyen-luu-dien-the-gioi-dau-tien-toi-se-lam-cho-no-tro-thanh-mot-giai-doan-kho-quen/",
+      "status": "announced",
+      "location": {
+        "name": "INSPIRE Arena",
+        "address": "127 Gonghangmunhwa-ro, Jung-gu, Incheon"
+      },
+      "source": {
+        "name": "Dispatch — CORTIS tour",
+        "url": "https://www.dispatch.co.kr/2345369"
+      }
+    },
+    {
+      "id": "andable-dicon-2026-07",
+      "title": "ANDABLE lên ảnh bìa DIcon số 35",
+      "date": "2026-07-18",
+      "type": "photoshoot",
+      "artist": "ANDABLE",
+      "description": "ANDABLE xuất hiện trên ảnh bìa DIcon số 35",
+      "url": "/kpop/andable-len-anh-bia-dicon-so-35-and-the-summer-cau-chuyen-mua-he-tuoi-mat/",
+      "status": "reported",
+      "source": {
+        "name": "Dispatch — ANDABLE và DIcon",
+        "url": "https://www.dispatch.co.kr/2345374"
+      }
+    },
+    {
+      "id": "hope-release-2026-07",
+      "title": "Hope ra rạp tại Hàn Quốc",
+      "date": "2026-07-14",
+      "type": "drama",
+      "description": "Mốc công chiếu được nêu trong bài đưa tin về thành tích phòng vé của phim.",
+      "url": "/news/hope-cua-na-hong-jin-vuot-1-trieu-khan-gia-sau-3-ngay-ky-luc-phong-ve-2026/",
+      "status": "reported",
+      "source": {
+        "name": "Dispatch — Hope đạt mốc phòng vé",
+        "url": "https://www.dispatch.co.kr/2345359"
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{{ define "main" }}
+{{- $schemaType := .Params.entity.schema_type | default "Thing" -}}
+<article class="article-page" itemscope itemtype="https://schema.org/{{ $schemaType }}" data-pagefind-body>
+  <meta itemprop="identifier" content="{{ .Permalink }}">
+  <meta itemprop="url" content="{{ .Permalink }}">
+  <div class="article-layout">
+    <div class="article-main">
+      <header class="article-header">
+        <h1 class="article-title">{{ .Title }}</h1>
+        <div class="article-meta">
+          {{ if .Params.entity.korean_name }}
+          <span class="entity-kr-name">{{ .Params.entity.korean_name }}</span>
+          <span class="article-meta-sep">·</span>
+          {{ end }}
+          {{ if .Params.entity.romanized_name }}
+          <span class="entity-en-name">{{ .Params.entity.romanized_name }}</span>
+          <span class="article-meta-sep">·</span>
+          {{ end }}
+          {{ if .Params.entity.type }}
+          <span>{{ .Params.entity.type | humanize }}</span>
+          {{ end }}
+          {{ if .Params.entity.official_url }}
+          <span class="article-meta-sep">·</span>
+          <a href="{{ .Params.entity.official_url | safeURL }}" rel="noopener noreferrer" target="_blank">Trang chính thức</a>
+          {{ end }}
+        </div>
+        {{ if .Description }}
+        <p class="entity-bio">{{ .Description }}</p>
+        {{ end }}
+        {{ if in (slice "person" "music_group") .Params.entity.type }}
+        <button type="button" class="entity-track" data-track-artist="{{ .Params.entity.id }}" aria-pressed="false">☆ Theo dõi</button>
+        {{ end }}
+      </header>
+      <div class="article-body">
+        {{ .Content }}
+        {{ partial "entity-links.html" . }}
+        {{ partial "article-footer.html" . }}
+      </div>
+      <footer class="article-footer">
+        {{ partial "prev-next" . }}
+      </footer>
+    </div>
+  </div>
+</article>
+{{ end }}

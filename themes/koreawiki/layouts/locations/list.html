@@ -1,0 +1,41 @@
+{{ define "headExtra" }}
+{{- $locations := slice -}}
+{{- range (slice hugo.Data.locations.venues hugo.Data.locations.filming_locations hugo.Data.locations.architecture) -}}
+  {{- range . -}}{{- $locations = $locations | append . -}}{{- end -}}
+{{- end -}}
+{{- $places := slice -}}
+{{- range $locations -}}
+  {{- $places = $places | append (dict "@type" "Place" "name" .name "address" .address "geo" (dict "@type" "GeoCoordinates" "latitude" .lat "longitude" .lng) "sameAs" .source.url) -}}
+{{- end -}}
+{{- $schema := dict "@context" "https://schema.org" "@type" "ItemList" "name" .Title "itemListElement" $places -}}
+<script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
+{{ end }}
+
+{{ define "main" }}
+<section class="section location-page" data-pagefind-body>
+  <div class="wrapper">
+    <header class="section-header">
+      <h1 class="section-title">{{ .Title }}</h1>
+      <p class="section-description">{{ .Description }}</p>
+    </header>
+    <div class="section-intro article-body">{{ .Content }}</div>
+    {{ range $kind, $entries := dict "Không gian K-Pop" hugo.Data.locations.venues "Địa điểm phim Hàn" hugo.Data.locations.filming_locations "Kiến trúc Hàn Quốc" hugo.Data.locations.architecture }}
+    <section class="location-group" aria-labelledby="{{ $kind | urlize }}">
+      <h2 id="{{ $kind | urlize }}">{{ $kind }}</h2>
+      <div class="calendar-list">
+      {{ range $entries }}
+        <article class="cal-event">
+          <div class="cal-event-body">
+            <div class="cal-event-meta"><span class="badge badge-{{ .type }}">{{ .type | humanize }}</span></div>
+            <h3 class="cal-event-title">{{ .name }}</h3>
+            <p class="cal-event-desc">{{ .description }}</p>
+            <p class="cal-event-source"><strong>Địa chỉ:</strong> {{ .address }}<br><strong>Tọa độ:</strong> {{ .lat }}, {{ .lng }}<br><a href="https://www.google.com/maps/search/?api=1&amp;query={{ .lat }},{{ .lng }}" rel="noopener noreferrer" target="_blank">Mở bản đồ</a> · <a href="{{ .source.url | safeURL }}" rel="noopener noreferrer" target="_blank">Nguồn: {{ .source.name }}</a></p>
+          </div>
+        </article>
+      {{ end }}
+      </div>
+    </section>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

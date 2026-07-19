@@ -13,6 +13,9 @@ date: 2026-07-17 12:38:00+07:00
 lastmod: 2026-07-18
 draft: false
 author: KoreaWiki Team
+author_id: koreawiki-team
+verification_status: "Có nguồn dẫn công khai"
+entities: ["jo-in-sung", "hope-2026", "na-hong-jin"]
 tags:
 - Jo In-sung
 - Hope
