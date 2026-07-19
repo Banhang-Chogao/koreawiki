@@ -6,6 +6,8 @@ date: 2026-07-08T07:00:00+00:00
 lastmod: 2026-07-18
 draft: false
 author: "KoreaWiki Team"
+author_id: "koreawiki-team"
+verification_status: "Có nguồn dẫn công khai"
 tags:
   - "KIẾN TRÚC"
   - "thành"

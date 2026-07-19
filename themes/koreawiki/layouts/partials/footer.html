@@ -1,4 +1,5 @@
 <footer class="site-footer" role="contentinfo" data-pagefind-ignore>
+  {{ partial "newsletter" . }}
   <div class="footer-inner">
     <div class="footer-grid">
       <div class="footer-brand">
@@ -25,17 +26,19 @@
         <h4 class="footer-title">{{ T "about" | default "About" }}</h4>
         <ul class="footer-list">
           {{ range .Site.Menus.footer }}
-          {{ if and (ne .Identifier "ai-travel-planner") (ne .Identifier "expense-management") (ne (.Name | lower) "ai travel planner") (ne (.Name | lower) "expense management") }}
           <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
           {{ end }}
-          {{ end }}
+          <li><a href="{{ "editorial-policy/" | relLangURL }}">Chính sách biên tập</a></li>
+          <li><a href="{{ "corrections-policy/" | relLangURL }}">Chính sách đính chính</a></li>
+          <li><a href="{{ "source-policy/" | relLangURL }}">Chính sách nguồn tin</a></li>
+          <li><a href="{{ "corrections/" | relLangURL }}">Lịch sử đính chính</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
       <span>{{ replace .Site.Copyright "{currentYear}" (now.Format "2006") }}</span>
       <div class="footer-version">{{ T "build_version" | default "Phiên bản dịch vụ" }}:
-        {{ with .Site.Data.build }}
+        {{ with hugo.Data.build }}
         {{ .time }} | {{ .timezone }} | commit <a href="https://github.com/Banhang-Chogao/koreawiki/commit/{{ .commit }}" target="_blank" rel="noopener">{{ slicestr .commit 0 7 }}</a>
         {{ else }}
         {{ now.Format "02-01-2006 | 15:04:05" }} | GMT+7 | commit local-dev

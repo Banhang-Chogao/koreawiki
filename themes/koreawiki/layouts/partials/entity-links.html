@@ -1,0 +1,18 @@
+{{- $registry := hugo.Data.entities.registry | default dict -}}
+{{- $entities := .Params.entities | default (slice) -}}
+{{- $linked := slice -}}
+{{- range $id := $entities -}}
+  {{- with index $registry $id -}}
+    {{- if and .name .url -}}
+      {{- $linked = $linked | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- with $linked -}}
+<section class="article-entities" aria-label="Thực thể liên quan">
+  <h2 class="article-entities__heading">Thực thể liên quan</h2>
+  <ul class="article-entities__list">
+    {{- range . -}}<li><a href="{{ .url | relURL }}">{{ .name }}</a></li>{{- end -}}
+  </ul>
+</section>
+{{- end -}}

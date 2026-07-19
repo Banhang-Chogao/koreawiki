@@ -1,5 +1,6 @@
-baseURL = "https://banhang-chogao.github.io/koreawiki"
-languageCode = "en"
+baseURL = "https://banhang-chogao.github.io/koreawiki/"
+locale = "vi"
+defaultContentLanguage = "vi"
 title = "KoreaWiki — Korean Entertainment & Culture Hub"
 theme = "koreawiki"
 enableRobotsTXT = true
@@ -40,8 +41,16 @@ copyright = "Copyright © {currentYear} KoreaWiki. All rights reserved."
     lineNumbersInTable = true
     noClasses = false
 
+[outputFormats]
+  [outputFormats.NewsSitemap]
+    mediaType = "application/xml"
+    baseName = "news"
+    isPlainText = false
+    rel = "alternate"
+    protocol = "https://"
+
 [outputs]
-  home = ["HTML", "RSS"]
+  home = ["HTML", "RSS", "NewsSitemap"]
   section = ["HTML", "RSS"]
   page = ["HTML"]
 
@@ -67,30 +76,37 @@ copyright = "Copyright © {currentYear} KoreaWiki. All rights reserved."
   relatedPosts = true
   readingTime = true
   toc = true
-  newsletter = false
 
   accentColor = "#1a56db"
 
+  [params.newsletter]
+    # A provider URL is intentionally empty until a real provider is configured.
+    # The UI clearly states that no address is submitted in this state.
+    enabled = true
+    providerURL = ""
+    method = "post"
+    emailField = "email"
+
 [languages]
   [languages.en]
-    languageCode = "en"
-    languageName = "English"
+    locale = "en"
+    label = "English"
     weight = 1
     title = "KoreaWiki — Korean Entertainment & Culture Hub"
     [languages.en.params]
 description = "Your ultimate source for Korean entertainment — News, Culture, Travel, Food, KIẾN TRÚC."
 
   [languages.ko]
-    languageCode = "ko"
-    languageName = "한국어"
+    locale = "ko"
+    label = "한국어"
     weight = 2
     title = "KoreaWiki — 한국 연예 & 문화 허브"
     [languages.ko.params]
       description = "K-드라마, K-팝, 연예 뉴스, 문화, 라이프스타일 — 한국 콘텐츠의 모든 것."
 
   [languages.vi]
-    languageCode = "vi"
-    languageName = "Tiếng Việt"
+    locale = "vi"
+    label = "Tiếng Việt"
     weight = 3
     title = "KoreaWiki — K-Lifestyle & Giải Trí Hàn Quốc"
     [languages.vi.params]

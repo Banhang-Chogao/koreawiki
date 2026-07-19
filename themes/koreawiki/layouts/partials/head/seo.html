@@ -1,3 +1,18 @@
+{{- $noindex := false -}}
+{{- if eq .Params.noindex true -}}
+  {{- $noindex = true -}}
+{{- end -}}
+{{- if and (not .IsPage) (in (slice "taxonomy" "term") .Kind) -}}
+  {{- $noindex = true -}}
+{{- end -}}
+{{- if hasPrefix .RelPermalink "/search/" -}}
+  {{- $noindex = true -}}
+{{- end -}}
+{{- if $noindex -}}
+<meta name="robots" content="noindex, follow, max-image-preview:large">
+{{- else -}}
+<meta name="robots" content="index, follow, max-image-preview:large">
+{{- end -}}
 <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
 {{ if .Description }}
 <meta name="description" content="{{ .Description }}">
@@ -17,7 +32,7 @@
 {{ end }}
 {{ if hugo.IsMultilingual }}
 {{ range .AllTranslations }}
-<link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">
+<link rel="alternate" hreflang="{{ .Language.Locale }}" href="{{ .Permalink }}">
 {{ end }}
 <link rel="alternate" hreflang="x-default" href="{{ .Site.BaseURL }}">
 {{ end }}

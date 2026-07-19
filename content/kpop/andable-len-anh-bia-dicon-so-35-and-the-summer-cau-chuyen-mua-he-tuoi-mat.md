@@ -19,6 +19,9 @@ date: 2026-07-18 03:11:01+00:00
 lastmod: 2026-07-19
 draft: false
 author: KoreaWiki Team
+author_id: koreawiki-team
+verification_status: "Có nguồn dẫn công khai"
+entities: ["andable"]
 tags:
 - ANDABLE
 - ZB1

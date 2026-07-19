@@ -1,0 +1,22 @@
+{{ define "main" }}
+<section class="section" data-pagefind-body>
+  <div class="wrapper">
+    <header class="section-header">
+      <h1 class="section-title">{{ .Title }}</h1>
+      {{ with .Description }}<p class="section-description">{{ . }}</p>{{ end }}
+    </header>
+    {{ with .Content }}<div class="section-intro article-body">{{ . }}</div>{{ end }}
+    <div class="grid-3">
+      {{ range .RegularPages.ByTitle }}
+      <article class="card entity-card">
+        <div class="card-body">
+          <p class="card-cat">{{ .Params.entity.type | default "entity" | humanize }}</p>
+          <h2 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          <p class="card-summary">{{ .Description }}</p>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

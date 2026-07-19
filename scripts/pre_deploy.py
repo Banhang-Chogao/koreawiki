@@ -21,11 +21,15 @@ PYTHON = "python3" if sys.platform == "darwin" else "python"
 EXTERNAL_CHECKS = [
     ("Front Matter", [PYTHON, "scripts/qa.py"]),
     ("SEO", [PYTHON, "scripts/seo.py"]),
+    ("SEO Audit", [PYTHON, "scripts/seo_audit.py"]),
     ("Front Matter Check", [PYTHON, "scripts/frontmatter_check.py"]),
-    ("Markdown Lint", [PYTHON, "scripts/markdown_lint.py", "--fix"]),
+    ("Markdown Lint", [PYTHON, "scripts/markdown_lint.py"]),
     ("Slug Check", [PYTHON, "scripts/slug.py", "--check"]),
     ("Link Check", [PYTHON, "scripts/check_links.py"]),
     ("Article Footer", [PYTHON, "scripts/check_article_footer.py"]),
+    ("News Sitemap", [PYTHON, "scripts/check_news_sitemap.py"]),
+    ("Image Rights", [PYTHON, "scripts/check_image_rights.py"]),
+    ("Calendar", [PYTHON, "scripts/check_calendar.py"]),
 ]
 
 def load_knowledge_base():
@@ -178,6 +182,18 @@ def main():
                 print(footer_result.stderr, file=sys.stderr)
         else:
             print("  [Article Footer] passed")
+        for label, cmd in (
+            ("News Sitemap", [PYTHON, "scripts/check_news_sitemap.py", "--postbuild"]),
+            ("Schema", [PYTHON, "scripts/generate_schema.py"]),
+        ):
+            result = subprocess.run(cmd, capture_output=True, text=True)
+            if result.returncode:
+                pb_issues.append(f"[{label}] FAILED")
+                if result.stdout.strip():
+                    for line in result.stdout.strip().splitlines():
+                        print(f"  {line}")
+            else:
+                print(f"  [{label}] passed")
         try:
             mod = importlib.import_module("checks._check_relative_asset")
             result = mod.run()

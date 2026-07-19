@@ -12,7 +12,10 @@ keywords:
 date: 2026-07-16 07:30:00+00:00
 lastmod: 2026-07-19
 draft: false
-author: Moises Carrasco
+author: KoreaWiki Team
+author_id: koreawiki-team
+source_authors: ["Moises Carrasco"]
+verification_status: "Có nguồn dẫn công khai"
 tags:
 - KIẾN TRÚC
 - trúc

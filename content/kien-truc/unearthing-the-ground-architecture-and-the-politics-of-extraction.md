@@ -5,7 +5,10 @@ keywords: ["KIẾN TRÚC", "that", "sand", "from", "archdaily"]
 date: 2026-07-17T07:30:00+00:00
 lastmod: 2026-07-19
 draft: false
-author: "Diogo Borges Ferreira"
+author: "KoreaWiki Team"
+author_id: "koreawiki-team"
+source_authors: ["Diogo Borges Ferreira"]
+verification_status: "Có nguồn dẫn công khai"
 tags:
   - "KIẾN TRÚC"
   - "that"

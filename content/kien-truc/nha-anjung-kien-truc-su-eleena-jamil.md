@@ -6,6 +6,8 @@ date: 2026-06-29T07:00:00+00:00
 lastmod: 2026-07-17
 draft: false
 author: "KoreaWiki Team"
+author_id: "koreawiki-team"
+verification_status: "Có nguồn dẫn công khai"
 tags:
   - "KIẾN TRÚC"
   - "Eleena Jamil"

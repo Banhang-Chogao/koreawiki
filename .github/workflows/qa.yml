@@ -5,9 +5,12 @@ on:
     branches: [main]
   workflow_dispatch:
 
-env:
-  HUGO_VERSION: 0.126.0
-  PYTHON_VERSION: "3.12"
+permissions:
+  contents: read
+
+concurrency:
+  group: koreawiki-qa-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   qa:
@@ -16,33 +19,23 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
-      - name: Setup Hugo Extended
-        uses: peaceiris/actions-hugo@v3
+      - uses: actions/setup-python@v5
         with:
-          hugo-version: ${{ env.HUGO_VERSION }}
+          python-version: "3.12"
+      - uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.163.1"
           extended: true
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-node@v4
         with:
-          python-version: ${{ env.PYTHON_VERSION }}
-
+          node-version: "20"
       - name: Install dependencies
-        run: pip install pyyaml
-
-      - name: Run all checks
+        run: pip install pyyaml pillow scikit-learn
+      - name: Validate source content
+        run: python3 scripts/pre_deploy.py
+      - name: Build and validate generated output
         run: |
-          python scripts/qa.py
-          python scripts/seo.py
-          python scripts/frontmatter_check.py
-          python scripts/markdown_lint.py
-          python scripts/check_links.py
-          python scripts/slug.py --check
-          python scripts/optimize_images.py
-
-      - name: Build Hugo site
-        run: hugo --minify --gc
-
-      - name: Validate schema
-        run: python scripts/generate_schema.py
+          hugo --minify --gc --environment production
+          npx -y pagefind --site public --output-subdir pagefind
+          python3 scripts/pre_deploy.py --postbuild
+          python3 scripts/check_build_seo.py

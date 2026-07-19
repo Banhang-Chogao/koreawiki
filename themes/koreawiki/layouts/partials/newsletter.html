@@ -1,0 +1,23 @@
+{{- if .Site.Params.newsletter.enabled -}}
+{{- $provider := .Site.Params.newsletter.providerURL | default "" -}}
+<section class="newsletter-section" data-pagefind-ignore>
+  <div class="newsletter-inner">
+    <h3 class="newsletter-title">Đăng ký nhận tin</h3>
+    <p class="newsletter-desc">Nhận thông báo về bài viết mới, sự kiện K-Pop và tin tức giải trí Hàn Quốc.</p>
+    {{- if $provider -}}
+    <form class="newsletter-form" action="{{ $provider | safeURL }}" method="{{ .Site.Params.newsletter.method | default "post" }}">
+      <div class="newsletter-input-group">
+        <input type="email" name="{{ .Site.Params.newsletter.emailField | default "email" }}" class="newsletter-input" placeholder="Nhập email của bạn" required aria-label="Email">
+        <button type="submit" class="newsletter-btn">Đăng ký</button>
+      </div>
+      <p class="newsletter-note">Chúng tôi không gửi spam. Bạn có thể hủy đăng ký bất kỳ lúc nào.</p>
+    </form>
+    {{- else -}}
+    <div class="newsletter-form" role="status">
+      <p class="newsletter-note">Đăng ký email chưa được bật; KoreaWiki không thu thập địa chỉ email ở thời điểm này.</p>
+      <a class="newsletter-btn" href="{{ "contact/" | relLangURL }}">Liên hệ ban biên tập</a>
+    </div>
+    {{- end -}}
+  </div>
+</section>
+{{- end -}}

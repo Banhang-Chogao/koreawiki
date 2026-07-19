@@ -1,0 +1,29 @@
+name: Monthly Data Report
+
+on:
+  schedule:
+    - cron: '0 2 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: koreawiki-monthly-data
+  cancel-in-progress: false
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pyyaml
+      - run: python3 scripts/check_calendar.py
+      - run: python3 scripts/monthly_data_report.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: monthly-data-report-${{ github.run_id }}
+          path: reports/seo/monthly-data-*.md

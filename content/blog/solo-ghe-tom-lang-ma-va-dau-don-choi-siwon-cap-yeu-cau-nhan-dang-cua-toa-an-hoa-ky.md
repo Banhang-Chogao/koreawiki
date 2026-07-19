@@ -11,6 +11,8 @@ date: 2026-07-07T00:06:42+07:00
 lastmod: 2026-07-18
 draft: false
 author: "KoreaWiki Team"
+author_id: "koreawiki-team"
+verification_status: "Có nguồn dẫn công khai"
 tags:
   - Blog
   - Choi Siwon

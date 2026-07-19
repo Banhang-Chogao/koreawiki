@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode | default "en" }}" data-theme="auto" data-base="{{ "" | relURL }}">
+<html lang="{{ .Site.Language.Locale | default "vi" }}" data-theme="auto" data-base="{{ "" | relURL }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +18,7 @@
   <a href="#main-content" class="skip-link">{{ T "skip_to_content" | default "Skip to content" }}</a>
   {{ partial "header" . }}
   {{ block "breadcrumb" . }}
-    {{ if and .Params.breadcrumbs (ne .Params.breadcrumbs false) | default .Site.Params.breadcrumbs | default true }}
+    {{ if ne .Params.breadcrumbs false }}
       {{ partial "breadcrumb" . }}
     {{ end }}
   {{ end }}

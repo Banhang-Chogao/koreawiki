@@ -1,0 +1,87 @@
+{
+  "venues": [
+    {
+      "id": "olympic-gymnastics",
+      "name": "KSPO Dome (Olympic Gymnastics Arena)",
+      "address": "424 Olympic-ro, Songpa-gu, Seoul",
+      "lat": 37.5184,
+      "lng": 127.1296,
+      "type": "concert",
+      "description": "Không gian biểu diễn trong Olympic Park, có tổ chức concert và sự kiện văn hóa.",
+      "source": {
+        "name": "KSPO — hướng dẫn KSPO DOME",
+        "url": "https://www.ksponco.or.kr/menu.es?mid=a20301030800"
+      }
+    },
+    {
+      "id": "gocheok-sky-dome",
+      "name": "Gocheok Sky Dome",
+      "address": "430 Gyeongin-ro, Guro-gu, Seoul",
+      "lat": 37.4986,
+      "lng": 126.8670,
+      "type": "concert",
+      "description": "Sân vận động mái vòm đa năng tại Guro-gu, Seoul.",
+      "source": {
+        "name": "Seoul Facilities Corporation — Gocheok Sky Dome",
+        "url": "https://www.sisul.or.kr/open_content/skydome/introduce/location_transportation.jsp"
+      }
+    },
+    {
+      "id": "inspire-arena",
+      "name": "Inspire Arena",
+      "address": "127 Gonghangmunhwa-ro, Jung-gu, Incheon",
+      "lat": 37.4469,
+      "lng": 126.6342,
+      "type": "concert",
+      "description": "Arena đa năng tại Incheon, được nguồn địa phương giới thiệu có sức chứa 15.000 người.",
+      "source": {
+        "name": "Incheon Metropolitan City — INSPIRE Arena",
+        "url": "https://www.incheon.go.kr/culture/CU020901/view?fcltySn=68&srchAceptncNmpr=&srchFcltyCl="
+      }
+    }
+  ],
+  "filming_locations": [
+    {
+      "id": "nami-island",
+      "name": "Đảo Nami (Namiseom)",
+      "address": "1 Namiseom-gil, Namsan-myeon, Chuncheon, Gangwon",
+      "lat": 37.7926,
+      "lng": 127.5243,
+      "type": "drama",
+      "description": "Địa điểm được tài liệu du lịch Hàn Quốc nhắc đến cùng phim Winter Sonata.",
+      "source": {
+        "name": "Korea.net — K-Drama and filming locations",
+        "url": "https://www.korea.net/koreanet/fileDownload?fileUrl=%2Fcontent%2Fpdf%2Fgeneral%2FK-Drama_20111212.pdf"
+      }
+    },
+    {
+      "id": "petite-france",
+      "name": "Petite France",
+      "address": "1063 Hoban-ro, Cheongpyeong-myeon, Gapyeong, Gyeonggi",
+      "lat": 37.7087,
+      "lng": 127.4156,
+      "type": "drama",
+      "description": "Làng văn hóa theo chủ đề Pháp tại Gapyeong, được Korea Tourism Organization nhắc đến trong bài về địa điểm phim truyền hình.",
+      "source": {
+        "name": "Korea Tourism Organization — địa điểm phim truyền hình",
+        "url": "https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=8cdb1ee5-ed0e-41e6-8d17-d7b27ecd4514"
+      }
+    }
+  ],
+  "architecture": [
+    {
+      "id": "dongdaemun-plaza",
+      "name": "Dongdaemun Design Plaza (DDP)",
+      "address": "281 Eulji-ro, Jung-gu, Seoul",
+      "lat": 37.5668,
+      "lng": 127.0094,
+      "type": "architecture",
+      "architect": "Zaha Hadid",
+      "description": "Trung tâm thiết kế và văn hóa tại Seoul, do Zaha Hadid thiết kế.",
+      "source": {
+        "name": "Seoul Metropolitan Government — Dongdaemun Design Plaza",
+        "url": "https://english.seoul.go.kr/seoul-policy-archive/dongdaemun-design-plaza/"
+      }
+    }
+  ]
+}

@@ -4,3 +4,6 @@
 {{ with .OutputFormats.Get "JSON" }}
 <link rel="alternate" type="application/json" title="{{ $.Site.Title }}" href="{{ .RelPermalink }}">
 {{ end }}
+{{ with .OutputFormats.Get "NewsSitemap" }}
+<link rel="alternate" type="application/xml" title="{{ $.Site.Title }} — News Sitemap" href="{{ .RelPermalink }}">
+{{ end }}

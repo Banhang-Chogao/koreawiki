@@ -13,6 +13,9 @@ date: 2026-07-18 03:40:00+07:00
 lastmod: 2026-07-18
 draft: false
 author: KoreaWiki Team
+author_id: koreawiki-team
+verification_status: "Có nguồn dẫn công khai"
+entities: ["so-ji-sub"]
 tags:
 - Đặc vụ Kim tái khởi động
 - So Ji-sub
@@ -40,7 +43,9 @@ cover:
   alt: "So Ji-sub trong phim Đặc vụ Kim tái khởi động"
   caption: "Ảnh: VOV"
 image_credits:
-  - platform: VOV
+  - holder: "VOV"
+    license: "Chưa xác minh quyền tái sử dụng"
+    source_url: "https://vov.vn/van-hoa/dac-vu-kim-tai-khoi-dong-vuon-so-1-netflix-toan-cau-sau-chua-day-2-tuan-post1313459.vov"
 internal_links:
 - title: Jo In-sung kể về những cảnh hành động trong Hope
   url: /blog/jo-in-sung-ke-ve-nhung-canh-hanh-dong-trong-hope-chuan-bi-tinh-than-quay-100-lan/

@@ -26,17 +26,23 @@ def slugify(text):
     text = re.sub(r'-+', '-', text)
     return text.strip('-')
 
-def normalize(fp):
+def normalize(fp, write=True):
     c = fp.read_text("utf-8")
     match = re.match(r"\A---\s*\n(.*?)\n---\s*\n?(.*)\Z", c, re.DOTALL)
     if not match: return False
     try: meta = yaml.safe_load(match.group(1))
     except: return False
     if not meta: return False
+    # Entity IDs are public, stable identifiers and must not be rewritten from a
+    # translated display title.
+    entity = meta.get("entity") or {}
+    if entity.get("id") and meta.get("slug") == entity["id"]:
+        return False
     expected = slugify(meta.get("title",""))
     if meta.get("slug","") == expected: return False
-    meta["slug"] = expected
-    fp.write_text(f"{SEP}\n{yaml.dump(meta, default_flow_style=False, allow_unicode=True, sort_keys=False)}{SEP}\n{match.group(2).lstrip()}", "utf-8")
+    if write:
+        meta["slug"] = expected
+        fp.write_text(f"{SEP}\n{yaml.dump(meta, default_flow_style=False, allow_unicode=True, sort_keys=False)}{SEP}\n{match.group(2).lstrip()}", "utf-8")
     return True
 
 def main():
@@ -44,7 +50,7 @@ def main():
     changed = []
     for fp in CONTENT.rglob("*.md"):
         if fp.name == "_index.md": continue
-        if normalize(fp): changed.append(fp.relative_to(CONTENT))
+        if normalize(fp, write=not check): changed.append(fp.relative_to(CONTENT))
     if changed:
         if check:
             print(f"Slugs need updating for {len(changed)} files:"); [print(f"  - {c}") for c in changed]

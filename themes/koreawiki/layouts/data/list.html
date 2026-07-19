@@ -1,0 +1,16 @@
+{{ define "main" }}
+<section class="section" data-pagefind-body>
+  <div class="wrapper">
+    <header class="section-header"><h1 class="section-title">{{ .Title }}</h1><p class="section-description">{{ .Description }}</p></header>
+    <div class="section-intro article-body">{{ .Content }}</div>
+    {{ $events := slice }}{{ range (readDir "data/calendar") }}{{ if hasSuffix .Name ".json" }}{{ $events = $events | append ((index (unmarshal (readFile (printf "data/calendar/%s" .Name))) "events") | default (slice)) }}{{ end }}{{ end }}
+    {{ $places := add (len hugo.Data.locations.venues) (add (len hugo.Data.locations.filming_locations) (len hugo.Data.locations.architecture)) }}
+    <dl class="data-summary">
+      <div><dt>Lịch sự kiện có cấu trúc</dt><dd>{{ len $events }}</dd></div>
+      <div><dt>Địa điểm có nguồn</dt><dd>{{ $places }}</dd></div>
+      <div><dt>Hồ sơ thực thể</dt><dd>{{ len hugo.Data.entities.registry }}</dd></div>
+    </dl>
+    <p><a href="{{ "calendar/" | relLangURL }}">Xem lịch sự kiện</a> · <a href="{{ "locations/" | relLangURL }}">Xem bản đồ địa điểm</a> · <a href="{{ "entities/" | relLangURL }}">Xem thực thể</a></p>
+  </div>
+</section>
+{{ end }}
