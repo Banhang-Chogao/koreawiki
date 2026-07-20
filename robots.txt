@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /search/
+Disallow: /*?s=
+Disallow: /*?q=
+Disallow: /tags/
+Disallow: */page/
+
+Sitemap: https://banhang-chogao.github.io/koreawiki/sitemap.xml
+Sitemap: https://banhang-chogao.github.io/koreawiki/news.xml
