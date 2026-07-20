@@ -30,7 +30,7 @@ sources:
     url: "https://people.search.naver.com/search.naver?sm=tab_txc&where=people_profile&ie=utf8&query=%EC%A1%B0%EC%9D%B8%EC%84%B1&os=158722"
 ---
 
-{{< figure src="/images/entities/jo-in-sung.webp" alt="Jo In-sung năm 2021" caption="Jo In-sung (조인성) — nam diễn viên hàng đầu Hàn Quốc với hơn hai thập kỷ hoạt động" >}}
+{{< figure src="images/entities/jo-in-sung.webp" alt="Jo In-sung năm 2021" caption="Jo In-sung (조인성) — nam diễn viên hàng đầu Hàn Quốc với hơn hai thập kỷ hoạt động" >}}
 
 Jo In-sung (sinh ngày 28 tháng 7 năm 1981), còn được viết là Zo In-sung hay Cho In-song, là nam diễn viên điện ảnh và truyền hình Hàn Quốc. Anh được biết đến rộng rãi qua hàng loạt tác phẩm ăn khách
 như *Something Happened in Bali* (2004), *That Winter, the Wind Blows* (2013), *It's Okay, That's Love* (2014) và *Moving* (2023). Trên màn ảnh rộng, anh ghi dấu ấn qua *The Classic* (2003), *A Dirty
