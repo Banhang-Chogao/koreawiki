@@ -59,65 +59,73 @@ patterns:
     check_after: links
     fix: Update or remove the broken link
   image:
-    seen_in_history: 80
+    seen_in_history: 82
     severity: warning
   accessibility:
-    seen_in_history: 72
+    seen_in_history: 74
     severity: warning
   seo:
-    seen_in_history: 68
+    seen_in_history: 70
     severity: warning
   theme:
-    seen_in_history: 55
+    seen_in_history: 56
     severity: warning
   date:
-    seen_in_history: 58
+    seen_in_history: 60
     severity: warning
   link:
-    seen_in_history: 50
+    seen_in_history: 51
     severity: warning
   tag:
-    seen_in_history: 47
+    seen_in_history: 49
     severity: warning
   slug:
-    seen_in_history: 45
+    seen_in_history: 47
     severity: warning
   lang:
-    seen_in_history: 39
+    seen_in_history: 40
     severity: warning
   draft:
-    seen_in_history: 33
+    seen_in_history: 35
     severity: warning
   faq:
-    seen_in_history: 24
-    severity: warning
-  relurl:
-    seen_in_history: 18
-    severity: warning
-  performance:
-    seen_in_history: 16
-    severity: warning
-  search:
     seen_in_history: 25
     severity: warning
+  relurl:
+    seen_in_history: 19
+    severity: warning
+  performance:
+    seen_in_history: 17
+    severity: warning
+  search:
+    seen_in_history: 27
+    severity: warning
   category:
-    seen_in_history: 20
+    seen_in_history: 21
     severity: warning
   source_url:
-    seen_in_history: 17
+    seen_in_history: 18
     severity: warning
   compress:
     seen_in_history: 13
     severity: warning
   schema:
-    seen_in_history: 10
+    seen_in_history: 12
     severity: warning
   _meta:
-    last_learned: '2026-07-19'
-    total_commits_analyzed: 690
+    last_learned: '2026-07-20'
+    total_commits_analyzed: 716
 seo:
   missing_alt_text:
     description: Image missing alt text
     severity: warning
     check_after: seo
     fix: Add alt attribute to all img tags
+figure_src_absolute:
+  description: '{{< figure src="/path" >}} uses leading slash — Hugo relURL skips base path, resulting in broken image on GitHub Pages. Use src="path" (no leading slash).'
+  severity: error
+  check_after: markdown
+  regex_template: \{\{<\s*figure\s+src="/[^"]*"
+  fix: Remove the leading / from the src attribute so relURL prepends /koreawiki/ correctly
+  examples:
+  - '{{< figure src="/images/foo.webp" ... >}} → {{< figure src="images/foo.webp" ... >}}'

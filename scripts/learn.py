@@ -91,7 +91,7 @@ PATTERN_SEVERITY = {
 }
 
 PATTERN_DESCRIPTION = {
-    "missing_relurl": "Image src/href missing | relURL filter in Hugo templates",
+    "missing_relurl": "Image src with leading slash in figure shortcode or missing relURL in template — Hugo relURL skips base path, broken on GH Pages",
     "date_format": "English date format used instead of Vietnamese human-readable",
     "slug_mismatch": "URL slug does not match slugified title",
     "broken_link": "Broken internal or external links",
@@ -108,7 +108,7 @@ PATTERN_DESCRIPTION = {
 }
 
 PATTERN_FIX = {
-    "missing_relurl": "Add | relURL after the image param reference",
+    "missing_relurl": "Remove leading / from figure src or add | relURL in template",
     "date_format": 'Use format "ngày 2 tháng 1 năm 2006 | 15 giờ 4 phút"',
     "slug_mismatch": "Auto-fixable via scripts/slug.py",
     "broken_link": "Update or remove the broken link",
@@ -263,6 +263,11 @@ def generate_check_from_pattern(keyword_name, count, msg_sample):
             "target": "templates",
             "pattern": r'\.Format\s+"(?:Jan |02/01)',
             "desc": "English date format in template",
+        },
+        "relurl": {
+            "target": "content",
+            "pattern": r'\{\{<\s*figure\s+src="/[^"]*"',
+            "desc": "Figure src with leading slash — Hugo relURL skips base path",
         },
     }
 
