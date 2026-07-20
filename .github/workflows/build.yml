@@ -85,7 +85,7 @@ jobs:
         with:
           hugo-version: ${{ env.HUGO_VERSION }}
           extended: true
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: "20"
       - uses: actions/setup-python@v6
@@ -102,7 +102,7 @@ jobs:
           python3 scripts/pre_deploy.py --postbuild
           python3 scripts/check_build_seo.py
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: public
 
@@ -114,6 +114,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

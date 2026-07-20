@@ -1,11 +1,15 @@
 """Check: GitHub Actions pinned to Node 20 versions (deprecated on Node 24 runners)."""
-import re
 from pathlib import Path
 
 WORKFLOWS = Path(".github/workflows")
+# Map of deprecated pattern → upgrade message
 PATTERNS = {
     "actions/checkout@v4": "→ upgrade to actions/checkout@v5 (Node 24)",
     "actions/setup-python@v5": "→ upgrade to actions/setup-python@v6 (Node 24)",
+    "actions/setup-node@v4": "→ upgrade to actions/setup-node@v5 (Node 24)",
+    "actions/configure-pages@v5": "→ upgrade to actions/configure-pages@v6 (Node 24)",
+    "actions/deploy-pages@v4": "→ upgrade to actions/deploy-pages@v5 (Node 24)",
+    "actions/upload-pages-artifact@v3": "→ upgrade to actions/upload-pages-artifact@v5 (Node 24)",
 }
 
 def run():
