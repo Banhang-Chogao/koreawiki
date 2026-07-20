@@ -129,3 +129,11 @@ figure_src_absolute:
   fix: Remove the leading / from the src attribute so relURL prepends /koreawiki/ correctly
   examples:
   - '{{< figure src="/images/foo.webp" ... >}} → {{< figure src="images/foo.webp" ... >}}'
+github_actions_deprecated_node:
+  description: GitHub Action version pinned to Node 20 version (checkout@v4, setup-python@v5) — deprecated on Ubuntu 24 runners, forced to run on Node 24.
+  severity: warning
+  check_after: postbuild
+  regex_template: actions/(checkout)@v4|actions/(setup-python)@v5
+  fix: Update to @v5 for checkout and @v6 for setup-python
+  examples:
+  - 'actions/checkout@v4 → actions/checkout@v5'
