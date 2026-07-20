@@ -76,6 +76,27 @@ static/        → Static assets (images, fonts, favicon)
 - `scripts/pre_deploy.py` là gatekeeper cuối cùng — không bypass
 - Luôn check `Hệ thống máy học đã học` message — nếu 0 patterns thì chạy lại `python3 scripts/learn.py`
 
+## Mandatory Learning After Every Fix
+
+After fixing any bug or issue (including image paths, broken links, linter errors, SEO, slug, date, draft state, layout), you MUST:
+
+1. **Register the pattern** — update `scripts/knowledge_base.yaml` with a new entry containing:
+   - `description` explaining the mistake
+   - `severity: error` (blocking) or `warning` (advisory)
+   - `check_after` phase (e.g. `markdown`, `template`, `frontmatter`, `postbuild`)
+   - `fix` instruction
+   - `regex_template` if applicable
+   - `examples` showing before → after
+2. **Add to ML engine** — if the pattern isn't already in `scripts/learn.py`:
+   - Add a keyword mapping to `KEYWORD_TO_PATTERN` if a new keyword is needed
+   - Add an entry to `content_checks` dict in `generate_check_from_pattern()` (for content patterns) or the corresponding target
+   - Update `PATTERN_DESCRIPTION`, `PATTERN_SEVERITY`, `PATTERN_FIX` if adding a new pattern name
+3. **Create or verify the check** — create `scripts/learned_checks/check_<name>.py` (force-add with `git add -f` since dir is gitignored) that scans for the pattern
+4. **Verify** — run `python3 scripts/pre_deploy.py` and confirm the new check runs (look for it in Phase 3 output)
+5. **Commit everything together** — fix + learning artifacts in one commit
+
+This ensures every fix is permanently captured and the same mistake is caught by `pre_deploy.py` going forward.
+
 ## Rules
 
 - System fonts only — no `@font-face`, no Google Fonts
